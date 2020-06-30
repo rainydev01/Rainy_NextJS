@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../components/Header';
+import Banner from '../components/Banner';
 
 export default function Home() {
 	return (
@@ -18,6 +19,8 @@ export default function Home() {
 			<main>
 				<div className="App">
 					<Header />
+					<Banner />
+					{/* <WhatWeDo /> */}
 				</div>
 			</main>
 
