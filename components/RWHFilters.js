@@ -12,7 +12,7 @@ const RWHFilters = () => {
 						<div className="col-md-4">
 							<div className="mdrntech threecntr">
 								<h3>
-									Modern Technology<img src="logo/Group 1154.png" />
+									Modern Technology<img src="../static/images/Group1154.png" />
 								</h3>
 								<p>
 									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy

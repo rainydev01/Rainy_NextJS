@@ -6,7 +6,7 @@ const AboutUs = () => {
 			<div
 				className="container-fluid"
 				style={{
-					backgroundImage: 'url(images/Drop.png)',
+					backgroundImage: 'url(../static/images/Drop.png)',
 					backgroundRepeat: 'no-repeat',
 					backgroundSize: 'contain',
 					backgroundPosition: 'inherit'
@@ -15,7 +15,7 @@ const AboutUs = () => {
 				<div
 					className="container"
 					style={{
-						backgroundImage: 'url(images/Drop2.png)',
+						backgroundImage: 'url(../static/images/Drop2.png)',
 						backgroundPosition: 'top left',
 						backgroundRepeat: 'no-repeat',
 						backgroundSize: 'inherit'
