@@ -12,7 +12,7 @@ const RWHFilters = () => {
 						<div className="col-md-4">
 							<div className="mdrntech threecntr">
 								<h3>
-									Modern Technology<img src="../static/images/Group1154.png" />
+									Modern Technology<img src="../static/images/homepage/propertiesRWH/modernTech.png" />
 								</h3>
 								<p>
 									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
@@ -21,30 +21,31 @@ const RWHFilters = () => {
 							</div>
 							<div className="intfltrs threecntr">
 								<h3>
-									Modern Technology<img src="logo/Path 180.png" />
+									Dual Intensity Filters<img src="../static/images/homepage/propertiesRWH/dualIntensityFilter.png" />
 								</h3>
 								<p>
 									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.{' '}
+									text. Lorum ipsum is a dummy text.
 								</p>
 							</div>
 							<div className="extrnlenrgy threecntr">
 								<h3>
-									Modern Technology<img src="logo/Group 1155.png" />
+									No External Energy Required<img src="../static/images/homepage/propertiesRWH/noEnergy.png" />
 								</h3>
 								<p>
 									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.{' '}
+									text. Lorum ipsum is a dummy text.
 								</p>
 							</div>
 						</div>
 						<div className="col-md-4 cntrimg">
-							<img src="images/Group 1188.png" />
+							<img src="../static/images/homepage/rwhf.png" />
 						</div>
 						<div className="col-md-4">
 							<div className="easyinsta threecntr">
 								<h3>
-									<img src="logo/Group 1156.png" />Easy Installation
+									<img src="../static/images/homepage/propertiesRWH/easyInstallation.png" />Easy
+									Installation
 								</h3>
 								<p>
 									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
@@ -53,7 +54,7 @@ const RWHFilters = () => {
 							</div>
 							<div className="wderng threecntr">
 								<h3>
-									<img src="logo/Group 1157.png" />Wide Range
+									<img src="../static/images/homepage/propertiesRWH/wideRange.png" />Wide Range
 								</h3>
 								<p>
 									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
@@ -62,7 +63,8 @@ const RWHFilters = () => {
 							</div>
 							<div className="cstefftve threecntr">
 								<h3>
-									<img src="logo/1361384-200.png" />Cost Effective & Affordable
+									<img src="../static/images/homepage/propertiesRWH/costEffective.png" />Cost
+									Effective & Affordable
 								</h3>
 								<p>
 									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy

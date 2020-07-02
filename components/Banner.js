@@ -5,7 +5,7 @@ const Banner = () => {
 		<Fragment>
 			<div className="container-fluid banner">
 				<div className="hero-image">
-					<img src="../static/images/HomePageBanner.png" alt="Banner" />
+					<img src="../static/images/homepage/HomePageBanner.png" alt="Banner" />
 					<div className="hero-text">
 						<h1>SED DIAM MONUMY</h1>
 						<p>Lorum ipsum color sit amet</p>

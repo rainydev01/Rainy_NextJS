@@ -14,7 +14,7 @@ const WhatWeDo = () => {
 					<div className="">
 						<div className="col-md-4">
 							<div style={{ textAlign: 'right' }}>
-								<img alt="logo" src="../static/images/MaskGroup17.png" />
+								<img alt="logo" src="../static/images/homepage/whatWeDo1.png" />
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -29,7 +29,7 @@ const WhatWeDo = () => {
 						</div>
 						<div className="col-md-4" style={{ marginLeft: '-20px' }}>
 							<div>
-								<img alt="iamegs" src="../static/images/MaskGroup18.png" />
+								<img alt="iamegs" src="../static/images/homepage/whatWeDo2.png" />
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -44,7 +44,7 @@ const WhatWeDo = () => {
 						</div>
 						<div className="col-md-4">
 							<div>
-								<img src="../static/images/MaskGroup19.png" />
+								<img src="../static/images/homepage/whatWeDo3.png" />
 							</div>
 						</div>
 						<div className="col-md-4" style={{ marginLeft: '-20px' }}>
