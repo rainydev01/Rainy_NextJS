@@ -3,6 +3,12 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
+import WhatWeDo from '../components/WhatWeDo';
+import Footer from '../components/Footer';
+import AboutUs from '../components/AboutUs';
+import RWHFilters from '../components/RWHFilters';
+import FilterToSelect from '../components/FilterToSelect';
+import GroundWaterRecharging from '../components/GroundWaterRecharging';
 
 export default function Home() {
 	return (
@@ -20,7 +26,12 @@ export default function Home() {
 				<div className="App">
 					<Header />
 					<Banner />
-					{/* <WhatWeDo /> */}
+					<WhatWeDo />
+					<AboutUs />
+					<RWHFilters />
+					<FilterToSelect />
+					<GroundWaterRecharging />
+					<Footer />
 				</div>
 			</main>
 
