@@ -9,6 +9,7 @@ import AboutUs from '../components/AboutUs';
 import RWHFilters from '../components/RWHFilters';
 import FilterToSelect from '../components/FilterToSelect';
 import GroundWaterRecharging from '../components/GroundWaterRecharging';
+import OurClients from '../components/OurClients';
 
 export default function Home() {
 	return (
@@ -38,6 +39,7 @@ export default function Home() {
 					<RWHFilters />
 					<FilterToSelect />
 					<GroundWaterRecharging />
+					<OurClients />
 					<Footer />
 				</div>
 			</main>

@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Link from 'next/link';
 
 const Header = () => {
 	return (
@@ -13,26 +14,26 @@ const Header = () => {
 
 				<div className="container">
 					<header className="header">
-						<a className="navbar-brand" href="home.html" style={{ padding: '0px' }}>
+						<a className="navbar-brand" href="/" style={{ padding: '0px' }}>
 							<img src="../static/images/logo/logo.png" />
 						</a>
 						<nav>
 							<ul>
 								<li>
-									<a href="home.html">Home</a>
+									<Link href="/">Home</Link>
 								</li>
 								<li>
-									<a href="#" className="dropdown-toggle" data-toggle="dropdown">
+									<a href="/about-us/our-journey" className="dropdown-toggle" data-toggle="dropdown">
 										About Us
 									</a>
 									<div className="dropdown-menu dropdown-menu-tip-nw">
-										<a href="our-journey.html" className="dropdown-item">
+										<a href="/about-us/our-journey" className="dropdown-item">
 											Our Journey
 										</a>
-										<a href="in-the-media.html" className="dropdown-item">
+										<a href="/about-us/in-the-media" className="dropdown-item">
 											In The Media
 										</a>
-										<a href="our-team.html" className="dropdown-item">
+										<a href="/about-us/our-team" className="dropdown-item">
 											Our Team
 										</a>
 									</div>
