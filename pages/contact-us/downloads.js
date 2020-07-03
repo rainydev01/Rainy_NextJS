@@ -1,14 +1,8 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import Header from '../components/Header';
-import Banner from '../components/Banner';
-import WhatWeDo from '../components/WhatWeDo';
-import Footer from '../components/Footer';
-import AboutUs from '../components/AboutUs';
-import RWHFilters from '../components/RWHFilters';
-import FilterToSelect from '../components/FilterToSelect';
-import GroundWaterRecharging from '../components/GroundWaterRecharging';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default function Home() {
 	return (
