@@ -9,7 +9,7 @@ const WhatWeDo = () => {
 				</div>
 			</div>
 
-			<div className="container-fluid groundwater_bg">
+			<div className="container-fluid groundwater_bg_home">
 				<div className="container">
 					<div className="">
 						<div className="col-md-4">
