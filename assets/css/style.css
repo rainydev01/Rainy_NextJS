@@ -1677,3 +1677,568 @@ h5.mb0diff a {
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
 }
+
+/* Rainy Filters */
+
+.rnyfltrs {
+	color: #fff;
+	top: 40%;
+	left: 50%;
+}
+
+.techpointslst ul li {
+	text-align: justify;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #000;
+}
+
+.techacrsec .techpointslst ul li {
+	color: #000;
+	font-weight: 500;
+}
+
+button#rnenq {
+	border: 1px solid#2c97d4;
+	background: #2c97d4;
+	padding: 3px 30px;
+	color: #fff;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+button#rnrdmr {
+	border: 1px solid#fff500;
+	background: #fff500;
+	padding: 3px 30px;
+	color: #000;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+.rainyfilterimg img {
+	width: 380px;
+	max-width: 100%;
+}
+
+h1.fl80 {
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	font-size: 35px;
+	background: #2c97d4;
+	width: 27%;
+	margin: 45px auto;
+	padding: 10px 0px;
+	border-radius: 40px;
+}
+
+.fl100 {
+	background: #dff7f7;
+	padding-bottom: 45px;
+}
+.techpointslst ul li:before {
+	content: '';
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-image: url(../../static/images/Drop.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 0.5em;
+}
+
+/* Ground water Recharging */
+
+.rnyfltrs {
+	color: #fff;
+	top: 40%;
+	left: 50%;
+}
+
+.techpointslst ul li {
+	text-align: justify;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #000;
+}
+
+.techacrsec .techpointslst ul li {
+	color: #000;
+	font-weight: 500;
+}
+
+button#rnenq {
+	border: 1px solid#2c97d4;
+	background: #2c97d4;
+	padding: 3px 30px;
+	color: #fff;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+button#rnrdmr {
+	border: 1px solid#fff500;
+	background: #fff500;
+	padding: 3px 30px;
+	color: #000;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+.rainyfilterimg img {
+	width: 380px;
+	max-width: 100%;
+}
+
+h1.fl80 {
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	font-size: 35px;
+	background: #2c97d4;
+	width: 27%;
+	margin: 45px auto;
+	padding: 10px 0px;
+	border-radius: 40px;
+}
+
+.fl100 {
+	background: #dff7f7;
+	padding-bottom: 45px;
+}
+
+.wthothding {
+	padding: 60px 0px;
+}
+.techpointslst ul li:before {
+	content: '';
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-image: url(../../static/images/Drop.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 0.5em;
+}
+
+/* Systems and Solutions */
+
+.rnyfltrs {
+	color: #fff;
+	top: 40%;
+	left: 50%;
+}
+
+.techpointslst ul li {
+	text-align: justify;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #000;
+}
+
+.techacrsec .techpointslst ul li {
+	color: #000;
+	font-weight: 500;
+}
+
+button#rnenq {
+	border: 1px solid#2c97d4;
+	background: #2c97d4;
+	padding: 3px 30px;
+	color: #fff;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+button#rnrdmr {
+	border: 1px solid#fff500;
+	background: #fff500;
+	padding: 3px 30px;
+	color: #000;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+.rainyfilterimg img {
+	width: 380px;
+	max-width: 100%;
+}
+
+h1.fl80 {
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	font-size: 35px;
+	background: #2c97d4;
+	width: 27%;
+	margin: 45px auto;
+	padding: 10px 0px;
+	border-radius: 40px;
+}
+
+.fl100 {
+	background: #dff7f7;
+	padding-bottom: 45px;
+}
+
+.wthothding {
+	padding: 60px 0px;
+}
+
+.rainyss img {
+	width: 300px;
+	max-width: 100%;
+}
+.senq button {
+	float: right;
+}
+.rainyss {
+	float: right;
+	margin-right: 15%;
+}
+.techpointslst ul li:before {
+	content: '';
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-image: url(../../static/images/Drop.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 0.5em;
+}
+
+/* Gallery */
+.rnyfltrs {
+	color: #fff;
+	top: 40%;
+	left: 50%;
+}
+.techpointslst ul li {
+	text-align: justify;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #000;
+}
+
+.techacrsec .techpointslst ul li {
+	color: #000;
+	font-weight: 500;
+}
+
+button#rnenq {
+	border: 1px solid#2c97d4;
+	background: #2c97d4;
+	padding: 3px 30px;
+	color: #fff;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+button#rnrdmr {
+	border: 1px solid#fff500;
+	background: #fff500;
+	padding: 3px 30px;
+	color: #000;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+
+.rainyfilterimg img {
+	width: 380px;
+	max-width: 100%;
+}
+
+h1.fl80 {
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	font-size: 35px;
+	background: #2c97d4;
+	width: 27%;
+	margin: 45px auto;
+	padding: 10px 0px;
+	border-radius: 40px;
+}
+
+.fl100 {
+	background: #dff7f7;
+	padding-bottom: 45px;
+}
+
+.wthothding {
+	padding: 60px 0px;
+}
+
+.rainyss img {
+	width: 300px;
+	max-width: 100%;
+}
+.senq button {
+	float: right;
+}
+.rainyss {
+	float: right;
+	margin-right: 15%;
+}
+
+.gallery-title {
+	font-size: 36px;
+	color: #42b32f;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 70px;
+}
+.gallery-title:after {
+	content: "";
+	position: absolute;
+	width: 7.5%;
+	left: 46.5%;
+	height: 45px;
+	border-bottom: 1px solid #5e5e5e;
+}
+.filter-button {
+	font-size: 18px;
+	border: 1px solid #42b32f;
+	border-radius: 5px;
+	text-align: center;
+	color: #42b32f;
+	margin-bottom: 30px;
+}
+.filter-button:hover {
+	font-size: 18px;
+	border: 1px solid #42b32f;
+	border-radius: 5px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #42b32f;
+}
+.btn-default:active .filter-button:active {
+	background-color: #42b32f;
+	color: white;
+}
+
+.port-image {
+	width: 100%;
+}
+
+.gallery_product {
+	margin-bottom: 30px;
+}
+.techpointslst ul li:before {
+	content: '';
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-image: url(../../static/images/Drop.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 0.5em;
+}
+
+/* Get In Touch */
+
+.inthemedia {
+	color: #fff;
+	top: 40%;
+	left: 50%;
+}
+
+.gtintchmain {
+	background: #f0f9fd;
+	padding: 75px 0px;
+}
+
+h6.contacth {
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	color: #fff500;
+	font-weight: 600;
+}
+
+h6.contacth img {
+	width: 25px;
+	margin-right: 5px;
+}
+
+.gtintchlft {
+	background: #0292d3;
+	padding: 30px 40px;
+	color: #fff;
+	border-radius: 30px;
+}
+
+.fominpt input {
+	width: 100%;
+	background: #fff;
+	border: none;
+	margin: 10px 0px;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.frmmsg input {
+	padding: 10px 10px 120px 10px;
+}
+
+.frmbtn input {
+	width: 25%;
+	max-width: 100%;
+	background: #2c97d4;
+	color: #ffffff;
+	border-radius: 30px;
+}
+
+.contmap {
+	padding: 45px 0px 0px 0px;
+	margin-bottom: -80px;
+}
+
+/* Our Network */
+
+.dlrsmain {
+	background: #f0f9fd;
+	padding: 60px 0px;
+}
+.dlrsinpt input {
+	border: none;
+	background: #fff;
+	padding: 8px 10px;
+	width: 100%;
+}
+.dlrsbtn {
+	text-align: center;
+	padding-top: 30px;
+}
+.dlrsbtn button {
+	color: #fff;
+	background: #2c97d4;
+	padding: 5px 20px;
+	border: none;
+	border-radius: 30px;
+}
+.inthemedia {
+	left: 20%;
+	top: 40%;
+	color: #fff;
+}
+.alladrsmain {
+	padding: 30px 0px;
+}
+.dlrsadrs h4 {
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	padding-bottom: 10px;
+	color: #0476bc;
+	border-bottom: 2px dashed #2c96d3;
+	margin-bottom: 25px;
+}
+.alladrs h2 {
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	color: #757677;
+	line-height: 25px;
+}
+
+.rainyfilterimg img {
+	width: 380px;
+	max-width: 100%;
+}
+.techpointslst ul li {
+	text-align: justify;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #000;
+}
+button#rnenq {
+	border: 1px solid#2c97d4;
+	background: #2c97d4;
+	padding: 3px 30px;
+	color: #fff;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+.techpointslst ul li:before {
+	content: '';
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-image: url(../../static/images/Drop.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 0.5em;
+}
+.sssprt h1 {
+	text-align: center;
+	padding: 150px 0px;
+	background-image: url(../../static/images/dealers/Banner2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+}
+
+/* Downloads */
+
+.hero-text.dwnldbnnrtxt {
+	top: 40%;
+	left: 20%;
+	color: #fff;
+}
+
+.dnldbg {
+	background: #dff7f7;
+	padding: 100px 0px;
+}
+
+.card-header {
+	background: #fff;
+	border: none;
+}
+
+.downloadsec {
+	width: 100%;
+}
+
+.acrdinbrdr {
+	border-top: 2px solid #58b8ef;
+	padding: 20px 0px;
+}
+
+h5.mb-0 a {
+	font-size: 26px;
+	font-weight: 600;
+	color: #0285c8;
+	letter-spacing: 0.5px;
+}
+span.mb-span {
+	background: #e5e2e2;
+	font-size: 16px !important;
+	font-weight: 600;
+	color: #5b5959;
+	padding: 5px 10px;
+	margin-left: 20px;
+}
+
+.mb-0 > a:after {
+	content: "\f078";
+	font-family: 'FontAwesome';
+	position: absolute;
+	right: 10%;
+	font-weight: 200;
+	font-size: 22px;
+}
+.mb-0 > a[aria-expanded="true"]:after {
+	content: "\f077";
+}
+
+.card-body {
+	background: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.1px;
+}

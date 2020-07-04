@@ -2,13 +2,7 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../components/Header';
-import Banner from '../components/Banner';
-import WhatWeDo from '../components/WhatWeDo';
 import Footer from '../components/Footer';
-import AboutUs from '../components/AboutUs';
-import RWHFilters from '../components/RWHFilters';
-import FilterToSelect from '../components/FilterToSelect';
-import GroundWaterRecharging from '../components/GroundWaterRecharging';
 
 export default function Home() {
 	return (
@@ -24,15 +18,95 @@ export default function Home() {
 			</Head>
 			<main>
 				<div className="App">
-					<h1> Gallery</h1>
-					{/* <Header />
-					<Banner />
-					<WhatWeDo />
-					<AboutUs />
-					<RWHFilters />
-					<FilterToSelect />
-					<GroundWaterRecharging />
-					<Footer /> */}
+					<Header />
+					<div className="container-fluid banner enternal">
+						<div className="hero-image enthroimg">
+							<img src="../static/images/gallery/Banner.png" />
+							<div className="hero-text rnyfltrs">
+								<h1>GALLERY</h1>
+							</div>
+						</div>
+					</div>
+
+					<div className="container-fluid">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-12" align="center">
+									<button className="btn btn-default filter-button" data-filter="all">
+										All
+									</button>
+									<button className="btn btn-default filter-button" data-filter="hdpe">
+										Groundwater Recharging
+									</button>
+									<button className="btn btn-default filter-button" data-filter="sprinkle">
+										Gov.t Building & Institutions
+									</button>
+									<button className="btn btn-default filter-button" data-filter="spray">
+										Schools
+									</button>
+									<button className="btn btn-default filter-button" data-filter="irrigation">
+										Apartments & Houses
+									</button>
+									<button className="btn btn-default filter-button" data-filter="irrigation">
+										Industries
+									</button>
+									<button className="btn btn-default filter-button" data-filter="irrigation">
+										With Dignitires
+									</button>
+								</div>
+								<br />
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+
+								<div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+									<img src="http://fakeimg.pl/365x365/" className="img-responsive" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<Footer />
 				</div>
 			</main>
 
