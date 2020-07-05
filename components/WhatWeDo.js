@@ -27,7 +27,7 @@ const WhatWeDo = () => {
 								</p>
 							</div>
 						</div>
-						<div className="col-md-4" style={{ marginLeft: '-20px' }}>
+						<div className="col-md-4">
 							<div>
 								<img alt="iamegs" src="../static/images/homepage/whatWeDo2.png" />
 							</div>
@@ -47,7 +47,7 @@ const WhatWeDo = () => {
 								<img src="../static/images/homepage/whatWeDo3.png" />
 							</div>
 						</div>
-						<div className="col-md-4" style={{ marginLeft: '-20px' }}>
+						<div className="col-md-4">
 							<div className="grndtext">
 								<h3>Ground Water Recharging</h3>
 								<p style={{ textAlign: 'left', color: '#000', fontSize: '14px', fontWeight: '500' }}>

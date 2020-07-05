@@ -23,7 +23,7 @@ const Header = () => {
 									<Link href="/">Home</Link>
 								</li>
 								<li>
-									<a href="/about-us/our-journey" className="dropdown-toggle" data-toggle="dropdown">
+									<a href="#" className="dropdown-toggle" data-toggle="dropdown">
 										About Us
 									</a>
 									<div className="dropdown-menu dropdown-menu-tip-nw">
@@ -39,39 +39,39 @@ const Header = () => {
 									</div>
 								</li>
 								<li>
-									<a href="#">Technology</a>
+									<a href="/technology">Technology</a>
 								</li>
 								<li>
 									<a href="#" className="dropdown-toggle" data-toggle="dropdown">
 										Products
 									</a>
 									<div className="dropdown-menu dropdown-menu-tip-nw">
-										<a href="#" className="dropdown-item">
+										<a href="/products/rainy-filters" className="dropdown-item">
 											Rainy Filters
 										</a>
-										<a href="#" className="dropdown-item">
+										<a href="/products/ground-water-recharge" className="dropdown-item">
 											Groundwater Recharge
 										</a>
-										<a href="#" className="dropdown-item">
+										<a href="/products/systems-and-solutions" className="dropdown-item">
 											Systems & Solutions
 										</a>
 									</div>
 								</li>
 								<li>
-									<a href="#">Gallery</a>
+									<a href="/gallery">Gallery</a>
 								</li>
 								<li>
 									<a href="#" className="dropdown-toggle diffcolormenu" data-toggle="dropdown">
 										Contact us
 									</a>
 									<div className="dropdown-menu dropdown-menu-tip-nw">
-										<a href="#" className="dropdown-item">
+										<a href="/contact-us/enquire" className="dropdown-item">
 											Enquire
 										</a>
-										<a href="#" className="dropdown-item">
+										<a href="/contact-us/dealers" className="dropdown-item">
 											Dealers
 										</a>
-										<a href="#" className="dropdown-item">
+										<a href="/contact-us/downloads" className="dropdown-item">
 											Downloads
 										</a>
 									</div>

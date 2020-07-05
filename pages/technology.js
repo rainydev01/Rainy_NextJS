@@ -15,7 +15,13 @@ export default function Home() {
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
-				 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet"></link>
+				<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet"></link>
+
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 			</Head>
 			<main>
 				<div className="App">
@@ -91,7 +97,7 @@ export default function Home() {
 		                            </div>
 		                            <div className="col-md-5">
 		                                <div className="techlimg">
-		                                    <img src="images/Image 54.png" />
+		                                    <img src="static/images/Image54.png" />
 		                                </div>
 		                            </div>
 		                        </div>
@@ -123,7 +129,7 @@ export default function Home() {
 		                            </div>
 		                            <div className="col-md-5">
 		                                <div className="techlimg">
-		                                    <img src="images/Image 54.png" />
+		                                    <img src="static/images/Image54.png" />
 		                                </div>
 		                            </div>
 		                        </div>
@@ -155,7 +161,7 @@ export default function Home() {
 		                            </div>
 		                            <div className="col-md-5">
 		                                <div className="techlimg">
-		                                    <img src="images/Image 54.png" />
+		                                    <img src="static/images/Image54.png" />
 		                                </div>
 		                            </div>
 		                        </div>
@@ -191,7 +197,7 @@ export default function Home() {
 		                          <div className="row techacrsec">
 		                            <div className="col-md-5">
 		                                <div className="techlimg">
-		                                    <img src="images/Image 54.png" />
+		                                    <img src="static/images/Image54.png" />
 		                                </div>
 		                            </div>
 		                            <div className="col-md-7">
@@ -219,11 +225,37 @@ export default function Home() {
 		                        </div>
 		                        <div id="collapse-2" className="collapse" data-parent="#accordion" aria-labelledby="heading-2">
 		                          <div className="card-body">  
+		                          
+		                          <div className="row techacrsec">
+		                            <div className="col-md-5">
+		                                <div className="techlimg">
+		                                    <img src="static/images/Image54.png" />
+		                                </div>
+		                            </div>
+		                            <div className="col-md-7">
+										<div className="techlimg">
+												<img src="static/images/NoPath.png" />
+										</div>
+		                            </div>
+		                        </div>
+		                          </div>
+		                        </div>
+		                      </div>
+		                      <div className="techaccrdn">
+		                        <div className="card-header" id="heading-3">
+		                          <h5 className="mb-0 mb0diff">
+		                            <a className="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+		                               Advantages<span className="mb-span mbspndiff">How rainy can be used to conserve water</span>
+		                            </a>
+		                          </h5>
+		                        </div>
+		                        <div id="collapse-3" className="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+		                          <div className="card-body">  
 		                          Lorum ipsom is a dummy text, Here is a text is only for test. Lorum ipsom is a dummy text, Here is a text is only for test. Lorum ipsom is a dummy text, Here is a text is only for test. Lorum ipsom is a dummy text, Here is a text is only for test.
 		                          <div className="row techacrsec">
 		                            <div className="col-md-5">
 		                                <div className="techlimg">
-		                                    <img src="images/Image 54.png" />
+		                                    <img src="static/images/Image54.png" />
 		                                </div>
 		                            </div>
 		                            <div className="col-md-7">
@@ -255,39 +287,7 @@ export default function Home() {
 		                          <div className="row techacrsec">
 		                            <div className="col-md-5">
 		                                <div className="techlimg">
-		                                    <img src="images/Image 54.png" />
-		                                </div>
-		                            </div>
-		                            <div className="col-md-7">
-		                                <div className="techpointslst">
-		                                    <ul>
-		                                        <li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom is dolor aset.</li>
-		                                        <li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom is dolor aset.</li>
-		                                        <li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom is dolor aset.</li>
-		                                        <li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom is dolor aset.</li>
-		                                        <li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom is dolor aset.</li>
-		                                    </ul>
-		                                </div>
-		                            </div>
-		                        </div>
-		                          </div>
-		                        </div>
-		                      </div>
-		                      <div className="techaccrdn">
-		                        <div className="card-header" id="heading-3">
-		                          <h5 className="mb-0 mb0diff">
-		                            <a className="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-		                               Advantages<span className="mb-span mbspndiff">How rainy can be used to conserve water</span>
-		                            </a>
-		                          </h5>
-		                        </div>
-		                        <div id="collapse-3" className="collapse" data-parent="#accordion" aria-labelledby="heading-3">
-		                          <div className="card-body">  
-		                          Lorum ipsom is a dummy text, Here is a text is only for test. Lorum ipsom is a dummy text, Here is a text is only for test. Lorum ipsom is a dummy text, Here is a text is only for test. Lorum ipsom is a dummy text, Here is a text is only for test.
-		                          <div className="row techacrsec">
-		                            <div className="col-md-5">
-		                                <div className="techlimg">
-		                                    <img src="images/Image 54.png" />
+		                                    <img src="static/images/Image54.png" />
 		                                </div>
 		                            </div>
 		                            <div className="col-md-7">

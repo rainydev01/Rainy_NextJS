@@ -28,12 +28,17 @@ export default function Home() {
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 			</Head>
 			<main>
 				<div className="App">
 					<h1> Our Journey</h1>
 					<Header />
-					<div className="container-fluid banner enternal">
+					<div className="container-fluid banner enternal" style={{marginTop: '-45px'}}>
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/journey/Banner.png" />
 							<div className="hero-text enthrotxt">
@@ -50,7 +55,7 @@ export default function Home() {
 								<div className="timeline-badge right-drop">
 									<i className="glyphicon glyphicon-tint">
 										<span>
-											11 July<br />2012
+											2002
 										</span>
 									</i>
 								</div>
@@ -64,6 +69,7 @@ export default function Home() {
 										<div className="timeline-body">
 											<p>
 												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
 												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
 											</p>
 										</div>
@@ -77,7 +83,7 @@ export default function Home() {
 								<div className="timeline-badge left-drop">
 									<i className="glyphicon glyphicon-tint">
 										<span>
-											23 Aug<br />2014
+											2003
 										</span>
 									</i>
 								</div>
@@ -90,6 +96,7 @@ export default function Home() {
 										<div className="timeline-body">
 											<p>
 												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
 												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
 											</p>
 										</div>
@@ -103,7 +110,7 @@ export default function Home() {
 								<div className="timeline-badge right-drop">
 									<i className="glyphicon glyphicon-tint">
 										<span>
-											21 Nov<br />2017
+											2004
 										</span>
 									</i>
 								</div>
@@ -116,6 +123,7 @@ export default function Home() {
 										<div className="timeline-body">
 											<p>
 												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
 												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
 											</p>
 										</div>
@@ -129,7 +137,7 @@ export default function Home() {
 								<div className="timeline-badge left-drop">
 									<i className="glyphicon glyphicon-tint">
 										<span>
-											23 Aug<br />2014
+											2005
 										</span>
 									</i>
 								</div>
@@ -142,6 +150,7 @@ export default function Home() {
 										<div className="timeline-body">
 											<p>
 												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
 												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
 											</p>
 										</div>
@@ -149,34 +158,26 @@ export default function Home() {
 								</div>
 							</li>
 							<li>
-								<div className="timeline-badge info">
-									<i className="glyphicon glyphicon-floppy-disk" />
+								<div className="timeline-badge danger">
+									<i className="glyphicon glyphicon-credit-card" />
+								</div>
+								<div className="timeline-badge right-drop">
+									<i className="glyphicon glyphicon-tint">
+										<span>
+											2007
+										</span>
+									</i>
 								</div>
 								<div className="timeline-panel">
-									<img src="../../static/images/journey/SelfCleaning.png" />
+									<img src="../../static/images/journey/Expansion.png" />
 									<div className="body-timmain">
 										<div className="timeline-heading">
-											<h4 className="timeline-title">Self Cleaning Rainy RWH</h4>
+											<h4 className="timeline-title">Expansion of Network</h4>
 										</div>
 										<div className="timeline-body">
 											<p>
 												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
-												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
-											</p>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div className="timeline-panel">
-									<img src="../../static/images/journey/DualIntensity.png" />
-									<div className="body-timmain">
-										<div className="timeline-heading">
-											<h4 className="timeline-title">Four New Models of Dual Intensity</h4>
-										</div>
-										<div className="timeline-body">
-											<p>
-												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
 												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
 											</p>
 										</div>
@@ -184,20 +185,65 @@ export default function Home() {
 								</div>
 							</li>
 							<li className="timeline-inverted">
-								<div className="timeline-badge success">
-									<i className="glyphicon glyphicon-thumbs-up" />
+								<div className="timeline-badge danger">
+									<i className="glyphicon glyphicon-credit-card" />
 								</div>
-								<div className="timeline-panel">
-									<img src="../../static/images/journey/RainyResearch.png" />
+								<div className="timeline-badge left-drop">
+									<i className="glyphicon glyphicon-tint">
+										<span>
+											2011
+										</span>
+									</i>
+								</div>
+								<div className="timeline-panel right-imghis">
+									<img src="../../static/images/journey/LaunchRF.png" />
 									<div className="body-timmain">
 										<div className="timeline-heading">
-											<h4 className="timeline-title">Rainy Research & Manufacturing</h4>
+											<h4 className="timeline-title">Launch Of Rainy Filters</h4>
 										</div>
 										<div className="timeline-body">
 											<p>
 												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
 												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
 											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div className="timeline-badge danger">
+									<i className="glyphicon glyphicon-credit-card" />
+								</div>
+								<div className="timeline-badge right-drop">
+									<i className="glyphicon glyphicon-tint">
+										<span>
+											2016
+										</span>
+									</i>
+								</div>
+								<div className="timeline-panel">
+									<img src="../../static/images/journey/Expansion.png" />
+									<div className="body-timmain">
+										<div className="timeline-heading">
+											<h4 className="timeline-title">Expansion of Network</h4>
+										</div>
+										<div className="timeline-body">
+											<p>
+												Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is
+												a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy text.{' '}
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li className="timeline-inverted">
+								
+								<div className="timeline-panel right-imghis">
+									<div className="">
+										<div className="timeline-heading">
+											<h4 className="timeline-title">Our Journey Continues...</h4>
 										</div>
 									</div>
 								</div>
