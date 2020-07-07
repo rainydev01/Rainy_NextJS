@@ -1017,7 +1017,7 @@ h2.whtdowdo:after {
 	text-align: center;
 	position: relative;
 	width: 9%;
-	border: 1.5px solid #0568b0;
+	border: 1.5px solid #0568b0!important;
 	margin: auto;
 	margin-top: 14px;
 }
