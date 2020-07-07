@@ -20,7 +20,7 @@ const WhatWeDo = () => {
 						<div className="col-md-4">
 							<div className="grndtext">
 								<h3>Ground Water Recharging</h3>
-								<p style={{letterSpacing: '0.1px', textAlign: 'left', color: '#000000', fontSize: '14px', fontWeight: '500', lineHeight: '26px' }}>
+								<p style={{letterSpacing: '0.1px', textAlign: 'left', color: '#4c3f43', fontSize: '14px', fontWeight: '500', lineHeight: '26px' }}>
 									Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web. Lorum
 									ispum is a dummy text for web. Lorum ispum is a dummy text for web. Lorum ispum is a
 									dummy text for web. dummy text for web.{' '}
@@ -35,7 +35,7 @@ const WhatWeDo = () => {
 						<div className="col-md-4">
 							<div className="grndtext">
 								<h3 style={{ textAlign: 'right' }}>Rooftop Filters</h3>
-								<p style={{letterSpacing: '0.1px', textAlign: 'right', color: '#000000', fontSize: '14px', fontWeight: '500', lineHeight: '26px' }}>
+								<p style={{letterSpacing: '0.1px', textAlign: 'right', color: '#4c3f43', fontSize: '14px', fontWeight: '500', lineHeight: '26px' }}>
 									Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web. Lorum
 									ispum is a dummy text for web. Lorum ispum is a dummy text for web. Lorum ispum is a
 									dummy text for web. dummy text for web.{' '}
@@ -50,7 +50,7 @@ const WhatWeDo = () => {
 						<div className="col-md-4">
 							<div className="grndtext">
 								<h3>Ground Water Recharging</h3>
-								<p style={{ letterSpacing: '0.1px', textAlign: 'left', color: '#000000', fontSize: '14px', fontWeight: '500', lineHeight: '26px' }}>
+								<p style={{ letterSpacing: '0.1px', textAlign: 'left', color: '#4c3f43', fontSize: '14px', fontWeight: '500', lineHeight: '26px' }}>
 									Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web. Lorum
 									ispum is a dummy text for web. Lorum ispum is a dummy text for web. Lorum ispum is a
 									dummy text for web. dummy text for web.{' '}

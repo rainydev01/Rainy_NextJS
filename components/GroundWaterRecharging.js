@@ -18,7 +18,7 @@ const GroundWaterRecharging = () => {
 								amet, lorum ipsum is a dummy text for web. Lorum ipsum doller sit amet, lorum ipsum is a
 								dummy text for web. Lorum ipsum doller sit amet, lorum ipsum is a dummy text for web.{' '}
 							</p>
-							<button>Read More</button>
+							<button>Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
 						</div>
 					</div>
 				</div>

@@ -34,7 +34,7 @@ const Footer = () => {
 						</div>
 						<div className="col-md-4">
 							<div className="footer-three">
-								<h5>Follow US</h5>
+								<h5>Follow Us</h5>
 								<p>
 									<i className="fa fa-instagram" aria-hidden="true" />
 									<i className="fa fa-facebook-official" aria-hidden="true" />

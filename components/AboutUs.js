@@ -6,20 +6,15 @@ const AboutUs = () => {
 			<div
 				className="container-fluid"
 				style={{
-					backgroundImage: 'url(../static/images/homepage/Drop.png)',
+					backgroundImage: 'url(../static/images/homepage/ddropsbg.png)',
 					backgroundRepeat: 'no-repeat',
-					backgroundSize: 'contain',
-					backgroundPosition: 'inherit'
+					backgroundSize: 'cover',
+					backgroundPosition: 'top right'
 				}}
 			>
 				<div
 					className="container"
-					style={{
-						backgroundImage: 'url(../static/images/homepage/Drop2.png)',
-						backgroundPosition: 'top left',
-						backgroundRepeat: 'no-repeat',
-						backgroundSize: 'inherit'
-					}}
+					style={{marginBottom: '35px'}}
 				>
 					<div className="abou-home-heading">
 						<h2>ABOUT US</h2>

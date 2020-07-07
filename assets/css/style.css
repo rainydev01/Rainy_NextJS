@@ -523,7 +523,7 @@ p {
 }
 
 .hero-text button {
-	background: #fff500 !important;
+	background: #d6ae05 !important;
 	border-radius: 25px !important;
 }
 
@@ -580,7 +580,7 @@ a.diffcolormenu {
 
 .grndtext h3 {
     font-size: 18px;
-    color: #0568b0;
+    color: #0971b7;
     font-weight: 500;
     letter-spacing: 0.5px;
 }
@@ -666,8 +666,8 @@ a.diffcolormenu {
 }
 
 .rooftopfrm button {
-	background: #fff500;
-	border: 1px solid #fff500;
+	background: #d6ae05;
+	border: 1px solid #d6ae05;
 	padding: 5px 35px;
 	border-radius: 25px;
 	font-size: 13px;
@@ -678,7 +678,7 @@ a.diffcolormenu {
 .knwyroof {
 	padding: 5px 0px 0px 0px;
 	font-size: 12px;
-	color: #2c97d4;
+	color: #6ec6d8;
 }
 
 .shouldtry button {
@@ -707,12 +707,12 @@ a.diffcolormenu {
 
 .groundwaterstxt h3 {
 	font-weight: 600;
-	color: #0568b0;
+	color: #0971b7;
 	font-size: 33px;
 }
 
 .groundwaterstxt p {
-	color: #8c8c8c;
+	color: #4c3f43;
 	line-height: 25px;
 	left: 1px;
 	word-spacing: 1px;
@@ -720,8 +720,8 @@ a.diffcolormenu {
 }
 
 .groundwaterstxt button {
-	background: #fff500;
-	border: 1px solid #fff500;
+	background: #d6ae05;
+	border: 1px solid #d6ae05;
 	padding: 5px 30px;
 	border-radius: 25px;
 	margin: 25px 0px;
@@ -745,7 +745,7 @@ a.diffcolormenu {
 	text-align: left;
 	position: relative;
 	width: 20%;
-	border: 1px solid #0568b0;
+	border: 1.5px solid #0971b7;
 	margin-top: 14px;
 }
 
@@ -846,8 +846,8 @@ body {
 }
 
 .footer-three button {
-	border: 1px solid #fff500;
-	background: #fff500;
+	border: 1px solid #d6ae05;
+	background: #d6ae05;
 	padding: 4px 40px;
 	margin-bottom: 10px;
 	border-radius: 25px;
@@ -922,7 +922,7 @@ p {
 	padding: 45px 0px 45px 0px;
 	font-size: 33px;
 	font-weight: 600;
-	color: #0568b0;
+	color: #0971b7;
 	letter-spacing: 0px;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -932,8 +932,8 @@ p {
 	display: block;
 	text-align: center;
 	position: relative;
-	width: 9%;
-	border: 1px solid #0568b0;
+	width: 7%;
+	border: 1.5px solid #0971b7;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -941,12 +941,12 @@ p {
 .threecntr h3 {
 	font-size: 20px;
 	font-weight: 500;
-	color: #0568b0;
+	color: #0971b7;
 	letter-spacing: 0px;
 }
 
 .threecntr img {
-	max-width: 35px!important;
+	max-width: 30px!important;
 }
 
 .mdrntech.threecntr img {
@@ -977,7 +977,7 @@ p {
 .threecntr p {
 	font-size: 14px;
 	font-weight: 500;
-	color: #4d6b7c;
+	color: #4c3f43;
 }
 
 .rooftopfrm input {
@@ -985,7 +985,7 @@ p {
 	text-align: center;
 	font-size: 12px;
 	padding: 5px;
-	border: 0.5px solid #2c97d4;
+	border: 1.5px solid #6ec6d8;
 }
 
 .knwyroof a {
@@ -1006,7 +1006,7 @@ p {
 	padding: 45px 0px 45px 0px;
 	font-size: 33px;
 	font-weight: 600;
-	color: #1274bc;
+	color: #0971b7;
 	letter-spacing: 0px;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -1027,7 +1027,7 @@ h2.whtdowdo:after {
 	background-image: url(../../static/images/Path233.png);
 	background-repeat: no-repeat;
 	background-position: top;
-	background-size: cover;
+	background-size: contain;
 }
 
 .frmsecimg {
@@ -1043,7 +1043,7 @@ h2.whtdowdo:after {
 	padding: 0px 5px 515px 5px;
 	background-image: url(../../static/images/Wave.png);
 	background-size: cover;
-	background-position: bottom;
+	background-position: inherit;
 }
 
 .about-home {
