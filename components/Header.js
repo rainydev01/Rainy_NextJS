@@ -36,6 +36,9 @@ const Header = () => {
 										<a href="/about-us/our-team" className="dropdown-item">
 											Our Team
 										</a>
+										<a href="/about-us/social-awareness" className="dropdown-item">
+											Social Awareness
+										</a>
 									</div>
 								</li>
 								<li>

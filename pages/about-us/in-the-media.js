@@ -63,7 +63,7 @@ export default function Home() {
 										<p
 											style={{
 												textAlign: 'left',
-												color: '#588097',
+												color: '#4c3f43',
 												fontSize: '12px',
 												fontWeight: '500',
 												letterSpacing: '0.5px'
@@ -79,7 +79,9 @@ export default function Home() {
 												<i className="fa fa-google-plus" aria-hidden="true" />
 											</div>
 											<div className="col-md-6 mediabtn">
-												<button>Read more</button>
+												<button>
+													Read more <i class="fa fa-angle-right" aria-hidden="true" />
+												</button>
 											</div>
 										</div>
 									</div>
@@ -100,7 +102,7 @@ export default function Home() {
 										<p
 											style={{
 												textAlign: 'left',
-												color: '#588097',
+												color: '#4c3f43',
 												fontSize: '12px',
 												fontWeight: '500',
 												letterSpacing: '0.5px'
@@ -117,7 +119,9 @@ export default function Home() {
 												<i className="fa fa-google-plus" aria-hidden="true" />
 											</div>
 											<div className="col-md-6 mediabtn">
-												<button>Read more</button>
+												<button>
+													Read more <i class="fa fa-angle-right" aria-hidden="true" />
+												</button>
 											</div>
 										</div>
 									</div>
@@ -137,7 +141,7 @@ export default function Home() {
 										<p
 											style={{
 												textAlign: 'left',
-												color: '#588097',
+												color: '#4c3f43',
 												fontSize: '12px',
 												fontWeight: '500',
 												letterSpacing: '0.5px'
@@ -154,7 +158,9 @@ export default function Home() {
 												<i className="fa fa-google-plus" aria-hidden="true" />
 											</div>
 											<div className="col-md-6 mediabtn">
-												<button>Read more</button>
+												<button>
+													Read more <i class="fa fa-angle-right" aria-hidden="true" />
+												</button>
 											</div>
 										</div>
 									</div>
@@ -188,7 +194,7 @@ export default function Home() {
 										<p
 											style={{
 												textAlign: 'left',
-												color: '#588097',
+												color: '#4c3f43',
 												fontSize: '12px',
 												fontWeight: '500',
 												letterSpacing: '0.5px'
@@ -204,7 +210,9 @@ export default function Home() {
 												<i className="fa fa-google-plus" aria-hidden="true" />
 											</div>
 											<div className="col-md-6 mediabtn">
-												<button>Read more</button>
+												<button>
+													Read more <i class="fa fa-angle-right" aria-hidden="true" />
+												</button>
 											</div>
 										</div>
 									</div>
@@ -225,7 +233,7 @@ export default function Home() {
 										<p
 											style={{
 												textAlign: 'left',
-												color: '#588097',
+												color: '#4c3f43',
 												fontSize: '12px',
 												fontWeight: '500',
 												letterSpacing: '0.5px'
@@ -242,7 +250,9 @@ export default function Home() {
 												<i className="fa fa-google-plus" aria-hidden="true" />
 											</div>
 											<div className="col-md-6 mediabtn">
-												<button>Read more</button>
+												<button>
+													Read more <i class="fa fa-angle-right" aria-hidden="true" />
+												</button>
 											</div>
 										</div>
 									</div>
@@ -262,7 +272,7 @@ export default function Home() {
 										<p
 											style={{
 												textAlign: 'left',
-												color: '#588097',
+												color: '#4c3f43',
 												fontSize: '12px',
 												fontWeight: '500',
 												letterSpacing: '0.5px'
@@ -279,7 +289,9 @@ export default function Home() {
 												<i className="fa fa-google-plus" aria-hidden="true" />
 											</div>
 											<div className="col-md-6 mediabtn">
-												<button>Read more</button>
+												<button>
+													Read more <i class="fa fa-angle-right" aria-hidden="true" />
+												</button>
 											</div>
 										</div>
 									</div>
