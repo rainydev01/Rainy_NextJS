@@ -6,7 +6,7 @@ const Footer = () => {
 			<div className="container-fluid footer-main">
 				<div className="container">
 					<div>
-						<div className="col-md-4">
+						<div className="col-md-4 ">
 							<div className="footer-one">
 								<img src="../static/images/logo/Wlogo.png" alt="Footer Logo" />
 								<p>
@@ -32,7 +32,7 @@ const Footer = () => {
 								</p>
 							</div>
 						</div>
-						<div className="col-md-4">
+						<div className="col-md-4 text-center">
 							<div className="footer-three">
 								<h5>Follow Us</h5>
 								<p>

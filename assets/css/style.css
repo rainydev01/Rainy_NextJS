@@ -5,14 +5,14 @@
 }
 
 .dropdown-toggle::after {
-    display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: 0.100em;
-    content: "";
-    border-top: 0.5em solid;
-    border-right: .5em solid transparent;
-    border-bottom: 0;
-    border-left: .5em solid transparent;
+	display: inline-block;
+	margin-left: 0.255em;
+	vertical-align: 0.100em;
+	content: "";
+	border-top: 0.5em solid;
+	border-right: .5em solid transparent;
+	border-bottom: 0;
+	border-left: .5em solid transparent;
 }
 
 .dropdown-menu.dropdown-menu-tip-nw.show:after {
@@ -418,12 +418,12 @@ p {
 
 .header a {
 	display: block;
-    padding: 25px;
-    transition: background-color 300ms ease-in;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.4px;
-    color: #4c3f43;
+	padding: 25px;
+	transition: background-color 300ms ease-in;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+	color: #4c3f43;
 }
 
 .navbar-brand {
@@ -495,23 +495,23 @@ p {
 
 .dropdown-menu.dropdown-menu-tip-nw.show {
 	width: 220px !important;
-    border-radius: 0px;
-    margin-top: 15px;
-    background: #0578be;
-    background: -webkit-linear-gradient(to bottom, #075ca6, #047bc0, #028acd, #2c97d4, #aad8e7);
-    background: -o-linear-gradient(to bottom, #075ca6, #047bc0, #028acd, #2c97d4, #aad8e7);
-    background: -moz-linear-gradient(to bottom, #075ca6, #047bc0, #028acd, #2c97d4, #aad8e7);
-	background: linear-gradient(to bottom, #075ca6, #047bc0, #028acd, #2c97d4, #aad8e7);
+	border-radius: 0px;
+	margin-top: 15px;
+	background: #0578be;
+	background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: linear-gradient(to bottom, #0971b7, #6ec6d8);
 	border: none;
 }
 
 .dropdown-menu.dropdown-menu-tip-nw.show a {
-	font-size: 12px;
-    letter-spacing: 1px;
-    color: #fff;
-    opacity: 0.8;
-    padding: 3px 25px;
-    margin: 0px !important;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #fff;
+	opacity: 0.8;
+	padding: 3px 25px;
+	margin: 0px !important;
 }
 
 .dropdown-item:hover {
@@ -528,7 +528,7 @@ p {
 }
 
 .media-hdng {
-    margin-bottom: 55px;
+	margin-bottom: 55px;
 }
 
 .banner {
@@ -579,10 +579,10 @@ a.diffcolormenu {
 }
 
 .grndtext h3 {
-    font-size: 18px;
-    color: #0971b7;
-    font-weight: 500;
-    letter-spacing: 0.5px;
+	font-size: 18px;
+	color: #0971b7;
+	font-weight: 500;
+	letter-spacing: 0.5px;
 }
 
 .abou-home-heading {
@@ -590,7 +590,7 @@ a.diffcolormenu {
 }
 
 .about-content {
-	background: #0472b9;
+	background: #0971b7;
 	color: #fff;
 	max-width: 550px;
 	padding: 10px 15px;
@@ -599,12 +599,12 @@ a.diffcolormenu {
 }
 
 .about-content {
-	background: #0472b9;
+	background: #0971b7;
 	color: #fff;
-	max-width: 610px;
+	max-width: 675px;
 	padding: 10px 15px;
 	border-radius: 20px;
-	margin-left: 110px;
+	margin-left: -40px;
 	margin-top: 10px;
 }
 
@@ -645,7 +645,7 @@ a.diffcolormenu {
 .rooftopfrm {
 	background: #fff;
 	border-radius: 30px;
-	width: 400px;
+	width: 450px;
 	margin: auto;
 	padding: 20px 25px 10px 25px;
 }
@@ -677,14 +677,14 @@ a.diffcolormenu {
 
 .knwyroof {
 	padding: 5px 0px 0px 0px;
-	font-size: 12px;
+	font-size: 14px;
 	color: #6ec6d8;
 }
 
 .shouldtry button {
 	background: #fff;
 	border: 1px solid #fff;
-	padding: 1px 35px;
+	padding: 5px 35px;
 	border-radius: 25px;
 	color: #0663ac;
 	font-weight: 600;
@@ -695,7 +695,7 @@ a.diffcolormenu {
 	border: 1px solid #2c97d4;
 	background: #2c97d4;
 	color: #fff;
-	padding: 5px 60px;
+	padding: 5px 75px;
 	font-size: 30px;
 	border-radius: 25px;
 	margin-top: 10px;
@@ -720,8 +720,8 @@ a.diffcolormenu {
 }
 
 .groundwaterstxt button {
-	background: #d6ae05;
-	border: 1px solid #d6ae05;
+	background: #fff532;
+	border: 1px solid #fff532;
 	padding: 5px 30px;
 	border-radius: 25px;
 	margin: 25px 0px;
@@ -744,8 +744,8 @@ a.diffcolormenu {
 	display: block;
 	text-align: left;
 	position: relative;
-	width: 20%;
-	border: 1.5px solid #0971b7;
+	width: 18%;
+	border: 1.0px solid #0971b7;
 	margin-top: 14px;
 }
 
@@ -810,7 +810,7 @@ body {
 }
 
 .footer-main {
-	background: #2d67b0;
+	background: #0971b7;
 	padding: 45px 0px 250px 0px;
 }
 
@@ -846,8 +846,8 @@ body {
 }
 
 .footer-three button {
-	border: 1px solid #d6ae05;
-	background: #d6ae05;
+	border: 1px solid #fff532;
+	background: #fff532;
 	padding: 4px 40px;
 	margin-bottom: 10px;
 	border-radius: 25px;
@@ -870,8 +870,8 @@ body {
 
 .copyright-main ul li a {
 	font-size: 12px;
-    margin: 0px 5px;
-    letter-spacing: 1px;
+	margin: 0px 5px;
+	letter-spacing: 1px;
 }
 
 a {
@@ -932,8 +932,8 @@ p {
 	display: block;
 	text-align: center;
 	position: relative;
-	width: 7%;
-	border: 1.5px solid #0971b7;
+	width: 10%;
+	border: 1.0px solid #0971b7;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -946,7 +946,7 @@ p {
 }
 
 .threecntr img {
-	max-width: 30px!important;
+	max-width: 30px !important;
 }
 
 .mdrntech.threecntr img {
@@ -985,11 +985,11 @@ p {
 	text-align: center;
 	font-size: 12px;
 	padding: 5px;
-	border: 1.5px solid #6ec6d8;
+	border: 1.0px solid #6ec6d8;
 }
 
 .knwyroof a {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .groundwatersimg {
@@ -1016,8 +1016,8 @@ h2.whtdowdo:after {
 	display: block;
 	text-align: center;
 	position: relative;
-	width: 9%;
-	border: 1.5px solid #0568b0!important;
+	width: 10%;
+	border: 1.0px solid #0568b0 !important;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -1033,7 +1033,7 @@ h2.whtdowdo:after {
 .frmsecimg {
 	background-size: cover;
 	background-image: url(../../static/images/homepage/SelectFilter.png);
-	padding: 30px 0px 215px 0px;
+	padding: 45px 0px 235px 0px;
 	background-repeat: no-repeat;
 	background-position: initial;
 	text-align: center;
@@ -1051,7 +1051,7 @@ h2.whtdowdo:after {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
-	padding: 100px 0px;
+	padding: 110px 0px;
 }
 
 /* our journey */
@@ -1335,7 +1335,7 @@ h2.whtdowdo:after {
 }
 
 .mdiacont div {
-    padding: 25px 10px;
+	padding: 25px 10px;
 }
 
 .mdiacont H3 {
@@ -1945,12 +1945,12 @@ h1.fl80 {
 }
 
 .gallrymain {
-    background: #e4f4fb;
+	background: #e4f4fb;
 }
 
 .glrycntnr {
-    padding: 60px 0px;
-    background: #fff;
+	padding: 60px 0px;
+	background: #fff;
 }
 
 .techpointslst ul li {
@@ -2037,21 +2037,21 @@ h1.fl80 {
 	border-bottom: 1px solid #5e5e5e;
 }
 .filter-button {
-    font-size: 18px;
-    border: 1px solid #2c97d4;
-    border-radius: 40px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 30px;
-    margin: 10px;
+	font-size: 18px;
+	border: 1px solid #2c97d4;
+	border-radius: 40px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 30px;
+	margin: 10px;
 }
 
 .glrymnu {
-    padding: 0px 100px 45px 100px;
+	padding: 0px 100px 45px 100px;
 }
 
 .glrymnu {
-    padding: 0px 100px;
+	padding: 0px 100px;
 }
 
 .btn-default:active .filter-button:active {
@@ -2281,57 +2281,48 @@ span.mb-span {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgb(129, 186, 219)!important;
+	background-color: rgb(129, 186, 219) !important;
 }
 
 .table-striped tbody tr:nth-of-type(even) {
-    background-color: rgb(225, 241, 241)!important;
+	background-color: rgb(225, 241, 241) !important;
 }
 
 .techpointslst {
-    padding: 45px 0px;
+	padding: 45px 0px;
 }
 
 .techpointslst p {
-    font-size: 16px;
-    color: #000;
-    font-weight: 500;
-    line-height: 25px;
+	font-size: 16px;
+	color: #000;
+	font-weight: 500;
+	line-height: 25px;
 }
 
 .lstagn {
-    padding: 0px;
+	padding: 0px;
 }
 
 .wrechrg p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
 }
 
 .wrechrg {
-    padding: 80px 10px 30px 10px;
+	padding: 80px 10px 30px 10px;
 }
 
 .wrechargmain {
-    padding: 60px 0px 0px 0px;
+	padding: 60px 0px 0px 0px;
 }
 
 .wrechrgngtbl {
-    padding: 60px 0px 0px 0px;
+	padding: 60px 0px 0px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-{/*img {
+ {
+	/*img {
   width: 100%;
   height: auto;
 	padding: 5px;
@@ -2393,7 +2384,5 @@ span.mb-span {
     .next {
         display: none !important;
     }
-}*/}
-
-
-
+}*/
+}

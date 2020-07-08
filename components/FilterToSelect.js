@@ -8,10 +8,10 @@ const FilterToSelect = () => {
 					<div className="frmsec">
 						<div className="col-md-6">
 							<div className="rooftopfrm">
-								<h3>Check which filter is suitable for your rooftop</h3>
-								<input type="text" name="rooftop" placeholder="Enter rooftop Area in square Meters" />
+								<h3>Check which filter is suitable for your Rooftop</h3>
+								<input type="text" name="rooftop" placeholder="Enter Rooftop Area in Square Meters" />
 								<div className="knwyroof">
-									<a href="#">know your rooftop area</a>
+									<a href="#">Know your rooftop area</a>
 								</div>
 								<button>submit</button>
 							</div>
