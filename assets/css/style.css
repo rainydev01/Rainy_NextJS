@@ -523,7 +523,7 @@ p {
 }
 
 .hero-text button {
-	background: #d6ae05 !important;
+	background: #fff532 !important;
 	border-radius: 25px !important;
 }
 
@@ -1256,7 +1256,7 @@ h2.whtdowdo:after {
 	top: 34px;
 	left: 36%;
 	margin-left: -5px;
-	background-color: #2c97d4;
+	background-image: url(../../static/images/elements/Path226.png);
 	z-index: 100;
 	border-top-right-radius: 0%;
 	border-top-left-radius: 105%;
