@@ -22,16 +22,19 @@ export default function Home() {
 					crossOrigin="anonymous"
 				/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
 			</Head>
 			<main>
 				<div className="App">
 					<h1> Media</h1>
 					<Header />
-					<div className="container-fluid banner enternal" style={{marginTop: '-6%'}}>
+					<div className="container-fluid banner enternal" style={{ marginTop: '-6%' }}>
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/media/mediaBanner.png" />
 							<div className="hero-text inthemedia">
@@ -55,7 +58,7 @@ export default function Home() {
 									<div className="grndtext">
 										<h3>
 											Farmland Rainwater Harvesting Systems Wins Aqua Foundations Excellence
-											Award.
+											Award. 1
 										</h3>
 										<p
 											style={{
@@ -157,6 +160,16 @@ export default function Home() {
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+					<div className="container next-main">
+						<div className="nextButtons">
+							<button>
+								<i class="fa fa-angle-left" aria-hidden="true" /> Prev
+							</button>
+							<button style={{ alignContent: 'right', float: 'right' }}>
+								Next <i class="fa fa-angle-right" aria-hidden="true" />
+							</button>
 						</div>
 					</div>
 

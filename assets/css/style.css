@@ -908,7 +908,7 @@ p {
 	text-align: center;
 	position: relative;
 	width: 9%;
-	border: 1px solid #0568b0;
+	border: 1px solid #0971b7;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -1017,7 +1017,7 @@ h2.whtdowdo:after {
 	text-align: center;
 	position: relative;
 	width: 10%;
-	border: 1.0px solid #0568b0 !important;
+	border: 1.0px solid #0971b7 !important;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -1285,7 +1285,7 @@ h2.whtdowdo:after {
 	padding: 45px 0px 45px 0px;
 	font-size: 33px;
 	font-weight: 600;
-	color: #0568b0;
+	color: #0971b7;
 	letter-spacing: 0.5px;
 	font-family: sans-serif;
 }
@@ -1296,7 +1296,7 @@ h2.whtdowdo:after {
 	text-align: center;
 	position: relative;
 	width: 9%;
-	border: 1px solid #0568b0;
+	border: 1px solid #0971b7;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -1439,7 +1439,7 @@ h2.whtdowdo:after {
 	padding: 45px 0px 45px 0px;
 	font-size: 33px;
 	font-weight: 600;
-	color: #0568b0;
+	color: #0971b7;
 	letter-spacing: 0.5px;
 	font-family: sans-serif;
 }
@@ -1450,7 +1450,7 @@ h2.whtdowdo:after {
 	text-align: center;
 	position: relative;
 	width: 9%;
-	border: 1px solid #0568b0;
+	border: 1px solid #0971b7;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -1461,13 +1461,20 @@ p.team-para:after {
 	text-align: center;
 	position: relative;
 	width: 15%;
-	border: 1px solid #0568b0;
+	border: 1px solid #0971b7;
 	margin: auto;
 	margin-top: 14px;
 }
 
 h2.team-heading:after {
-	content: none;
+	content: '';
+	display: block;
+	text-align: center;
+	position: relative;
+	width: 10%;
+	border: 1.0px solid #0971b7 !important;
+	margin: auto;
+	margin-top: 14px;
 }
 
 h2.team-heading {
@@ -1543,7 +1550,7 @@ h2.tech-heading {
 	text-align: center;
 	font-size: 33px;
 	font-weight: 600;
-	color: #0568b0;
+	color: #0971b7;
 	padding: 45px 0px 5px 0px;
 	letter-spacing: 0.5px;
 	font-family: sans-serif;
@@ -1555,7 +1562,7 @@ p.techpara:after {
 	text-align: center;
 	position: relative;
 	width: 15%;
-	border: 1px solid #0568b0;
+	border: 1px solid #0971b7;
 	margin: auto;
 	margin-top: 14px;
 }
@@ -2326,6 +2333,21 @@ span.mb-span {
 	margin-left: 10px;
 	list-style-type: circle;
 	display: list-item;
+}
+
+.nextButtons button {
+	background: #fff532;
+	border: 1px solid #fff532;
+	padding: 8px 40px;
+	border-radius: 25px;
+	margin: 0px 0px;
+}
+
+.nextButtons {
+	margin: 10px 10px 10px 10px;
+}
+.next-main {
+	padding: 0px 0px 40px 0px;
 }
 
 /*img {
