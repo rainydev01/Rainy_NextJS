@@ -46,12 +46,11 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
+					<div className="container-fluid journeymain">
 					<div className="container">
 						<ul className="timeline">
 							<li>
-								<div className="timeline-badge">
-									<i className="glyphicon glyphicon-check" />
-								</div>
+							<div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
 								<div className="timeline-badge right-drop">
 									<i className="glyphicon glyphicon-tint">
 										<span>
@@ -76,6 +75,12 @@ export default function Home() {
 									</div>
 								</div>
 							</li>
+						</ul>
+					</div>
+				</div>			
+				<div className="container-fluid" style={{backgroundImage: 'url(/static/images/halfdropbg.png)', backgroundRepeat: 'no-repeat'}}>
+					<div className="container">
+						<ul className="timeline">
 							<li className="timeline-inverted">
 								<div className="timeline-badge warning">
 									<i className="glyphicon glyphicon-credit-card" />
@@ -103,6 +108,12 @@ export default function Home() {
 									</div>
 								</div>
 							</li>
+						</ul>
+					</div>
+				</div>			
+				<div className="container-fluid" style={{backgroundImage: 'url(/static/images/singledroprightbg.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
+					<div className="container">
+						<ul className="timeline">
 							<li>
 								<div className="timeline-badge danger">
 									<i className="glyphicon glyphicon-credit-card" />
@@ -130,6 +141,12 @@ export default function Home() {
 									</div>
 								</div>
 							</li>
+						</ul>
+					</div>
+				</div>			
+				<div className="container-fluid" style={{backgroundImage: 'url(/static/images/singledropbg.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom left'}}>
+					<div className="container">
+						<ul className="timeline">
 							<li className="timeline-inverted">
 								<div className="timeline-badge danger">
 									<i className="glyphicon glyphicon-credit-card" />
@@ -157,6 +174,12 @@ export default function Home() {
 									</div>
 								</div>
 							</li>
+						</ul>
+					</div>
+				</div>			
+				<div className="container-fluid">
+					<div className="container">
+						<ul className="timeline">
 							<li>
 								<div className="timeline-badge danger">
 									<i className="glyphicon glyphicon-credit-card" />
@@ -184,6 +207,12 @@ export default function Home() {
 									</div>
 								</div>
 							</li>
+						</ul>
+					</div>
+				</div>			
+				<div className="container-fluid">
+					<div className="container">
+						<ul className="timeline">
 							<li className="timeline-inverted">
 								<div className="timeline-badge danger">
 									<i className="glyphicon glyphicon-credit-card" />
@@ -211,6 +240,12 @@ export default function Home() {
 									</div>
 								</div>
 							</li>
+						</ul>
+					</div>
+				</div>			
+				<div className="container-fluid">
+					<div className="container">
+						<ul className="timeline">
 							<li>
 								<div className="timeline-badge danger">
 									<i className="glyphicon glyphicon-credit-card" />
@@ -238,6 +273,12 @@ export default function Home() {
 									</div>
 								</div>
 							</li>
+						</ul>
+					</div>
+				</div>			
+				<div className="container-fluid">
+					<div className="container">
+						<ul className="timeline">
 							<li className="timeline-inverted">
 								
 								<div className="timeline-panel right-imghis">
@@ -250,9 +291,10 @@ export default function Home() {
 							</li>
 						</ul>
 					</div>
-					<Footer />
 				</div>
-			</main>
+				<Footer />
+			</div>
+		</main>
 
 			<footer />
 		</Fragment>
