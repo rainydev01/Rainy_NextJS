@@ -722,9 +722,9 @@ a.diffcolormenu {
 .groundwaterstxt button {
 	background: #fff532;
 	border: 1px solid #fff532;
-	padding: 5px 30px;
+	padding: 8px 40px;
 	border-radius: 25px;
-	margin: 25px 0px;
+	margin: 0px 0px;
 }
 
 .easyinsta.threecntr img {
@@ -750,7 +750,7 @@ a.diffcolormenu {
 }
 
 .groundwaterstxt {
-	padding: 90px 10px;
+	padding: 15px 10px;
 }
 
 /* slider */
@@ -962,20 +962,20 @@ p {
 }
 
 .easyinsta.threecntr {
-	padding: 20px 10px;
+	padding: 15px 10px;
 	text-align: left;
 }
 
 .wderng.threecntr {
-	padding: 20px 10px;
+	padding: 10px 10px;
 }
 
 .cstefftve.threecntr {
-	padding: 20px 10px;
+	padding: 10px 10px;
 }
 
 .threecntr p {
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 500;
 	color: #4c3f43;
 }
@@ -1051,7 +1051,7 @@ h2.whtdowdo:after {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
-	padding: 110px 0px;
+	padding: 120px 0px;
 }
 
 /* our journey */
@@ -2321,8 +2321,14 @@ span.mb-span {
 	padding: 60px 0px 0px 0px;
 }
 
- {
-	/*img {
+.bullet.li {
+	font-size: 14px;
+	margin-left: 10px;
+	list-style-type: circle;
+	display: list-item;
+}
+
+/*img {
   width: 100%;
   height: auto;
 	padding: 5px;
@@ -2385,4 +2391,3 @@ span.mb-span {
         display: none !important;
     }
 }*/
-}

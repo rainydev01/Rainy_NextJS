@@ -15,8 +15,8 @@ const RWHFilters = () => {
 									Modern Technology<img src="../static/images/homepage/propertiesRWH/modernTech.png" />
 								</h3>
 								<p>
-									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.{' '}
+									RAINY filters made with highly durable, food-grade material and have self cleaning
+									capabilties to auto-flush out debris.
 								</p>
 							</div>
 							<div className="intfltrs threecntr">
@@ -24,8 +24,8 @@ const RWHFilters = () => {
 									Dual Intensity Filters<img src="../static/images/homepage/propertiesRWH/dualIntensityFilter.png" />
 								</h3>
 								<p>
-									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.
+									Our filters work on the principle of cohesion & centrifugal force. This enables
+									filtering at variable intensity of rainfall without affecting the efficiency.
 								</p>
 							</div>
 							<div className="extrnlenrgy threecntr">
@@ -33,8 +33,9 @@ const RWHFilters = () => {
 									No External Energy Required<img src="../static/images/homepage/propertiesRWH/noEnergy.png" />
 								</h3>
 								<p>
-									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.
+									Works on Gravitational Force and does not require any external energy. Low
+									gravitational head of just 1 feet makes it feasible for installation on any
+									building.
 								</p>
 							</div>
 						</div>
@@ -48,8 +49,9 @@ const RWHFilters = () => {
 									Installation
 								</h3>
 								<p>
-									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.{' '}
+									360 degree union rotation capability make these filters suitable for any site
+									conditions. Easily wall mounted, self installable with easy to understand
+									instructions make it user friendly.
 								</p>
 							</div>
 							<div className="wderng threecntr">
@@ -57,8 +59,9 @@ const RWHFilters = () => {
 									<img src="../static/images/homepage/propertiesRWH/wideRange.png" />Wide Range
 								</h3>
 								<p>
-									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.{' '}
+									Various models available to suit rooftop areas ranging from 110 sqm to 500 sqm. The
+									collected water can be diverted to underground sump, existing borewell or other
+									water reservoirs.
 								</p>
 							</div>
 							<div className="cstefftve threecntr">
@@ -67,8 +70,8 @@ const RWHFilters = () => {
 									Effective & Affordable
 								</h3>
 								<p>
-									Lorum ipsum is a dummy text. Lorum ipsum is a dummy text. Lorum ipsum is a dummy
-									text. Lorum ipsum is a dummy text.{' '}
+									Rainy filters have no moving parts, eliminating any wear and tear. This makes them
+									long lasting with only one time economical purchase cost.
 								</p>
 							</div>
 						</div>

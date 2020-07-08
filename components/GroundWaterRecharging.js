@@ -12,13 +12,19 @@ const GroundWaterRecharging = () => {
 					</div>
 					<div className="col-md-6">
 						<div className="groundwaterstxt">
-							<h3>Ground Water Recharging</h3>
+							<h3>Ground Water Recharging System</h3>
 							<p>
-								Lorum ipsum doller sit amet, lorum ipsum is a dummy text for web. Lorum ipsum doller sit
-								amet, lorum ipsum is a dummy text for web. Lorum ipsum doller sit amet, lorum ipsum is a
-								dummy text for web. Lorum ipsum doller sit amet, lorum ipsum is a dummy text for web.{' '}
+								‘V wire injection well' technology is used to recharge groundwater source and replenish
+								the water table. Run off rainwater is made to pass into a silt trap through a channel
+								and then to an injection well. Here, it goes through multiple filtration media and is
+								eventually passed on to a specially designed storage well. The storage well has dual non
+								clogging V Wire screens attached to a percolator pipe. The clean water is then made to
+								percolate into deep layers of the earth's strata, ultimately recharging the groundwater
+								source and replenishing the water table.
 							</p>
-							<button>Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+							<button>
+								Read More <i class="fa fa-angle-right" aria-hidden="true" />
+							</button>
 						</div>
 					</div>
 				</div>
