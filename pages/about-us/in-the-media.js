@@ -2,13 +2,9 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../../components/Header';
-import Banner from '../../components/Banner';
-import WhatWeDo from '../../components/WhatWeDo';
 import Footer from '../../components/Footer';
-import AboutUs from '../../components/AboutUs';
-import RWHFilters from '../../components/RWHFilters';
-import FilterToSelect from '../../components/FilterToSelect';
-import GroundWaterRecharging from '../../components/GroundWaterRecharging';
+
+import SliderNews from '../../components/SliderNews';
 
 export default function Home() {
 	return (
@@ -34,6 +30,7 @@ export default function Home() {
 				<div className="App">
 					<h1> Media</h1>
 					<Header />
+
 					<div className="container-fluid banner enternal" style={{ marginTop: '-6%' }}>
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/media/mediaBanner.png" />
@@ -42,267 +39,17 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
+					<div className="container" />
 					<div className="container">
 						<div className="groundwater_bg team">
 							<h2 className="team-heading media-hdng">MEDIA COVERAGE & ARTICLES</h2>
 						</div>
 					</div>
+					<SliderNews />
 
-					<div className="container media-main">
-						<div className="col-md-4">
-							<div className="sec-brdr">
-								<div className="mdiaimg">
-									<img src="../../static/images/media/media1.png" />
-								</div>
-								<div className="mdiacont">
-									<div className="grndtext">
-										<h3>
-											Farmland Rainwater Harvesting Systems Wins Aqua Foundations Excellence
-											Award. 1
-										</h3>
-										<p
-											style={{
-												textAlign: 'left',
-												color: '#4c3f43',
-												fontSize: '12px',
-												fontWeight: '500',
-												letterSpacing: '0.5px'
-											}}
-										>
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.{' '}
-										</p>
-										<div className="mdiasocial">
-											<div className="col-md-6 mediasocial">
-												<i className="fa fa-facebook" aria-hidden="true" />
-												<i className="fa fa-twitter" aria-hidden="true" />
-												<i className="fa fa-google-plus" aria-hidden="true" />
-											</div>
-											<div className="col-md-6 mediabtn">
-												<button>
-													Read more <i class="fa fa-angle-right" aria-hidden="true" />
-												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div className="col-md-4">
-							<div className="sec-brdr">
-								<div className="mdiaimg">
-									<img src="../../static/images/media/media2.png" />
-								</div>
-								<div className="mdiacont">
-									<div className="grndtext">
-										<h3>
-											SKOCH Award Winner: Farmland Rainwater harvesting Systems.<br />
-										</h3>
-										<p
-											style={{
-												textAlign: 'left',
-												color: '#4c3f43',
-												fontSize: '12px',
-												fontWeight: '500',
-												letterSpacing: '0.5px'
-											}}
-										>
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web.
-										</p>
-										<div className="mdiasocial">
-											<div className="col-md-6 mediasocial">
-												<i className="fa fa-facebook" aria-hidden="true" />
-												<i className="fa fa-twitter" aria-hidden="true" />
-												<i className="fa fa-google-plus" aria-hidden="true" />
-											</div>
-											<div className="col-md-6 mediabtn">
-												<button>
-													Read more <i class="fa fa-angle-right" aria-hidden="true" />
-												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-md-4">
-							<div className="sec-brdr">
-								<div className="mdiaimg">
-									<img src="../../static/images/media/media3.png" />
-								</div>
-								<div className="mdiacont">
-									<div className="grndtext">
-										<h3>
-											Where Suvarna Jala Fails, Schools Leap ahead.<br />
-										</h3>
-										<p
-											style={{
-												textAlign: 'left',
-												color: '#4c3f43',
-												fontSize: '12px',
-												fontWeight: '500',
-												letterSpacing: '0.5px'
-											}}
-										>
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web.
-										</p>
-										<div className="mdiasocial">
-											<div className="col-md-6 mediasocial">
-												<i className="fa fa-facebook" aria-hidden="true" />
-												<i className="fa fa-twitter" aria-hidden="true" />
-												<i className="fa fa-google-plus" aria-hidden="true" />
-											</div>
-											<div className="col-md-6 mediabtn">
-												<button>
-													Read more <i class="fa fa-angle-right" aria-hidden="true" />
-												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="container next-main">
-						<div className="nextButtons">
-							<button>
-								<i class="fa fa-angle-left" aria-hidden="true" /> Prev
-							</button>
-							<button style={{ alignContent: 'right', float: 'right' }}>
-								Next <i class="fa fa-angle-right" aria-hidden="true" />
-							</button>
-						</div>
-					</div>
-
-					<div className="container media-main">
-						<div className="col-md-4">
-							<div className="sec-brdr">
-								<div className="mdiaimg">
-									<img src="../../static/images/media/media1.png" />
-								</div>
-								<div className="mdiacont">
-									<div className="grndtext">
-										<h3>
-											Farmland Rainwater Harvesting Systems Wins Aqua Foundations Excellence
-											Award.
-										</h3>
-										<p
-											style={{
-												textAlign: 'left',
-												color: '#4c3f43',
-												fontSize: '12px',
-												fontWeight: '500',
-												letterSpacing: '0.5px'
-											}}
-										>
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.{' '}
-										</p>
-										<div className="mdiasocial">
-											<div className="col-md-6 mediasocial">
-												<i className="fa fa-facebook" aria-hidden="true" />
-												<i className="fa fa-twitter" aria-hidden="true" />
-												<i className="fa fa-google-plus" aria-hidden="true" />
-											</div>
-											<div className="col-md-6 mediabtn">
-												<button>
-													Read more <i class="fa fa-angle-right" aria-hidden="true" />
-												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div className="col-md-4">
-							<div className="sec-brdr">
-								<div className="mdiaimg">
-									<img src="../../static/images/media/media2.png" />
-								</div>
-								<div className="mdiacont">
-									<div className="grndtext">
-										<h3>
-											SKOCH Award Winner: Farmland Rainwater harvesting Systems.<br />
-										</h3>
-										<p
-											style={{
-												textAlign: 'left',
-												color: '#4c3f43',
-												fontSize: '12px',
-												fontWeight: '500',
-												letterSpacing: '0.5px'
-											}}
-										>
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web.
-										</p>
-										<div className="mdiasocial">
-											<div className="col-md-6 mediasocial">
-												<i className="fa fa-facebook" aria-hidden="true" />
-												<i className="fa fa-twitter" aria-hidden="true" />
-												<i className="fa fa-google-plus" aria-hidden="true" />
-											</div>
-											<div className="col-md-6 mediabtn">
-												<button>
-													Read more <i class="fa fa-angle-right" aria-hidden="true" />
-												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-md-4">
-							<div className="sec-brdr">
-								<div className="mdiaimg">
-									<img src="../../static/images/media/media3.png" />
-								</div>
-								<div className="mdiacont">
-									<div className="grndtext">
-										<h3>
-											Where Suvarna Jala Fails, Schools Leap ahead.<br />
-										</h3>
-										<p
-											style={{
-												textAlign: 'left',
-												color: '#4c3f43',
-												fontSize: '12px',
-												fontWeight: '500',
-												letterSpacing: '0.5px'
-											}}
-										>
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web. Lorum ispum is a dummy text for web.
-											Lorum ispum is a dummy text for web.
-										</p>
-										<div className="mdiasocial">
-											<div className="col-md-6 mediasocial">
-												<i className="fa fa-facebook" aria-hidden="true" />
-												<i className="fa fa-twitter" aria-hidden="true" />
-												<i className="fa fa-google-plus" aria-hidden="true" />
-											</div>
-											<div className="col-md-6 mediabtn">
-												<button>
-													Read more <i class="fa fa-angle-right" aria-hidden="true" />
-												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div className="container-fluid award">
 						<h1>OUR AWARDS</h1>
 					</div>
-
 					<div className="container-fluid award-image">
 						<div className="container awrdimgsec">
 							<img src="../../static/images/media/Award1.png" />
@@ -313,7 +60,6 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-
 					<Footer />
 				</div>
 			</main>
