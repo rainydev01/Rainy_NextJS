@@ -16,10 +16,13 @@ export default function Home() {
 					crossOrigin="anonymous"
 				/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
 			</Head>
 			<main>
 				<div className="App">
@@ -37,7 +40,10 @@ export default function Home() {
 						<div className="container">
 							<div className="row">
 								<div className="col-md-6">
-									<div className="rainyfilterimg rainyss" style={{float: 'right', marginRight: '45px'}}>
+									<div
+										className="rainyfilterimg rainyss"
+										style={{ float: 'right', marginRight: '45px' }}
+									>
 										<img src="../../static/images/systemsSolutions/RainyFilter.png" />
 									</div>
 								</div>
@@ -49,24 +55,89 @@ export default function Home() {
 										</p>
 										<ul>
 											<li>
-												Lorum ipsom is dolor aset. Its a dummy text.
+												{' '}
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>Lorum ipsom is dolor aset. Its a dummy text.
 											</li>
 											<li>
-												Lorum ipsom is dolor aset. Its a dummy text.
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>Lorum ipsom is dolor aset. Its a dummy text.
 											</li>
 											<li>
-												Lorum ipsom is dolor aset. Its a dummy text.
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>Lorum ipsom is dolor aset. Its a dummy text.
 											</li>
 											<li>
-												Lorum ipsom is dolor aset. Its a dummy text.
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>Lorum ipsom is dolor aset. Its a dummy text.
 											</li>
 											<li>
-												Lorum ipsom is dolor aset. Its a dummy text.
+												{' '}
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>Lorum ipsom is dolor aset. Its a dummy text.
 											</li>
 										</ul>
 									</div>
 									<div className="rnyfltrbtn senq">
-										<button id="rnenq">Enquiry</button>
+										<button id="rnenq">
+											Enquire <i class="fa fa-angle-right" aria-hidden="true" />
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="container-fluid wthothding" style={{ paddingTop: '30px' }}>
+						<div className="container">
+							<div className="row">
+								<div className="col-md-4">
+									<div className="gr3">
+										<img src="../../static/images/groundWater/Image2.png" />
+									</div>
+								</div>
+								<div className="col-md-4">
+									<div className="gr3">
+										<img src="../../static/images/groundWater/Image3.png" />
+									</div>
+								</div>
+								<div className="col-md-4">
+									<div className="gr3">
+										<img src="../../static/images/groundWater/Image4.png" />
 									</div>
 								</div>
 							</div>

@@ -16,10 +16,13 @@ export default function Home() {
 					crossOrigin="anonymous"
 				/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
 			</Head>
 			<main>
 				<div className="App">
@@ -37,7 +40,7 @@ export default function Home() {
 						<div className="container">
 							<div className="row">
 								<div className="col-md-6">
-									<div className="rainyfilterimg" style={{float: 'right', marginRight: '45px'}}>
+									<div className="rainyfilterimg" style={{ float: 'right', marginRight: '45px' }}>
 										<img src="../../static/images/groundWater/Image1.png" />
 									</div>
 								</div>
@@ -46,17 +49,21 @@ export default function Home() {
 										<p>
 											Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text
 											for web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset. Lorum
-											ipsom is a dummy text for web, Dolor aset.  Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset.
+											ipsom is a dummy text for web, Dolor aset. Dolor aset. Lorum ipsom is a
+											dummy text for web, Dolor aset.
 										</p>
 									</div>
 									<div className="rnyfltrbtn">
-										<button id="rnenq">Enquiry Now</button>
-										<button id="rnrdmr">Technical Specifications</button>
+										<button id="rnenq">
+											Enquiry Now <i class="fa fa-angle-right" aria-hidden="true" />
+										</button>
+										<button id="rnrdmr">
+											Technical Specifications <i class="fa fa-angle-right" aria-hidden="true" />
+										</button>
 									</div>
 								</div>
 							</div>
 						</div>
-						
 					</div>
 
 					<div className="container-fluid wthothding" style={{ paddingTop: '30px' }}>
@@ -82,43 +89,38 @@ export default function Home() {
 
 						<div className="container">
 							<div className="wrechrgngtbl">
-							<table class="table table-striped">
-							<thead>
-							  <tr style={{background: 'rgb(225, 241, 241)'}}>
-								<th>Suitable up to area:</th>
-								<th>110 SQMTRS</th>
-							  </tr>
-							</thead>
-							<tbody>
-							  <tr>
-								<td>Max: Intensity of Railfall:</td>
-								<td>75 mm / hr</td>
-							  </tr>
-							  <tr>
-								<th>Suitable up to area:</th>
-								<th>110 SQMTRS</th>
-							  </tr>
-							  <tr>
-							  <td>Max: Intensity of Railfall:</td>
-							  <td>75 mm / hr</td>
-							  </tr>
-							  <tr>
-								<td>Max: Intensity of Railfall:</td>
-								<td>75 mm / hr</td>
-							  </tr>
-							  <tr>
-								<th>Suitable up to area:</th>
-								<th>110 SQMTRS</th>
-							  </tr>
-							  <tr>
-							  <td>Max: Intensity of Railfall:</td>
-							  <td>75 mm / hr</td>
-							  </tr>
-							</tbody>
-						  </table>
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td style={{ width: '30%' }} className="borderRight">
+												Max: Intensity of Railfall:
+											</td>
+											<td>75 mm / hr</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Suitable up to area:</td>
+											<td>110 SQMTRS</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Max: Intensity of Railfall:</td>
+											<td>75 mm / hr</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Max: Intensity of Railfall:</td>
+											<td>75 mm / hr</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Suitable up to area:</td>
+											<td>110 SQMTRS</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Max: Intensity of Railfall:</td>
+											<td>75 mm / hr</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
-
 					</div>
 					<Footer />
 				</div>

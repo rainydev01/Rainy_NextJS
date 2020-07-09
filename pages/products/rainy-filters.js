@@ -64,16 +64,7 @@ export default function Home() {
 										<table class="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
-													<td
-														style={{
-															borderRight: 5,
-															borderRightColor: 'red',
-															borderRightPadding: 5
-														}}
-														className="borderRight"
-													>
-														Suitable up to area:
-													</td>
+													<td className="borderRight">Suitable up to area:</td>
 													<td>110 SQMTRS</td>
 												</tr>
 
