@@ -46,7 +46,7 @@ export default function Home() {
 											textAlign: 'center',
 											fontSize: '16px',
 											fontWeight: '500',
-											color: '#2c97d4'
+											color: 'black'
 										}}
 									>
 										Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text for
@@ -119,7 +119,7 @@ export default function Home() {
 											textAlign: 'center',
 											fontSize: '16px',
 											fontWeight: '500',
-											color: '#2c97d4'
+											color: 'black'
 										}}
 									>
 										Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text for
@@ -129,36 +129,35 @@ export default function Home() {
 								</div>
 								<div className="col-md-8">
 									<div className="techpointslst">
-										<table class="table table-striped">
-											<thead>
-												<tr style={{ background: 'rgb(225, 241, 241)' }}>
-													<th>Suitable up to area:</th>
-													<th>110 SQMTRS</th>
-												</tr>
-											</thead>
+										<table class="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
-													<td>Max: Intensity of Railfall:</td>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
 													<td>75 mm / hr</td>
 												</tr>
 												<tr>
-													<th>Suitable up to area:</th>
-													<th>110 SQMTRS</th>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
 												</tr>
 												<tr>
-													<td>Max: Intensity of Railfall:</td>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
 													<td>75 mm / hr</td>
 												</tr>
 												<tr>
-													<td>Max: Intensity of Railfall:</td>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
 													<td>75 mm / hr</td>
 												</tr>
 												<tr>
-													<th>Suitable up to area:</th>
-													<th>110 SQMTRS</th>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
 												</tr>
 												<tr>
-													<td>Max: Intensity of Railfall:</td>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
 													<td>75 mm / hr</td>
 												</tr>
 											</tbody>
@@ -180,29 +179,68 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-12">
 									<h1 className="fl80">FL 200</h1>
+									<p
+										style={{
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black'
+										}}
+									>
+										Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text for
+										web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is
+										a dummy text for web, Dolor aset.
+									</p>
 								</div>
-								<div className="col-md-6">
+								<div className="col-md-4">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL200.png" />
+										<img src="../../static/images/products/FL80.png" />
 									</div>
 								</div>
-								<div className="col-md-6">
-									<div className="techpointslst lstagn">
-										<p>
-											Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text
-											for web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset.
-										</p>
-										<ul>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text. </li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-										</ul>
-									</div>
-									<div className="rnyfltrbtn">
-										<button id="rnenq">Enquiry</button>
-										<button id="rnrdmr">Read More</button>
+								<div className="col-md-8">
+									<div className="techpointslst">
+										<table class="table table-striped  table-bordered ">
+											<tbody>
+												<tr>
+													<td
+														style={{
+															borderRight: 5,
+															borderRightColor: 'red',
+															borderRightPadding: 5
+														}}
+														className="borderRight"
+													>
+														Suitable up to area:
+													</td>
+													<td>110 SQMTRS</td>
+												</tr>
+
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+											</tbody>
+										</table>
 									</div>
 								</div>
 							</div>
@@ -214,28 +252,58 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-12">
 									<h1 className="fl80">FL 300</h1>
+									<p
+										style={{
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black'
+										}}
+									>
+										Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text for
+										web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is
+										a dummy text for web, Dolor aset.
+									</p>
 								</div>
-								<div className="col-md-6">
-									<div className="techpointslst lstagn">
-										<p>
-											Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text
-											for web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset.
-										</p>
-										<ul>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-										</ul>
-									</div>
-									<div className="rnyfltrbtn">
-										<button id="rnenq">Enquiry</button>
-										<button id="rnrdmr">Read More</button>
+								<div className="col-md-8">
+									<div className="techpointslst">
+										<table class="table table-striped  table-bordered ">
+											<tbody>
+												<tr>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+											</tbody>
+										</table>
 									</div>
 								</div>
 
-								<div className="col-md-6">
+								<div className="col-md-4">
 									<div className="rainyfilterimg">
 										<img src="../../static/images/products/FL100.png" />
 									</div>
@@ -249,29 +317,68 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-12">
 									<h1 className="fl80">FL 500</h1>
+									<p
+										style={{
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black'
+										}}
+									>
+										Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text for
+										web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is
+										a dummy text for web, Dolor aset.
+									</p>
 								</div>
-								<div className="col-md-6">
+								<div className="col-md-4">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL200.png" />
+										<img src="../../static/images/products/FL80.png" />
 									</div>
 								</div>
-								<div className="col-md-6">
-									<div className="techpointslst lstagn">
-										<p>
-											Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text
-											for web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset.
-										</p>
-										<ul>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text.</li>
-										</ul>
-									</div>
-									<div className="rnyfltrbtn">
-										<button id="rnenq">Enquiry</button>
-										<button id="rnrdmr">Read More</button>
+								<div className="col-md-8">
+									<div className="techpointslst">
+										<table class="table table-striped  table-bordered ">
+											<tbody>
+												<tr>
+													<td
+														style={{
+															borderRight: 5,
+															borderRightColor: 'red',
+															borderRightPadding: 5
+														}}
+														className="borderRight"
+													>
+														Suitable up to area:
+													</td>
+													<td>110 SQMTRS</td>
+												</tr>
+
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Suitable up to area:</td>
+													<td>110 SQMTRS</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Max: Intensity of Railfall:</td>
+													<td>75 mm / hr</td>
+												</tr>
+											</tbody>
+										</table>
 									</div>
 								</div>
 							</div>

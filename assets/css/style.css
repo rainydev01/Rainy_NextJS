@@ -1772,7 +1772,10 @@ h1.fl80 {
 	font-weight: 600;
 	color: #fff;
 	font-size: 35px;
-	background: #0971b7;
+	background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: linear-gradient(to bottom, #0971b7, #6ec6d8);
 	width: 27%;
 	margin: 45px auto;
 	padding: 10px 0px;
@@ -1842,7 +1845,10 @@ h1.fl80 {
 	font-weight: 600;
 	color: #fff;
 	font-size: 35px;
-	background: #0971b7;
+	background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: linear-gradient(to bottom, #0971b7, #6ec6d8);
 	width: 27%;
 	margin: 45px auto;
 	padding: 10px 0px;
@@ -1916,7 +1922,10 @@ h1.fl80 {
 	font-weight: 600;
 	color: #fff;
 	font-size: 35px;
-	background: #0971b7;
+	background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: linear-gradient(to bottom, #0971b7, #6ec6d8);
 	width: 27%;
 	margin: 45px auto;
 	padding: 10px 0px;
@@ -2010,7 +2019,10 @@ h1.fl80 {
 	font-weight: 600;
 	color: #fff;
 	font-size: 35px;
-	background: #0971b7;
+	background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: linear-gradient(to bottom, #0971b7, #6ec6d8);
 	width: 27%;
 	margin: 45px auto;
 	padding: 10px 0px;
