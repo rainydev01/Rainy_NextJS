@@ -1749,7 +1749,7 @@ button#rnenq {
 	background: #6ec6d8;
 	padding: 3px 30px;
 	color: #fff;
-	margin: 0px 15px;
+	margin: 0px 100px;
 	border-radius: 30px;
 }
 
@@ -1815,15 +1815,6 @@ h1.fl80 {
 .techacrsec .techpointslst ul li {
 	color: #000;
 	font-weight: 500;
-}
-
-button#rnenq {
-	border: 1px solid#6ec6d8;
-	background: #6ec6d8;
-	padding: 3px 30px;
-	color: #fff;
-	margin: 0px 15px;
-	border-radius: 30px;
 }
 
 button#rnrdmr {
@@ -1892,15 +1883,6 @@ h1.fl80 {
 .techacrsec .techpointslst ul li {
 	color: #000;
 	font-weight: 500;
-}
-
-button#rnenq {
-	border: 1px solid#6ec6d8;
-	background: #6ec6d8;
-	padding: 3px 30px;
-	color: #fff;
-	margin: 0px 15px;
-	border-radius: 30px;
 }
 
 button#rnrdmr {
@@ -1989,15 +1971,6 @@ h1.fl80 {
 .techacrsec .techpointslst ul li {
 	color: #000;
 	font-weight: 500;
-}
-
-button#rnenq {
-	border: 1px solid#6ec6d8;
-	background: #6ec6d8;
-	padding: 3px 30px;
-	color: #fff;
-	margin: 0px 15px;
-	border-radius: 30px;
 }
 
 button#rnrdmr {
@@ -2218,14 +2191,7 @@ h6.contacth img {
 	font-size: 16px;
 	color: #000;
 }
-button#rnenq {
-	border: 1px solid#6ec6d8;
-	background: #6ec6d8;
-	padding: 3px 30px;
-	color: #fff;
-	margin: 0px 15px;
-	border-radius: 30px;
-}
+
 /* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
