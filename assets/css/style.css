@@ -1512,7 +1512,7 @@ h4.team-title {
 	font-size: 26px;
 	margin: 10px 0px;
 	font-weight: 600;
-	color: #056eb5;
+	color: #0971b7;
 }
 
 p.team-desc {
@@ -1620,7 +1620,7 @@ ul {
 h5.mb-0 a {
 	font-size: 26px;
 	font-weight: 600;
-	color: #0285c8;
+	color: #4c3f43;
 	letter-spacing: 0.5px;
 }
 span.mb-span {
@@ -1639,6 +1639,7 @@ span.mb-span {
 	right: 10%;
 	font-weight: 200;
 	font-size: 22px;
+	color: #6ec6d8;
 }
 .mb-0 > a[aria-expanded="true"]:after {
 	content: "\f077";
@@ -1712,16 +1713,16 @@ h5.mb0diff a {
 	padding-right: 10%;
 	margin: 0px;
 }
-.techpointslst ul li:before {
-	content: '';
+/* .techpointslst ul li:before {
+	content: none;
 	display: inline-block;
 	height: 1em;
 	width: 1em;
-	background-image: url(../../static/images/Drop.png);
+	background-image: url(../../static/images/elements/resizedDrop.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
-}
+} */
 
 /* Rainy Filters */
 
@@ -1782,7 +1783,7 @@ h1.fl80 {
 	background: #dff7f7;
 	padding-bottom: 45px;
 }
-.techpointslst ul li:before {
+/* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
 	height: 1em;
@@ -1791,7 +1792,7 @@ h1.fl80 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
-}
+} */
 
 /* Ground water Recharging */
 
@@ -1856,7 +1857,7 @@ h1.fl80 {
 .wthothding {
 	padding: 60px 0px;
 }
-.techpointslst ul li:before {
+/* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
 	height: 1em;
@@ -1865,7 +1866,7 @@ h1.fl80 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
-}
+} */
 
 /* Systems and Solutions */
 
@@ -1942,7 +1943,7 @@ h1.fl80 {
 	float: right;
 	margin-right: 15%;
 }
-.techpointslst ul li:before {
+/* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
 	height: 1em;
@@ -1951,7 +1952,7 @@ h1.fl80 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
-}
+} */
 
 /* Gallery */
 .rnyfltrs {
@@ -2082,7 +2083,7 @@ h1.fl80 {
 .gallery_product {
 	margin-bottom: 30px;
 }
-.techpointslst ul li:before {
+/* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
 	height: 1em;
@@ -2091,7 +2092,7 @@ h1.fl80 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
-}
+} */
 
 /* Get In Touch */
 
@@ -2213,7 +2214,7 @@ button#rnenq {
 	margin: 0px 15px;
 	border-radius: 30px;
 }
-.techpointslst ul li:before {
+/* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
 	height: 1em;
@@ -2222,7 +2223,7 @@ button#rnenq {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
-}
+} */
 .sssprt h1 {
 	text-align: center;
 	padding: 150px 0px;
@@ -2265,7 +2266,7 @@ button#rnenq {
 h5.mb-0 a {
 	font-size: 26px;
 	font-weight: 600;
-	color: #0285c8;
+	color: #4c3f43;
 	letter-spacing: 0.5px;
 }
 span.mb-span {
@@ -2281,9 +2282,10 @@ span.mb-span {
 	content: "\f078";
 	font-family: 'FontAwesome';
 	position: absolute;
-	right: 10%;
-	font-weight: 200;
-	font-size: 22px;
+	right: 12%;
+	font-weight: 100;
+	font-size: 16px;
+	color: #6ec6d8;
 }
 .mb-0 > a[aria-expanded="true"]:after {
 	content: "\f077";
@@ -2440,4 +2442,18 @@ span.mb-span {
 .scroll-menu-arrow {
 	padding: 20px;
 	cursor: pointer;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+	background-color: #eff8fc;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+	background-color: #a7c7ea;
+}
+
+.borderRight {
+	border-right: 3px solid white !important;
 }
