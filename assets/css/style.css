@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Visby Round CF Heavy";
+	src: url('../../public/fonts/VisbyRoundCFHeavy.ttf');
+}
+
 .main_container {
 	max-width: 740px;
 	height: 100%;
@@ -48,7 +53,7 @@
 	text-decoration: none;
 	margin-top: 80px;
 	text-align: center;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: "Visby Round CF Heavy";
 	color: #3e3e3e;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -82,8 +87,8 @@ body {
 	mso-margin-top-alt: 0px;
 	mso-margin-bottom-alt: 0px;
 	mso-padding-alt: 0px 0px 0px 0px;
-	background: green;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	background: white;
+	font-family: "Visby Round CF Heavy";
 }
 
 .container-fluid {
@@ -114,7 +119,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'M PLUS Rounded 1c', sans-serif !important;
+	font-family: "Visby Round CF Heavy";
 }
 
 table {
@@ -180,7 +185,7 @@ a:active {
 .fancy-button {
 	display: inline-block;
 	margin: 0px;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: "Visby Round CF Heavy";
 	font-size: 5px;
 	letter-spacing: 0em;
 	text-transform: uppercase;
@@ -277,7 +282,7 @@ body {
 	background-color: #fff;
 	height: 100%;
 	margin: 0;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: "Visby Round CF Heavy";
 	font-size: 1em;
 	color: #696969;
 	-webkit-font-smoothing: antialiased;
@@ -877,14 +882,14 @@ body {
 a {
 	font-weight: 500;
 	font-size: 14px;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: "Visby Round CF Heavy";
 	letter-spacing: 0px;
 }
 
 p {
 	font-weight: 500;
 	font-size: 14px;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: "Visby Round CF Heavy";
 	letter-spacing: 0px;
 }
 
@@ -924,7 +929,7 @@ p {
 	font-weight: 600;
 	color: #0971b7;
 	letter-spacing: 0px;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: "Visby Round CF Heavy";
 }
 
 .abou-home-heading h2:after {
@@ -1008,7 +1013,7 @@ p {
 	font-weight: 600;
 	color: #0971b7;
 	letter-spacing: 0px;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: "Visby Round CF Heavy";
 }
 
 h2.whtdowdo:after {
@@ -1673,7 +1678,7 @@ span.mb-span {
 
 .mb-0 > a:after {
 	content: "\f078";
-	font-family: 'FontAwesome';
+	font-family: "Visby Round CF Heavy";
 	position: absolute;
 	right: 10%;
 	font-weight: 200;
@@ -2297,7 +2302,7 @@ span.mb-span {
 
 .mb-0 > a:after {
 	content: "\f078";
-	font-family: 'FontAwesome';
+	font-family: "Visby Round CF Heavy";
 	position: absolute;
 	right: 12%;
 	font-weight: 100;
