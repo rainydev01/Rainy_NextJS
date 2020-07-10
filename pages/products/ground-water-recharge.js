@@ -47,19 +47,39 @@ export default function Home() {
 								<div className="col-md-6">
 									<div className="techpointslst wrechrg">
 										<p>
-											Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text
-											for web, Dolor aset. Lorum ipsom is a dummy text for web, Dolor aset. Lorum
-											ipsom is a dummy text for web, Dolor aset. Dolor aset. Lorum ipsom is a
-											dummy text for web, Dolor aset.
+											Ground water recharging is done using V Wire Injection Well Technology. This
+											modern methodology uses V-Wire Screens for filtration. This works on
+											gravitational force and does not require any energy, making it durable with
+											a long life span.
 										</p>
 									</div>
-									<div className="rnyfltrbtn">
-										<button id="rnenq">
-											Enquiry Now <i class="fa fa-angle-right" aria-hidden="true" />
-										</button>
-										<button id="rnrdmr">
-											Technical Specifications <i class="fa fa-angle-right" aria-hidden="true" />
-										</button>
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-md-6">
+												<div className="rnyfltrbtn">
+													<button id="rnrdmr">
+														Technical Specifications
+														<i
+															style={{ paddingLeft: 5 }}
+															class="fa fa-angle-right"
+															aria-hidden="true"
+														/>
+													</button>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div className="rnyfltrbtn">
+													<button id="rnenq">
+														Enquire Now{' '}
+														<i
+															style={{ paddingLeft: 5 }}
+															class="fa fa-angle-right"
+															aria-hidden="true"
+														/>
+													</button>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -92,30 +112,70 @@ export default function Home() {
 								<table class="table table-striped">
 									<tbody>
 										<tr>
-											<td style={{ width: '30%' }} className="borderRight">
-												Max: Intensity of Railfall:
+											<td style={{ width: '40%' }} className="borderRight">
+												Suitable up to area:
 											</td>
-											<td>75 mm / hr</td>
+											<td>1 to 8 acres</td>
 										</tr>
 										<tr>
-											<td className="borderRight">Suitable up to area:</td>
-											<td>110 SQMTRS</td>
+											<td className="borderRight">Max: Intensity of Rainfall:</td>
+											<td>12.5 - 75 mm/hr</td>
 										</tr>
 										<tr>
-											<td className="borderRight">Max: Intensity of Railfall:</td>
-											<td>75 mm / hr</td>
+											<td className="borderRight">Working Principle :</td>
+											<td>Gravitational Water Column Pressure</td>
 										</tr>
 										<tr>
-											<td className="borderRight">Max: Intensity of Railfall:</td>
-											<td>75 mm / hr</td>
+											<td className="borderRight">Operating Pressure:</td>
+											<td>0.05-0.6 kg/ cm2</td>
 										</tr>
 										<tr>
-											<td className="borderRight">Suitable up to area:</td>
-											<td>110 SQMTRS</td>
+											<td className="borderRight">Percolation Capacity:</td>
+											<td>25 – 50K Litres/ Day</td>
 										</tr>
 										<tr>
-											<td className="borderRight">Max: Intensity of Railfall:</td>
-											<td>75 mm / hr</td>
+											<td className="borderRight">Filter Unit for Injection:</td>
+											<td>SS-304 V Wire Screen</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Slot Size:</td>
+											<td>0.75mm</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Discharge Capacity of V-Wire:</td>
+											<td>5-20 LPS</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Percolator Pipe: </td>
+											<td>140mm perforated holes at every 30 mm, HDPE pipe with 8 mm spirally</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Diameter of Injection Well:</td>
+											<td>1350 to 2100 mm</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Depth of Injection Well:</td>
+											<td>5 to 6 m</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Diameter of Recharging Bore:</td>
+											<td>225 mm</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Depth of the Recharging Bore:</td>
+											<td>20 to 60 m depending on the permeable layer</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Diameter of the SILT Trap Unit:</td>
+											<td>a1000 to 1350 mmsd</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Depth of the SILT Trap Unit:</td>
+											<td>1 to 3 m</td>
+										</tr>
+										<tr>
+											<td className="borderRight">Diameter of the Filter Unit in Silt Trap:</td>
+											<td>SS-304 Horizontal Mount – 150 to 200 mm, Slot Size: 3 mm</td>
 										</tr>
 									</tbody>
 								</table>
