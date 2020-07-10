@@ -2490,3 +2490,12 @@ span.mb-span {
 .borderRight {
 	border-right: 3px solid white !important;
 }
+
+.yellowbtn button {
+	border: 1px solid#fff532;
+	background: #fff532;
+	padding: 3px 30px;
+	color: #000;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
