@@ -56,13 +56,13 @@ const Footer = () => {
 				<div className="container">
 					<ul>
 						<li>
-							<a href=""> Terms & Conditions </a>|
+							<a href="# "> Terms & Conditions </a>|
 						</li>
 						<li>
-							<a href=""> Privacy Policy </a>|
+							<a href="# "> Privacy Policy </a>|
 						</li>
 						<li>
-							<a href=""> Copyright 2020 chiragr.com</a>
+							<a href="# "> Copyright 2020 </a>
 						</li>
 					</ul>
 				</div>

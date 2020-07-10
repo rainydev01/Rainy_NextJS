@@ -45,9 +45,9 @@ export default function Home() {
 						<div className="container">
 							<h2 className="team-heading">EXPERIENCED AND PROFESSIONAL TEAM</h2>
 							<p className="team-para">
-								Lorum ipsum dolor sit amet, conseteture sadipscing elitr, set diam nonumy. Lorum ipsum
-								dolor sit amet, conseteture sadipscing elitr, set diam nonumy Lorum ipsum dolor sit
-								amet, conseteture sadipscing elitr, set diam nonumy
+								Our leadership team bring in diverse experience of over 20 years, using their deep
+								knowledge of the RWH industry to lead with integrity and fairness and steer the company
+								toward greater heights.
 							</p>
 						</div>
 
@@ -58,14 +58,23 @@ export default function Home() {
 										<img src="../../static/images/team/team1.png" />
 									</div>
 									<div>
-										<h4 className="team-title">Manoj Baptist</h4>
-										<p className="team-desc">Director</p>
+										<h4 className="team-title">Michael Baptist</h4>
+										<p className="team-desc">Co-founder & Director</p>
 										<p>
-											<i className="fa fa-mobile" aria-hidden="true" /> +91 94480 76595
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-mobile"
+												aria-hidden="true"
+											/>
+											+91 94480 76595
 										</p>
 										<p>
-											<i className="fa fa-envelope-o" aria-hidden="true" />{' '}
-											rainharvesting@gmail.com
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-envelope-o"
+												aria-hidden="true"
+											/>
+											michael@rainyfilters.com
 										</p>
 									</div>
 								</div>
@@ -74,14 +83,22 @@ export default function Home() {
 										<img src="../../static/images/team/team2.png" />
 									</div>
 									<div>
-										<h4 className="team-title">Micheal Baptist</h4>
-										<p className="team-desc">Co-Founder & Director</p>
+										<h4 className="team-title">Vijayaraj Shishodia</h4>
+										<p className="team-desc">Co-founder & Director</p>
 										<p>
-											<i className="fa fa-mobile" aria-hidden="true" /> +91 94480 76595
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-mobile"
+												aria-hidden="true"
+											/>+91 94481 30524
 										</p>
 										<p>
-											<i className="fa fa-envelope-o" aria-hidden="true" />{' '}
-											rainharvesting@gmail.com
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-envelope-o"
+												aria-hidden="true"
+											/>
+											vijayaraj@rainyfilters.com
 										</p>
 									</div>
 								</div>
@@ -93,14 +110,22 @@ export default function Home() {
 										<img src="../../static/images/team/team3.png" />
 									</div>
 									<div>
-										<h4 className="team-title">Vijayraj Shishodia</h4>
-										<p className="team-desc">Co-Founder & Director</p>
+										<h4 className="team-title">Sunil Baptist</h4>
+										<p className="team-desc">Co-founder & Director</p>
 										<p>
-											<i className="fa fa-mobile" aria-hidden="true" /> +91 94480 76595
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-mobile"
+												aria-hidden="true"
+											/>+91 98809 76325
 										</p>
 										<p>
-											<i className="fa fa-envelope-o" aria-hidden="true" />{' '}
-											rainharvesting@gmail.com
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-envelope-o"
+												aria-hidden="true"
+											/>
+											sunil@rainyfilters.com
 										</p>
 									</div>
 								</div>
@@ -109,48 +134,23 @@ export default function Home() {
 										<img src="../../static/images/team/team4.png" />
 									</div>
 									<div>
-										<h4 className="team-title">Sunil Baptist</h4>
-										<p className="team-desc">Co-Founder & Director</p>
+										<h4 className="team-title">Manoj Baptist</h4>
+										<p className="team-desc">Director</p>
 										<p>
-											<i className="fa fa-mobile" aria-hidden="true" /> +91 94480 76595
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-mobile"
+												aria-hidden="true"
+											/>+91 87221 54444
 										</p>
 										<p>
-											<i className="fa fa-envelope-o" aria-hidden="true" />{' '}
+											<i
+												style={{ paddingRight: 5 }}
+												className="fa fa-envelope-o"
+												aria-hidden="true"
+											/>
 											rainharvesting@gmail.com
 										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div className="container-fluid sawar">
-						<h1>SOCIAL AWARENESS</h1>
-					</div>
-
-					<div className="container-fluid">
-						<div className="container groundwater">
-							<div className="groundwatersec">
-								<div className="col-md-6">
-									<div className="groundwatersimg">
-										<img src="../static/images/homepage/groundWaterRecharging.png" />
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="groundwaterstxt" style={{ paddingTop: '20px' }}>
-										<h3>Ground Water Recharging</h3>
-										<p>
-											Lorum ipsum doller sit amet, lorum ipsum is a dummy text for web. Lorum
-											ipsum doller sit amet, lorum ipsum is a dummy text for web. Lorum ipsum
-											doller sit amet, lorum ipsum is a dummy text for web. Lorum ipsum doller sit
-											amet, lorum ipsum is a dummy text for web. <br />
-											Lorum ipsum doller sit amet, lorum ipsum is a dummy text for web. Lorum
-											ipsum doller sit amet, lorum ipsum is a dummy text for web. Lorum ipsum
-											doller sit amet, lorum ipsum is a dummy text for web. Lorum ipsum doller sit
-											amet, lorum ipsum is a dummy text for web.{' '}
-										</p>
-
-										<button>Read More</button>
 									</div>
 								</div>
 							</div>

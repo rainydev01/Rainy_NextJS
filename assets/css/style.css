@@ -1,6 +1,17 @@
 @font-face {
 	font-family: "Visby Round CF Heavy";
 	src: url('../../public/fonts/VisbyRoundCFHeavy.ttf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Visby Round CF Regular";
+	src: url('../../public/fonts/VisbyRoundCF-Regular.ttf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Visby Round CF Light";
+	src: url('../../public/fonts/VisbyRoundCF-Light.ttf');
+	font-weight: normal;
 }
 
 .main_container {
@@ -887,9 +898,9 @@ a {
 }
 
 p {
-	font-weight: 500;
+	font-weight: 700 !important;
 	font-size: 14px;
-	font-family: "Visby Round CF Heavy";
+	font-family: "Visby Round CF Regular";
 	letter-spacing: 0px;
 }
 
