@@ -50,12 +50,20 @@ export default function Home() {
 								<div className="col-md-6">
 									<div className="techpointslst lstagn wrechrg">
 										<p>
-											Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text
-											for web, Dolor aset. Lorum ipsom is a dummy text for web.
+											Products that are precisely coordinated, scientifically designed all-in-one
+											RWH solutions and dedicated service.
+										</p>
+
+										<p>
+											Rainy also undertakes turnkey projects in corporate sector/ industries/
+											government undertaking etc. and is capable of handling large projects right
+											from RWH design, supply and installation to providing end-end solutions.
+											Rainy is equipped with a dedicated and experienced team of engineers,
+											technician, workmen along with special installation equipments, drilling
+											rigs, civil structures etc. Broad steps include:
 										</p>
 										<ul>
 											<li>
-												{' '}
 												<img
 													style={{
 														height: 25,
@@ -64,7 +72,8 @@ export default function Home() {
 													}}
 													src="../static/images/elements/Path262.png"
 													alt="drop"
-												/>Lorum ipsom is dolor aset. Its a dummy text.
+												/>Highly trained technical team conducts the RWH technical survey by
+												studying the layout of the site and building.
 											</li>
 											<li>
 												<img
@@ -75,7 +84,7 @@ export default function Home() {
 													}}
 													src="../static/images/elements/Path262.png"
 													alt="drop"
-												/>Lorum ipsom is dolor aset. Its a dummy text.
+												/>Existing piping system of rain water and storm drains are studied.
 											</li>
 											<li>
 												<img
@@ -86,7 +95,7 @@ export default function Home() {
 													}}
 													src="../static/images/elements/Path262.png"
 													alt="drop"
-												/>Lorum ipsom is dolor aset. Its a dummy text.
+												/>Gradient and landscape of the site and building are obtained.
 											</li>
 											<li>
 												<img
@@ -97,10 +106,13 @@ export default function Home() {
 													}}
 													src="../static/images/elements/Path262.png"
 													alt="drop"
-												/>Lorum ipsom is dolor aset. Its a dummy text.
+												/>{' '}
+												Designing and installation of innovative customised system is done with
+												precise scientific approach. These solutions include: diverting existing
+												rain water pipes, deployment of underground storage, auto pumping
+												system, piping, filtering, storage, utilization etc.
 											</li>
 											<li>
-												{' '}
 												<img
 													style={{
 														height: 25,
@@ -109,7 +121,18 @@ export default function Home() {
 													}}
 													src="../static/images/elements/Path262.png"
 													alt="drop"
-												/>Lorum ipsom is dolor aset. Its a dummy text.
+												/>Designing and construction of ground water recharging structures.
+											</li>
+											<li>
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>Complete solutions for water neutrality establishment projects.
 											</li>
 										</ul>
 									</div>
