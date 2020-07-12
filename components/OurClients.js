@@ -1,91 +1,68 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
-import ScrollMenu from 'react-horizontal-scrolling-menu';
+import Slider from 'react-slick';
 
-let list = [
-	{ name: 'item1' },
-	{ name: 'item2' },
-	{ name: 'item3' },
-	{ name: 'item4' },
-	{ name: 'item5' },
-	{ name: 'item6' },
-	{ name: 'item7' },
-	{ name: 'item8' },
-	{ name: 'item9' },
-	{ name: 'item10' },
-	{ name: 'item11' },
-	{ name: 'item12' },
-	{ name: 'item13' },
-	{ name: 'item14' },
-	{ name: 'item15' },
-	{ name: 'item16' },
-	{ name: 'item17' },
-	{ name: 'item18' },
-	{ name: 'item19' },
-	{ name: 'item20' },
-	{ name: 'item21' },
-	{ name: 'item22' },
-	{ name: 'item23' },
-	{ name: 'item24' },
-	{ name: 'item25' }
-];
+function SampleNextArrow(props) {
+	const { className, style, onClick } = props;
+	return <div className={className} style={{ ...style, display: 'block', background: 'red' }} onClick={onClick} />;
+}
 
-const MenuItem = ({ text, selected }) => {
-	return <div className={`menu-item ${selected ? 'active' : ''}`}>{text}</div>;
-};
+function SamplePrevArrow(props) {
+	const { className, style, onClick } = props;
+	return <div className={className} style={{ ...style, display: 'block', background: 'green' }} onClick={onClick} />;
+}
 
-export const Menu = (list, selected) =>
-	list.map((el) => {
-		const { name } = el;
-
-		return <MenuItem text={name} key={name} selected={selected} />;
-	});
-
-const Arrow = ({ text, className }) => {
-	return <div className={className}>{text}</div>;
-};
-Arrow.propTypes = {
-	text: PropTypes.string,
-	className: PropTypes.string
-};
-
-export const ArrowLeft = Arrow({ text: '<', className: 'arrow-prev' });
-export const ArrowRight = Arrow({ text: '>', className: 'arrow-next' });
-const selected = 'item1';
-
-class App extends Component {
-	constructor(props) {
-		super(props);
-		// call it again if items count changes
-		this.menuItems = Menu(list, selected);
-	}
-
-	state = {
-		selected
-	};
-
-	onSelect = (key) => {
-		this.setState({ selected: key });
-	};
-
+export default class CustomArrows extends Component {
 	render() {
-		const { selected } = this.state;
-		// Create menu from items
-		const menu = this.menuItems;
-
+		const settings = {
+			dots: true,
+			infinite: true,
+			slidesToShow: 5,
+			slidesToScroll: 1,
+			nextArrow: <SampleNextArrow />,
+			prevArrow: <SamplePrevArrow />
+		};
 		return (
-			<div className="App">
-				<ScrollMenu
-					data={menu}
-					arrowLeft={ArrowLeft}
-					arrowRight={ArrowRight}
-					selected={selected}
-					onSelect={this.onSelect}
-					wheel={false}
-				/>
+			<div style={{ padding: 10, margin: 40 }}>
+				<h2>Custom Arrows</h2>
+				<Slider {...settings}>
+					<div className="col-md-2">
+						<img src="../static/images/clients/BHEL.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/BWSSB.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/Capture.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/Creamline.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/IFFCO.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/infosys-logo-PNG.png" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/IOCL.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/JSW.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/Konkan Railways.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/KUIDFC.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/Mahindra.PNG" />
+					</div>
+					<div className="col-md-2">
+						<img src="../static/images/clients/Wipro.PNG" />
+					</div>
+				</Slider>
 			</div>
 		);
 	}
 }
-export default App;
