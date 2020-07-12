@@ -16,10 +16,13 @@ export default function Home() {
 					crossOrigin="anonymous"
 				/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
 			</Head>
 			<main>
 				<div className="App">
@@ -31,98 +34,247 @@ export default function Home() {
 								<h1>OUR NETWORK</h1>
 							</div>
 						</div>
-		    		</div>
+					</div>
 
-		    		<div className="container-fluid dlrsmain">
-					<div className="container">
-						<div className="row">
-							<div className="col-md-4">
-								<div className="dlrsinpt">
-									<input type="dropdown" name="country" placeholder="choose your country" />
+					<div className="container-fluid dlrsmain">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-4">
+									<div className="dlrsinpt">
+										<input type="dropdown" name="country" placeholder="choose your country" />
+									</div>
 								</div>
-							</div>
 
-							<div className="col-md-4">
-								<div className="dlrsinpt">
-									<input type="dropdown" name="state" placeholder="choose your state" />
+								<div className="col-md-4">
+									<div className="dlrsinpt">
+										<input type="dropdown" name="state" placeholder="choose your state" />
+									</div>
 								</div>
-							</div>
 
-							<div className="col-md-4">
-								<div className="dlrsinpt">
-									<input type="dropdown" name="city" placeholder="choose your city" />
+								<div className="col-md-4">
+									<div className="dlrsinpt">
+										<input type="dropdown" name="city" placeholder="choose your city" />
+									</div>
 								</div>
-							</div>
 
-							<div className="col-md-12 dlrsbtn">
-								<button>Search Dealers</button>
+								<div className="col-md-12 dlrsbtn">
+									<button>Search Dealers</button>
+								</div>
 							</div>
 						</div>
 					</div>
-		    	</div>
 
 					<div className="container-fluid alladrsmain">
 						<div className="container">
-							
 							<div className="row">
 								<div className="col-md-12 dlrsadrs">
 									<h4>Bangalore</h4>
 									<div className="col-md-6">
 										<div className="alladrs">
-											<h2 style={{color: '#0479bf'}}>KUMARSWAMI LAYOUT</h2>
+											<h2 style={{ color: '#0479bf' }}>KUMARSWAMI LAYOUT</h2>
 											<h2>VARUNA ENTERPRISES</h2>
-											<h2>Contact Person:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>Nithin Balaji R.</span></h2>
-											<p>#6, Mustafa Building, sharda Nagar<br/>
+											<h2>
+												Contact Person:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													Nithin Balaji R.
+												</span>
+											</h2>
+											<p>
+												#6, Mustafa Building, sharda Nagar<br />
 												Vashanthpura Main Road<br />
-											Bengaluru - 560061</p>
-											<h2>Mob:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>8050773225</span></h2>
-											<h2>Email:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>varunarainwater@yahoo.com <br />
-											varuna.hitech@gmail.com</span></h2>
-
+												Bengaluru - 560061
+											</p>
+											<h2>
+												Mob:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													8050773225
+												</span>
+											</h2>
+											<h2>
+												Email:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													varunarainwater@yahoo.com <br />
+													varuna.hitech@gmail.com
+												</span>
+											</h2>
 										</div>
 									</div>
 									<div className="col-md-6">
 										<div className="alladrs">
-											<h2 style={{color: '#0479bf'}}>UDAYNAGAR</h2>
+											<h2 style={{ color: '#0479bf' }}>UDAYNAGAR</h2>
 											<h2>VARUNA ENTERPRISES</h2>
-											<h2>Contact Person:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>Nithin Balaji R.</span></h2>
-											<p>#6, Mustafa Building, sharda Nagar<br/>
-												Vashanthpura Main Road<br/>
-											Bengaluru - 560061</p>
-											<h2>Mob:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>8050773225</span></h2>
-											<h2>Email:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>varunarainwater@yahoo.com <br/>
-											varuna.hitech@gmail.com </span></h2>
+											<h2>
+												Contact Person:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													Nithin Balaji R.
+												</span>
+											</h2>
+											<p>
+												#6, Mustafa Building, sharda Nagar<br />
+												Vashanthpura Main Road<br />
+												Bengaluru - 560061
+											</p>
+											<h2>
+												Mob:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													8050773225
+												</span>
+											</h2>
+											<h2>
+												Email:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													varunarainwater@yahoo.com <br />
+													varuna.hitech@gmail.com{' '}
+												</span>
+											</h2>
 										</div>
 									</div>
 								</div>
 
-								<div className="col-md-12 dlrsadrs" style={{marginTop: '45px'}}>
+								<div className="col-md-12 dlrsadrs" style={{ marginTop: '45px' }}>
 									<h4>Gulbarga</h4>
 									<div className="col-md-6">
 										<div className="alladrs">
-											<h2 style={{color: '#0479bf'}}>KUMARSWAMI LAYOUT</h2>
+											<h2 style={{ color: '#0479bf' }}>KUMARSWAMI LAYOUT</h2>
 											<h2>VARUNA ENTERPRISES</h2>
-											<h2>Contact Person:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>Nithin Balaji R.</span></h2>
-											<p>#6, Mustafa Building, sharda Nagar<br/>
-												Vashanthpura Main Road<br/>
-											Bengaluru - 560061</p>
-											<h2>Mob:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>8050773225</span></h2>
-											<h2>Email:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>varunarainwater@yahoo.com <br/>
-											varuna.hitech@gmail.com</span></h2>
-
+											<h2>
+												Contact Person:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													Nithin Balaji R.
+												</span>
+											</h2>
+											<p>
+												#6, Mustafa Building, sharda Nagar<br />
+												Vashanthpura Main Road<br />
+												Bengaluru - 560061
+											</p>
+											<h2>
+												Mob:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													8050773225
+												</span>
+											</h2>
+											<h2>
+												Email:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													varunarainwater@yahoo.com <br />
+													varuna.hitech@gmail.com
+												</span>
+											</h2>
 										</div>
 									</div>
 									<div className="col-md-6">
 										<div className="alladrs">
-											<h2 style={{color: '#0479bf'}}>UDAYNAGAR</h2>
+											<h2 style={{ color: '#0479bf' }}>UDAYNAGAR</h2>
 											<h2>VARUNA ENTERPRISES</h2>
-											<h2>Contact Person:- <span style={{fontWeight: '500' ,fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>Nithin Balaji R.</span></h2>
-											<p>#6, Mustafa Building, sharda Nagar<br/>
-												Vashanthpura Main Road<br/>
-											Bengaluru - 560061</p>
-											<h2>Mob:- <span style={{fontWeight: '500', fontSize: '14px', fontFamily: 'sans-serif', letterSpacing: '1px'}}>8050773225</span></h2>
-											<h2>Email:- <span style={{fontWeight: '500', fontSize: '14px' ,fontFamily: 'sans-serif', letterSpacing: '1px'}}>varunarainwater@yahoo.com <br/>
-											varuna.hitech@gmail.com</span></h2>
+											<h2>
+												Contact Person:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													Nithin Balaji R.
+												</span>
+											</h2>
+											<p>
+												#6, Mustafa Building, sharda Nagar<br />
+												Vashanthpura Main Road<br />
+												Bengaluru - 560061
+											</p>
+											<h2>
+												Mob:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													8050773225
+												</span>
+											</h2>
+											<h2>
+												Email:-{' '}
+												<span
+													style={{
+														fontWeight: '500',
+														fontSize: '14px',
+														fontFamily: 'sans-serif',
+														letterSpacing: '1px'
+													}}
+												>
+													varunarainwater@yahoo.com <br />
+													varuna.hitech@gmail.com
+												</span>
+											</h2>
 										</div>
 									</div>
 								</div>
@@ -134,7 +286,15 @@ export default function Home() {
 						<h1>STRONG SERVICE SUPPORT</h1>
 					</div>
 
-					<div className="container-fluid" style={{paddingBottom: '125px', backgroundImage: 'url(../../static/images/dealers/wave.png)',marginTop: '-42px', paddingTop: '45px'}}>
+					<div
+						className="container-fluid"
+						style={{
+							paddingBottom: '125px',
+							backgroundImage: 'url(../../static/images/dealers/wave.png)',
+							marginTop: '-42px',
+							paddingTop: '45px'
+						}}
+					>
 						<div className="container">
 							<div className="row">
 								<div className="col-md-6">
@@ -144,23 +304,62 @@ export default function Home() {
 								</div>
 								<div className="col-md-6">
 									<div className="techpointslst">
-										<p>Lorum ipsom is a dummy text for web, Dolor aset. Lorum ipsom is a dummy text for web,</p>
+										<p>
+											Our network currently consists of over 131 dealers across India and spans
+											over 9 countries. We aim to fulfil all customer queries as soon as possible,
+											with integrity and through a transparent communication channel.
+										</p>
 										<ul>
-											<li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom.</li>
-											<li>Lorum ipsom is dolor aset. Its a dummy text. Lorum ipsom.</li>
+											<li>
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>
+												All products are tested prior to packaging to ensure top quality.
+											</li>
+											<li>
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>
+												Dedicated support team accessible through query forms, Whatsapp & FB
+												Messenger to provide continuous assistance.
+											</li>
+											<li>
+												<img
+													style={{
+														height: 25,
+														width: 'auto',
+														paddingRight: 15
+													}}
+													src="../static/images/elements/Path262.png"
+													alt="drop"
+												/>
+												Highly trained team of engineers, plumbers & technicians available to
+												solve every issue that may arise.
+											</li>
 										</ul>
 									</div>
-									<div className="rnyfltrbtn"><button id="rnenq">Enquiry</button></div>
+									<div className="rnyfltrbtn">
+										<button id="rnenq">Enquiry</button>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</main>
-		<Footer />
+			<Footer />
 		</Fragment>
 	);
 }

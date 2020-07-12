@@ -16,10 +16,13 @@ export default function Home() {
 					crossOrigin="anonymous"
 				/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
 			</Head>
 			<main>
 				<div className="App">
@@ -74,11 +77,9 @@ export default function Home() {
 								<div className="col-md-7">
 									<div className="gtintchrgt">
 										<p>
-											Lorum ipsom Dolor sit Amet, Lorum ipsum is the dummy text for the web
-											testing. Lorum ipsum is the dummy text for the web testing. Lorum ipsum is
-											the dummy text for the web testing. Lorum ipsum is the dummy text for the
-											web testing. Lorum ipsum is the dummy text for the web testing. Lorum ipsum
-											is the dummy text for the web testing.
+											Our network currently consists of over 131 dealers across India and spans
+											over 9 countries. We aim to fulfil all customer queries as soon as possible,
+											with integrity and through a transparent communication channel.
 										</p>
 
 										<form>
