@@ -2094,13 +2094,27 @@ h1.fl80 {
 	border-bottom: 1px solid #5e5e5e;
 }
 .filter-button {
-	font-size: 18px;
+	font-size: 14px;
 	border: 1px solid #0971b7;
 	border-radius: 40px;
 	text-align: center;
 	color: #000000;
 	margin-bottom: 30px;
-	margin: 10px;
+	margin: 2px;
+}
+
+.filter-button-active {
+	font-size: 14px;
+	border: 1px solid #0971b7;
+	border-radius: 40px;
+	text-align: center;
+	color: white;
+	margin-bottom: 30px;
+	margin: 2px;
+	background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
+	background: linear-gradient(to bottom, #0971b7, #6ec6d8);
 }
 
 .glrymnu {
