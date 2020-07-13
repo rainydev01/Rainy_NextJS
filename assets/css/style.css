@@ -718,7 +718,7 @@ a.diffcolormenu {
 }
 
 .groundwater {
-	padding: 45px 0px 700px 0px;
+	padding: 45px 0px 500px 0px;
 }
 
 .groundwaterstxt h3 {
@@ -2493,4 +2493,25 @@ span.mb-span {
 	color: #000;
 	margin: 0px 15px;
 	border-radius: 30px;
+}
+
+.clientsHome {
+	text-align: center;
+	padding: 45px 0px 45px 0px;
+	font-size: 33px;
+	font-weight: 600;
+	color: #0971b7;
+	letter-spacing: 0px;
+	font-family: "Visby Round CF Heavy";
+}
+
+h2.clientsHome:after {
+	content: '';
+	display: block;
+	text-align: center;
+	position: relative;
+	width: 10%;
+	border: 1.0px solid #0971b7 !important;
+	margin: auto;
+	margin-top: 14px;
 }

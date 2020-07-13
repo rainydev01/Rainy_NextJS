@@ -3,12 +3,16 @@ import Slider from 'react-slick';
 
 function SampleNextArrow(props) {
 	const { className, style, onClick } = props;
-	return <div className={className} style={{ ...style, display: 'block', background: 'red' }} onClick={onClick} />;
+	return (
+		<div className={className} style={{ ...style, display: 'block', background: '#0971b7' }} onClick={onClick} />
+	);
 }
 
 function SamplePrevArrow(props) {
 	const { className, style, onClick } = props;
-	return <div className={className} style={{ ...style, display: 'block', background: 'green' }} onClick={onClick} />;
+	return (
+		<div className={className} style={{ ...style, display: 'block', background: '#0971b7' }} onClick={onClick} />
+	);
 }
 
 export default class CustomArrows extends Component {
@@ -23,43 +27,47 @@ export default class CustomArrows extends Component {
 		};
 		return (
 			<div style={{ padding: 10, margin: 40 }}>
-				<h2>Custom Arrows</h2>
+				<div className="container-fluid">
+					<div className="container">
+						<h2 className="clientsHome">Our Clients</h2>
+					</div>
+				</div>
 				<Slider {...settings}>
 					<div className="col-md-2">
-						<img src="../static/images/clients/BHEL.PNG" />
+						<img height="90" width="200" src="../static/images/clients/BHEL.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/BWSSB.PNG" />
+						<img height="90" width="200" src="../static/images/clients/BWSSB.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/Capture.PNG" />
+						<img height="90" width="200" src="../static/images/clients/Capture.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/Creamline.PNG" />
+						<img height="90" width="200" src="../static/images/clients/Creamline.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/IFFCO.PNG" />
+						<img height="90" width="200" src="../static/images/clients/IFFCO.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/infosys-logo-PNG.png" />
+						<img height="90" width="200" src="../static/images/clients/infosys-logo-PNG.png" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/IOCL.PNG" />
+						<img height="90" width="200" src="../static/images/clients/IOCL.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/JSW.PNG" />
+						<img height="90" width="200" src="../static/images/clients/JSW.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/Konkan Railways.PNG" />
+						<img height="90" width="200" src="../static/images/clients/Konkan Railways.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/KUIDFC.PNG" />
+						<img height="90" width="200" src="../static/images/clients/KUIDFC.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/Mahindra.PNG" />
+						<img height="90" width="200" src="../static/images/clients/Mahindra.PNG" />
 					</div>
 					<div className="col-md-2">
-						<img src="../static/images/clients/Wipro.PNG" />
+						<img height="90" width="200" src="../static/images/clients/Wipro.PNG" />
 					</div>
 				</Slider>
 			</div>
