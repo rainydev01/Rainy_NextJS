@@ -39,7 +39,7 @@ export default function Home() {
 					</div>
 
 					<div className="container-fluid">
-						<div className="container groundwater">
+						<div className="container groundwaterSocial">
 							<div className="groundwatersec">
 								<div className="col-md-6">
 									<div className="groundwatersimg">
