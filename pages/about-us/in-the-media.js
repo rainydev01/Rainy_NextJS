@@ -6,6 +6,7 @@ import Footer from '../../components/Footer';
 import Slider1 from '../../components/SliderNews1';
 import Slider2 from '../../components/SliderNews2';
 import Slider3 from '../../components/SliderNews3';
+import ImageSlider from '../../components/ImageSlider';
 
 export default function Home() {
 	const [ currentArticle, setCurrentArticle ] = useState(1);
@@ -73,19 +74,7 @@ export default function Home() {
 					</div>
 					{newsArticle}
 
-					<div className="container-fluid award">
-						<h1>OUR AWARDS</h1>
-					</div>
-					<div className="container-fluid award-image">
-						<div className="container awrdimgsec">
-							<img src="../../static/images/media/Award1.png" />
-							<div className="awrdimgcont">
-								<h3>
-									SKOCH ORDER of Merit-<br />Top 100 SME's in INDIA 2018
-								</h3>
-							</div>
-						</div>
-					</div>
+					<ImageSlider />
 					<Footer />
 				</div>
 			</main>

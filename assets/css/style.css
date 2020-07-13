@@ -1442,6 +1442,9 @@ h2.whtdowdo:after {
 
 .awrdimgsec {
 	text-align: center;
+	display: inline-block;
+	align-content: center;
+	align-items: center;
 }
 
 .awrdimgsec img {
@@ -1449,6 +1452,8 @@ h2.whtdowdo:after {
 	max-width: 100%;
 	z-index: -999999;
 	position: relative;
+	display: inline-block;
+	align-content: center;
 }
 
 .awrdimgcont {
