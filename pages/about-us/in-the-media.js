@@ -55,7 +55,7 @@ export default function Home() {
 			</Head>
 			<main>
 				<div className="App">
-					<h1> Media</h1>
+					{/*<h1> Media</h1>*/}
 					<Header />
 
 					<div className="container-fluid banner enternal" style={{ marginTop: '-6%' }}>

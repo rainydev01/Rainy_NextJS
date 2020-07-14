@@ -39,7 +39,7 @@ export default function Home() {
 			</Head>
 			<main>
 				<div className="App">
-					<h1> Our Journey</h1>
+					{/*<h1> Our Journey</h1>*/}
 					<Header />
 					<div className="container-fluid banner enternal" style={{ marginTop: '-45px' }}>
 						<div className="hero-image enthroimg">

@@ -4,16 +4,17 @@ import Link from 'next/link';
 const Header = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid test main-header">
+			<div className="test container-fluid main-header">
 				<input type="checkbox" className="menu-toggle" id="menu-toggle" />
 				<div className="mobile-bar">
+				<img src="../static/images/logo/logo.png" className="moblogo" />
 					<label htmlFor="menu-toggle" className="menu-icon">
-						<span />
+					<span></span>
 					</label>
 				</div>
 
-				<div className="container">
-					<header className="header">
+				
+					<header className="header container">
 						<a className="navbar-brand" href="/" style={{ padding: '0px' }}>
 							<img src="../static/images/logo/logo.png" />
 						</a>
@@ -82,10 +83,13 @@ const Header = () => {
 							</ul>
 						</nav>
 					</header>
-				</div>
-			</div>
+	</div>
+
+
 		</Fragment>
 	);
 };
+
+
 
 export default Header;
