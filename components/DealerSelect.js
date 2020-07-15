@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import Select from 'react-select';
+import Dropdown from './DropDown';
 
 let countries = {
 	countries: [
@@ -40,7 +41,8 @@ const App = () => {
 
 	return (
 		<Fragment>
-			<div className="container-fluid dlrsmain">
+			<Dropdown />
+			{/* <div className="container-fluid dlrsmain">
 				<div className="container">
 					<div className="row">
 						<div className="col-md-4">
@@ -74,7 +76,7 @@ const App = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="container-fluid alladrsmain">
 				<div className="container">
