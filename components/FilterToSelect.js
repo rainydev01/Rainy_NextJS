@@ -42,6 +42,14 @@ const FilterToSelect = () => {
 
 			setShowButton(true);
 		}
+		if (inputValue < 100) {
+			setButonValue({
+				name: 'FL100',
+				url: 'products/rainy-filters'
+			});
+
+			setShowButton(true);
+		}
 
 		if (inputValue >= 100 && inputValue <= 200) {
 			setButonValue({
