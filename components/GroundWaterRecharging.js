@@ -23,7 +23,7 @@ const GroundWaterRecharging = () => {
 								source and replenishing the water table.
 							</p>
 							<button>
-								Read More <i class="fa fa-angle-right" aria-hidden="true" />
+								Read More <i className="fa fa-angle-right" aria-hidden="true" />
 							</button>
 						</div>
 					</div>
