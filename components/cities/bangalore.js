@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const bangalore = () => {
+const city = () => {
 	return (
 		<Fragment>
 			<div className="container-fluid alladrsmain">
@@ -860,4 +860,4 @@ const bangalore = () => {
 	);
 };
 
-export default bangalore;
+export default city;

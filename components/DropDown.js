@@ -46,6 +46,26 @@ class Dropdown extends React.Component {
 						{
 							name: 'ASSAM',
 							cities: [ 'GUWAHATI' ]
+						},
+						{
+							name: 'CHANDIGRAH',
+							cities: [ 'CHANDIGRAH' ]
+						},
+						{
+							name: 'DELHI',
+							cities: [ 'DELHI' ]
+						},
+						{
+							name: 'UTTAR PRADESH',
+							cities: [ 'KANPUR' ]
+						},
+						{
+							name: 'CHATTISGARH',
+							cities: [ 'RAIPUR' ]
+						},
+						{
+							name: 'GUJARAT',
+							cities: [ 'VADODARA', 'AHMEDABAD', 'SURAT' ]
 						}
 					]
 				},
