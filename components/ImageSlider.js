@@ -4,14 +4,14 @@ import Slider from 'react-slick';
 function SampleNextArrow(props) {
 	const { className, style, onClick } = props;
 	return (
-		<div className={className} style={{ ...style, display: 'block', background: '#0971b7' }} onClick={onClick} />
+		<div className={className} style={{ ...style, display: 'block', background: '#0971b7', padding: '10px 30px 30px 10px', borderRadius: '30px' }} onClick={onClick} />
 	);
 }
 
 function SamplePrevArrow(props) {
 	const { className, style, onClick } = props;
 	return (
-		<div className={className} style={{ ...style, display: 'block', background: '#0971b7' }} onClick={onClick} />
+		<div className={className} style={{ ...style, display: 'block', background: '#0971b7', padding: '10px 30px 30px 10px', borderRadius: '30px' }} onClick={onClick} />
 	);
 }
 
@@ -30,7 +30,7 @@ export default class CustomArrows extends Component {
 				<div className="container-fluid award">
 					<h1>OUR AWARDS</h1>
 				</div>
-				<div style={{ padding: 10, margin: 40 }}>
+				<div>
 					<Slider {...settings}>
 						<div className="container-fluid award-image">
 							<div className="container awrdimgsec text-center">

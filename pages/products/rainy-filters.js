@@ -375,7 +375,7 @@ export default function Home() {
 						</div>
 					</div>
 
-					<div className="container-fluid">
+					<div className="container-fluid fl200fltr">
 						<div className="container">
 							<div className="row">
 								<div className="col-md-12">
@@ -712,7 +712,7 @@ export default function Home() {
 						</div>
 					</div>
 
-					<div className="container-fluid">
+					<div className="container-fluid fl500fltr">
 						<div className="container">
 							<div className="row">
 								<div className="col-md-12">

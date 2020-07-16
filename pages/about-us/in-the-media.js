@@ -58,7 +58,7 @@ export default function Home() {
 					{/*<h1> Media</h1>*/}
 					<Header />
 
-					<div className="container-fluid banner enternal" style={{ marginTop: '-6%' }}>
+					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/media/mediaBanner.png" />
 							<div className="hero-text inthemedia">

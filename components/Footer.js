@@ -62,7 +62,7 @@ const Footer = () => {
 							<a href="# "> Privacy Policy </a>|
 						</li>
 						<li>
-							<a href="# "> Copyright 2020 </a>
+							<a href="# "> Copyright 2020 chiragr.com </a>
 						</li>
 					</ul>
 				</div>

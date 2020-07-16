@@ -14,8 +14,36 @@
 	font-weight: normal;
 }
 
+.fl200fltr {
+    background-image: url(../../static/images/halfdropbg.png);
+    background-position: left center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.fl500fltr {
+    background-image: url(../../static/images/singledroprightbg.png);
+    background-position: bottom right;
+    background-size: auto;
+}
+
+.wthothding.wrechargmain {
+    background-image: url(../../static/images/halfdropbg.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 img.moblogo {
 	display: none;
+}
+
+.slick-prev {
+    left: 300px!important;
+}
+
+.slick-next {
+    right: 300px!important;
 }
 
 .main_container {
@@ -951,7 +979,7 @@ a.diffcolormenu {
 }
 
 .groundwater {
-	padding: 45px 0px 500px 0px;
+	padding: 45px 0px 445px 0px;
 }
 
 .groundwaterSocial {
@@ -1192,7 +1220,7 @@ p {
 }
 
 .threecntr h3 {
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: 500;
 	color: #0971b7;
 	letter-spacing: 0px;
@@ -1246,7 +1274,7 @@ p {
 }
 
 .groundwatersimg {
-	padding: 100px 15px;
+	padding: 30px 15px;
 }
 
 .footer-two i {
@@ -1611,6 +1639,8 @@ h2.whtdowdo:after {
 .sec-brdr {
 	border: 2px solid #4eb5e9;
 	padding: 0px 5px;
+	height: 500px;
+    max-width: 100%;
 }
 
 .mdiaimg {
@@ -1679,7 +1709,6 @@ h2.whtdowdo:after {
 
 .awrdimgsec {
 	text-align: center;
-	display: inline-block;
 	align-content: center;
 	align-items: center;
 }
@@ -2044,9 +2073,9 @@ h5.mb0diff a {
 button#rnenq {
 	border: 1px solid#6ec6d8;
 	background: #6ec6d8;
-	padding: 3px 30px;
+	padding: 5px 30px;
 	color: #fff;
-	margin: 0px 100px;
+	/*margin: 0px 100px;*/
 	border-radius: 30px;
 }
 
@@ -2273,7 +2302,7 @@ h1.fl80 {
 button#rnrdmr {
 	border: 1px solid#fff532;
 	background: #fff532;
-	padding: 3px 30px;
+	padding: 5px 10px;
 	color: #000;
 	margin: 0px 15px;
 	border-radius: 30px;
@@ -2302,6 +2331,9 @@ h1.fl80 {
 .fl100 {
 	background: #dff7f7;
 	padding-bottom: 45px;
+	background-image: url(../../static/images/singledropbg.png);
+    background-position: bottom left;
+    background-size: auto;
 }
 
 .wthothding {
@@ -2596,7 +2628,7 @@ span.mb-span {
 }
 
 .techpointslst {
-	padding: 45px 0px;
+	padding: 0px 0px 35px 0px;
 }
 
 .techpointslst p {
@@ -2637,14 +2669,15 @@ span.mb-span {
 
 .nextButtons button {
 	background: #6ec6d8;
-	border: 1px solid #6ec6d8;
-	padding: 8px 40px;
-	border-radius: 25px;
-	margin: 0px 0px;
+    border: 1px solid #6ec6d8;
+    padding: 5px 14px;
+    border-radius: 30px;
+    margin: 0px 0px;
+    outline: none;
 }
 
 .nextButtons {
-	margin: 10px 10px 10px 10px;
+	margin: 10px 75px 10px 75px;
 }
 .next-main {
 	padding: 0px 0px 40px 0px;
