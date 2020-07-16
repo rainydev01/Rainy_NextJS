@@ -20,41 +20,6 @@ const App = () => {
 	return (
 		<Fragment>
 			<Dropdown changeCityValue={changeCity} />
-			{/* <div className="container-fluid dlrsmain">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-4">
-							<div className="dlrsinpt">
-								<Select
-									value={selectedOptionCountry}
-									onChange={countryHandleChange}
-									options={optionsCountry}
-								/>
-							</div>
-						</div>
-
-						<div className="col-md-4">
-							<div className="dlrsinpt">
-								<Select
-									value={selectedOptionState}
-									onChange={stateHandleChange}
-									options={optionsState}
-								/>
-							</div>
-						</div>
-
-						<div className="col-md-4">
-							<div className="dlrsinpt">
-								<Select value={selectedOptionCity} onChange={cityHandleChange} options={optionsCity} />
-							</div>
-						</div>
-
-						<div className="col-md-12 dlrsbtn">
-							<button>Search Dealers</button>
-						</div>
-					</div>
-				</div>
-			</div> */}
 
 			{dealersCity}
 		</Fragment>
