@@ -1,6 +1,9 @@
 import React from 'react';
 
 class Dropdown extends React.Component {
+	changeCityValue = (city) => {
+		this.props.changeCityValue(city);
+	};
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -8,10 +11,13 @@ class Dropdown extends React.Component {
 			states: [],
 			cities: [],
 			selectedCountry: '--Choose Country--',
-			selectedState: '--Choose State--'
+			selectedState: '--Choose State--',
+			selectedCity: '--Choose City--'
 		};
 		this.changeCountry = this.changeCountry.bind(this);
 		this.changeState = this.changeState.bind(this);
+		this.changeCity = this.changeCity.bind(this);
+		this.changeCityValue = this.changeCityValue.bind(this);
 	}
 
 	componentDidMount() {
@@ -62,6 +68,11 @@ class Dropdown extends React.Component {
 		this.setState({ cities: stats.find((stat) => stat.name === event.target.value).cities });
 	}
 
+	changeCity(event) {
+		this.setState({ selectedCity: event.target.value });
+		this.changeCityValue(event.target.value);
+	}
+
 	render() {
 		return (
 			<div className="container-fluid dlrsmain">
@@ -89,7 +100,7 @@ class Dropdown extends React.Component {
 						</select>
 					</div>
 					<div className="col-md-4 dlrsinpt">
-						<select placeholder="City">
+						<select placeholder="City" value={this.state.selectedCity} onChange={this.changeCity}>
 							<option>--Choose City--</option>
 							{this.state.cities.map((e, key) => {
 								return <option key={key}>{e}</option>;
