@@ -24,7 +24,7 @@ class Dropdown extends React.Component {
 		this.setState({
 			countries: [
 				{
-					name: 'India',
+					name: 'INDIA',
 					states: [
 						{
 							name: 'KARNATAKA',
@@ -66,13 +66,73 @@ class Dropdown extends React.Component {
 						{
 							name: 'GUJARAT',
 							cities: [ 'VADODARA', 'AHMEDABAD', 'SURAT' ]
+						},
+						{
+							name: 'KERALA',
+							cities: [ 'ERNAKULAM', 'KASARGOD', 'THRISSUR', 'KOTHAMANGALAM', 'KANNUR' ]
+						},
+						{
+							name: 'WEST BENGAL',
+							cities: [ 'KOLKATTA' ]
+						},
+						{
+							name: 'MAHARASTRA',
+							cities: [
+								'NAGPUR',
+								'KOLHAPUR',
+								'MUMBAI',
+								'DEOPUR',
+								'PUNE',
+								'AMRAVATI',
+								'SOLAPUR',
+								'NASIK',
+								'JALNA'
+							]
+						},
+						{
+							name: 'MADHYA PRADESH',
+							cities: [ 'CHHINDWARA', 'VIDISHA', 'INDORE' ]
+						},
+						{
+							name: 'MANIPUR',
+							cities: [ 'MANIPUR' ]
+						},
+						{
+							name: 'ORISSA',
+							cities: [ 'KORAPUT', 'BERHAMPUR', 'BHUBANESWAR', 'BARGARH', 'SAMBALPUR' ]
+						},
+						{
+							name: 'RAJASTHAN',
+							cities: [ 'AJMER', 'JAIPUR' ]
+						},
+						{
+							name: 'TELANGANA',
+							cities: [ 'HYDERABAD' ]
+						},
+						{
+							name: 'TAMILNADU',
+							cities: [ 'CHENNAI', 'COIMBATORE', 'ERODE', 'PONDICHERRY', 'TRICHY', 'TIRUPUR', 'MADURAI' ]
+						},
+						{
+							name: 'HARYANA',
+							cities: [ 'FARIDABAD' ]
+						},
+						{
+							name: 'PUNJAB',
+							cities: [ 'JALANDHAR' ]
+						},
+						{
+							name: 'GURUGRAM',
+							cities: [ 'GURUGRAM' ]
+						},
+						{
+							name: 'JHARKAND',
+							cities: [ 'RANCHI' ]
 						}
 					]
 				},
-				{ name: 'Africa', states: [ { name: 'B', cities: [ 'Barcelona' ] } ] },
-				{ name: 'Germany', states: [ { name: 'C', cities: [ 'Downers Grove' ] } ] },
-				{ name: 'Mexico', states: [ { name: 'D', cities: [ 'Puebla' ] } ] },
-				{ name: 'USA', states: [ { name: 'E', cities: [ 'Delhi', 'Kolkata', 'Mumbai', 'Bangalore' ] } ] }
+				{ name: 'PHILIPINNES', states: [ { name: 'PHILIPINNES', cities: [ 'PHILIPINNES' ] } ] },
+				{ name: 'SOUTH AMERICA', states: [ { name: 'COLUMBIA', cities: [ 'BOGOTA' ] } ] }
 			]
 		});
 	}
