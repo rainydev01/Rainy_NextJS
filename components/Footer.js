@@ -19,7 +19,7 @@ const Footer = () => {
 							<div className="footer-two">
 								<h5>Contact US</h5>
 								<p>
-									<a href="https://api.whatsapp.com/send?phone=+918951831967&text=%20Hello I wanted to purchase Rainy Filter">
+									<a href="https://api.whatsapp.com/send?phone=+918951831967&text=%20Hello, I wanted to purchase Rainy Filter">
 										<i className="fa fa-whatsapp" aria-hidden="true" />
 									</a>
 									+91 94480 76595
