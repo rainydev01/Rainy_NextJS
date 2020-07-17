@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react';
 // import Select from 'react-select';
 import Dropdown from './DropDown';
-import Bangalore from '../components/cities/Bangalore';
+import Bengaluru from '../components/cities/Bangalore';
 // import Belagavi from '../components/cities/Belagavi';
 // import Davangere from '../components/cities/Davangere';
 // import Dk from '../components/cities/Dk';
@@ -89,7 +89,7 @@ const App = () => {
 	};
 
 	if (selectedCity === 'BANGALORE') {
-		dealersCity = <Bangalore />;
+		dealersCity = <Bengaluru />;
 	}
 	if (selectedCity === 'BELAGAVI') {
 		dealersCity = <Belagavi />;
