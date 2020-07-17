@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react';
 // import Select from 'react-select';
 import Dropdown from './DropDown';
-import Bengaluru from '../components/cities/Bangalore';
+import Bengaluru from './cities/Bengaluru';
 // import Belagavi from '../components/cities/Belagavi';
 // import Davangere from '../components/cities/Davangere';
 // import Dk from '../components/cities/Dk';
