@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Solapur</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
+									<h2>ENVIRO SOLUTIONS</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											N/A
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										56, Park Stadium,<br />
+										Dr.B.Ambedkar Chowk,<br />
+										Solapur - 413 001
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +40,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											0217 2321680, 9423067328
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +53,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											envirosolutionssolapur@gmail.com <br />
 										</span>
 									</h2>
 								</div>

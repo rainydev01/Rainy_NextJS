@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Madurai</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>TAMIL NADU</h2>
+									<h2>AARDEE BUILDERS, ENGINEERS & CONTRACTORS</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,12 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											N/A
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										5/59, kuruvikaran Salai, 3rd Cross Street,<br />
+										Near Aravind Eye Hospital., Anna Nagar, Madurai - 625 020<br />
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +39,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											9626260145, 9626260146
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +52,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											aardeebuilders@gmail.com<br />
 										</span>
 									</h2>
 								</div>

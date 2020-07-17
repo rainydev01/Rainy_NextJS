@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Amravati</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
+									<h2>PRABHAVI CONSTRUCTIONS</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											N/A
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										Shop No.06, Monalisa Complex,<br />
+										Opp.Rajapeth Police Station,<br />
+										Amravati – 444606
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +40,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											9096622157
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +53,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											prabhaviservices@gmail.com <br />
 										</span>
 									</h2>
 								</div>

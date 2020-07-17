@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Pune</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
+									<h2>ENVISION CONSULTANTS</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											Tejaswinee Chitale
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										S.No 125/1a+1/2, Flat No:2/6,<br />
+										Shanta Heights A, Warje Jakat Naka, Warje,<br />
+										Pune - 411058
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +40,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											9270126857, 9226772295
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +53,57 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											envision.pune@gmail.com <br />
+										</span>
+									</h2>
+								</div>
+							</div>
+							<div className="col-md-6">
+								<div className="alladrs">
+									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
+									<h2>GLOBAL GREEN CONCEPTS PVT.LTD</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											Mr.Jeet Oswal
+										</span>
+									</h2>
+									<p>
+										Off. No. 2/B, Annapurna Apartment, Plot No.2,<br />
+										New Era Society, Near Gangadham Chowk,<br />
+										Bibvewadi - Kondhwa Road, Pune - 411 037
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											9730482222, +9120 6524 0444, 6521 0204
+										</span>
+									</h2>
+									<h2>
+										Email:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											india@globalgreenconcepts.com <br />
 										</span>
 									</h2>
 								</div>

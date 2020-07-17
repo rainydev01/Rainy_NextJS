@@ -10,9 +10,9 @@ class Dropdown extends React.Component {
 			countries: [],
 			states: [],
 			cities: [],
-			selectedCountry: '--Choose Country--',
-			selectedState: '--Choose State--',
-			selectedCity: '--Choose City--'
+			selectedCountry: 'Choose Country',
+			selectedState: 'Choose State',
+			selectedCity: 'Choose City'
 		};
 		this.changeCountry = this.changeCountry.bind(this);
 		this.changeState = this.changeState.bind(this);
@@ -164,7 +164,7 @@ class Dropdown extends React.Component {
 								value={this.state.selectedCountry}
 								onChange={this.changeCountry}
 							>
-								<option>--Choose Country--</option>
+								<option>Choose Country</option>
 								{this.state.countries.map((e, key) => {
 									return <option key={key}>{e.name}</option>;
 								})}
@@ -173,7 +173,7 @@ class Dropdown extends React.Component {
 					</div>
 					<div className="col-md-4 dlrsinpt">
 						<select placeholder="State" value={this.state.selectedState} onChange={this.changeState}>
-							<option>--Choose State--</option>
+							<option>Choose State</option>
 							{this.state.states.map((e, key) => {
 								return <option key={key}>{e.name}</option>;
 							})}
@@ -181,7 +181,7 @@ class Dropdown extends React.Component {
 					</div>
 					<div className="col-md-4 dlrsinpt">
 						<select placeholder="City" value={this.state.selectedCity} onChange={this.changeCity}>
-							<option>--Choose City--</option>
+							<option>Choose City</option>
 							{this.state.cities.map((e, key) => {
 								return <option key={key}>{e}</option>;
 							})}

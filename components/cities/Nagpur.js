@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Nagpur</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
+									<h2>CPS ENVIRO TECH</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,12 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											Mr. Sunil Wanjari
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										Dhadiwal Complex, Kathol Road, Chhaoni,<br />
+										Nagpur-13 <br />
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +39,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											07122591676, 09372592399
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +52,57 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											cpsiplngp@gmail.com <br />
+										</span>
+									</h2>
+								</div>
+							</div>
+							<div className="col-md-6">
+								<div className="alladrs">
+									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
+									<h2>ECOSTRUCTURES PVT LTD</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											N/A
+										</span>
+									</h2>
+									<p>
+										301, Vijay Residency,<br />
+										104 Shankar Nagar,<br />
+										Nagpur - 440010
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											9975043605
+										</span>
+									</h2>
+									<h2>
+										Email:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											N/A <br />
 										</span>
 									</h2>
 								</div>

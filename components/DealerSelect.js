@@ -123,7 +123,7 @@ const App = () => {
 		dealersCity = <Guwahati />;
 	}
 	if (selectedCity === 'CHANDIGRAH') {
-		dealersCity = <Chandigargh />;
+		dealersCity = <Chandigarh />;
 	}
 	if (selectedCity === 'DELHI') {
 		dealersCity = <Delhi />;
@@ -142,6 +142,135 @@ const App = () => {
 	}
 	if (selectedCity === 'SURAT') {
 		dealersCity = <Surat />;
+	}
+
+	if (selectedCity === 'ERNAKULAM') {
+		dealersCity = <Ernakulam />;
+	}
+	if (selectedCity === 'KASARGOD') {
+		dealersCity = <Kasaragod />;
+	}
+	if (selectedCity === 'THRISSUR') {
+		dealersCity = <Thrissur />;
+	}
+	if (selectedCity === 'KOTHAMANGALAM') {
+		dealersCity = <Kothamangalam />;
+	}
+	if (selectedCity === 'KANNUR') {
+		dealersCity = <Kannur />;
+	}
+
+	if (selectedCity === 'KOLKATTA') {
+		dealersCity = <Kolkatta />;
+	}
+
+	if (selectedCity === 'NAGPUR') {
+		dealersCity = <Nagpur />;
+	}
+	if (selectedCity === 'KOLHAPUR') {
+		dealersCity = <Kolhapur />;
+	}
+	if (selectedCity === 'MUMBAI') {
+		dealersCity = <Mumbai />;
+	}
+	if (selectedCity === 'DEOPUR') {
+		dealersCity = <Deopur />;
+	}
+	if (selectedCity === 'PUNE') {
+		dealersCity = <Pune />;
+	}
+	if (selectedCity === 'AMRAVATI') {
+		dealersCity = <Amravati />;
+	}
+	if (selectedCity === 'SOLAPUR') {
+		dealersCity = <Solapur />;
+	}
+	if (selectedCity === 'NASIK') {
+		dealersCity = <Nasik />;
+	}
+	if (selectedCity === 'JALNA') {
+		dealersCity = <Jalna />;
+	}
+
+	if (selectedCity === 'CHHINDWARA') {
+		dealersCity = <Chhindwara />;
+	}
+	if (selectedCity === 'VIDISHA') {
+		dealersCity = <Vidisha />;
+	}
+	if (selectedCity === 'INDORE') {
+		dealersCity = <Indore />;
+	}
+
+	if (selectedCity === 'MANIPUR') {
+		dealersCity = <Manipur />;
+	}
+	if (selectedCity === 'KORAPUT') {
+		dealersCity = <Koraput />;
+	}
+	if (selectedCity === 'BERHAMPUR') {
+		dealersCity = <Berhampur />;
+	}
+	if (selectedCity === 'BHUBANESWAR') {
+		dealersCity = <Bhubaneswar />;
+	}
+	if (selectedCity === 'BARGARH') {
+		dealersCity = <Bargarh />;
+	}
+	if (selectedCity === 'SAMBALPUR') {
+		dealersCity = <Sambalpur />;
+	}
+
+	if (selectedCity === 'AJMER') {
+		dealersCity = <Ajmer />;
+	}
+	if (selectedCity === 'JAIPUR') {
+		dealersCity = <Jaipur />;
+	}
+	if (selectedCity === 'HYDERABAD') {
+		dealersCity = <Hyderabad />;
+	}
+
+	if (selectedCity === 'CHENNAI') {
+		dealersCity = <Chennai />;
+	}
+	if (selectedCity === 'COIMBATORE') {
+		dealersCity = <Coimbatore />;
+	}
+	if (selectedCity === 'ERODE') {
+		dealersCity = <Erode />;
+	}
+	if (selectedCity === 'PONDICHERRY') {
+		dealersCity = <Pondicherry />;
+	}
+	if (selectedCity === 'TRICHY') {
+		dealersCity = <Trichy />;
+	}
+	if (selectedCity === 'TIRUPUR') {
+		dealersCity = <Tirupur />;
+	}
+	if (selectedCity === 'MADURAI') {
+		dealersCity = <Madurai />;
+	}
+
+	if (selectedCity === 'FARIDABAD') {
+		dealersCity = <Faridabad />;
+	}
+	if (selectedCity === 'JALANDHAR') {
+		dealersCity = <Jalandhar />;
+	}
+	if (selectedCity === 'GURUGRAM') {
+		dealersCity = <Gurugram />;
+	}
+	if (selectedCity === 'RANCHI') {
+		dealersCity = <Ranchi />;
+	}
+
+	if (selectedCity === 'PHILIPINNES') {
+		dealersCity = <Philippines />;
+	}
+	if (selectedCity === 'BOGOTA') {
+		dealersCity = <Bogota />;
 	}
 
 	return (

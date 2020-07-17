@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Visakhapatnam</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>KUMARASWAMY LAYOUT</h2>
-									<h2>VARUNA ENTERPRISES</h2>
-									<h2>
+									<h2 style={{ color: '#0479bf' }}>ANDRAPRADESH</h2>
+									<h2>M/S SAHAJA ASSOCIATES</h2>
+									{/* <h2>
 										Contact Person:-
 										<span
 											style={{
@@ -24,11 +24,11 @@ const city = () => {
 										>
 											Nithin Balaji R
 										</span>
-									</h2>
+									</h2> */}
 									<p>
-										#6, Mustafa Building, Sharada Nagar<br />
-										Vasanthapura Main Road<br />
-										Bengaluru - 560061
+										31-57-8/6, G4, Prasanthi Heavens Rajeev Nagar<br />
+										Kurmannapalem Visakhapatnam - 530 046<br />
+										Andhrapradesh
 									</p>
 									<h2>
 										Mob:-
@@ -40,7 +40,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											8050773225
+											+91 94414 25102 / +91 96424 42018
 										</span>
 									</h2>
 									<h2>
@@ -53,58 +53,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											varunarainwater@yahoo.com <br />
-											varuna.hitech@gmail.com
-										</span>
-									</h2>
-								</div>
-							</div>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>UDAYANAGAR</h2>
-									<h2>ADITHYA RAIN WATER HARVESTORS</h2>
-									<h2>
-										Contact Person:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											Mr.V.Anand Kumar
-										</span>
-									</h2>
-									<p>
-										#7, Adithya Tower,<br />
-										Udayanagar 1st Main Road<br />
-										Bangalore - 560016
-									</p>
-									<h2>
-										Mob:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											9880660701, 9980059701
-										</span>
-									</h2>
-									<h2>
-										Email:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											aditya_rwh@indiatimes.com <br />
+											sahaja.com@gmail.com
 										</span>
 									</h2>
 								</div>

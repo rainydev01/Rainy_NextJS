@@ -10,8 +10,8 @@ const city = () => {
 							<h4>MYSORE</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>KUMARASWAMY LAYOUT</h2>
-									<h2>VARUNA ENTERPRISES</h2>
+									<h2 style={{ color: '#0479bf' }}>MYSORE</h2>
+									<h2>PARNAYA ENVIRONMENTAL PVT LTD</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -22,13 +22,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Nithin Balaji R
+											N/A
 										</span>
 									</h2>
 									<p>
-										#6, Mustafa Building, Sharada Nagar<br />
-										Vasanthapura Main Road<br />
-										Bengaluru - 560061
+										2nd Floor, No. 15/2, Coorg Mansion,<br />
+										D URS Road, K.R. Circle,<br />
+										Mysore-570001
 									</p>
 									<h2>
 										Mob:-
@@ -40,58 +40,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											8050773225
-										</span>
-									</h2>
-									<h2>
-										Email:-{' '}
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											varunarainwater@yahoo.com <br />
-											varuna.hitech@gmail.com
-										</span>
-									</h2>
-								</div>
-							</div>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>UDAYANAGAR</h2>
-									<h2>ADITHYA RAIN WATER HARVESTORS</h2>
-									<h2>
-										Contact Person:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											Mr.V.Anand Kumar
-										</span>
-									</h2>
-									<p>
-										#7, Adithya Tower,<br />
-										Udayanagar 1st Main Road<br />
-										Bangalore - 560016
-									</p>
-									<h2>
-										Mob:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											9880660701, 9980059701
+											9886409722, 7676867676
 										</span>
 									</h2>
 									<h2>
@@ -104,7 +53,111 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											aditya_rwh@indiatimes.com <br />
+											parnayaenvironmental@gmail.com <br />
+										</span>
+									</h2>
+								</div>
+							</div>
+
+							<div className="col-md-6">
+								<div className="alladrs">
+									<h2 style={{ color: '#0479bf' }}>MYSORE</h2>
+									<h2>NEMINATH SANITATION</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											Mr.Manish
+										</span>
+									</h2>
+									<p>
+										#16, Cellar, Ashoka Road,<br />
+										Mysore - 570001<br />
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											9844349093
+										</span>
+									</h2>
+									<h2>
+										Email:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											hlsathreyahsn@gmail.com <br />
+										</span>
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div className="row">
+						<div className="col-md-12 dlrsadrs">
+							<div className="col-md-6">
+								<div className="alladrs">
+									<h2 style={{ color: '#0479bf' }}>MYSORE</h2>
+									<h2>R.D AQUATECH</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											Mr.Rishabdev
+										</span>
+									</h2>
+									<p>
+										17/A, Industrial Suburb 2 Stage,<br />
+										Mysore South, Mysore- 570008<br />
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											9845587877
+										</span>
+									</h2>
+									<h2>
+										Email:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											rishabdev@yahoo.com<br />
 										</span>
 									</h2>
 								</div>

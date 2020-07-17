@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Jalandhar</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>PUNJAB</h2>
+									<h2>VARUN MITRA CO-OPERATIVE L/C SOCIETY LTD.</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,12 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											N/A
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										G.T. Road, Maqsudam,<br />
+										Adj. Sharma Eye Hospital, Jalandhar<br />
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +39,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											0181 5050951, 7837239529
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +52,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											info@rainwater-harvesting.in <br />
 										</span>
 									</h2>
 								</div>

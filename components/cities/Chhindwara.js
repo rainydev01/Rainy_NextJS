@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Chhindwara</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>MADHYA PRADESH</h2>
+									<h2>SHREE MARKETING</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,12 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											Mr.Vinay Bagani
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										Main Road Sausar,<br />
+										Chhindwara (D), Madhya Pradesh<br />
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +39,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											09975043605
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +52,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											vinay@ecostructures.in <br />
 										</span>
 									</h2>
 								</div>

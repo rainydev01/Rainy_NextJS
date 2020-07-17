@@ -8,10 +8,11 @@ const city = () => {
 					<div className="row">
 						<div className="col-md-12 dlrsadrs">
 							<h4>DAVANGERE</h4>
+
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>KUMARASWAMY LAYOUT</h2>
-									<h2>VARUNA ENTERPRISES</h2>
+									<h2 style={{ color: '#0479bf' }}>DAVANGERE</h2>
+									<h2>SRI VASAVI PIPES & HARDWARE CENTRE</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -22,13 +23,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Nithin Balaji R
+											Mr.P.Srinivas Gupta
 										</span>
 									</h2>
 									<p>
-										#6, Mustafa Building, Sharada Nagar<br />
-										Vasanthapura Main Road<br />
-										Bengaluru - 560061
+										Shop No. 1 & 2, Muragarajendra Complex,,<br />
+										Near Jayadeva Circle, Hadadi Road,<br />
+										Davangere-577002
 									</p>
 									<h2>
 										Mob:-
@@ -40,58 +41,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											8050773225
-										</span>
-									</h2>
-									<h2>
-										Email:-{' '}
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											varunarainwater@yahoo.com <br />
-											varuna.hitech@gmail.com
-										</span>
-									</h2>
-								</div>
-							</div>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>UDAYANAGAR</h2>
-									<h2>ADITHYA RAIN WATER HARVESTORS</h2>
-									<h2>
-										Contact Person:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											Mr.V.Anand Kumar
-										</span>
-									</h2>
-									<p>
-										#7, Adithya Tower,<br />
-										Udayanagar 1st Main Road<br />
-										Bangalore - 560016
-									</p>
-									<h2>
-										Mob:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											9880660701, 9980059701
+											9742733889, 08192 253884
 										</span>
 									</h2>
 									<h2>
@@ -104,7 +54,58 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											aditya_rwh@indiatimes.com <br />
+											kisandvg@gmail.com <br />
+										</span>
+									</h2>
+								</div>
+							</div>
+
+							<div className="col-md-6">
+								<div className="alladrs">
+									<h2 style={{ color: '#0479bf' }}>DAVANGERE</h2>
+									<h2>SPANDANA AND CO</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											N/A
+										</span>
+									</h2>
+									<p>
+										Shop No. 1 & 2, Muragarajendra Complex,<br />
+										Near Jayadeva Circle, Hadadi Road,<br />
+										Davangere-577002
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											9980660426
+										</span>
+									</h2>
+									<h2>
+										Email:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											spandana.co@gmail.com <br />
 										</span>
 									</h2>
 								</div>

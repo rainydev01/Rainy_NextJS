@@ -10,9 +10,9 @@ const city = () => {
 							<h4>Indore</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Rainwater Harvesting</h2>
-
-									{/* <h2>
+									<h2 style={{ color: '#0479bf' }}>MADHYA PRADESH</h2>
+									<h2>SHREYANS ENERGY P LTD</h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
@@ -22,13 +22,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Anjali Mittal
+											Mr.Tarun Soni
 										</span>
-									</h2> */}
+									</h2>
 									<p>
-										Off No. 231, 2nd Floor,<br />
-										Rishab Complex, M.G. Road<br />
-										Raipur – 492001 – Chattisgarh
+										161, 166 First Floor, Orbit Mall,<br />
+										305 – 306 PU -4, Commercial,<br />
+										Scheme no. 54 AB Road Indore, Madhya Pradesh
 									</p>
 									<h2>
 										Mob:-
@@ -40,11 +40,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											0932911100/0771-2536486
+											+91 7314972415, +91 9300126830
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-
 										<span
 											style={{
 												fontWeight: '500',
@@ -53,7 +53,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											sandeep@rungtabrothers.com <br />
+											shailendrajain@shreyansenergy.com <br />
 										</span>
 									</h2>
 								</div>

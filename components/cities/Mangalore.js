@@ -10,8 +10,8 @@ const city = () => {
 							<h4>MANGALORE</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>KUMARASWAMY LAYOUT</h2>
-									<h2>VARUNA ENTERPRISES</h2>
+									<h2 style={{ color: '#0479bf' }}>MANGALORE</h2>
+									<h2>FD INFRA & TECHNOLOGIES LLP</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -22,13 +22,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Nithin Balaji R
+											N/A
 										</span>
 									</h2>
 									<p>
-										#6, Mustafa Building, Sharada Nagar<br />
-										Vasanthapura Main Road<br />
-										Bengaluru - 560061
+										Shop No.7, Ground Floor , Palma Residency,<br />
+										Kottar Cross, 1st lane ,<br />
+										Kopikad, Mangalore-575006
 									</p>
 									<h2>
 										Mob:-
@@ -40,58 +40,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											8050773225
-										</span>
-									</h2>
-									<h2>
-										Email:-{' '}
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											varunarainwater@yahoo.com <br />
-											varuna.hitech@gmail.com
-										</span>
-									</h2>
-								</div>
-							</div>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>UDAYANAGAR</h2>
-									<h2>ADITHYA RAIN WATER HARVESTORS</h2>
-									<h2>
-										Contact Person:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											Mr.V.Anand Kumar
-										</span>
-									</h2>
-									<p>
-										#7, Adithya Tower,<br />
-										Udayanagar 1st Main Road<br />
-										Bangalore - 560016
-									</p>
-									<h2>
-										Mob:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											9880660701, 9980059701
+											0824 2984813
 										</span>
 									</h2>
 									<h2>
@@ -104,7 +53,114 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											aditya_rwh@indiatimes.com <br />
+											fdinfra@gmail.com <br />
+										</span>
+									</h2>
+								</div>
+							</div>
+
+							<div className="col-md-6">
+								<div className="alladrs">
+									<h2 style={{ color: '#0479bf' }}>MANGALORE</h2>
+									<h2>JK & ASSOCIATES</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											Mr.Jayanth Kumar
+										</span>
+									</h2>
+									<p>
+										"Jayavarma Centre", Basement floor, Shop No.- 05,<br />
+										Door No. 15-10-537/1, Opp. Jugul Towers, Mallikatta,<br />
+										Mangalore-575002
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											9482311972
+										</span>
+									</h2>
+									<h2>
+										Email:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											jkassociates.mlr@gmail.com <br />
+										</span>
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div className="row">
+						<div className="col-md-12 dlrsadrs">
+							<div className="col-md-6">
+								<div className="alladrs">
+									<h2 style={{ color: '#0479bf' }}>MANGALORE</h2>
+									<h2>ANYA ENTERPRISES</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											Mr.Arvind Pai
+										</span>
+									</h2>
+									<p>
+										“Rukmini Nilaya”, Door No: 5-7-674, Gopal Nivas Compound,<br />
+										Vradhashrama Lane (Dr. Giridhar Rao Lane),<br />
+										PVS Kalakunj Road, Kodial Bail,<br />
+										Near Sharadha Vidhyalaya School,Mangalore - 575003
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											9741124627, 9886582840
+										</span>
+									</h2>
+									<h2>
+										Email:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px'
+											}}
+										>
+											tapai1881@gmail.com <br />
 										</span>
 									</h2>
 								</div>
