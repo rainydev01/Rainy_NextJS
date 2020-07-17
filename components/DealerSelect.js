@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react';
 // import Select from 'react-select';
 import Dropdown from './DropDown';
-// import Bangalore from '../components/cities/Bangalore';
+import Bangalore from '../components/cities/Bangalore';
 // import Belagavi from '../components/cities/Belagavi';
 // import Davangere from '../components/cities/Davangere';
 // import Dk from '../components/cities/Dk';
@@ -24,7 +24,7 @@ import Ahmedabad from '../components/cities/Ahmedabad';
 import Ajmer from '../components/cities/Ajmer';
 import Amravati from '../components/cities/Amravati';
 import Anantpur from '../components/cities/Anantpur';
-import Bangalore from '../components/cities/Bangalore';
+// import Bangalore from '../components/cities/Bangalore';
 import Bargarh from '../components/cities/Bargarh';
 import Belagavi from '../components/cities/Belagavi';
 import Berhampur from '../components/cities/Berhampur';
