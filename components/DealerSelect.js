@@ -86,7 +86,6 @@ const App = () => {
 
 	const changeCity = (city) => {
 		setSelectedCity(city);
-		console.log(`HEllo ${city}`);
 	};
 
 	if (selectedCity === 'BANGALORE') {
