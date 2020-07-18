@@ -155,7 +155,8 @@ class Dropdown extends React.Component {
 
 	render() {
 		return (
-			<div className="container-fluid dlrsmain">
+			<div className="container-fluid" style={{background: '#f0f9fd'}}>
+			<div className="container dlrsmain">
 				<div className="row">
 					<div className="col-md-4">
 						<div className="dlrsinpt">
@@ -188,6 +189,7 @@ class Dropdown extends React.Component {
 						</select>
 					</div>
 				</div>
+			</div>
 			</div>
 		);
 	}

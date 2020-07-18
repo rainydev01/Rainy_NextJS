@@ -33,7 +33,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 										The State government has tied up with us, to construct injection wells to
 										recharge groundwater by harvesting rainwater.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -104,7 +104,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 										urban areas to increase yield of existing borewells and installed their patented
 										Rainy filters to conserve water.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -174,7 +174,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 										direction of RWH with the help of innovative Rainy Filters and also by
 										implementing our Systems & Solutions.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -266,7 +266,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 										An informative article by Mr. V. Paneesha explaining the borewell recharging
 										process and its benefits.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -337,7 +337,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 										has been successfully implemented in association with Farmland Rainwater
 										Harvesting Systems.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -406,7 +406,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 										A more scientific way to increase ground water by recharging existing borewells
 										rather than digging new ones. A unique solution developed by us.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={

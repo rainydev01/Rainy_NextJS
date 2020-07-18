@@ -34,7 +34,7 @@ const SliderNews3 = ({ article2 }) => {
 										'Rainy' have been honoured with the Aqua Foundations Excellence Award 2017 under
 										the category of Industrial Excellence in Development of Technology.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={'https://www.daijiworld.com/news/newsDisplay.aspx?newsID=481961'}
@@ -99,7 +99,7 @@ const SliderNews3 = ({ article2 }) => {
 										to tap rainwater over an area of five acres, one of the largest such experiments
 										in the world, undertaken in a drought-hit area.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -169,7 +169,7 @@ const SliderNews3 = ({ article2 }) => {
 										were awarded for our FL-V Wire Injection Well Technology under the Innovation
 										for Climate Protection category.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={'http://www.daijiworld.com/news/newsDisplay.aspx?newsID=235866'}
@@ -255,7 +255,7 @@ const SliderNews3 = ({ article2 }) => {
 										Skoch Achiever Award 2018 Silver Category Awarded To Farmland Rainwater
 										Harvesting Systems And Conferred On 10th March 2018 At New Delhi
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -325,7 +325,7 @@ const SliderNews3 = ({ article2 }) => {
 										Custom RWH solution installed at SKF Factory in Haridwar, 300KL of water
 										collected and stored in a reservoir every monsoon
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -394,7 +394,7 @@ const SliderNews3 = ({ article2 }) => {
 										Learning and managing rainwater using RWH methods, especially after two
 										consecutive years of drought, was the way to water wisdom in 2016
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={

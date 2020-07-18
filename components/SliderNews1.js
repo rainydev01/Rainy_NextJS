@@ -34,7 +34,7 @@ const SliderNews1 = ({ article2 }) => {
 										Hadihalli in Chikkamagaluru has become a ray of hope for farmers in the
 										surrounding areas during these tough times.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -105,7 +105,7 @@ const SliderNews1 = ({ article2 }) => {
 										of the art hydrology labs and rainwater harvesting models enabling continuous
 										innovation.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -174,7 +174,7 @@ const SliderNews1 = ({ article2 }) => {
 										JSW Earth Care award category : Innovations for Climate Protection bestowed on
 										FLRWH for their innovative V-Wire Injection Well technology
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -267,7 +267,7 @@ const SliderNews1 = ({ article2 }) => {
 										Mr. Michael Baptist shares his vision on wanting to reach out to people in order
 										to help them understand and implement RWH.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
@@ -334,7 +334,7 @@ const SliderNews1 = ({ article2 }) => {
 										An article by Sri Padre explaining the benefits of RWH systems installed by
 										Farmland at Kuvempu Centenary Govt. Model Higher Primary School.
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={'http://www.indiatogether.org/schoolrwh-environment'}
@@ -397,7 +397,7 @@ const SliderNews1 = ({ article2 }) => {
 										Learning and managing rainwater using RWH methods, especially after two
 										consecutive years of drought, was the way to water wisdom in 2016
 									</p>
-									<div className="mdiasocial">
+									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={

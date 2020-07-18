@@ -28,6 +28,7 @@ export default function Home() {
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 				/>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 			</Head>
 			<main>
 				<div className="App">
@@ -208,7 +209,7 @@ export default function Home() {
 											</div>
 											<div
 												id="collapse-1"
-												className="collapse show"
+												className="collapse"
 												data-parent="#accordion"
 												aria-labelledby="heading-1"
 											>
@@ -692,7 +693,7 @@ export default function Home() {
 											</div>
 											<div
 												id="collapse-1"
-												className="collapse show"
+												className="collapse "
 												data-parent="#accordion"
 												aria-labelledby="heading-1"
 											>

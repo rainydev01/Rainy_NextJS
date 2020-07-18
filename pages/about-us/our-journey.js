@@ -41,7 +41,7 @@ export default function Home() {
 				<div className="App">
 					{/*<h1> Our Journey</h1>*/}
 					<Header />
-					<div className="container-fluid banner enternal" style={{ marginTop: '-45px' }}>
+					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/journey/Banner.png" />
 							<div className="hero-text enthrotxt">
@@ -271,7 +271,7 @@ export default function Home() {
 							</ul>
 						</div>
 					</div>
-					<div className="container-fluid">
+					<div className="container-fluid rainyresearchnm">
 						<div className="container">
 							<ul className="timeline">
 								<li>
@@ -305,7 +305,7 @@ export default function Home() {
 							</ul>
 						</div>
 					</div>
-					<div className="container-fluid">
+					<div className="container-fluid fl80rooftop">
 						<div className="container">
 							<ul className="timeline">
 								<li className="timeline-inverted">
