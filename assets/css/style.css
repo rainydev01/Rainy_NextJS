@@ -245,7 +245,7 @@ img {
 
 	.hero-text {
 		position: absolute;
-		top: 17% !important;
+		top: 20% !important;
 		left: 50% !important;
 		width: 100%;
 		padding: 25px;
@@ -1814,11 +1814,12 @@ h5.mb-0.mb0diff {
 }
 
 .slick-slider.slick-initialized .slick-arrow.slick-prev {
-    left: 225px;
+    left: -15px;
+    z-index: 999;
 }
 
 .slick-slider.slick-initialized .slick-arrow.slick-next {
-	right: 225px;
+	right: -15px;
 }
 
 .mdiasocial {
