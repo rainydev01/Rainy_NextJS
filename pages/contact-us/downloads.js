@@ -1,8 +1,8 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import {Fragment} from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 export default function Home() {
 	return (
@@ -15,11 +15,17 @@ export default function Home() {
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<link
+					rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
 			</Head>
 			<main>
 				<div className="App">
@@ -48,7 +54,7 @@ export default function Home() {
 														aria-expanded="true"
 														aria-controls="collapse-1"
 													>
-														Brochures{' '}
+														Brochures
 														<span className="mb-span">
 															View all the product info Brochures here
 														</span>
@@ -62,7 +68,39 @@ export default function Home() {
 												aria-labelledby="heading-1"
 											>
 												<div className="card-body">
-													Lorum ipsom is a dummy text, Here is a text is only for test.
+													<div class="container-fluid">
+														<div class="row">
+															<div class="col-md-2">
+																<a
+																	href="../../static/pdf/FourFolderLiterature.pdf"
+																	target="_blank"
+																>
+																	<i
+																		class="fa fa-file-pdf-o fa-3x"
+																		aria-hidden="true"
+																	></i>
+																</a>
+
+																<p>
+																	Four Folder <br></br> Literature{" "}
+																</p>
+															</div>
+															<div class="col-md-2">
+																<a
+																	href="../../static/pdf/RainyTechnicalLiterature.pdf"
+																	target="_blank"
+																>
+																	<i
+																		class="fa fa-file-pdf-o fa-3x"
+																		aria-hidden="true"
+																	></i>
+																</a>
+
+																<p>Rainy Technical Literature</p>
+															</div>
+															<div class="col-md-4"></div>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -88,11 +126,15 @@ export default function Home() {
 												aria-labelledby="heading-2"
 											>
 												<div className="card-body">
-													Lorum ipsom is a dummy text, Here is a text is only for test.
+													Lorum ipsom is a dummy text, Here is a text is only
+													for test.
 												</div>
 											</div>
 										</div>
-										<div className="acrdinbrdr" style={{ borderBottom: '2px solid #58b8ef' }}>
+										<div
+											className="acrdinbrdr"
+											style={{borderBottom: "2px solid #58b8ef"}}
+										>
 											<div className="card-header" id="heading-3">
 												<h5 className="mb-0">
 													<a
@@ -114,7 +156,8 @@ export default function Home() {
 												aria-labelledby="heading-3"
 											>
 												<div className="card-body">
-													Lorum ipsom is a dummy text, Here is a text is only for test.
+													Lorum ipsom is a dummy text, Here is a text is only
+													for test.
 												</div>
 											</div>
 										</div>
