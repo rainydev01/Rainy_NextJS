@@ -1,8 +1,8 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import {Fragment} from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 export default function Home() {
 	return (
@@ -15,7 +15,10 @@ export default function Home() {
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<link
+					rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
@@ -43,14 +46,15 @@ export default function Home() {
 									<h1 className="fl80">FL 80</h1>
 									<p
 										style={{
-											textAlign: 'center',
-											fontSize: '16px',
-											fontWeight: '500',
-											color: 'black'
+											textAlign: "center",
+											fontSize: "16px",
+											fontWeight: "500",
+											color: "black",
 										}}
 									>
-										This open ended filter has auto flush out feature enabling self cleaning, with
-										unique working principle. FL 80 is suitable for __ to __ sq.m rooftop area.
+										This open ended filter has auto flush out feature enabling
+										self cleaning, with unique working principle. FL 80 is
+										suitable for __ to __ sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-4">
@@ -63,14 +67,16 @@ export default function Home() {
 										<table class="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
-													<td style={{ width: '40%' }} className="borderRight">
+													<td style={{width: "40%"}} className="borderRight">
 														Suitable up to area:
 													</td>
 													<td>110 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Max: Intensity of Rainfall:</td>
+													<td className="borderRight">
+														Max: Intensity of Rainfall:
+													</td>
 													<td>75 mm/hr</td>
 												</tr>
 												<tr>
@@ -123,14 +129,20 @@ export default function Home() {
 											<div class="row">
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl80Dimension">
+														<button
+															data-toggle="modal"
+															data-target="#fl80Dimension"
+														>
 															Overall Dimension
 														</button>
 													</div>
 												</div>
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl80Installation">
+														<button
+															data-toggle="modal"
+															data-target="#fl80Installation"
+														>
 															On Site Installation
 														</button>
 													</div>
@@ -158,19 +170,31 @@ export default function Home() {
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
+						<div
+							class="modal-dialog modal-dialog-centered modal-xl"
+							role="document"
+						>
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 80 - Overall Dimension
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">...</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -191,13 +215,22 @@ export default function Home() {
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 80 - On Site Installation
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">...</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -212,14 +245,15 @@ export default function Home() {
 									<h1 className="fl80">FL 100</h1>
 									<p
 										style={{
-											textAlign: 'center',
-											fontSize: '16px',
-											fontWeight: '500',
-											color: 'black'
+											textAlign: "center",
+											fontSize: "16px",
+											fontWeight: "500",
+											color: "black",
 										}}
 									>
-										This open ended filter has auto flush out feature enabling self cleaning with
-										unique working principle. FL 100 is suitable for __ to __ sq.m rooftop area.
+										This open ended filter has auto flush out feature enabling
+										self cleaning with unique working principle. FL 100 is
+										suitable for __ to __ sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-8">
@@ -227,14 +261,16 @@ export default function Home() {
 										<table class="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
-													<td style={{ width: '40%' }} className="borderRight">
+													<td style={{width: "40%"}} className="borderRight">
 														Suitable up to area:
 													</td>
 													<td>110 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Max: Intensity of Rainfall:</td>
+													<td className="borderRight">
+														Max: Intensity of Rainfall:
+													</td>
 													<td>75 mm/hr</td>
 												</tr>
 												<tr>
@@ -287,14 +323,20 @@ export default function Home() {
 											<div class="row">
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl100Dimension">
+														<button
+															data-toggle="modal"
+															data-target="#fl100Dimension"
+														>
 															Overall Dimension
 														</button>
 													</div>
 												</div>
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl100Installation">
+														<button
+															data-toggle="modal"
+															data-target="#fl100Installation"
+														>
 															On Site Installation
 														</button>
 													</div>
@@ -321,26 +363,44 @@ export default function Home() {
 					</div>
 
 					<div
-						class="modal fade"
+						class="modal fade "
 						id="fl100Dimension"
 						tabindex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
+						<div
+							class="modal-dialog modal-dialog-centered modal-xl"
+							role="document"
+						>
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 100 - Overall Dimension
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
+								<div class="modal-body">
+									<img
+										src="../../static/images/filters/fl-100.png"
+										class="img-fluid"
+										alt="FL-100"
+									/>
+								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -361,13 +421,22 @@ export default function Home() {
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 100 - On Site Installation
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">...</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -382,14 +451,15 @@ export default function Home() {
 									<h1 className="fl80">FL 200</h1>
 									<p
 										style={{
-											textAlign: 'center',
-											fontSize: '16px',
-											fontWeight: '500',
-											color: 'black'
+											textAlign: "center",
+											fontSize: "16px",
+											fontWeight: "500",
+											color: "black",
 										}}
 									>
-										This open ended filter has auto flush out feature enabling self cleaning with
-										unique working principle.. FL 200 is suitable for __ to __ sq.m rooftop area.
+										This open ended filter has auto flush out feature enabling
+										self cleaning with unique working principle.. FL 200 is
+										suitable for __ to __ sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-4">
@@ -402,14 +472,16 @@ export default function Home() {
 										<table class="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
-													<td style={{ width: '40%' }} className="borderRight">
+													<td style={{width: "40%"}} className="borderRight">
 														Suitable up to area:
 													</td>
 													<td>225 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Max: Intensity of Rainfall:</td>
+													<td className="borderRight">
+														Max: Intensity of Rainfall:
+													</td>
 													<td>75 mm/hr</td>
 												</tr>
 												<tr>
@@ -462,14 +534,20 @@ export default function Home() {
 											<div class="row">
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl200Dimension">
+														<button
+															data-toggle="modal"
+															data-target="#fl200Dimension"
+														>
 															Overall Dimension
 														</button>
 													</div>
 												</div>
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl200Installation">
+														<button
+															data-toggle="modal"
+															data-target="#fl200Installation"
+														>
 															On Site Installation
 														</button>
 													</div>
@@ -496,19 +574,37 @@ export default function Home() {
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
+						<div
+							class="modal-dialog modal-dialog-centered modal-xl"
+							role="document"
+						>
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 200 - Overall Dimension
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
+								<div class="modal-body">
+									<img
+										src="../../static/images/filters/fl-200.png"
+										class="img-fluid"
+										alt="FL-200"
+									/>
+								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -529,13 +625,22 @@ export default function Home() {
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 200 - On Site Installation
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">...</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -550,14 +655,15 @@ export default function Home() {
 									<h1 className="fl80">FL 300</h1>
 									<p
 										style={{
-											textAlign: 'center',
-											fontSize: '16px',
-											fontWeight: '500',
-											color: 'black'
+											textAlign: "center",
+											fontSize: "16px",
+											fontWeight: "500",
+											color: "black",
 										}}
 									>
-										This open ended filter has auto flush out feature enabling self cleaning with
-										unique working principle.. FL 300 is suitable for __ to __ sq.m rooftop area.
+										This open ended filter has auto flush out feature enabling
+										self cleaning with unique working principle.. FL 300 is
+										suitable for __ to __ sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-8">
@@ -565,14 +671,16 @@ export default function Home() {
 										<table class="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
-													<td style={{ width: '40%' }} className="borderRight">
+													<td style={{width: "40%"}} className="borderRight">
 														Suitable up to area:
 													</td>
 													<td>350 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Max: Intensity of Rainfall:</td>
+													<td className="borderRight">
+														Max: Intensity of Rainfall:
+													</td>
 													<td>75 mm/hr</td>
 												</tr>
 												<tr>
@@ -625,14 +733,20 @@ export default function Home() {
 											<div class="row">
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl300Dimension">
+														<button
+															data-toggle="modal"
+															data-target="#fl300Dimension"
+														>
 															Overall Dimension
 														</button>
 													</div>
 												</div>
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl300Installation">
+														<button
+															data-toggle="modal"
+															data-target="#fl300Installation"
+														>
 															On Site Installation
 														</button>
 													</div>
@@ -665,19 +779,37 @@ export default function Home() {
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
+						<div
+							class="modal-dialog modal-dialog-centered modal-xl"
+							role="document"
+						>
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 300 - Overall Dimension
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
+								<div class="modal-body">
+									<img
+										src="../../static/images/filters/fl-300.png"
+										class="img-fluid"
+										alt="FL-300"
+									/>
+								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -698,13 +830,22 @@ export default function Home() {
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 300 - On Site Installation
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">...</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -719,14 +860,15 @@ export default function Home() {
 									<h1 className="fl80">FL 500</h1>
 									<p
 										style={{
-											textAlign: 'center',
-											fontSize: '16px',
-											fontWeight: '500',
-											color: 'black'
+											textAlign: "center",
+											fontSize: "16px",
+											fontWeight: "500",
+											color: "black",
 										}}
 									>
-										This open ended filter has auto flush out feature enabling self cleaning with
-										unique working principle. FL 500 is suitable for __ to __ sq.m rooftop area.
+										This open ended filter has auto flush out feature enabling
+										self cleaning with unique working principle. FL 500 is
+										suitable for __ to __ sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-4">
@@ -739,14 +881,16 @@ export default function Home() {
 										<table class="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
-													<td style={{ width: '40%' }} className="borderRight">
+													<td style={{width: "40%"}} className="borderRight">
 														Suitable up to area:
 													</td>
 													<td>500 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Max: Intensity of Rainfall:</td>
+													<td className="borderRight">
+														Max: Intensity of Rainfall:
+													</td>
 													<td>75 mm/hr</td>
 												</tr>
 												<tr>
@@ -799,14 +943,20 @@ export default function Home() {
 											<div class="row">
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl500Dimension">
+														<button
+															data-toggle="modal"
+															data-target="#fl500Dimension"
+														>
 															Overall Dimension
 														</button>
 													</div>
 												</div>
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button data-toggle="modal" data-target="#fl500Installation">
+														<button
+															data-toggle="modal"
+															data-target="#fl500Installation"
+														>
 															On Site Installation
 														</button>
 													</div>
@@ -833,19 +983,37 @@ export default function Home() {
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
+						<div
+							class="modal-dialog modal-dialog-centered modal-xl"
+							role="document"
+						>
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 500 - Overall Dimension
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
+								<div class="modal-body">
+									<img
+										src="../../static/images/filters/fl-500.png"
+										class="img-fluid"
+										alt="FL-500"
+									/>
+								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>
@@ -866,13 +1034,22 @@ export default function Home() {
 									<h5 class="modal-title" id="exampleModalLongTitle">
 										FL 500 - On Site Installation
 									</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">...</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
 										Close
 									</button>
 								</div>

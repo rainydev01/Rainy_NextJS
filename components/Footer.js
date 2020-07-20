@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from "react";
 
 const Footer = () => {
 	return (
@@ -10,8 +10,9 @@ const Footer = () => {
 							<div className="footer-one">
 								<img src="../static/images/logo/Wlogo.png" alt="Footer Logo" />
 								<p>
-									Farmland Rainwater Harvesting system No 648, Ground Flore, 11th cross, 7th block,
-									jaya Nagar, Bengaluru, Karnataka - 560082.
+									Farmland Rainwater Harvesting system No 648, Ground Flore,
+									11th cross, 7th block, jaya Nagar, Bengaluru, Karnataka -
+									560082.
 								</p>
 							</div>
 						</div>
@@ -25,13 +26,22 @@ const Footer = () => {
 									+91 94480 76595
 								</p>
 								<p>
-									<i className="fa fa-volume-control-phone" aria-hidden="true" /> +91 94481 30524
+									<i
+										className="fa fa-volume-control-phone"
+										aria-hidden="true"
+									/>{" "}
+									+91 94481 30524
 								</p>
 								<p>
-									<i className="fa fa-volume-control-phone" aria-hidden="true" /> +91 94494 43232
+									<i
+										className="fa fa-volume-control-phone"
+										aria-hidden="true"
+									/>{" "}
+									+91 94494 43232
 								</p>
 								<p>
-									<i className="fa fa-envelope-o" aria-hidden="true" /> farmland_rhs@yahoo.co.in
+									<i className="fa fa-envelope-o" aria-hidden="true" />{" "}
+									farmland_rhs@yahoo.co.in
 								</p>
 							</div>
 						</div>
