@@ -338,7 +338,7 @@ export default function Home() {
 							<ul className="timeline">
 								<li className="timeline-inverted">
 									<div className="timeline-panel right-imghis">
-										<div className="">
+										<div className="ourjourneycontinue">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">Our Journey Continues...</h4>
 											</div>

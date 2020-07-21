@@ -1,3 +1,8 @@
+.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
 @font-face {
     font-family: "Visby Round CF Heavy";
     src: url("../../public/fonts/VisbyRoundCFHeavy.ttf");
@@ -61,6 +66,10 @@ img.moblogo {
 .slick-next {
     right: 300px!important;
 }*/
+
+.slick-next {
+    right: 35px!important;
+}
 
 .main_container {
     max-width: 740px;
@@ -195,11 +204,58 @@ img {
     body[yahoo] .full_width_600 {
         width: 90% !important;
     }
+
+    .techcntrbg h1 {
+        padding: 45px 0px!important;
+        background-size: contain!important;
+        font-size: 22px!important;
+    }
+
+    .hero-text.rnyfltrs h1 {
+        font-size: 22px!important;
+    }
+
+    .techcntrbgto h1 {
+        text-align: center!important;
+    }
+
+    .hero-text.techbnnrtxt h1 {
+        font-size: 25px!important;
+    }
+
+    .hero-text.entteamtxt h1 {
+        font-size: 22px!important;
+    }
+
+    .ourjourneycontinue {
+        width: 50%!important;
+        left: 0px!important;
+        position: absolute!important;
+        bottom: 115px!important;
+    }
+
+    .timeline>li>.timeline-badge {
+        left: 54%!important;
+    }
+
     .slick-slider.slick-initialized .slick-arrow.slick-prev {
         left: 0px !important;
-        top: 80% !important;
+        top: 90% !important;
         z-index: 999 !important;
     }
+
+    .slick-slider.slick-initialized .slick-arrow.slick-prev {
+        z-index: 999;
+        left: 0px!important;
+    }
+
+    .award h1 {
+        padding: 30px 0px 32px 0px!important;
+        background-size: contain!important;
+        font-size: 22px!important;
+        margin-bottom: 60px!important;
+    }
+
     .mdiasocial {
         position: relative !important;
         bottom: 50px !important;
@@ -210,10 +266,10 @@ img {
     }
     .slick-slider.slick-initialized .slick-arrow.slick-next {
         right: 0px !important;
-        top: 80% !important;
+        top: 90% !important;
     }
     .timeline-panel {
-        margin-top: 50% !important;
+        margin-top: 60% !important;
     }
     a.diffcolormenu {
         background: none !important;
@@ -253,11 +309,18 @@ img {
         margin: 25px 0px !important;
     }
     .hero-text h1 {
-        font-size: 22px !important;
+        font-size: 22px!important;
     }
     .hero-text p {
         font-size: 20px !important;
     }
+
+    .groundwaterstxt h3 {
+        font-weight: 600;
+        color: #0971b7;
+        font-size: 25px!important;
+    }
+
     .hero-text button {
         font-size: 13px !important;
     }
@@ -327,13 +390,14 @@ img {
     .timeline>li>.right-drop {
         width: 155px !important;
         height: 181px !important;
-        top: 16px !important;
+        top: 20px !important;
+        left: 52%!important;
     }
     .timeline>li>.left-drop {
         width: 181px !important;
         height: 181px !important;
-        top: 15px !important;
-        left: 29.5% !important;
+        top: 17px !important;
+        left: 31% !important;
         margin-left: -90px !important;
     }
     .enthrotxt {
@@ -409,19 +473,45 @@ img {
     h1.fl80 {
         width: 60% !important;
     }
+
+    .mb-0>a:after {
+        content: "\f078";
+        font-family: "Visby Round CF Heavy";
+        position: absolute;
+        right: 7%!important;
+    }
+
     .yellowbtn button {
         width: 100%;
         margin: 5px 15px !important;
     }
+
+    .sssprt h1 {
+        padding: 45px 0px!important;
+        background-size: contain!important;
+        font-size: 22px!important;
+    }
+
     .yellowbtn {
         margin-left: -20px !important;
     }
+
+    .rnyfltrbtn.senq #rnenq {
+        float: left;
+        margin-left: 30%;
+    }
+
+    .hero-text.inthemedia h1 {
+        font-size: 22px!important;
+    }
+
     .rnyfltrbtn {
         margin: 10px 0px !important;
         text-align: center !important;
     }
+    
     .gr3 {
-        margin: 10px 3px;
+        margin: 20px 3px;
     }
     .dlrsinpt select {
         padding: 6px 0px !important;
@@ -1022,7 +1112,7 @@ a.diffcolormenu {
 }
 
 .groundwaterSocial {
-    padding: 45px 0px 700px 0px;
+    padding: 45px 0px 560px 0px;
 }
 
 .groundwaterstxt h3 {
@@ -1393,7 +1483,7 @@ h2.whtdowdo:after {
 
 .timeline:before {
     top: 0;
-    bottom: 0;
+    bottom: -17px;
     position: absolute;
     content: " ";
     width: 3px;
@@ -1765,13 +1855,11 @@ h5.mb-0.mb0diff {
 }
 
 .slick-slider.slick-initialized .slick-arrow.slick-prev {
-    left: -15px;
     z-index: 999;
+    left: 35px;
 }
 
-.slick-slider.slick-initialized .slick-arrow.slick-next {
-    right: -15px;
-}
+
 
 .mdiasocial {
     padding: 20px 0px;
@@ -2112,7 +2200,7 @@ h5.mb0diff a {
 
 .techcntrbgto h1 {
     text-align: right;
-    padding: 150px 0px;
+    padding: 120px 0px;
     background-image: url(../../static/images/technology/MainBanner.png);
     background-position: center;
     background-size: cover;
@@ -2707,6 +2795,13 @@ h5.mb-0 a {
     letter-spacing: 0.5px;
 }
 
+h5.mb-0 a:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+}
+
 span.mb-span {
     background: #e5e2e2;
     font-size: 16px;
@@ -2799,8 +2894,8 @@ span.mb-span {
 }
 
 .nextButtons button {
-    background: #6ec6d8;
-    border: 1px solid #6ec6d8;
+    background: #009ddd;
+    border: 1px solid #009ddd;
     padding: 5px 14px;
     border-radius: 30px;
     margin: 0px 0px;
@@ -2808,7 +2903,7 @@ span.mb-span {
 }
 
 .nextButtons {
-    margin: -10px 60px 30px 60px;
+    margin: -10px 0px 30px 0px;
 }
 
 .mediabtn button a {
