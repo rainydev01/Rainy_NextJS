@@ -1,8 +1,9 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import {Fragment} from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import ContactForm from "../../components/ContactForm";
 
 export default function Home() {
 	return (
@@ -15,7 +16,10 @@ export default function Home() {
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<link
+					rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
@@ -42,65 +46,43 @@ export default function Home() {
 								<div className="col-md-5">
 									<div className="gtintchlft">
 										<h6 className="contacth">
-											<img src="../../static/images/get-in-touch/ic-contact-map-pin@2x.png" />Address
+											<img src="../../static/images/get-in-touch/ic-contact-map-pin@2x.png" />
+											Address
 										</h6>
 										<p className="contacttxt">
-											Farmland Rainwater Harvesting system No 648, Ground Flore, 11th cross, 7th
-											block, jaya Nagar, Bengaluru, Karnataka - 560082.
+											Farmland Rainwater Harvesting system No 648, Ground Flore,
+											11th cross, 7th block, jaya Nagar, Bengaluru, Karnataka -
+											560082.
 										</p>
 
 										<h6 className="contacth">Head Office</h6>
 										<p className="contacttxt">
-											SGS Complex, K.M.Road, Chikmagalur. PIN: 577101, Karnataka, India.
+											SGS Complex, K.M.Road, Chikmagalur. PIN: 577101,
+											Karnataka, India.
 										</p>
 
 										<h6 className="contacth">Rainy Research and Manufacture</h6>
 										<p className="contacttxt">
-											m/s RAINY RESEARCH AND MFG. Hanumidi Village, Narayanpura Gram Panchayat
-											Belur, Hassan District, Karnataka- 573115.
+											m/s RAINY RESEARCH AND MFG. Hanumidi Village, Narayanpura
+											Gram Panchayat Belur, Hassan District, Karnataka- 573115.
 										</p>
 
 										<h6 className="contacth">
-											<img src="../../static/images/get-in-touch/ic-contact-phone@2x.png" />Contact
+											<img src="../../static/images/get-in-touch/ic-contact-phone@2x.png" />
+											Contact
 										</h6>
 										<p className="contacttxt">+91 94480 76595</p>
 										<p className="contacttxt">+91 94481 30524</p>
 										<p className="contacttxt">+91 94494 43232</p>
 
 										<h6 className="contacth">
-											<img src="../../static/images/get-in-touch/ic-contact-mail@2x.png" />Email
-											Id
+											<img src="../../static/images/get-in-touch/ic-contact-mail@2x.png" />
+											Email Id
 										</h6>
 										<p className="contacttxt">farmland_rhs@yahoo.co.in</p>
 									</div>
 								</div>
-								<div className="col-md-7">
-									<div className="gtintchrgt">
-										<p>
-											Our network currently consists of over 131 dealers across India and spans
-											over 9 countries. We aim to fulfil all customer queries as soon as possible,
-											with integrity and through a transparent communication channel.
-										</p>
-
-										<form>
-											<div className="fominpt">
-												<input type="text" name="name" placeholder="Name:" />
-											</div>
-											<div className="fominpt">
-												<input type="text" name="phone" placeholder="Phone:" />
-											</div>
-											<div className="fominpt">
-												<input type="email" name="email" placeholder="Email id:" />
-											</div>
-											<div className="fominpt frmmsg">
-												<input type="textarea" name="message" placeholder="Message:" />
-											</div>
-											<div className="fominpt frmbtn">
-												<input type="submit" name="submit" value="Submit" />
-											</div>
-										</form>
-									</div>
-								</div>
+								<ContactForm></ContactForm>
 							</div>
 						</div>
 
@@ -110,7 +92,7 @@ export default function Home() {
 								width="100%"
 								height="350"
 								frameborder="0"
-								style={{ border: '0' }}
+								style={{border: "0"}}
 							/>
 						</div>
 					</div>
