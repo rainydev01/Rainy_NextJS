@@ -248,7 +248,7 @@ export default function Home() {
 					<div className="container-fluid gallrymain">
 						<div className="container glrycntnr">
 							<div className="row">
-								<div class="col-md-12 glrymnu" align="center">
+								<div class="glrymnu" align="center">
 									<button
 										onClick={() => {
 											onChange(1);
@@ -390,7 +390,7 @@ export default function Home() {
 								<br />
 								<div
 									style={{ marginTop: 40 }}
-									className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"
+									className="col-lg-12 col-sm-12 col-xs-12 text-center"
 								>
 									{gallerySelectedComponent}
 								</div>

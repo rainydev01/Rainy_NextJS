@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const Banner = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid banner">
+			<div className="container-fluid banner bannrhome">
 				<div className="hero-image">
 					<img src="../static/images/homepage/HomePageBanner.png" alt="Banner" />
 					<div className="hero-text">

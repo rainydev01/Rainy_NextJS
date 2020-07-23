@@ -42,7 +42,7 @@ export default function Home() {
 					<div className="container-fluid">
 						<div className="container">
 							<div className="row">
-								<div className="col-md-12">
+								<div className="">
 									<h1 className="fl80">FL 80</h1>
 									<p
 										style={{
@@ -241,7 +241,7 @@ export default function Home() {
 					<div className="container-fluid fl100">
 						<div className="container">
 							<div className="row">
-								<div className="col-md-12">
+								<div className="">
 									<h1 className="fl80">FL 100</h1>
 									<p
 										style={{
@@ -447,7 +447,7 @@ export default function Home() {
 					<div className="container-fluid fl200fltr">
 						<div className="container">
 							<div className="row">
-								<div className="col-md-12">
+								<div className="">
 									<h1 className="fl80">FL 200</h1>
 									<p
 										style={{
@@ -651,7 +651,7 @@ export default function Home() {
 					<div className="container-fluid fl100">
 						<div className="container">
 							<div className="row">
-								<div className="col-md-12">
+								<div className="">
 									<h1 className="fl80">FL 300</h1>
 									<p
 										style={{
@@ -856,7 +856,7 @@ export default function Home() {
 					<div className="container-fluid fl500fltr">
 						<div className="container">
 							<div className="row">
-								<div className="col-md-12">
+								<div className="">
 									<h1 className="fl80">FL 500</h1>
 									<p
 										style={{
