@@ -221,7 +221,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 				<div class="container-fluid">
 					<div className="row">
 						<div className="col-md-4">
-							<div style={{ float: 'left' }} className="nextButtons">
+							<div style={{ float: 'left' }} className="nextButtons prebutton">
 								<button onClick={article1}>
 									<i className="fa fa-angle-left" aria-hidden="true" />
 								</button>

@@ -3,10 +3,78 @@
     margin-left: 0px !important;
 }
 
+.slick-arrow-right-awards {
+    margin-top: -20%!important;
+}
+
+.nextButtons.prebutton {
+    margin-left: 30px!important;
+}
+
+.slick-list {
+    z-index: -999!important;
+}
+
+.container.awrdimgsec.text-center img {
+    max-width: 100%!important;
+}
+
+.slick-arrow-left-awards {
+    width: 0%;
+    float: left;
+    margin-top: 15%;
+    margin-left: 35px;
+}
+
+.slick-arrow-right-awards i {
+    color: #fff;
+    background: #077ec2;
+    padding: 12px 15px;
+    border-radius: 100%;
+}
+
+.slick-arrow-right-awards {
+    float: right;
+    width: 5%;
+    margin-top: -20%;
+}
+
+.slick-arrow-left-awards i {
+    background: #047bc0;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 100%;
+}
+
+.slick-arrow-left {
+    width: 2%;
+    color: #0971b7;
+    font-size: 22px;
+    margin-top: 30px;
+    float: left;
+}
+
+.slick-list .slick-track img {
+    text-align: center!important;
+    max-width: 230px;
+    margin: auto;
+}
+
+.slick-arrow-right {
+    width: 0%;
+    color: #0971b7;
+    font-size: 22px;
+    float: right;
+    margin-top: -70px;
+}
+
 button {
     outline: none!important;
 }
 
+.journeymain {
+    padding-top: 60px;
+}
 
 @font-face {
     font-family: "Visby Round CF Heavy";
@@ -210,6 +278,25 @@ img {
         width: 90% !important;
     }
 
+    .nextButtons.prebutton {
+        margin-left: 0px!important;
+        position: absolute;
+        left: -400px;
+    }
+
+    .slick-arrow-right-awards {
+        float: right;
+        width: 8%;
+        margin-top: -13%;
+    }
+
+    .slick-arrow-left-awards {
+        width: 0%;
+        float: left;
+        margin-top: 85%;
+        margin-left: -5px;
+    }
+
     button#rnrdmr {
         border: 1px solid#fff532;
         background: #fff532;
@@ -273,8 +360,7 @@ img {
         bottom: 50px !important;
     }
     .nextButtons {
-        margin: -40px -5px 0px -5px !important;
-        z-index: 999999 !important;
+        margin: -33px 25px 0px 0px !important;
     }
     .slick-slider.slick-initialized .slick-arrow.slick-next {
         right: 0px !important;
@@ -305,6 +391,7 @@ img {
         max-width: 100%;
     }
     .hero-text {
+        text-align: right!important;
         position: absolute;
         top: 20% !important;
         left: 50% !important;
@@ -557,6 +644,25 @@ and (min-device-width : 1024px) {
     .groundwater_bg_home img {
         max-width: 100%!important;
         margin-bottom: 10%!important;
+    }
+    .cntrimg img {
+        margin-top: 0%!important;
+    }
+    .groundwatersimg img {
+        margin-top: 20px!important;
+    }
+    .timeline>li>.left-drop {
+        left: 43% !important;
+    }
+    .timeline>li>.timeline-panel {
+        width: 45% !important;
+    }
+
+    .slick-arrow-right-awards {
+        margin-top: -30%;
+    }
+    .nextButtons.prebutton {
+        left: -1035px!important;
     }
 }
 
@@ -877,9 +983,25 @@ p {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
 
+    .nextButtons.prebutton {
+        margin-left: 30px!important;
+        position: absolute;
+        left: -795px;
+    }
+
     .footer-one img {
         max-width: 100%!important;
         width: 110px!important;
+    }
+
+    .slick-arrow-left-awards {
+        margin-top: 20%;
+    }
+
+    .slick-arrow-right-awards {
+        float: right;
+        width: 8%;
+        margin-top: -45%;
     }
 
     .bannrhome .hero-image .hero-text {
@@ -959,7 +1081,7 @@ and (max-device-width : 1024px)  {
         bottom: 50px !important;
     }
     .nextButtons {
-        margin: -40px -5px 0px -5px !important;
+        margin: -47px 20px 0px -5px !important;
         z-index: 999999 !important;
     }
     .slick-slider.slick-initialized .slick-arrow.slick-next {
@@ -989,6 +1111,7 @@ and (max-device-width : 1024px)  {
     }
     .groundwatersimg img {
         max-width: 100%;
+        margin-top: 115px;
     }
     .hero-text {
         position: absolute;
@@ -996,6 +1119,9 @@ and (max-device-width : 1024px)  {
         left: 50% !important;
         width: 50%;
         padding: 25px;
+    }
+    .cntrimg img {
+        margin-top: 70%;
     }
     .banner {
         margin-top: 5% !important;
@@ -1029,6 +1155,7 @@ and (max-device-width : 1024px)  {
         padding: 370px 0px 0px 0px !important;
     }
     .about-content {
+        max-width: 740px!important;
         background: #0971b7;
         color: #fff;
         max-width: 100%;
@@ -3297,7 +3424,7 @@ span.mb-span {
 }
 
 .nextButtons {
-    margin: -10px 0px 30px 0px;
+    margin: -10px 30px 30px 0px;
 }
 
 .mediabtn button a {

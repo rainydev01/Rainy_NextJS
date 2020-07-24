@@ -333,7 +333,7 @@ export default function Home() {
 						</div>
 					</div>
 
-					<div className="container-fluid">
+					<div className="container-fluid" style={{paddingBottom: '60px'}}>
 						<div className="container">
 							<ul className="timeline">
 								<li className="timeline-inverted">
