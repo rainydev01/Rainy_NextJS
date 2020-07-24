@@ -5,16 +5,12 @@ function SampleNextArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className={className}
-			style={{
-				...style,
-				display: "block",
-				background: "#0971b7",
-				padding: "10px 30px 30px 10px",
-				borderRadius: "30px",
-			}}
+			className="slick-arrow-right-awards"
+			style={{...style, display: "block"}}
 			onClick={onClick}
-		/>
+		>
+			<i class="fa fa-chevron-right" aria-hidden="true"></i>
+		</div>
 	);
 }
 
@@ -22,16 +18,12 @@ function SamplePrevArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className={className}
-			style={{
-				...style,
-				display: "block",
-				background: "#0971b7",
-				padding: "10px 30px 30px 10px",
-				borderRadius: "30px",
-			}}
+			className="slick-arrow-left-awards"
+			style={{...style, display: "block"}}
 			onClick={onClick}
-		/>
+		>
+			<i class="fa fa-chevron-left" aria-hidden="true"></i>
+		</div>
 	);
 }
 

@@ -5,10 +5,12 @@ function SampleNextArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className={className}
-			style={{...style, display: "block", background: "#0971b7"}}
+			className="slick-arrow-right"
+			style={{...style, display: "block"}}
 			onClick={onClick}
-		/>
+		>
+			<i class="fa fa-chevron-right" aria-hidden="true"></i>
+		</div>
 	);
 }
 
@@ -16,10 +18,12 @@ function SamplePrevArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className={className}
-			style={{...style, display: "block", background: "#0971b7"}}
+			className="slick-arrow-left"
+			style={{...style, display: "block"}}
 			onClick={onClick}
-		/>
+		>
+			<i class="fa fa-chevron-left" aria-hidden="true"></i>
+		</div>
 	);
 }
 
@@ -35,12 +39,34 @@ export default class CustomArrows extends Component {
 
 			responsive: [
 				{
+					breakpoint: 1024,
+					settings: {
+						dots: false,
+						infinite: false,
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						nextArrow: <SampleNextArrow />,
+						prevArrow: <SamplePrevArrow />,
+					},
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						dots: false,
+						infinite: false,
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						nextArrow: <SampleNextArrow />,
+						prevArrow: <SamplePrevArrow />,
+					},
+				},
+				{
 					breakpoint: 600,
 					settings: {
 						dots: false,
 						infinite: false,
-						slidesToShow: 2,
-						slidesToScroll: 2,
+						slidesToShow: 1,
+						slidesToScroll: 1,
 						nextArrow: <SampleNextArrow />,
 						prevArrow: <SamplePrevArrow />,
 					},
