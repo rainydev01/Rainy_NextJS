@@ -61,7 +61,7 @@ export default class CustomArrows extends Component {
 							</div>
 						</div>
 						<div className="container-fluid award-image">
-							<div className="container awrdimgsec ">
+							<div className="container awrdimgsec text-center ">
 								<img
 									className="rounded mx-auto d-block"
 									src="../../static/images/media/Earth-care-2014.jpg"
@@ -77,7 +77,7 @@ export default class CustomArrows extends Component {
 							</div>
 						</div>
 						<div className="container-fluid award-image">
-							<div className="container awrdimgsec">
+							<div className="container awrdimgsec text-center">
 								<img
 									className="rounded mx-auto d-block"
 									src="../../static/images/media/Earthcare-2010.jpg"
@@ -93,7 +93,7 @@ export default class CustomArrows extends Component {
 							</div>
 						</div>
 						<div className="container-fluid award-image">
-							<div className="container awrdimgsec">
+							<div className="container awrdimgsec text-center">
 								<img
 									className="rounded mx-auto d-block"
 									src="../../static/images/media/National-Award--by-CII--2009.jpg"
@@ -108,7 +108,7 @@ export default class CustomArrows extends Component {
 							</div>
 						</div>
 						<div className="container-fluid award-image">
-							<div className="container awrdimgsec">
+							<div className="container awrdimgsec text-center">
 								<img
 									className="rounded mx-auto d-block"
 									src="../../static/images/media/SKOCH--order-of-merit-among-100-SMES--2018.jpg"
@@ -123,7 +123,7 @@ export default class CustomArrows extends Component {
 							</div>
 						</div>
 						<div className="container-fluid award-image">
-							<div className="container awrdimgsec">
+							<div className="container awrdimgsec text-center">
 								<img
 									className="rounded mx-auto d-block"
 									src="../../static/images/media/SKOCH-award-silver-achiever---innovation-2018.jpg"
