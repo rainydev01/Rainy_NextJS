@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Filters</title>
+				<title>Rainy: Filters</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -150,7 +150,10 @@ export default function Home() {
 												<div class="col-md-4">
 													<div className="yellowbtn">
 														<button>
-															Enquire <br /> Now
+															<a href="/contact-us/enquire">
+																{" "}
+																Enquire <br /> Now{" "}
+															</a>
 														</button>
 													</div>
 												</div>
@@ -344,7 +347,10 @@ export default function Home() {
 												<div class="col-md-4">
 													<div className="yellowbtn">
 														<button>
-															Enquire <br /> Now
+															<a href="/contact-us/enquire">
+																{" "}
+																Enquire <br /> Now{" "}
+															</a>
 														</button>
 													</div>
 												</div>
@@ -555,7 +561,10 @@ export default function Home() {
 												<div class="col-md-4">
 													<div className="yellowbtn">
 														<button>
-															Enquire <br /> Now
+															<a href="/contact-us/enquire">
+																{" "}
+																Enquire <br /> Now{" "}
+															</a>
 														</button>
 													</div>
 												</div>
@@ -754,7 +763,10 @@ export default function Home() {
 												<div class="col-md-4">
 													<div className="yellowbtn">
 														<button>
-															Enquire <br /> Now
+															<a href="/contact-us/enquire">
+																{" "}
+																Enquire <br /> Now{" "}
+															</a>
 														</button>
 													</div>
 												</div>
@@ -964,7 +976,10 @@ export default function Home() {
 												<div class="col-md-4">
 													<div className="yellowbtn">
 														<button>
-															Enquire <br /> Now
+															<a href="/contact-us/enquire">
+																{" "}
+																Enquire <br /> Now{" "}
+															</a>
 														</button>
 													</div>
 												</div>

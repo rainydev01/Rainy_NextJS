@@ -1,12 +1,12 @@
-import React, { Fragment, useState } from 'react';
+import React, {Fragment, useState} from "react";
 
 const FilterToSelect = () => {
-	const [ showButton, setShowButton ] = useState(false);
-	const [ inputValue, setInputValue ] = useState(null);
+	const [showButton, setShowButton] = useState(false);
+	const [inputValue, setInputValue] = useState(null);
 	let filterContent = null;
-	const [ buttonValue, setButonValue ] = useState({
-		name: 'FL100',
-		url: 'products/rainy-filters'
+	const [buttonValue, setButonValue] = useState({
+		name: "FL100",
+		url: "products/rainy-filters",
 	});
 
 	if (showButton) {
@@ -36,16 +36,16 @@ const FilterToSelect = () => {
 
 		if (inputValue === null) {
 			setButonValue({
-				name: 'FL100',
-				url: 'products/rainy-filters'
+				name: "FL100",
+				url: "products/rainy-filters",
 			});
 
 			setShowButton(true);
 		}
 		if (inputValue < 100) {
 			setButonValue({
-				name: 'FL100',
-				url: 'products/rainy-filters'
+				name: "FL100",
+				url: "products/rainy-filters",
 			});
 
 			setShowButton(true);
@@ -53,24 +53,24 @@ const FilterToSelect = () => {
 
 		if (inputValue >= 100 && inputValue <= 200) {
 			setButonValue({
-				name: 'FL200',
-				url: 'products/rainy-filters'
+				name: "FL200",
+				url: "products/rainy-filters",
 			});
 
 			setShowButton(true);
 		}
 		if (inputValue >= 200 && inputValue <= 300) {
 			setButonValue({
-				name: 'FL300',
-				url: 'products/rainy-filters'
+				name: "FL300",
+				url: "products/rainy-filters",
 			});
 
 			setShowButton(true);
 		}
 		if (inputValue > 300) {
 			setButonValue({
-				name: 'FL500',
-				url: 'products/rainy-filters'
+				name: "FL500",
+				url: "products/rainy-filters",
 			});
 
 			setShowButton(true);
@@ -98,7 +98,7 @@ const FilterToSelect = () => {
 										Know your rooftop area
 									</a>
 								</div>
-								<button onClick={onClickHandler}>submit</button>
+								<button onClick={onClickHandler}>Submit</button>
 							</div>
 						</div>
 						{filterContent}
@@ -110,16 +110,36 @@ const FilterToSelect = () => {
 				<div className="modal-dialog modal-dialog-centered">
 					<div className="modal-content">
 						<div className="modal-header">
-							<h5 className="modal-title">How to check the your rooftop area</h5>
-							<button type="button" className="close" data-dismiss="modal" aria-label="Close">
+							<h5 className="modal-title">
+								How to check the your rooftop area
+							</h5>
+							<button
+								type="button"
+								className="close"
+								data-dismiss="modal"
+								aria-label="Close"
+							>
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
 						<div className="modal-body">
-							<p>Modal body text goes here.</p>
+							<ul>
+								<li>
+									For a flat roof: Multiply the length of the rooftop area with
+									the width
+								</li>
+								<li>
+									For a sloping roof: Multiply the length of the rooftop area
+									with the slope height.
+								</li>
+							</ul>
 						</div>
 						<div className="modal-footer">
-							<button type="button" className="btn btn-secondary" data-dismiss="modal">
+							<button
+								type="button"
+								className="btn btn-secondary"
+								data-dismiss="modal"
+							>
 								Close
 							</button>
 						</div>

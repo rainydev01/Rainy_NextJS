@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Enquire </title>
+				<title>Rainy: Enquire </title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -50,9 +50,9 @@ export default function Home() {
 											Address
 										</h6>
 										<p className="contacttxt">
-											Farmland Rainwater Harvesting system No 648, Ground Flore,
-											11th cross, 7th block, jaya Nagar, Bengaluru, Karnataka -
-											560082.
+											Farmland Rainwater Harvesting Systems No 648, Ground
+											Floor, 11th cross, 7th Block, Jaya Nagar, Bengaluru,
+											Karnataka - 560082.
 										</p>
 
 										<h6 className="contacth">Head Office</h6>
@@ -88,7 +88,7 @@ export default function Home() {
 
 						<div className="contmap">
 							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.653807803604!2d77.67329721430399!3d12.929958019290378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae139f6979bff1%3A0xc2deb6664aad76c3!2sBellandur%20Post%20Office!5e0!3m2!1sen!2sin!4v1593196134643!5m2!1sen!2sin"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124399.56415846804!2d77.60377981261607!3d13.00466928906842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159c95555555%3A0xb1a7c2eb52dc3653!2sRainy!5e0!3m2!1sen!2sin!4v1595857457046!5m2!1sen!2sin"
 								width="100%"
 								height="350"
 								frameborder="0"

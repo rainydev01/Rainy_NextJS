@@ -1,3 +1,10 @@
+tr {
+    line-height: 10px;
+    min-height: 10px;
+    height: 10px;
+    font-family: "Visby Round CF Regular";
+}
+
 .slick-arrow-right-awards {
     cursor: pointer;
 }
@@ -1796,7 +1803,7 @@ a {
 }
 
 p {
-    font-weight: 600 ;
+    font-weight: 600;
     font-size: 14px;
     font-family: "Visby Round CF Regular";
     letter-spacing: 0px;
@@ -2587,7 +2594,7 @@ ul {
 .techpointslst ul li {
     text-align: justify;
     padding: 10px 0px;
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
 }
 
@@ -3235,7 +3242,7 @@ h6.contacth img {
 .techpointslst ul li {
     text-align: justify;
     padding: 10px 0px;
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
 }
 
@@ -3375,6 +3382,7 @@ span.mb-span {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+    font-family: "Visby Round CF Heavy";
 }
 
 .wrechrg {
@@ -3399,7 +3407,7 @@ span.mb-span {
 .nextButtons button {
     background: #009ddd;
     border: 1px solid #009ddd;
-    padding: 5px 14px;
+    padding: 10px 20px;
     border-radius: 30px;
     margin: 0px 0px;
     outline: none;
@@ -3524,4 +3532,11 @@ h2.clientsHome:after {
     border: 1px solid #0971b7 !important;
     margin: auto;
     margin-top: 14px;
+}
+
+.syssoln p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Visby Round CF Heavy";
 }

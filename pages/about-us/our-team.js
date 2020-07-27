@@ -1,27 +1,30 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../../components/Header';
-import Banner from '../../components/Banner';
-import WhatWeDo from '../../components/WhatWeDo';
-import Footer from '../../components/Footer';
-import AboutUs from '../../components/AboutUs';
-import RWHFilters from '../../components/RWHFilters';
-import FilterToSelect from '../../components/FilterToSelect';
-import GroundWaterRecharging from '../../components/GroundWaterRecharging';
+import {Fragment} from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Header from "../../components/Header";
+import Banner from "../../components/Banner";
+import WhatWeDo from "../../components/WhatWeDo";
+import Footer from "../../components/Footer";
+import AboutUs from "../../components/AboutUs";
+import RWHFilters from "../../components/RWHFilters";
+import FilterToSelect from "../../components/FilterToSelect";
+import GroundWaterRecharging from "../../components/GroundWaterRecharging";
 
 export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Our Team</title>
+				<title>Rainy: Team</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<link
+					rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
@@ -43,11 +46,14 @@ export default function Home() {
 					</div>
 					<div className="container-fluid groundwater_bg team">
 						<div className="container">
-							<h2 className="team-heading">EXPERIENCED AND PROFESSIONAL TEAM</h2>
+							<h2 className="team-heading">
+								EXPERIENCED AND PROFESSIONAL TEAM
+							</h2>
 							<p className="team-para">
-								Our leadership team bring in diverse experience of over 20 years, using their deep
-								knowledge of the RWH industry to lead with integrity and fairness and steer the company
-								toward greater heights.
+								Our leadership team bring in diverse experience of over 20
+								years, using their deep knowledge of the RWH industry to lead
+								with integrity and fairness and steer the company toward greater
+								heights.
 							</p>
 						</div>
 
@@ -60,22 +66,24 @@ export default function Home() {
 									<div>
 										<h4 className="team-title">Michael Baptist</h4>
 										<p className="team-desc">Co-founder & Director</p>
-										<p>
-											<i
-												style={{ paddingRight: 5 }}
-												className="fa fa-mobile"
-												aria-hidden="true"
-											/>
-											+91 94480 76595
-										</p>
-										<p>
-											<i
-												style={{ paddingRight: 5 }}
-												className="fa fa-envelope-o"
-												aria-hidden="true"
-											/>
-											michael@rainyfilters.com
-										</p>
+										<div style={{textAlign: "center"}}>
+											<p>
+												<i
+													style={{paddingRight: 5}}
+													className="fa fa-mobile"
+													aria-hidden="true"
+												/>
+												+91 94480 76595
+											</p>
+											<p>
+												<i
+													style={{paddingRight: 5}}
+													className="fa fa-envelope-o"
+													aria-hidden="true"
+												/>
+												michael@rainyfilters.com
+											</p>
+										</div>
 									</div>
 								</div>
 								<div className="col-md-6">
@@ -87,14 +95,15 @@ export default function Home() {
 										<p className="team-desc">Co-founder & Director</p>
 										<p>
 											<i
-												style={{ paddingRight: 5 }}
+												style={{paddingRight: 5}}
 												className="fa fa-mobile"
 												aria-hidden="true"
-											/>+91 94481 30524
+											/>
+											+91 94481 30524
 										</p>
 										<p>
 											<i
-												style={{ paddingRight: 5 }}
+												style={{paddingRight: 5}}
 												className="fa fa-envelope-o"
 												aria-hidden="true"
 											/>
@@ -104,7 +113,10 @@ export default function Home() {
 								</div>
 							</div>
 
-							<div className="row team-row" style={{ marginTop: '60px', marginTop: '60px' }}>
+							<div
+								className="row team-row"
+								style={{marginTop: "60px", marginTop: "60px"}}
+							>
 								<div className="col-md-6">
 									<div>
 										<img src="../../static/images/team/team3.png" />
@@ -114,14 +126,15 @@ export default function Home() {
 										<p className="team-desc">Co-founder & Director</p>
 										<p>
 											<i
-												style={{ paddingRight: 5 }}
+												style={{paddingRight: 5}}
 												className="fa fa-mobile"
 												aria-hidden="true"
-											/>+91 98809 76325
+											/>
+											+91 98809 76325
 										</p>
 										<p>
 											<i
-												style={{ paddingRight: 5 }}
+												style={{paddingRight: 5}}
 												className="fa fa-envelope-o"
 												aria-hidden="true"
 											/>
@@ -138,14 +151,15 @@ export default function Home() {
 										<p className="team-desc">Director</p>
 										<p>
 											<i
-												style={{ paddingRight: 5 }}
+												style={{paddingRight: 5}}
 												className="fa fa-mobile"
 												aria-hidden="true"
-											/>+91 87221 54444
+											/>
+											+91 87221 54444
 										</p>
 										<p>
 											<i
-												style={{ paddingRight: 5 }}
+												style={{paddingRight: 5}}
 												className="fa fa-envelope-o"
 												aria-hidden="true"
 											/>

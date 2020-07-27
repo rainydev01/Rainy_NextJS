@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Technology</title>
+				<title>Rainy: Technology</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -164,7 +164,7 @@ export default function Home() {
 								</div>
 								<div class="modal-body">
 									<ul>
-										<li>
+										<li style={{fontSize: 14}}>
 											<img
 												style={{height: 25, width: "auto", paddingRight: 15}}
 												src="../static/images/elements/Path262.png"
@@ -174,7 +174,7 @@ export default function Home() {
 											overexploitation of groundwater by establishing water
 											neutrality.
 										</li>
-										<li>
+										<li style={{fontSize: 14}}>
 											<img
 												style={{height: 25, width: "auto", paddingRight: 15}}
 												src="../static/images/elements/Path262.png"
@@ -184,7 +184,7 @@ export default function Home() {
 											experience in the RWH industry enabling cutting edge
 											innovation of RWH solutions
 										</li>
-										<li>
+										<li style={{fontSize: 14}}>
 											<img
 												style={{height: 25, width: "auto", paddingRight: 15}}
 												src="../static/images/elements/Path262.png"
@@ -193,7 +193,7 @@ export default function Home() {
 											A state of the art R&D facility for continous innovation
 											and ongoing training of our qualified staff
 										</li>
-										<li>
+										<li style={{fontSize: 14}}>
 											<img
 												style={{height: 25, width: "auto", paddingRight: 15}}
 												src="../static/images/elements/Path262.png"

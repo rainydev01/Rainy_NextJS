@@ -1,25 +1,25 @@
-import { Fragment, useState, useCallback } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Gallery from 'react-photo-gallery';
+import {Fragment, useState, useCallback} from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Gallery from "react-photo-gallery";
 
-import Carousel, { Modal, ModalGateway } from 'react-images';
+import Carousel, {Modal, ModalGateway} from "react-images";
 
 export default function Home() {
-	const [ currentImage, setCurrentImage ] = useState(0);
-	const [ viewerIsOpen, setViewerIsOpen ] = useState(false);
-	const [ selectedView, setSelectedView ] = useState(1);
+	const [currentImage, setCurrentImage] = useState(0);
+	const [viewerIsOpen, setViewerIsOpen] = useState(false);
+	const [selectedView, setSelectedView] = useState(1);
 
 	let gallerySelectedComponent = null;
-	let basicCSS = 'btn btn-default filter-button';
+	let basicCSS = "btn btn-default filter-button";
 
 	const onChange = (value) => {
 		setSelectedView(parseInt(value));
 	};
 
-	const openLightbox = useCallback((event, { photo, index }) => {
+	const openLightbox = useCallback((event, {photo, index}) => {
 		setCurrentImage(index);
 		setViewerIsOpen(true);
 	}, []);
@@ -31,55 +31,55 @@ export default function Home() {
 
 	const photos = [
 		{
-			src: 'static/images/gallery/Image1.png',
+			src: "static/images/gallery/Image1.png",
 			width: 4,
-			height: 3
+			height: 3,
 		},
 		{
-			src: 'static/images/gallery/Image2.png',
+			src: "static/images/gallery/Image2.png",
 			width: 5,
-			height: 3
+			height: 3,
 		},
 		{
-			src: 'static/images/gallery/Image3.png',
+			src: "static/images/gallery/Image3.png",
 			width: 4,
-			height: 3
+			height: 3,
 		},
 		{
-			src: 'static/images/gallery/Image4.png',
+			src: "static/images/gallery/Image4.png",
 			width: 4,
-			height: 3
+			height: 3,
 		},
 		{
-			src: 'static/images/gallery/Image5.png',
+			src: "static/images/gallery/Image5.png",
 			width: 4,
-			height: 3
+			height: 3,
 		},
 		{
-			src: 'static/images/gallery/Image6.png',
+			src: "static/images/gallery/Image6.png",
 			width: 4,
-			height: 3
-		}
+			height: 3,
+		},
 	];
 
-	let basicCSS1 = 'btn btn-default filter-button ';
-	let basicCSS2 = 'btn btn-default filter-button ';
-	let basicCSS3 = 'btn btn-default filter-button ';
-	let basicCSS4 = 'btn btn-default filter-button ';
-	let basicCSS5 = 'btn btn-default filter-button ';
-	let basicCSS6 = 'btn btn-default filter-button ';
-	let basicCSS7 = 'btn btn-default filter-button ';
-	let basicCSS8 = 'btn btn-default filter-button ';
-	let basicCSS9 = 'btn btn-default filter-button ';
-	let basicCSS10 = 'btn btn-default filter-button ';
-	let basicCSS11 = 'btn btn-default filter-button ';
-	let basicCSS12 = 'btn btn-default filter-button ';
-	let basicCSS13 = 'btn btn-default filter-button ';
-	let basicCSS14 = 'btn btn-default filter-button ';
-	let basicCSS15 = 'btn btn-default filter-button ';
+	let basicCSS1 = "btn btn-default filter-button ";
+	let basicCSS2 = "btn btn-default filter-button ";
+	let basicCSS3 = "btn btn-default filter-button ";
+	let basicCSS4 = "btn btn-default filter-button ";
+	let basicCSS5 = "btn btn-default filter-button ";
+	let basicCSS6 = "btn btn-default filter-button ";
+	let basicCSS7 = "btn btn-default filter-button ";
+	let basicCSS8 = "btn btn-default filter-button ";
+	let basicCSS9 = "btn btn-default filter-button ";
+	let basicCSS10 = "btn btn-default filter-button ";
+	let basicCSS11 = "btn btn-default filter-button ";
+	let basicCSS12 = "btn btn-default filter-button ";
+	let basicCSS13 = "btn btn-default filter-button ";
+	let basicCSS14 = "btn btn-default filter-button ";
+	let basicCSS15 = "btn btn-default filter-button ";
 
 	if (selectedView === 1) {
-		basicCSS1 = 'btn btn-default filter-button filter-button-active';
+		basicCSS1 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<Gallery photos={photos} onClick={openLightbox} />
@@ -91,7 +91,7 @@ export default function Home() {
 								views={photos.map((x) => ({
 									...x,
 									srcset: x.srcSet,
-									caption: x.title
+									caption: x.title,
 								}))}
 							/>
 						</Modal>
@@ -102,7 +102,7 @@ export default function Home() {
 	}
 
 	if (selectedView === 2) {
-		basicCSS2 = 'btn btn-default filter-button filter-button-active';
+		basicCSS2 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image1.png" />
@@ -110,7 +110,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 3) {
-		basicCSS3 = 'btn btn-default filter-button filter-button-active';
+		basicCSS3 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image2.png" />
@@ -118,7 +118,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 4) {
-		basicCSS4 = 'btn btn-default filter-button filter-button-active';
+		basicCSS4 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image3.png" />
@@ -126,7 +126,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 5) {
-		basicCSS5 = 'btn btn-default filter-button filter-button-active';
+		basicCSS5 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image4.png" />
@@ -134,7 +134,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 6) {
-		basicCSS6 = 'btn btn-default filter-button filter-button-active';
+		basicCSS6 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image5.png" />
@@ -142,7 +142,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 7) {
-		basicCSS7 = 'btn btn-default filter-button filter-button-active';
+		basicCSS7 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image6.png" />
@@ -150,7 +150,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 8) {
-		basicCSS8 = 'btn btn-default filter-button filter-button-active';
+		basicCSS8 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image1.png" />
@@ -158,7 +158,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 9) {
-		basicCSS9 = 'btn btn-default filter-button filter-button-active';
+		basicCSS9 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image2.png" />
@@ -166,7 +166,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 10) {
-		basicCSS10 = 'btn btn-default filter-button filter-button-active';
+		basicCSS10 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image1.png" />
@@ -174,7 +174,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 11) {
-		basicCSS11 = 'btn btn-default filter-button filter-button-active';
+		basicCSS11 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image3.png" />
@@ -182,7 +182,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 12) {
-		basicCSS12 = 'btn btn-default filter-button filter-button-active';
+		basicCSS12 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image4.png" />
@@ -190,7 +190,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 13) {
-		basicCSS13 = 'btn btn-default filter-button filter-button-active';
+		basicCSS13 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image5.png" />
@@ -198,7 +198,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 14) {
-		basicCSS14 = 'btn btn-default filter-button filter-button-active';
+		basicCSS14 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image6.png" />
@@ -206,7 +206,7 @@ export default function Home() {
 		);
 	}
 	if (selectedView === 15) {
-		basicCSS15 = 'btn btn-default filter-button filter-button-active';
+		basicCSS15 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
 				<img className=" center-block" src="static/images/gallery/Image4.png" />
@@ -217,14 +217,17 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Gallery</title>
+				<title>Rainy: Gallery</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<link
+					rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
@@ -255,7 +258,7 @@ export default function Home() {
 										}}
 										className={basicCSS1}
 										data-filter="all"
-										style={{ padding: '5px 45px' }}
+										style={{padding: "5px 45px"}}
 									>
 										All
 									</button>
@@ -338,7 +341,7 @@ export default function Home() {
 										className={basicCSS10}
 										data-filter="irrigation"
 									>
-										With Dignitires
+										With Dignitaries
 									</button>
 									<button
 										onClick={() => {
@@ -356,7 +359,7 @@ export default function Home() {
 										className={basicCSS12}
 										data-filter="irrigation"
 									>
-										Systems and Solution
+										Systems and Solutions
 									</button>
 									<button
 										onClick={() => {
@@ -389,7 +392,7 @@ export default function Home() {
 								<br />
 								<br />
 								<div
-									style={{ marginTop: 40 }}
+									style={{marginTop: 40}}
 									className="col-lg-12 col-sm-12 col-xs-12 text-center"
 								>
 									{gallerySelectedComponent}

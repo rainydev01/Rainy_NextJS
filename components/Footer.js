@@ -10,8 +10,8 @@ const Footer = () => {
 							<div className="footer-one">
 								<img src="../static/images/logo/Wlogo.png" alt="Footer Logo" />
 								<p>
-									Farmland Rainwater Harvesting system No 648, Ground Flore,
-									11th cross, 7th block, jaya Nagar, Bengaluru, Karnataka -
+									Farmland Rainwater Harvesting System No 648, Ground Floor,
+									11th cross, 7th Block, Jaya Nagar, Bengaluru, Karnataka -
 									560082.
 								</p>
 							</div>
@@ -49,15 +49,36 @@ const Footer = () => {
 							<div className="footer-three">
 								<h5>Follow Us</h5>
 								<p>
-									<i className="fa fa-instagram" aria-hidden="true" />
-									<i className="fa fa-facebook-official" aria-hidden="true" />
-									<i className="fa fa-linkedin-square" aria-hidden="true" />
+									<a
+										href="https://www.instagram.com/rainy_filters02/"
+										target="_blank"
+									>
+										<i className="fa fa-instagram" aria-hidden="true" />
+									</a>
+									<a
+										href="https://www.facebook.com/rainy.filters"
+										target="_blank"
+									>
+										<i className="fa fa-facebook-official" aria-hidden="true" />
+									</a>
+									<a
+										href="https://www.linkedin.com/in/rainy-filters-a640b11a3/"
+										target="_blank"
+									>
+										<i className="fa fa-linkedin-square" aria-hidden="true" />
+									</a>
 								</p>
 								<div>
-									<button>Dealers</button>
+									<button>
+										{" "}
+										<a href="/contact-us/dealers">Dealers</a>{" "}
+									</button>
 								</div>
 								<div>
-									<button>Enquiry</button>
+									<button>
+										{" "}
+										<a href="/contact-us/enquire">Enquire</a>{" "}
+									</button>
 								</div>
 							</div>
 						</div>
@@ -75,7 +96,7 @@ const Footer = () => {
 							<a href="# "> Privacy Policy </a>|
 						</li>
 						<li>
-							<a href="# "> Copyright 2020 chiragr.com </a>
+							<a href="# "> Copyright 2020 </a>
 						</li>
 					</ul>
 				</div>

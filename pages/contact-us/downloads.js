@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Downloads</title>
+				<title>Rainy: Downloads</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -22,8 +22,13 @@ export default function Home() {
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-				
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+
+				<link
+					rel="stylesheet"
+					href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+					integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+					crossorigin="anonymous"
+				/>
 				<link
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -55,6 +60,7 @@ export default function Home() {
 														href="#collapse-1"
 														aria-expanded="true"
 														aria-controls="collapse-1"
+														style={{color: "#58b8ef"}}
 													>
 														Brochures
 														<span className="mb-span">
@@ -116,6 +122,7 @@ export default function Home() {
 														href="#collapse-2"
 														aria-expanded="false"
 														aria-controls="collapse-2"
+														style={{color: "#58b8ef"}}
 													>
 														Rainy Product Catalogue
 													</a>
@@ -146,6 +153,7 @@ export default function Home() {
 														href="#collapse-3"
 														aria-expanded="false"
 														aria-controls="collapse-3"
+														style={{color: "#58b8ef"}}
 													>
 														Instructions Manual
 													</a>
@@ -173,7 +181,6 @@ export default function Home() {
 			</main>
 
 			<footer />
-
 		</Fragment>
 	);
 }

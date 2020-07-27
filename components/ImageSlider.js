@@ -52,10 +52,9 @@ export default class CustomArrows extends Component {
 								/>
 								<div className="awrdimgcont">
 									<h3>
-										In the year 2017 honoured with National award by Aqua
-										Foundations as Aqua Foundation Excellence Award 2017 under
-										the category of Industrial Excellence in development of
-										Technology in the Field of Rainwater Harvesting
+										Aqua Foundations National Excellence Award 2017 for
+										Industrial Excellence in Development of Technology in the
+										field of RWH
 									</h3>
 								</div>
 							</div>
@@ -68,10 +67,9 @@ export default class CustomArrows extends Component {
 								/>
 								<div className="awrdimgcont">
 									<h3>
-										In the year 2014 International award from JSW – The Times of
-										India “Earth Care Awarded for the Innovative FL-V Wire
-										Injection Well Technology in the Category of `Innovation for
-										Climate Protection’.
+										2014 - The Times of India JSW Earth Care Global Award for
+										Innovation for Climate Protection : Awarded for FL-V Wire
+										Injection Well Technology
 									</h3>
 								</div>
 							</div>
@@ -84,10 +82,9 @@ export default class CustomArrows extends Component {
 								/>
 								<div className="awrdimgcont">
 									<h3>
-										in the year 2010 International Award from JSW – The Times of
-										India as “Earth Care Award for Innovation for climate
-										protection” for the Invention of `Rainy’ - Self-cleaning
-										Auto Flush Out Filters.
+										2010 - The Times of India JSW Earth Care Award in Innovation
+										for Climate Protection : For the Invention of ‘Rainy’ – Self
+										Cleaning Auto Flush Out Filters
 									</h3>
 								</div>
 							</div>
@@ -100,9 +97,8 @@ export default class CustomArrows extends Component {
 								/>
 								<div className="awrdimgcont">
 									<h3>
-										National Award for Excellence in Water Management (2009),
-										under -the most Innovative Water Saving Product (Rainy
-										Filters), by Confederation of Indian Industry (CII).
+										2009 - CII National Award for Excellence in Water Management
+										: Most Innovative Water Saving Product (Rainy Filters)
 									</h3>
 								</div>
 							</div>
@@ -115,9 +111,8 @@ export default class CustomArrows extends Component {
 								/>
 								<div className="awrdimgcont">
 									<h3>
-										In the year 2018 SKOCH Group-New Delhi awarded `Rainy
-										‘Filters - SKOCH ORDER of –Merit for qualifying amongst
-										TOP-100 SMES in India
+										SKOCH Order of Merit awarded to ‘Rainy’ filters – Top 100
+										SME’s in India in 2018
 									</h3>
 								</div>
 							</div>
@@ -130,9 +125,8 @@ export default class CustomArrows extends Component {
 								/>
 								<div className="awrdimgcont">
 									<h3>
-										In 2018 Conferred Highest Independent Honour by honouring
-										SKOCH AWARD –ACHIEVER Silver for The Innovation of `Rainy’
-										Filters.
+										2018 SKOCH AWARD –ACHIEVER Silver for The Innovation of
+										`Rainy’ Filters.
 									</h3>
 								</div>
 							</div>

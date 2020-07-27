@@ -1,15 +1,15 @@
-import { Fragment, useState } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import Slider1 from '../../components/SliderNews1';
-import Slider2 from '../../components/SliderNews2';
-import Slider3 from '../../components/SliderNews3';
-import ImageSlider from '../../components/ImageSlider';
+import {Fragment, useState} from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import Slider1 from "../../components/SliderNews1";
+import Slider2 from "../../components/SliderNews2";
+import Slider3 from "../../components/SliderNews3";
+import ImageSlider from "../../components/ImageSlider";
 
 export default function Home() {
-	const [ currentArticle, setCurrentArticle ] = useState(1);
+	const [currentArticle, setCurrentArticle] = useState(1);
 
 	const changeToArticle1 = () => {
 		setCurrentArticle(1);
@@ -28,7 +28,9 @@ export default function Home() {
 		newsArticle = <Slider1 article2={changeToArticle2} />;
 	}
 	if (currentArticle === 2) {
-		newsArticle = <Slider2 article1={changeToArticle1} article3={changeToArticle3} />;
+		newsArticle = (
+			<Slider2 article1={changeToArticle1} article3={changeToArticle3} />
+		);
 	}
 	if (currentArticle === 3) {
 		newsArticle = <Slider3 article2={changeToArticle2} />;
@@ -37,14 +39,17 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Media</title>
+				<title>Rainy: Media</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
 				/>
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+				<link
+					rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
@@ -69,7 +74,9 @@ export default function Home() {
 					<div className="container" />
 					<div className="container">
 						<div className="groundwater_bg team">
-							<h2 className="team-heading media-hdng">MEDIA COVERAGE & ARTICLES</h2>
+							<h2 className="team-heading media-hdng">
+								MEDIA COVERAGE & ARTICLES
+							</h2>
 						</div>
 					</div>
 					{newsArticle}

@@ -1,7 +1,11 @@
-import React, { Fragment } from 'react';
-import { FacebookShareButton, TwitterShareButton, WhatsappShareButton } from 'react-share';
+import React, {Fragment} from "react";
+import {
+	FacebookShareButton,
+	TwitterShareButton,
+	WhatsappShareButton,
+} from "react-share";
 
-const SliderNews1 = ({ article2 }) => {
+const SliderNews1 = ({article2}) => {
 	return (
 		<Fragment>
 			<Fragment>
@@ -18,27 +22,29 @@ const SliderNews1 = ({ article2 }) => {
 											href="https://www.deccanherald.com/state/mangaluru/rainwater-collection-unit-helps-farmers-irrigate-farmland-846203.html"
 											target="_blank"
 										>
-											Rainwater collection unit helps farmers during covid crisis
+											Rainwater collection unit helps farmers during covid
+											crisis
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										The rainwater collection unit—Jaladhare—by Rainy Research and Manufacturing at
-										Hadihalli in Chikkamagaluru has become a ray of hope for farmers in the
-										surrounding areas during these tough times.
+										The rainwater collection unit—Jaladhare—by Rainy Research
+										and Manufacturing at Hadihalli in Chikkamagaluru has become
+										a ray of hope for farmers in the surrounding areas during
+										these tough times.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://www.deccanherald.com/state/mangaluru/rainwater-collection-unit-helps-farmers-irrigate-farmland-846203.html'
+													"https://www.deccanherald.com/state/mangaluru/rainwater-collection-unit-helps-farmers-irrigate-farmland-846203.html"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -46,7 +52,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://www.deccanherald.com/state/mangaluru/rainwater-collection-unit-helps-farmers-irrigate-farmland-846203.html'
+													"https://www.deccanherald.com/state/mangaluru/rainwater-collection-unit-helps-farmers-irrigate-farmland-846203.html"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -54,7 +60,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://www.deccanherald.com/state/mangaluru/rainwater-collection-unit-helps-farmers-irrigate-farmland-846203.html'
+													"https://www.deccanherald.com/state/mangaluru/rainwater-collection-unit-helps-farmers-irrigate-farmland-846203.html"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -67,7 +73,8 @@ const SliderNews1 = ({ article2 }) => {
 													target="_blank"
 												>
 													Read more
-												</a>
+												</a>{" "}
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -89,27 +96,29 @@ const SliderNews1 = ({ article2 }) => {
 											href="https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms"
 											target="_blank"
 										>
-											Karnataka: Water research station to come up in Chikamagalur<br />
+											Karnataka: Water research station to come up in
+											Chikamagalur
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										Self-funded, and probably one-of-its-kind in India, the project will have state
-										of the art hydrology labs and rainwater harvesting models enabling continuous
-										innovation.
+										Self-funded, and probably one-of-its-kind in India, the
+										project will have state of the art hydrology labs and
+										rainwater harvesting models enabling continuous innovation.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms'
+													"https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -117,7 +126,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms'
+													"https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -125,7 +134,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms'
+													"https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -139,6 +148,7 @@ const SliderNews1 = ({ article2 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -159,26 +169,28 @@ const SliderNews1 = ({ article2 }) => {
 											href="https://over2shailaja.wordpress.com/2014/05/05/honour-for-indias-green-heroes/"
 											target="_blank"
 										>
-											Honour For India’s Green Heroes<br />
+											Honour For India’s Green Heroes
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										JSW Earth Care award category : Innovations for Climate Protection bestowed on
-										FLRWH for their innovative V-Wire Injection Well technology
+										JSW Earth Care award category : Innovations for Climate
+										Protection bestowed on FLRWH for their innovative V-Wire
+										Injection Well technology
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://over2shailaja.wordpress.com/2014/05/05/honour-for-indias-green-heroes/'
+													"https://over2shailaja.wordpress.com/2014/05/05/honour-for-indias-green-heroes/"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -186,7 +198,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://over2shailaja.wordpress.com/2014/05/05/honour-for-indias-green-heroes/'
+													"https://over2shailaja.wordpress.com/2014/05/05/honour-for-indias-green-heroes/"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -194,7 +206,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://over2shailaja.wordpress.com/2014/05/05/honour-for-indias-green-heroes/'
+													"https://over2shailaja.wordpress.com/2014/05/05/honour-for-indias-green-heroes/"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -208,6 +220,7 @@ const SliderNews1 = ({ article2 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -229,7 +242,7 @@ const SliderNews1 = ({ article2 }) => {
 						</div>
 						<div className="col-md-4" />
 						<div className="col-md-4">
-							<div style={{ float: 'right' }} className="nextButtons">
+							<div style={{float: "right"}} className="nextButtons">
 								<button onClick={article2}>
 									<i className="fa fa-angle-right" aria-hidden="true" />
 								</button>
@@ -251,27 +264,30 @@ const SliderNews1 = ({ article2 }) => {
 											href="https://timesofindia.indiatimes.com/city/bengaluru/Rainwater-harvester-shares-expertise-to-tap-Natures-bounty/articleshow/35573308.cms?from=mdr"
 											target="_blank"
 										>
-											Rainwater Harvester Shares Expertise to Tap Nature’s Bounty<br />
+											Rainwater Harvester Shares Expertise to Tap Nature’s
+											Bounty
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										Explaining his journey into innovating for rain water harvesting, our founder
-										Mr. Michael Baptist shares his vision on wanting to reach out to people in order
-										to help them understand and implement RWH.
+										Explaining his journey into innovating for rain water
+										harvesting, our founder Mr. Michael Baptist shares his
+										vision on wanting to reach out to people in order to help
+										them understand and implement RWH.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://timesofindia.indiatimes.com/city/bengaluru/Rainwater-harvester-shares-expertise-to-tap-Natures-bounty/articleshow/35573308.cms?from=mdr'
+													"https://timesofindia.indiatimes.com/city/bengaluru/Rainwater-harvester-shares-expertise-to-tap-Natures-bounty/articleshow/35573308.cms?from=mdr"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -279,7 +295,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://timesofindia.indiatimes.com/city/bengaluru/Rainwater-harvester-shares-expertise-to-tap-Natures-bounty/articleshow/35573308.cms?from=mdr'
+													"https://timesofindia.indiatimes.com/city/bengaluru/Rainwater-harvester-shares-expertise-to-tap-Natures-bounty/articleshow/35573308.cms?from=mdr"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -287,7 +303,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://timesofindia.indiatimes.com/city/bengaluru/Rainwater-harvester-shares-expertise-to-tap-Natures-bounty/articleshow/35573308.cms?from=mdr'
+													"https://timesofindia.indiatimes.com/city/bengaluru/Rainwater-harvester-shares-expertise-to-tap-Natures-bounty/articleshow/35573308.cms?from=mdr"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -301,6 +317,7 @@ const SliderNews1 = ({ article2 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -318,38 +335,50 @@ const SliderNews1 = ({ article2 }) => {
 							<div className="mdiacont">
 								<div className="grndtext">
 									<h3>
-										<a href="http://www.indiatogether.org/schoolrwh-environment" target="_blank">
-											Schools leap ahead with the use of innovative RWH Technology<br />
+										<a
+											href="http://www.indiatogether.org/schoolrwh-environment"
+											target="_blank"
+										>
+											Schools leap ahead with the use of innovative RWH
+											Technology
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										An article by Sri Padre explaining the benefits of RWH systems installed by
-										Farmland at Kuvempu Centenary Govt. Model Higher Primary School.
+										An article by Sri Padre explaining the benefits of RWH
+										systems installed by Farmland at Kuvempu Centenary Govt.
+										Model Higher Primary School.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
-												url={'http://www.indiatogether.org/schoolrwh-environment'}
+												url={
+													"http://www.indiatogether.org/schoolrwh-environment"
+												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
 											</FacebookShareButton>
 
 											<TwitterShareButton
-												url={'http://www.indiatogether.org/schoolrwh-environment'}
+												url={
+													"http://www.indiatogether.org/schoolrwh-environment"
+												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
 											</TwitterShareButton>
 
 											<WhatsappShareButton
-												url={'http://www.indiatogether.org/schoolrwh-environment'}
+												url={
+													"http://www.indiatogether.org/schoolrwh-environment"
+												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
 											</WhatsappShareButton>
@@ -362,6 +391,7 @@ const SliderNews1 = ({ article2 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -382,26 +412,28 @@ const SliderNews1 = ({ article2 }) => {
 											href="https://www.thehindu.com/features/homes-and-gardens/Rainwater-filters-for-the-monsoon-of-2016/article14342450.ece"
 											target="_blank"
 										>
-											Rainwater Filter for the Monsoon of 2016<br />
+											Rainwater Filter for the Monsoon of 2016
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										Learning and managing rainwater using RWH methods, especially after two
-										consecutive years of drought, was the way to water wisdom in 2016
+										Learning and managing rainwater using RWH methods,
+										especially after two consecutive years of drought, was the
+										way to water wisdom in 2016
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://www.thehindu.com/features/homes-and-gardens/Rainwater-filters-for-the-monsoon-of-2016/article14342450.ece'
+													"https://www.thehindu.com/features/homes-and-gardens/Rainwater-filters-for-the-monsoon-of-2016/article14342450.ece"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -409,7 +441,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://www.thehindu.com/features/homes-and-gardens/Rainwater-filters-for-the-monsoon-of-2016/article14342450.ece'
+													"https://www.thehindu.com/features/homes-and-gardens/Rainwater-filters-for-the-monsoon-of-2016/article14342450.ece"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -417,7 +449,7 @@ const SliderNews1 = ({ article2 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://www.thehindu.com/features/homes-and-gardens/Rainwater-filters-for-the-monsoon-of-2016/article14342450.ece'
+													"https://www.thehindu.com/features/homes-and-gardens/Rainwater-filters-for-the-monsoon-of-2016/article14342450.ece"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -431,6 +463,7 @@ const SliderNews1 = ({ article2 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>

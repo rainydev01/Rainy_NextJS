@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from "react";
 
 const city = () => {
 	return (
@@ -10,7 +10,7 @@ const city = () => {
 							<h4>Visakhapatnam</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>ANDRAPRADESH</h2>
+									<h2 style={{color: "#0479bf"}}>ANDHRA PRADESH</h2>
 									<h2>M/S SAHAJA ASSOCIATES</h2>
 									{/* <h2>
 										Contact Person:-
@@ -26,31 +26,33 @@ const city = () => {
 										</span>
 									</h2> */}
 									<p>
-										31-57-8/6, G4, Prasanthi Heavens Rajeev Nagar<br />
-										Kurmannapalem Visakhapatnam - 530 046<br />
+										31-57-8/6, G4, Prasanthi Heavens Rajeev Nagar
+										<br />
+										Kurmannapalem Visakhapatnam - 530 046
+										<br />
 										Andhrapradesh
 									</p>
 									<h2>
 										Mob:-
 										<span
 											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												fontWeight: "500",
+												fontSize: "14px",
+												fontFamily: "sans-serif",
+												letterSpacing: "1px",
 											}}
 										>
 											+91 94414 25102 / +91 96424 42018
 										</span>
 									</h2>
 									<h2>
-										Email:-{' '}
+										Email:-{" "}
 										<span
 											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												fontWeight: "500",
+												fontSize: "14px",
+												fontFamily: "sans-serif",
+												letterSpacing: "1px",
 											}}
 										>
 											sahaja.com@gmail.com

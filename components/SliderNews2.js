@@ -1,7 +1,11 @@
-import React, { Fragment } from 'react';
-import { FacebookShareButton, TwitterShareButton, WhatsappShareButton } from 'react-share';
+import React, {Fragment} from "react";
+import {
+	FacebookShareButton,
+	TwitterShareButton,
+	WhatsappShareButton,
+} from "react-share";
 
-const SliderNews2 = ({ article1, article3 }) => {
+const SliderNews2 = ({article1, article3}) => {
 	return (
 		<Fragment>
 			<Fragment>
@@ -18,26 +22,28 @@ const SliderNews2 = ({ article1, article3 }) => {
 											href="https://www.deccanherald.com/content/406405/govt-ties-up-pvt-firm.html"
 											target="_blank"
 										>
-											Govt. Ties Up with Pvt. Firm to Recharge Groundwater<br />
+											Govt. Ties Up with Pvt. Firm to Recharge Groundwater
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										The State government has tied up with us, to construct injection wells to
-										recharge groundwater by harvesting rainwater.
+										The State government has tied up with us, to construct
+										injection wells to recharge groundwater by harvesting
+										rainwater.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://www.deccanherald.com/content/406405/govt-ties-up-pvt-firm.html'
+													"https://www.deccanherald.com/content/406405/govt-ties-up-pvt-firm.html"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -45,7 +51,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://www.deccanherald.com/content/406405/govt-ties-up-pvt-firm.html'
+													"https://www.deccanherald.com/content/406405/govt-ties-up-pvt-firm.html"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -53,7 +59,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://www.deccanherald.com/content/406405/govt-ties-up-pvt-firm.html'
+													"https://www.deccanherald.com/content/406405/govt-ties-up-pvt-firm.html"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -67,6 +73,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -88,27 +95,29 @@ const SliderNews2 = ({ article1, article3 }) => {
 											href="https://savitahiremath.com/2011/09/29/saving-every-drop-of-rainwater/"
 											target="_blank"
 										>
-											Saving every drop of rainwater<br />
+											Saving every drop of rainwater
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										FLRWH with the mission of saving every drop of rainwater, has helped rural and
-										urban areas to increase yield of existing borewells and installed their patented
-										Rainy filters to conserve water.
+										FLRWH with the mission of saving every drop of rainwater,
+										has helped rural and urban areas to increase yield of
+										existing borewells and installed their patented Rainy
+										filters to conserve water.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://savitahiremath.com/2011/09/29/saving-every-drop-of-rainwater/'
+													"https://savitahiremath.com/2011/09/29/saving-every-drop-of-rainwater/"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -116,7 +125,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://savitahiremath.com/2011/09/29/saving-every-drop-of-rainwater/'
+													"https://savitahiremath.com/2011/09/29/saving-every-drop-of-rainwater/"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -124,7 +133,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://savitahiremath.com/2011/09/29/saving-every-drop-of-rainwater/'
+													"https://savitahiremath.com/2011/09/29/saving-every-drop-of-rainwater/"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -138,6 +147,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -158,27 +168,29 @@ const SliderNews2 = ({ article1, article3 }) => {
 											href="https://www.sixdegreesnews.org/archives/1571/industrial-areas-take-to-rainwater-harvesting-in-bangalore"
 											target="_blank"
 										>
-											Industrial areas take to RWH in Bangalore<br />
+											Industrial areas take to RWH in Bangalore
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										Industries in the Sarjapur area of Bangalore are taking positive steps in the
-										direction of RWH with the help of innovative Rainy Filters and also by
-										implementing our Systems & Solutions.
+										Industries in the Sarjapur area of Bangalore are taking
+										positive steps in the direction of RWH with the help of
+										innovative Rainy Filters and also by implementing our
+										Systems & Solutions.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://www.sixdegreesnews.org/archives/1571/industrial-areas-take-to-rainwater-harvesting-in-bangalore'
+													"https://www.sixdegreesnews.org/archives/1571/industrial-areas-take-to-rainwater-harvesting-in-bangalore"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -186,7 +198,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://www.sixdegreesnews.org/archives/1571/industrial-areas-take-to-rainwater-harvesting-in-bangalore'
+													"https://www.sixdegreesnews.org/archives/1571/industrial-areas-take-to-rainwater-harvesting-in-bangalore"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -194,7 +206,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://www.sixdegreesnews.org/archives/1571/industrial-areas-take-to-rainwater-harvesting-in-bangalore'
+													"https://www.sixdegreesnews.org/archives/1571/industrial-areas-take-to-rainwater-harvesting-in-bangalore"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -208,6 +220,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -221,7 +234,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 				<div class="container-fluid">
 					<div className="row">
 						<div className="col-md-4">
-							<div style={{ float: 'left' }} className="nextButtons prebutton">
+							<div style={{float: "left"}} className="nextButtons prebutton">
 								<button onClick={article1}>
 									<i className="fa fa-angle-left" aria-hidden="true" />
 								</button>
@@ -229,7 +242,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 						</div>
 						<div className="col-md-4" />
 						<div className="col-md-4">
-							<div style={{ float: 'right' }} className="nextButtons">
+							<div style={{float: "right"}} className="nextButtons">
 								<button onClick={article3}>
 									<i className="fa fa-angle-right" aria-hidden="true" />
 								</button>
@@ -251,26 +264,27 @@ const SliderNews2 = ({ article1, article3 }) => {
 											href="https://www.thehindu.com/todays-paper/tp-features/tp-districtplus/The-art-of-reviving-borewells/article15797031.ece"
 											target="_blank"
 										>
-											The art of reviving borewells<br />
+											The art of reviving borewells
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										An informative article by Mr. V. Paneesha explaining the borewell recharging
-										process and its benefits.
+										An informative article by Mr. V. Paneesha explaining the
+										borewell recharging process and its benefits.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://www.thehindu.com/todays-paper/tp-features/tp-districtplus/The-art-of-reviving-borewells/article15797031.ece'
+													"https://www.thehindu.com/todays-paper/tp-features/tp-districtplus/The-art-of-reviving-borewells/article15797031.ece"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -278,7 +292,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://www.thehindu.com/todays-paper/tp-features/tp-districtplus/The-art-of-reviving-borewells/article15797031.ece'
+													"https://www.thehindu.com/todays-paper/tp-features/tp-districtplus/The-art-of-reviving-borewells/article15797031.ece"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -286,7 +300,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://www.thehindu.com/todays-paper/tp-features/tp-districtplus/The-art-of-reviving-borewells/article15797031.ece'
+													"https://www.thehindu.com/todays-paper/tp-features/tp-districtplus/The-art-of-reviving-borewells/article15797031.ece"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -300,6 +314,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -326,22 +341,22 @@ const SliderNews2 = ({ article1, article3 }) => {
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										The ‘Swajala Dhara’ to recharge drinking water borewells in Chikmagalur district
-										has been successfully implemented in association with Farmland Rainwater
-										Harvesting Systems.
+										The ‘Swajala Dhara’ to recharge drinking water borewells in
+										Chikmagalur district has been successfully implemented in
+										association with Farmland Rainwater Harvesting Systems.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://www.newindianexpress.com/states/karnataka/2010/jan/16/cmagalur-zps-rainwater-harvesting-project-a-su-161230.html'
+													"https://www.newindianexpress.com/states/karnataka/2010/jan/16/cmagalur-zps-rainwater-harvesting-project-a-su-161230.html"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -349,7 +364,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://www.newindianexpress.com/states/karnataka/2010/jan/16/cmagalur-zps-rainwater-harvesting-project-a-su-161230.html'
+													"https://www.newindianexpress.com/states/karnataka/2010/jan/16/cmagalur-zps-rainwater-harvesting-project-a-su-161230.html"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -357,7 +372,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://www.newindianexpress.com/states/karnataka/2010/jan/16/cmagalur-zps-rainwater-harvesting-project-a-su-161230.html'
+													"https://www.newindianexpress.com/states/karnataka/2010/jan/16/cmagalur-zps-rainwater-harvesting-project-a-su-161230.html"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -371,6 +386,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
@@ -391,26 +407,29 @@ const SliderNews2 = ({ article1, article3 }) => {
 											href="https://www.deccanherald.com/content/66174/water-recharge-project-extended-13.html"
 											target="_blank"
 										>
-											V Wire Project Implementation to be extended to 13 villages<br />
+											V Wire Project Implementation to be extended to 13
+											villages
+											<br />
 										</a>
 									</h3>
 									<p
 										style={{
-											textAlign: 'left',
-											color: '#4c3f43',
-											fontSize: '12px',
-											fontWeight: '500',
-											letterSpacing: '0.5px'
+											textAlign: "left",
+											color: "#4c3f43",
+											fontSize: "13px",
+											fontWeight: "500",
+											letterSpacing: "0.5px",
 										}}
 									>
-										A more scientific way to increase ground water by recharging existing borewells
-										rather than digging new ones. A unique solution developed by us.
+										A more scientific way to increase ground water by recharging
+										existing borewells rather than digging new ones. A unique
+										solution developed by us.
 									</p>
 									<div className="col-md-12 mdiasocial">
 										<div className="col-md-6 mediasocial">
 											<FacebookShareButton
 												url={
-													'https://www.deccanherald.com/content/66174/water-recharge-project-extended-13.html'
+													"https://www.deccanherald.com/content/66174/water-recharge-project-extended-13.html"
 												}
 											>
 												<i className="fa fa-facebook" aria-hidden="true" />
@@ -418,7 +437,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<TwitterShareButton
 												url={
-													'https://www.deccanherald.com/content/66174/water-recharge-project-extended-13.html'
+													"https://www.deccanherald.com/content/66174/water-recharge-project-extended-13.html"
 												}
 											>
 												<i className="fa fa-twitter" aria-hidden="true" />
@@ -426,7 +445,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 
 											<WhatsappShareButton
 												url={
-													'https://www.deccanherald.com/content/66174/water-recharge-project-extended-13.html'
+													"https://www.deccanherald.com/content/66174/water-recharge-project-extended-13.html"
 												}
 											>
 												<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -440,6 +459,7 @@ const SliderNews2 = ({ article1, article3 }) => {
 												>
 													Read more
 												</a>
+												{"  "}
 												<i class="fa fa-angle-right" aria-hidden="true" />
 											</button>
 										</div>
