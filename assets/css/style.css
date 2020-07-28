@@ -15,7 +15,7 @@ tr {
 
 .row {
     margin-right: 0px !important;
-    margin-left: 0px !important;
+    /*margin-left: 0px !important;*/
 }
 
 .slick-arrow-right-awards {
@@ -32,6 +32,8 @@ tr {
 
 .container.awrdimgsec.text-center img {
     max-width: 100% !important;
+    border: 4px solid #077bbd!important;
+    padding: 10px!important;
 }
 
 .slick-arrow-left-awards {
@@ -304,13 +306,13 @@ img {
     .slick-arrow-right-awards {
         float: right;
         width: 8%;
-        margin-top: -15% !important;
+        margin-top: -7% !important;
     }
     .slick-arrow-left-awards {
         width: 0%;
         float: left;
-        margin-top: 85%;
-        margin-left: -5px;
+        margin-top: 83%;
+        margin-left: 2px;
     }
     button#rnrdmr {
         border: 1px solid#fff532;
@@ -3305,7 +3307,16 @@ h5.mb-0 a {
     letter-spacing: 0.5px;
 }
 
-h5.mb-0 a:after {
+.techaccrdn h5.mb-0 a:after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    float: right;
+    font-size: 50px!important;
+    margin-top: -15px!important;
+}
+
+.downloadsec h5.mb-0 a:after {
     content: "\f107";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
