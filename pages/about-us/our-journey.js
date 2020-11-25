@@ -1,20 +1,13 @@
 import {Fragment} from "react";
 import Head from "next/head";
-import Link from "next/link";
 import Header from "../../components/Header";
-import Banner from "../../components/Banner";
-import WhatWeDo from "../../components/WhatWeDo";
 import Footer from "../../components/Footer";
-import AboutUs from "../../components/AboutUs";
-import RWHFilters from "../../components/RWHFilters";
-import FilterToSelect from "../../components/FilterToSelect";
-import GroundWaterRecharging from "../../components/GroundWaterRecharging";
 
 export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Journey</title>
+				<title>Rainy - Our Journey</title>
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
@@ -80,7 +73,7 @@ export default function Home() {
 									</div>
 
 									<div className="timeline-panel">
-										<img src="../../static/images/journey/Founded.png" />
+										<img src="../../static/images/ourJourney/IMG_4997.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
@@ -123,7 +116,7 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel right-imghis">
-										<img src="../../static/images/journey/Turnkey.png" />
+										<img src="../../static/images/ourJourney/2003.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
@@ -167,7 +160,7 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel">
-										<img src="../../static/images/journey/Expansion.png" />
+										<img src="../../static/images/ourJourney/2004.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">Expansion of Network</h4>
@@ -208,7 +201,7 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel right-imghis">
-										<img src="../../static/images/journey/LaunchRF.png" />
+										<img src="../../static/images/ourJourney/20051.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
@@ -244,7 +237,7 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel">
-										<img src="../../static/images/journey/Expansion.png" />
+										<img src="../../static/images/ourJourney/20071.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
@@ -279,7 +272,7 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel right-imghis">
-										<img src="../../static/images/journey/LaunchRF.png" />
+										<img src="../../static/images/ourJourney/Filters.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
@@ -316,7 +309,7 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel">
-										<img src="../../static/images/journey/Expansion.png" />
+										<img src="../../static/images/ourJourney/2016.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
@@ -353,7 +346,7 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel right-imghis">
-										<img src="../../static/images/journey/LaunchRF.png" />
+										<img src="../../static/images/ourJourney/Group1236.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
