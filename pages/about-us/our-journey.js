@@ -354,7 +354,14 @@ export default function Home() {
 												</h4>
 											</div>
 											<div className="timeline-body">
-												<p>Txt to be updated.</p>
+												<p>Txt to be updated.
+												site at Hadihalli in Chikmagalur. This houses state of
+													the art hydraulic testing labs, live demonstration
+													facility, education centre and manufacturing unit. A
+													unique, completely sustainable facility dedicated to
+													rain water conservation and innovation to mitigate
+													climate change.
+													</p>
 											</div>
 										</div>
 									</div>
