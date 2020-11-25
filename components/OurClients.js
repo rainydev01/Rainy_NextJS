@@ -9,7 +9,7 @@ function SampleNextArrow(props) {
 			style={{...style, display: "block"}}
 			onClick={onClick}
 		>
-			<i class="fa fa-chevron-right" aria-hidden="true"></i>
+			<i className="fa fa-chevron-right" aria-hidden="true"></i>
 		</div>
 	);
 }
@@ -22,7 +22,7 @@ function SamplePrevArrow(props) {
 			style={{...style, display: "block"}}
 			onClick={onClick}
 		>
-			<i class="fa fa-chevron-left" aria-hidden="true"></i>
+			<i className="fa fa-chevron-left" aria-hidden="true"></i>
 		</div>
 	);
 }
