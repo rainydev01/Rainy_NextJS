@@ -8,9 +8,9 @@ const Banner = () => {
 					<img src="../static/images/homepage/HomeBanner.jpg" alt="Banner" />
 					<div className="hero-text">
 						<h1 style={{color: "white", paddingLeft:"45px"}}>RAINWATER HARVESTING</h1>
-						<p style={{color: "white"}}>Do you harvest rainwater? Start today!</p>
-						<button>Learn More</button>
-						<button>Enquire Now</button>
+						<p style={{color: "white", paddingLeft:"45px"}}>Do you harvest rainwater? Start today!</p>
+						<button style={{marginLeft:"45px"}}>Learn More</button>
+						<button style={{marginLeft: 20}}>Enquire Now</button>
 					</div>
 				</div>
 			</div>
