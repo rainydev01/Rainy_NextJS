@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Filters</title>
+				<title>Rainy - Filters</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -32,7 +32,7 @@ export default function Home() {
 					<Header />
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
-							<img src="../../static/images/products/RainyBanner.png" />
+							<img src="../../static/images/products/Group1240.jpg" />
 							<div className="hero-text rnyfltrs">
 								<h1>RAINY FILTERS</h1>
 							</div>
@@ -59,7 +59,7 @@ export default function Home() {
 								</div>
 								<div className="col-md-4">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL80.png" />
+										<img src="../../static/images/products/FL_80-min.png" />
 									</div>
 								</div>
 								<div className="col-md-8">
@@ -361,7 +361,7 @@ export default function Home() {
 
 								<div className="col-md-4">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL100.png" />
+										<img src="../../static/images/products/FL_150-min.png" />
 									</div>
 								</div>
 							</div>
@@ -470,7 +470,7 @@ export default function Home() {
 								</div>
 								<div className="col-md-4">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL80.png" />
+										<img src="../../static/images/products/FL_200-min.png" />
 									</div>
 								</div>
 								<div className="col-md-8">
@@ -777,7 +777,7 @@ export default function Home() {
 
 								<div className="col-md-4">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL100.png" />
+										<img src="../../static/images/products/FL_300-min.png" />
 									</div>
 								</div>
 							</div>
@@ -885,7 +885,7 @@ export default function Home() {
 								</div>
 								<div className="col-md-4">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL80.png" />
+										<img src="../../static/images/products/FL_500-min.png" />
 									</div>
 								</div>
 								<div className="col-md-8">
