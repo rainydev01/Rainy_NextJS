@@ -13,7 +13,7 @@ const SliderNews3 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media1.png" />
+								<img src="../static/images/media/articles/Chikkamagaluru_Farmland_Aqua.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -86,7 +86,7 @@ const SliderNews3 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media2.png" />
+								<img src="../static/images/media/articles/Harvest_rainwater.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -159,7 +159,7 @@ const SliderNews3 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media3.png" />
+								<img src="../static/images/media/articles/Bangalore_Michael_Baptist.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -255,7 +255,7 @@ const SliderNews3 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media1.png" />
+								<img src="../static/images/media/articles/Farmland_SKOCH_2018.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -328,7 +328,7 @@ const SliderNews3 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media2.png" />
+								<img src="../static/images/media/articles/Zero_water.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">

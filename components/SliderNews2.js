@@ -13,7 +13,7 @@ const SliderNews2 = ({article1, article3}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media1.png" />
+								<img src="../static/images/media/articles/Govt-ties-up.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -86,7 +86,7 @@ const SliderNews2 = ({article1, article3}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media2.png" />
+								<img src="../static/images/media/articles/Saving_every_drop.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -159,7 +159,7 @@ const SliderNews2 = ({article1, article3}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media3.png" />
+								<img src="../static/images/media/articles/Industrial_areas.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -255,7 +255,7 @@ const SliderNews2 = ({article1, article3}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media1.png" />
+								<img src="../static/images/media/articles/The-art-of-reviving-borewells.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -327,7 +327,7 @@ const SliderNews2 = ({article1, article3}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media2.png" />
+								<img src="../static/images/media/articles/Rainwater_collection.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -398,7 +398,7 @@ const SliderNews2 = ({article1, article3}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media3.png" />
+								<img src="../static/images/media/articles/Harvest_rainwater.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">

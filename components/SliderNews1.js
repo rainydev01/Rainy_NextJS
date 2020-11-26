@@ -13,7 +13,7 @@ const SliderNews1 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media1.png" />
+								<img src="../static/images/media/articles/Rainwater_collection.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -87,7 +87,7 @@ const SliderNews1 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media2.png" />
+								<img src="../static/images/media/articles/Karnataka_Water_research_Chikkamagalu.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -160,7 +160,7 @@ const SliderNews1 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media3.png" />
+								<img src="../static/images/media/articles/Bangalore_Michael_Baptist.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -255,7 +255,7 @@ const SliderNews1 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media1.png" />
+								<img src="../static/images/media/articles/harvester-shares-expertise-to-tap-Natures.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -330,7 +330,7 @@ const SliderNews1 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media2.png" />
+								<img src="../static/images/media/articles/Saving_every_drop.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">
@@ -403,7 +403,7 @@ const SliderNews1 = ({article2}) => {
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
-								<img src="../../static/images/media/media3.png" />
+								<img src="../static/images/media/articles/Rainwater_filters_for_the monsoon_of_2016.jpg" />
 							</div>
 							<div className="mdiacont">
 								<div className="grndtext">

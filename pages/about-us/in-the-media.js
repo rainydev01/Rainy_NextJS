@@ -39,7 +39,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Media</title>
+				<title>Rainy - Media</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -65,7 +65,7 @@ export default function Home() {
 
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
-							<img src="../../static/images/media/mediaBanner.png" />
+							<img src="../../static/images/media/MediaBanner.jpg" />
 							<div className="hero-text inthemedia">
 								<h1>IN THE MEDIA</h1>
 							</div>
