@@ -31,35 +31,89 @@ export default function Home() {
 
 	const photos = [
 		{
-			src: "static/images/gallery/Image1.png",
+			src: "../static/images/galleryNew/Apartment.jpg",
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "static/images/gallery/Image2.png",
-			width: 5,
-			height: 3,
-		},
-		{
-			src: "static/images/gallery/Image3.png",
+			src: "../static/images/galleryNew/BorewellRings.JPG",
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "static/images/gallery/Image4.png",
+			src: "../static/images/galleryNew/Expansionofnetwork.JPG",
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "static/images/gallery/Image5.png",
+			src: "../static/images/galleryNew/GovtBuilding.jpg",
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "static/images/gallery/Image6.png",
+			src: "../static/images/galleryNew/GroundWaterRecharing.JPG",
 			width: 4,
 			height: 3,
 		},
+		// {
+		// 	src: "../static/images/galleryNew/Image91.png",
+		// 	width: 4,
+		// 	height: 3,
+		// },
+		{
+			src: "../static/images/galleryNew/IndependentHouse.jpg",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/Industries.JPG",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/InternationalVisitors.JPG",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/ITSector.JPG",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/LiveDemoTruck.jpg",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/R _ D.JPG",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/RooftopRWH.JPG",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/Schools.jpg",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/SystemsandSolutions.JPG",
+			width: 4,
+			height: 3,
+		},
+		{
+			src: "../static/images/galleryNew/WithDignitaries.JPG",
+			width: 4,
+			height: 3,
+		},
+
+		
+
+
 	];
 
 	let basicCSS1 = "btn btn-default filter-button ";
@@ -77,6 +131,8 @@ export default function Home() {
 	let basicCSS13 = "btn btn-default filter-button ";
 	let basicCSS14 = "btn btn-default filter-button ";
 	let basicCSS15 = "btn btn-default filter-button ";
+
+	//for all images
 
 	if (selectedView === 1) {
 		basicCSS1 = "btn btn-default filter-button filter-button-active";
@@ -101,115 +157,143 @@ export default function Home() {
 		);
 	}
 
+	// for Rooftp RWh
+
 	if (selectedView === 2) {
 		basicCSS2 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image1.png" />
+				<img className=" center-block" src="../static/images/galleryNew/RooftopRWH.JPG" />
 			</Fragment>
 		);
 	}
+
+	// for GWR
 	if (selectedView === 3) {
 		basicCSS3 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image2.png" />
+				<img className=" center-block" src="../static/images/galleryNew/GroundWaterRecharing.JPG" />
 			</Fragment>
 		);
 	}
+
+	// for Govt Buidld
 	if (selectedView === 4) {
 		basicCSS4 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image3.png" />
+				<img className=" center-block" src="../static/images/galleryNew/GovtBuilding.jpg" />
 			</Fragment>
 		);
 	}
+
+	// Borewell Rings
 	if (selectedView === 5) {
 		basicCSS5 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image4.png" />
+				<img className=" center-block" src="../static/images/galleryNew/BorewellRings.JPG" />
 			</Fragment>
 		);
 	}
+
+	//Schools
 	if (selectedView === 6) {
 		basicCSS6 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image5.png" />
+				<img className=" center-block" src="../static/images/galleryNew/Schools.jpg" />
 			</Fragment>
 		);
 	}
+
+	// for GWR Apartment
 	if (selectedView === 7) {
 		basicCSS7 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image6.png" />
+				<img className=" center-block" src="../static/images/galleryNew/Apartment.jpg" />
 			</Fragment>
 		);
 	}
+
+	//Houses
 	if (selectedView === 8) {
 		basicCSS8 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image1.png" />
+				<img className=" center-block" src="../static/images/galleryNew/IndependentHouse.jpg" />
 			</Fragment>
 		);
 	}
+
+	//industries
 	if (selectedView === 9) {
 		basicCSS9 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image2.png" />
+				<img className=" center-block" src="../static/images/galleryNew/Industries.JPG" />
 			</Fragment>
 		);
 	}
+
+	//digni
 	if (selectedView === 10) {
 		basicCSS10 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image1.png" />
+				<img className=" center-block" src="../static/images/galleryNew/WithDignitaries.JPG" />
 			</Fragment>
 		);
 	}
+
+	//RD
 	if (selectedView === 11) {
 		basicCSS11 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image3.png" />
+				<img className=" center-block" src="../static/images/galleryNew/R _ D.JPG" />
 			</Fragment>
 		);
 	}
+	
+	// syst and soln
 	if (selectedView === 12) {
 		basicCSS12 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image4.png" />
+				<img className=" center-block" src="../static/images/galleryNew/SystemsandSolutions.JPG" />
 			</Fragment>
 		);
 	}
+
+	//Intl Vistors
 	if (selectedView === 13) {
 		basicCSS13 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image5.png" />
+				<img className=" center-block" src="../static/images/galleryNew/InternationalVisitors.JPG" />
 			</Fragment>
 		);
 	}
+
+	//Live demo truck
 	if (selectedView === 14) {
 		basicCSS14 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image6.png" />
+				<img className=" center-block" src="../static/images/galleryNew/LiveDemoTruck.jpg" />
 			</Fragment>
 		);
 	}
+
+	//IT sector
 	if (selectedView === 15) {
 		basicCSS15 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="static/images/gallery/Image4.png" />
+				<img className=" center-block" src="../static/images/galleryNew/ITSector.JPG" />
 			</Fragment>
 		);
 	}
@@ -217,7 +301,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Gallery</title>
+				<title>Rainy - Gallery</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -241,7 +325,7 @@ export default function Home() {
 					<Header />
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
-							<img src="../static/images/gallery/Banner.png" />
+							<img src="../static/images/galleryNew/Image91.png" />
 							<div className="hero-text rnyfltrs">
 								<h1>GALLERY</h1>
 							</div>
@@ -296,7 +380,7 @@ export default function Home() {
 										className={basicCSS5}
 										data-filter="sprinkle"
 									>
-										Govt. Institutions
+										Borewell Rings
 									</button>
 									<button
 										onClick={() => {

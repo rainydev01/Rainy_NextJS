@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Ground Water Recharge</title>
+				<title>Rainy - Ground Water Recharge</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -32,7 +32,7 @@ export default function Home() {
 					<Header />
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
-							<img src="../../static/images/groundWater/GroundBanner.png" />
+							<img src="../../static/images/groundWater/Group1241.jpg" />
 							<div className="hero-text rnyfltrs">
 								<h1>GROUND WATER RECHARGING</h1>
 							</div>
@@ -47,7 +47,7 @@ export default function Home() {
 										className="rainyfilterimg"
 										style={{float: "right", marginRight: "45px"}}
 									>
-										<img src="../../static/images/groundWater/Image1.png" />
+										<img src="../../static/images/groundWater/IMG_9341.png" />
 									</div>
 								</div>
 								<div className="col-md-6">
@@ -101,17 +101,17 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/Image2.png" />
+										<img src="../../static/images/groundWater/DSC00198@2x.png" />
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/Image3.png" />
+										<img src="../../static/images/groundWater/IMG_4997.png" />
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/Image4.png" />
+										<img src="../../static/images/groundWater/IMG_2913.png" />
 									</div>
 								</div>
 							</div>
