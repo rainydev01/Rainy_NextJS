@@ -2,19 +2,14 @@ import {Fragment} from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
-import Banner from "../../components/Banner";
-import WhatWeDo from "../../components/WhatWeDo";
 import Footer from "../../components/Footer";
-import AboutUs from "../../components/AboutUs";
-import RWHFilters from "../../components/RWHFilters";
-import FilterToSelect from "../../components/FilterToSelect";
-import GroundWaterRecharging from "../../components/GroundWaterRecharging";
+import ImageSliderTeam from "../../components/ImageSliderTeam"
 
 export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Team</title>
+				<title>Rainy - Our Team</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -38,7 +33,7 @@ export default function Home() {
 					<Header />
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
-							<img src="../../static/images/team/Banner.png" />
+							<img src="../../static/images/ourTeam/Addicts-26717.jpg" />
 							<div className="hero-text entteamtxt">
 								<h1>OUR EXECUTIVE TEAM</h1>
 							</div>
@@ -61,7 +56,7 @@ export default function Home() {
 							<div className="row team-row">
 								<div className="col-md-6">
 									<div>
-										<img src="../../static/images/team/team1.png" />
+										<img src="../../static/images/ourTeam/Group1195.jpg" />
 									</div>
 									<div>
 										<h4 className="team-title">Michael Baptist</h4>
@@ -88,7 +83,7 @@ export default function Home() {
 								</div>
 								<div className="col-md-6">
 									<div>
-										<img src="../../static/images/team/team2.png" />
+										<img src="../../static/images/ourTeam/Group1196.jpg" />
 									</div>
 									<div>
 										<h4 className="team-title">Vijayaraj Shishodia</h4>
@@ -119,7 +114,7 @@ export default function Home() {
 							>
 								<div className="col-md-6">
 									<div>
-										<img src="../../static/images/team/team3.png" />
+										<img src="../../static/images/ourTeam/Group1196.jpg" />
 									</div>
 									<div>
 										<h4 className="team-title">Sunil Baptist</h4>
@@ -144,7 +139,7 @@ export default function Home() {
 								</div>
 								<div className="col-md-6">
 									<div>
-										<img src="../../static/images/team/team4.png" />
+										<img src="../../static/images/ourTeam/Group1197.jpg" />
 									</div>
 									<div>
 										<h4 className="team-title">Manoj Baptist</h4>
@@ -170,6 +165,10 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
+
+					<ImageSliderTeam></ImageSliderTeam>
+
+
 
 					<Footer />
 				</div>
