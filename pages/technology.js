@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Technology</title>
+				<title>Rainy - Technology</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -48,7 +48,7 @@ export default function Home() {
 
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
-							<img src="../static/images/technology/MainBanner.png" />
+							<img src="../static/images/technology/Group1237.jpg" />
 							<div className="hero-text techbnnrtxt">
 								<h1>
 									OUR INNOVATIVE
@@ -76,7 +76,7 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-5">
 									<div className="techlimg">
-										<img src="../static/images/technology/Technology.png" />
+										<img src="../static/images/technology/Brochure.png" />
 									</div>
 								</div>
 								<div className="col-md-7">
@@ -255,7 +255,7 @@ export default function Home() {
 											>
 												<div className="card-body">
 													<div className="row techacrsec">
-														<div className="col-md-7">
+														<div className="col-md-12">
 															<div className="techpointslst">
 																<ul>
 																	<li>
@@ -328,11 +328,11 @@ export default function Home() {
 																</ul>
 															</div>
 														</div>
-														<div className="col-md-5">
+														{/* <div className="col-md-5">
 															<div className="techlimg">
 																<img src="static/images/Image54.png" />
 															</div>
-														</div>
+														</div> */}
 													</div>
 												</div>
 											</div>
@@ -363,7 +363,7 @@ export default function Home() {
 											>
 												<div className="card-body">
 													<div className="row techacrsec">
-														<div className="col-md-7">
+														<div className="col-md-12">
 															<div className="techpointslst">
 																<ul>
 																	<li>
@@ -549,11 +549,11 @@ export default function Home() {
 																</ul>
 															</div>
 														</div>
-														<div className="col-md-5">
+														{/* <div className="col-md-5">
 															<div className="techlimg">
 																<img src="static/images/Image54.png" />
 															</div>
-														</div>
+														</div> */}
 													</div>
 												</div>
 											</div>
@@ -584,7 +584,7 @@ export default function Home() {
 											>
 												<div className="card-body">
 													<div className="row techacrsec">
-														<div className="col-md-7">
+														<div className="col-md-12">
 															<div className="techpointslst">
 																<ul>
 																	<li>
@@ -699,11 +699,11 @@ export default function Home() {
 																</ul>
 															</div>
 														</div>
-														<div className="col-md-5">
+														{/* <div className="col-md-5">
 															<div className="techlimg">
 																<img src="static/images/Image54.png" />
 															</div>
-														</div>
+														</div> */}
 													</div>
 												</div>
 											</div>
@@ -752,12 +752,12 @@ export default function Home() {
 											>
 												<div className="card-body">
 													<div className="row techacrsec">
-														<div className="col-md-5">
+														{/* <div className="col-md-5">
 															<div className="techlimg">
 																<img src="static/images/Image54.png" />
 															</div>
-														</div>
-														<div className="col-md-7">
+														</div> */}
+														<div className="col-md-12">
 															<div className="techpointslst">
 																<ul>
 																	<li>
@@ -933,12 +933,12 @@ export default function Home() {
 											>
 												<div className="card-body">
 													<div className="row techacrsec">
-														<div className="col-md-5">
+														{/* <div className="col-md-5">
 															<div className="techlimg">
 																<img src="static/images/Image54.png" />
 															</div>
-														</div>
-														<div className="col-md-7">
+														</div> */}
+														<div className="col-md-12">
 															<div className="techlimg">
 																<img src="static/images/NoPath.png" />
 															</div>
