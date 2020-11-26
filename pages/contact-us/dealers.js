@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Dealers</title>
+				<title>Rainy - Dealers</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -33,7 +33,7 @@ export default function Home() {
 					<Header />
 					<div className="container-fluid banner enternal">
 						<div className="hero-image dlrsbnrtxt">
-							<img src="../../static/images/dealers/Banner1.png" />
+							<img src="../../static/images/dealers/Image93.jpg" />
 							<div className="hero-text inthemedia">
 								<h1>OUR NETWORK</h1>
 							</div>
@@ -59,7 +59,7 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-6">
 									<div className="rainyfilterimg">
-										<img src="../../static/images/dealers/van.png" />
+										<img src="../../static/images/dealers/Image109.jpg" />
 									</div>
 								</div>
 								<div className="col-md-6">
