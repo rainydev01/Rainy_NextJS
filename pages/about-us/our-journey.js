@@ -7,6 +7,19 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"></script>
+
+  			<script
+   					 dangerouslySetInnerHTML={{
+      											__html: `
+														  window.dataLayer = window.dataLayer || [];
+  														  function gtag(){dataLayer.push(arguments);}
+  														  gtag('js', new Date());
+															gtag('config', 'UA-168445645-1');
+        `,
+    }}
+  />
 				<title>Rainy - Our Journey</title>
 				<link
 					rel="apple-touch-icon"
