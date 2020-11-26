@@ -14,7 +14,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<title>Rainy: Social Awareness</title>
+				<title>Rainy - Social Awareness</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -46,7 +46,7 @@ export default function Home() {
 							<div className="groundwatersec">
 								<div className="col-md-6">
 									<div className="groundwatersimg">
-										<img src="../static/images/homepage/groundWaterRecharging.png" />
+										<img src="../../static/images/ourTeam/Group1238.jpg" />
 									</div>
 								</div>
 								<div className="col-md-6">
