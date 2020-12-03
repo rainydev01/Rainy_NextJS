@@ -2,7 +2,7 @@ import {Fragment} from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Footer from "../../components/FooterDealer";
 import DealerSelect from "../../components/DealerSelect";
 
 export default function Home() {
