@@ -8,19 +8,21 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+				></script>
 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"></script>
-
-  			<script
-   					 dangerouslySetInnerHTML={{
-      											__html: `
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
 														  window.dataLayer = window.dataLayer || [];
   														  function gtag(){dataLayer.push(arguments);}
   														  gtag('js', new Date());
 															gtag('config', 'UA-168445645-1');
         `,
-    }}
-  />
+					}}
+				/>
 				<title>Rainy - Filters</title>
 				<link
 					rel="stylesheet"
@@ -204,7 +206,13 @@ export default function Home() {
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
+								<div class="modal-body">
+									<img
+										src="../../static/images/filters/FL-80.png"
+										class="img-fluid"
+										alt="FL-100"
+									/>
+								</div>
 								<div class="modal-footer">
 									<button
 										type="button"
@@ -217,7 +225,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div
+					{/* <div
 						class="modal fade"
 						id="fl80Installation"
 						tabindex="-1"
@@ -252,7 +260,7 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 
 					<div className="container-fluid fl100">
 						<div className="container">
