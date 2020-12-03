@@ -3,25 +3,27 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import ImageSliderTeam from "../../components/ImageSliderTeam"
+import ImageSliderTeam from "../../components/ImageSliderTeam";
 
 export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+				></script>
 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"></script>
-
-  			<script
-   					 dangerouslySetInnerHTML={{
-      											__html: `
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
 														  window.dataLayer = window.dataLayer || [];
   														  function gtag(){dataLayer.push(arguments);}
   														  gtag('js', new Date());
 															gtag('config', 'UA-168445645-1');
         `,
-    }}
-  />
+					}}
+				/>
 				<title>Rainy - Our Team</title>
 				<link
 					rel="stylesheet"
@@ -96,7 +98,7 @@ export default function Home() {
 								</div>
 								<div className="col-md-6">
 									<div>
-										<img src="../../static/images/ourTeam/Group1196.jpg" />
+										<img src="../../static/images/ourTeam/Group1235.png" />
 									</div>
 									<div>
 										<h4 className="team-title">Vijayaraj Shishodia</h4>
@@ -180,8 +182,6 @@ export default function Home() {
 					</div>
 
 					<ImageSliderTeam></ImageSliderTeam>
-
-
 
 					<Footer />
 				</div>

@@ -7,19 +7,21 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+				></script>
 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"></script>
-
-  			<script
-   					 dangerouslySetInnerHTML={{
-      											__html: `
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
 														  window.dataLayer = window.dataLayer || [];
   														  function gtag(){dataLayer.push(arguments);}
   														  gtag('js', new Date());
 															gtag('config', 'UA-168445645-1');
         `,
-    }}
-  />
+					}}
+				/>
 				<title>Rainy - Our Journey</title>
 				<link
 					rel="apple-touch-icon"
@@ -359,22 +361,23 @@ export default function Home() {
 										</i>
 									</div>
 									<div className="timeline-panel right-imghis">
-										<img src="../../static/images/ourJourney/Group1236.jpg" />
+										<img src="../../static/images/ourJourney/2020.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
-													FL80 Rooftop RWH Filter Launched
+													FL-80 and FL-150 – New product launches
 												</h4>
 											</div>
 											<div className="timeline-body">
-												<p>Txt to be updated.
-												site at Hadihalli in Chikmagalur. This houses state of
-													the art hydraulic testing labs, live demonstration
-													facility, education centre and manufacturing unit. A
-													unique, completely sustainable facility dedicated to
-													rain water conservation and innovation to mitigate
-													climate change.
-													</p>
+												<p>
+													As a result of rigorous R&D and unique manufacturing
+													techniques, we achieved superior price-performance
+													ratio. FL-80 and FL-150 were launched, these filters
+													are Cost-effective while delivering strong performance
+													and promising durability. The new filters paved a way
+													for high-quality products for affordable prices,
+													making it an instant success.
+												</p>
 											</div>
 										</div>
 									</div>
