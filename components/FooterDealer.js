@@ -1,9 +1,9 @@
 import React, {Fragment, useEffect} from "react";
 
 const Footer = () => {
-	useEffect(() => {
-		window.googleTranslateElementInit = googleTranslateElementInit;
-	}, []);
+	// useEffect(() => {
+	// 	window.googleTranslateElementInit = googleTranslateElementInit;
+	// }, []);
 	return (
 		<Fragment>
 			<div className="container-fluid footer-main">
