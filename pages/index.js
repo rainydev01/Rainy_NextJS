@@ -31,20 +31,6 @@ export default function Home() {
 					}}
 				/>
 
-				<script
-					dangerouslySetInnerHTML={{
-						__html: function googleTranslateElementInit() {
-							/* eslint-disable no-new */
-							new window.google.translate.TranslateElement(
-								{
-									pageLanguage: "pt",
-								},
-								"google_translate_element"
-							);
-						},
-					}}
-				/>
-
 				<title>Rainy - RWH Systems</title>
 				<link
 					rel="apple-touch-icon"
@@ -83,6 +69,19 @@ export default function Home() {
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 					crossOrigin="anonymous"
+				/>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: function googleTranslateElementInit() {
+							/* eslint-disable no-new */
+							new window.google.translate.TranslateElement(
+								{
+									pageLanguage: "pt",
+								},
+								"google_translate_element"
+							);
+						},
+					}}
 				/>
 			</Head>
 			<main>

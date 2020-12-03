@@ -24,6 +24,7 @@ export default function Home() {
         `,
 					}}
 				/>
+
 				<title>Rainy - Our Team</title>
 				<link
 					rel="stylesheet"
@@ -41,6 +42,19 @@ export default function Home() {
 				<link
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: function googleTranslateElementInit() {
+							/* eslint-disable no-new */
+							new window.google.translate.TranslateElement(
+								{
+									pageLanguage: "pt",
+								},
+								"google_translate_element"
+							);
+						},
+					}}
 				/>
 			</Head>
 			<main>

@@ -110,10 +110,6 @@ export default function Home() {
 			width: 4,
 			height: 3,
 		},
-
-		
-
-
 	];
 
 	let basicCSS1 = "btn btn-default filter-button ";
@@ -163,7 +159,10 @@ export default function Home() {
 		basicCSS2 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/RooftopRWH.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/RooftopRWH.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -173,7 +172,10 @@ export default function Home() {
 		basicCSS3 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/GroundWaterRecharing.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/GroundWaterRecharing.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -183,7 +185,10 @@ export default function Home() {
 		basicCSS4 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/GovtBuilding.jpg" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/GovtBuilding.jpg"
+				/>
 			</Fragment>
 		);
 	}
@@ -193,7 +198,10 @@ export default function Home() {
 		basicCSS5 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/BorewellRings.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/BorewellRings.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -203,7 +211,10 @@ export default function Home() {
 		basicCSS6 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/Schools.jpg" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/Schools.jpg"
+				/>
 			</Fragment>
 		);
 	}
@@ -213,7 +224,10 @@ export default function Home() {
 		basicCSS7 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/Apartment.jpg" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/Apartment.jpg"
+				/>
 			</Fragment>
 		);
 	}
@@ -223,7 +237,10 @@ export default function Home() {
 		basicCSS8 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/IndependentHouse.jpg" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/IndependentHouse.jpg"
+				/>
 			</Fragment>
 		);
 	}
@@ -233,7 +250,10 @@ export default function Home() {
 		basicCSS9 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/Industries.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/Industries.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -243,7 +263,10 @@ export default function Home() {
 		basicCSS10 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/WithDignitaries.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/WithDignitaries.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -253,17 +276,23 @@ export default function Home() {
 		basicCSS11 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/R _ D.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/R _ D.JPG"
+				/>
 			</Fragment>
 		);
 	}
-	
+
 	// syst and soln
 	if (selectedView === 12) {
 		basicCSS12 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/SystemsandSolutions.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/SystemsandSolutions.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -273,7 +302,10 @@ export default function Home() {
 		basicCSS13 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/InternationalVisitors.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/InternationalVisitors.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -283,7 +315,10 @@ export default function Home() {
 		basicCSS14 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/LiveDemoTruck.jpg" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/LiveDemoTruck.jpg"
+				/>
 			</Fragment>
 		);
 	}
@@ -293,7 +328,10 @@ export default function Home() {
 		basicCSS15 = "btn btn-default filter-button filter-button-active";
 		gallerySelectedComponent = (
 			<Fragment>
-				<img className=" center-block" src="../static/images/galleryNew/ITSector.JPG" />
+				<img
+					className=" center-block"
+					src="../static/images/galleryNew/ITSector.JPG"
+				/>
 			</Fragment>
 		);
 	}
@@ -301,19 +339,21 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+				></script>
 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"></script>
-
-  			<script
-   					 dangerouslySetInnerHTML={{
-      											__html: `
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
 														  window.dataLayer = window.dataLayer || [];
   														  function gtag(){dataLayer.push(arguments);}
   														  gtag('js', new Date());
 															gtag('config', 'UA-168445645-1');
         `,
-    }}
-  />
+					}}
+				/>
 				<title>Rainy - Gallery</title>
 				<link
 					rel="stylesheet"
@@ -331,6 +371,19 @@ export default function Home() {
 				<link
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: function googleTranslateElementInit() {
+							/* eslint-disable no-new */
+							new window.google.translate.TranslateElement(
+								{
+									pageLanguage: "pt",
+								},
+								"google_translate_element"
+							);
+						},
+					}}
 				/>
 			</Head>
 			<main>

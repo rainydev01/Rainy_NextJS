@@ -8,20 +8,22 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+				></script>
 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"></script>
-
-  			<script
-   					 dangerouslySetInnerHTML={{
-      											__html: `
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
 														  window.dataLayer = window.dataLayer || [];
   														  function gtag(){dataLayer.push(arguments);}
   														  gtag('js', new Date());
 															gtag('config', 'UA-168445645-1');
         `,
-    }}
-  />
-			
+					}}
+				/>
+
 				<title>Rainy - Technology</title>
 				<link
 					rel="stylesheet"
@@ -54,6 +56,19 @@ export default function Home() {
 				<link
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+				/>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: function googleTranslateElementInit() {
+							/* eslint-disable no-new */
+							new window.google.translate.TranslateElement(
+								{
+									pageLanguage: "pt",
+								},
+								"google_translate_element"
+							);
+						},
+					}}
 				/>
 			</Head>
 			<main>
