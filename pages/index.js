@@ -15,20 +15,40 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+				></script>
 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"></script>
-
-  			<script
-   					 dangerouslySetInnerHTML={{
-      											__html: `
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
 														  window.dataLayer = window.dataLayer || [];
   														  function gtag(){dataLayer.push(arguments);}
   														  gtag('js', new Date());
 															gtag('config', 'UA-168445645-1');
         `,
-    }}
-  />
-			
+					}}
+				/>
+
+				<script
+					dangerouslySetInnerHTML={{
+						__html: function googleTranslateElementInit() {
+							/* eslint-disable no-new */
+							new window.google.translate.TranslateElement(
+								{
+									pageLanguage: "pt",
+								},
+								"google_translate_element"
+							);
+						},
+					}}
+				/>
+				{/* <script
+					type="text/javascript"
+					src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+				></script> */}
+
 				<title>Rainy - RWH Systems</title>
 				<link
 					rel="apple-touch-icon"
