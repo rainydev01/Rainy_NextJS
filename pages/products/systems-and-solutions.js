@@ -194,19 +194,22 @@ export default function Home() {
 					>
 						<div className="container">
 							<div className="row">
-								<div className="col-md-4">
+								<div
+									style={{pading: "10px", borderRadius: "20px"}}
+									className="col-md-4"
+								>
 									<div className="gr3">
-										<img src="../../static/images/systemsSolutions/small1.JPG" />
+										<img src="../../static/images/groundWater/small1.jpg" />
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/systemsSolutions/small2.JPG" />
+										<img src="../../static/images/groundWater/small2.png" />
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/systemsSolutions/small3.JPG" />
+										<img src="../../static/images/groundWater/small3.png" />
 									</div>
 								</div>
 							</div>

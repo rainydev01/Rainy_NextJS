@@ -129,17 +129,17 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/DSC00198@2x.png" />
+										<img src="../../static/images/groundWater/small1.jpg" />
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/IMG_4997.png" />
+										<img src="../../static/images/groundWater/small2.png" />
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/IMG_2913.png" />
+										<img src="../../static/images/groundWater/small3.png" />
 									</div>
 								</div>
 							</div>
