@@ -10,13 +10,13 @@ const Banner = () => {
 						alt="Banner"
 					/>
 					<div className="hero-text">
-						<h1 style={{color: "white", paddingLeft: "30%"}}>
+						<h1 style={{color: "white"}}>
 							RAINY WATER HARVESTING
 						</h1>
-						<p style={{color: "white", paddingLeft: "30%"}}>
+						<p style={{color: "white"}}>
 							Do you harvest rainwater? Start today!
 						</p>
-						<button style={{marginLeft: "30%"}}>Learn More</button>
+						<button>Learn More</button>
 						<button style={{marginLeft: 20}}>Enquire Now</button>
 					</div>
 				</div>

@@ -95,7 +95,7 @@ export default function Home() {
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/media/mediaBanner.jpg" />
 							<div className="hero-text inthemedia">
-								<h1>IN THE MEDIA</h1>
+								<h1 style={{textAlign: 'center'}}>IN THE MEDIA</h1>
 							</div>
 						</div>
 					</div>

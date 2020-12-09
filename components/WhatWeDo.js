@@ -24,9 +24,9 @@ const WhatWeDo = () => {
 									style={{
 										letterSpacing: "0.1px",
 										textAlign: "left",
-										color: "#4c3f43",
+										color: "#000000d4",
 										fontSize: "16px",
-										fontWeight: "500",
+										fontWeight: "600",
 										lineHeight: "26px",
 										fontFamily: "Visby Round CF Regular",
 									}}
@@ -52,9 +52,9 @@ const WhatWeDo = () => {
 									style={{
 										letterSpacing: "0.1px",
 										textAlign: "right",
-										color: "#4c3f43",
+										color: "#000000d4",
 										fontSize: "16px",
-										fontWeight: "500",
+										fontWeight: "600",
 										lineHeight: "26px",
 										fontFamily: "Visby Round CF Regular",
 									}}
@@ -78,9 +78,9 @@ const WhatWeDo = () => {
 									style={{
 										letterSpacing: "0.1px",
 										textAlign: "left",
-										color: "#4c3f43",
+										color: "#000000d4",
 										fontSize: "16px",
-										fontWeight: "500",
+										fontWeight: "600",
 										lineHeight: "26px",
 										fontFamily: "Visby Round CF Regular",
 									}}

@@ -83,7 +83,7 @@ export default function Home() {
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/journey/Banner.png" />
 							<div className="hero-text enthrotxt">
-								<h1>OUR JOURNEY</h1>
+								<h1 style={{textAlign: 'center'}}>OUR JOURNEY</h1>
 							</div>
 						</div>
 					</div>

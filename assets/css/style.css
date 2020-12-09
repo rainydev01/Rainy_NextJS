@@ -39,7 +39,7 @@ tr {
 .slick-arrow-left-awards {
     width: 0%;
     float: left;
-    margin-top: 15%;
+    margin-top: 14%;
     margin-left: 35px;
 }
 
@@ -67,7 +67,7 @@ tr {
     width: 2%;
     color: #0971b7;
     font-size: 22px;
-    margin-top: 30px;
+    margin-top: 60px;
     float: left;
 }
 
@@ -82,7 +82,7 @@ tr {
     color: #0971b7;
     font-size: 22px;
     float: right;
-    margin-top: -70px;
+    margin-top: -100px;
 }
 
 button {
