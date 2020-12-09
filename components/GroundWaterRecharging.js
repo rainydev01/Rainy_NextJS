@@ -12,7 +12,7 @@ const GroundWaterRecharging = () => {
 					</div>
 					<div className="col-md-6">
 						<div className="groundwaterstxt">
-							<h3>Ground Water Recharging System</h3>
+							<h3>Ground Water Recharging</h3>
 							<p>
 								‘V wire injection well' technology is used to recharge
 								groundwater source and replenish the water table. Run off
