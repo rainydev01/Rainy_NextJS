@@ -93,7 +93,7 @@ export default function Home() {
 
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
-							<img src="../../static/images/media/MediaBanner.jpg" />
+							<img src="../../static/images/media/mediaBanner.jpg" />
 							<div className="hero-text inthemedia">
 								<h1>IN THE MEDIA</h1>
 							</div>
