@@ -107,8 +107,15 @@ const Footer = () => {
 						<li>
 							<a href="# "> Privacy Policy </a>|
 						</li>
-						<li>
-							<a href="# "> Copyright 2020 </a>
+						<li
+							style={{
+								fontSize: "12px",
+								margin: "0px 5px",
+								letterSpacing: "1px",
+							}}
+						>
+							{" "}
+							Copyright 2020
 						</li>
 					</ul>
 				</div>
