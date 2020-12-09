@@ -92,17 +92,21 @@ export default function Home() {
 										<div class="row">
 											<div class="col-md-5">
 												<div className="rnyfltrbtn">
-													<button id="rnenq">
-														Enquire Now{" "}
-														<i
-															style={{padding: 5}}
-															class="fa fa-angle-right"
-															aria-hidden="true"
-														/>
-													</button>
+													<Link href="/contact-us/enquire">
+														<a>
+															<button id="rnenq">
+																Enquire Now{" "}
+																<i
+																	style={{padding: 5}}
+																	class="fa fa-angle-right"
+																	aria-hidden="true"
+																/>
+															</button>
+														</a>
+													</Link>
 												</div>
 											</div>
-											<div class="col-md-6">
+											{/* <div class="col-md-6">
 												<div className="rnyfltrbtn">
 													<button id="rnrdmr">
 														Technical Specifications
@@ -113,7 +117,7 @@ export default function Home() {
 														/>
 													</button>
 												</div>
-											</div>
+											</div> */}
 										</div>
 									</div>
 								</div>
@@ -223,7 +227,7 @@ export default function Home() {
 											<td className="borderRight">
 												Diameter of the SILT Trap Unit:
 											</td>
-											<td>a1000 to 1350 mmsd</td>
+											<td>1000 to 1350 mm</td>
 										</tr>
 										<tr>
 											<td className="borderRight">

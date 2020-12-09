@@ -119,7 +119,7 @@ export default function Home() {
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124399.56415846804!2d77.60377981261607!3d13.00466928906842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159c95555555%3A0xb1a7c2eb52dc3653!2sRainy!5e0!3m2!1sen!2sin!4v1595857457046!5m2!1sen!2sin"
 								width="100%"
 								height="350"
-								frameborder="0"
+								frameBorder="0"
 								style={{border: "0"}}
 							/>
 						</div>

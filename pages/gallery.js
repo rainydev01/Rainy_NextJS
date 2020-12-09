@@ -446,7 +446,7 @@ export default function Home() {
 										className={basicCSS5}
 										data-filter="sprinkle"
 									>
-										Borewell Rings
+										Borewell Riggs
 									</button>
 									<button
 										onClick={() => {

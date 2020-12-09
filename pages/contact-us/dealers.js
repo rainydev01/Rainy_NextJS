@@ -62,7 +62,10 @@ export default function Home() {
 					<div className="container-fluid banner enternal">
 						<div className="hero-image dlrsbnrtxt">
 							<img src="../../static/images/dealers/Image93.jpg" />
-							<div className="hero-text inthemedia">
+							<div
+								style={{left: "22%", top: "35%"}}
+								className="hero-text inthemedia"
+							>
 								<h1>OUR NETWORK</h1>
 							</div>
 						</div>
@@ -145,7 +148,14 @@ export default function Home() {
 									</div>
 									<div className="rnyfltrbtn">
 										<button id="rnenq">
-											<a href="/contact-us/enquire">Enquire </a>
+											<a style={{fontSize: 16}} href="/contact-us/enquire">
+												Enquire
+												<i
+													style={{padding: 5}}
+													class="fa fa-angle-right"
+													aria-hidden="true"
+												/>
+											</a>
 										</button>
 									</div>
 								</div>

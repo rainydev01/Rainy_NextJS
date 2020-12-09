@@ -92,7 +92,7 @@ export default function Home() {
 								</div>
 								<div className="col-md-8">
 									<div className="techpointslst">
-										<table class="table table-striped  table-bordered ">
+										<table className="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
@@ -165,7 +165,7 @@ export default function Home() {
 														</button>
 													</div>
 												</div>
-												<div class="col-md-4">
+												{/* <div class="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -174,15 +174,20 @@ export default function Home() {
 															On Site Installation
 														</button>
 													</div>
-												</div>
+												</div> */}
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button>
-															<a href="/contact-us/enquire">
-																{" "}
-																Enquire <br /> Now{" "}
-															</a>
-														</button>
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/enquire"
+														>
+															<button>
+																Enquire <br /> Now
+															</button>
+														</a>
 													</div>
 												</div>
 											</div>
@@ -368,7 +373,7 @@ export default function Home() {
 														</button>
 													</div>
 												</div>
-												<div class="col-md-4">
+												{/* <div class="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -377,15 +382,20 @@ export default function Home() {
 															On Site Installation
 														</button>
 													</div>
-												</div>
+												</div> */}
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button>
-															<a href="/contact-us/enquire">
-																{" "}
-																Enquire <br /> Now{" "}
-															</a>
-														</button>
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/enquire"
+														>
+															<button>
+																Enquire <br /> Now
+															</button>
+														</a>
 													</div>
 												</div>
 											</div>
@@ -405,7 +415,7 @@ export default function Home() {
 					<div
 						class="modal fade "
 						id="fl100Dimension"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
@@ -450,7 +460,7 @@ export default function Home() {
 					<div
 						class="modal fade"
 						id="fl100Installation"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
@@ -582,7 +592,7 @@ export default function Home() {
 														</button>
 													</div>
 												</div>
-												<div class="col-md-4">
+												{/* <div class="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -591,15 +601,20 @@ export default function Home() {
 															On Site Installation
 														</button>
 													</div>
-												</div>
+												</div> */}
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button>
-															<a href="/contact-us/enquire">
-																{" "}
-																Enquire <br /> Now{" "}
-															</a>
-														</button>
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/enquire"
+														>
+															<button>
+																Enquire <br /> Now
+															</button>
+														</a>
 													</div>
 												</div>
 											</div>
@@ -612,7 +627,7 @@ export default function Home() {
 					<div
 						class="modal fade"
 						id="fl200Dimension"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
@@ -657,7 +672,7 @@ export default function Home() {
 					<div
 						class="modal fade"
 						id="fl200Installation"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
@@ -784,7 +799,7 @@ export default function Home() {
 														</button>
 													</div>
 												</div>
-												<div class="col-md-4">
+												{/* <div class="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -793,15 +808,20 @@ export default function Home() {
 															On Site Installation
 														</button>
 													</div>
-												</div>
+												</div> */}
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button>
-															<a href="/contact-us/enquire">
-																{" "}
-																Enquire <br /> Now{" "}
-															</a>
-														</button>
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/enquire"
+														>
+															<button>
+																Enquire <br /> Now
+															</button>
+														</a>
 													</div>
 												</div>
 											</div>
@@ -820,7 +840,7 @@ export default function Home() {
 					<div
 						class="modal fade"
 						id="fl300Dimension"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
@@ -865,7 +885,7 @@ export default function Home() {
 					<div
 						class="modal fade"
 						id="fl300Installation"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
@@ -997,7 +1017,7 @@ export default function Home() {
 														</button>
 													</div>
 												</div>
-												<div class="col-md-4">
+												{/* <div class="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -1006,15 +1026,20 @@ export default function Home() {
 															On Site Installation
 														</button>
 													</div>
-												</div>
+												</div> */}
 												<div class="col-md-4">
 													<div className="yellowbtn">
-														<button>
-															<a href="/contact-us/enquire">
-																{" "}
-																Enquire <br /> Now{" "}
-															</a>
-														</button>
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/enquire"
+														>
+															<button>
+																Enquire <br /> Now
+															</button>
+														</a>
 													</div>
 												</div>
 											</div>
@@ -1027,7 +1052,7 @@ export default function Home() {
 					<div
 						class="modal fade"
 						id="fl500Dimension"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
@@ -1072,7 +1097,7 @@ export default function Home() {
 					<div
 						class="modal fade"
 						id="fl500Installation"
-						tabindex="-1"
+						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
