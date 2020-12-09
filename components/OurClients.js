@@ -83,142 +83,142 @@ export default class CustomArrows extends Component {
 				<Slider {...settings}>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/031ab1329da9a72190cacb119eed906a.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/1.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/1024px-ABB_logo.svg.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/2.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/1105810932036023789.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/3.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/1200px-Aditya_Birla_Fashion_and_Retail.svg.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/4.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/1200px-BMW.svg.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/5.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/bbmpcrscam.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/6.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/bwssb.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/7.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/cropped-bnk-logo.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/8.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/download-2.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/9.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/download.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/10.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/e72da8c79f1093fe1662d33a6664457d.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/11.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/Goodrich_logo.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/12.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/IFFCO-MD-Scholarship.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/13.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/JSW_Group_logo.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/14.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/KRIDL-Recruitment.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/15.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/KUWSDB.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/16.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/L29130MH1961PLC011980.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/17.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/RDPR-Karnataka-Recruitment-2020.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/18.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/teri-logo.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/19.jpg"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="90"
-							width="200"
-							src="../static/images/clients/unnamed.png"
+							height="150"
+							width="150"
+							src="../static/images/clients/20.png"
 						/>
 					</div>
 				</Slider>
