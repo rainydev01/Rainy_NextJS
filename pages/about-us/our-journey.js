@@ -101,7 +101,7 @@ export default function Home() {
 									</div>
 
 									<div className="timeline-panel">
-										<img src="../../static/images/ourJourney/IMG_4997.jpg" />
+										<img src="../../static/images/ourJourney/2002photo.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">

@@ -166,7 +166,7 @@ export default function Home() {
 										</p>
 									</div>
 								</div>
-								<div className="col-md-6">
+								{/* <div className="col-md-6">
 									<div>
 										<img src="../../static/images/ourTeam/Group1197.jpg" />
 									</div>
@@ -190,7 +190,7 @@ export default function Home() {
 											rainharvesting@gmail.com
 										</p>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

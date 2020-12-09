@@ -968,8 +968,108 @@ export default function Home() {
 															</div>
 														</div> */}
 														<div className="col-md-12">
-															<div className="techlimg">
-																<img src="static/images/NoPath.png" />
+															<div className="techpointslst">
+																<h5>What is V-Wire Technology?</h5>
+																<p
+																	style={{
+																		fontFamily: "Visby Round CF Heavy",
+																		fontSize: 14,
+																	}}
+																>
+																	V-wire technology uses screens that are
+																	manufactured from wires in the shape of pipes.
+																	The spiral of a V-shaped profile wire is bent
+																	along longitudinal support rods around a cage.
+																	The intercession points of these wires are
+																	welded using fusion. The winding pitch
+																	provides different spacing between the two
+																	neighboring twists of wire. Water pours
+																	through these spaces and gets filtered. Both
+																	ends of the screen are equipped with
+																	appropriate end connecting rings for fast
+																	bonding with other simple tube pipes. The
+																	scale and number of the wires are built to
+																	have adequate collapse and tensile strength
+																	for varying depths.
+																</p>
+																<h6>Salient Features:</h6>
+																<ul>
+																	<li>
+																		<img
+																			style={{
+																				height: 25,
+																				width: "auto",
+																				paddingRight: 15,
+																			}}
+																			src="../static/images/elements/Path262.png"
+																			alt="drop"
+																		/>
+																		Unique Slot Structure: Owing to the unique
+																		design of the screen, which enables slots to
+																		be present horizontally and vertically there
+																		is continual flow without any interruption.
+																		Further, this ensures that there is
+																		sufficient open space for water to enter
+																		into this medium without much head loss due
+																		to friction. This system allows for the
+																		overall efficiency of the tube well to be
+																		improved.
+																	</li>
+																	<li>
+																		<img
+																			style={{
+																				height: 25,
+																				width: "auto",
+																				paddingRight: 15,
+																			}}
+																			src="../static/images/elements/Path262.png"
+																			alt="drop"
+																		/>
+																		Higher Filtration: Due to the slot-based
+																		approach of the v-wire technology, we are
+																		able to choose the size of the slots
+																		depending on the media around / in which it
+																		is going to be placed. This allows for high
+																		filtration of even the tiniest sand
+																		particles allowing for good control over
+																		particle infiltration thereby decreasing
+																		maintenance and increasing the life of the
+																		product.
+																	</li>
+																	<li>
+																		<img
+																			style={{
+																				height: 25,
+																				width: "auto",
+																				paddingRight: 15,
+																			}}
+																			src="../static/images/elements/Path262.png"
+																			alt="drop"
+																		/>
+																		Anti Clogging: The salient shape and
+																		structural design of the V-Wire screen
+																		ensures that no sand or other particles get
+																		clogged in the system. This unique V shape
+																		results in the screen having a long
+																		endurance with no maintenance.
+																	</li>
+																	<li>
+																		<img
+																			style={{
+																				height: 25,
+																				width: "auto",
+																				paddingRight: 15,
+																			}}
+																			src="../static/images/elements/Path262.png"
+																			alt="drop"
+																		/>
+																		Corrosion Free: High-grade material with
+																		anti-corrosive property is used to
+																		manufacture our screens and therefore
+																		assuring corrosion-free usage. This enables
+																		the longevity of the product.
+																	</li>
+																</ul>
 															</div>
 														</div>
 													</div>
