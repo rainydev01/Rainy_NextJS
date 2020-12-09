@@ -180,9 +180,14 @@ export default function Home() {
 										</ul>
 									</div>
 									<div className="rnyfltrbtn senq">
-										<button id="rnenq">
-											Enquire <i class="fa fa-angle-right" aria-hidden="true" />
-										</button>
+										<Link href="/contact-us/enquire">
+											<a>
+												<button id="rnenq">
+													Enquire{" "}
+													<i class="fa fa-angle-right" aria-hidden="true" />
+												</button>
+											</a>
+										</Link>
 									</div>
 								</div>
 							</div>
