@@ -82,7 +82,7 @@ export default function Home() {
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/journey/Banner.png" />
-							<div className="hero-text enthrotxt">
+							<div className="hero-text enthrotxt jrny4">
 								<h1 style={{textAlign: 'center'}}>OUR JOURNEY</h1>
 							</div>
 						</div>

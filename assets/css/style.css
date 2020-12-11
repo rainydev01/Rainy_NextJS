@@ -4,7 +4,9 @@ tr {
     height: 10px;
     font-family: "Visby Round CF Regular";
 }
-
+.hero-text.enthrotxt.jrny4 {
+    color: #ffffff;
+}
 .slick-arrow-left-awards.onlyteaml {
     width: 0%;
     float: left;
