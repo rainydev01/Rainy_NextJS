@@ -1070,6 +1070,9 @@ p {
         position: absolute;
         left: 73px;
     }
+    .row.margin3ForSlider {
+        margin: 40px 0px;
+    }
     .nextButtons.prebutton.btn3s {
         margin: -48px 68px 38px -16px !important;
     }
@@ -1117,7 +1120,7 @@ p {
     .slick-arrow-right-awards {
         float: right;
         width: 8%;
-        margin-top: -37% !important;
+        margin-top: -36% !important;
     }
     .bannrhome .hero-image .hero-text {
         position: absolute !important;
