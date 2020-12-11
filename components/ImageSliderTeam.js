@@ -5,7 +5,7 @@ function SampleNextArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className="slick-arrow-right-awards"
+			className="slick-arrow-right-awards onlyteamr"
 			style={{...style, display: "block"}}
 			onClick={onClick}
 		>
@@ -18,7 +18,7 @@ function SamplePrevArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className="slick-arrow-left-awards"
+			className="slick-arrow-left-awards onlyteaml"
 			style={{...style, display: "block"}}
 			onClick={onClick}
 		>

@@ -1141,3 +1141,62 @@ h2.clientsHome:after {
     line-height: 28px;
     font-family: "Visby Round CF Heavy";
 }
+
+
+
+@media screen and (max-width: 1440px) {
+    .hero-text {
+        text-align: right;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        float: right;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        width: 100%;
+    }
+    .container-fluid.banner.bannrhome .hero-text {
+        text-align: right;
+        position: absolute;
+        top: 45%;
+        left: 44%;
+        float: right;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .slick-arrow-left-awards {
+        width: 0%;
+        float: left;
+        margin-top: 95%;
+        margin-left: 2px;
+    }
+    .slick-arrow-right-awards {
+        float: right;
+        width: 15%;
+        margin-top: -10% !important;
+    }
+    
+}
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+
+.slick-arrow-left-awards {
+    width: 0%;
+    float: left;
+    margin-top: 83%;
+    margin-left: 2px;
+}
+
+}
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+
+.slick-arrow-right-awards {
+    float: right;
+    width: 15%;
+    margin-top: -7% !important;
+}
+
+}

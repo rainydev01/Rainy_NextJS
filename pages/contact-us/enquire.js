@@ -62,7 +62,7 @@ export default function Home() {
 					<div className="container-fluid banner enternal">
 						<div className="hero-image gtintchbnnrtxt">
 							<img src="../../static/images/get-in-touch/Banner.png" />
-							<div className="hero-text inthemedia">
+							<div className="hero-text inthemedia contactg">
 								<h1>GET IN TOUCH</h1>
 							</div>
 						</div>

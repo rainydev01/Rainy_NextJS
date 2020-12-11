@@ -64,7 +64,7 @@ export default function Home() {
 							<img src="../../static/images/dealers/Image93.jpg" />
 							<div
 								style={{left: "22%", top: "35%"}}
-								className="hero-text inthemedia"
+								className="hero-text inthemedia dealersb"
 							>
 								<h1>OUR NETWORK</h1>
 							</div>

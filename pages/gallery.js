@@ -392,7 +392,7 @@ export default function Home() {
 					<div className="container-fluid banner enternal">
 						<div className="hero-image enthroimg">
 							<img src="../static/images/galleryNew/Image91.png" />
-							<div className="hero-text rnyfltrs">
+							<div className="hero-text rnyfltrs gllryb">
 								<h1>GALLERY</h1>
 							</div>
 						</div>
