@@ -84,7 +84,7 @@ tr {
 .slick-arrow-left-awards {
     width: 0%;
     float: left;
-    margin-top: 14%;
+    margin-top: 16%;
     margin-left: 35px;
 }
 
@@ -433,7 +433,16 @@ img {
         bottom: 50px !important;
     }
     .nextButtons {
+        margin: -50px 25px 38px 0px !important;
+    }
+    .nextButtons.prebutton.btn2s {
+        margin: -50px 25px 38px 0px !important;
+    }
+    .nextButtons.prebutton.btn3s {
         margin: -90px 25px 38px 0px !important;
+    }
+    .nextButtons.btn1s {
+        margin: -28px 25px 38px 0px !important;
     }
     .slick-slider.slick-initialized .slick-arrow.slick-next {
         right: 0px !important;
@@ -1059,7 +1068,18 @@ p {
     .nextButtons.prebutton {
         margin-left: 30px !important;
         position: absolute;
-        left: 20px;
+        left: 73px;
+    }
+    .nextButtons.prebutton.btn3s {
+        margin: -48px 68px 38px -16px !important;
+    }
+    .nextButtons.prebutton.btn3s button {
+        background: #009ddd;
+        border: 1px solid #009ddd;
+        padding: 10px 20px;
+        border-radius: 30px;
+        margin: -15px -30px!important;
+        outline: none;
     }
     .techbnnrtxt {
         text-align: center !important;
@@ -1070,7 +1090,7 @@ p {
         color: #ffffff;
     }
     .groundwaterstxt {
-        padding: 20px 10px 50px 10px;
+        padding: 20px 10px 50px 10px!important;
     }
     .abou-home-heading h2 {
         text-align: center;

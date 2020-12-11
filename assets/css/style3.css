@@ -721,7 +721,7 @@ h1.fl80 {
 /* Get In Touch */
 
 .inthemedia {
-    color: #fff;
+    color: #fff!important;
     top: 40%;
     left: 50%;
 }
@@ -1186,7 +1186,7 @@ h2.clientsHome:after {
 .slick-arrow-left-awards {
     width: 0%;
     float: left;
-    margin-top: 83%;
+    margin-top: 86%;
     margin-left: 2px;
 }
 
