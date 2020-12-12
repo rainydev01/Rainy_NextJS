@@ -7,6 +7,7 @@ import Slider1 from "../../components/SliderNews1";
 import Slider2 from "../../components/SliderNews2";
 import Slider3 from "../../components/SliderNews3";
 import ImageSlider from "../../components/ImageSlider";
+import ImageSlider1 from "../../components/ImageSliderMulti";
 
 export default function Home() {
 	const [currentArticle, setCurrentArticle] = useState(1);
@@ -95,7 +96,7 @@ export default function Home() {
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/media/mediaBanner.jpg" />
 							<div className="hero-text inthemedia">
-								<h1 style={{textAlign: 'center'}}>IN THE MEDIA</h1>
+								<h1 style={{textAlign: "center"}}>IN THE MEDIA</h1>
 							</div>
 						</div>
 					</div>
@@ -109,7 +110,8 @@ export default function Home() {
 					</div>
 					{newsArticle}
 
-					<ImageSlider />
+					{/* <ImageSlider /> */}
+					<ImageSlider1></ImageSlider1>
 					<Footer />
 				</div>
 			</main>

@@ -3,7 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import ImageSliderTeam from "../../components/ImageSliderTeam";
+// import ImageSliderTeam from "../../components/ImageSliderTeam";
+import ImageSliderTeam from "../../components/ImageSliderMultiTeam";
 
 export default function Home() {
 	return (

@@ -721,7 +721,7 @@ h1.fl80 {
 /* Get In Touch */
 
 .inthemedia {
-    color: #fff!important;
+    color: #fff !important;
     top: 40%;
     left: 50%;
 }
@@ -1142,8 +1142,6 @@ h2.clientsHome:after {
     font-family: "Visby Round CF Heavy";
 }
 
-
-
 @media screen and (max-width: 1440px) {
     .hero-text {
         text-align: right;
@@ -1182,24 +1180,25 @@ h2.clientsHome:after {
         width: 15%;
         margin-top: -10% !important;
     }
-    
 }
+
 @media only screen and (max-width: 667px) and (min-width: 375px) {
-
-.slick-arrow-left-awards {
-    width: 0%;
-    float: left;
-    margin-top: 86%;
-    margin-left: 2px;
+    .slick-arrow-left-awards {
+        width: 0%;
+        float: left;
+        margin-top: 86%;
+        margin-left: 2px;
+    }
 }
 
-}
 @media only screen and (max-width: 414px) and (min-width: 375px) {
-
-.slick-arrow-right-awards {
-    float: right;
-    width: 15%;
-    margin-top: -7% !important;
+    .slick-arrow-right-awards {
+        float: right;
+        width: 15%;
+        margin-top: -7% !important;
+    }
 }
 
+.react-multiple-carousel__arrow {
+    background: #047bc0 !important;
 }
