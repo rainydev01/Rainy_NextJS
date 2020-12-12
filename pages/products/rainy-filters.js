@@ -161,7 +161,7 @@ export default function Home() {
 															data-toggle="modal"
 															data-target="#fl80Dimension"
 														>
-															Overall Dimension
+															Overall <br></br>Dimension
 														</button>
 													</div>
 												</div>
@@ -369,7 +369,7 @@ export default function Home() {
 															data-toggle="modal"
 															data-target="#fl100Dimension"
 														>
-															Overall Dimension
+															Overall <br></br> Dimension
 														</button>
 													</div>
 												</div>
@@ -588,7 +588,7 @@ export default function Home() {
 															data-toggle="modal"
 															data-target="#fl200Dimension"
 														>
-															Overall Dimension
+															Overall <br></br> Dimension
 														</button>
 													</div>
 												</div>
@@ -795,7 +795,7 @@ export default function Home() {
 															data-toggle="modal"
 															data-target="#fl300Dimension"
 														>
-															Overall Dimension
+															Overall <br></br> Dimension
 														</button>
 													</div>
 												</div>
@@ -1013,7 +1013,7 @@ export default function Home() {
 															data-toggle="modal"
 															data-target="#fl500Dimension"
 														>
-															Overall Dimension
+															Overall <br></br> Dimension
 														</button>
 													</div>
 												</div>
