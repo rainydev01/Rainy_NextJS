@@ -6,8 +6,10 @@ import Footer from "../../components/Footer";
 import Slider1 from "../../components/SliderNews1";
 import Slider2 from "../../components/SliderNews2";
 import Slider3 from "../../components/SliderNews3";
-import ImageSlider from "../../components/ImageSlider";
+// import ImageSlider from "../../components/ImageSlider";
 import ImageSlider1 from "../../components/ImageSliderMulti";
+
+import ImageSliderArticles from "../../components/ImageSliderForArticles";
 
 export default function Home() {
 	const [currentArticle, setCurrentArticle] = useState(1);
@@ -109,6 +111,8 @@ export default function Home() {
 						</div>
 					</div>
 					{newsArticle}
+
+					{/* <ImageSliderArticles></ImageSliderArticles> */}
 
 					{/* <ImageSlider /> */}
 					<ImageSlider1></ImageSlider1>
