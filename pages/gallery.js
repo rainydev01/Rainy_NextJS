@@ -160,7 +160,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/RooftopRWH.JPG"
 				/>
 			</Fragment>
@@ -173,7 +174,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/GroundWaterRecharing.JPG"
 				/>
 			</Fragment>
@@ -186,7 +188,9 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/GovtBuilding.jpg"
 				/>
 			</Fragment>
@@ -199,7 +203,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/BorewellRings.JPG"
 				/>
 			</Fragment>
@@ -212,7 +217,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/Schools.jpg"
 				/>
 			</Fragment>
@@ -225,7 +231,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/Apartment.jpg"
 				/>
 			</Fragment>
@@ -238,7 +245,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/IndependentHouse.jpg"
 				/>
 			</Fragment>
@@ -251,7 +259,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/Industries.JPG"
 				/>
 			</Fragment>
@@ -264,7 +273,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/WithDignitaries.JPG"
 				/>
 			</Fragment>
@@ -277,7 +287,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/R _ D.JPG"
 				/>
 			</Fragment>
@@ -290,7 +301,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/SystemsandSolutions.JPG"
 				/>
 			</Fragment>
@@ -303,7 +315,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/InternationalVisitors.JPG"
 				/>
 			</Fragment>
@@ -316,7 +329,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/LiveDemoTruck.jpg"
 				/>
 			</Fragment>
@@ -329,7 +343,8 @@ export default function Home() {
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
-					className=" center-block"
+					// style={{borderRadius: 20}}
+					className=" center-block img-fluid"
 					src="../static/images/galleryNew/ITSector.JPG"
 				/>
 			</Fragment>

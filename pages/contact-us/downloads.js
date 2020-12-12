@@ -42,7 +42,7 @@ export default function Home() {
 					rel="stylesheet"
 					href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
 					integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-					crossorigin="anonymous"
+					crossOrigin="anonymous"
 				/>
 				<link
 					rel="stylesheet"
@@ -104,15 +104,15 @@ export default function Home() {
 												aria-labelledby="heading-1"
 											>
 												<div className="card-body">
-													<div class="container-fluid">
-														<div class="row">
-															<div class="col-md-2">
+													<div className="container-fluid">
+														<div className="row">
+															<div className="col-md-2">
 																<a
 																	href="../../static/pdf/FourFolderLiterature.pdf"
 																	target="_blank"
 																>
 																	<i
-																		class="fa fa-file-pdf-o fa-3x"
+																		className="fa fa-file-pdf-o fa-3x"
 																		aria-hidden="true"
 																	></i>
 																</a>
@@ -121,20 +121,20 @@ export default function Home() {
 																	Four Folder <br></br> Literature{" "}
 																</p>
 															</div>
-															<div class="col-md-2">
+															<div className="col-md-2">
 																<a
 																	href="../../static/pdf/RainyTechnicalLiterature.pdf"
 																	target="_blank"
 																>
 																	<i
-																		class="fa fa-file-pdf-o fa-3x"
+																		className="fa fa-file-pdf-o fa-3x"
 																		aria-hidden="true"
 																	></i>
 																</a>
 
 																<p>Rainy Technical Literature</p>
 															</div>
-															<div class="col-md-4"></div>
+															<div className="col-md-4"></div>
 														</div>
 													</div>
 												</div>
