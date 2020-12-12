@@ -79,7 +79,7 @@ export default function Home() {
 						<div className="hero-image enthroimg">
 							<img src="../static/images/technology/Group1237.jpg" />
 							<div className="hero-text techbnnrtxt">
-								<h1>
+								<h1 style={{color: "white"}}>
 									OUR INNOVATIVE
 									<br />
 									TECHNOLOGY
