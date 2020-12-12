@@ -232,7 +232,7 @@ const SliderNews1 = ({article2}) => {
 				</div>
 
 				<div class="container-fluid">
-					<div className="row">
+					<div className="row md-2 mt-2">
 						<div className="col-md-4">
 							{/* <div style={{ float: 'left' }} className="nextButtons">
 								<button>

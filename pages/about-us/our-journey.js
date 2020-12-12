@@ -83,7 +83,7 @@ export default function Home() {
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/journey/Banner.png" />
 							<div className="hero-text enthrotxt jrny4">
-								<h1 style={{textAlign: 'center'}}>OUR JOURNEY</h1>
+								<h1 style={{textAlign: "center"}}>OUR JOURNEY</h1>
 							</div>
 						</div>
 					</div>
@@ -91,8 +91,8 @@ export default function Home() {
 						<div className="container">
 							<ul className="timeline">
 								<li>
-									<div class="timeline-badge danger">
-										<i class="glyphicon glyphicon-credit-card" />
+									<div className="timeline-badge danger">
+										<i className="glyphicon glyphicon-credit-card" />
 									</div>
 									<div className="timeline-badge right-drop">
 										<i className="glyphicon glyphicon-tint">
