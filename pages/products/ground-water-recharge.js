@@ -88,9 +88,9 @@ export default function Home() {
 											long life span.
 										</p>
 									</div>
-									<div class="container-fluid">
-										<div class="row">
-											<div class="col-md-5">
+									<div className="container-fluid">
+										<div className="row">
+											<div className="col-md-5">
 												<div className="rnyfltrbtn">
 													<Link href="/contact-us/enquire">
 														<a>
@@ -133,17 +133,29 @@ export default function Home() {
 							<div className="row">
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/small1.jpg" />
+										<img
+											style={{borderRadius: 20}}
+											className="img-fluid"
+											src="../../static/images/groundWater/small1.jpg"
+										/>
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/small2.png" />
+										<img
+											style={{borderRadius: 20}}
+											className="img-fluid"
+											src="../../static/images/groundWater/small2.png"
+										/>
 									</div>
 								</div>
 								<div className="col-md-4">
 									<div className="gr3">
-										<img src="../../static/images/groundWater/small3.png" />
+										<img
+											style={{borderRadius: 20}}
+											className="img-fluid"
+											src="../../static/images/groundWater/small3.png"
+										/>
 									</div>
 								</div>
 							</div>
