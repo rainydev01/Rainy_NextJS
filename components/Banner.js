@@ -1,4 +1,5 @@
 import React, {Fragment} from "react";
+import Link from "next/link";
 
 const Banner = () => {
 	return (
@@ -10,14 +11,22 @@ const Banner = () => {
 						alt="Banner"
 					/>
 					<div className="hero-text">
-						<h1 style={{color: "white"}}>
-							RAINY WATER HARVESTING
-						</h1>
+						<h1 style={{color: "white"}}>RAINY WATER HARVESTING</h1>
 						<p style={{color: "white"}}>
 							Do you harvest rainwater? Start today!
 						</p>
-						<button>Learn More</button>
-						<button style={{marginLeft: 20}}>Enquire Now</button>
+
+						<Link href="/products/rainy-filters">
+							<a>
+								<button>Learn More</button>
+							</a>
+						</Link>
+
+						<Link href="/contact-us/enquire">
+							<a>
+								<button style={{marginLeft: 20}}>Enquire Now</button>
+							</a>
+						</Link>
 					</div>
 				</div>
 			</div>
