@@ -15,7 +15,7 @@ const Footer = () => {
 								<p>
 									Farmland Rainwater Harvesting System No 648, Ground Floor,
 									11th cross, 7th Block, Jaya Nagar, Bengaluru, Karnataka -
-									560082.
+									560070.
 								</p>
 							</div>
 						</div>
@@ -938,7 +938,9 @@ const Footer = () => {
 											described below.
 										</p>
 										<p>
-											<strong>WHAT ARE COOKIES AND OTHER TRACKING TECHNOLOGIES?</strong>
+											<strong>
+												WHAT ARE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+											</strong>
 											Cookies are small pieces of text stored by a website/
 											mobile application you visit in your browser and
 											subsequently sent by your web browser in every request to

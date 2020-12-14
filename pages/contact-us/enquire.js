@@ -80,7 +80,7 @@ export default function Home() {
 										<p className="contacttxt">
 											Farmland Rainwater Harvesting Systems No 648, Ground
 											Floor, 11th cross, 7th Block, Jaya Nagar, Bengaluru,
-											Karnataka - 560082.
+											Karnataka - 560070.
 										</p>
 
 										<h6 className="contacth">Head Office</h6>
