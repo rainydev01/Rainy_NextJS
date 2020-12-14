@@ -83,6 +83,52 @@ export default function Home() {
 						},
 					}}
 				/>
+
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							name: "Farmland Rainwater Harvesting",
+							alternateName: "Rainy",
+							url: "http://rainyfilters.com/",
+							logo: "",
+							sameAs: [
+								"https://www.facebook.com/rainy.filters/",
+								"https://twitter.com/rainy_filters02",
+								"https://www.instagram.com/rainy_filters02/",
+								"https://www.youtube.com/channel/UCmGOEYld3MLeJJ3KtZt0NzA",
+								"https://www.linkedin.com/in/rainy-filters-a640b11a3/",
+								"https://www.indiamart.com/farmlandrainwaterharvestingsystems/",
+								"http://www.rainyfilters.com/",
+							],
+						}),
+					}}
+				/>
+
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '587685655184685');
+fbq('track', 'PageView');`,
+					}}
+				/>
+				<noscript
+					dangerouslySetInnerHTML={{
+						__html: `<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
+/>`,
+					}}
+				/>
 			</Head>
 			<main>
 				<div className="App">
