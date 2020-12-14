@@ -110,9 +110,9 @@ export default function Home() {
 							</h2>
 						</div>
 					</div>
-					{newsArticle}
+					{/* {newsArticle} */}
 
-					{/* <ImageSliderArticles></ImageSliderArticles> */}
+					<ImageSliderArticles></ImageSliderArticles>
 
 					{/* <ImageSlider /> */}
 					<ImageSlider1></ImageSlider1>

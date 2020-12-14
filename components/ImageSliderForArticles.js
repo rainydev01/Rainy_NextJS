@@ -12,27 +12,27 @@ const ImageSliderMulti = () => {
 		superLargeDesktop: {
 			// the naming can be any, depends on you.
 			breakpoint: {max: 4000, min: 3000},
-			items: 3,
+			items: 1,
 		},
 		desktop: {
 			breakpoint: {max: 3000, min: 1024},
-			items: 3,
+			items: 1,
 		},
 		tablet: {
 			breakpoint: {max: 1024, min: 464},
-			items: 3,
+			items: 1,
 		},
 		mobile: {
 			breakpoint: {max: 464, min: 0},
-			items: 3,
+			items: 1,
 		},
 	};
 	return (
 		<Fragment>
 			<Carousel responsive={responsive}>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+				<div>
+					<div className="container media-main">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Rainwater_collection.jpg" />
@@ -62,7 +62,7 @@ const ImageSliderMulti = () => {
 											become a ray of hope for farmers in the surrounding areas
 											during these tough times.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -105,7 +105,8 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-12 mt-5">
+
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Karnataka_Water_research_Chikkamagalu.jpg" />
@@ -136,7 +137,7 @@ const ImageSliderMulti = () => {
 											rainwater harvesting models enabling continuous
 											innovation.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -179,12 +180,7 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Bangalore_Michael_Baptist.jpg" />
@@ -213,7 +209,7 @@ const ImageSliderMulti = () => {
 											Protection bestowed on FLRWH for their innovative V-Wire
 											Injection Well technology
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -257,10 +253,9 @@ const ImageSliderMulti = () => {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+					<div style={{marginTop: "10vh"}} className="container media-main">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/harvester-shares-expertise-to-tap-Natures.jpg" />
@@ -291,7 +286,7 @@ const ImageSliderMulti = () => {
 											vision on wanting to reach out to people in order to help
 											them understand and implement RWH.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -334,11 +329,8 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Saving_every_drop.jpg" />
@@ -368,7 +360,7 @@ const ImageSliderMulti = () => {
 											systems installed by Farmland at Kuvempu Centenary Govt.
 											Model Higher Primary School.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -411,11 +403,7 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Rainwater_filters_for_the monsoon_of_2016.jpg" />
@@ -444,7 +432,7 @@ const ImageSliderMulti = () => {
 											especially after two consecutive years of drought, was the
 											way to water wisdom in 2016
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -489,9 +477,9 @@ const ImageSliderMulti = () => {
 						</div>
 					</div>
 				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+				<div>
+					<div className="container media-main">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Govt-ties-up.jpg" />
@@ -520,7 +508,7 @@ const ImageSliderMulti = () => {
 											injection wells to recharge groundwater by harvesting
 											rainwater.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -563,11 +551,8 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Saving_every_drop.jpg" />
@@ -597,7 +582,7 @@ const ImageSliderMulti = () => {
 											existing borewells and installed their patented Rainy
 											filters to conserve water.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -640,11 +625,7 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Industrial_areas.jpg" />
@@ -674,7 +655,7 @@ const ImageSliderMulti = () => {
 											innovative Rainy Filters and also by implementing our
 											Systems & Solutions.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -718,10 +699,9 @@ const ImageSliderMulti = () => {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+					<div style={{marginTop: "10vh"}} className="container media-main">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/The-art-of-reviving-borewells.jpg" />
@@ -749,7 +729,7 @@ const ImageSliderMulti = () => {
 											An informative article by Mr. V. Paneesha explaining the
 											borewell recharging process and its benefits.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -792,11 +772,8 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Rainwater_collection.jpg" />
@@ -825,7 +802,7 @@ const ImageSliderMulti = () => {
 											in Chikmagalur district has been successfully implemented
 											in association with Farmland Rainwater Harvesting Systems.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -868,11 +845,7 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Harvest_rainwater.jpg" />
@@ -902,7 +875,7 @@ const ImageSliderMulti = () => {
 											recharging existing borewells rather than digging new
 											ones. A unique solution developed by us.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -947,9 +920,9 @@ const ImageSliderMulti = () => {
 						</div>
 					</div>
 				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+				<div>
+					<div className="container media-main">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Chikkamagaluru_Farmland_Aqua.jpg" />
@@ -978,7 +951,7 @@ const ImageSliderMulti = () => {
 											Excellence Award 2017 under the category of Industrial
 											Excellence in Development of Technology.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -1021,11 +994,8 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Harvest_rainwater.jpg" />
@@ -1055,7 +1025,7 @@ const ImageSliderMulti = () => {
 											of five acres, one of the largest such experiments in the
 											world, undertaken in a drought-hit area.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -1098,11 +1068,7 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Bangalore_Michael_Baptist.jpg" />
@@ -1132,7 +1098,7 @@ const ImageSliderMulti = () => {
 											Injection Well Technology under the Innovation for Climate
 											Protection category.
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -1176,10 +1142,9 @@ const ImageSliderMulti = () => {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+					<div style={{marginTop: "10vh"}} className="container media-main">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Farmland_SKOCH_2018.jpg" />
@@ -1209,7 +1174,7 @@ const ImageSliderMulti = () => {
 											Farmland Rainwater Harvesting Systems And Conferred On
 											10th March 2018 At New Delhi
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -1252,11 +1217,8 @@ const ImageSliderMulti = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="container media-main">
-					<div className="row">
-						<div className="col-12 mt-5">
+
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
 									<img src="../static/images/media/articles/Zero_water.jpg" />
@@ -1285,7 +1247,7 @@ const ImageSliderMulti = () => {
 											300KL of water collected and stored in a reservoir every
 											monsoon
 										</p>
-										<div className="col-12 mdiasocial">
+										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
@@ -1330,12 +1292,6 @@ const ImageSliderMulti = () => {
 						</div>
 					</div>
 				</div>
-				{/* <div className="container media-main">
-					<div className="row"></div>
-				</div>
-				<div className="container media-main">
-					<div className="row"></div>
-				</div> */}
 			</Carousel>
 			;
 		</Fragment>
