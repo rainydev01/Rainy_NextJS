@@ -205,7 +205,7 @@ const Footer = () => {
 											right to accept or reject your offer.
 										</p>
 										<p>
-											<h6>APPLICABLE LAW</h6>
+											<strong>APPLICABLE LAW</strong>
 											This site is created and controlled by Rainy Filters. The
 											laws of India shall apply and courts in Bengaluru,
 											Karnataka State only shall have jurisdiction in respect of
@@ -216,7 +216,7 @@ const Footer = () => {
 											site of the Company.
 										</p>
 										<p>
-											<h6>DEFINITIONS</h6>
+											<strong>DEFINITIONS</strong>
 											<ol>
 												<li>
 													1. "Agreement" means the terms and conditions as
@@ -263,7 +263,7 @@ const Footer = () => {
 											</ol>
 										</p>
 										<p>
-											<h6>ELECTRONIC COMMUNICATION</h6>
+											<strong>ELECTRONIC COMMUNICATION</strong>
 											When you visit www.rainyfilters.com or send e-mails to us,
 											you are communicating with us electronically, you consent
 											to receive communications from us electronically. We will
@@ -274,7 +274,7 @@ const Footer = () => {
 											communications be in writing.
 										</p>
 										<p>
-											<h6>COPYRIGHT AND TRADEMARKS</h6>
+											<strong>COPYRIGHT AND TRADEMARKS</strong>
 											Unless otherwise stated, copyright and all intellectual
 											property rights in all material presented on the site
 											(including but not limited to text, audio, video or
@@ -288,7 +288,7 @@ const Footer = () => {
 											extent permitted by law.
 										</p>
 										<p>
-											<h6>PERMISSION AND SITE ACCESS</h6>
+											<strong>PERMISSION AND SITE ACCESS</strong>
 											Rainy Filters grants you a limited license to access and
 											make personal use of this site and not to download or
 											modify it, or any portion of it, except with express prior
@@ -314,7 +314,7 @@ const Footer = () => {
 											granted by Rainy Filters.
 										</p>
 										<p>
-											<h6>CHANGES / PRODUCT DESCRIPTION</h6>
+											<strong>CHANGES / PRODUCT DESCRIPTION</strong>
 											Rainy Filters reserves the right to suspend / cancel, or
 											discontinue any or all products or service at any time
 											without notice, make modifications and alterations in any
@@ -325,7 +325,7 @@ const Footer = () => {
 											days of delivery.
 										</p>
 										<p>
-											<h6>USER ACCOUNT</h6>
+											<strong>USER ACCOUNT</strong>
 											Notwithstanding other legal remedies that may be available
 											to Rainy Filters, Rainy Filters may in its sole discretion
 											limit user activity by immediately removing user listing
@@ -351,20 +351,20 @@ const Footer = () => {
 											criminal and injunctive redress.
 										</p>
 										<p>
-											<h6>RISK OF LOSS</h6>
+											<strong>RISK OF LOSS</strong>
 											All items purchased from www.rainyfilters.com are made
 											pursuant to a shipment/dispatch contract. This means that
 											the risk of loss and title for such items pass to you upon
 											our delivery to the carrier/courier.
 										</p>
 										<p>
-											<h6>FORCE MAJEURE</h6>
+											<strong>FORCE MAJEURE</strong>
 											Rainy Filters shall have no liability to you for any
 											interruption or delay in access to the Site irrespective
 											of the cause.
 										</p>
 										<p>
-											<h6>POLICY UPDATES</h6>
+											<strong>POLICY UPDATES</strong>
 											We reserve the right to change or update this policy at
 											any time by placing a prominent notice on our site. Such
 											changes shall be effective immediately upon posting to
@@ -375,7 +375,7 @@ const Footer = () => {
 											remaining term & condition.
 										</p>
 										<p>
-											<h6>ENTIRE AGREEMENT</h6>
+											<strong>ENTIRE AGREEMENT</strong>
 											These Terms of Service constitute the entire agreement
 											between the parties with respect to the subject matter
 											hereof and supersedes and replaces all prior or
@@ -384,7 +384,7 @@ const Footer = () => {
 											shall survive the termination or expiry of this agreement.
 										</p>
 										<p>
-											<h6>GENERAL</h6>
+											<strong>GENERAL</strong>
 											The waiver of a breach of any term hereof shall in no way
 											be construed as a waiver of any other term or breach
 											thereof. The person agreeing to these terms & conditions
@@ -394,7 +394,7 @@ const Footer = () => {
 											these terms and conditions of use.
 										</p>
 										<p>
-											<h6>OUR ADDRESS</h6>
+											<strong>OUR ADDRESS</strong>
 											Head Office: SGS Complex, K.M.Road, Chikmagalur
 											PIN-577101, Karnataka India Phone: 08262-231390 Fax:
 											08262-231393
@@ -405,7 +405,7 @@ const Footer = () => {
 											080-26766252
 										</p>
 										<p>
-											<h6>DISCLAIMER</h6>
+											<strong>DISCLAIMER</strong>
 											This site is provided to you by Rainy Filters On "As is"
 											and "As available" basis. Rainy Filters does not warrant
 											that this site, its servers or email sent from
@@ -415,7 +415,7 @@ const Footer = () => {
 											unavailability or for any other reason.
 										</p>
 										<p>
-											<h6>INFORMATION LIABILITY</h6>
+											<strong>INFORMATION LIABILITY</strong>
 											In no event shall rainyfilters.com or any of its sources
 											be liable for any direct, special, incidental, indirect,
 											or consequential damages whatsoever (including but not
@@ -633,7 +633,7 @@ const Footer = () => {
 											transfer and deletion. FRHS processes the data fairly in
 											compliance with the applicable Indian laws.
 										</p>
-										<h6>INFORMATION WE COLLECT</h6>
+										<strong>INFORMATION WE COLLECT</strong>
 										<p>
 											Non-Personally Identifiable Information: <br></br>
 											Non-personally identifiable information is information
@@ -669,7 +669,7 @@ const Footer = () => {
 											such contact points, in accordance with applicable law.
 										</p>
 										<p>
-											<h6>USE OF THE INFORMATION WE COLLECT</h6>
+											<strong>USE OF THE INFORMATION WE COLLECT</strong>
 											FRHS does not intentionally provide personally
 											identifiable information to third parties except under the
 											following conditions:
@@ -693,7 +693,7 @@ const Footer = () => {
 											laws governing FRHS.
 										</p>
 										<p>
-											<h6>SECURITY</h6>
+											<strong>SECURITY</strong>
 											FRHS makes significant efforts to protect against the
 											loss, misuse, and alteration of the collected information.
 											These measures may include the use of secure server
@@ -709,7 +709,7 @@ const Footer = () => {
 											without proper authorisation.
 										</p>
 										<p>
-											<h6>GRIEVANCE</h6>
+											<strong>GRIEVANCE</strong>
 											Provider of information may raise grievance to the
 											following e-mail ID: Name of Grievance Redressal Officer:
 											Mr/Ms______________ Post/Designation:______________ Email
@@ -719,7 +719,7 @@ const Footer = () => {
 											grievance.
 										</p>
 										<p>
-											<h6>MODIFICATION</h6>
+											<strong>MODIFICATION</strong>
 											We reserve the right to modify this privacy policy at any
 											time by posting the changes on this page. We also will
 											notify you about significant changes to the privacy policy
@@ -730,7 +730,7 @@ const Footer = () => {
 											acceptance of the changes.
 										</p>
 										<p>
-											<h6>JURISDICTION AND GOVERNING LAW</h6>
+											<strong>JURISDICTION AND GOVERNING LAW</strong>
 											Any disputes arising under or connected with this Policy
 											shall be governed by the laws of India and courts of
 											Bengaluru, Karnataka state shall have exclusive
@@ -738,18 +738,18 @@ const Footer = () => {
 											with this policy.
 										</p>
 										<p>
-											<h6>ACCEPTANCE OF PRIVACY POLICY</h6>
+											<strong>ACCEPTANCE OF PRIVACY POLICY</strong>
 											BY USING OUR WEBSITE, YOU ARE ACCEPTING THE PRACTICES SET
 											OUT IN THIS PRIVACY POLICY AND OUR TERMS OF USE AGREEMENT.
 										</p>
 										<h4>DISCLAIMER</h4>
 										<p>
-											<h6>General</h6>
+											<strong>General</strong>
 											Access to and use of this Rainy Filters site is subject to
 											the following terms and conditions and the laws of India.
 										</p>
 										<p>
-											<h6>Copyright</h6>
+											<strong>Copyright</strong>
 											<ul>
 												<li>
 													1. © 2020 Farmland Rainwater Harvesting System, all
@@ -779,13 +779,13 @@ const Footer = () => {
 											</ul>
 										</p>
 										<p>
-											<h6>Trade Marks</h6>
+											<strong>Trade Marks</strong>
 											All trademarks displayed on this site are either owned or
 											used under license by Farmland Rainwater Harvesting System
 											or proprietor or Rainy Filters and affiliates.
 										</p>
 										<p>
-											<h6>Content</h6>
+											<strong>Content</strong>
 											<ul>
 												<li>
 													1. The information on this site has been included in
@@ -846,13 +846,13 @@ const Footer = () => {
 											</ul>
 										</p>
 										<p>
-											<h6>Intellectual Property Rights</h6>
+											<strong>Intellectual Property Rights</strong>
 											Imitation of the graphics, reproduction of the content &
 											infringement of Copy Right, Trade Mark of the company
 											and/or its products is punishable offence.
 										</p>
 										<p>
-											<h6>Linked Sites</h6>
+											<strong>Linked Sites</strong>
 											At various points throughout the website, you may be
 											offered automatic links to other internet sites relevant
 											to a particular aspect of this website. This does not
@@ -938,7 +938,7 @@ const Footer = () => {
 											described below.
 										</p>
 										<p>
-											<h6>WHAT ARE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h6>
+											<strong>WHAT ARE COOKIES AND OTHER TRACKING TECHNOLOGIES?</strong>
 											Cookies are small pieces of text stored by a website/
 											mobile application you visit in your browser and
 											subsequently sent by your web browser in every request to
@@ -978,10 +978,10 @@ const Footer = () => {
 											applies to these other tracking technologies.
 										</p>
 										<p>
-											<h6>
+											<strong>
 												HOW DO OUR WEBSITES/ MOBILE APPLICATIONS USE COOKIES AND
 												OTHER TRACKING TECHNOLOGIES?
-											</h6>
+											</strong>
 											FRHS uses cookies and other tracking technologies to
 											identify you and your interests, to remember your
 											preferences, and to track your use of our website/ mobile
@@ -1002,7 +1002,7 @@ const Footer = () => {
 											utilize the website/ mobile application.
 										</p>
 										<p>
-											<h6>WE CATEGORIZE COOKIES AS FOLLOWS</h6>
+											<strong>WE CATEGORIZE COOKIES AS FOLLOWS</strong>
 											Each cookie falls within one of the five following
 											categories:
 										</p>
@@ -1108,7 +1108,7 @@ const Footer = () => {
 											</tbody>
 										</table>
 										<p>
-											<h6>WHEN DOES FRHS FILTERS PLACE COOKIES?</h6>
+											<strong>WHEN DOES FRHS FILTERS PLACE COOKIES?</strong>
 											We use cookies on our websites, mobile sites and mobile
 											applications. Any browser visiting these sites will
 											receive cookies from us which helps us identify you more
@@ -1120,9 +1120,9 @@ const Footer = () => {
 											application.
 										</p>
 										<p>
-											<h6>
+											<strong>
 												HOW COOKIES ARE USED FOR ONLINE ANALYTICS PURPOSES?
-											</h6>
+											</strong>
 											We may use web analytics services on our Services, such
 											as, but not limited to those of Google Analytics. These
 											services help us analyse how users use the services,
@@ -1135,7 +1135,7 @@ const Footer = () => {
 											following section.
 										</p>
 										<p>
-											<h6>WHAT ARE WEB BEACONS?</h6>
+											<strong>WHAT ARE WEB BEACONS?</strong>
 											FRHS occasionally advertises on third party web sites. As
 											part of our effort to track the success of our advertising
 											campaigns, we may at times use a visitor identification
@@ -1152,7 +1152,7 @@ const Footer = () => {
 											settings.
 										</p>
 										<p>
-											<h6>HOW TO CONTROL COOKIES?</h6>
+											<strong>HOW TO CONTROL COOKIES?</strong>
 											Most browsers allow you to control cookies through their
 											settings preferences. However, if you choose to turn off
 											these cookies you will still see advertising on the
