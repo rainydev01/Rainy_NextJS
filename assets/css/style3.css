@@ -18,6 +18,10 @@
     background-repeat: no-repeat;
 }
 
+.variableMargin {
+    margin-top: 20vh;
+}
+
 
 /* Our Team */
 
@@ -1185,6 +1189,9 @@ h2.clientsHome:after {
         width: 15%;
         margin-top: -10% !important;
     }
+    .variableMargin {
+        margin-top: 65vh;
+    }
 }
 
 @media only screen and (max-width: 667px) and (min-width: 375px) {
@@ -1194,6 +1201,9 @@ h2.clientsHome:after {
         margin-top: 86%;
         margin-left: 2px;
     }
+    .variableMargin {
+        margin-top: 65vh;
+    }
 }
 
 @media only screen and (max-width: 414px) and (min-width: 375px) {
@@ -1201,6 +1211,9 @@ h2.clientsHome:after {
         float: right;
         width: 15%;
         margin-top: -7% !important;
+    }
+    .variableMargin {
+        margin-top: 65vh;
     }
 }
 

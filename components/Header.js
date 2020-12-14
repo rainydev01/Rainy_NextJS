@@ -95,35 +95,38 @@ const Header = () => {
 								</div>
 							</li>
 							<li>
-								<a href="# " data-toggle="modal" data-target="#googleAnalytics">
-									<img src="../static/images/icons/globe.png"></img>
-								</a>
+								<img
+									style={{paddingLeft: "1.5em", cursor: "pointer"}}
+									data-toggle="modal"
+									data-target="#googleAnalytics"
+									src="../static/images/icons/globe.png"
+								></img>
 							</li>
 						</ul>
 					</nav>
 				</header>
 			</div>
 			<div
-				class="modal fade"
+				className="modal fade"
 				id="googleAnalytics"
 				tabIndex="-1"
 				role="dialog"
 				aria-labelledby="exampleModalCenterTitle"
 				aria-hidden="true"
 			>
-				<div class="modal-dialog modal-dialog-centered" role="document">
-					<div class="modal-content">
+				<div className="modal-dialog modal-dialog-centered" role="document">
+					<div className="modal-content variableMargin">
 						<div
-							class="modal-header"
+							className="modal-header"
 							style={{display: "flex", margin: "auto", border: "none"}}
 						>
-							<h5 class="modal-title" id="exampleModalLongTitle">
+							<h5 className="modal-title" id="exampleModalLongTitle">
 								Translate
 							</h5>
 						</div>
 						<div
 							style={{display: "flex", margin: "auto", border: "none"}}
-							class="modal-body"
+							className="modal-body"
 						>
 							<script
 								type="text/javascript"
@@ -133,11 +136,11 @@ const Header = () => {
 						</div>
 						<div
 							style={{display: "flex", margin: "auto", border: "none"}}
-							class="modal-footer"
+							className="modal-footer"
 						>
 							<button
 								type="button"
-								class="btn btn-secondary"
+								className="btn btn-secondary"
 								data-dismiss="modal"
 							>
 								Close
