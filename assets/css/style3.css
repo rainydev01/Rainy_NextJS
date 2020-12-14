@@ -174,7 +174,7 @@ p.techpara {
 }
 
 .techbgmain {
-    background: #ffffff;
+    background: #fefefe;
     padding-bottom: 50px;
 }
 
@@ -929,7 +929,7 @@ span.mb-span {
 
 .mb-0>a:after {
     content: "\f078";
-    font-family: "Visby Round CF Heavy";
+    font-family: "Visby Round CF";
     position: absolute;
     right: 12%;
     font-weight: 100;
