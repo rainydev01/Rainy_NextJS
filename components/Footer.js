@@ -87,11 +87,11 @@ const Footer = () => {
 
 								{/* <div id="google_translate_element"></div> */}
 
-								<script
+								{/* <script
 									type="text/javascript"
 									src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
 								/>
-								<div id="google_translate_element"></div>
+								<div id="google_translate_element"></div> */}
 							</div>
 						</div>
 					</div>

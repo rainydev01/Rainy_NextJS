@@ -94,9 +94,57 @@ const Header = () => {
 									</a>
 								</div>
 							</li>
+							<li>
+								<a href="# " data-toggle="modal" data-target="#googleAnalytics">
+									<img src="../static/images/icons/globe.png"></img>
+								</a>
+							</li>
 						</ul>
 					</nav>
 				</header>
+			</div>
+			<div
+				class="modal fade"
+				id="googleAnalytics"
+				tabIndex="-1"
+				role="dialog"
+				aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div
+							class="modal-header"
+							style={{display: "flex", margin: "auto", border: "none"}}
+						>
+							<h5 class="modal-title" id="exampleModalLongTitle">
+								Translate
+							</h5>
+						</div>
+						<div
+							style={{display: "flex", margin: "auto", border: "none"}}
+							class="modal-body"
+						>
+							<script
+								type="text/javascript"
+								src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+							/>
+							<div id="google_translate_element"></div>
+						</div>
+						<div
+							style={{display: "flex", margin: "auto", border: "none"}}
+							class="modal-footer"
+						>
+							<button
+								type="button"
+								class="btn btn-secondary"
+								data-dismiss="modal"
+							>
+								Close
+							</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</Fragment>
 	);
