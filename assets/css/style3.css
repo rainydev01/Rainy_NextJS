@@ -174,7 +174,7 @@ p.techpara {
 }
 
 .techbgmain {
-    background: #f0f9fd;
+    background: #ffffff;
     padding-bottom: 50px;
 }
 
@@ -367,6 +367,7 @@ button#rnrdmr {
 .rainyfilterimg img {
     width: 380px;
     max-width: 100%;
+    border-radius: 20px;
 }
 
 h1.fl80 {
@@ -829,6 +830,8 @@ h6.contacth img {
 .rainyfilterimg img {
     width: 380px;
     max-width: 100%;
+    margin-top: 5vh;
+    border-radius: 20px;
 }
 
 .techpointslst ul li {
@@ -836,6 +839,7 @@ h6.contacth img {
     padding: 10px 0px;
     font-size: 14px;
     color: #000;
+    font-weight: 500;
 }
 
 
@@ -911,6 +915,7 @@ h5.mb-0 a {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     float: right;
+    size: 0.75em;
 }
 
 span.mb-span {
@@ -1201,4 +1206,15 @@ h2.clientsHome:after {
 
 .react-multiple-carousel__arrow {
     background: #047bc0 !important;
+}
+
+.blue_underline h2 :after {
+    content: "";
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 10%;
+    border: 1px solid #0971b7;
+    margin: auto;
+    margin-top: 14px;
 }

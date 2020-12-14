@@ -104,8 +104,8 @@ export default function Home() {
 					</div>
 					<div className="container" />
 					<div className="container">
-						<div className="groundwater_bg team">
-							<h2 className="team-heading media-hdng">
+						<div className="groundwater_bg team blue_underline">
+							<h2 className="team-heading media-hdng blue_underline">
 								MEDIA COVERAGE & ARTICLES
 							</h2>
 						</div>
