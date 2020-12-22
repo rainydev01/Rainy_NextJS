@@ -81,7 +81,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 			<main>
 				<div className="App">
 					<Header />
-					<div className="container-fluid banner enternal">
+					<div className="container-fluid banner enternal ">
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/systemsSolutions/Group1242.png" />
 							<div className="hero-text rnyfltrs">
@@ -90,7 +90,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 
-					<div className="container-fluid wthothding">
+					<div className="container-fluid wthothding backgroundDrops">
 						<div className="container">
 							<div className="row">
 								<div className="col-md-6">

@@ -1231,3 +1231,7 @@ h2.clientsHome:after {
     margin: auto;
     margin-top: 14px;
 }
+
+.backgroundDrops {
+    background-image: url(../../static/images/singledropbg.png);
+}
