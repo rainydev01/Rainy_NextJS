@@ -25,7 +25,7 @@ const ImageSliderMulti = () => {
 	return (
 		<Fragment>
 			<div style={{marginTop: "8%"}}></div>
-			<Carousel responsive={responsive}>
+			<Carousel infinite={true} autoPlay={true} responsive={responsive}>
 				<div className="container-fluid award-image">
 					<div className="container awrdimgsec text-center">
 						<img

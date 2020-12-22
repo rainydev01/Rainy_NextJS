@@ -410,8 +410,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													ratio. FL-80 and FL-150 were launched, these filters
 													are Cost-effective while delivering strong performance
 													and promising durability. The new filters paved a way
-													for high-quality products for affordable prices,
-													making it an instant success.
+													for high-quality products at affordable prices, making
+													it an instant success.
 												</p>
 											</div>
 										</div>

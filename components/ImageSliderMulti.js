@@ -27,7 +27,7 @@ const ImageSliderMulti = () => {
 			<div className="container-fluid award">
 				<h1>OUR AWARDS</h1>
 			</div>
-			<Carousel responsive={responsive}>
+			<Carousel infinite={true} autoPlay={true} responsive={responsive}>
 				<div className="container-fluid award-image">
 					<div className="container awrdimgsec text-center">
 						<img
