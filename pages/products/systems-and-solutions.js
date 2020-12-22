@@ -230,7 +230,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<img
 											style={{borderRadius: 20}}
 											className="img-fluid"
-											src="../../static/images/groundWater/small1.jpg"
+											src="../../static/images/systemsSolutions/small 1.jpg"
 										/>
 									</div>
 								</div>
@@ -239,7 +239,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<img
 											style={{borderRadius: 20}}
 											className="img-fluid"
-											src="../../static/images/groundWater/small2.png"
+											src="../../static/images/systemsSolutions/small 2.png"
 										/>
 									</div>
 								</div>
@@ -248,7 +248,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<img
 											style={{borderRadius: 20}}
 											className="img-fluid"
-											src="../../static/images/groundWater/small3.png"
+											src="../../static/images/systemsSolutions/small 3.png"
 										/>
 									</div>
 								</div>
