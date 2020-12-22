@@ -518,7 +518,7 @@ h2.whtdowdo:after {
 }
 
 .groundwater_bg_home {
-    padding: 0px 5px 515px 5px;
+    padding: 0px 5px 100px 5px;
     background-image: url(../../static/images/Wave.png);
     background-size: cover;
     background-position: inherit;

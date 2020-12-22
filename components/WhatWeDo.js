@@ -11,7 +11,7 @@ const WhatWeDo = () => {
 
 			<div className="container-fluid groundwater_bg_home">
 				<div className="container">
-					<div className="">
+					<div className="row">
 						<div className="col-md-4">
 							<div style={{textAlign: "right"}}>
 								<img alt="logo" src="../static/images/homepage/1.jpg" />
@@ -39,10 +39,7 @@ const WhatWeDo = () => {
 						</div>
 						<div className="col-md-4">
 							<div>
-								<img
-									alt="iamegs"
-									src="../static/images/homepage/2.jpg"
-								/>
+								<img alt="iamegs" src="../static/images/homepage/2.jpg" />
 							</div>
 						</div>
 						<div className="col-md-4">
