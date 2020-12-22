@@ -34,6 +34,7 @@ export default class CustomArrows extends Component {
 			infinite: true,
 			slidesToShow: 5,
 			slidesToScroll: 1,
+			autoplay: true,
 			nextArrow: <SampleNextArrow />,
 			prevArrow: <SamplePrevArrow />,
 
@@ -83,142 +84,163 @@ export default class CustomArrows extends Component {
 				<Slider {...settings}>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/1.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/2.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/3.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/4.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/5.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/6.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/7.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/8.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/9.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/10.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/11.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/12.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/13.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/14.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/15.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/16.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/17.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/18.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
-							src="../static/images/clients/19.jpg"
+							height="100"
+							width="190"
+							src="../static/images/clients/19.png"
 						/>
 					</div>
 					<div className="col-md-2">
 						<img
-							height="150"
-							width="150"
+							height="100"
+							width="190"
 							src="../static/images/clients/20.png"
+						/>
+					</div>
+					<div className="col-md-2">
+						<img
+							height="100"
+							width="190"
+							src="../static/images/clients/21.png"
+						/>
+					</div>
+					<div className="col-md-2">
+						<img
+							height="100"
+							width="190"
+							src="../static/images/clients/22.png"
+						/>
+					</div>
+					<div className="col-md-2">
+						<img
+							height="100"
+							width="190"
+							src="../static/images/clients/23.png"
 						/>
 					</div>
 				</Slider>
