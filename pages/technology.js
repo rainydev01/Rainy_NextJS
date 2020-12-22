@@ -142,7 +142,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												Rain water is one of the purest source of water with
 												less then 50mg/ litre of total Dissolved Solids (TDS).
 											</li>
-											<li>
+											{/* <li>
 												<img
 													style={{height: 25, width: "auto", paddingRight: 15}}
 													src="../static/images/elements/Path262.png"
@@ -150,7 +150,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												/>
 												Rain water is one of the purest source of water with
 												less then 50mg/ litre of total Dissolved Solids (TDS).
-											</li>
+											</li> */}
 											<li>
 												<img
 													style={{height: 25, width: "auto", paddingRight: 15}}
@@ -594,8 +594,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Rainy filters designed are cost effective
-																		and affordable to the common man.
+																		Rainy filters are designed in a cost
+																		effective manner, therefore making it
+																		affordable to all.
 																	</li>
 																</ul>
 															</div>
@@ -1247,7 +1248,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																		/>
 																		Rain water harvesting could significantly
 																		reduce water removal from rivers during
-																		critical summer months, ensuring reasinable
+																		critical summer months, ensuring reasonable
 																		water availability to support local
 																		ecosystems.
 																	</li>

@@ -111,23 +111,39 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											awareness on water conservation by using these units. In
 											addition, some more benefits of this program are:
 											<br />
-											&#9679; To see is to believe and people who see our
-											experts provide demonstrations are able to easily
-											understand the importance, methods and outcomes of
-											conserving rainwater. It is a tangible unit and is a best
-											educational tool.
+											<img
+												style={{height: 25, width: "auto", paddingRight: 15}}
+												src="../static/images/elements/Path262.png"
+												alt="drop"
+											/>{" "}
+											The Mobile Live demonstration unit is used for educational
+											purposes wherein our experts provide demonstrations to
+											facilitate easy understanding of the importance, methods
+											and outcomes of conserving rainwater.
 											<br />
-											&#9679; Through this, we are able to reach out to young
-											minds and motivate them to build a greener planet.
+											<img
+												style={{height: 25, width: "auto", paddingRight: 15}}
+												src="../static/images/elements/Path262.png"
+												alt="drop"
+											/>{" "}
+											The demonstration of rainwater harvesting using our Mobile
+											units is done in schools, engineering colleges,
+											universities, industrial exhibitions, seminars,
+											international and national expos, agricultural expos,
+											sustainability-based events, institutions, large events
+											etc.
 											<br />
-											&#9679; Our mobile units demonstrate rainwater harvesting
-											in schools, engineering colleges, universities, industrial
-											exhibitions, seminars, international and national expos,
-											agricultural expos, sustainability-based events,
-											institutions, large events etc.
-											<br />
-											&#9679; Awareness and education on rainwater harvesting
-											will help shape a better future.
+											{/* &#9679; The educational sessions provided using the Mobile
+											has proved to be effective in reaching out to young minds
+											and motivating them to build a greener planet.
+											<br /> */}
+											<img
+												style={{height: 25, width: "auto", paddingRight: 15}}
+												src="../static/images/elements/Path262.png"
+												alt="drop"
+											/>{" "}
+											We firmly beleive that awareness and education on
+											rainwater harvesting will help shape a better future.
 										</p>
 
 										{/* <button>Read More</button> */}
