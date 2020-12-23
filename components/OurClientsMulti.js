@@ -31,7 +31,12 @@ const ImageSliderMulti = () => {
 					</div>
 				</div>
 				<div className="text-center">
-					<Carousel infinite={true} autoPlay={true} responsive={responsive}>
+					<Carousel
+						showDots={true}
+						infinite={true}
+						autoPlay={true}
+						responsive={responsive}
+					>
 						<div className="col-md-2">
 							<img
 								height="100"
