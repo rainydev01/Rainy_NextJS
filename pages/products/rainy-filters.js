@@ -104,7 +104,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									>
 										This open ended filter has auto flush out feature enabling
 										self cleaning, with unique working principle. FL 80 is
-										suitable for __ to __ sq.m rooftop area.
+										suitable for upto 120 sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-4">
@@ -118,59 +118,66 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
-														Suitable up to area:
+														Suitable for Area
 													</td>
-													<td>110 SQMTRS</td>
+													<td>Upto 120 SQMTRS</td>
 												</tr>
 
 												<tr>
+													<td className="borderRight">Intensity of Rainfall</td>
+													<td>5 mm/Hour to 75 mm/Hour</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Filter Type</td>
+													<td>Open ended, Non-clog</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Working Principle</td>
+													<td>Cohesive Force & Centrifugal Force</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Operating Pressure</td>
+													<td> > 1 foot of Gravity Head (0.060kg/cm2)</td>
+												</tr>
+												<tr>
 													<td className="borderRight">
-														Max: Intensity of Rainfall:
+														Max Discharge at (CWO)
 													</td>
-													<td>75 mm/hr</td>
+													<td>120 LPM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle :</td>
-													<td>Cohesive Force & Centrifugal force</td>
+													<td className="borderRight">Filter Element</td>
+													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure:</td>
-													<td>Less than 2 feet of head (0.060kg/cm2)</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Capacity:</td>
-													<td>105 LPM</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Filter Element:</td>
-													<td>SS-304 Screen</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Mesh Size:</td>
+													<td className="borderRight">Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet:</td>
+													<td className="borderRight">Inlet Size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Clean Water Outlet:</td>
+													<td className="borderRight">
+														Clean Water Outlet size (CWO)
+													</td>
 													<td>63 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet:</td>
+													<td className="borderRight">Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
+
 												<tr>
-													<td className="borderRight">Housing:</td>
-													<td>High Density Polyethylene</td>
+													<td className="borderRight">Filter Housing</td>
+													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Efficiency of Filter:</td>
-													<td>Above 90%</td>
+													<td className="borderRight">Filter Efficiency</td>
+													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power:</td>
+													<td className="borderRight">Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
@@ -306,7 +313,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className="container">
 							<div className="row">
 								<div className="">
-									<h1 className="fl80">FL 100</h1>
+									<h1 className="fl80">FL 150</h1>
 									<p
 										style={{
 											textAlign: "center",
@@ -316,8 +323,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle. FL 100 is
-										suitable for __ to __ sq.m rooftop area.
+										self cleaning with unique working principle. FL 150 is
+										suitable for 120 to 180 sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-8">
@@ -326,59 +333,65 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
-														Suitable up to area:
+														Suitable for Area
 													</td>
-													<td>110 SQMTRS</td>
+													<td>Upto 180 SQMTRS</td>
 												</tr>
 
 												<tr>
+													<td className="borderRight">Intensity of Rainfall</td>
+													<td>5 mm/Hour to 75 mm/Hour</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Filter Type</td>
+													<td>Open ended, Non-clog</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Working Principle</td>
+													<td>Cohesive Force & Centrifugal Force</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Operating Pressure</td>
+													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
+												</tr>
+												<tr>
 													<td className="borderRight">
-														Max: Intensity of Rainfall:
+														Max Discharge at (CWO)
 													</td>
-													<td>75 mm/hr</td>
+													<td>180 LPM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle :</td>
-													<td>Cohesive Force & Centrifugal force</td>
+													<td className="borderRight">Filter Element</td>
+													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure:</td>
-													<td>Less than 2 feet of head (0.060kg/cm2)</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Capacity:</td>
-													<td>105 LPM</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Filter Element:</td>
-													<td>SS-304 Screen</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Mesh Size:</td>
+													<td className="borderRight">Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet:</td>
+													<td className="borderRight">Inlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Clean Water Outlet:</td>
-													<td>63 MM</td>
+													<td className="borderRight">
+														Clean Water Outlet size (CWO)
+													</td>
+													<td>75 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet:</td>
+													<td className="borderRight">Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Housing:</td>
-													<td>High Density Polyethylene</td>
+													<td className="borderRight">Filter Housing</td>
+													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Efficiency of Filter:</td>
-													<td>Above 90%</td>
+													<td className="borderRight">Filter Efficiency</td>
+													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power:</td>
+													<td className="borderRight">Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
@@ -449,7 +462,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="exampleModalLongTitle">
-										FL 100 - Overall Dimension
+										FL 150 - Overall Dimension
 									</h5>
 									<button
 										type="button"
@@ -491,7 +504,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="exampleModalLongTitle">
-										FL 100 - On Site Installation
+										FL 150 - On Site Installation
 									</h5>
 									<button
 										type="button"
@@ -530,8 +543,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle.. FL 200 is
-										suitable for __ to __ sq.m rooftop area.
+										self cleaning with unique working principle. FL 200 is
+										suitable for 180 to 225 sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-4">
@@ -545,59 +558,65 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
-														Suitable up to area:
+														Suitable for Area
 													</td>
-													<td>225 SQMTRS</td>
+													<td> Upto 225 SQMTRS</td>
 												</tr>
 
 												<tr>
+													<td className="borderRight">Intensity of Rainfall</td>
+													<td>5mm/Hour to 75 mm/Hour</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Filter Type</td>
+													<td>Open ended, Non-clog</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Working Principle</td>
+													<td>Cohesive Force & Centrifugal Force</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Operating Pressure</td>
+													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
+												</tr>
+												<tr>
 													<td className="borderRight">
-														Max: Intensity of Rainfall:
+														Max Discharge at (CWO)
 													</td>
-													<td>75 mm/hr</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Working Principle :</td>
-													<td>Cohesive Force & Centrifugal force</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Operating Pressure:</td>
-													<td>Less than 2 feet of head (0.060kg/cm2)</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Capacity:</td>
 													<td>225 LPM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element:</td>
-													<td>SS-304 Screen</td>
+													<td className="borderRight">Filter Element</td>
+													<td>SS-304 Multi-Surface Screen -Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size:</td>
+													<td className="borderRight">Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet:</td>
+													<td className="borderRight">Inlet size</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Clean Water Outlet:</td>
+													<td className="borderRight">
+														Clean Water Outlet size (CWO)
+													</td>
 													<td>75 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet:</td>
+													<td className="borderRight">Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Housing:</td>
-													<td>High Density Polyethylene</td>
+													<td className="borderRight">Filter Housing</td>
+													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Efficiency of Filter:</td>
-													<td>Above 90%</td>
+													<td className="borderRight">Filter Efficiency</td>
+													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power:</td>
+													<td className="borderRight">Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
@@ -742,8 +761,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle.. FL 300 is
-										suitable for __ to __ sq.m rooftop area.
+										self cleaning with unique working principle. FL 300 is
+										suitable for 225 to 350 sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-8">
@@ -752,59 +771,65 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
-														Suitable up to area:
+														Suitable for Area
 													</td>
-													<td>350 SQMTRS</td>
+													<td> Upto 350 SQMTRS</td>
 												</tr>
 
 												<tr>
+													<td className="borderRight">Intensity of Rainfall</td>
+													<td>5 mm/Hour to 75 mm/Hour</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Filter Type</td>
+													<td>Open ended, Non-clog</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Working Principle</td>
+													<td>Cohesive Force & Centrifugal Force</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Operating Pressure</td>
+													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
+												</tr>
+												<tr>
 													<td className="borderRight">
-														Max: Intensity of Rainfall:
+														Max Discharge at (CWO)
 													</td>
-													<td>75 mm/hr</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Working Principle :</td>
-													<td>Cohesive Force & Centrifugal force</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Operating Pressure:</td>
-													<td>Less than 2 feet of head (0.060kg/cm2)</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Capacity:</td>
 													<td>340 LPM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element:</td>
-													<td>SS-304 Screen</td>
+													<td className="borderRight">Filter Element</td>
+													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size:</td>
+													<td className="borderRight">Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet:</td>
+													<td className="borderRight">Inlet size</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Clean Water Outlet:</td>
+													<td className="borderRight">
+														Clean Water Outlet size (CWO)
+													</td>
+													<td>110 MM</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet:</td>
-													<td>90 MM</td>
+													<td className="borderRight">Filter Housing</td>
+													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Housing:</td>
-													<td>High Density Polyethylene</td>
+													<td className="borderRight">Filter Efficiency</td>
+													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Efficiency of Filter:</td>
-													<td>Above 90%</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Source of Power:</td>
+													<td className="borderRight">Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
@@ -956,7 +981,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									>
 										This open ended filter has auto flush out feature enabling
 										self cleaning with unique working principle. FL 500 is
-										suitable for __ to __ sq.m rooftop area.
+										suitable for 350 to 500 sq.m rooftop area.
 									</p>
 								</div>
 								<div className="col-md-4">
@@ -970,59 +995,66 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
-														Suitable up to area:
+														Suitable for Area
 													</td>
-													<td>500 SQMTRS</td>
+													<td> Upto 500 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">
-														Max: Intensity of Rainfall:
-													</td>
-													<td>75 mm/hr</td>
+													<td className="borderRight">Intensity of Rainfall</td>
+													<td>5 mm/Hour to 75 mm/Hour</td>
+												</tr>
+
+												<tr>
+													<td className="borderRight">Filter Type</td>
+													<td>Open ended, Non-clog</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle :</td>
+													<td className="borderRight">Working Principle</td>
 													<td>Cohesive Force & Centrifugal force</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure:</td>
-													<td>Less than 2 feet of head (0.060kg/cm2)</td>
+													<td className="borderRight">Operating Pressure</td>
+													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Capacity:</td>
+													<td className="borderRight">
+														Max Discharge at (CWO)
+													</td>
 													<td>480 LPM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element:</td>
+													<td className="borderRight">Filter Element</td>
 													<td>SS-304 Screen</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size:</td>
+													<td className="borderRight">Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet:</td>
+													<td className="borderRight">Inlet size</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Clean Water Outlet:</td>
-													<td>90 MM</td>
-												</tr>
-												<tr>
-													<td className="borderRight">Drain Outlet:</td>
+													<td className="borderRight">
+														Clean Water Outlet size (CWO)
+													</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Housing:</td>
-													<td>High Density Polyethylene</td>
+													<td className="borderRight">Drain Outlet size</td>
+													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Efficiency of Filter:</td>
-													<td>Above 90%</td>
+													<td className="borderRight">Filter Housing</td>
+													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power:</td>
+													<td className="borderRight">Filter Efficiency</td>
+													<td>Above 90%*</td>
+												</tr>
+												<tr>
+													<td className="borderRight">Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
