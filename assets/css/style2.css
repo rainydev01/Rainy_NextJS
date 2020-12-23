@@ -961,7 +961,7 @@ h5.mb-0.mb0diff {
     line-height: 25px;
 }
 
-@media only screen and (max-width: 414px) and (min-width: 100px) {
+@media only screen and (max-width: 425px) and (min-width: 100px) {
     .frmsecimg {
         background-image: none;
         padding: 45px 0px 235px 0px;
