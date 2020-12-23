@@ -5,106 +5,116 @@ const Header = () => {
 	return (
 		<Fragment>
 			<div className="test container-fluid main-header">
-				<input type="checkbox" className="menu-toggle" id="menu-toggle" />
-				<div className="mobile-bar">
-					<img src="../static/images/logo/logo.png" className="moblogo" />
-					<label htmlFor="menu-toggle" className="menu-icon">
-						<span></span>
-					</label>
-				</div>
+				<div className="row">
+					<input type="checkbox" className="menu-toggle" id="menu-toggle" />
+					<div className="mobile-bar">
+						<img src="../static/images/logo/logo.png" className="moblogo" />
+						<label htmlFor="menu-toggle" className="menu-icon">
+							<span></span>
+						</label>
+					</div>
 
-				<header className="header container">
-					<a className="navbar-brand" href="/" style={{padding: "0px"}}>
-						<img src="../static/images/logo/logo.png" />
-					</a>
-					<nav>
-						<ul>
-							<li>
-								<Link href="/">
-									<a>Home</a>
-								</Link>
-							</li>
-							<li>
-								<a href="#" className="dropdown-toggle" data-toggle="dropdown">
-									About Us
-								</a>
-								<div className="dropdown-menu dropdown-menu-tip-nw">
-									<a href="/about-us/our-journey" className="dropdown-item">
-										Our Journey
-									</a>
-									<a href="/about-us/in-the-media" className="dropdown-item">
-										In The Media
-									</a>
-									<a href="/about-us/our-team" className="dropdown-item">
-										Our Team
-									</a>
+					<header className="header container">
+						<a className="navbar-brand" href="/" style={{padding: "0px"}}>
+							<img src="../static/images/logo/logo.png" />
+						</a>
+						<nav>
+							<ul>
+								<li>
+									<Link href="/">
+										<a>Home</a>
+									</Link>
+								</li>
+								<li>
 									<a
-										href="/about-us/social-awareness"
-										className="dropdown-item"
+										href="#"
+										className="dropdown-toggle"
+										data-toggle="dropdown"
 									>
-										Social Awareness
+										About Us
 									</a>
-								</div>
-							</li>
-							<li>
-								<a href="/technology">Technology</a>
-							</li>
-							<li>
-								<a href="#" className="dropdown-toggle" data-toggle="dropdown">
-									Products
-								</a>
-								<div className="dropdown-menu dropdown-menu-tip-nw">
-									<a href="/products/rainy-filters" className="dropdown-item">
-										Rainy Filters
-									</a>
+									<div className="dropdown-menu dropdown-menu-tip-nw">
+										<a href="/about-us/our-journey" className="dropdown-item">
+											Our Journey
+										</a>
+										<a href="/about-us/in-the-media" className="dropdown-item">
+											In The Media
+										</a>
+										<a href="/about-us/our-team" className="dropdown-item">
+											Our Team
+										</a>
+										<a
+											href="/about-us/social-awareness"
+											className="dropdown-item"
+										>
+											Social Awareness
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="/technology">Technology</a>
+								</li>
+								<li>
 									<a
-										href="/products/ground-water-recharge"
-										className="dropdown-item"
+										href="#"
+										className="dropdown-toggle"
+										data-toggle="dropdown"
 									>
-										Groundwater Recharge
+										Products
 									</a>
+									<div className="dropdown-menu dropdown-menu-tip-nw">
+										<a href="/products/rainy-filters" className="dropdown-item">
+											Rainy Filters
+										</a>
+										<a
+											href="/products/ground-water-recharge"
+											className="dropdown-item"
+										>
+											Groundwater Recharge
+										</a>
+										<a
+											href="/products/systems-and-solutions"
+											className="dropdown-item"
+										>
+											Systems & Solutions
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="/gallery">Gallery</a>
+								</li>
+								<li>
 									<a
-										href="/products/systems-and-solutions"
-										className="dropdown-item"
+										href="#"
+										className="dropdown-toggle diffcolormenu"
+										data-toggle="dropdown"
 									>
-										Systems & Solutions
+										Contact us
 									</a>
-								</div>
-							</li>
-							<li>
-								<a href="/gallery">Gallery</a>
-							</li>
-							<li>
-								<a
-									href="#"
-									className="dropdown-toggle diffcolormenu"
-									data-toggle="dropdown"
-								>
-									Contact us
-								</a>
-								<div className="dropdown-menu dropdown-menu-tip-nw">
-									<a href="/contact-us/enquire" className="dropdown-item">
-										Enquire
-									</a>
-									<a href="/contact-us/dealers" className="dropdown-item">
-										Dealers
-									</a>
-									<a href="/contact-us/downloads" className="dropdown-item">
-										Downloads
-									</a>
-								</div>
-							</li>
-							<li>
-								<img
-									style={{paddingLeft: "1.5em", cursor: "pointer"}}
-									data-toggle="modal"
-									data-target="#googleAnalytics"
-									src="../static/images/icons/globe.png"
-								></img>
-							</li>
-						</ul>
-					</nav>
-				</header>
+									<div className="dropdown-menu dropdown-menu-tip-nw">
+										<a href="/contact-us/enquire" className="dropdown-item">
+											Enquire
+										</a>
+										<a href="/contact-us/dealers" className="dropdown-item">
+											Dealers
+										</a>
+										<a href="/contact-us/downloads" className="dropdown-item">
+											Downloads
+										</a>
+									</div>
+								</li>
+								<li>
+									<img
+										style={{paddingLeft: "1.5em", cursor: "pointer"}}
+										data-toggle="modal"
+										data-target="#googleAnalytics"
+										src="../static/images/icons/globe.png"
+									></img>
+								</li>
+							</ul>
+						</nav>
+					</header>
+				</div>
 			</div>
 			<div
 				className="modal fade"
