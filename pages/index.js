@@ -9,7 +9,7 @@ import AboutUs from "../components/AboutUs";
 import RWHFilters from "../components/RWHFilters";
 import FilterToSelect from "../components/FilterToSelect";
 import GroundWaterRecharging from "../components/GroundWaterRecharging";
-import OurClients from "../components/OurClients";
+import OurClients from "../components/OurClientsMulti";
 
 export default function Home() {
 	return (
