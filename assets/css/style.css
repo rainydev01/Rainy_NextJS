@@ -1365,8 +1365,8 @@ p {
         font-size: 18px !important;
     }
     .entteamtxt {
-        top: 15% !important;
-        left: 10% !important;
+        top: 20% !important;
+        left: 50% !important;
     }
     .groundwater_bg h2 {
         font-size: 25px !important;
@@ -1565,7 +1565,7 @@ p {
 }
 
 .banner {
-    margin-top: 6.2%;
+    margin-top: 6%;
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {

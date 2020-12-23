@@ -23,27 +23,34 @@ const Footer = () => {
 							<div className="footer-two">
 								<h5>Contact US</h5>
 								<p>
-									<a href="https://api.whatsapp.com/send?phone=+918951831967&text=%20Hello, I wanted to purchase Rainy Filter">
+									<a href="https://api.whatsapp.com/send?phone=+919448076595&text=%20Hello, I wanted to purchase Rainy Filter">
 										<i className="fa fa-whatsapp" aria-hidden="true" />
 									</a>
 									+91 94480 76595
 								</p>
 								<p>
-									<i
-										className="fa fa-volume-control-phone"
-										aria-hidden="true"
-									/>{" "}
+									<a href="tel:9448130524">
+										<i
+											className="fa fa-volume-control-phone"
+											aria-hidden="true"
+										/>
+									</a>{" "}
 									+91 94481 30524
 								</p>
 								<p>
-									<i
-										className="fa fa-volume-control-phone"
-										aria-hidden="true"
-									/>{" "}
+									<a href="tel:9449443232">
+										<i
+											className="fa fa-volume-control-phone"
+											aria-hidden="true"
+										/>
+									</a>{" "}
 									+91 94494 43232
 								</p>
 								<p>
-									<i className="fa fa-envelope-o" aria-hidden="true" />{" "}
+									<a href="mailto: farmland_rhs@yahoo.co.in">
+										{" "}
+										<i className="fa fa-envelope-o" aria-hidden="true" />{" "}
+									</a>{" "}
 									farmland_rhs@yahoo.co.in
 								</p>
 							</div>
