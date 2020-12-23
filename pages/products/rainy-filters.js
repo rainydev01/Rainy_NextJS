@@ -1025,7 +1025,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 												<tr>
 													<td className="borderRight">Filter Element</td>
-													<td>SS-304 Screen</td>
+													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
 													<td className="borderRight">Mesh Size</td>
