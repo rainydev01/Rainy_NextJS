@@ -1570,6 +1570,6 @@ p {
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
     .banner {
-        margin-top: 4% !important;
+        margin-top: 6% !important;
     }
 }
