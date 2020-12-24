@@ -44,7 +44,7 @@ const RWHFilters = () => {
 							</div>
 						</div>
 						<div className="col-md-4 cntrimg">
-							<img src="../static/images/homepage/rwhf.png" float />
+							<img src="../static/images/homepage/rwhf.png" float="true" />
 						</div>
 						<div className="col-md-4">
 							<div className="easyinsta threecntr">

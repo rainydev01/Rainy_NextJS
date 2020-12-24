@@ -69,13 +69,13 @@ const Footer = () => {
 										<i className="fa fa-instagram" aria-hidden="true" />
 									</a>
 									<a
-										href="https://www.facebook.com/rainy.filters"
+										href="https://www.facebook.com/Rainyfilters2002"
 										target="_blank"
 									>
 										<i className="fa fa-facebook-official" aria-hidden="true" />
 									</a>
 									<a
-										href="https://www.linkedin.com/in/rainy-filters-a640b11a3/"
+										href="https://www.linkedin.com/company/rainy"
 										target="_blank"
 									>
 										<i className="fa fa-linkedin-square" aria-hidden="true" />
@@ -191,9 +191,9 @@ const Footer = () => {
 							</h3>
 						</div>
 						<div className="modal-body">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-12">
+							<div className="container-fluid">
+								<div className="row">
+									<div className="col-12">
 										<p>
 											Welcome to FARMLAND RAINWATER HARVESTING SYSTEM (FRHS) or
 											Rainy Filters (hereinafter referred to as ‘FRHS’ or ‘Rainy
@@ -624,9 +624,9 @@ const Footer = () => {
 							</h3>
 						</div>
 						<div className="modal-body">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-12">
+							<div className="container-fluid">
+								<div className="row">
+									<div className="col-12">
 										<p>
 											FARMLAND RAINWATER HARVESTING SYSTEM (FRHS) recognises the
 											importance of maintaining your i.e. user privacy. This
@@ -921,9 +921,9 @@ const Footer = () => {
 							</h3>
 						</div>
 						<div className="modal-body">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-12">
+							<div className="container-fluid">
+								<div className="row">
+									<div className="col-12">
 										<p>
 											FARMLAND RAINWATER HARVESTING SYSTEM (“we”, “us”, “FRHS”
 											or “Rainy”) is committed to respecting your ((“you”, “data
@@ -1018,7 +1018,7 @@ const Footer = () => {
 											Each cookie falls within one of the five following
 											categories:
 										</p>
-										<table class="table" style={{lineHeight: 1}}>
+										<table className="table" style={{lineHeight: 1}}>
 											<thead>
 												<tr>
 													<th scope="col">Sr No.</th>
