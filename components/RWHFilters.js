@@ -8,7 +8,8 @@ const RWHFilters = () => {
 					<div className="abou-home-heading">
 						<h2>RAINY DUAL INTENSITY RWH FILTERS</h2>
 					</div>
-					<div className="dual-secthree">
+
+					<div className="row dual-secthree">
 						<div className="col-md-4">
 							<div className="mdrntech threecntr">
 								<h3>

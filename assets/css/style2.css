@@ -501,7 +501,7 @@ h2.whtdowdo:after {
 }
 
 .rainy-dual {
-    padding: 10px 0px 575px 0px;
+    padding: 10px 0px 20px 0px;
     background-image: url(../../static/images/Path233.png);
     background-repeat: no-repeat;
     background-position: top;
@@ -511,7 +511,7 @@ h2.whtdowdo:after {
 .frmsecimg {
     background-size: cover;
     background-image: url(../../static/images/homepage/ShouldTry.jpg);
-    padding: 45px 0px 235px 0px;
+    padding: 50px 0px 50px 0px;
     background-repeat: no-repeat;
     background-position: initial;
     text-align: center;
@@ -964,7 +964,7 @@ h5.mb-0.mb0diff {
 @media only screen and (max-width: 425px) and (min-width: 100px) {
     .frmsecimg {
         background-image: none;
-        padding: 45px 0px 235px 0px;
+        padding: 50px 0px 50px 0px;
         background-repeat: no-repeat;
         background-position: initial;
         text-align: center;

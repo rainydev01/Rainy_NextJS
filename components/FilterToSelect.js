@@ -89,7 +89,7 @@ const FilterToSelect = () => {
 		<Fragment>
 			<div className="container-fluid frmsecimg">
 				<div className="container">
-					<div className="frmsec">
+					<div className="row frmsec">
 						<div className="col-md-6">
 							<div className="rooftopfrm">
 								<h3>Check which filter is suitable for your Rooftop</h3>
