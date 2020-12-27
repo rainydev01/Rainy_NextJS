@@ -6,10 +6,7 @@ const Banner = () => {
 		<Fragment>
 			<div className="container-fluid banner bannrhome">
 				<div className="hero-image">
-					<img
-						src="../static/images/homepage/MainBanner_Final.jpg"
-						alt="Banner"
-					/>
+					<img src="../static/images/homepage/WebsiteBanner.jpg" alt="Banner" />
 					<div className="hero-text">
 						<h1 style={{color: "white"}}>RAINWATER HARVESTING</h1>
 						<p style={{color: "white"}}>

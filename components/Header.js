@@ -8,7 +8,10 @@ const Header = () => {
 				<div className="row">
 					<input type="checkbox" className="menu-toggle" id="menu-toggle" />
 					<div className="mobile-bar">
-						<img src="../static/images/logo/logo.png" className="moblogo" />
+						<img
+							src="../static/images/logo/Logo_Black.png"
+							className="moblogo"
+						/>
 						<label htmlFor="menu-toggle" className="menu-icon">
 							<span></span>
 						</label>
@@ -16,7 +19,7 @@ const Header = () => {
 
 					<header className="header container">
 						<a className="navbar-brand" href="/" style={{padding: "0px"}}>
-							<img src="../static/images/logo/logo.png" />
+							<img src="../static/images/logo/Logo_Black.png" />
 						</a>
 						<nav>
 							<ul>

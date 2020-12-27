@@ -6,7 +6,7 @@ const RWHFilters = () => {
 			<div className="container-fluid rainy-dual">
 				<div className="container">
 					<div className="abou-home-heading">
-						<h2>RAINY DUAL INTENSITY RWH FILTERS</h2>
+						<h2>RAINY DUAL INTENSITY RAIN WATER HARVESTING FILTERS</h2>
 					</div>
 
 					<div className="row dual-secthree">
@@ -17,8 +17,9 @@ const RWHFilters = () => {
 									<img src="../static/images/homepage/propertiesRWH/modernTech.png" />
 								</h3>
 								<p>
-									RAINY filters made with highly durable, food-grade material
-									and have self cleaning capabilties to auto-flush out debris.
+									'Rainy' filters are made with highly durable, food-grade
+									material and have self cleaning capabilties to auto-flush out
+									debris.
 								</p>
 							</div>
 							<div className="intfltrs threecntr">
@@ -77,7 +78,7 @@ const RWHFilters = () => {
 									Cost Effective & Affordable
 								</h3>
 								<p>
-									Rainy filters have no moving parts, eliminating any wear and
+									'Rainy' filters have no moving parts, eliminating any wear and
 									tear. This makes them long lasting with only one time
 									economical purchase cost.
 								</p>

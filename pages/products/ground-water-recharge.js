@@ -23,7 +23,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Ground Water Recharge</title>
+				<title>Rainy - Groundwater Recharge</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -84,7 +84,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/groundWater/Group1241.jpg" />
 							<div className="hero-text rnyfltrs">
-								<h1>GROUND WATER RECHARGING</h1>
+								<h1>GROUNDWATER RECHARGING</h1>
 							</div>
 						</div>
 					</div>
@@ -103,11 +103,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								<div className="col-md-6">
 									<div className="techpointslst wrechrg">
 										<p>
-											Ground water recharging is done using V Wire Injection
-											Well Technology. This modern methodology uses V-Wire
-											Screens for filtration. This works on gravitational force
-											and does not require any energy, making it durable with a
-											long life span.
+											Groundwater recharging is done using V-Wire Injection Well
+											Technology. This modern methodology uses V-Wire Screens
+											for filtration. This works on gravitational force and does
+											not require any energy, making it durable with a long life
+											span.
 										</p>
 									</div>
 									<div className="container-fluid">
@@ -216,7 +216,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<td className="borderRight">
 												Filter Unit for Injection:
 											</td>
-											<td>SS-304 V Wire Screen</td>
+											<td>SS-304 V-Wire Screen</td>
 										</tr>
 										<tr>
 											<td className="borderRight">Slot Size:</td>

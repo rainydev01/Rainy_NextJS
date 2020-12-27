@@ -23,7 +23,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy: Downloads</title>
+				<title>Rainy - Downloads</title>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -155,7 +155,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																	></i>
 																</a>
 
-																<p>Rainy Technical Literature</p>
+																<p>'Rainy' Technical Literature</p>
 															</div>
 															<div className="col-md-4"></div>
 														</div>
@@ -175,7 +175,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														aria-controls="collapse-2"
 														style={{color: "#58b8ef"}}
 													>
-														Rainy Product Catalogue
+														'Rainy' Product Catalogue
 													</a>
 												</h5>
 											</div>
@@ -186,8 +186,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												aria-labelledby="heading-2"
 											>
 												<div className="card-body">
-													Lorum ipsom is a dummy text, Here is a text is only
-													for test.
+													{/* Lorum ipsom is a dummy text, Here is a text is only
+													for test. */}
 												</div>
 											</div>
 										</div>
@@ -217,8 +217,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												aria-labelledby="heading-3"
 											>
 												<div className="card-body">
-													Lorum ipsom is a dummy text, Here is a text is only
-													for test.
+													{/* Lorum ipsom is a dummy text, Here is a text is only
+													for test. */}
 												</div>
 											</div>
 										</div>

@@ -127,7 +127,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
-													Rainy Research & Manufacturing Founded
+													'Rainy' Research & Manufacturing Founded
 												</h4>
 											</div>
 											<div className="timeline-body">
@@ -175,13 +175,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</div>
 											<div className="timeline-body">
 												<p>
-													Our first major project was carried out with IFFCO
-													Funding for the benefit of Farmers in Kolar.Through
-													this 650 borewells were successfully recharged.
-													Alongside our first turnkey bore-well project, there
-													was an increase in the demand for rooftop rainwater
-													harvesting as well. To cater to this SS304 candle type
-													rainwater harvesting filter was introduced.
+													Our first major project was carried out with IFFCO for
+													the benefit of farmers in Kolar. Through this
+													initiative, 650 borewells were successfully recharged.
+													While this turnkey project was underway, we saw in
+													increase in demand for rooftop rainwater harvesting.
+													To cater to this demand we introduced SS304 candle
+													type rainwater harvesting filter.
 												</p>
 											</div>
 										</div>
@@ -255,7 +255,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
-													Launch of Rainy Filters
+													Launch of 'Rainy' Filters
 												</h4>
 											</div>
 											<div className="timeline-body">
@@ -291,13 +291,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
-													Self-Cleaning Rainy RWH Filter Launched
+													Self-Cleaning 'Rainy' RWH Filter Launched
 												</h4>
 											</div>
 											<div className="timeline-body">
 												<p>
-													After rigorous R&D, we developed a new model of Rainy
-													filters, which possessed horizontal inlet with
+													After rigorous R&D, we developed a new model of
+													'Rainy' filters, which possessed horizontal inlet with
 													self-cleaning mechanism. This made the filter more
 													efficient and two models to suit different rooftop
 													areas were launched.
@@ -322,22 +322,22 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										</i>
 									</div>
 									<div className="timeline-panel right-imghis">
-										<img src="../../static/images/ourJourney/Filters.jpg" />
+										<img src="../../static/images/ourJourney/journeyFour.jpg" />
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
-													Four New Models of Dual Intensity Rainy Filters
+													Four New Models of Dual Intensity 'Rainy' Filters
 													Introduced
 												</h4>
 											</div>
 											<div className="timeline-body">
 												<p>
 													To cater to growing demands for cost effective
-													filters, we introduced 4 new models of Rainy Filters.
-													An added advantage was the development of dual
-													intensity mechanism with auto flush out, which enabled
-													high efficiency filtration for variable intensity of
-													rainfall.
+													filters, we introduced 4 new models of 'Rainy'
+													Filters. An added advantage was the development of
+													dual intensity mechanism with auto flush out, which
+													enabled high efficiency filtration for variable
+													intensity of rainfall.
 												</p>
 											</div>
 										</div>
@@ -363,7 +363,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
-													Rainy Research & Manufacturing
+													'Rainy' Research & Manufacturing
 												</h4>
 											</div>
 											<div className="timeline-body">
@@ -400,7 +400,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<div className="body-timmain">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">
-													FL-80 and FL-150 – New product launches
+													FL-80 and FL-150 New product launches
 												</h4>
 											</div>
 											<div className="timeline-body">

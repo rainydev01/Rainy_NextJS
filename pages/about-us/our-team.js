@@ -97,10 +97,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								EXPERIENCED AND PROFESSIONAL TEAM
 							</h2>
 							<p className="team-para">
-								Our leadership team bring in diverse experience of over 20
-								years, using their deep knowledge of the RWH industry to lead
-								with integrity and fairness and steer the company toward greater
-								heights.
+								Our leadership team bring in diverse experience of over 20 years
+								in the Rainwater Harvesting industry. This knowledge enables
+								them to lead with integrity and fairness, thereby steering the
+								company toward greater heights.
 							</p>
 						</div>
 

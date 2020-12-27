@@ -32,8 +32,9 @@ const WhatWeDo = () => {
 									}}
 								>
 									We have developed a new method of groundwater recharge, called
-									'V-wire injection well' technology. This allows for the ground
-									water table to be replenished and thus abate water scarcity.
+									'V-wire injection well' technology. This allows for the
+									groundwater table to be replenished and thus abate water
+									scarcity.
 								</p>
 							</div>
 						</div>
@@ -44,7 +45,9 @@ const WhatWeDo = () => {
 						</div>
 						<div className="col-md-4">
 							<div className="grndtext">
-								<h3 style={{textAlign: "right"}}>Rooftop RWH Filters</h3>
+								<h3 style={{textAlign: "right"}}>
+									Rooftop Rain Water Harvesting Filters
+								</h3>
 								<p
 									style={{
 										letterSpacing: "0.1px",
@@ -56,10 +59,10 @@ const WhatWeDo = () => {
 										fontFamily: "Visby Round CF Regular",
 									}}
 								>
-									Rainy Dual Intensity filters work at high efficiency
+									'Rainy' Dual Intensity filters work at high efficiency
 									regardless of the intensity of rainfall and have self-cleaning
 									abilities. At nominal prices, our filters are market leaders
-									in Rooftop RWH.
+									in Rooftop Rain Water Harvesting.
 								</p>
 							</div>
 						</div>
@@ -84,7 +87,7 @@ const WhatWeDo = () => {
 								>
 									Custom made solutions to suit your building or campus. Our
 									expert engineers will help from design to execution of end to
-									end RWH solutions for your facility.
+									end Rain Water Harvesting solutions for your facility.
 								</p>
 							</div>
 						</div>

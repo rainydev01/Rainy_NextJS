@@ -105,18 +105,19 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									<div className="techpointslst lstagn syssoln">
 										<p>
 											Products that are precisely coordinated, scientifically
-											designed all-in-one RWH solutions and dedicated service.
+											designed all-in-one Rainwater Harvesting solutions and
+											dedicated service.
 										</p>
 
 										<p>
-											Rainy also undertakes turnkey projects in corporate
+											'Rainy' also undertakes turnkey projects in corporate
 											sector/ industries/ government undertaking etc. and is
-											capable of handling large projects right from RWH design,
-											supply and installation to providing end-end solutions.
-											Rainy is equipped with a dedicated and experienced team of
-											engineers, technician, workmen along with special
-											installation equipments, drilling rigs, civil structures
-											etc. Broad steps include:
+											capable of handling large projects right from Rain Water
+											Harvesting design, supply and installation to providing
+											end-end solutions. 'Rainy' is equipped with a dedicated
+											and experienced team of engineers, technician, workmen
+											along with special installation equipments, drilling rigs,
+											civil structures etc. Broad steps include:
 										</p>
 										<ul>
 											<li>
@@ -129,8 +130,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													src="../static/images/elements/Path262.png"
 													alt="drop"
 												/>
-												Highly trained technical team conducts the RWH technical
-												survey by studying the layout of the site and building.
+												Highly trained technical team conducts the Rainwater
+												Harvesting technical survey by studying the layout of
+												the site and building.
 											</li>
 											<li>
 												<img
@@ -142,8 +144,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													src="../static/images/elements/Path262.png"
 													alt="drop"
 												/>
-												Existing piping system of rain water and storm drains
-												are studied.
+												Existing piping system of rainwater and storm drains are
+												studied.
 											</li>
 											<li>
 												<img
@@ -170,7 +172,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												/>{" "}
 												Designing and installation of innovative customised
 												system is done with precise scientific approach. These
-												solutions include: diverting existing rain water pipes,
+												solutions include: diverting existing rainwater pipes,
 												deployment of underground storage, auto pumping system,
 												piping, filtering, storage, utilization etc.
 											</li>

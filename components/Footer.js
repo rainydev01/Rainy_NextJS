@@ -13,9 +13,12 @@ const Footer = () => {
 							<div className="footer-one">
 								<img src="../static/images/logo/Wlogo.png" alt="Footer Logo" />
 								<p>
-									Farmland Rainwater Harvesting System No 648, Ground Floor,
-									11th cross, 7th Block, Jaya Nagar, Bengaluru, Karnataka -
-									560070.
+									Farmland Rainwater Harvesting System
+									<br></br>
+									No 648, Ground Floor,
+									<br></br>
+									11th cross, 7th Block, Jaya Nagar,
+									<br></br>Bengaluru, Karnataka - 560070.
 								</p>
 							</div>
 						</div>
@@ -609,7 +612,7 @@ const Footer = () => {
 			<div
 				className="modal fade "
 				id="privacy"
-				tabindex="-1"
+				tabIndex="-1"
 				aria-labelledby="exampleModalLabel"
 				aria-hidden="true"
 			>

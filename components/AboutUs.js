@@ -38,8 +38,8 @@ const AboutUs = () => {
 									</li>
 									<li>
 										&#9679; We are building scientifically engineered systems of
-										RWH, which will enable customers with economical, high
-										quality and easy to maintain products.
+										Rain Water Harvesting, which will enable customers with
+										economical, high quality and easy to maintain products.
 									</li>
 									<li>
 										&#9679; We pride ourselves in having our own research

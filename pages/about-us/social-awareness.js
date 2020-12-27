@@ -106,44 +106,48 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											We have a fleet of Mobile live demonstration units to
 											realise our mission of conserving every drop of rainwater.
 											These vehicles travel across India to demonstrate
-											rainwater harvesting. We have joined hands with Government
-											of India under the JALA SHAKTHI ABHIYAN, to spread
-											awareness on water conservation by using these units. In
-											addition, some more benefits of this program are:
+											rainwater harvesting. We have joined hands with the
+											Government of India under the JALA SHAKTHI ABHIYAN, to
+											spread awareness on water conservation by using these
+											units. In addition, some more benefits of this program
+											are:
 											<br />
 											<img
 												style={{height: 25, width: "auto", paddingRight: 15}}
 												src="../static/images/elements/Path262.png"
 												alt="drop"
 											/>{" "}
-											The Mobile Live demonstration unit is used for educational
-											purposes wherein our experts provide demonstrations to
-											facilitate easy understanding of the importance, methods
-											and outcomes of conserving rainwater.
+											Use of the mobile live demonstration unit for educational
+											purposes. Through this our experts provide informative
+											sessions on understanding not only the importance of rainw
+											ater harvesting, but also the methods used and the
+											outcomes. We firmly beleive that awareness and education
+											about rainwater harvesting will help shape a better
+											future.
 											<br />
 											<img
 												style={{height: 25, width: "auto", paddingRight: 15}}
 												src="../static/images/elements/Path262.png"
 												alt="drop"
 											/>{" "}
-											The demonstration of rainwater harvesting using our Mobile
-											units is done in schools, engineering colleges,
-											universities, industrial exhibitions, seminars,
-											international and national expos, agricultural expos,
-											sustainability-based events, institutions, large events
-											etc.
+											The demonstration of rainwater harvesting using our mobile
+											units is done not only in schools, engineering colleges
+											and universities, but also in industrial exhibitions,
+											seminars, international and national expos, agricultural
+											expos, sustainability-based events etc. to echo the theme
+											of conservation of rainwater.
 											<br />
 											{/* &#9679; The educational sessions provided using the Mobile
 											has proved to be effective in reaching out to young minds
 											and motivating them to build a greener planet.
 											<br /> */}
-											<img
+											{/* <img
 												style={{height: 25, width: "auto", paddingRight: 15}}
 												src="../static/images/elements/Path262.png"
 												alt="drop"
 											/>{" "}
 											We firmly beleive that awareness and education on
-											rainwater harvesting will help shape a better future.
+											rainwater harvesting will help shape a better future. */}
 										</p>
 
 										{/* <button>Read More</button> */}

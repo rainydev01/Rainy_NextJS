@@ -5,7 +5,7 @@ const FilterToSelect = () => {
 	const [inputValue, setInputValue] = useState("");
 	let filterContent = null;
 	const [buttonValue, setButonValue] = useState({
-		name: "FL100",
+		name: "FL-80",
 		url: "products/rainy-filters",
 	});
 
@@ -36,7 +36,7 @@ const FilterToSelect = () => {
 
 		if (inputValue === null) {
 			setButonValue({
-				name: "FL80",
+				name: "FL-80",
 				url: "products/rainy-filters",
 			});
 
@@ -44,7 +44,7 @@ const FilterToSelect = () => {
 		}
 		if (inputValue < 120) {
 			setButonValue({
-				name: "FL80",
+				name: "FL-80",
 				url: "products/rainy-filters",
 			});
 
@@ -53,7 +53,7 @@ const FilterToSelect = () => {
 
 		if (inputValue >= 120 && inputValue < 180) {
 			setButonValue({
-				name: "FL150",
+				name: "FL-150",
 				url: "products/rainy-filters",
 			});
 
@@ -61,7 +61,7 @@ const FilterToSelect = () => {
 		}
 		if (inputValue >= 180 && inputValue < 225) {
 			setButonValue({
-				name: "FL200",
+				name: "FL-200",
 				url: "products/rainy-filters",
 			});
 
@@ -69,7 +69,7 @@ const FilterToSelect = () => {
 		}
 		if (inputValue >= 225 && inputValue < 350) {
 			setButonValue({
-				name: "FL300",
+				name: "FL-300",
 				url: "products/rainy-filters",
 			});
 
@@ -77,7 +77,7 @@ const FilterToSelect = () => {
 		}
 		if (inputValue >= 350) {
 			setButonValue({
-				name: "FL500",
+				name: "FL-500",
 				url: "products/rainy-filters",
 			});
 

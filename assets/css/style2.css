@@ -288,7 +288,7 @@ body {
 
 .footer-one p {
     color: #fff;
-    padding: 0px 20px;
+    padding: 0px 5px;
     line-height: 25px;
     letter-spacing: 1px;
 }
@@ -946,9 +946,9 @@ h5.mb-0.mb0diff {
 
 .awrdimgcont {
     width: 500px;
-    background: #6ec6d8;
+    background: #46abe2;
     margin: auto;
-    color: #fff532;
+    color: #ffffff;
     border-radius: 5px;
     padding: 5px 10px;
     z-index: -1;

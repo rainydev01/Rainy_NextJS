@@ -37,7 +37,8 @@ const ImageSliderMulti = () => {
 						<div className="awrdimgcont">
 							<h3>
 								Aqua Foundations National Excellence Award 2017 for Industrial
-								Excellence in Development of Technology in the field of RWH
+								Excellence in Development of Technology in the field of
+								Rainwater Harvesting
 							</h3>
 						</div>
 					</div>
@@ -51,7 +52,7 @@ const ImageSliderMulti = () => {
 						<div className="awrdimgcont">
 							<h3>
 								2014 - The Times of India JSW Earth Care Global Award for
-								Innovation for Climate Protection : Awarded for FL-V Wire
+								Innovation for Climate Protection : Awarded for FL V-Wire
 								Injection Well Technology
 							</h3>
 						</div>

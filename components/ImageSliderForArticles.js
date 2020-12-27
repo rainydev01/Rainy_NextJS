@@ -57,8 +57,8 @@ const ImageSliderMulti = () => {
 												letterSpacing: "0.5px",
 											}}
 										>
-											The rainwater collection unit—Jaladhare—by Rainy Research
-											and Manufacturing at Hadihalli in Chikkamagaluru has
+											The rainwater collection unit—Jaladhare—by 'Rainy'
+											Research and Manufacturing at Hadihalli in Chikmagalur has
 											become a ray of hope for farmers in the surrounding areas
 											during these tough times.
 										</p>
@@ -119,7 +119,7 @@ const ImageSliderMulti = () => {
 												target="_blank"
 											>
 												Karnataka: Water research station to come up in
-												Chikamagalur
+												Chikmagalur
 												<br />
 											</a>
 										</h3>
@@ -579,7 +579,7 @@ const ImageSliderMulti = () => {
 										>
 											FLRWH with the mission of saving every drop of rainwater,
 											has helped rural and urban areas to increase yield of
-											existing borewells and installed their patented Rainy
+											existing borewells and installed their patented 'Rainy'
 											filters to conserve water.
 										</p>
 										<div className="col-md-12 mdiasocial">
@@ -652,7 +652,7 @@ const ImageSliderMulti = () => {
 										>
 											Industries in the Sarjapur area of Bangalore are taking
 											positive steps in the direction of RWH with the help of
-											innovative Rainy Filters and also by implementing our
+											innovative 'Rainy' Filters and also by implementing our
 											Systems & Solutions.
 										</p>
 										<div className="col-md-12 mdiasocial">

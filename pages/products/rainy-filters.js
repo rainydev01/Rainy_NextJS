@@ -84,7 +84,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className="hero-image enthroimg">
 							<img src="../../static/images/products/Group1240.jpg" />
 							<div className="hero-text rnyfltrs">
-								<h1>RAINY FILTERS</h1>
+								<h1>'RAINY' FILTERS</h1>
 							</div>
 						</div>
 					</div>
@@ -182,9 +182,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 											</tbody>
 										</table>
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-md-4">
+										<div className="container-fluid">
+											<div className="row">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -194,7 +194,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div>
-												{/* <div class="col-md-4">
+												{/* <div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -204,7 +204,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div class="col-md-4">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -228,7 +228,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl80Dimension"
 						tabIndex="-1"
 						role="dialog"
@@ -236,34 +236,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						aria-hidden="true"
 					>
 						<div
-							class="modal-dialog modal-dialog-centered modal-xl"
+							className="modal-dialog modal-dialog-centered modal-xl"
 							role="document"
 						>
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 80 - Overall Dimension
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">
+								<div className="modal-body">
 									<img
 										src="../../static/images/filters/FL-80.png"
-										class="img-fluid"
+										className="img-fluid"
 										alt="FL-100"
 									/>
 								</div>
-								<div class="modal-footer">
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -273,33 +273,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					{/* <div
-						class="modal fade"
+						className="modal fade"
 						id="fl80Installation"
 						tabindex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+						<div className="modal-dialog modal-dialog-centered" role="document">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 80 - On Site Installation
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
-								<div class="modal-footer">
+								<div className="modal-body">...</div>
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -329,7 +329,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								</div>
 								<div className="col-md-8">
 									<div className="techpointslst">
-										<table class="table table-striped  table-bordered ">
+										<table className="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
@@ -396,9 +396,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 											</tbody>
 										</table>
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-md-4">
+										<div className="container-fluid">
+											<div className="row">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -408,7 +408,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div>
-												{/* <div class="col-md-4">
+												{/* <div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -418,7 +418,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div class="col-md-4">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -448,7 +448,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div
-						class="modal fade "
+						className="modal fade "
 						id="fl100Dimension"
 						tabIndex="-1"
 						role="dialog"
@@ -456,34 +456,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						aria-hidden="true"
 					>
 						<div
-							class="modal-dialog modal-dialog-centered modal-xl"
+							className="modal-dialog modal-dialog-centered modal-xl"
 							role="document"
 						>
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 150 - Overall Dimension
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">
+								<div className="modal-body">
 									<img
 										src="../../static/images/filters/fl-100.png"
-										class="img-fluid"
+										className="img-fluid"
 										alt="FL-100"
 									/>
 								</div>
-								<div class="modal-footer">
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -493,33 +493,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl100Installation"
 						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+						<div className="modal-dialog modal-dialog-centered" role="document">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 150 - On Site Installation
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
-								<div class="modal-footer">
+								<div className="modal-body">...</div>
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -554,7 +554,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								</div>
 								<div className="col-md-8">
 									<div className="techpointslst">
-										<table class="table table-striped  table-bordered ">
+										<table className="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
@@ -621,9 +621,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 											</tbody>
 										</table>
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-md-4">
+										<div className="container-fluid">
+											<div className="row">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -633,7 +633,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div>
-												{/* <div class="col-md-4">
+												{/* <div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -643,7 +643,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div class="col-md-4">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -666,7 +666,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl200Dimension"
 						tabIndex="-1"
 						role="dialog"
@@ -674,34 +674,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						aria-hidden="true"
 					>
 						<div
-							class="modal-dialog modal-dialog-centered modal-xl"
+							className="modal-dialog modal-dialog-centered modal-xl"
 							role="document"
 						>
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 200 - Overall Dimension
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">
+								<div className="modal-body">
 									<img
 										src="../../static/images/filters/fl-200.png"
-										class="img-fluid"
+										className="img-fluid"
 										alt="FL-200"
 									/>
 								</div>
-								<div class="modal-footer">
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -711,33 +711,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl200Installation"
 						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+						<div className="modal-dialog modal-dialog-centered" role="document">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 200 - On Site Installation
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
-								<div class="modal-footer">
+								<div className="modal-body">...</div>
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -767,7 +767,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								</div>
 								<div className="col-md-8">
 									<div className="techpointslst">
-										<table class="table table-striped  table-bordered ">
+										<table className="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
@@ -834,9 +834,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 											</tbody>
 										</table>
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-md-4">
+										<div className="container-fluid">
+											<div className="row">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -846,7 +846,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div>
-												{/* <div class="col-md-4">
+												{/* <div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -856,7 +856,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div class="col-md-4">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -885,7 +885,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl300Dimension"
 						tabIndex="-1"
 						role="dialog"
@@ -893,34 +893,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						aria-hidden="true"
 					>
 						<div
-							class="modal-dialog modal-dialog-centered modal-xl"
+							className="modal-dialog modal-dialog-centered modal-xl"
 							role="document"
 						>
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 300 - Overall Dimension
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">
+								<div className="modal-body">
 									<img
 										src="../../static/images/filters/fl-300.png"
-										class="img-fluid"
+										className="img-fluid"
 										alt="FL-300"
 									/>
 								</div>
-								<div class="modal-footer">
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -930,33 +930,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl300Installation"
 						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+						<div className="modal-dialog modal-dialog-centered" role="document">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 300 - On Site Installation
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
-								<div class="modal-footer">
+								<div className="modal-body">...</div>
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -991,7 +991,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								</div>
 								<div className="col-md-8">
 									<div className="techpointslst">
-										<table class="table table-striped  table-bordered ">
+										<table className="table table-striped  table-bordered ">
 											<tbody>
 												<tr>
 													<td style={{width: "40%"}} className="borderRight">
@@ -1059,9 +1059,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 											</tbody>
 										</table>
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-md-4">
+										<div className="container-fluid">
+											<div className="row">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -1071,7 +1071,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div>
-												{/* <div class="col-md-4">
+												{/* <div className="col-md-4">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -1081,7 +1081,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div class="col-md-4">
+												<div className="col-md-4">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -1104,7 +1104,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl500Dimension"
 						tabIndex="-1"
 						role="dialog"
@@ -1112,34 +1112,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						aria-hidden="true"
 					>
 						<div
-							class="modal-dialog modal-dialog-centered modal-xl"
+							className="modal-dialog modal-dialog-centered modal-xl"
 							role="document"
 						>
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 500 - Overall Dimension
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">
+								<div className="modal-body">
 									<img
 										src="../../static/images/filters/fl-500.png"
-										class="img-fluid"
+										className="img-fluid"
 										alt="FL-500"
 									/>
 								</div>
-								<div class="modal-footer">
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close
@@ -1149,33 +1149,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						class="modal fade"
+						className="modal fade"
 						id="fl500Installation"
 						tabIndex="-1"
 						role="dialog"
 						aria-labelledby="exampleModalCenterTitle"
 						aria-hidden="true"
 					>
-						<div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">
+						<div className="modal-dialog modal-dialog-centered" role="document">
+							<div className="modal-content">
+								<div className="modal-header">
+									<h5 className="modal-title" id="exampleModalLongTitle">
 										FL 500 - On Site Installation
 									</h5>
 									<button
 										type="button"
-										class="close"
+										className="close"
 										data-dismiss="modal"
 										aria-label="Close"
 									>
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								<div class="modal-body">...</div>
-								<div class="modal-footer">
+								<div className="modal-body">...</div>
+								<div className="modal-footer">
 									<button
 										type="button"
-										class="btn btn-secondary"
+										className="btn btn-secondary"
 										data-dismiss="modal"
 									>
 										Close

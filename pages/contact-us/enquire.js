@@ -101,21 +101,27 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											Address
 										</h6>
 										<p className="contacttxt">
-											Farmland Rainwater Harvesting Systems No 648, Ground
-											Floor, 11th cross, 7th Block, Jaya Nagar, Bengaluru,
-											Karnataka - 560070.
+											Farmland Rainwater Harvesting Systems
+											<br></br> No 648, Ground Floor,
+											<br></br> 11th cross, 7th Block, Jaya Nagar,<br></br>
+											Bengaluru, Karnataka - 560070.
 										</p>
 
 										<h6 className="contacth">Head Office</h6>
 										<p className="contacttxt">
-											SGS Complex, K.M.Road, Chikmagalur. PIN: 577101,
+											SGS Complex,<br></br> K.M.Road, Chikmagalur. PIN: 577101,
+											<br></br>
 											Karnataka, India.
 										</p>
 
-										<h6 className="contacth">Rainy Research and Manufacture</h6>
+										<h6 className="contacth">
+											'Rainy' Research and Manufacture
+										</h6>
 										<p className="contacttxt">
-											m/s RAINY RESEARCH AND MFG. Hanumidi Village, Narayanpura
-											Gram Panchayat Belur, Hassan District, Karnataka- 573115.
+											M/s 'RAINY' RESEARCH AND MFG,
+											<br></br> Hanumidi Village, Narayanpura Gram Panchayat
+											Belur,
+											<br></br> Hassan District, Karnataka- 573115.
 										</p>
 
 										<h6 className="contacth">

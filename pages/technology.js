@@ -118,10 +118,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								</h2>
 								<p className="techpara">
 									Completely Indigenous and Patented Technology for Dual
-									Intensity Rain Water Harvesting Filters called "Rainy". For
-									ground water recharging, our innovation uses an injection well
+									Intensity Rainwater Harvesting Filters called 'Rainy'. For
+									groundwater recharging, our innovation uses an injection well
 									equipped with "V-Wire Screens" that enables replenishment of
-									ground water source.
+									groundwater source.
 								</p>
 							</div>
 							<div className="row">
@@ -139,8 +139,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													src="../static/images/elements/Path262.png"
 													alt="drop"
 												/>
-												Rain water is one of the purest source of water with
-												less then 50mg/ litre of total Dissolved Solids (TDS).
+												Rainwater is one of the purest source of water with less
+												then 50mg/ litre of Total Dissolved Solids (TDS).
 											</li>
 											{/* <li>
 												<img
@@ -148,7 +148,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													src="../static/images/elements/Path262.png"
 													alt="drop"
 												/>
-												Rain water is one of the purest source of water with
+												Rainwater is one of the purest source of water with
 												less then 50mg/ litre of total Dissolved Solids (TDS).
 											</li> */}
 											<li>
@@ -241,7 +241,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												src="../static/images/elements/Path262.png"
 												alt="drop"
 											/>
-											A state of the art R&D facility for continous innovation
+											A state of the art R&D facility for continuous innovation
 											and ongoing training of our qualified staff
 										</li>
 										<li style={{fontSize: 14}}>
@@ -270,7 +270,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div className="container-fluid techcntrbg">
-						<h1>RAINY FILTERS</h1>
+						<h1>'RAINY' FILTERS</h1>
 					</div>
 
 					<div
@@ -319,11 +319,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		When the Rainwater along with dirt & debris
-																		Flows by Gravity through the downtake pipes,
+																		When the rainwater along with dirt & debris
+																		flows by gravity through the downtake pipes,
 																		it enters into the filter and starts
 																		rotating in anticlockwise direction at the
-																		periphery of the upper Housing.
+																		periphery of the upper housing.
 																	</li>
 																	<li>
 																		<img
@@ -337,8 +337,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																		/>
 																		This enables it to flow into the SS-304
 																		filter element placed in the lower housing
-																		in angular Motion at specific speed &
-																		velocity, which creates Cohesive force at
+																		in angular motion at specific speed &
+																		velocity, which creates cohesive force at
 																		low intensity & centrifugal force at high
 																		intensity of rainfall.
 																	</li>
@@ -352,12 +352,12 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		In both situations, involving low & High
-																		Intensity of rainfall, the working principle
-																		of the filter based on Cohesive &
+																		In both situations, involving low & high
+																		intensity of rainfall, the working principle
+																		of the filter based on cohesive &
 																		centrifugal force respectively, aids the
-																		filter element to flush out automatically
-																		the dirt & debris.
+																		filter element to flush out dirt & debris
+																		automatically.
 																	</li>
 																	<li>
 																		<img
@@ -369,12 +369,12 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Then it passes through the Drain Outlet and
-																		simultaneously diverts clean water into the
-																		Sump/ recharging well through the Clean
-																		water Outlet, which can be used for
-																		reutilization or Recharging of Groundwater
-																		Source.
+																		The water then passes through the drain
+																		outlet and simultaneously diverts clean
+																		water into the sump/ recharging well through
+																		the clean water outlet, which can be used
+																		for reutilization or recharging of
+																		groundwater source.
 																	</li>
 																</ul>
 															</div>
@@ -401,7 +401,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													>
 														Special Features
 														<span className="mb-span mbspndiff">
-															What makes rainy unique
+															What makes 'Rainy' unique
 														</span>
 													</a>
 												</h5>
@@ -471,7 +471,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Rainy filters are extremely versatile such
+																		'Rainy' filters are extremely versatile such
 																		that they can be accomodated anywhere, from
 																		being wall mounted on low lying roofs to
 																		underground ducts.
@@ -552,8 +552,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Provision of By Pass Valve is made in the
-																		Filter to enable the consumer to divert the
+																		Provision of bypass valve is made in the
+																		filter to enable the consumer to divert the
 																		water to the drain outlet whenever the
 																		situation so arises.
 																	</li>
@@ -568,8 +568,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			alt="drop"
 																		/>
 																		The filters do not have any moving parts,
-																		there is no wear & Tear of the filter
-																		allowing for long life span.
+																		therefore no wear and tear of the filter
+																		occurs allowing for long lifespan.
 																	</li>
 																	<li>
 																		<img
@@ -581,8 +581,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Various models are available to enable to
-																		cater to various dimension of Roof areas.
+																		Various models are available to cater to
+																		varying dimensions of roof area.
 																	</li>
 																	<li>
 																		<img
@@ -594,7 +594,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Rainy filters are designed in a cost
+																		'Rainy' filters are designed in a cost
 																		effective manner, therefore making it
 																		affordable to all.
 																	</li>
@@ -614,7 +614,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<div className="card-header" id="heading-3">
 												<h5 className="mb-0 mb0diff">
 													<a
-														className="collapsed"
+														// className="collapsed"
 														role="button"
 														data-toggle="collapse"
 														href="#collapse-3"
@@ -623,7 +623,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													>
 														Advantages
 														<span className="mb-span mbspndiff">
-															How rainy can be used to conserve water
+															How 'Rainy' can be used to conserve water
 														</span>
 													</a>
 												</h5>
@@ -649,11 +649,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		By storing of water in the sump &
+																		By storing water in the sump and
 																		reutilizing, around 35% of the annual
-																		requirement of a household can be met.
-																		Thereby a considerable amount on the water
-																		and power bill can be saved.
+																		requirement of water in a household can be
+																		met. Thereby a considerable amount on the
+																		water and power bill can be saved.
 																	</li>
 																	<li>
 																		<img
@@ -665,9 +665,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Dependency on water tankers, ground water
-																		and corporation water can also be much
-																		reduced
+																		Dependency on water tankers, groundwater and
+																		corporation water can also be much reduced
 																	</li>
 																	<li>
 																		<img
@@ -743,7 +742,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		For an average Rainfall of 800 MM per year
+																		For an average rainfall of 800 MM per year
 																		over a rooftop of 250 Sq.m, 'Rainy' Filter
 																		can harvest average 2,00,000 litres of
 																		precious filtered water.
@@ -768,7 +767,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className="container-fluid techcntrbg techcntrbgto">
 						<h1>
-							GROUND WATER
+							GROUNDWATER
 							<br />
 							RECHARGING
 						</h1>
@@ -863,10 +862,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		The rain water is led through a water
-																		channel and diverted into a silt trap, which
-																		allows for silt to settle down in the
-																		chamber.
+																		The rainwater is led through a water channel
+																		and diverted into a silt trap, which allows
+																		for silt to settle down in the chamber.
 																	</li>
 																	<li>
 																		<img
@@ -973,10 +971,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														aria-expanded="false"
 														aria-controls="collapse-2"
 													>
-														V Wire Technology
+														V-Wire Technology
 													</a>
 												</h5>
 											</div>
+											Total Dissolved Solids (TDS).
 											<div
 												id="collapse-2"
 												className="collapse"
@@ -1231,9 +1230,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Rain water can enhance limited ground
+																		Rainwater can enhance limited ground
 																		resources. More importantly, with reduced
-																		drawing out of ground water, low yield bore
+																		drawing out of groundwater, low yield bore
 																		well and springs can last indefinitely.
 																	</li>
 																	<li>
@@ -1246,7 +1245,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Rain water harvesting could significantly
+																		Rainwater harvesting could significantly
 																		reduce water removal from rivers during
 																		critical summer months, ensuring reasonable
 																		water availability to support local
@@ -1288,8 +1287,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Ground water recharging promotes water
-																		neutrality by diverting the rain water into
+																		Groundwater recharging promotes water
+																		neutrality by diverting the rainwater into
 																		the earth’s strata, which otherwise would
 																		have been wasted.
 																	</li>
@@ -1316,7 +1315,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																			src="../static/images/elements/Path262.png"
 																			alt="drop"
 																		/>
-																		Sustainable: the ground water source will
+																		Sustainable: the groundwater source will
 																		remain intact for future generations.
 																	</li>
 																</ul>
