@@ -975,7 +975,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													</a>
 												</h5>
 											</div>
-											Total Dissolved Solids (TDS).
+
 											<div
 												id="collapse-2"
 												className="collapse"
