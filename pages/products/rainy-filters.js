@@ -184,7 +184,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										</table>
 										<div className="container-fluid">
 											<div className="row">
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -204,7 +204,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -215,6 +215,37 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														>
 															<button>
 																Enquire <br /> Now
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="www.amazon.com"
+														>
+															<button>
+																Buy <br />
+																Online
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/dealers"
+														>
+															<button>
+																Contact <br /> Dealers
 															</button>
 														</a>
 													</div>
@@ -398,7 +429,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										</table>
 										<div className="container-fluid">
 											<div className="row">
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -418,7 +449,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -429,6 +460,37 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														>
 															<button>
 																Enquire <br /> Now
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="www.amazon.com"
+														>
+															<button>
+																Buy <br />
+																Online
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/dealers"
+														>
+															<button>
+																Contact <br /> Dealers
 															</button>
 														</a>
 													</div>
@@ -623,7 +685,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										</table>
 										<div className="container-fluid">
 											<div className="row">
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -643,7 +705,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -654,6 +716,37 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														>
 															<button>
 																Enquire <br /> Now
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="www.amazon.com"
+														>
+															<button>
+																Buy <br />
+																Online
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/dealers"
+														>
+															<button>
+																Contact <br /> Dealers
 															</button>
 														</a>
 													</div>
@@ -836,7 +929,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										</table>
 										<div className="container-fluid">
 											<div className="row">
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -856,7 +949,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -867,6 +960,37 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														>
 															<button>
 																Enquire <br /> Now
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="www.amazon.com"
+														>
+															<button>
+																Buy <br />
+																Online
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/dealers"
+														>
+															<button>
+																Contact <br /> Dealers
 															</button>
 														</a>
 													</div>
@@ -1061,7 +1185,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										</table>
 										<div className="container-fluid">
 											<div className="row">
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<button
 															data-toggle="modal"
@@ -1081,7 +1205,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-4">
+												<div className="col-md-3">
 													<div className="yellowbtn">
 														<a
 															style={{
@@ -1092,6 +1216,37 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														>
 															<button>
 																Enquire <br /> Now
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="www.amazon.com"
+														>
+															<button>
+																Buy <br />
+																Online
+															</button>
+														</a>
+													</div>
+												</div>
+												<div className="col-md-3">
+													<div className="yellowbtn">
+														<a
+															style={{
+																fontFamily: "Visby Round CF Heavy",
+																fontSize: 16,
+															}}
+															href="/contact-us/dealers"
+														>
+															<button>
+																Contact <br /> Dealers
 															</button>
 														</a>
 													</div>

@@ -83,6 +83,15 @@ const Footer = () => {
 									>
 										<i className="fa fa-linkedin-square" aria-hidden="true" />
 									</a>
+									<a href="https://www.pinterest.com" target="_blank">
+										<i class="fa fa-pinterest" aria-hidden="true"></i>
+									</a>
+									<a href="https://www.quora.com" target="_blank">
+										<i class="fa fa-quora" aria-hidden="true"></i>
+									</a>
+									<a href="https://www.twitter.com" target="_blank">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
 								</p>
 
 								<div>
