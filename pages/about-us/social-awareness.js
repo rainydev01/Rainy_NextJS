@@ -93,7 +93,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className="container-fluid">
 						<div className="container groundwaterSocial">
-							<div className="groundwatersec">
+							<div className="row groundwatersec">
 								<div className="col-md-6">
 									<div className="groundwatersimg">
 										<img src="../../static/images/ourTeam/Group1238.jpg" />
