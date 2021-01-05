@@ -780,7 +780,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className="container">
 							<div className="row">
 								<div className="downloadsec">
-									<div id="accordion">
+									<div id="accordion1">
 										<div className="techaccrdn">
 											<div className="card-header" id="heading-1">
 												<h5 className="mb-0 mb0diff">
@@ -798,7 +798,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<div
 												id="collapse-012"
 												className="collapse "
-												data-parent="#accordion"
+												data-parent="#accordion1"
 												aria-labelledby="heading-1"
 											>
 												<div className="card-body">
@@ -979,7 +979,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<div
 												id="collapse-2"
 												className="collapse"
-												data-parent="#accordion"
+												data-parent="#accordion1"
 												aria-labelledby="heading-2"
 											>
 												<div className="card-body">
@@ -1116,7 +1116,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<div
 												id="collapse-3"
 												className="collapse"
-												data-parent="#accordion"
+												data-parent="#accordion1"
 												aria-labelledby="heading-3"
 											>
 												<div className="card-body">
