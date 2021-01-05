@@ -153,7 +153,7 @@ class Dropdown extends React.Component {
 				},
 				{
 					name: "PHILIPINNES",
-					states: [{name: "PHILIPINNES", cities: ["PHILIPINNES"]}],
+					states: [{name: "MANILA", cities: ["MALABON"]}],
 				},
 				{
 					name: "SOUTH AMERICA",

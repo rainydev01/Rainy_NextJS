@@ -1,7 +1,7 @@
-import React, { useState, Fragment } from 'react';
+import React, {useState, Fragment} from "react";
 // import Select from 'react-select';
-import Dropdown from './DropDown';
-import Bengaluru from './cities/Bengaluru';
+import Dropdown from "./DropDown";
+import Bengaluru from "./cities/Bengaluru";
 // import Belagavi from '../components/cities/Belagavi';
 // import Davangere from '../components/cities/Davangere';
 // import Dk from '../components/cities/Dk';
@@ -20,67 +20,67 @@ import Bengaluru from './cities/Bengaluru';
 // import Surat from '../components/cities/Surat';
 // import Ahmedabad from '../components/cities/Ahmedabad';
 
-import Ahmedabad from '../components/cities/Ahmedabad';
-import Ajmer from '../components/cities/Ajmer';
-import Amravati from '../components/cities/Amravati';
-import Anantpur from '../components/cities/Anantpur';
+import Ahmedabad from "../components/cities/Ahmedabad";
+import Ajmer from "../components/cities/Ajmer";
+import Amravati from "../components/cities/Amravati";
+import Anantpur from "../components/cities/Anantpur";
 // import Bangalore from '../components/cities/Bangalore';
-import Bargarh from '../components/cities/Bargarh';
-import Belagavi from '../components/cities/Belagavi';
-import Berhampur from '../components/cities/Berhampur';
-import Bhubaneswar from '../components/cities/Bhubaneswar';
-import Bogota from '../components/cities/Bogota';
-import Chandigarh from '../components/cities/Chandigarh';
-import Chennai from '../components/cities/Chennai';
-import Chhindwara from '../components/cities/Chhindwara';
-import Coimbatore from '../components/cities/Coimbatore';
-import Davangere from '../components/cities/Davangere';
-import Delhi from '../components/cities/Delhi';
-import Deopur from '../components/cities/Deopur';
-import Dk from '../components/cities/Dk';
-import Ernakulam from '../components/cities/Ernakulam';
-import Erode from '../components/cities/Erode';
-import Faridabad from '../components/cities/Faridabad';
-import Gulbarga from '../components/cities/Gulbarga';
-import Gurugram from '../components/cities/Gurugram';
-import Guwahati from '../components/cities/Guwahati';
-import Hassan from '../components/cities/Hassan';
-import Hyderabad from '../components/cities/Hyderabad';
-import Indore from '../components/cities/Indore';
-import Jaipur from '../components/cities/Jaipur';
-import Jalandhar from '../components/cities/Jalandhar';
-import Jalna from '../components/cities/Jalna';
-import Kannur from '../components/cities/Kannur';
-import Kanpur from '../components/cities/Kanpur';
-import Kasaragod from '../components/cities/Kasaragod';
-import Kolhapur from '../components/cities/Kolhapur';
-import Kolkatta from '../components/cities/Kolkatta';
-import Koraput from '../components/cities/Koraput';
-import Kothamangalam from '../components/cities/Kothamangalam';
-import Madurai from '../components/cities/Madurai';
-import Mangalore from '../components/cities/Mangalore';
-import Manipur from '../components/cities/Manipur';
-import Mumbai from '../components/cities/Mumbai';
-import Mysore from '../components/cities/Mysore';
-import Nagpur from '../components/cities/Nagpur';
-import Nasik from '../components/cities/Nasik';
-import Philippines from '../components/cities/Philippines';
-import Pondicherry from '../components/cities/Pondicherry';
-import Pune from '../components/cities/Pune';
-import Raipur from '../components/cities/Raipur';
-import Ranchi from '../components/cities/Ranchi';
-import Sambalpur from '../components/cities/Sambalpur';
-import Solapur from '../components/cities/Solapur';
-import Surat from '../components/cities/Surat';
-import Thrissur from '../components/cities/Thrissur';
-import Tirupur from '../components/cities/Tirupur';
-import Trichy from '../components/cities/Trichy';
-import Vadodara from '../components/cities/Vadodara';
-import Vidisha from '../components/cities/Vidisha';
-import Vizag from '../components/cities/Vizag';
+import Bargarh from "../components/cities/Bargarh";
+import Belagavi from "../components/cities/Belagavi";
+import Berhampur from "../components/cities/Berhampur";
+import Bhubaneswar from "../components/cities/Bhubaneswar";
+import Bogota from "../components/cities/Bogota";
+import Chandigarh from "../components/cities/Chandigarh";
+import Chennai from "../components/cities/Chennai";
+import Chhindwara from "../components/cities/Chhindwara";
+import Coimbatore from "../components/cities/Coimbatore";
+import Davangere from "../components/cities/Davangere";
+import Delhi from "../components/cities/Delhi";
+import Deopur from "../components/cities/Deopur";
+import Dk from "../components/cities/Dk";
+import Ernakulam from "../components/cities/Ernakulam";
+import Erode from "../components/cities/Erode";
+import Faridabad from "../components/cities/Faridabad";
+import Gulbarga from "../components/cities/Gulbarga";
+import Gurugram from "../components/cities/Gurugram";
+import Guwahati from "../components/cities/Guwahati";
+import Hassan from "../components/cities/Hassan";
+import Hyderabad from "../components/cities/Hyderabad";
+import Indore from "../components/cities/Indore";
+import Jaipur from "../components/cities/Jaipur";
+import Jalandhar from "../components/cities/Jalandhar";
+import Jalna from "../components/cities/Jalna";
+import Kannur from "../components/cities/Kannur";
+import Kanpur from "../components/cities/Kanpur";
+import Kasaragod from "../components/cities/Kasaragod";
+import Kolhapur from "../components/cities/Kolhapur";
+import Kolkatta from "../components/cities/Kolkatta";
+import Koraput from "../components/cities/Koraput";
+import Kothamangalam from "../components/cities/Kothamangalam";
+import Madurai from "../components/cities/Madurai";
+import Mangalore from "../components/cities/Mangalore";
+import Manipur from "../components/cities/Manipur";
+import Mumbai from "../components/cities/Mumbai";
+import Mysore from "../components/cities/Mysore";
+import Nagpur from "../components/cities/Nagpur";
+import Nasik from "../components/cities/Nasik";
+import Philippines from "../components/cities/Philippines";
+import Pondicherry from "../components/cities/Pondicherry";
+import Pune from "../components/cities/Pune";
+import Raipur from "../components/cities/Raipur";
+import Ranchi from "../components/cities/Ranchi";
+import Sambalpur from "../components/cities/Sambalpur";
+import Solapur from "../components/cities/Solapur";
+import Surat from "../components/cities/Surat";
+import Thrissur from "../components/cities/Thrissur";
+import Tirupur from "../components/cities/Tirupur";
+import Trichy from "../components/cities/Trichy";
+import Vadodara from "../components/cities/Vadodara";
+import Vidisha from "../components/cities/Vidisha";
+import Vizag from "../components/cities/Vizag";
 
 const App = () => {
-	const [ selectedCity, setSelectedCity ] = useState(null);
+	const [selectedCity, setSelectedCity] = useState(null);
 
 	let dealersCity = null;
 
@@ -88,187 +88,187 @@ const App = () => {
 		setSelectedCity(city);
 	};
 
-	if (selectedCity === 'BANGALORE') {
+	if (selectedCity === "BANGALORE") {
 		dealersCity = <Bengaluru />;
 	}
-	if (selectedCity === 'BELAGAVI') {
+	if (selectedCity === "BELAGAVI") {
 		dealersCity = <Belagavi />;
 	}
-	if (selectedCity === 'DAVANGERE') {
+	if (selectedCity === "DAVANGERE") {
 		dealersCity = <Davangere />;
 	}
-	if (selectedCity === 'DAKSHINA KARNATAKA') {
+	if (selectedCity === "DAKSHINA KARNATAKA") {
 		dealersCity = <Dk />;
 	}
-	if (selectedCity === 'GULBARGA') {
+	if (selectedCity === "GULBARGA") {
 		dealersCity = <Gulbarga />;
 	}
-	if (selectedCity === 'HASSAN') {
+	if (selectedCity === "HASSAN") {
 		dealersCity = <Hassan />;
 	}
-	if (selectedCity === 'MANGALORE') {
+	if (selectedCity === "MANGALORE") {
 		dealersCity = <Mangalore />;
 	}
-	if (selectedCity === 'MYSORE') {
+	if (selectedCity === "MYSORE") {
 		dealersCity = <Mysore />;
 	}
-	if (selectedCity === 'ANANTHAPURA') {
+	if (selectedCity === "ANANTHAPURA") {
 		dealersCity = <Anantpur />;
 	}
-	if (selectedCity === 'VISHAKAPATNAM') {
+	if (selectedCity === "VISHAKAPATNAM") {
 		dealersCity = <Vizag />;
 	}
-	if (selectedCity === 'GUWAHATI') {
+	if (selectedCity === "GUWAHATI") {
 		dealersCity = <Guwahati />;
 	}
-	if (selectedCity === 'CHANDIGRAH') {
+	if (selectedCity === "CHANDIGRAH") {
 		dealersCity = <Chandigarh />;
 	}
-	if (selectedCity === 'DELHI') {
+	if (selectedCity === "DELHI") {
 		dealersCity = <Delhi />;
 	}
-	if (selectedCity === 'KANPUR') {
+	if (selectedCity === "KANPUR") {
 		dealersCity = <Kanpur />;
 	}
-	if (selectedCity === 'RAIPUR') {
+	if (selectedCity === "RAIPUR") {
 		dealersCity = <Raipur />;
 	}
-	if (selectedCity === 'VADODARA') {
+	if (selectedCity === "VADODARA") {
 		dealersCity = <Vadodara />;
 	}
-	if (selectedCity === 'AHMEDABAD') {
+	if (selectedCity === "AHMEDABAD") {
 		dealersCity = <Ahmedabad />;
 	}
-	if (selectedCity === 'SURAT') {
+	if (selectedCity === "SURAT") {
 		dealersCity = <Surat />;
 	}
 
-	if (selectedCity === 'ERNAKULAM') {
+	if (selectedCity === "ERNAKULAM") {
 		dealersCity = <Ernakulam />;
 	}
-	if (selectedCity === 'KASARGOD') {
+	if (selectedCity === "KASARGOD") {
 		dealersCity = <Kasaragod />;
 	}
-	if (selectedCity === 'THRISSUR') {
+	if (selectedCity === "THRISSUR") {
 		dealersCity = <Thrissur />;
 	}
-	if (selectedCity === 'KOTHAMANGALAM') {
+	if (selectedCity === "KOTHAMANGALAM") {
 		dealersCity = <Kothamangalam />;
 	}
-	if (selectedCity === 'KANNUR') {
+	if (selectedCity === "KANNUR") {
 		dealersCity = <Kannur />;
 	}
 
-	if (selectedCity === 'KOLKATTA') {
+	if (selectedCity === "KOLKATTA") {
 		dealersCity = <Kolkatta />;
 	}
 
-	if (selectedCity === 'NAGPUR') {
+	if (selectedCity === "NAGPUR") {
 		dealersCity = <Nagpur />;
 	}
-	if (selectedCity === 'KOLHAPUR') {
+	if (selectedCity === "KOLHAPUR") {
 		dealersCity = <Kolhapur />;
 	}
-	if (selectedCity === 'MUMBAI') {
+	if (selectedCity === "MUMBAI") {
 		dealersCity = <Mumbai />;
 	}
-	if (selectedCity === 'DEOPUR') {
+	if (selectedCity === "DEOPUR") {
 		dealersCity = <Deopur />;
 	}
-	if (selectedCity === 'PUNE') {
+	if (selectedCity === "PUNE") {
 		dealersCity = <Pune />;
 	}
-	if (selectedCity === 'AMRAVATI') {
+	if (selectedCity === "AMRAVATI") {
 		dealersCity = <Amravati />;
 	}
-	if (selectedCity === 'SOLAPUR') {
+	if (selectedCity === "SOLAPUR") {
 		dealersCity = <Solapur />;
 	}
-	if (selectedCity === 'NASIK') {
+	if (selectedCity === "NASIK") {
 		dealersCity = <Nasik />;
 	}
-	if (selectedCity === 'JALNA') {
+	if (selectedCity === "JALNA") {
 		dealersCity = <Jalna />;
 	}
 
-	if (selectedCity === 'CHHINDWARA') {
+	if (selectedCity === "CHHINDWARA") {
 		dealersCity = <Chhindwara />;
 	}
-	if (selectedCity === 'VIDISHA') {
+	if (selectedCity === "VIDISHA") {
 		dealersCity = <Vidisha />;
 	}
-	if (selectedCity === 'INDORE') {
+	if (selectedCity === "INDORE") {
 		dealersCity = <Indore />;
 	}
 
-	if (selectedCity === 'MANIPUR') {
+	if (selectedCity === "MANIPUR") {
 		dealersCity = <Manipur />;
 	}
-	if (selectedCity === 'KORAPUT') {
+	if (selectedCity === "KORAPUT") {
 		dealersCity = <Koraput />;
 	}
-	if (selectedCity === 'BERHAMPUR') {
+	if (selectedCity === "BERHAMPUR") {
 		dealersCity = <Berhampur />;
 	}
-	if (selectedCity === 'BHUBANESWAR') {
+	if (selectedCity === "BHUBANESWAR") {
 		dealersCity = <Bhubaneswar />;
 	}
-	if (selectedCity === 'BARGARH') {
+	if (selectedCity === "BARGARH") {
 		dealersCity = <Bargarh />;
 	}
-	if (selectedCity === 'SAMBALPUR') {
+	if (selectedCity === "SAMBALPUR") {
 		dealersCity = <Sambalpur />;
 	}
 
-	if (selectedCity === 'AJMER') {
+	if (selectedCity === "AJMER") {
 		dealersCity = <Ajmer />;
 	}
-	if (selectedCity === 'JAIPUR') {
+	if (selectedCity === "JAIPUR") {
 		dealersCity = <Jaipur />;
 	}
-	if (selectedCity === 'HYDERABAD') {
+	if (selectedCity === "HYDERABAD") {
 		dealersCity = <Hyderabad />;
 	}
 
-	if (selectedCity === 'CHENNAI') {
+	if (selectedCity === "CHENNAI") {
 		dealersCity = <Chennai />;
 	}
-	if (selectedCity === 'COIMBATORE') {
+	if (selectedCity === "COIMBATORE") {
 		dealersCity = <Coimbatore />;
 	}
-	if (selectedCity === 'ERODE') {
+	if (selectedCity === "ERODE") {
 		dealersCity = <Erode />;
 	}
-	if (selectedCity === 'PONDICHERRY') {
+	if (selectedCity === "PONDICHERRY") {
 		dealersCity = <Pondicherry />;
 	}
-	if (selectedCity === 'TRICHY') {
+	if (selectedCity === "TRICHY") {
 		dealersCity = <Trichy />;
 	}
-	if (selectedCity === 'TIRUPUR') {
+	if (selectedCity === "TIRUPUR") {
 		dealersCity = <Tirupur />;
 	}
-	if (selectedCity === 'MADURAI') {
+	if (selectedCity === "MADURAI") {
 		dealersCity = <Madurai />;
 	}
 
-	if (selectedCity === 'FARIDABAD') {
+	if (selectedCity === "FARIDABAD") {
 		dealersCity = <Faridabad />;
 	}
-	if (selectedCity === 'JALANDHAR') {
+	if (selectedCity === "JALANDHAR") {
 		dealersCity = <Jalandhar />;
 	}
-	if (selectedCity === 'GURUGRAM') {
+	if (selectedCity === "GURUGRAM") {
 		dealersCity = <Gurugram />;
 	}
-	if (selectedCity === 'RANCHI') {
+	if (selectedCity === "RANCHI") {
 		dealersCity = <Ranchi />;
 	}
 
-	if (selectedCity === 'PHILIPINNES') {
+	if (selectedCity === "MALABON") {
 		dealersCity = <Philippines />;
 	}
-	if (selectedCity === 'BOGOTA') {
+	if (selectedCity === "BOGOTA") {
 		dealersCity = <Bogota />;
 	}
 
