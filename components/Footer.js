@@ -28,11 +28,11 @@ const Footer = () => {
 								<p>
 									<a
 										target="_blank"
-										href="https://api.whatsapp.com/send?phone=+919448076595&text=%20Hello, I wanted to purchase Rainy Filter"
+										href="https://api.whatsapp.com/send?phone=+917338033790&text=%20Hello, I wanted to purchase Rainy Filter"
 									>
 										<i className="fa fa-whatsapp" aria-hidden="true" />
 									</a>
-									+91 94480 76595
+									+91 73380 33790
 								</p>
 								<p>
 									<a target="_blank" href="tel:9448130524">
@@ -83,13 +83,19 @@ const Footer = () => {
 									>
 										<i className="fa fa-linkedin-square" aria-hidden="true" />
 									</a>
-									<a href="https://www.pinterest.com" target="_blank">
+									<a
+										href="https://in.pinterest.com/rainyfilters/"
+										target="_blank"
+									>
 										<i class="fa fa-pinterest" aria-hidden="true"></i>
 									</a>
-									<a href="https://www.quora.com" target="_blank">
+									<a
+										href="https://www.quora.com/profile/Rainy-Filters"
+										target="_blank"
+									>
 										<i class="fa fa-quora" aria-hidden="true"></i>
 									</a>
-									<a href="https://www.twitter.com" target="_blank">
+									<a href="https://twitter.com/rainy_filters02" target="_blank">
 										<i class="fa fa-twitter" aria-hidden="true"></i>
 									</a>
 								</p>
