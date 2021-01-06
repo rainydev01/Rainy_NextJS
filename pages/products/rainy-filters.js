@@ -537,7 +537,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								</div>
 								<div className="modal-body">
 									<img
-										src="../../static/images/filters/fl-100.png"
+										src="../../static/images/filters/FL-150.png"
 										className="img-fluid"
 										alt="FL-100"
 									/>
