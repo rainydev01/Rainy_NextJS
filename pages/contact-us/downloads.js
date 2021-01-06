@@ -157,21 +157,6 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 																<p>'Rainy' Technical Literature</p>
 															</div>
-															<div className="col-md-2">
-																<a
-																	href="../../static/pdf/FL-80UserManual.pdf"
-																	target="_blank"
-																>
-																	<i
-																		className="fa fa-file-pdf-o fa-3x"
-																		aria-hidden="true"
-																	></i>
-																</a>
-
-																<p>
-																	FL 80 <br></br> User Manual{" "}
-																</p>
-															</div>
 															<div className="col-md-4"></div>
 														</div>
 													</div>
@@ -255,6 +240,27 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												<div className="card-body">
 													{/* Lorum ipsom is a dummy text, Here is a text is only
 													for test. */}
+													<div className="container-fluid">
+														<div className="row">
+															<div className="col-md-2">
+																<a
+																	href="../../static/pdf/FL-80UserManual.pdf"
+																	target="_blank"
+																>
+																	<i
+																		className="fa fa-file-pdf-o fa-3x"
+																		aria-hidden="true"
+																	></i>
+																</a>
+
+																<p>
+																	FL 80 <br></br> User Manual{" "}
+																</p>
+															</div>
+															<div className="col-md-2"></div>
+															<div className="col-md-4"></div>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
