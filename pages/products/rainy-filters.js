@@ -1,8 +1,8 @@
-import {Fragment} from "react";
-import Head from "next/head";
-import Link from "next/link";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import {Fragment} from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 export default function Home() {
 	return (
@@ -10,7 +10,7 @@ export default function Home() {
 			<Head>
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
 
 				<script
@@ -25,21 +25,21 @@ export default function Home() {
 				/>
 				<title>Rainy - Filters</title>
 				<link
-					rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-					crossOrigin="anonymous"
+					rel='stylesheet'
+					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
+					crossOrigin='anonymous'
 				/>
 				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+					rel='stylesheet'
+					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' />
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js' />
+				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' />
 				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+					rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -47,10 +47,10 @@ export default function Home() {
 							/* eslint-disable no-new */
 							new window.google.translate.TranslateElement(
 								{
-									pageLanguage: "pt",
+									pageLanguage: 'pt',
 								},
-								"google_translate_element"
-							);
+								'google_translate_element'
+							)
 						},
 					}}
 				/>
@@ -78,117 +78,117 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 				/>
 			</Head>
 			<main>
-				<div className="App">
+				<div className='App'>
 					<Header />
-					<div className="container-fluid banner enternal">
-						<div className="hero-image enthroimg">
-							<img src="../../static/images/products/Group1240.jpg" />
-							<div className="hero-text rnyfltrs">
+					<div className='container-fluid banner enternal'>
+						<div className='hero-image enthroimg'>
+							<img src='../../static/images/products/Group1240.jpg' />
+							<div className='hero-text rnyfltrs'>
 								<h1>'RAINY' FILTERS</h1>
 							</div>
 						</div>
 					</div>
 
-					<div className="container-fluid">
-						<div className="container">
-							<div className="row">
-								<div className="">
-									<h1 className="fl80">FL 80</h1>
+					<div className='container-fluid'>
+						<div className='container'>
+							<div className='row'>
+								<div className=''>
+									<h1 className='fl80'>FL-80</h1>
 									<p
 										style={{
-											textAlign: "center",
-											fontSize: "16px",
-											fontWeight: "500",
-											color: "black",
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black',
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning, with unique working principle. FL 80 is
+										self cleaning, with unique working principle. FL-80 is
 										suitable for upto 120 sq.m rooftop area.
 									</p>
 								</div>
-								<div className="col-md-4">
-									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL_80-min.png" />
+								<div className='col-md-4'>
+									<div className='rainyfilterimg'>
+										<img src='../../static/images/products/FL_80-min.png' />
 									</div>
 								</div>
-								<div className="col-md-8">
-									<div className="techpointslst">
-										<table className="table table-striped  table-bordered ">
+								<div className='col-md-8'>
+									<div className='techpointslst'>
+										<table className='table table-striped  table-bordered '>
 											<tbody>
 												<tr>
-													<td style={{width: "40%"}} className="borderRight">
+													<td style={{width: '40%'}} className='borderRight'>
 														Suitable for Area
 													</td>
 													<td>Upto 120 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Intensity of Rainfall</td>
+													<td className='borderRight'>Intensity of Rainfall</td>
 													<td>5 mm/Hour to 75 mm/Hour</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Type</td>
+													<td className='borderRight'>Filter Type</td>
 													<td>Open ended, Non-clog</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle</td>
+													<td className='borderRight'>Working Principle</td>
 													<td>Cohesive Force & Centrifugal Force</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure</td>
+													<td className='borderRight'>Operating Pressure</td>
 													<td> > 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Max Discharge at (CWO)
 													</td>
-													<td>120 LPM</td>
+													<td>120 Liters per minute</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element</td>
+													<td className='borderRight'>Filter Element</td>
 													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size</td>
+													<td className='borderRight'>Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet Size</td>
+													<td className='borderRight'>Inlet Size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Clean Water Outlet size (CWO)
 													</td>
 													<td>63 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet size</td>
+													<td className='borderRight'>Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Filter Housing</td>
+													<td className='borderRight'>Filter Housing</td>
 													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Efficiency</td>
+													<td className='borderRight'>Filter Efficiency</td>
 													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power</td>
+													<td className='borderRight'>Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
 										</table>
-										<div className="container-fluid">
-											<div className="row">
-												<div className="col-md-3">
-													<div className="yellowbtn">
+										<div className='container-fluid'>
+											<div className='row'>
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<button
-															data-toggle="modal"
-															data-target="#fl80Dimension"
+															data-toggle='modal'
+															data-target='#fl80Dimension'
 														>
 															Overall <br></br>Dimension
 														</button>
@@ -204,14 +204,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/enquire"
+															href='/contact-us/enquire'
 														>
 															<button>
 																Enquire <br /> Now
@@ -219,14 +219,15 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="www.amazon.com"
+															target='_blank'
+															href='https://www.amazon.in/dp/B08P4KHQ3S?ref=myi_title_dp'
 														>
 															<button>
 																Buy <br />
@@ -235,14 +236,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/dealers"
+															href='/contact-us/dealers'
 														>
 															<button>
 																Contact <br /> Dealers
@@ -259,43 +260,43 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div
-						className="modal fade"
-						id="fl80Dimension"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl80Dimension'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
 						<div
-							className="modal-dialog modal-dialog-centered modal-xl"
-							role="document"
+							className='modal-dialog modal-dialog-centered modal-xl'
+							role='document'
 						>
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 80 - Overall Dimension
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-80 - Overall Dimension
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">
+								<div className='modal-body'>
 									<img
-										src="../../static/images/filters/FL-80.png"
-										className="img-fluid"
-										alt="FL-100"
+										src='../../static/images/filters/FL-80.png'
+										className='img-fluid'
+										alt='FL-100'
 									/>
 								</div>
-								<div className="modal-footer">
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -315,7 +316,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 							<div className="modal-content">
 								<div className="modal-header">
 									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 80 - On Site Installation
+										FL-80 - On Site Installation
 									</h5>
 									<button
 										type="button"
@@ -340,100 +341,100 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div> */}
 
-					<div className="container-fluid fl100">
-						<div className="container">
-							<div className="row">
-								<div className="">
-									<h1 className="fl80">FL 150</h1>
+					<div className='container-fluid fl100'>
+						<div className='container'>
+							<div className='row'>
+								<div className=''>
+									<h1 className='fl80'>FL-150</h1>
 									<p
 										style={{
-											textAlign: "center",
-											fontSize: "16px",
-											fontWeight: "500",
-											color: "black",
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black',
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle. FL 150 is
+										self cleaning with unique working principle. FL-150 is
 										suitable for 120 to 180 sq.m rooftop area.
 									</p>
 								</div>
-								<div className="col-md-8">
-									<div className="techpointslst">
-										<table className="table table-striped  table-bordered ">
+								<div className='col-md-8'>
+									<div className='techpointslst'>
+										<table className='table table-striped  table-bordered '>
 											<tbody>
 												<tr>
-													<td style={{width: "40%"}} className="borderRight">
+													<td style={{width: '40%'}} className='borderRight'>
 														Suitable for Area
 													</td>
 													<td>Upto 180 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Intensity of Rainfall</td>
+													<td className='borderRight'>Intensity of Rainfall</td>
 													<td>5 mm/Hour to 75 mm/Hour</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Type</td>
+													<td className='borderRight'>Filter Type</td>
 													<td>Open ended, Non-clog</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle</td>
+													<td className='borderRight'>Working Principle</td>
 													<td>Cohesive Force & Centrifugal Force</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure</td>
+													<td className='borderRight'>Operating Pressure</td>
 													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Max Discharge at (CWO)
 													</td>
-													<td>180 LPM</td>
+													<td>180 Liters per minute</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element</td>
+													<td className='borderRight'>Filter Element</td>
 													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size</td>
+													<td className='borderRight'>Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet size</td>
+													<td className='borderRight'>Inlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Clean Water Outlet size (CWO)
 													</td>
 													<td>75 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet size</td>
+													<td className='borderRight'>Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Housing</td>
+													<td className='borderRight'>Filter Housing</td>
 													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Efficiency</td>
+													<td className='borderRight'>Filter Efficiency</td>
 													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power</td>
+													<td className='borderRight'>Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
 										</table>
-										<div className="container-fluid">
-											<div className="row">
-												<div className="col-md-3">
-													<div className="yellowbtn">
+										<div className='container-fluid'>
+											<div className='row'>
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<button
-															data-toggle="modal"
-															data-target="#fl100Dimension"
+															data-toggle='modal'
+															data-target='#fl100Dimension'
 														>
 															Overall <br></br> Dimension
 														</button>
@@ -449,14 +450,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/enquire"
+															href='/contact-us/enquire'
 														>
 															<button>
 																Enquire <br /> Now
@@ -464,14 +465,15 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="www.amazon.com"
+															target='_blank'
+															href='https://www.amazon.in/dp/B08SMGCLG1?ref=myi_title_dp'
 														>
 															<button>
 																Buy <br />
@@ -480,14 +482,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/dealers"
+															href='/contact-us/dealers'
 														>
 															<button>
 																Contact <br /> Dealers
@@ -500,9 +502,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									</div>
 								</div>
 
-								<div className="col-md-4">
-									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL_150-min.png" />
+								<div className='col-md-4'>
+									<div className='rainyfilterimg'>
+										<img src='../../static/images/products/FL_150-min.png' />
 									</div>
 								</div>
 							</div>
@@ -510,43 +512,43 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div
-						className="modal fade "
-						id="fl100Dimension"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade '
+						id='fl100Dimension'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
 						<div
-							className="modal-dialog modal-dialog-centered modal-xl"
-							role="document"
+							className='modal-dialog modal-dialog-centered modal-xl'
+							role='document'
 						>
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 150 - Overall Dimension
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-150 - Overall Dimension
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">
+								<div className='modal-body'>
 									<img
-										src="../../static/images/filters/FL-150.png"
-										className="img-fluid"
-										alt="FL-100"
+										src='../../static/images/filters/FL-150.png'
+										className='img-fluid'
+										alt='FL-100'
 									/>
 								</div>
-								<div className="modal-footer">
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -555,34 +557,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						className="modal fade"
-						id="fl100Installation"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl100Installation'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
-						<div className="modal-dialog modal-dialog-centered" role="document">
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 150 - On Site Installation
+						<div className='modal-dialog modal-dialog-centered' role='document'>
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-150 - On Site Installation
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">...</div>
-								<div className="modal-footer">
+								<div className='modal-body'>...</div>
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -591,105 +593,105 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 
-					<div className="container-fluid fl200fltr">
-						<div className="container">
-							<div className="row">
-								<div className="">
-									<h1 className="fl80">FL 200</h1>
+					<div className='container-fluid fl200fltr'>
+						<div className='container'>
+							<div className='row'>
+								<div className=''>
+									<h1 className='fl80'>FL-200</h1>
 									<p
 										style={{
-											textAlign: "center",
-											fontSize: "16px",
-											fontWeight: "500",
-											color: "black",
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black',
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle. FL 200 is
+										self cleaning with unique working principle. FL-200 is
 										suitable for 180 to 225 sq.m rooftop area.
 									</p>
 								</div>
-								<div className="col-md-4">
-									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL_200-min.png" />
+								<div className='col-md-4'>
+									<div className='rainyfilterimg'>
+										<img src='../../static/images/products/FL_200-min.png' />
 									</div>
 								</div>
-								<div className="col-md-8">
-									<div className="techpointslst">
-										<table className="table table-striped  table-bordered ">
+								<div className='col-md-8'>
+									<div className='techpointslst'>
+										<table className='table table-striped  table-bordered '>
 											<tbody>
 												<tr>
-													<td style={{width: "40%"}} className="borderRight">
+													<td style={{width: '40%'}} className='borderRight'>
 														Suitable for Area
 													</td>
 													<td> Upto 225 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Intensity of Rainfall</td>
+													<td className='borderRight'>Intensity of Rainfall</td>
 													<td>5mm/Hour to 75 mm/Hour</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Type</td>
+													<td className='borderRight'>Filter Type</td>
 													<td>Open ended, Non-clog</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle</td>
+													<td className='borderRight'>Working Principle</td>
 													<td>Cohesive Force & Centrifugal Force</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure</td>
+													<td className='borderRight'>Operating Pressure</td>
 													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Max Discharge at (CWO)
 													</td>
-													<td>225 LPM</td>
+													<td>225 Liters per minute</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element</td>
+													<td className='borderRight'>Filter Element</td>
 													<td>SS-304 Multi-Surface Screen -Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size</td>
+													<td className='borderRight'>Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet size</td>
+													<td className='borderRight'>Inlet size</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Clean Water Outlet size (CWO)
 													</td>
 													<td>75 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet size</td>
+													<td className='borderRight'>Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Housing</td>
+													<td className='borderRight'>Filter Housing</td>
 													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Efficiency</td>
+													<td className='borderRight'>Filter Efficiency</td>
 													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power</td>
+													<td className='borderRight'>Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
 										</table>
-										<div className="container-fluid">
-											<div className="row">
-												<div className="col-md-3">
-													<div className="yellowbtn">
+										<div className='container-fluid'>
+											<div className='row'>
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<button
-															data-toggle="modal"
-															data-target="#fl200Dimension"
+															data-toggle='modal'
+															data-target='#fl200Dimension'
 														>
 															Overall <br></br> Dimension
 														</button>
@@ -705,14 +707,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/enquire"
+															href='/contact-us/enquire'
 														>
 															<button>
 																Enquire <br /> Now
@@ -720,14 +722,15 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="www.amazon.com"
+															target='_blank'
+															href='https://www.amazon.in/dp/B08SMJH6WJ?ref=myi_title_dp'
 														>
 															<button>
 																Buy <br />
@@ -736,14 +739,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/dealers"
+															href='/contact-us/dealers'
 														>
 															<button>
 																Contact <br /> Dealers
@@ -759,43 +762,43 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						className="modal fade"
-						id="fl200Dimension"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl200Dimension'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
 						<div
-							className="modal-dialog modal-dialog-centered modal-xl"
-							role="document"
+							className='modal-dialog modal-dialog-centered modal-xl'
+							role='document'
 						>
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 200 - Overall Dimension
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-200 - Overall Dimension
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">
+								<div className='modal-body'>
 									<img
-										src="../../static/images/filters/fl-200.png"
-										className="img-fluid"
-										alt="FL-200"
+										src='../../static/images/filters/fl-200.png'
+										className='img-fluid'
+										alt='FL-200'
 									/>
 								</div>
-								<div className="modal-footer">
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -804,34 +807,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						className="modal fade"
-						id="fl200Installation"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl200Installation'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
-						<div className="modal-dialog modal-dialog-centered" role="document">
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 200 - On Site Installation
+						<div className='modal-dialog modal-dialog-centered' role='document'>
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-200 - On Site Installation
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">...</div>
-								<div className="modal-footer">
+								<div className='modal-body'>...</div>
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -840,100 +843,100 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 
-					<div className="container-fluid fl100">
-						<div className="container">
-							<div className="row">
-								<div className="">
-									<h1 className="fl80">FL 300</h1>
+					<div className='container-fluid fl100'>
+						<div className='container'>
+							<div className='row'>
+								<div className=''>
+									<h1 className='fl80'>FL-300</h1>
 									<p
 										style={{
-											textAlign: "center",
-											fontSize: "16px",
-											fontWeight: "500",
-											color: "black",
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black',
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle. FL 300 is
+										self cleaning with unique working principle. FL-300 is
 										suitable for 225 to 350 sq.m rooftop area.
 									</p>
 								</div>
-								<div className="col-md-8">
-									<div className="techpointslst">
-										<table className="table table-striped  table-bordered ">
+								<div className='col-md-8'>
+									<div className='techpointslst'>
+										<table className='table table-striped  table-bordered '>
 											<tbody>
 												<tr>
-													<td style={{width: "40%"}} className="borderRight">
+													<td style={{width: '40%'}} className='borderRight'>
 														Suitable for Area
 													</td>
 													<td> Upto 350 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Intensity of Rainfall</td>
+													<td className='borderRight'>Intensity of Rainfall</td>
 													<td>5 mm/Hour to 75 mm/Hour</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Type</td>
+													<td className='borderRight'>Filter Type</td>
 													<td>Open ended, Non-clog</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle</td>
+													<td className='borderRight'>Working Principle</td>
 													<td>Cohesive Force & Centrifugal Force</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure</td>
+													<td className='borderRight'>Operating Pressure</td>
 													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Max Discharge at (CWO)
 													</td>
-													<td>340 LPM</td>
+													<td>340 Liters per minute</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element</td>
+													<td className='borderRight'>Filter Element</td>
 													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size</td>
+													<td className='borderRight'>Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet size</td>
+													<td className='borderRight'>Inlet size</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Clean Water Outlet size (CWO)
 													</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet size</td>
+													<td className='borderRight'>Drain Outlet size</td>
 													<td>90 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Housing</td>
+													<td className='borderRight'>Filter Housing</td>
 													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Efficiency</td>
+													<td className='borderRight'>Filter Efficiency</td>
 													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power</td>
+													<td className='borderRight'>Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
 										</table>
-										<div className="container-fluid">
-											<div className="row">
-												<div className="col-md-3">
-													<div className="yellowbtn">
+										<div className='container-fluid'>
+											<div className='row'>
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<button
-															data-toggle="modal"
-															data-target="#fl300Dimension"
+															data-toggle='modal'
+															data-target='#fl300Dimension'
 														>
 															Overall <br></br> Dimension
 														</button>
@@ -949,14 +952,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/enquire"
+															href='/contact-us/enquire'
 														>
 															<button>
 																Enquire <br /> Now
@@ -964,14 +967,15 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="www.amazon.com"
+															target='_blank'
+															href='https://www.amazon.in/dp/B08SMDSSZW?ref=myi_title_dp'
 														>
 															<button>
 																Buy <br />
@@ -980,14 +984,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/dealers"
+															href='/contact-us/dealers'
 														>
 															<button>
 																Contact <br /> Dealers
@@ -1000,52 +1004,52 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									</div>
 								</div>
 
-								<div className="col-md-4">
-									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL_300-min.png" />
+								<div className='col-md-4'>
+									<div className='rainyfilterimg'>
+										<img src='../../static/images/products/FL_300-min.png' />
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div
-						className="modal fade"
-						id="fl300Dimension"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl300Dimension'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
 						<div
-							className="modal-dialog modal-dialog-centered modal-xl"
-							role="document"
+							className='modal-dialog modal-dialog-centered modal-xl'
+							role='document'
 						>
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 300 - Overall Dimension
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-300 - Overall Dimension
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">
+								<div className='modal-body'>
 									<img
-										src="../../static/images/filters/fl-300.png"
-										className="img-fluid"
-										alt="FL-300"
+										src='../../static/images/filters/fl-300.png'
+										className='img-fluid'
+										alt='FL-300'
 									/>
 								</div>
-								<div className="modal-footer">
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -1054,34 +1058,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						className="modal fade"
-						id="fl300Installation"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl300Installation'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
-						<div className="modal-dialog modal-dialog-centered" role="document">
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 300 - On Site Installation
+						<div className='modal-dialog modal-dialog-centered' role='document'>
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-300 - On Site Installation
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">...</div>
-								<div className="modal-footer">
+								<div className='modal-body'>...</div>
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -1090,106 +1094,106 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 
-					<div className="container-fluid fl500fltr">
-						<div className="container">
-							<div className="row">
-								<div className="">
-									<h1 className="fl80">FL 500</h1>
+					<div className='container-fluid fl500fltr'>
+						<div className='container'>
+							<div className='row'>
+								<div className=''>
+									<h1 className='fl80'>FL-500</h1>
 									<p
 										style={{
-											textAlign: "center",
-											fontSize: "16px",
-											fontWeight: "500",
-											color: "black",
+											textAlign: 'center',
+											fontSize: '16px',
+											fontWeight: '500',
+											color: 'black',
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle. FL 500 is
+										self cleaning with unique working principle. FL-500 is
 										suitable for 350 to 500 sq.m rooftop area.
 									</p>
 								</div>
-								<div className="col-md-4">
-									<div className="rainyfilterimg">
-										<img src="../../static/images/products/FL_500-min.png" />
+								<div className='col-md-4'>
+									<div className='rainyfilterimg'>
+										<img src='../../static/images/products/FL_500-min.png' />
 									</div>
 								</div>
-								<div className="col-md-8">
-									<div className="techpointslst">
-										<table className="table table-striped  table-bordered ">
+								<div className='col-md-8'>
+									<div className='techpointslst'>
+										<table className='table table-striped  table-bordered '>
 											<tbody>
 												<tr>
-													<td style={{width: "40%"}} className="borderRight">
+													<td style={{width: '40%'}} className='borderRight'>
 														Suitable for Area
 													</td>
 													<td> Upto 500 SQMTRS</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Intensity of Rainfall</td>
+													<td className='borderRight'>Intensity of Rainfall</td>
 													<td>5 mm/Hour to 75 mm/Hour</td>
 												</tr>
 
 												<tr>
-													<td className="borderRight">Filter Type</td>
+													<td className='borderRight'>Filter Type</td>
 													<td>Open ended, Non-clog</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Working Principle</td>
+													<td className='borderRight'>Working Principle</td>
 													<td>Cohesive Force & Centrifugal force</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Operating Pressure</td>
+													<td className='borderRight'>Operating Pressure</td>
 													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Max Discharge at (CWO)
 													</td>
-													<td>480 LPM</td>
+													<td>480 Liters per minute</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Element</td>
+													<td className='borderRight'>Filter Element</td>
 													<td>SS-304 Multi-Surface Screen - Food Grade</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Mesh Size</td>
+													<td className='borderRight'>Mesh Size</td>
 													<td>250 Microns</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Inlet size</td>
+													<td className='borderRight'>Inlet size</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">
+													<td className='borderRight'>
 														Clean Water Outlet size (CWO)
 													</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Drain Outlet size</td>
+													<td className='borderRight'>Drain Outlet size</td>
 													<td>110 MM</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Housing</td>
+													<td className='borderRight'>Filter Housing</td>
 													<td>UV Stabilized - HDPE</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Filter Efficiency</td>
+													<td className='borderRight'>Filter Efficiency</td>
 													<td>Above 90%*</td>
 												</tr>
 												<tr>
-													<td className="borderRight">Source of Power</td>
+													<td className='borderRight'>Source of Power</td>
 													<td>Gravity</td>
 												</tr>
 											</tbody>
 										</table>
-										<div className="container-fluid">
-											<div className="row">
-												<div className="col-md-3">
-													<div className="yellowbtn">
+										<div className='container-fluid'>
+											<div className='row'>
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<button
-															data-toggle="modal"
-															data-target="#fl500Dimension"
+															data-toggle='modal'
+															data-target='#fl500Dimension'
 														>
 															Overall <br></br> Dimension
 														</button>
@@ -1205,14 +1209,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/enquire"
+															href='/contact-us/enquire'
 														>
 															<button>
 																Enquire <br /> Now
@@ -1220,14 +1224,15 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="www.amazon.com"
+															target='_blank'
+															href='https://www.amazon.in/dp/B08SMFYVTM?ref=myi_title_dp'
 														>
 															<button>
 																Buy <br />
@@ -1236,14 +1241,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</a>
 													</div>
 												</div>
-												<div className="col-md-3">
-													<div className="yellowbtn">
+												<div className='col-md-3'>
+													<div className='yellowbtn'>
 														<a
 															style={{
-																fontFamily: "Visby Round CF Heavy",
+																fontFamily: 'Visby Round CF Heavy',
 																fontSize: 16,
 															}}
-															href="/contact-us/dealers"
+															href='/contact-us/dealers'
 														>
 															<button>
 																Contact <br /> Dealers
@@ -1259,43 +1264,43 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						className="modal fade"
-						id="fl500Dimension"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl500Dimension'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
 						<div
-							className="modal-dialog modal-dialog-centered modal-xl"
-							role="document"
+							className='modal-dialog modal-dialog-centered modal-xl'
+							role='document'
 						>
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 500 - Overall Dimension
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-500 - Overall Dimension
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">
+								<div className='modal-body'>
 									<img
-										src="../../static/images/filters/fl-500.png"
-										className="img-fluid"
-										alt="FL-500"
+										src='../../static/images/filters/fl-500.png'
+										className='img-fluid'
+										alt='FL-500'
 									/>
 								</div>
-								<div className="modal-footer">
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
@@ -1304,40 +1309,54 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						className="modal fade"
-						id="fl500Installation"
-						tabIndex="-1"
-						role="dialog"
-						aria-labelledby="exampleModalCenterTitle"
-						aria-hidden="true"
+						className='modal fade'
+						id='fl500Installation'
+						tabIndex='-1'
+						role='dialog'
+						aria-labelledby='exampleModalCenterTitle'
+						aria-hidden='true'
 					>
-						<div className="modal-dialog modal-dialog-centered" role="document">
-							<div className="modal-content">
-								<div className="modal-header">
-									<h5 className="modal-title" id="exampleModalLongTitle">
-										FL 500 - On Site Installation
+						<div className='modal-dialog modal-dialog-centered' role='document'>
+							<div className='modal-content'>
+								<div className='modal-header'>
+									<h5 className='modal-title' id='exampleModalLongTitle'>
+										FL-500 - On Site Installation
 									</h5>
 									<button
-										type="button"
-										className="close"
-										data-dismiss="modal"
-										aria-label="Close"
+										type='button'
+										className='close'
+										data-dismiss='modal'
+										aria-label='Close'
 									>
-										<span aria-hidden="true">&times;</span>
+										<span aria-hidden='true'>&times;</span>
 									</button>
 								</div>
-								<div className="modal-body">...</div>
-								<div className="modal-footer">
+								<div className='modal-body'>...</div>
+								<div className='modal-footer'>
 									<button
-										type="button"
-										className="btn btn-secondary"
-										data-dismiss="modal"
+										type='button'
+										className='btn btn-secondary'
+										data-dismiss='modal'
 									>
 										Close
 									</button>
 								</div>
 							</div>
 						</div>
+					</div>
+					<div className='row'>
+						<div className='col-md-4'></div>
+						<div className='col-md-4 text-center'>
+							<p style={{fontSize: 16}}>
+								<Link href='/contact-us/downloads'>
+									<a style={{fontSize: '16px'}}>
+										{' '}
+										Click here for detailed instructions/guide{' '}
+									</a>
+								</Link>
+							</p>
+						</div>
+						<div className='col-md-4'></div>
 					</div>
 
 					<Footer />
@@ -1346,5 +1365,5 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 			<footer />
 		</Fragment>
-	);
+	)
 }
