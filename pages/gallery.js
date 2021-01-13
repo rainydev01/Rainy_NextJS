@@ -1,57 +1,57 @@
-import {Fragment, useState, useCallback} from "react";
-import Head from "next/head";
-import Link from "next/link";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Gallery from "react-photo-gallery";
+import {Fragment, useState, useCallback} from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import Gallery from 'react-photo-gallery'
 
-import Carousel, {Modal, ModalGateway} from "react-images";
+import Carousel, {Modal, ModalGateway} from 'react-images'
 
 export default function Home() {
-	const [currentImage, setCurrentImage] = useState(0);
-	const [viewerIsOpen, setViewerIsOpen] = useState(false);
-	const [selectedView, setSelectedView] = useState(1);
+	const [currentImage, setCurrentImage] = useState(0)
+	const [viewerIsOpen, setViewerIsOpen] = useState(false)
+	const [selectedView, setSelectedView] = useState(1)
 
-	let gallerySelectedComponent = null;
-	let basicCSS = "btn btn-default filter-button";
+	let gallerySelectedComponent = null
+	let basicCSS = 'btn btn-default filter-button'
 
 	const onChange = (value) => {
-		setSelectedView(parseInt(value));
-	};
+		setSelectedView(parseInt(value))
+	}
 
 	const openLightbox = useCallback((event, {photo, index}) => {
-		setCurrentImage(index);
-		setViewerIsOpen(true);
-	}, []);
+		setCurrentImage(index)
+		setViewerIsOpen(true)
+	}, [])
 
 	const closeLightbox = () => {
-		setCurrentImage(0);
-		setViewerIsOpen(false);
-	};
+		setCurrentImage(0)
+		setViewerIsOpen(false)
+	}
 
 	const photos = [
 		{
-			src: "../static/images/galleryNew/Apartment.jpg",
+			src: '../static/images/galleryNew/Apartment.jpg',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/BorewellRings.JPG",
+			src: '../static/images/galleryNew/BorewellRings.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/Expansionofnetwork.JPG",
+			src: '../static/images/galleryNew/Expansionofnetwork.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/GovtBuilding.jpg",
+			src: '../static/images/galleryNew/GovtBuilding.jpg',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/GroundWaterRecharing.JPG",
+			src: '../static/images/galleryNew/GroundWaterRecharing.JPG',
 			width: 4,
 			height: 3,
 		},
@@ -61,77 +61,77 @@ export default function Home() {
 		// 	height: 3,
 		// },
 		{
-			src: "../static/images/galleryNew/IndependentHouse.jpg",
+			src: '../static/images/galleryNew/IndependentHouse.jpg',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/Industries.JPG",
+			src: '../static/images/galleryNew/Industries.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/InternationalVisitors.JPG",
+			src: '../static/images/galleryNew/InternationalVisitors.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/ITSector.JPG",
+			src: '../static/images/galleryNew/ITSector.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/LiveDemoTruck.jpg",
+			src: '../static/images/galleryNew/LiveDemoTruck.jpg',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/R _ D.JPG",
+			src: '../static/images/galleryNew/R _ D.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/RooftopRWH.JPG",
+			src: '../static/images/galleryNew/RooftopRWH.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/Schools.jpg",
+			src: '../static/images/galleryNew/Schools.jpg',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/SystemsandSolutions.JPG",
+			src: '../static/images/galleryNew/SystemsandSolutions.JPG',
 			width: 4,
 			height: 3,
 		},
 		{
-			src: "../static/images/galleryNew/WithDignitaries.JPG",
+			src: '../static/images/galleryNew/WithDignitaries.JPG',
 			width: 4,
 			height: 3,
 		},
-	];
+	]
 
-	let basicCSS1 = "btn btn-default filter-button ";
-	let basicCSS2 = "btn btn-default filter-button ";
-	let basicCSS3 = "btn btn-default filter-button ";
-	let basicCSS4 = "btn btn-default filter-button ";
-	let basicCSS5 = "btn btn-default filter-button ";
-	let basicCSS6 = "btn btn-default filter-button ";
-	let basicCSS7 = "btn btn-default filter-button ";
-	let basicCSS8 = "btn btn-default filter-button ";
-	let basicCSS9 = "btn btn-default filter-button ";
-	let basicCSS10 = "btn btn-default filter-button ";
-	let basicCSS11 = "btn btn-default filter-button ";
-	let basicCSS12 = "btn btn-default filter-button ";
-	let basicCSS13 = "btn btn-default filter-button ";
-	let basicCSS14 = "btn btn-default filter-button ";
-	let basicCSS15 = "btn btn-default filter-button ";
+	let basicCSS1 = 'btn btn-default filter-button '
+	let basicCSS2 = 'btn btn-default filter-button '
+	let basicCSS3 = 'btn btn-default filter-button '
+	let basicCSS4 = 'btn btn-default filter-button '
+	let basicCSS5 = 'btn btn-default filter-button '
+	let basicCSS6 = 'btn btn-default filter-button '
+	let basicCSS7 = 'btn btn-default filter-button '
+	let basicCSS8 = 'btn btn-default filter-button '
+	let basicCSS9 = 'btn btn-default filter-button '
+	let basicCSS10 = 'btn btn-default filter-button '
+	let basicCSS11 = 'btn btn-default filter-button '
+	let basicCSS12 = 'btn btn-default filter-button '
+	let basicCSS13 = 'btn btn-default filter-button '
+	let basicCSS14 = 'btn btn-default filter-button '
+	let basicCSS15 = 'btn btn-default filter-button '
 
 	//for all images
 
 	if (selectedView === 1) {
-		basicCSS1 = "btn btn-default filter-button filter-button-active";
+		basicCSS1 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<Gallery photos={photos} onClick={openLightbox} />
@@ -150,205 +150,205 @@ export default function Home() {
 					) : null}
 				</ModalGateway>
 			</Fragment>
-		);
+		)
 	}
 
 	// for Rooftp RWh
 
 	if (selectedView === 2) {
-		basicCSS2 = "btn btn-default filter-button filter-button-active";
+		basicCSS2 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/RooftopRWH.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/RooftopRWH.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	// for GWR
 	if (selectedView === 3) {
-		basicCSS3 = "btn btn-default filter-button filter-button-active";
+		basicCSS3 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/GroundWaterRecharing.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/GroundWaterRecharing.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	// for Govt Buidld
 	if (selectedView === 4) {
-		basicCSS4 = "btn btn-default filter-button filter-button-active";
+		basicCSS4 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/GovtBuilding.jpg"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/GovtBuilding.jpg'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	// Borewell Rings
 	if (selectedView === 5) {
-		basicCSS5 = "btn btn-default filter-button filter-button-active";
+		basicCSS5 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/BorewellRings.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/BorewellRings.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//Schools
 	if (selectedView === 6) {
-		basicCSS6 = "btn btn-default filter-button filter-button-active";
+		basicCSS6 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/Schools.jpg"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/Schools.jpg'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	// for GWR Apartment
 	if (selectedView === 7) {
-		basicCSS7 = "btn btn-default filter-button filter-button-active";
+		basicCSS7 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/Apartment.jpg"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/Apartment.jpg'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//Houses
 	if (selectedView === 8) {
-		basicCSS8 = "btn btn-default filter-button filter-button-active";
+		basicCSS8 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/IndependentHouse.jpg"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/IndependentHouse.jpg'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//industries
 	if (selectedView === 9) {
-		basicCSS9 = "btn btn-default filter-button filter-button-active";
+		basicCSS9 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/Industries.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/Industries.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//digni
 	if (selectedView === 10) {
-		basicCSS10 = "btn btn-default filter-button filter-button-active";
+		basicCSS10 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/WithDignitaries.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/WithDignitaries.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//RD
 	if (selectedView === 11) {
-		basicCSS11 = "btn btn-default filter-button filter-button-active";
+		basicCSS11 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/R _ D.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/R _ D.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	// syst and soln
 	if (selectedView === 12) {
-		basicCSS12 = "btn btn-default filter-button filter-button-active";
+		basicCSS12 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/SystemsandSolutions.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/SystemsandSolutions.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//Intl Vistors
 	if (selectedView === 13) {
-		basicCSS13 = "btn btn-default filter-button filter-button-active";
+		basicCSS13 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/InternationalVisitors.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/InternationalVisitors.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//Live demo truck
 	if (selectedView === 14) {
-		basicCSS14 = "btn btn-default filter-button filter-button-active";
+		basicCSS14 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/LiveDemoTruck.jpg"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/LiveDemoTruck.jpg'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	//IT sector
 	if (selectedView === 15) {
-		basicCSS15 = "btn btn-default filter-button filter-button-active";
+		basicCSS15 = 'btn btn-default filter-button filter-button-active'
 		gallerySelectedComponent = (
 			<Fragment>
 				<img
 					// style={{borderRadius: 20}}
-					className=" center-block img-fluid"
-					src="../static/images/galleryNew/ITSector.JPG"
+					className=' center-block img-fluid'
+					src='../static/images/galleryNew/ITSector.JPG'
 				/>
 			</Fragment>
-		);
+		)
 	}
 
 	return (
@@ -356,7 +356,7 @@ export default function Home() {
 			<Head>
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
 
 				<script
@@ -371,21 +371,21 @@ export default function Home() {
 				/>
 				<title>Rainy - Gallery</title>
 				<link
-					rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-					crossOrigin="anonymous"
+					rel='stylesheet'
+					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
+					crossOrigin='anonymous'
 				/>
 				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+					rel='stylesheet'
+					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' />
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js' />
+				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' />
 				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+					rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -393,10 +393,10 @@ export default function Home() {
 							/* eslint-disable no-new */
 							new window.google.translate.TranslateElement(
 								{
-									pageLanguage: "pt",
+									pageLanguage: 'pt',
 								},
-								"google_translate_element"
-							);
+								'google_translate_element'
+							)
 						},
 					}}
 				/>
@@ -424,154 +424,154 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 				/>
 			</Head>
 			<main>
-				<div className="App">
+				<div className='App'>
 					<Header />
-					<div className="container-fluid banner enternal">
-						<div className="hero-image enthroimg">
-							<img src="../static/images/galleryNew/Image91.png" />
-							<div className="hero-text rnyfltrs gllryb">
+					<div className='container-fluid banner enternal'>
+						<div className='hero-image enthroimg'>
+							<img src='../static/images/galleryNew/Image91.png' />
+							<div className='hero-text rnyfltrs gllryb'>
 								<h1>GALLERY</h1>
 							</div>
 						</div>
 					</div>
 
-					<div className="container-fluid gallrymain">
-						<div className="container glrycntnr">
-							<div className="row">
-								<div class="glrymnu" align="center">
+					<div className='container-fluid gallrymain'>
+						<div className='container glrycntnr'>
+							<div className='row'>
+								<div class='glrymnu' align='center'>
 									<button
 										onClick={() => {
-											onChange(1);
+											onChange(1)
 										}}
 										className={basicCSS1}
-										data-filter="all"
-										style={{padding: "5px 45px"}}
+										data-filter='all'
+										style={{padding: '5px 45px'}}
 									>
 										All
 									</button>
 									<button
 										onClick={() => {
-											onChange(2);
+											onChange(2)
 										}}
 										className={basicCSS2}
-										data-filter="hdpe"
+										data-filter='hdpe'
 									>
 										Rooftop RWH
 									</button>
 									<button
 										onClick={() => {
-											onChange(3);
+											onChange(3)
 										}}
 										className={basicCSS3}
-										data-filter="hdpe"
+										data-filter='hdpe'
 									>
 										Groundwater Recharging
 									</button>
 									<button
 										onClick={() => {
-											onChange(4);
+											onChange(4)
 										}}
 										className={basicCSS4}
-										data-filter="sprinkle"
+										data-filter='sprinkle'
 									>
 										Govt. Buildings
 									</button>
 									<button
 										onClick={() => {
-											onChange(5);
+											onChange(5)
 										}}
 										className={basicCSS5}
-										data-filter="sprinkle"
+										data-filter='sprinkle'
 									>
-										Borewell Riggs
+										Borewell Rigs
 									</button>
 									<button
 										onClick={() => {
-											onChange(6);
+											onChange(6)
 										}}
 										className={basicCSS6}
-										data-filter="spray"
+										data-filter='spray'
 									>
 										Schools
 									</button>
 									<button
 										onClick={() => {
-											onChange(7);
+											onChange(7)
 										}}
 										className={basicCSS7}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										Apartments
 									</button>
 									<button
 										onClick={() => {
-											onChange(8);
+											onChange(8)
 										}}
 										className={basicCSS8}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										Houses
 									</button>
 									<button
 										onClick={() => {
-											onChange(9);
+											onChange(9)
 										}}
 										className={basicCSS9}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										Industries
 									</button>
 									<button
 										onClick={() => {
-											onChange(10);
+											onChange(10)
 										}}
 										className={basicCSS10}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										With Dignitaries
 									</button>
 									<button
 										onClick={() => {
-											onChange(11);
+											onChange(11)
 										}}
 										className={basicCSS11}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										R & D
 									</button>
 									<button
 										onClick={() => {
-											onChange(12);
+											onChange(12)
 										}}
 										className={basicCSS12}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										Systems and Solutions
 									</button>
 									<button
 										onClick={() => {
-											onChange(13);
+											onChange(13)
 										}}
 										className={basicCSS13}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										International Visitors
 									</button>
 									<button
 										onClick={() => {
-											onChange(14);
+											onChange(14)
 										}}
 										className={basicCSS14}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
-										Live-Demo Truck
+										Live Mobile - Demo Vehicle
 									</button>
 									<button
 										onClick={() => {
-											onChange(15);
+											onChange(15)
 										}}
 										className={basicCSS15}
-										data-filter="irrigation"
+										data-filter='irrigation'
 									>
 										IT Sector
 									</button>
@@ -580,7 +580,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								<br />
 								<div
 									style={{marginTop: 40}}
-									className="col-lg-12 col-sm-12 col-xs-12 text-center"
+									className='col-lg-12 col-sm-12 col-xs-12 text-center'
 								>
 									{gallerySelectedComponent}
 								</div>
@@ -593,5 +593,5 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 			<footer />
 		</Fragment>
-	);
+	)
 }
