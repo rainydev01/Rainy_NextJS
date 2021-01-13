@@ -13,17 +13,17 @@ const WhatWeDo = () => {
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-4'>
-							<div style={{textAlign: 'right'}}>
+							<div className='mt-1' style={{textAlign: 'right'}}>
 								<img alt='logo' src='../static/images/homepage/1.jpg' />
 							</div>
 						</div>
 						<div className='col-md-4'>
-							<div>
+							<div className='mt-1'>
 								<img src='../static/images/homepage/3.jpg' />
 							</div>
 						</div>
 						<div className='col-md-4'>
-							<div>
+							<div className='mt-1'>
 								<img alt='iamegs' src='../static/images/homepage/2.jpg' />
 							</div>
 						</div>
