@@ -8,10 +8,13 @@ const Header = () => {
 				<div className='row'>
 					<input type='checkbox' className='menu-toggle' id='menu-toggle' />
 					<div className='mobile-bar'>
-						<img
-							src='../static/images/logo/Logo_Main.png'
-							className='moblogo img-fluid'
-						/>
+						<a href='/'>
+							<img
+								src='../static/images/logo/Logo_Main.png'
+								className='moblogo img-fluid'
+							/>
+						</a>
+
 						<label htmlFor='menu-toggle' className='menu-icon'>
 							<span></span>
 						</label>
