@@ -1,15 +1,15 @@
-import {Fragment} from "react";
-import Head from "next/head";
-import Link from "next/link";
-import Header from "../components/Header";
-import Banner from "../components/Banner";
-import WhatWeDo from "../components/WhatWeDo";
-import Footer from "../components/Footer";
-import AboutUs from "../components/AboutUs";
-import RWHFilters from "../components/RWHFilters";
-import FilterToSelect from "../components/FilterToSelect";
-import GroundWaterRecharging from "../components/GroundWaterRecharging";
-import OurClients from "../components/OurClientsMulti";
+import {Fragment} from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Header from '../components/Header'
+import Banner from '../components/Banner'
+import WhatWeDo from '../components/WhatWeDo'
+import Footer from '../components/Footer'
+import AboutUs from '../components/AboutUs'
+import RWHFilters from '../components/RWHFilters'
+import FilterToSelect from '../components/FilterToSelect'
+import GroundWaterRecharging from '../components/GroundWaterRecharging'
+import OurClients from '../components/OurClientsMulti'
 
 export default function Home() {
 	return (
@@ -17,7 +17,7 @@ export default function Home() {
 			<Head>
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
 
 				<script
@@ -33,42 +33,42 @@ export default function Home() {
 
 				<title>Rainy - RWH Systems</title>
 				<link
-					rel="apple-touch-icon"
-					sizes="180x180"
-					href="/apple-touch-icon.png"
+					rel='apple-touch-icon'
+					sizes='180x180'
+					href='/apple-touch-icon.png'
 				/>
 				<link
-					rel="icon"
-					type="image/png"
-					sizes="32x32"
-					href="/favicon-32x32.png"
+					rel='icon'
+					type='image/png'
+					sizes='32x32'
+					href='/favicon-32x32.png'
 				/>
 				<link
-					rel="icon"
-					type="image/png"
-					sizes="16x16"
-					href="/favicon-16x16.png"
+					rel='icon'
+					type='image/png'
+					sizes='16x16'
+					href='/favicon-16x16.png'
 				/>
-				<link rel="manifest" href="/site.webmanifest" />
-				<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-				<meta name="msapplication-TileColor" content="#2b5797" />
-				<meta name="theme-color" content="#ffffff" />
+				<link rel='manifest' href='/site.webmanifest' />
+				<link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
+				<meta name='msapplication-TileColor' content='#2b5797' />
+				<meta name='theme-color' content='#ffffff' />
 				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+					rel='stylesheet'
+					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'></script>
+				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js'></script>
 				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+					rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 				/>
 				<link
-					rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-					crossOrigin="anonymous"
+					rel='stylesheet'
+					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
+					crossOrigin='anonymous'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -76,32 +76,32 @@ export default function Home() {
 							/* eslint-disable no-new */
 							new window.google.translate.TranslateElement(
 								{
-									pageLanguage: "pt",
+									pageLanguage: 'pt',
 								},
-								"google_translate_element"
-							);
+								'google_translate_element'
+							)
 						},
 					}}
 				/>
 
 				<script
-					type="application/ld+json"
+					type='application/ld+json'
 					dangerouslySetInnerHTML={{
 						__html: JSON.stringify({
-							"@context": "https://schema.org",
-							"@type": "Organization",
-							name: "Farmland Rainwater Harvesting systems",
-							alternateName: "Rainy",
-							url: "http://rainyfilters.com/",
-							logo: "",
+							'@context': 'https://schema.org',
+							'@type': 'Organization',
+							name: 'Farmland Rainwater Harvesting systems',
+							alternateName: 'Rainy',
+							url: 'http://rainyfilters.com/',
+							logo: '',
 							sameAs: [
-								" https://www.facebook.com/Rainyfilters2002",
-								"https://twitter.com/rainy_filters02",
-								"https://www.instagram.com/rainy_filters02/",
-								"https://www.youtube.com/channel/UCmGOEYld3MLeJJ3KtZt0NzA",
-								"https://www.linkedin.com/company/rainy",
-								"https://www.indiamart.com/farmlandrainwaterharvestingsystems/",
-								"http://www.rainyfilters.com/",
+								' https://www.facebook.com/Rainyfilters2002',
+								'https://twitter.com/rainy_filters02',
+								'https://www.instagram.com/rainy_filters02/',
+								'https://www.youtube.com/channel/UCmGOEYld3MLeJJ3KtZt0NzA',
+								'https://www.linkedin.com/company/rainy',
+								'https://www.indiamart.com/farmlandrainwaterharvestingsystems/',
+								'http://www.rainyfilters.com/',
 							],
 						}),
 					}}
@@ -131,7 +131,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 				/>
 			</Head>
 			<main>
-				<div className="App">
+				<div className='App'>
 					<Header />
 					<Banner />
 					<WhatWeDo />
@@ -146,5 +146,5 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 			<footer />
 		</Fragment>
-	);
+	)
 }

@@ -1,62 +1,46 @@
-import React, {Fragment} from "react";
+import React, {Fragment} from 'react'
 
 const WhatWeDo = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid">
-				<div className="container">
-					<h2 className="whtdowdo">WHAT DO WE DO?</h2>
+			<div className='container-fluid'>
+				<div className='container'>
+					<h2 className='whtdowdo'>WHAT DO WE DO?</h2>
 				</div>
 			</div>
 
-			<div className="container-fluid groundwater_bg_home">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-4">
-							<div style={{textAlign: "right"}}>
-								<img alt="logo" src="../static/images/homepage/1.jpg" />
+			<div className='container-fluid groundwater_bg_home'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-4'>
+							<div style={{textAlign: 'right'}}>
+								<img alt='logo' src='../static/images/homepage/1.jpg' />
 							</div>
 						</div>
-						<div className="col-md-4">
-							<div className="grndtext">
-								<h3>Groundwater Recharging</h3>
-								<p
-									style={{
-										letterSpacing: "0.1px",
-										textAlign: "left",
-										color: "#000000d4",
-										fontSize: "16px",
-										fontWeight: "600",
-										lineHeight: "26px",
-										fontFamily: "Visby Round CF Regular",
-									}}
-								>
-									We have developed a new method of groundwater recharge, called
-									'V-wire injection well' technology. This allows for the
-									groundwater table to be replenished and thus abate water
-									scarcity.
-								</p>
-							</div>
-						</div>
-						<div className="col-md-4">
+						<div className='col-md-4'>
 							<div>
-								<img alt="iamegs" src="../static/images/homepage/2.jpg" />
+								<img src='../static/images/homepage/3.jpg' />
 							</div>
 						</div>
-						<div className="col-md-4">
-							<div className="grndtext">
-								<h3 style={{textAlign: "right"}}>
+						<div className='col-md-4'>
+							<div>
+								<img alt='iamegs' src='../static/images/homepage/2.jpg' />
+							</div>
+						</div>
+						<div className='col-md-4'>
+							<div className='grndtext'>
+								<h3 style={{textAlign: 'right'}}>
 									Rooftop Rain Water Harvesting Filters
 								</h3>
 								<p
 									style={{
-										letterSpacing: "0.1px",
-										textAlign: "right",
-										color: "#000000d4",
-										fontSize: "16px",
-										fontWeight: "600",
-										lineHeight: "26px",
-										fontFamily: "Visby Round CF Regular",
+										letterSpacing: '0.1px',
+										textAlign: 'right',
+										color: '#000000d4',
+										fontSize: '16px',
+										fontWeight: '600',
+										lineHeight: '26px',
+										fontFamily: 'Visby Round CF Regular',
 									}}
 								>
 									'Rainy' Dual Intensity filters work at high efficiency
@@ -66,23 +50,40 @@ const WhatWeDo = () => {
 								</p>
 							</div>
 						</div>
-						<div className="col-md-4">
-							<div>
-								<img src="../static/images/homepage/3.jpg" />
+						<div className='col-md-4'>
+							<div className='grndtext'>
+								<h3>Groundwater Recharging</h3>
+								<p
+									style={{
+										letterSpacing: '0.1px',
+										textAlign: 'left',
+										color: '#000000d4',
+										fontSize: '16px',
+										fontWeight: '600',
+										lineHeight: '26px',
+										fontFamily: 'Visby Round CF Regular',
+									}}
+								>
+									We have developed a new method of groundwater recharge, called
+									'V-wire injection well' technology. This allows for the
+									groundwater table to be replenished and thus abate water
+									scarcity.
+								</p>
 							</div>
 						</div>
-						<div className="col-md-4">
-							<div className="grndtext">
+
+						<div className='col-md-4'>
+							<div className='grndtext'>
 								<h3>Systems & Solutions</h3>
 								<p
 									style={{
-										letterSpacing: "0.1px",
-										textAlign: "left",
-										color: "#000000d4",
-										fontSize: "16px",
-										fontWeight: "600",
-										lineHeight: "26px",
-										fontFamily: "Visby Round CF Regular",
+										letterSpacing: '0.1px',
+										textAlign: 'left',
+										color: '#000000d4',
+										fontSize: '16px',
+										fontWeight: '600',
+										lineHeight: '26px',
+										fontFamily: 'Visby Round CF Regular',
 									}}
 								>
 									Custom made solutions to suit your building or campus. Our
@@ -95,7 +96,7 @@ const WhatWeDo = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default WhatWeDo;
+export default WhatWeDo

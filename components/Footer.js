@@ -1,17 +1,17 @@
-import React, {Fragment, useEffect} from "react";
+import React, {Fragment, useEffect} from 'react'
 
 const Footer = () => {
 	useEffect(() => {
-		window.googleTranslateElementInit = googleTranslateElementInit;
-	}, []);
+		window.googleTranslateElementInit = googleTranslateElementInit
+	}, [])
 	return (
 		<Fragment>
-			<div className="container-fluid footer-main">
-				<div className="container">
+			<div className='container-fluid footer-main'>
+				<div className='container'>
 					<div>
-						<div className="col-md-4 ">
-							<div className="footer-one">
-								<img src="../static/images/logo/Wlogo.png" alt="Footer Logo" />
+						<div className='col-md-4 '>
+							<div className='footer-one'>
+								<img src='../static/images/logo/Wlogo.png' alt='Footer Logo' />
 								<p>
 									Farmland Rainwater Harvesting System
 									<br></br>
@@ -22,94 +22,97 @@ const Footer = () => {
 								</p>
 							</div>
 						</div>
-						<div className="col-md-4">
-							<div className="footer-two">
+						<div className='col-md-4'>
+							<div className='footer-two'>
 								<h5>Contact US</h5>
 								<p>
 									<a
-										target="_blank"
-										href="https://api.whatsapp.com/send?phone=+917338033790&text=%20Hello, I wanted to purchase Rainy Filter"
+										target='_blank'
+										href='https://api.whatsapp.com/send?phone=+917338033790&text=%20Hello, I wanted to purchase Rainy Filter'
 									>
-										<i className="fa fa-whatsapp" aria-hidden="true" />
+										<i className='fa fa-whatsapp' aria-hidden='true' />
 									</a>
 									+91 73380 33790
 								</p>
 								<p>
-									<a target="_blank" href="tel:9448130524">
-										<i
-											className="fa fa-volume-control-phone"
-											aria-hidden="true"
-										/>
-									</a>{" "}
+									<a target='_blank' href='tel:9448130524'>
+										<i className='fa fa-mobile' aria-hidden='true' />
+									</a>{' '}
 									+91 94481 30524
 								</p>
 								<p>
-									<a target="_blank" href="tel:9449443232">
-										<i
-											className="fa fa-volume-control-phone"
-											aria-hidden="true"
-										/>
-									</a>{" "}
+									<a target='_blank' href='tel:9449443232'>
+										<i className='fa fa-mobile' aria-hidden='true' />
+									</a>{' '}
 									+91 94494 43232
 								</p>
 								<p>
-									<a href="mailto: farmland_rhs@yahoo.co.in">
-										{" "}
-										<i className="fa fa-envelope-o" aria-hidden="true" />{" "}
-									</a>{" "}
+									<a target='_blank' href='tel:08026766252'>
+										<i
+											className='fa fa-volume-control-phone'
+											aria-hidden='true'
+										/>
+									</a>{' '}
+									08026766252
+								</p>
+								<p>
+									<a href='mailto: farmland_rhs@yahoo.co.in'>
+										{' '}
+										<i className='fa fa-envelope-o' aria-hidden='true' />{' '}
+									</a>{' '}
 									farmland_rhs@yahoo.co.in
 								</p>
 							</div>
 						</div>
-						<div className="col-md-4 text-center">
-							<div className="footer-three">
+						<div className='col-md-4 text-center'>
+							<div className='footer-three'>
 								<h5>Follow Us</h5>
 								<p>
 									<a
-										href="https://www.instagram.com/rainy_filters02/"
-										target="_blank"
+										href='https://www.instagram.com/rainy_filters02/'
+										target='_blank'
 									>
-										<i className="fa fa-instagram" aria-hidden="true" />
+										<i className='fa fa-instagram' aria-hidden='true' />
 									</a>
 									<a
-										href="https://www.facebook.com/Rainyfilters2002"
-										target="_blank"
+										href='https://www.facebook.com/Rainyfilters2002'
+										target='_blank'
 									>
-										<i className="fa fa-facebook-official" aria-hidden="true" />
+										<i className='fa fa-facebook-official' aria-hidden='true' />
 									</a>
 									<a
-										href="https://www.linkedin.com/company/rainy"
-										target="_blank"
+										href='https://www.linkedin.com/company/rainy'
+										target='_blank'
 									>
-										<i className="fa fa-linkedin-square" aria-hidden="true" />
+										<i className='fa fa-linkedin-square' aria-hidden='true' />
 									</a>
 									<a
-										href="https://in.pinterest.com/rainyfilters/"
-										target="_blank"
+										href='https://in.pinterest.com/rainyfilters/'
+										target='_blank'
 									>
-										<i class="fa fa-pinterest" aria-hidden="true"></i>
+										<i className='fa fa-pinterest' aria-hidden='true'></i>
 									</a>
 									<a
-										href="https://www.quora.com/profile/Rainy-Filters"
-										target="_blank"
+										href='https://www.quora.com/profile/Rainy-Filters'
+										target='_blank'
 									>
-										<i class="fa fa-quora" aria-hidden="true"></i>
+										<i className='fa fa-quora' aria-hidden='true'></i>
 									</a>
-									<a href="https://twitter.com/rainy_filters02" target="_blank">
-										<i class="fa fa-twitter" aria-hidden="true"></i>
+									<a href='https://twitter.com/rainy_filters02' target='_blank'>
+										<i className='fa fa-twitter' aria-hidden='true'></i>
 									</a>
 								</p>
 
 								<div>
 									<button>
-										{" "}
-										<a href="/contact-us/dealers">Dealers</a>{" "}
+										{' '}
+										<a href='/contact-us/dealers'>Dealers</a>{' '}
 									</button>
 								</div>
 								<div>
 									<button>
-										{" "}
-										<a href="/contact-us/enquire">Enquire</a>{" "}
+										{' '}
+										<a href='/contact-us/enquire'>Enquire</a>{' '}
 									</button>
 								</div>
 
@@ -126,8 +129,8 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<div className="container-fluid copyright-main">
-				<div className="container">
+			<div className='container-fluid copyright-main'>
+				<div className='container'>
 					<ul>
 						{/* <li>
 							<button
@@ -140,37 +143,37 @@ const Footer = () => {
 							</button>
 						</li> */}
 						<li>
-							<a href="# " data-toggle="modal" data-target="#terms">
-								{" "}
-								Terms & Conditions{" "}
+							<a href='# ' data-toggle='modal' data-target='#terms'>
+								{' '}
+								Terms & Conditions{' '}
 							</a>
 							|
 						</li>
 						<li>
-							<a href="# " data-toggle="modal" data-target="#privacy">
-								{" "}
-								Privacy Policy{" "}
+							<a href='# ' data-toggle='modal' data-target='#privacy'>
+								{' '}
+								Privacy Policy{' '}
 							</a>
 							|
 						</li>
 						<li>
-							<a href="# " data-toggle="modal" data-target="#cookie">
-								{" "}
-								Cookie Policy{" "}
+							<a href='# ' data-toggle='modal' data-target='#cookie'>
+								{' '}
+								Cookie Policy{' '}
 							</a>
 							|
 						</li>
 						<li>
 							<a
 								style={{
-									color: "white",
-									textDecoration: "none",
-									cursor: "default",
+									color: 'white',
+									textDecoration: 'none',
+									cursor: 'default',
 								}}
-								href="# "
+								href='# '
 							>
-								{" "}
-								Copyright 2020{" "}
+								{' '}
+								Copyright 2020{' '}
 							</a>
 						</li>
 						{/* <li
@@ -188,30 +191,30 @@ const Footer = () => {
 			</div>
 
 			<div
-				className="modal fade "
-				id="terms"
-				tabindex="-1"
-				aria-labelledby="exampleModalLabel"
-				aria-hidden="true"
+				className='modal fade '
+				id='terms'
+				tabIndex='-1'
+				aria-labelledby='exampleModalLabel'
+				aria-hidden='true'
 			>
-				<div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-					<div style={{marginTop: "15vh"}} className="modal-content">
+				<div className='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl'>
+					<div style={{marginTop: '15vh'}} className='modal-content'>
 						<div
-							className="modal-header"
+							className='modal-header'
 							style={{
-								display: "flex",
-								margin: "auto",
-								border: "none",
+								display: 'flex',
+								margin: 'auto',
+								border: 'none',
 							}}
 						>
-							<h3 className="modal-title" id="exampleModalLabel">
+							<h3 className='modal-title' id='exampleModalLabel'>
 								Terms and Conditions
 							</h3>
 						</div>
-						<div className="modal-body">
-							<div className="container-fluid">
-								<div className="row">
-									<div className="col-12">
+						<div className='modal-body'>
+							<div className='container-fluid'>
+								<div className='row'>
+									<div className='col-12'>
 										<p>
 											Welcome to FARMLAND RAINWATER HARVESTING SYSTEM (FRHS) or
 											Rainy Filters (hereinafter referred to as ‘FRHS’ or ‘Rainy
@@ -473,7 +476,7 @@ const Footer = () => {
 											warranty services subject to the following:
 										</p>
 										<p>
-											<ol type="1">
+											<ol type='1'>
 												<li>
 													1.This Warranty covers the defects resulting from
 													defective filter components, materials or
@@ -609,13 +612,13 @@ const Footer = () => {
 							</div>
 						</div>
 						<div
-							className="modal-footer"
-							style={{display: "flex", margin: "auto", border: "none"}}
+							className='modal-footer'
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
 						>
 							<button
-								type="button"
-								className="btn btn-secondary"
-								data-dismiss="modal"
+								type='button'
+								className='btn btn-secondary'
+								data-dismiss='modal'
 							>
 								Close
 							</button>
@@ -625,26 +628,26 @@ const Footer = () => {
 			</div>
 
 			<div
-				className="modal fade "
-				id="privacy"
-				tabIndex="-1"
-				aria-labelledby="exampleModalLabel"
-				aria-hidden="true"
+				className='modal fade '
+				id='privacy'
+				tabIndex='-1'
+				aria-labelledby='exampleModalLabel'
+				aria-hidden='true'
 			>
-				<div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-					<div className="modal-content" style={{marginTop: "15vh"}}>
+				<div className='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl'>
+					<div className='modal-content' style={{marginTop: '15vh'}}>
 						<div
-							className="modal-header"
-							style={{display: "flex", margin: "auto", border: "none"}}
+							className='modal-header'
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
 						>
-							<h3 className="modal-title" id="exampleModalLabel">
+							<h3 className='modal-title' id='exampleModalLabel'>
 								Privacy Policy
 							</h3>
 						</div>
-						<div className="modal-body">
-							<div className="container-fluid">
-								<div className="row">
-									<div className="col-12">
+						<div className='modal-body'>
+							<div className='container-fluid'>
+								<div className='row'>
+									<div className='col-12'>
 										<p>
 											FARMLAND RAINWATER HARVESTING SYSTEM (FRHS) recognises the
 											importance of maintaining your i.e. user privacy. This
@@ -801,7 +804,7 @@ const Footer = () => {
 													be modified or incorporated in any other work,
 													publication or site, whether in hard copy or
 													electronic format, including posting to any other
-													site.{" "}
+													site.{' '}
 												</li>
 												<li>3. No other licence or right is granted.</li>
 											</ul>
@@ -906,13 +909,13 @@ const Footer = () => {
 							</div>
 						</div>
 						<div
-							className="modal-footer"
-							style={{display: "flex", margin: "auto", border: "none"}}
+							className='modal-footer'
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
 						>
 							<button
-								type="button"
-								className="btn btn-secondary"
-								data-dismiss="modal"
+								type='button'
+								className='btn btn-secondary'
+								data-dismiss='modal'
 							>
 								Close
 							</button>
@@ -922,26 +925,26 @@ const Footer = () => {
 			</div>
 
 			<div
-				className="modal fade "
-				id="cookie"
-				tabindex="-1"
-				aria-labelledby="exampleModalLabel"
-				aria-hidden="true"
+				className='modal fade '
+				id='cookie'
+				tabindex='-1'
+				aria-labelledby='exampleModalLabel'
+				aria-hidden='true'
 			>
-				<div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-					<div className="modal-content" style={{marginTop: "15vh"}}>
+				<div className='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl'>
+					<div className='modal-content' style={{marginTop: '15vh'}}>
 						<div
-							className="modal-header"
-							style={{display: "flex", margin: "auto", border: "none"}}
+							className='modal-header'
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
 						>
-							<h3 className="modal-title" id="exampleModalLabel">
+							<h3 className='modal-title' id='exampleModalLabel'>
 								Cookie Policy
 							</h3>
 						</div>
-						<div className="modal-body">
-							<div className="container-fluid">
-								<div className="row">
-									<div className="col-12">
+						<div className='modal-body'>
+							<div className='container-fluid'>
+								<div className='row'>
+									<div className='col-12'>
 										<p>
 											FARMLAND RAINWATER HARVESTING SYSTEM (“we”, “us”, “FRHS”
 											or “Rainy”) is committed to respecting your ((“you”, “data
@@ -1036,17 +1039,17 @@ const Footer = () => {
 											Each cookie falls within one of the five following
 											categories:
 										</p>
-										<table className="table" style={{lineHeight: 1}}>
+										<table className='table' style={{lineHeight: 1}}>
 											<thead>
 												<tr>
-													<th scope="col">Sr No.</th>
-													<th scope="col">Category</th>
-													<th scope="col">Description</th>
+													<th scope='col'>Sr No.</th>
+													<th scope='col'>Category</th>
+													<th scope='col'>Description</th>
 												</tr>
 											</thead>
 											<tbody style={{lineHeight: 1}}>
 												<tr>
-													<th scope="row">1</th>
+													<th scope='row'>1</th>
 													<td style={{lineHeight: 1}}>Essential Cookies</td>
 													<td style={{lineHeight: 1}}>
 														Essential cookies (First Party Cookies) are
@@ -1058,7 +1061,7 @@ const Footer = () => {
 													</td>
 												</tr>
 												<tr>
-													<th scope="row">2</th>
+													<th scope='row'>2</th>
 													<td style={{lineHeight: 1}}>Analytics Cookies</td>
 													<td style={{lineHeight: 1}}>
 														These cookies track information about visits to the
@@ -1075,7 +1078,7 @@ const Footer = () => {
 													</td>
 												</tr>
 												<tr>
-													<th scope="row">3</th>
+													<th scope='row'>3</th>
 													<td style={{lineHeight: 1}}>
 														Functionality or Preference Cookies
 													</td>
@@ -1094,7 +1097,7 @@ const Footer = () => {
 													</td>
 												</tr>
 												<tr>
-													<th scope="row">4</th>
+													<th scope='row'>4</th>
 													<td style={{lineHeight: 1}}>
 														Targeting or Advertising Cookies
 													</td>
@@ -1117,7 +1120,7 @@ const Footer = () => {
 													</td>
 												</tr>
 												<tr>
-													<th scope="row">5</th>
+													<th scope='row'>5</th>
 													<td style={{lineHeight: 1}}>Third party Cookies</td>
 													<td style={{lineHeight: 1}}>
 														We use a number of partners that may also set
@@ -1213,13 +1216,13 @@ const Footer = () => {
 							</div>
 						</div>
 						<div
-							className="modal-footer"
-							style={{display: "flex", margin: "auto", border: "none"}}
+							className='modal-footer'
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
 						>
 							<button
-								type="button"
-								className="btn btn-secondary"
-								data-dismiss="modal"
+								type='button'
+								className='btn btn-secondary'
+								data-dismiss='modal'
 							>
 								Close
 							</button>
@@ -1228,7 +1231,7 @@ const Footer = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default Footer;
+export default Footer
