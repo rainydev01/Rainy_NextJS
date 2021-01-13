@@ -26,35 +26,43 @@ const ImageSliderMulti = () => {
 		<Fragment>
 			<div style={{marginTop: '8%'}}></div>
 			<Carousel infinite={true} autoPlay={true} responsive={responsive}>
-				<div className='container-fluid award-image'>
+				<div className='container-fluid social-image1'>
 					<div className='container awrdimgsec text-center'>
 						<img
 							className='rounded mx-auto d-block'
-							src='../static/images/ourTeam/1.jpg'
+							src='../static/images/socialImages/2-min.JPG'
 						/>
 					</div>
 				</div>
-				<div className='container-fluid award-image'>
+				<div className='container-fluid social-image1 '>
 					<div className='container awrdimgsec text-center '>
 						<img
 							className='rounded mx-auto d-block'
-							src='../static/images/ourTeam/2.jpg'
+							src='../static/images/socialImages/3-min.JPG'
 						/>
 					</div>
 				</div>
-				<div className='container-fluid award-image'>
+				<div className='container-fluid social-image1 '>
 					<div className='container awrdimgsec text-center'>
 						<img
 							className='rounded mx-auto d-block'
-							src='../static/images/ourTeam/3.jpg'
+							src='../static/images/socialImages/4-min.JPG'
 						/>
 					</div>
 				</div>
-				<div className='container-fluid award-image'>
+				<div className='container-fluid social-image1'>
 					<div className='container awrdimgsec text-center'>
 						<img
 							className='rounded mx-auto d-block'
-							src='../static/images/ourTeam/4.jpg'
+							src='../static/images/socialImages/5-min.JPG'
+						/>
+					</div>
+				</div>
+				<div className='container-fluid social-image1'>
+					<div className='container awrdimgsec text-center'>
+						<img
+							className='rounded mx-auto d-block'
+							src='../static/images/socialImages/6-min.jpg'
 						/>
 					</div>
 				</div>

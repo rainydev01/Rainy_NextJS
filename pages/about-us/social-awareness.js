@@ -1,14 +1,11 @@
-import {Fragment} from "react";
-import Head from "next/head";
-import Link from "next/link";
-import Header from "../../components/Header";
-import Banner from "../../components/Banner";
-import WhatWeDo from "../../components/WhatWeDo";
-import Footer from "../../components/Footer";
-import AboutUs from "../../components/AboutUs";
-import RWHFilters from "../../components/RWHFilters";
-import FilterToSelect from "../../components/FilterToSelect";
-import GroundWaterRecharging from "../../components/GroundWaterRecharging";
+import {Fragment} from 'react'
+import Head from 'next/head'
+
+import Header from '../../components/Header'
+
+import Footer from '../../components/Footer'
+
+import ImageSlider from '../../components/ImageSliderMultiSocial'
 
 export default function Home() {
 	return (
@@ -16,7 +13,7 @@ export default function Home() {
 			<Head>
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
 
 				<script
@@ -31,21 +28,21 @@ export default function Home() {
 				/>
 				<title>Rainy - Social Awareness</title>
 				<link
-					rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-					crossOrigin="anonymous"
+					rel='stylesheet'
+					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
+					crossOrigin='anonymous'
 				/>
 				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+					rel='stylesheet'
+					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' />
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js' />
+				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' />
 				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+					rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -53,10 +50,10 @@ export default function Home() {
 							/* eslint-disable no-new */
 							new window.google.translate.TranslateElement(
 								{
-									pageLanguage: "pt",
+									pageLanguage: 'pt',
 								},
-								"google_translate_element"
-							);
+								'google_translate_element'
+							)
 						},
 					}}
 				/>
@@ -84,23 +81,26 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 				/>
 			</Head>
 			<main>
-				<div className="App">
+				<div className='App'>
 					<Header />
 
-					<div className="container-fluid sawar">
+					<div className='container-fluid sawar'>
 						<h1>SOCIAL AWARENESS</h1>
 					</div>
 
-					<div className="container-fluid">
-						<div className="container groundwaterSocial">
-							<div className="row groundwatersec">
-								<div className="col-md-6">
-									<div className="groundwatersimg">
-										<img src="../../static/images/ourTeam/Group1238.jpg" />
+					<div className='container-fluid'>
+						<div className='container groundwaterSocial'>
+							<div className='row groundwatersec social-image2'>
+								<div className='col-md-6'>
+									<div className='groundwatersimg'>
+										<img
+											class='img-fluid'
+											src='../../static/images/ourTeam/1-min.jpg'
+										/>
 									</div>
 								</div>
-								<div className="col-md-6">
-									<div className="groundwaterstxt" style={{paddingTop: "20px"}}>
+								<div className='col-md-6'>
+									<div className='groundwaterstxt' style={{paddingTop: '20px'}}>
 										<h3>Social Awareness Initiatives</h3>
 										<p>
 											We have a fleet of Mobile live demonstration units to
@@ -113,10 +113,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											are:
 											<br />
 											<img
-												style={{height: 25, width: "auto", paddingRight: 15}}
-												src="../static/images/elements/Path262.png"
-												alt="drop"
-											/>{" "}
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
 											Use of the mobile live demonstration unit for educational
 											purposes. Through this our experts provide informative
 											sessions on understanding not only the importance of rainw
@@ -126,10 +126,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											future.
 											<br />
 											<img
-												style={{height: 25, width: "auto", paddingRight: 15}}
-												src="../static/images/elements/Path262.png"
-												alt="drop"
-											/>{" "}
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
 											The demonstration of rainwater harvesting using our mobile
 											units is done not only in schools, engineering colleges
 											and universities, but also in industrial exhibitions,
@@ -154,6 +154,59 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									</div>
 								</div>
 							</div>
+
+							<ImageSlider></ImageSlider>
+							<div
+								style={{marginTop: '8%'}}
+								className='row groundwatersec social-image1'
+							>
+								<div className='col-md-6'>
+									<div className='groundwaterstxt' style={{paddingTop: '20px'}}>
+										<h3>Social Responsibility</h3>
+										<p>
+											We have a fleet of Mobile live demonstration units to
+											realise our mission of conserving every drop of rainwater.
+											These vehicles travel across India to demonstrate
+											rainwater harvesting. We have joined hands with the
+											Government of India under the JALA SHAKTHI ABHIYAN, to
+											spread awareness on water conservation by using these
+											units. In addition, some more benefits of this program
+											are:
+											<br />
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											Use of the mobile live demonstration unit for educational
+											purposes. Through this our experts provide informative
+											sessions on understanding not only the importance of rainw
+											ater harvesting, but also the methods used and the
+											outcomes. We firmly beleive that awareness and education
+											about rainwater harvesting will help shape a better
+											future.
+											<br />
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											The demonstration of rainwater harvesting using our mobile
+											units is done not only in schools, engineering colleges
+											and universities, but also in industrial exhibitions,
+											seminars, international and national expos, agricultural
+											expos, sustainability-based events etc. to echo the theme
+											of conservation of rainwater.
+											<br />
+										</p>
+									</div>
+								</div>
+								<div className='col-md-6'>
+									<div className='groundwatersimg'>
+										<img src='../../static/images/ourTeam/Group1238.jpg' />
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 
@@ -163,5 +216,5 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 			<footer />
 		</Fragment>
-	);
+	)
 }
