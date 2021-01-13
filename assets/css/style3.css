@@ -1124,6 +1124,20 @@ span.mb-span {
     background-color: #a7c7ea;
 }
 
+.table-sysSoln>tbody>tr:nth-child(odd)>td,
+.table-sysSoln>tbody>tr:nth-child(odd)>th {
+    background-color: #ffffff;
+    line-height: 25px;
+    border: 1px solid #000;
+}
+
+.table-sysSoln>tbody>tr:nth-child(even)>td,
+.table-sysSoln>tbody>tr:nth-child(even)>th {
+    background-color: #ffffff;
+    line-height: 25px;
+    border: 1px solid #000;
+}
+
 .borderRight {
     border-right: 3px solid white !important;
 }

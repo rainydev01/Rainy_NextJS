@@ -1,8 +1,8 @@
-import {Fragment} from "react";
-import Head from "next/head";
-import Link from "next/link";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import {Fragment} from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 export default function Home() {
 	return (
@@ -10,7 +10,7 @@ export default function Home() {
 			<Head>
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
 
 				<script
@@ -25,21 +25,21 @@ export default function Home() {
 				/>
 				<title>Rainy - Systems and Solution</title>
 				<link
-					rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-					crossOrigin="anonymous"
+					rel='stylesheet'
+					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
+					crossOrigin='anonymous'
 				/>
 				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+					rel='stylesheet'
+					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' />
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js' />
+				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' />
 				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+					rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -47,10 +47,10 @@ export default function Home() {
 							/* eslint-disable no-new */
 							new window.google.translate.TranslateElement(
 								{
-									pageLanguage: "pt",
+									pageLanguage: 'pt',
 								},
-								"google_translate_element"
-							);
+								'google_translate_element'
+							)
 						},
 					}}
 				/>
@@ -79,30 +79,30 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 				/>
 			</Head>
 			<main>
-				<div className="App">
+				<div className='App'>
 					<Header />
-					<div className="container-fluid banner enternal ">
-						<div className="hero-image enthroimg">
-							<img src="../../static/images/systemsSolutions/Group1242.png" />
-							<div className="hero-text rnyfltrs">
+					<div className='container-fluid banner enternal '>
+						<div className='hero-image enthroimg'>
+							<img src='../../static/images/systemsSolutions/Group1242.png' />
+							<div className='hero-text rnyfltrs'>
 								<h1>SYSTEMS & SOLUTIONS</h1>
 							</div>
 						</div>
 					</div>
 
-					<div className="container-fluid wthothding backgroundDrops">
-						<div className="container">
-							<div className="row">
-								<div className="col-md-6">
+					<div className='container-fluid wthothding backgroundDrops'>
+						<div className='container'>
+							<div className='row'>
+								<div className='col-md-6'>
 									<div
-										className="rainyfilterimg rainyss"
-										style={{float: "right", marginRight: "45px"}}
+										className='rainyfilterimg rainyss'
+										style={{float: 'right', marginRight: '45px'}}
 									>
-										<img src="../../static/images/systemsSolutions/BigImage.JPG" />
+										<img src='../../static/images/systemsSolutions/BigImage.JPG' />
 									</div>
 								</div>
-								<div className="col-md-6">
-									<div className="techpointslst lstagn syssoln">
+								<div className='col-md-6'>
+									<div className='techpointslst lstagn syssoln'>
 										<p>
 											Products that are precisely coordinated, scientifically
 											designed all-in-one Rainwater Harvesting solutions and
@@ -114,21 +114,22 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											sector/ industries/ government undertaking etc. and is
 											capable of handling large projects right from Rain Water
 											Harvesting design, supply and installation to providing
-											end-end solutions. 'Rainy' is equipped with a dedicated
-											and experienced team of engineers, technician, workmen
-											along with special installation equipments, drilling rigs,
-											civil structures etc. Broad steps include:
+											end- to-end solutions. 'Rainy' is equipped with a
+											dedicated and experienced team of engineers, technician,
+											workmen along with special installation equipments,
+											drilling rigs, civil structures etc. <br /> Broad steps
+											include:
 										</p>
 										<ul>
 											<li>
 												<img
 													style={{
 														height: 25,
-														width: "auto",
+														width: 'auto',
 														paddingRight: 15,
 													}}
-													src="../static/images/elements/Path262.png"
-													alt="drop"
+													src='../static/images/elements/Path262.png'
+													alt='drop'
 												/>
 												Highly trained technical team conducts the Rainwater
 												Harvesting technical survey by studying the layout of
@@ -138,11 +139,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												<img
 													style={{
 														height: 25,
-														width: "auto",
+														width: 'auto',
 														paddingRight: 15,
 													}}
-													src="../static/images/elements/Path262.png"
-													alt="drop"
+													src='../static/images/elements/Path262.png'
+													alt='drop'
 												/>
 												Existing piping system of rainwater and storm drains are
 												studied.
@@ -151,11 +152,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												<img
 													style={{
 														height: 25,
-														width: "auto",
+														width: 'auto',
 														paddingRight: 15,
 													}}
-													src="../static/images/elements/Path262.png"
-													alt="drop"
+													src='../static/images/elements/Path262.png'
+													alt='drop'
 												/>
 												Gradient and landscape of the site and building are
 												obtained.
@@ -164,12 +165,12 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												<img
 													style={{
 														height: 25,
-														width: "auto",
+														width: 'auto',
 														paddingRight: 15,
 													}}
-													src="../static/images/elements/Path262.png"
-													alt="drop"
-												/>{" "}
+													src='../static/images/elements/Path262.png'
+													alt='drop'
+												/>{' '}
 												Designing and installation of innovative customised
 												system is done with precise scientific approach. These
 												solutions include: diverting existing rainwater pipes,
@@ -180,11 +181,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												<img
 													style={{
 														height: 25,
-														width: "auto",
+														width: 'auto',
 														paddingRight: 15,
 													}}
-													src="../static/images/elements/Path262.png"
-													alt="drop"
+													src='../static/images/elements/Path262.png'
+													alt='drop'
 												/>
 												Designing and construction of ground water recharging
 												structures.
@@ -193,23 +194,23 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												<img
 													style={{
 														height: 25,
-														width: "auto",
+														width: 'auto',
 														paddingRight: 15,
 													}}
-													src="../static/images/elements/Path262.png"
-													alt="drop"
+													src='../static/images/elements/Path262.png'
+													alt='drop'
 												/>
 												Complete solutions for water neutrality establishment
 												projects.
 											</li>
 										</ul>
 									</div>
-									<div className="rnyfltrbtn senq">
-										<Link href="/contact-us/enquire">
+									<div className='rnyfltrbtn senq'>
+										<Link href='/contact-us/enquire'>
 											<a>
-												<button id="rnenq">
-													Enquire{" "}
-													<i class="fa fa-angle-right" aria-hidden="true" />
+												<button id='rnenq'>
+													Enquire{' '}
+													<i class='fa fa-angle-right' aria-hidden='true' />
 												</button>
 											</a>
 										</Link>
@@ -219,41 +220,204 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						</div>
 					</div>
 					<div
-						className="container-fluid wthothding"
-						style={{paddingTop: "30px"}}
+						className='container-fluid wthothding'
+						style={{paddingTop: '30px'}}
 					>
-						<div className="container">
-							<div className="row">
+						<div className='container'>
+							<div className='row'>
 								<div
-									style={{pading: "10px", borderRadius: "20px"}}
-									className="col-md-4"
+									style={{pading: '10px', borderRadius: '20px'}}
+									className='col-md-4'
 								>
-									<div className="gr3">
+									<div className='gr3'>
 										<img
 											style={{borderRadius: 20}}
-											className="img-fluid"
-											src="../../static/images/systemsSolutions/small 1.jpg"
+											className='img-fluid'
+											src='../../static/images/systemsSolutions/small 1.jpg'
 										/>
 									</div>
 								</div>
-								<div className="col-md-4">
-									<div className="gr3">
+								<div className='col-md-4'>
+									<div className='gr3'>
 										<img
 											style={{borderRadius: 20}}
-											className="img-fluid"
-											src="../../static/images/systemsSolutions/small 2.png"
+											className='img-fluid'
+											src='../../static/images/systemsSolutions/small 2.png'
 										/>
 									</div>
 								</div>
-								<div className="col-md-4">
-									<div className="gr3">
+								<div className='col-md-4'>
+									<div className='gr3'>
 										<img
 											style={{borderRadius: 20}}
-											className="img-fluid"
-											src="../../static/images/systemsSolutions/small 3.png"
+											className='img-fluid'
+											src='../../static/images/systemsSolutions/small 3.png'
 										/>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+					<div className='container mb-5'>
+						<div className='row'>
+							<div className='col'>
+								<p>
+									Rainy has developed HDPE Quick Coupling Push and Joint Pipes
+									for Rainwater Harvesting. It is first of its kind in India.
+									These pipes and fittings are UV stabilized, grey in colour and
+									equipped with unique joining method that leads to easy
+									installation and maintenance. The HDPE compound in the pipes
+									and fittings is developed in such a way that the pipe does not
+									get sagged in normal condition. Due to its high impact,
+									strength, hydraulic property, hassle free long life to the end
+									user is ensured with Pressure Rating PWC of 6 Kg/cm2
+								</p>
+								<table class='table table-sysSoln '>
+									<tbody>
+										<tr>
+											<td style={{width: '10%'}}>Sl No:</td>
+											<td style={{width: '20%'}}>Product Name</td>
+											<td style={{width: '30%'}} className='text-center'>
+												Product Image
+											</td>
+											<td>Description</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>1</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethelyne Quick Coupling Push
+												and Joint Pipe
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/1.png'
+												/>
+											</td>
+											<td>
+												PWC - 6 Kg/cm2 Length- 3 meters & 6 meters. SIZE IN MM –
+												110, 90, 75
+											</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>2</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethelyne Equal Tee
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/2.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>3</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethelyne Right Angle Bend
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/3.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>4</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethelyne 45 degree Bend
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/4.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>5</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethelyne Reducer Coupler
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/5.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>6</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethelyne End cap
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/6.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>7</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethylene Socket Coupler
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/7.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>8</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethylene End Cap
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/8.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>9</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density Polyethylene Coupled Door Tee
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/9.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+										<tr>
+											<td style={{width: '10%'}}>10</td>
+											<td style={{width: '20%'}}>
+												Rainy RWH High Density polyethylene Coupled Door Bend
+											</td>
+											<td style={{width: '30%'}} className='text-center'>
+												<img
+													className='img-fluid'
+													src='../../static/images/systemsSolutions/pipes/10.png'
+												/>
+											</td>
+											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
 					</div>
@@ -264,5 +428,5 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 			<footer />
 		</Fragment>
-	);
+	)
 }
