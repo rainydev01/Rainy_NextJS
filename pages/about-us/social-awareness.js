@@ -95,7 +95,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									<div className='groundwatersimg ml-2'>
 										<img
 											class='img-fluid'
-											src='../../static/images/ourTeam/1-min.jpg'
+											src='../../static/images/ourTeam/socialAware.jpg'
 										/>
 									</div>
 								</div>
