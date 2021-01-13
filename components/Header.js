@@ -9,7 +9,7 @@ const Header = () => {
 					<input type='checkbox' className='menu-toggle' id='menu-toggle' />
 					<div className='mobile-bar'>
 						<img
-							src='../static/images/logo/Logo_Black.png'
+							src='../static/images/logo/Logo_Main.png'
 							className='moblogo img-fluid'
 						/>
 						<label htmlFor='menu-toggle' className='menu-icon'>
@@ -21,7 +21,7 @@ const Header = () => {
 						<a className='navbar-brand' href='/' style={{padding: '0px'}}>
 							<img
 								className='img-fluid img-short'
-								src='../static/images/logo/Logo_Black.png'
+								src='../static/images/logo/Logo_Main.png'
 							/>
 						</a>
 						<nav>
