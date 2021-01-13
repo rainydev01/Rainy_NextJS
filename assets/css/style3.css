@@ -1263,3 +1263,9 @@ h2.clientsHome:after {
 .backgroundDrops {
     background-image: url(../../static/images/singledropbg.png);
 }
+
+.img-short {
+    width: auto;
+    /* you can use % */
+    max-height: 10%;
+}

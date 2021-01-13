@@ -1,117 +1,120 @@
-import React, {Fragment} from "react";
-import Link from "next/link";
+import React, {Fragment} from 'react'
+import Link from 'next/link'
 
 const Header = () => {
 	return (
 		<Fragment>
-			<div className="test container-fluid main-header">
-				<div className="row">
-					<input type="checkbox" className="menu-toggle" id="menu-toggle" />
-					<div className="mobile-bar">
+			<div className='test container-fluid main-header'>
+				<div className='row'>
+					<input type='checkbox' className='menu-toggle' id='menu-toggle' />
+					<div className='mobile-bar'>
 						<img
-							src="../static/images/logo/Logo_Black.png"
-							className="moblogo"
+							src='../static/images/logo/Logo_Black.png'
+							className='moblogo img-fluid'
 						/>
-						<label htmlFor="menu-toggle" className="menu-icon">
+						<label htmlFor='menu-toggle' className='menu-icon'>
 							<span></span>
 						</label>
 					</div>
 
-					<header className="header container">
-						<a className="navbar-brand" href="/" style={{padding: "0px"}}>
-							<img src="../static/images/logo/Logo_Black.png" />
+					<header className='header container'>
+						<a className='navbar-brand' href='/' style={{padding: '0px'}}>
+							<img
+								className='img-fluid img-short'
+								src='../static/images/logo/Logo_Black.png'
+							/>
 						</a>
 						<nav>
 							<ul>
 								<li>
-									<Link href="/">
+									<Link href='/'>
 										<a>Home</a>
 									</Link>
 								</li>
 								<li>
 									<a
-										href="#"
-										className="dropdown-toggle"
-										data-toggle="dropdown"
+										href='#'
+										className='dropdown-toggle'
+										data-toggle='dropdown'
 									>
 										About Us
 									</a>
-									<div className="dropdown-menu dropdown-menu-tip-nw">
-										<a href="/about-us/our-journey" className="dropdown-item">
+									<div className='dropdown-menu dropdown-menu-tip-nw'>
+										<a href='/about-us/our-journey' className='dropdown-item'>
 											Our Journey
 										</a>
-										<a href="/about-us/in-the-media" className="dropdown-item">
+										<a href='/about-us/in-the-media' className='dropdown-item'>
 											In The Media
 										</a>
-										<a href="/about-us/our-team" className="dropdown-item">
+										<a href='/about-us/our-team' className='dropdown-item'>
 											Our Team
 										</a>
 										<a
-											href="/about-us/social-awareness"
-											className="dropdown-item"
+											href='/about-us/social-awareness'
+											className='dropdown-item'
 										>
 											Social Awareness
 										</a>
 									</div>
 								</li>
 								<li>
-									<a href="/technology">Technology</a>
+									<a href='/technology'>Technology</a>
 								</li>
 								<li>
 									<a
-										href="#"
-										className="dropdown-toggle"
-										data-toggle="dropdown"
+										href='#'
+										className='dropdown-toggle'
+										data-toggle='dropdown'
 									>
 										Products
 									</a>
-									<div className="dropdown-menu dropdown-menu-tip-nw">
-										<a href="/products/rainy-filters" className="dropdown-item">
+									<div className='dropdown-menu dropdown-menu-tip-nw'>
+										<a href='/products/rainy-filters' className='dropdown-item'>
 											Rainy Filters
 										</a>
 										<a
-											href="/products/ground-water-recharge"
-											className="dropdown-item"
+											href='/products/ground-water-recharge'
+											className='dropdown-item'
 										>
 											Groundwater Recharge
 										</a>
 										<a
-											href="/products/systems-and-solutions"
-											className="dropdown-item"
+											href='/products/systems-and-solutions'
+											className='dropdown-item'
 										>
 											Systems & Solutions
 										</a>
 									</div>
 								</li>
 								<li>
-									<a href="/gallery">Gallery</a>
+									<a href='/gallery'>Gallery</a>
 								</li>
 								<li>
 									<a
-										href="#"
-										className="dropdown-toggle diffcolormenu"
-										data-toggle="dropdown"
+										href='#'
+										className='dropdown-toggle diffcolormenu'
+										data-toggle='dropdown'
 									>
 										Contact us
 									</a>
-									<div className="dropdown-menu dropdown-menu-tip-nw">
-										<a href="/contact-us/enquire" className="dropdown-item">
+									<div className='dropdown-menu dropdown-menu-tip-nw'>
+										<a href='/contact-us/enquire' className='dropdown-item'>
 											Enquire
 										</a>
-										<a href="/contact-us/dealers" className="dropdown-item">
+										<a href='/contact-us/dealers' className='dropdown-item'>
 											Dealers
 										</a>
-										<a href="/contact-us/downloads" className="dropdown-item">
+										<a href='/contact-us/downloads' className='dropdown-item'>
 											Downloads
 										</a>
 									</div>
 								</li>
 								<li>
 									<img
-										style={{paddingLeft: "1.5em", cursor: "pointer"}}
-										data-toggle="modal"
-										data-target="#googleAnalytics"
-										src="../static/images/icons/globe.png"
+										style={{paddingLeft: '1.5em', cursor: 'pointer'}}
+										data-toggle='modal'
+										data-target='#googleAnalytics'
+										src='../static/images/icons/globe.png'
 									></img>
 								</li>
 							</ul>
@@ -120,41 +123,41 @@ const Header = () => {
 				</div>
 			</div>
 			<div
-				className="modal fade"
-				id="googleAnalytics"
-				tabIndex="-1"
-				role="dialog"
-				aria-labelledby="exampleModalCenterTitle"
-				aria-hidden="true"
+				className='modal fade'
+				id='googleAnalytics'
+				tabIndex='-1'
+				role='dialog'
+				aria-labelledby='exampleModalCenterTitle'
+				aria-hidden='true'
 			>
-				<div className="modal-dialog modal-dialog-centered" role="document">
-					<div className="modal-content variableMargin">
+				<div className='modal-dialog modal-dialog-centered' role='document'>
+					<div className='modal-content variableMargin'>
 						<div
-							className="modal-header"
-							style={{display: "flex", margin: "auto", border: "none"}}
+							className='modal-header'
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
 						>
-							<h5 className="modal-title" id="exampleModalLongTitle">
+							<h5 className='modal-title' id='exampleModalLongTitle'>
 								Translate
 							</h5>
 						</div>
 						<div
-							style={{display: "flex", margin: "auto", border: "none"}}
-							className="modal-body"
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
+							className='modal-body'
 						>
 							<script
-								type="text/javascript"
-								src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+								type='text/javascript'
+								src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'
 							/>
-							<div id="google_translate_element"></div>
+							<div id='google_translate_element'></div>
 						</div>
 						<div
-							style={{display: "flex", margin: "auto", border: "none"}}
-							className="modal-footer"
+							style={{display: 'flex', margin: 'auto', border: 'none'}}
+							className='modal-footer'
 						>
 							<button
-								type="button"
-								className="btn btn-secondary"
-								data-dismiss="modal"
+								type='button'
+								className='btn btn-secondary'
+								data-dismiss='modal'
 							>
 								Close
 							</button>
@@ -163,7 +166,7 @@ const Header = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default Header;
+export default Header
