@@ -114,22 +114,22 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<h4 className='team-title'>Michael Sadananda Baptist</h4>
 										<p className='team-desc'>Co-founder & Director</p>
 										<div style={{textAlign: 'center'}}>
-											<p>
+											{/* <p>
 												<i
 													style={{paddingRight: 5}}
 													className='fa fa-mobile'
 													aria-hidden='true'
 												/>
 												+91 94480 76595
-											</p>
-											{/* <p>
+											</p> */}
+											<p>
 												<i
 													style={{paddingRight: 5}}
-													className="fa fa-envelope-o"
-													aria-hidden="true"
+													className='fa fa-envelope-o'
+													aria-hidden='true'
 												/>
 												michael@rainyfilters.com
-											</p> */}
+											</p>
 										</div>
 									</div>
 								</div>
@@ -140,22 +140,22 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									<div>
 										<h4 className='team-title'>Vijayaraj Shishodya</h4>
 										<p className='team-desc'>Co-founder & Director</p>
-										<p>
+										{/* <p>
 											<i
 												style={{paddingRight: 5}}
 												className='fa fa-mobile'
 												aria-hidden='true'
 											/>
 											+91 94481 30524
-										</p>
-										{/* <p>
+										</p> */}
+										<p>
 											<i
 												style={{paddingRight: 5}}
-												className="fa fa-envelope-o"
-												aria-hidden="true"
+												className='fa fa-envelope-o'
+												aria-hidden='true'
 											/>
 											vijayaraj@rainyfilters.com
-										</p> */}
+										</p>
 									</div>
 								</div>
 							</div>
@@ -171,22 +171,22 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									<div>
 										<h4 className='team-title'>Sunil Gilbert Baptist</h4>
 										<p className='team-desc'>Co-founder & Director</p>
-										<p>
+										{/* <p>
 											<i
 												style={{paddingRight: 5}}
 												className='fa fa-mobile'
 												aria-hidden='true'
 											/>
 											+91 98809 76325
-										</p>
-										{/* <p>
+										</p> */}
+										<p>
 											<i
 												style={{paddingRight: 5}}
-												className="fa fa-envelope-o"
-												aria-hidden="true"
+												className='fa fa-envelope-o'
+												aria-hidden='true'
 											/>
 											sunil@rainyfilters.com
-										</p> */}
+										</p>
 									</div>
 								</div>
 								{/* <div className="col-md-6">

@@ -92,7 +92,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className='container groundwaterSocial'>
 							<div className='row groundwatersec social-image2'>
 								<div className='col-md-6'>
-									<div className='groundwatersimg'>
+									<div className='groundwatersimg ml-2'>
 										<img
 											class='img-fluid'
 											src='../../static/images/ourTeam/1-min.jpg'
@@ -161,7 +161,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								className='row groundwatersec social-image1'
 							>
 								<div className='col-md-6'>
-									<div className='groundwaterstxt' style={{paddingTop: '20px'}}>
+									<div
+										className='groundwaterstxt ml-2'
+										style={{paddingTop: '20px'}}
+									>
 										<h3>Social Responsibility</h3>
 										<p>
 											We have a fleet of Mobile live demonstration units to
@@ -202,7 +205,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									</div>
 								</div>
 								<div className='col-md-6'>
-									<div className='groundwatersimg'>
+									<div className='groundwatersimg ml-2'>
 										<img src='../../static/images/ourTeam/Group1238.jpg' />
 									</div>
 								</div>
