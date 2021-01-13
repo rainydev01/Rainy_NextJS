@@ -167,40 +167,94 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									>
 										<h3>Social Responsibility</h3>
 										<p>
-											We have a fleet of Mobile live demonstration units to
-											realise our mission of conserving every drop of rainwater.
-											These vehicles travel across India to demonstrate
-											rainwater harvesting. We have joined hands with the
-											Government of India under the JALA SHAKTHI ABHIYAN, to
-											spread awareness on water conservation by using these
-											units. In addition, some more benefits of this program
-											are:
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											Farmland Rainwater Harvesting Systems has setup its
+											Research and Manufacturing Plant in an area of 5 acres At
+											Hadihalli Village in Malalur Gram Panchayath limits of
+											Chikmagalur District- known for its Coffee Fragrance.
 											<br />
 											<img
 												style={{height: 25, width: 'auto', paddingRight: 15}}
 												src='../static/images/elements/Path262.png'
 												alt='drop'
 											/>{' '}
-											Use of the mobile live demonstration unit for educational
-											purposes. Through this our experts provide informative
-											sessions on understanding not only the importance of rainw
-											ater harvesting, but also the methods used and the
-											outcomes. We firmly beleive that awareness and education
-											about rainwater harvesting will help shape a better
-											future.
+											Using advanced and modern technology, the plant had been
+											conserving rain water drop by drop from the last three
+											years and has played a pivotal role in improving the
+											groundwater source.
 											<br />
 											<img
 												style={{height: 25, width: 'auto', paddingRight: 15}}
 												src='../static/images/elements/Path262.png'
 												alt='drop'
 											/>{' '}
-											The demonstration of rainwater harvesting using our mobile
-											units is done not only in schools, engineering colleges
-											and universities, but also in industrial exhibitions,
-											seminars, international and national expos, agricultural
-											expos, sustainability-based events etc. to echo the theme
-											of conservation of rainwater.
+											Our Company has never forgotten its social responsibility
+											at any point of time. Whenever any calamities occurred in
+											the country the Company feels proud to say that it has
+											fulfilled its responsibility with great interest.
 											<br />
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											It is known that COVID-19 pandemic wreaked havoc in 2020
+											and affected all sectors. During this period Farmland
+											Rainwater Harvesting Systems, realizing its
+											responsibility, responded positively to problems faced by
+											the people.
+											<br />
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											Such a horrible situations arose that laborers who
+											migrated to other districts in search of jobs were beset
+											with disrupted life. They found it very difficult to keep
+											on their livelihood. At that time Farmland Rainwater
+											Harvesting Systems came to the rescue of people who
+											returned to KADEMAKKI village. We united these families
+											and motivated them towards COMMUNITY FARMING. These 17
+											families who are marginal farmers with one or two acres of
+											land holding had the problem of water for cultivation.
+											<br />
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											The Company which had stored rainwater in the research
+											plant, provided that water through pipes and pump sets to
+											irrigate over 50 acres of land free of cost. Now that
+											drought prone land is rejuvenated with green cover as the
+											farmers are growing vegetables and food crops to sustain
+											their income. The farmers are now quite happy and are
+											grateful to the company for timely help.
+											<br />
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											Apart from this, the Company has been supplying free
+											drinking water to villages in the vicinity that faced
+											drinking water crisis.
+											<br />
+											<img
+												style={{height: 25, width: 'auto', paddingRight: 15}}
+												src='../static/images/elements/Path262.png'
+												alt='drop'
+											/>{' '}
+											During COVID-19 lockdown hundreds of poor people faced
+											food problem. At that time the Company distributed food
+											kits to them. The journalists too struggled hard during
+											this critical period to keep the pandemic under control.
+											They were also given food kits to help their families.
 										</p>
 									</div>
 								</div>
