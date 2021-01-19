@@ -1,8 +1,8 @@
-import {Fragment} from "react";
-import Head from "next/head";
-import Link from "next/link";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import {Fragment} from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 export default function Home() {
 	return (
@@ -10,7 +10,7 @@ export default function Home() {
 			<Head>
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
+					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
 
 				<script
@@ -25,28 +25,28 @@ export default function Home() {
 				/>
 				<title>Rainy - Downloads</title>
 				<link
-					rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-					crossOrigin="anonymous"
+					rel='stylesheet'
+					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
+					crossOrigin='anonymous'
 				/>
 				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+					rel='stylesheet'
+					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'></script>
+				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js'></script>
 
 				<link
-					rel="stylesheet"
-					href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-					integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-					crossOrigin="anonymous"
+					rel='stylesheet'
+					href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'
+					integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/'
+					crossOrigin='anonymous'
 				/>
 				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+					rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -54,10 +54,10 @@ export default function Home() {
 							/* eslint-disable no-new */
 							new window.google.translate.TranslateElement(
 								{
-									pageLanguage: "pt",
+									pageLanguage: 'pt',
 								},
-								"google_translate_element"
-							);
+								'google_translate_element'
+							)
 						},
 					}}
 				/>
@@ -86,52 +86,113 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 				/>
 			</Head>
 			<main>
-				<div className="App">
+				<div className='App'>
 					<Header />
-					<div className="container-fluid banner enternal">
-						<div className="hero-image enthroimg">
-							<img src="../../static/images/downloads/DownloadsBanner.png" />
-							<div className="hero-text dwnldbnnrtxt">
+					<div className='container-fluid banner enternal'>
+						<div className='hero-image enthroimg'>
+							<img src='../../static/images/downloads/DownloadsBanner.png' />
+							<div className='hero-text dwnldbnnrtxt'>
 								<h1>Downloads</h1>
 							</div>
 						</div>
 					</div>
 
-					<div className="container-fluid dnldbg">
-						<div className="container">
-							<div className="row">
-								<div className="downloadsec">
-									<div id="accordion">
-										<div className="acrdinbrdr">
-											<div className="card-header" id="heading-1">
-												<h5 className="mb-0">
+					<div className='container-fluid dnldbg'>
+						<div className='container'>
+							<div className='row'>
+								<div className='downloadsec'>
+									<div id='accordion'>
+										<div className='acrdinbrdr'>
+											<div className='card-header' id='heading-1'>
+												<h5 className='mb-0'>
 													<a
-														role="button"
-														data-toggle="collapse"
-														href="#collapse-1"
-														aria-expanded="true"
-														aria-controls="collapse-1"
-														style={{color: "#58b8ef"}}
+														role='button'
+														data-toggle='collapse'
+														href='#collapse-1'
+														aria-expanded='true'
+														aria-controls='collapse-1'
+														style={{color: '#58b8ef'}}
 													>
 														Brochures
-														<span className="mb-span">
+														<span className='mb-span'>
 															View all the product info Brochures here
 														</span>
 													</a>
 												</h5>
 											</div>
 											<div
-												id="collapse-1"
-												className="collapse show"
-												data-parent="#accordion"
-												aria-labelledby="heading-1"
+												id='collapse-1'
+												className='collapse show'
+												data-parent='#accordion'
+												aria-labelledby='heading-1'
 											>
-												<div className="card-body">
-													<div className="container-fluid">
+												<div className='card-body'>
+													<div className='container-fluid'>
+														<div className='row'>
+															<div className='col-md-2'>
+																<a
+																	href='../../static/pdf/FourFolderLiterature.pdf'
+																	target='_blank'
+																>
+																	<i
+																		className='fa fa-file-pdf-o fa-3x'
+																		aria-hidden='true'
+																	></i>
+																</a>
+
+																<p>
+																	Four Folder <br></br> Literature{' '}
+																</p>
+															</div>
+															<div className='col-md-2'>
+																<a
+																	href='../../static/pdf/RainyTechnicalLiterature.pdf'
+																	target='_blank'
+																>
+																	<i
+																		className='fa fa-file-pdf-o fa-3x'
+																		aria-hidden='true'
+																	></i>
+																</a>
+
+																<p>'Rainy' Technical Literature</p>
+															</div>
+															<div className='col-md-4'></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div className='acrdinbrdr'>
+											<div className='card-header' id='heading-2'>
+												<h5 className='mb-0'>
+													<a
+														className='collapsed'
+														role='button'
+														data-toggle='collapse'
+														href='#collapse-2'
+														aria-expanded='false'
+														aria-controls='collapse-2'
+														style={{color: '#58b8ef'}}
+													>
+														'Rainy' Product Catalogue
+													</a>
+												</h5>
+											</div>
+											<div
+												id='collapse-2'
+												className='collapse'
+												data-parent='#accordion'
+												aria-labelledby='heading-2'
+											>
+												<div className='card-body'>
+													{/* Lorum ipsom is a dummy text, Here is a text is only
+													for test. */}
+													{/* <div className="container-fluid">
 														<div className="row">
 															<div className="col-md-2">
 																<a
-																	href="../../static/pdf/FourFolderLiterature.pdf"
+																	href="../../static/pdf/FL-80UserManual.pdf"
 																	target="_blank"
 																>
 																	<i
@@ -141,51 +202,88 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																</a>
 
 																<p>
-																	Four Folder <br></br> Literature{" "}
+																	FL 80 <br></br> User Manual{" "}
 																</p>
 															</div>
-															<div className="col-md-2">
+															<div className="col-md-2"></div>
+															<div className="col-md-4"></div>
+														</div>
+													</div> */}
+												</div>
+											</div>
+										</div>
+										<div className='acrdinbrdr'>
+											<div className='card-header' id='heading-3'>
+												<h5 className='mb-0'>
+													<a
+														className='collapsed'
+														role='button'
+														data-toggle='collapse'
+														href='#collapse-3'
+														aria-expanded='false'
+														aria-controls='collapse-3'
+														style={{color: '#58b8ef'}}
+													>
+														Instructions Manual
+													</a>
+												</h5>
+											</div>
+											<div
+												id='collapse-3'
+												className='collapse'
+												data-parent='#accordion'
+												aria-labelledby='heading-3'
+											>
+												<div className='card-body'>
+													{/* Lorum ipsom is a dummy text, Here is a text is only
+													for test. */}
+													<div className='container-fluid'>
+														<div className='row'>
+															<div className='col-md-2'>
 																<a
-																	href="../../static/pdf/RainyTechnicalLiterature.pdf"
-																	target="_blank"
+																	href='../../static/pdf/FL-80UserManual.pdf'
+																	target='_blank'
 																>
 																	<i
-																		className="fa fa-file-pdf-o fa-3x"
-																		aria-hidden="true"
+																		className='fa fa-file-pdf-o fa-3x'
+																		aria-hidden='true'
 																	></i>
 																</a>
 
-																<p>'Rainy' Technical Literature</p>
+																<p>
+																	FL 80 <br></br> User Manual{' '}
+																</p>
 															</div>
-															<div className="col-md-4"></div>
+															<div className='col-md-2'></div>
+															<div className='col-md-4'></div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-										<div className="acrdinbrdr">
-											<div className="card-header" id="heading-2">
-												<h5 className="mb-0">
+										<div className='acrdinbrdr'>
+											<div className='card-header' id='heading-2'>
+												<h5 className='mb-0'>
 													<a
-														className="collapsed"
-														role="button"
-														data-toggle="collapse"
-														href="#collapse-2"
-														aria-expanded="false"
-														aria-controls="collapse-2"
-														style={{color: "#58b8ef"}}
+														className='collapsed'
+														role='button'
+														data-toggle='collapse'
+														href='#collapse-4'
+														aria-expanded='false'
+														aria-controls='collapse-2'
+														style={{color: '#58b8ef'}}
 													>
-														'Rainy' Product Catalogue
+														Case Studies On Groundwater Recharging
 													</a>
 												</h5>
 											</div>
 											<div
-												id="collapse-2"
-												className="collapse"
-												data-parent="#accordion"
-												aria-labelledby="heading-2"
+												id='collapse-4'
+												className='collapse'
+												data-parent='#accordion'
+												aria-labelledby='heading-2'
 											>
-												<div className="card-body">
+												<div className='card-body'>
 													{/* Lorum ipsom is a dummy text, Here is a text is only
 													for test. */}
 													{/* <div className="container-fluid">
@@ -213,34 +311,34 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</div>
 										</div>
 										<div
-											className="acrdinbrdr"
-											style={{borderBottom: "2px solid #58b8ef"}}
+											className='acrdinbrdr'
+											style={{borderBottom: '2px solid #58b8ef'}}
 										>
-											<div className="card-header" id="heading-3">
-												<h5 className="mb-0">
+											<div className='card-header' id='heading-2'>
+												<h5 className='mb-0'>
 													<a
-														className="collapsed"
-														role="button"
-														data-toggle="collapse"
-														href="#collapse-3"
-														aria-expanded="false"
-														aria-controls="collapse-3"
-														style={{color: "#58b8ef"}}
+														className='collapsed'
+														role='button'
+														data-toggle='collapse'
+														href='#collapse-5'
+														aria-expanded='false'
+														aria-controls='collapse-2'
+														style={{color: '#58b8ef'}}
 													>
-														Instructions Manual
+														‘Rainy’ Filters Detailed Installation Guide
 													</a>
 												</h5>
 											</div>
 											<div
-												id="collapse-3"
-												className="collapse"
-												data-parent="#accordion"
-												aria-labelledby="heading-3"
+												id='collapse-5'
+												className='collapse'
+												data-parent='#accordion'
+												aria-labelledby='heading-2'
 											>
-												<div className="card-body">
+												<div className='card-body'>
 													{/* Lorum ipsom is a dummy text, Here is a text is only
 													for test. */}
-													<div className="container-fluid">
+													{/* <div className="container-fluid">
 														<div className="row">
 															<div className="col-md-2">
 																<a
@@ -260,7 +358,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 															<div className="col-md-2"></div>
 															<div className="col-md-4"></div>
 														</div>
-													</div>
+													</div> */}
 												</div>
 											</div>
 										</div>
@@ -275,5 +373,5 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 			<footer />
 		</Fragment>
-	);
+	)
 }
