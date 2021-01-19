@@ -369,10 +369,16 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												Rainy RWH High Density Polyethelyne Quick Coupling Push
 												and Joint Pipe
 											</td>
-											<td style={{width: '30%'}} className='text-center'>
+											<td
+												style={{width: '30%'}}
+												className='text-center my-auto'
+											>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/1.png'
+													src='../../static/images/systemsSolutions/pipes/1.jpg'
 												/>
 											</td>
 											<td>
@@ -387,8 +393,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/2.png'
+													src='../../static/images/systemsSolutions/pipes/2.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -400,8 +409,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/3.png'
+													src='../../static/images/systemsSolutions/pipes/3.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -413,8 +425,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/4.png'
+													src='../../static/images/systemsSolutions/pipes/4.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -426,8 +441,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/5.png'
+													src='../../static/images/systemsSolutions/pipes/5.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -439,8 +457,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/6.png'
+													src='../../static/images/systemsSolutions/pipes/6.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -452,8 +473,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/7.png'
+													src='../../static/images/systemsSolutions/pipes/7.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -465,8 +489,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/8.png'
+													src='../../static/images/systemsSolutions/pipes/8.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -478,8 +505,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/9.png'
+													src='../../static/images/systemsSolutions/pipes/9.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
@@ -491,8 +521,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</td>
 											<td style={{width: '30%'}} className='text-center'>
 												<img
+													style={{
+														width: '45%',
+													}}
 													className='img-fluid'
-													src='../../static/images/systemsSolutions/pipes/10.png'
+													src='../../static/images/systemsSolutions/pipes/10.jpg'
 												/>
 											</td>
 											<td>PWC - 6 Kg/cm2 SIZE IN MM – 110, 90, 75</td>
