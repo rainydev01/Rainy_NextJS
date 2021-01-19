@@ -109,7 +109,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														role='button'
 														data-toggle='collapse'
 														href='#collapse-1'
-														aria-expanded='true'
+														aria-expanded='false'
 														aria-controls='collapse-1'
 														style={{color: '#58b8ef'}}
 													>
@@ -122,7 +122,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											</div>
 											<div
 												id='collapse-1'
-												className='collapse show'
+												className='collapse '
 												data-parent='#accordion'
 												aria-labelledby='heading-1'
 											>
