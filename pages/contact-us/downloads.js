@@ -261,6 +261,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</div>
 											</div>
 										</div>
+
 										<div className='acrdinbrdr'>
 											<div className='card-header' id='heading-2'>
 												<h5 className='mb-0'>
@@ -268,17 +269,17 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														className='collapsed'
 														role='button'
 														data-toggle='collapse'
-														href='#collapse-4'
+														href='#collapse-5'
 														aria-expanded='false'
 														aria-controls='collapse-2'
 														style={{color: '#58b8ef'}}
 													>
-														Case Studies On Groundwater Recharging
+														‘Rainy’ Filters Detailed Installation Guide
 													</a>
 												</h5>
 											</div>
 											<div
-												id='collapse-4'
+												id='collapse-5'
 												className='collapse'
 												data-parent='#accordion'
 												aria-labelledby='heading-2'
@@ -320,17 +321,17 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														className='collapsed'
 														role='button'
 														data-toggle='collapse'
-														href='#collapse-5'
+														href='#collapse-4'
 														aria-expanded='false'
 														aria-controls='collapse-2'
 														style={{color: '#58b8ef'}}
 													>
-														‘Rainy’ Filters Detailed Installation Guide
+														Case Studies On Groundwater Recharging
 													</a>
 												</h5>
 											</div>
 											<div
-												id='collapse-5'
+												id='collapse-4'
 												className='collapse'
 												data-parent='#accordion'
 												aria-labelledby='heading-2'
