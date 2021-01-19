@@ -30,9 +30,9 @@ const Header = () => {
 						<nav>
 							<ul>
 								<li>
-									<Link href='/'>
+									<a href='/'>
 										<a>Home</a>
-									</Link>
+									</a>
 								</li>
 								<li>
 									<a
