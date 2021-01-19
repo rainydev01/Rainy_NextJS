@@ -968,10 +968,12 @@ span.mb-span {
 
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: rgb(129, 186, 219) !important;
+    line-height: 25px;
 }
 
 .table-striped tbody tr:nth-of-type(even) {
     background-color: rgb(225, 241, 241) !important;
+    line-height: 25px;
 }
 
 .techpointslst {
