@@ -16,18 +16,6 @@ const WhatWeDo = () => {
 							<div className='mt-1' style={{textAlign: 'right'}}>
 								<img alt='logo' src='../static/images/homepage/1.jpg' />
 							</div>
-						</div>
-						<div className='col-md-4'>
-							<div className='mt-1'>
-								<img src='../static/images/homepage/3.jpg' />
-							</div>
-						</div>
-						<div className='col-md-4'>
-							<div className='mt-1'>
-								<img alt='iamegs' src='../static/images/homepage/2.jpg' />
-							</div>
-						</div>
-						<div className='col-md-4'>
 							<div className='grndtext'>
 								<h3 style={{textAlign: 'right'}}>
 									Rooftop Rain Water Harvesting Filters
@@ -51,6 +39,9 @@ const WhatWeDo = () => {
 							</div>
 						</div>
 						<div className='col-md-4'>
+							<div className='mt-1'>
+								<img src='../static/images/homepage/3.jpg' />
+							</div>
 							<div className='grndtext'>
 								<h3>Groundwater Recharging</h3>
 								<p
@@ -71,8 +62,10 @@ const WhatWeDo = () => {
 								</p>
 							</div>
 						</div>
-
 						<div className='col-md-4'>
+							<div className='mt-1'>
+								<img alt='iamegs' src='../static/images/homepage/2.jpg' />
+							</div>
 							<div className='grndtext'>
 								<h3>Systems & Solutions</h3>
 								<p
