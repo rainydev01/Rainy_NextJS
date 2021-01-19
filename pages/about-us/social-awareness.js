@@ -94,7 +94,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								<div className='col-md-6'>
 									<div className='groundwatersimg ml-2'>
 										<img
-											class='img-fluid'
+											className='img-fluid'
 											src='../../static/images/ourTeam/socialAware.jpg'
 										/>
 									</div>
@@ -154,8 +154,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
 
-							<ImageSlider></ImageSlider>
+					<ImageSlider></ImageSlider>
+
+					<div className='container-fluid'>
+						<div className='container groundwaterSocial'>
 							<div
 								style={{marginTop: '8%'}}
 								className='row groundwatersec social-image1'
@@ -167,95 +172,108 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									>
 										<h3>Social Responsibility</h3>
 										<p>
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
 											Farmland Rainwater Harvesting Systems has setup its
 											Research and Manufacturing Plant in an area of 5 acres At
 											Hadihalli Village in Malalur Gram Panchayath limits of
 											Chikmagalur District- known for its Coffee Fragrance.
-											<br />
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
 											Using advanced and modern technology, the plant had been
 											conserving rain water drop by drop from the last three
 											years and has played a pivotal role in improving the
-											groundwater source.
-											<br />
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
-											Our Company has never forgotten its social responsibility
-											at any point of time. Whenever any calamities occurred in
-											the country the Company feels proud to say that it has
-											fulfilled its responsibility with great interest.
-											<br />
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
-											It is known that COVID-19 pandemic wreaked havoc in 2020
-											and affected all sectors. During this period Farmland
-											Rainwater Harvesting Systems, realizing its
+											groundwater source. Our Company has never forgotten its
+											social responsibility at any point of time. Whenever any
+											calamities occurred in the country the Company feels proud
+											to say that it has fulfilled its responsibility with great
+											interest. It is known that COVID-19 pandemic wreaked havoc
+											in 2020 and affected all sectors. During this period
+											Farmland Rainwater Harvesting Systems, realizing its
 											responsibility, responded positively to problems faced by
 											the people.
-											<br />
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
-											Such a horrible situations arose that laborers who
-											migrated to other districts in search of jobs were beset
-											with disrupted life. They found it very difficult to keep
-											on their livelihood. At that time Farmland Rainwater
-											Harvesting Systems came to the rescue of people who
-											returned to KADEMAKKI village. We united these families
-											and motivated them towards COMMUNITY FARMING. These 17
-											families who are marginal farmers with one or two acres of
-											land holding had the problem of water for cultivation.
-											<br />
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
-											The Company which had stored rainwater in the research
-											plant, provided that water through pipes and pump sets to
-											irrigate over 50 acres of land free of cost. Now that
-											drought prone land is rejuvenated with green cover as the
-											farmers are growing vegetables and food crops to sustain
-											their income. The farmers are now quite happy and are
-											grateful to the company for timely help.
-											<br />
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
-											Apart from this, the Company has been supplying free
-											drinking water to villages in the vicinity that faced
-											drinking water crisis.
-											<br />
-											<img
-												style={{height: 25, width: 'auto', paddingRight: 15}}
-												src='../static/images/elements/Path262.png'
-												alt='drop'
-											/>{' '}
-											During COVID-19 lockdown hundreds of poor people faced
-											food problem. At that time the Company distributed food
-											kits to them. The journalists too struggled hard during
-											this critical period to keep the pandemic under control.
-											They were also given food kits to help their families.
 										</p>
+										<button data-toggle='modal' data-target='#socialAwareness'>
+											Read More{' '}
+											<i className='fa fa-angle-right' aria-hidden='true' />
+										</button>
+										<div
+											style={{zIndex: 9999999999}}
+											className='modal fade bd-example-modal-lg'
+											id='socialAwareness'
+											tabindex='-1'
+											role='dialog'
+											aria-labelledby='exampleModalCenterTitle'
+											aria-hidden='true'
+										>
+											<div
+												className='modal-dialog modal-lg modal-dialog-centered'
+												role='document'
+											>
+												<div className='modal-content '>
+													<div className='modal-header'>
+														<h5
+															className='modal-title'
+															id='exampleModalLongTitle'
+														>
+															Social Responsibility
+														</h5>
+														<button
+															style={{
+																color: 'black',
+																background: 'transparent',
+																border: 'none',
+															}}
+															type='button'
+															className='close'
+															data-dismiss='modal'
+															aria-label='Close'
+														>
+															<span aria-hidden='true'>&times;</span>
+														</button>
+													</div>
+													<div className='modal-body'>
+														<p>
+															Such a horrible situations arose that laborers who
+															migrated to other districts in search of jobs were
+															beset with disrupted life. They found it very
+															difficult to keep on their livelihood. At that
+															time Farmland Rainwater Harvesting Systems came to
+															the rescue of people who returned to KADEMAKKI
+															village. We united these families and motivated
+															them towards COMMUNITY FARMING. These 17 families
+															who are marginal farmers with one or two acres of
+															land holding had the problem of water for
+															cultivation. The Company which had stored
+															rainwater in the research plant, provided that
+															water through pipes and pump sets to irrigate over
+															50 acres of land free of cost. Now that drought
+															prone land is rejuvenated with green cover as the
+															farmers are growing vegetables and food crops to
+															sustain their income. The farmers are now quite
+															happy and are grateful to the company for timely
+															help. Apart from this, the Company has been
+															supplying free drinking water to villages in the
+															vicinity that faced drinking water crisis. During
+															COVID-19 lockdown hundreds of poor people faced
+															food problem. At that time the Company distributed
+															food kits to them. The journalists too struggled
+															hard during this critical period to keep the
+															pandemic under control. They were also given food
+															kits to help their families.
+														</p>
+													</div>
+													<div className='modal-footer'>
+														<button
+															style={{
+																color: 'black',
+															}}
+															type='button'
+															className='btn btn-secondary'
+															data-dismiss='modal'
+														>
+															Close
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 								<div className='col-md-6'>

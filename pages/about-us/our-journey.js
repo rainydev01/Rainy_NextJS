@@ -400,7 +400,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<div className='body-timmain'>
 											<div className='timeline-heading'>
 												<h4 className='timeline-title'>
-													FL-80 and FL-150 New product launched
+													New products launched, FL-80 and FL-150
 												</h4>
 											</div>
 											<div className='timeline-body'>

@@ -189,7 +189,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									<div className='m-5'>
 										<img
 											className='img-fluid'
-											src='../../static/images/groundWater/fig.png'
+											src='../../static/images/groundWater/inj.png'
 										/>
 									</div>
 								</div>
@@ -303,7 +303,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								<Link href='/contact-us/downloads'>
 									<a style={{fontSize: '16px'}}>
 										{' '}
-										for case studies click on downloads{' '}
+										Click here for Case studies on Groundwater Recharging{' '}
 									</a>
 								</Link>
 							</p>

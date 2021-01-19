@@ -1351,7 +1351,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								<Link href='/contact-us/downloads'>
 									<a style={{fontSize: '16px'}}>
 										{' '}
-										Click here for detailed instructions/guide{' '}
+										Click here for detailed installation guide{' '}
 									</a>
 								</Link>
 							</p>

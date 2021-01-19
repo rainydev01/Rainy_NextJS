@@ -35,17 +35,17 @@ const Footer = () => {
 									+91 73380 33790
 								</p>
 								<p>
-									<a target='_blank' href='tel:9448130524'>
+									<a target='_blank' href='tel:7338033790'>
 										<i className='fa fa-mobile' aria-hidden='true' />
 									</a>{' '}
-									+91 94481 30524
+									+91 73380 33790
 								</p>
-								<p>
+								{/* <p>
 									<a target='_blank' href='tel:9449443232'>
 										<i className='fa fa-mobile' aria-hidden='true' />
 									</a>{' '}
 									+91 94494 43232
-								</p>
+								</p> */}
 								<p>
 									<a target='_blank' href='tel:08026766252'>
 										<i
@@ -53,7 +53,7 @@ const Footer = () => {
 											aria-hidden='true'
 										/>
 									</a>{' '}
-									08026766252
+									080 26766252
 								</p>
 								<p>
 									<a href='mailto: farmland_rhs@yahoo.co.in'>
@@ -927,7 +927,7 @@ const Footer = () => {
 			<div
 				className='modal fade '
 				id='cookie'
-				tabindex='-1'
+				tabIndex='-1'
 				aria-labelledby='exampleModalLabel'
 				aria-hidden='true'
 			>

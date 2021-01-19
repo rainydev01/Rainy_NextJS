@@ -873,6 +873,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														aria-controls='collapse-2'
 													>
 														V-Wire Technology
+														<span className='mb-span mbspndiff'>
+															Design and Technique
+														</span>
 													</a>
 												</h5>
 											</div>
@@ -1073,6 +1076,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														aria-controls='collapse-1'
 													>
 														Salient Features
+														<span className='mb-span mbspndiff'>
+															Scientific Solution
+														</span>
 													</a>
 												</h5>
 											</div>
@@ -1187,6 +1193,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														aria-controls='collapse-3'
 													>
 														Advantages
+														<span className='mb-span mbspndiff'>
+															Benefits and Unique Features
+														</span>
 													</a>
 												</h5>
 											</div>

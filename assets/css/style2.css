@@ -210,7 +210,7 @@ a.diffcolormenu {
 }
 
 .groundwaterstxt h3:after {
-    content: "";
+    content: '';
     display: block;
     text-align: left;
     position: relative;
@@ -349,14 +349,14 @@ body {
 a {
     font-weight: 500;
     font-size: 14px;
-    font-family: "Visby Round CF Heavy";
+    font-family: 'Visby Round CF Heavy';
     letter-spacing: 0px;
 }
 
 p {
     font-weight: 600;
     font-size: 14px;
-    font-family: "Visby Round CF Regular";
+    font-family: 'Visby Round CF Regular';
     letter-spacing: 0px;
 }
 
@@ -375,7 +375,7 @@ p {
 }
 
 .groundwater_bg h2:after {
-    content: "";
+    content: '';
     display: block;
     text-align: center;
     position: relative;
@@ -396,11 +396,11 @@ p {
     font-weight: 600;
     color: #0971b7;
     letter-spacing: 0px;
-    font-family: "Visby Round CF Heavy";
+    font-family: 'Visby Round CF Heavy';
 }
 
 .abou-home-heading h2:after {
-    content: "";
+    content: '';
     display: block;
     text-align: center;
     position: relative;
@@ -482,11 +482,11 @@ p {
     font-weight: 600;
     color: #0971b7;
     letter-spacing: 0px;
-    font-family: "Visby Round CF Heavy";
+    font-family: 'Visby Round CF Heavy';
 }
 
 h2.whtdowdo:after {
-    content: "";
+    content: '';
     display: block;
     text-align: center;
     position: relative;
@@ -551,7 +551,7 @@ h2.whtdowdo:after {
     top: 0;
     bottom: -16px;
     position: absolute;
-    content: " ";
+    content: ' ';
     width: 3px;
     background-color: #858585;
     left: 50%;
@@ -565,7 +565,7 @@ h2.whtdowdo:after {
 
 .timeline>li:before,
 .timeline>li:after {
-    content: " ";
+    content: ' ';
     display: table;
 }
 
@@ -575,7 +575,7 @@ h2.whtdowdo:after {
 
 .timeline>li:before,
 .timeline>li:after {
-    content: " ";
+    content: ' ';
     display: table;
 }
 
@@ -824,7 +824,7 @@ h2.whtdowdo:after {
 }
 
 .groundwater_bg h2:after {
-    content: "";
+    content: '';
     display: block;
     text-align: center;
     position: relative;

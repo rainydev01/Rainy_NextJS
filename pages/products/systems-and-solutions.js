@@ -117,103 +117,184 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											end- to-end solutions. 'Rainy' is equipped with a
 											dedicated and experienced team of engineers, technician,
 											workmen along with special installation equipments,
-											drilling rigs, civil structures etc. <br /> Broad steps
-											include:
+											drilling rigs, civil structures etc. <br />
 										</p>
-										<ul>
-											<li>
-												<img
-													style={{
-														height: 25,
-														width: 'auto',
-														paddingRight: 15,
-													}}
-													src='../static/images/elements/Path262.png'
-													alt='drop'
-												/>
-												Highly trained technical team conducts the Rainwater
-												Harvesting technical survey by studying the layout of
-												the site and building.
-											</li>
-											<li>
-												<img
-													style={{
-														height: 25,
-														width: 'auto',
-														paddingRight: 15,
-													}}
-													src='../static/images/elements/Path262.png'
-													alt='drop'
-												/>
-												Existing piping system of rainwater and storm drains are
-												studied.
-											</li>
-											<li>
-												<img
-													style={{
-														height: 25,
-														width: 'auto',
-														paddingRight: 15,
-													}}
-													src='../static/images/elements/Path262.png'
-													alt='drop'
-												/>
-												Gradient and landscape of the site and building are
-												obtained.
-											</li>
-											<li>
-												<img
-													style={{
-														height: 25,
-														width: 'auto',
-														paddingRight: 15,
-													}}
-													src='../static/images/elements/Path262.png'
-													alt='drop'
-												/>{' '}
-												Designing and installation of innovative customised
-												system is done with precise scientific approach. These
-												solutions include: diverting existing rainwater pipes,
-												deployment of underground storage, auto pumping system,
-												piping, filtering, storage, utilization etc.
-											</li>
-											<li>
-												<img
-													style={{
-														height: 25,
-														width: 'auto',
-														paddingRight: 15,
-													}}
-													src='../static/images/elements/Path262.png'
-													alt='drop'
-												/>
-												Designing and construction of ground water recharging
-												structures.
-											</li>
-											<li>
-												<img
-													style={{
-														height: 25,
-														width: 'auto',
-														paddingRight: 15,
-													}}
-													src='../static/images/elements/Path262.png'
-													alt='drop'
-												/>
-												Complete solutions for water neutrality establishment
-												projects.
-											</li>
-										</ul>
 									</div>
-									<div className='rnyfltrbtn senq'>
-										<Link href='/contact-us/enquire'>
-											<a>
-												<button id='rnenq'>
-													Enquire{' '}
-													<i class='fa fa-angle-right' aria-hidden='true' />
-												</button>
-											</a>
-										</Link>
+
+									<div className='container-fluid'>
+										<div className='row'>
+											<div className='col-md-4'></div>
+											<div className='col-md-4'>
+												<div
+													style={{
+														fontFamily: 'Visby Round CF Heavy',
+														fontSize: 14,
+													}}
+												>
+													<button
+														data-toggle='modal'
+														data-target='#sysSoln'
+														id='rnenq'
+													>
+														Read More{' '}
+														<i class='fa fa-angle-right' aria-hidden='true' />
+													</button>
+												</div>
+											</div>
+											<div className='col-md-4'>
+												<div>
+													<Link href='/contact-us/enquire'>
+														<a>
+															<button id='rnenq'>
+																Enquire{' '}
+																<i
+																	class='fa fa-angle-right'
+																	aria-hidden='true'
+																/>
+															</button>
+														</a>
+													</Link>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div
+										style={{zIndex: 9999999999}}
+										className='modal fade bd-example-modal-lg'
+										id='sysSoln'
+										tabindex='-1'
+										role='dialog'
+										aria-labelledby='exampleModalCenterTitle'
+										aria-hidden='true'
+									>
+										<div
+											className='modal-dialog modal-lg modal-dialog-centered'
+											role='document'
+										>
+											<div className='modal-content '>
+												<div className='modal-header'>
+													<h5
+														className='modal-title'
+														id='exampleModalLongTitle'
+													>
+														Broad steps include
+													</h5>
+													<button
+														style={{
+															color: 'black',
+															background: 'transparent',
+															border: 'none',
+														}}
+														type='button'
+														className='close'
+														data-dismiss='modal'
+														aria-label='Close'
+													>
+														<span aria-hidden='true'>&times;</span>
+													</button>
+												</div>
+												<div className='modal-body'>
+													<ul>
+														<li>
+															<img
+																style={{
+																	height: 25,
+																	width: 'auto',
+																	paddingRight: 15,
+																}}
+																src='../static/images/elements/Path262.png'
+																alt='drop'
+															/>
+															Highly trained technical team conducts the
+															Rainwater Harvesting technical survey by studying
+															the layout of the site and building.
+														</li>
+														<li>
+															<img
+																style={{
+																	height: 25,
+																	width: 'auto',
+																	paddingRight: 15,
+																}}
+																src='../static/images/elements/Path262.png'
+																alt='drop'
+															/>
+															Existing piping system of rainwater and storm
+															drains are studied.
+														</li>
+														<li>
+															<img
+																style={{
+																	height: 25,
+																	width: 'auto',
+																	paddingRight: 15,
+																}}
+																src='../static/images/elements/Path262.png'
+																alt='drop'
+															/>
+															Gradient and landscape of the site and building
+															are obtained.
+														</li>
+														<li>
+															<img
+																style={{
+																	height: 25,
+																	width: 'auto',
+																	paddingRight: 15,
+																}}
+																src='../static/images/elements/Path262.png'
+																alt='drop'
+															/>{' '}
+															Designing and installation of innovative
+															customised system is done with precise scientific
+															approach. These solutions include: diverting
+															existing rainwater pipes, deployment of
+															underground storage, auto pumping system, piping,
+															filtering, storage, utilization etc.
+														</li>
+														<li>
+															<img
+																style={{
+																	height: 25,
+																	width: 'auto',
+																	paddingRight: 15,
+																}}
+																src='../static/images/elements/Path262.png'
+																alt='drop'
+															/>
+															Designing and construction of ground water
+															recharging structures.
+														</li>
+														<li>
+															<img
+																style={{
+																	height: 25,
+																	width: 'auto',
+																	paddingRight: 15,
+																}}
+																src='../static/images/elements/Path262.png'
+																alt='drop'
+															/>
+															Complete solutions for water neutrality
+															establishment projects.
+														</li>
+													</ul>
+												</div>
+												<div className='modal-footer'>
+													<button
+														style={{
+															color: 'black',
+														}}
+														type='button'
+														className='btn btn-secondary'
+														data-dismiss='modal'
+													>
+														Close
+													</button>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
