@@ -1344,3 +1344,23 @@ div#goog-gt-tt {
     height: 0px !important;
     z-index: -99999 !important;
 } */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 768px) {
+    .test {
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: none;
+        height: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 1204px) and (max-device-width: 1024px) {
+    .test {
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: none;
+        height: 20px !important;
+    }
+}
