@@ -1202,7 +1202,7 @@ p {
     .col-md-12 {
         -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
-        max-width: 80% !important;
+        max-width: 100% !important;
     }
     .mdiasocial {
         position: absolute !important;

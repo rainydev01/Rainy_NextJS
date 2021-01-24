@@ -90,8 +90,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className='container-fluid '>
 						<div className='container '>
-							<div className='row groundwatersec social-image2 text-center'>
-								<div className='col-md-12 col-xs-12 col-lg-6 text-center '>
+							<div className='row groundwatersec social-image2 '>
+								<div className='col-md-12 col-xs-12 col-lg-6  '>
 									<div className='groundwatersimg ml-2'>
 										<img
 											className='img-fluid'
@@ -99,13 +99,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										/>
 									</div>
 								</div>
-								<div className='col-md-12 col-xs-12 col-lg-6 text-center'>
+								<div className='col-md-12 col-xs-12 col-lg-6 '>
 									<div
-										className='groundwaterstxt text-center'
+										className='groundwaterstxt '
 										style={{paddingTop: '20px'}}
 									>
-										<h3>Social Awareness Initiatives</h3>
-										<p>
+										<h3 className='text-left'>Social Awareness Initiatives</h3>
+										<p className='text-left'>
 											We have a fleet of Mobile live demonstration units to
 											realise our mission of conserving every drop of rainwater.
 											These vehicles travel across India to demonstrate
@@ -166,15 +166,15 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className='container groundwaterSocial'>
 							<div
 								style={{marginTop: '8%'}}
-								className='row groundwatersec social-image1 mb-4'
+								className='row groundwatersec social-image1 mb-4 text-center'
 							>
-								<div className='col-md-6'>
+								<div className='col-md-12 col-xs-12 col-lg-6 text-center '>
 									<div
 										className='groundwaterstxt ml-2'
 										style={{paddingTop: '20px'}}
 									>
-										<h3>Social Responsibility</h3>
-										<p>
+										<h3 className='text-left'>Social Responsibility</h3>
+										<p className='text-left'>
 											Farmland Rainwater Harvesting Systems has setup its
 											Research and Manufacturing Plant in an area of 5 acres At
 											Hadihalli Village in Malalur Gram Panchayath limits of
@@ -279,7 +279,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										</div>
 									</div>
 								</div>
-								<div className='col-md-6'>
+								<div className='col-md-12 col-xs-12 col-lg-6 '>
 									<div className='groundwatersimg ml-2'>
 										<img src='../../static/images/ourTeam/Group1238.jpg' />
 									</div>
