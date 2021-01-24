@@ -90,8 +90,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className='container-fluid '>
 						<div className='container '>
-							<div className='row groundwatersec social-image2'>
-								<div className='col-md-6'>
+							<div className='row groundwatersec social-image2 text-center'>
+								<div className='col-md-12 col-xs-12 col-lg-6 text-center '>
 									<div className='groundwatersimg ml-2'>
 										<img
 											className='img-fluid'
@@ -99,8 +99,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										/>
 									</div>
 								</div>
-								<div className='col-md-6'>
-									<div className='groundwaterstxt' style={{paddingTop: '20px'}}>
+								<div className='col-md-12 col-xs-12 col-lg-6 text-center'>
+									<div
+										className='groundwaterstxt text-center'
+										style={{paddingTop: '20px'}}
+									>
 										<h3>Social Awareness Initiatives</h3>
 										<p>
 											We have a fleet of Mobile live demonstration units to

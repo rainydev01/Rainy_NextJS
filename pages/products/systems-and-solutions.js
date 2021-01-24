@@ -123,8 +123,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 									<div className='container-fluid'>
 										<div className='row'>
-											<div className='col-md-4 mt-2'></div>
-											<div className='col-md-4 mt-2'>
+											<div className='col-md-6 mt-2'>
 												<div
 													style={{
 														fontFamily: 'Visby Round CF Heavy',
@@ -136,19 +135,22 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														data-target='#sysSoln'
 														id='rnenq'
 													>
-														Read More{' '}
-														<i class='fa fa-angle-right' aria-hidden='true' />
+														Read More
+														<i
+															className='fa fa-angle-right ml-1'
+															aria-hidden='true'
+														/>
 													</button>
 												</div>
 											</div>
-											<div className='col-md-4 mt-2'>
+											<div className='col-md-6 mt-2'>
 												<div>
 													<Link href='/contact-us/enquire'>
 														<a>
 															<button id='rnenq'>
-																Enquire{' '}
+																Enquire
 																<i
-																	class='fa fa-angle-right'
+																	className='fa fa-angle-right ml-1'
 																	aria-hidden='true'
 																/>
 															</button>
