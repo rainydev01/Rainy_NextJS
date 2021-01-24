@@ -578,12 +578,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 								</div>
 								<br />
 								<br />
-								<div
-									style={{marginTop: 40}}
-									className='col-lg-12 col-sm-12 col-xs-12 text-center'
-								>
-									{gallerySelectedComponent}
-								</div>
+
+								<div className='pl-4 pr-2'>{gallerySelectedComponent}</div>
 							</div>
 						</div>
 					</div>
