@@ -7,11 +7,11 @@ const city = () => {
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-12 dlrsadrs'>
-							<h4>Pune</h4>
+							<h4>Udupi</h4>
 							<div className='col-md-6'>
 								<div className='alladrs'>
-									<h2 style={{color: '#0479bf'}}>MAHARASHTRA</h2>
-									<h2>ENVISION CONSULTANTS</h2>
+									<h2 style={{color: '#0479bf'}}>Kundapur</h2>
+									<h2>Prakruthi Enterprises</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -22,15 +22,14 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											Tejaswinee Chitale
+											NA
 										</span>
 									</h2>
 									<p>
-										S.No 125/1a+1/2, Flat No:2/6,
+										Haladi Road, Markod,
 										<br />
-										Shanta Heights A, Warje Jakat Naka, Warje,
+										Kundapur, Udupi-576222
 										<br />
-										Pune - 411058
 									</p>
 									<h2>
 										Mob:-
@@ -42,11 +41,11 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											9270126857, 9226772295
+											8147534701 / 9164364216
 										</span>
 									</h2>
 									<h2>
-										Email:-
+										Email:-{' '}
 										<span
 											style={{
 												fontWeight: '500',
@@ -55,15 +54,15 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											envision.pune@gmail.com <br />
+											prakruthientp@gmail.com
 										</span>
 									</h2>
 								</div>
 							</div>
 							<div className='col-md-6'>
 								<div className='alladrs'>
-									<h2 style={{color: '#0479bf'}}>MAHARASHTRA</h2>
-									<h2>GLOBAL GREEN CONCEPTS PVT.LTD</h2>
+									<h2 style={{color: '#0479bf'}}>Udupi</h2>
+									<h2>Rivel Enterprises</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -74,15 +73,15 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											Mr.Jeet Oswal
+											NA
 										</span>
 									</h2>
 									<p>
-										Off. No. 2/B, Annapurna Apartment, Plot No.2,
+										Karthik trade centre 2nd Floor
 										<br />
-										New Era Society, Near Gangadham Chowk,
+										Karavali Junction
 										<br />
-										Bibvewadi - Kondhwa Road, Pune - 411 037
+										Udupi-576101
 									</p>
 									<h2>
 										Mob:-
@@ -94,7 +93,7 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											9730482222, +9120 6524 0444, 6521 0204
+											9741001849/9900544222
 										</span>
 									</h2>
 									<h2>
@@ -107,7 +106,8 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											india@globalgreenconcepts.com <br />
+											prashanthf@gmail.com
+											<br />
 										</span>
 									</h2>
 								</div>
@@ -119,8 +119,8 @@ const city = () => {
 						<div className='col-md-12 dlrsadrs'>
 							<div className='col-md-6'>
 								<div className='alladrs'>
-									<h2 style={{color: '#0479bf'}}>MAHARASHTRA</h2>
-									<h2>Raincache</h2>
+									<h2 style={{color: '#0479bf'}}>Karkala</h2>
+									<h2>SJ Agro Agencies</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -131,15 +131,16 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											Mr. Shirshak
+											Augustine Joseph
 										</span>
 									</h2>
 									<p>
-										No-203, Agarwal chembers,
+										Bajekal Chambers Building,
 										<br />
-										Opp Main Bus Stop Nigdi,
+										Salmar, Main Road, Karkala,
 										<br />
-										Pune-411044,Maharashtra
+										Udupi-574104
+										<br />
 									</p>
 									<h2>
 										Mob:-
@@ -151,7 +152,59 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											9881143044
+											(08258) 233965,298165,9449523965
+										</span>
+									</h2>
+									<h2>
+										Email:-{' '}
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
+											}}
+										>
+											sjagroagencies@gmail.com
+										</span>
+									</h2>
+								</div>
+							</div>
+							{/* <div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>UDUPI</h2>
+									<h2>Rivel Enterprises</h2>
+									<h2>
+										Contact Person:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
+											}}
+										>
+											NA
+										</span>
+									</h2>
+									<p>
+										Karthik trade centre 2nd Floor
+										<br />
+										Karavali Junction
+										<br />
+										Udupi-576101
+									</p>
+									<h2>
+										Mob:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
+											}}
+										>
+											9741001849/9900544222
 										</span>
 									</h2>
 									<h2>
@@ -164,12 +217,12 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											Raincache@gmail.com
+											prashanthf@gmail.com
 											<br />
 										</span>
 									</h2>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<br />

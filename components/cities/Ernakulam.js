@@ -1,16 +1,16 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react'
 
 const city = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid alladrsmain">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12 dlrsadrs">
+			<div className='container-fluid alladrsmain'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12 dlrsadrs'>
 							<h4>Ernakulam</h4>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>KERALA</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>KERALA</h2>
 									<h2>A.M MOHAMMED USMAN & BRO</h2>
 									<h2>
 										Contact Person:-
@@ -19,15 +19,17 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											Mr.M Mohammed Usman
 										</span>
 									</h2>
 									<p>
-										P.B.2664, Broadway, Ernakulam,<br />
-										Kochi - 682031, Kerala<br />
+										P.B.2664, Broadway, Ernakulam,
+										<br />
+										Kochi - 682031, Kerala
+										<br />
 									</p>
 									<h2>
 										Mob:-
@@ -36,7 +38,7 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											9846127735, 9447707019, 0091 4842351816
@@ -49,7 +51,7 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											mousman@vsnl.com <br />
@@ -57,10 +59,10 @@ const city = () => {
 									</h2>
 								</div>
 							</div>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>KERALA</h2>
-									<h2>SREE VINAYAKA AGENCIES</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>KERALA</h2>
+									<h2>Roof Gallery</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -68,16 +70,17 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											Mr.Kishor Nair
 										</span>
 									</h2>
 									<p>
-										Chackacheril Tower, XI/781 c 11, 5th Floor, <br />
-										Seaport Airport Road,<br />
-										Kakkanad, Eranakulam
+										7/677B, Near Bread world, Mavelipuram <br />
+										Kakkanad , Ernakulum
+										<br />
+										Kerala -682030
 									</p>
 									<h2>
 										Mob:-
@@ -86,10 +89,10 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											9995483862
+											8590771262
 										</span>
 									</h2>
 									<h2>
@@ -99,10 +102,11 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											sreevinayakaagenices16@gmail.com <br />
+											accounts@roofgallery.org
+											<br />
 										</span>
 									</h2>
 								</div>
@@ -113,7 +117,7 @@ const city = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default city;
+export default city
