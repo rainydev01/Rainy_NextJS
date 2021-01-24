@@ -88,8 +88,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<h1>SOCIAL AWARENESS</h1>
 					</div>
 
-					<div className='container-fluid'>
-						<div className='container groundwaterSocial'>
+					<div className='container-fluid '>
+						<div className='container '>
 							<div className='row groundwatersec social-image2'>
 								<div className='col-md-6'>
 									<div className='groundwatersimg ml-2'>
@@ -163,7 +163,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className='container groundwaterSocial'>
 							<div
 								style={{marginTop: '8%'}}
-								className='row groundwatersec social-image1'
+								className='row groundwatersec social-image1 mb-4'
 							>
 								<div className='col-md-6'>
 									<div
