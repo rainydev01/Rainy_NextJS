@@ -608,7 +608,7 @@ img {
     }
     .entteamtxt {
         top: 17% !important;
-        left: 10% !important;
+        /* left: 10% !important; */
     }
     .groundwater_bg h2 {
         font-size: 25px !important;
@@ -1367,7 +1367,7 @@ p {
     }
     .entteamtxt {
         top: 20% !important;
-        left: 50% !important;
+        /* left: 50% !important; */
     }
     .groundwater_bg h2 {
         font-size: 25px !important;
