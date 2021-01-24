@@ -123,8 +123,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 									<div className='container-fluid'>
 										<div className='row'>
-											<div className='col-md-4'></div>
-											<div className='col-md-4'>
+											<div className='col-md-4 mt-2'></div>
+											<div className='col-md-4 mt-2'>
 												<div
 													style={{
 														fontFamily: 'Visby Round CF Heavy',
@@ -141,7 +141,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													</button>
 												</div>
 											</div>
-											<div className='col-md-4'>
+											<div className='col-md-4 mt-2'>
 												<div>
 													<Link href='/contact-us/enquire'>
 														<a>
@@ -339,7 +339,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 							</div>
 						</div>
 					</div>
-					<div className='container mb-5'>
+					{/* <div className='container mb-5'>
 						<div className='row'>
 							<div className='col'>
 								<p>
@@ -535,7 +535,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 							</div>
 						</div>
 					</div>
-
+ */}
 					<Footer />
 				</div>
 			</main>

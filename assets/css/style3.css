@@ -1271,3 +1271,7 @@ h2.clientsHome:after {
     /* you can use % */
     max-height: 10%;
 }
+
+.goog-te-banner {
+    display: none;
+}
