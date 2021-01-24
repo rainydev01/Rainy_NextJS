@@ -111,7 +111,11 @@ const FilterToSelect = () => {
 									onChange={onChangeHandler}
 								/>
 								<div className='knwyroof'>
-									<a data-toggle='modal' data-target='#rooftopModal'>
+									<a
+										style={{cursor: 'pointer'}}
+										data-toggle='modal'
+										data-target='#rooftopModal'
+									>
 										Know your rooftop area
 									</a>
 								</div>
@@ -132,9 +136,7 @@ const FilterToSelect = () => {
 				<div className='modal-dialog modal-dialog-centered'>
 					<div className='modal-content'>
 						<div className='modal-header'>
-							<h5 className='modal-title'>
-								How to check the your rooftop area
-							</h5>
+							<h5 className='modal-title'>How to check rooftop area ?</h5>
 							<button
 								type='button'
 								className='close'

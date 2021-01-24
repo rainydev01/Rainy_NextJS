@@ -17,13 +17,13 @@ const WhatWeDo = () => {
 								<img alt='logo' src='../static/images/homepage/1.jpg' />
 							</div>
 							<div className='grndtext'>
-								<h3 style={{textAlign: 'right'}}>
+								<h3 style={{textAlign: 'left'}}>
 									Rooftop Rain Water Harvesting Filters
 								</h3>
 								<p
 									style={{
 										letterSpacing: '0.1px',
-										textAlign: 'right',
+										textAlign: 'left',
 										color: '#000000d4',
 										fontSize: '16px',
 										fontWeight: '600',

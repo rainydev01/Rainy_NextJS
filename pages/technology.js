@@ -986,8 +986,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																	while passing through the permeable strata.
 																</p>
 																<img
+																	style={{width: 'auto'}}
 																	className='img-fluid'
-																	src='../static/images/technology/v-wire.png'
+																	src='../static/images/technology/v-wire.jpg'
 																/>
 																<h6>Benefits</h6>
 																<p

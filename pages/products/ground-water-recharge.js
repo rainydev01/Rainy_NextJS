@@ -245,8 +245,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<tr>
 											<td className='borderRight'>Percolator Pipe: </td>
 											<td>
-												140mm perforated holes at every 30 mm, HDPE pipe with 8
-												mm spirally
+												140 mm HDPE pipe with 8 mm spirally perforated holes at
+												30 mm intervals
 											</td>
 										</tr>
 										<tr>

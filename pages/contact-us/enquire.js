@@ -111,8 +111,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<h6 className='contacth'>Head Office</h6>
 
 										<p className='contacttxt'>
-											Farmland Rainwater Harvesting Systems<br></br> M/s Rainy
-											Research and Manufacture
+											Farmland Rainwater Harvesting Systems
 											<br></br>
 											No. 269/1, Hadihalli Village, Kasaba Hobli,
 											<br></br>
