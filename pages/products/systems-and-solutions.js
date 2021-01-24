@@ -84,7 +84,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					<div className='container-fluid banner enternal '>
 						<div className='hero-image enthroimg'>
 							<img src='../../static/images/systemsSolutions/Group1242.png' />
-							<div className='hero-text rnyfltrs'>
+							<div className='hero-text rnyfltrs text-center'>
 								<h1>SYSTEMS & SOLUTIONS</h1>
 							</div>
 						</div>
