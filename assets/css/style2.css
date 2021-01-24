@@ -228,6 +228,7 @@ a.diffcolormenu {
 
 body {
     padding-top: 20px;
+    top: 0px !important;
 }
 
 .carousel {

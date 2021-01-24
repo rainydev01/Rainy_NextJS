@@ -1272,6 +1272,15 @@ h2.clientsHome:after {
     max-height: 10%;
 }
 
-.goog-te-banner {
-    display: none;
+.goog-te-banner-frame {
+    display: none !important;
+    height: 0px !important;
+    z-index: -99999 !important;
 }
+
+
+/* .skiptranslate {
+    display: none !important;
+    height: 0px !important;
+    z-index: -99999 !important;
+} */
