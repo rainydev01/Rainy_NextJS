@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react'
+import Link from 'next/link'
 
 const WhatWeDo = () => {
 	return (
@@ -18,7 +19,9 @@ const WhatWeDo = () => {
 							</div>
 							<div className='grndtext'>
 								<h3 style={{textAlign: 'left'}}>
-									Rooftop Rain Water Harvesting Filters
+									<Link href='/products/rainy-filters'>
+										<a>Rooftop Rain Water Harvesting Filters</a>
+									</Link>
 								</h3>
 								<p
 									style={{
@@ -43,7 +46,12 @@ const WhatWeDo = () => {
 								<img src='../static/images/homepage/3.jpg' />
 							</div>
 							<div className='grndtext'>
-								<h3>Groundwater Recharging</h3>
+								<h3 style={{textAlign: 'left'}}>
+									<Link href='/products/ground-water-recharge'>
+										<a>Groundwater Recharging</a>
+									</Link>
+								</h3>
+
 								<p
 									style={{
 										letterSpacing: '0.1px',
@@ -67,7 +75,12 @@ const WhatWeDo = () => {
 								<img alt='iamegs' src='../static/images/homepage/2.jpg' />
 							</div>
 							<div className='grndtext'>
-								<h3>Systems & Solutions</h3>
+								<h3 style={{textAlign: 'left'}}>
+									<Link href='/products/systems-and-solutions'>
+										<a>Systems & Solutions</a>
+									</Link>
+								</h3>
+
 								<p
 									style={{
 										letterSpacing: '0.1px',

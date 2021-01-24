@@ -1318,6 +1318,9 @@ div#goog-gt-tt {
     background-color: transparent !important;
     border: none !important;
     box-shadow: none !important;
+    -webkit-box-sizing: unset !important;
+    box-sizing: unset !important;
+    position: unset;
 }
 
 
