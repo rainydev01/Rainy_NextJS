@@ -438,148 +438,150 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					<div className='container-fluid gallrymain'>
 						<div className='container glrycntnr'>
 							<div className='row'>
-								<div class='glrymnu' align='center'>
-									<button
-										onClick={() => {
-											onChange(1)
-										}}
-										className={basicCSS1}
-										data-filter='all'
-										style={{padding: '5px 45px'}}
-									>
-										All
-									</button>
-									<button
-										onClick={() => {
-											onChange(2)
-										}}
-										className={basicCSS2}
-										data-filter='hdpe'
-									>
-										Rooftop RWH
-									</button>
-									<button
-										onClick={() => {
-											onChange(3)
-										}}
-										className={basicCSS3}
-										data-filter='hdpe'
-									>
-										Groundwater Recharging
-									</button>
-									<button
-										onClick={() => {
-											onChange(4)
-										}}
-										className={basicCSS4}
-										data-filter='sprinkle'
-									>
-										Govt. Buildings
-									</button>
-									<button
-										onClick={() => {
-											onChange(5)
-										}}
-										className={basicCSS5}
-										data-filter='sprinkle'
-									>
-										Borewell Rigs
-									</button>
-									<button
-										onClick={() => {
-											onChange(6)
-										}}
-										className={basicCSS6}
-										data-filter='spray'
-									>
-										Schools
-									</button>
-									<button
-										onClick={() => {
-											onChange(7)
-										}}
-										className={basicCSS7}
-										data-filter='irrigation'
-									>
-										Apartments
-									</button>
-									<button
-										onClick={() => {
-											onChange(8)
-										}}
-										className={basicCSS8}
-										data-filter='irrigation'
-									>
-										Houses
-									</button>
-									<button
-										onClick={() => {
-											onChange(9)
-										}}
-										className={basicCSS9}
-										data-filter='irrigation'
-									>
-										Industries
-									</button>
-									<button
-										onClick={() => {
-											onChange(10)
-										}}
-										className={basicCSS10}
-										data-filter='irrigation'
-									>
-										With Dignitaries
-									</button>
-									<button
-										onClick={() => {
-											onChange(11)
-										}}
-										className={basicCSS11}
-										data-filter='irrigation'
-									>
-										R & D
-									</button>
-									<button
-										onClick={() => {
-											onChange(12)
-										}}
-										className={basicCSS12}
-										data-filter='irrigation'
-									>
-										Systems and Solutions
-									</button>
-									<button
-										onClick={() => {
-											onChange(13)
-										}}
-										className={basicCSS13}
-										data-filter='irrigation'
-									>
-										International Visitors
-									</button>
-									<button
-										onClick={() => {
-											onChange(14)
-										}}
-										className={basicCSS14}
-										data-filter='irrigation'
-									>
-										Live Mobile - Demo Vehicle
-									</button>
-									<button
-										onClick={() => {
-											onChange(15)
-										}}
-										className={basicCSS15}
-										data-filter='irrigation'
-									>
-										IT Sector
-									</button>
-								</div>
-								<br />
-								<br />
+								<div className='col text-center'>
+									<div class='glrymnu' align='center'>
+										<button
+											onClick={() => {
+												onChange(1)
+											}}
+											className={basicCSS1}
+											data-filter='all'
+											style={{padding: '5px 45px'}}
+										>
+											All
+										</button>
+										<button
+											onClick={() => {
+												onChange(2)
+											}}
+											className={basicCSS2}
+											data-filter='hdpe'
+										>
+											Rooftop RWH
+										</button>
+										<button
+											onClick={() => {
+												onChange(3)
+											}}
+											className={basicCSS3}
+											data-filter='hdpe'
+										>
+											Groundwater Recharging
+										</button>
+										<button
+											onClick={() => {
+												onChange(4)
+											}}
+											className={basicCSS4}
+											data-filter='sprinkle'
+										>
+											Govt. Buildings
+										</button>
+										<button
+											onClick={() => {
+												onChange(5)
+											}}
+											className={basicCSS5}
+											data-filter='sprinkle'
+										>
+											Borewell Rigs
+										</button>
+										<button
+											onClick={() => {
+												onChange(6)
+											}}
+											className={basicCSS6}
+											data-filter='spray'
+										>
+											Schools
+										</button>
+										<button
+											onClick={() => {
+												onChange(7)
+											}}
+											className={basicCSS7}
+											data-filter='irrigation'
+										>
+											Apartments
+										</button>
+										<button
+											onClick={() => {
+												onChange(8)
+											}}
+											className={basicCSS8}
+											data-filter='irrigation'
+										>
+											Houses
+										</button>
+										<button
+											onClick={() => {
+												onChange(9)
+											}}
+											className={basicCSS9}
+											data-filter='irrigation'
+										>
+											Industries
+										</button>
+										<button
+											onClick={() => {
+												onChange(10)
+											}}
+											className={basicCSS10}
+											data-filter='irrigation'
+										>
+											With Dignitaries
+										</button>
+										<button
+											onClick={() => {
+												onChange(11)
+											}}
+											className={basicCSS11}
+											data-filter='irrigation'
+										>
+											R & D
+										</button>
+										<button
+											onClick={() => {
+												onChange(12)
+											}}
+											className={basicCSS12}
+											data-filter='irrigation'
+										>
+											Systems and Solutions
+										</button>
+										<button
+											onClick={() => {
+												onChange(13)
+											}}
+											className={basicCSS13}
+											data-filter='irrigation'
+										>
+											International Visitors
+										</button>
+										<button
+											onClick={() => {
+												onChange(14)
+											}}
+											className={basicCSS14}
+											data-filter='irrigation'
+										>
+											Live Mobile - Demo Vehicle
+										</button>
+										<button
+											onClick={() => {
+												onChange(15)
+											}}
+											className={basicCSS15}
+											data-filter='irrigation'
+										>
+											IT Sector
+										</button>
+									</div>
+									<br />
+									<br />
 
-								<div className='pl-4 pr-2'>{gallerySelectedComponent}</div>
+									<div className='pl-4 pr-2'>{gallerySelectedComponent}</div>
+								</div>
 							</div>
 						</div>
 					</div>
