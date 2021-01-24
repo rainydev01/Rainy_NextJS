@@ -84,8 +84,17 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 				<div className='App'>
 					<Header />
 
-					<div className='container-fluid sawar'>
+					{/* <div className='container-fluid sawar'>
 						<h1>SOCIAL AWARENESS</h1>
+					</div> */}
+
+					<div className='container-fluid banner enternal'>
+						<div className='hero-image enthroimg'>
+							<img src='../../static/images/ourTeam/Group1236.jpg' />
+							<div className='hero-text inthemedia'>
+								<h1 style={{textAlign: 'center'}}>SOCIAL AWARENESS</h1>
+							</div>
+						</div>
 					</div>
 
 					<div className='container-fluid '>
