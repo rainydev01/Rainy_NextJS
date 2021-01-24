@@ -1278,6 +1278,48 @@ h2.clientsHome:after {
     z-index: -99999 !important;
 }
 
+#goog-gt-tt html,
+#goog-gt-tt body,
+#goog-gt-tt div,
+#goog-gt-tt span,
+#goog-gt-tt iframe,
+#goog-gt-tt h1,
+#goog-gt-tt h2,
+#goog-gt-tt h3,
+#goog-gt-tt h4,
+#goog-gt-tt h5,
+#goog-gt-tt h6,
+#goog-gt-tt p,
+#goog-gt-tt a,
+#goog-gt-tt img,
+#goog-gt-tt ol,
+#goog-gt-tt ul,
+#goog-gt-tt li,
+#goog-gt-tt table,
+#goog-gt-tt form,
+#goog-gt-tt tbody,
+#goog-gt-tt tr,
+#goog-gt-tt td {
+    display: none;
+    z-index: -9999999;
+}
+
+div#goog-gt-tt {
+    display: none;
+    z-index: -9999999;
+}
+
+#goog-gt-tt {
+    display: none;
+    z-index: -9999999;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
 
 /* .skiptranslate {
     display: none !important;
