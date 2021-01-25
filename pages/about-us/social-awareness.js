@@ -99,8 +99,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className='container-fluid '>
 						<div className='container '>
-							<div className='row groundwatersec social-image2 '>
-								<div className='col-md-12 col-xs-12 col-lg-6  '>
+							<div className='row groundwatersec social-image2 mt-2'>
+								<div className='col-md-12 col-xs-12 col-lg-6  mt-2'>
 									<div className='groundwatersimg ml-2'>
 										<img
 											className='img-fluid'
@@ -108,7 +108,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										/>
 									</div>
 								</div>
-								<div className='col-md-12 col-xs-12 col-lg-6 '>
+								<div className='col-md-12 col-xs-12 col-lg-6 mt-2'>
 									<div
 										className='groundwaterstxt '
 										style={{paddingTop: '20px'}}
