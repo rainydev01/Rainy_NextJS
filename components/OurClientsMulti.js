@@ -15,7 +15,7 @@ const ImageSliderMulti = () => {
 		},
 		largeTablet: {
 			breakpoint: {max: 1350, min: 1024},
-			items: 4,
+			items: 5,
 		},
 		tablet: {
 			breakpoint: {max: 1024, min: 464},
