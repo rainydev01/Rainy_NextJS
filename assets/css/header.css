@@ -45,4 +45,7 @@
         padding: 10px 25px;
         margin: 0px !important;
     }
+    a.diffcolormenu {
+        background-color: #fff;
+    }
 }
