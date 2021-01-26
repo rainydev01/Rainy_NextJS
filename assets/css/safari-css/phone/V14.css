@@ -33,6 +33,18 @@
         color: #4c3f43;
         font-family: Visby Round CF Regular;
     }
+    img.moblogo {
+        display: block!important;
+        width: 61px!important;
+        padding-top: 10px!important;
+    }
+    label.menu-icon {
+        margin-top: -55px!important;
+    }
+    .header a {
+        display: block;
+        padding: 5px!important;
+    }
 }
 
 } }
