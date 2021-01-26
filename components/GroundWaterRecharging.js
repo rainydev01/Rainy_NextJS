@@ -1,17 +1,17 @@
-import React, {Fragment} from "react";
+import React, {Fragment} from 'react'
 
 const GroundWaterRecharging = () => {
 	return (
 		<Fragment>
-			<div className="container groundwater">
-				<div className="groundwatersec">
-					<div className="col-md-6">
-						<div className="groundwatersimg">
-							<img src="../static/images/homepage/GWR.png" />
+			<div className='container groundwater'>
+				<div className='row groundwatersec'>
+					<div className='col-md-6'>
+						<div className='groundwatersimg'>
+							<img src='../static/images/homepage/GWR.png' />
 						</div>
 					</div>
-					<div className="col-md-6">
-						<div className="groundwaterstxt">
+					<div className='col-md-6'>
+						<div className='groundwaterstxt'>
 							<h3>Groundwater Recharging</h3>
 							<p>
 								‘V-wire injection well' technology is used to recharge
@@ -26,9 +26,9 @@ const GroundWaterRecharging = () => {
 								the water table.
 							</p>
 							<button>
-								<a href="/products/ground-water-recharge">
-									Read More{" "}
-									<i className="fa fa-angle-right" aria-hidden="true" />
+								<a href='/products/ground-water-recharge'>
+									Read More{' '}
+									<i className='fa fa-angle-right' aria-hidden='true' />
 								</a>
 							</button>
 						</div>
@@ -36,7 +36,7 @@ const GroundWaterRecharging = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default GroundWaterRecharging;
+export default GroundWaterRecharging
