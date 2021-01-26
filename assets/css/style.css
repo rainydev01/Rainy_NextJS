@@ -347,6 +347,22 @@ img {
         background-color: none;
         height: 20px;
     }
+    .menu-toggle:checked~.header {
+        max-width: 100%!important;
+    }
+    header.header.container a.navbar-brand img {
+        display: none!important;
+    }
+    .header a {
+        display: block;
+        padding: 5px;
+        transition: background-color .3s ease-in;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: .4px;
+        color: #4c3f43;
+        font-family: Visby Round CF Regular;
+    }
 }
 
 @media only screen and (max-width: 600px) {
