@@ -1236,6 +1236,7 @@ p {
         width: 100%;
         position: fixed;
         background-color: none;
+        height: 20px;
     }
     .groundwatersimg img {
         max-width: 100%;
