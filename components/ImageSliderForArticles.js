@@ -45,7 +45,6 @@ const ImageSliderMulti = () => {
 												target='_blank'
 											>
 												Rainwater collection unit helps farmers during covid
-												crisis
 											</a>
 										</h3>
 										<p
@@ -59,8 +58,7 @@ const ImageSliderMulti = () => {
 										>
 											The rainwater collection unit—Jaladhare—by 'Rainy'
 											Research and Manufacturing at Hadihalli in Chikmagalur has
-											become a ray of hope for farmers in the surrounding areas
-											during these tough times.
+											become a ray of hope for farmers during these tough times.
 										</p>
 										<div className='col-md-12 mdiasocial'>
 											<div className='col-md-6 mediasocial'>
@@ -118,8 +116,7 @@ const ImageSliderMulti = () => {
 												href='https://bangaloremirror.indiatimes.com/news/state/karnataka-water-research-station-to-come-up-in-chikkamagaluru/articleshow/62890815.cms'
 												target='_blank'
 											>
-												Karnataka: Water research station to come up in
-												Chikmagalur
+												Karnataka: Water research station to come in Chikmagalur
 												<br />
 											</a>
 										</h3>
@@ -134,8 +131,7 @@ const ImageSliderMulti = () => {
 										>
 											Self-funded, and probably one-of-its-kind in India, the
 											project will have state of the art hydrology labs and
-											rainwater harvesting models enabling continuous
-											innovation.
+											rainwater harvesting models.
 										</p>
 										<div className='col-md-12 mdiasocial'>
 											<div className='col-md-6 mediasocial'>
@@ -283,8 +279,7 @@ const ImageSliderMulti = () => {
 										>
 											Explaining his journey into innovating for rain water
 											harvesting, our founder Mr. Michael Baptist shares his
-											vision on wanting to reach out to people in order to help
-											them understand and implement RWH.
+											vision on implementing RWH.
 										</p>
 										<div className='col-md-12 mdiasocial'>
 											<div className='col-md-6 mediasocial'>
