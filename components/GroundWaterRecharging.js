@@ -5,7 +5,7 @@ const GroundWaterRecharging = () => {
 		<Fragment>
 			<div className='container groundwater'>
 				<div className='row groundwatersec'>
-					<div className='col-md-6'>
+					<div className='col-md-6 my-auto'>
 						<div className='groundwatersimg'>
 							<img src='../static/images/homepage/GWR.png' />
 						</div>
