@@ -1,6 +1,12 @@
 import "../assets/css/style.css";
 import "../assets/css/style2.css";
 import "../assets/css/style3.css";
+import "../assets/css/safari-css/i-pad/V11.css";
+import "../assets/css/safari-css/i-pad/V12.css";
+import "../assets/css/safari-css/i-pad/V14.css";
+import "../assets/css/safari-css/phone/V11.css";
+import "../assets/css/safari-css/phone/V12.css";
+import "../assets/css/safari-css/phone/V14.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-multi-carousel/lib/styles.css";
