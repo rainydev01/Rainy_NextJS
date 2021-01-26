@@ -1369,7 +1369,7 @@ div#goog-gt-tt {
     margin: 40px;
 }
 
-@media screen and (min-device-width: 100px) and (max-device-width: 430px) {
+@media only screen and (max-width: 430px) {
     .clientMargin {
         margin-left: 40px;
         margin-right: 40px;
