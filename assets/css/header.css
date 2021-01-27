@@ -22,8 +22,8 @@
         border-bottom: 1px solid #eee;
         color: #505050;
         font-weight: 430;
-        line-height: 0.4;
-        font-size: 12px;
+        line-height: 2.2;
+        font-size: 24px;
         letter-spacing: 0px;
         font-weight: 400;
     }
@@ -47,5 +47,17 @@
     }
     a.diffcolormenu {
         background-color: #fff;
+    }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 1204px) {
+    .header li {
+        border-bottom: 1px solid #eee;
+        color: #505050;
+        font-weight: 430;
+        line-height: 1;
+        font-size: 24px;
+        letter-spacing: 0px;
+        font-weight: 400;
     }
 }
