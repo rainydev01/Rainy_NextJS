@@ -2,7 +2,7 @@
     text-align: left;
     position: absolute;
     top: 55%;
-    left: 105%;
+    /* left: 105%; */
     transform: translate(-50%, -50%);
     color: #000000;
     width: 100%;
