@@ -1,201 +1,169 @@
 tr {
-	line-height: 10px;
-	min-height: 10px;
-	height: 10px;
-	font-family: 'Visby Round CF Regular';
-}
-
-.hero-text.enthrotxt.jrny4 {
-	color: #ffffff;
+    line-height: 10px;
+    min-height: 10px;
+    height: 10px;
+    font-family: 'Visby Round CF Regular';
 }
 
 .slick-arrow-left-awards.onlyteaml {
-	width: 0%;
-	float: left;
-	margin-top: 10.5%;
-	margin-left: 35px;
-}
-
-.hero-text.entteamtxt {
-	text-align: center !important;
-	color: #ffffff !important;
-}
-
-.hero-text.inthemedia.dealersb {
-	text-align: center !important;
-	color: #ffffff !important;
-}
-
-.hero-text.dwnldbnnrtxt {
-	text-align: center !important;
-}
-
-.hero-text.rnyfltrs.gllryb {
-	text-align: center !important;
-	color: #ffffff;
-}
-
-.hero-text.rnyfltrs {
-	text-align: center !important;
-	color: #ffffff !important;
+    width: 0%;
+    float: left;
+    margin-top: 10.5%;
+    margin-left: 35px;
 }
 
 .techbnnrtxt {
-	text-align: center !important;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #ffffff;
+    text-align: center !important;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
 }
 
 .slick-arrow-right-awards {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .slick-arrow-left-awards {
-	cursor: pointer;
-}
-
-.hero-text.inthemedia.contactg {
-	text-align: center;
-	color: #ffffff;
+    cursor: pointer;
 }
 
 .row {
-	margin-right: 0px !important;
-	/*margin-left: 0px !important;*/
+    margin-right: 0px !important;
+    /*margin-left: 0px !important;*/
 }
 
 .slick-arrow-right-awards {
-	margin-top: -18% !important;
+    margin-top: -18% !important;
 }
 
 .nextButtons.prebutton {
-	margin-left: 30px !important;
+    margin-left: 30px !important;
 }
 
 .slick-list {
-	z-index: -999 !important;
+    z-index: -999 !important;
 }
 
 .container.awrdimgsec.text-center img {
-	max-width: 100% !important;
-	border: 4px solid #077bbd !important;
-	padding: 10px !important;
+    max-width: 100% !important;
+    border: 4px solid #077bbd !important;
+    padding: 10px !important;
 }
 
 .slick-arrow-left-awards {
-	width: 0%;
-	float: left;
-	margin-top: 16%;
-	margin-left: 35px;
+    width: 0%;
+    float: left;
+    margin-top: 16%;
+    margin-left: 35px;
 }
 
 .slick-arrow-right-awards i {
-	color: #fff;
-	background: #077ec2;
-	padding: 12px 15px;
-	border-radius: 100%;
+    color: #fff;
+    background: #077ec2;
+    padding: 12px 15px;
+    border-radius: 100%;
 }
 
 .slick-arrow-right-awards {
-	float: right;
-	width: 5%;
-	margin-top: -20%;
+    float: right;
+    width: 5%;
+    margin-top: -20%;
 }
 
 .slick-arrow-left-awards i {
-	background: #047bc0;
-	color: #fff;
-	padding: 12px 15px;
-	border-radius: 100%;
+    background: #047bc0;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 100%;
 }
 
 .slick-arrow-left {
-	width: 2%;
-	color: #0971b7;
-	font-size: 22px;
-	margin-top: 60px;
-	float: left;
+    width: 2%;
+    color: #0971b7;
+    font-size: 22px;
+    margin-top: 60px;
+    float: left;
 }
 
 .slick-list .slick-track img {
-	text-align: center !important;
-	max-width: 230px;
-	margin: auto;
+    text-align: center !important;
+    max-width: 230px;
+    margin: auto;
 }
 
 .slick-arrow-right {
-	width: 0%;
-	color: #0971b7;
-	font-size: 22px;
-	float: right;
-	margin-top: -100px;
+    width: 0%;
+    color: #0971b7;
+    font-size: 22px;
+    float: right;
+    margin-top: -100px;
 }
 
 button {
-	outline: none !important;
+    outline: none !important;
 }
 
 .journeymain {
-	padding-top: 60px;
+    padding-top: 60px;
 }
 
 @font-face {
-	font-family: 'Visby Round CF Heavy';
-	src: url('../../public/fonts/VisbyRoundCFHeavy.ttf');
-	font-weight: normal;
+    font-family: 'Visby Round CF Heavy';
+    src: url('../../public/fonts/VisbyRoundCFHeavy.ttf');
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'Visby Round CF Regular';
-	src: url('../../public/fonts/VisbyRoundCF-Regular.ttf');
-	font-weight: normal;
+    font-family: 'Visby Round CF Regular';
+    src: url('../../public/fonts/VisbyRoundCF-Regular.ttf');
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'Visby Round CF Light';
-	src: url('../../public/fonts/VisbyRoundCF-Light.ttf');
-	font-weight: normal;
+    font-family: 'Visby Round CF Light';
+    src: url('../../public/fonts/VisbyRoundCF-Light.ttf');
+    font-weight: normal;
 }
 
 .fl200fltr {
-	background-image: url(../../static/images/halfdropbg.png);
-	background-position: left center;
-	background-size: auto;
-	background-repeat: no-repeat;
+    background-image: url(../../static/images/halfdropbg.png);
+    background-position: left center;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .fl500fltr {
-	background-image: url(../../static/images/singledroprightbg.png);
-	background-position: bottom right;
-	background-size: auto;
+    background-image: url(../../static/images/singledroprightbg.png);
+    background-position: bottom right;
+    background-size: auto;
 }
 
 .wthothding.wrechargmain {
-	background-image: url(../../static/images/halfdropbg.png);
-	background-position: left;
-	background-size: contain;
-	background-repeat: no-repeat;
+    background-image: url(../../static/images/halfdropbg.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 img.moblogo {
-	display: none;
+    display: none;
 }
 
 .rainyresearchnm {
-	background-image: url(/static/images/singledroprightbg.png);
-	background-repeat: no-repeat;
-	background-position: bottom right;
+    background-image: url(/static/images/singledroprightbg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .fl80rooftop {
-	background-image: url(/static/images/singledropbg.png);
-	background-repeat: no-repeat;
-	background-position: bottom left;
-	background-size: contain;
+    background-image: url(/static/images/singledropbg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
 }
+
 
 /*.slick-prev {
     left: 300px!important;
@@ -206,116 +174,116 @@ img.moblogo {
 }*/
 
 .slick-next {
-	right: 35px !important;
+    right: 35px !important;
 }
 
 .main_container {
-	max-width: 740px;
-	height: 100%;
-	margin: 10px auto 0px auto;
+    max-width: 740px;
+    height: 100%;
+    margin: 10px auto 0px auto;
 }
 
 .dropdown-toggle::after {
-	display: inline-block;
-	margin-left: 0.255em;
-	vertical-align: 0.1em;
-	content: '';
-	border-top: 0.5em solid;
-	border-right: 0.5em solid transparent;
-	border-bottom: 0;
-	border-left: 0.5em solid transparent;
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.1em;
+    content: '';
+    border-top: 0.5em solid;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0;
+    border-left: 0.5em solid transparent;
 }
 
 .dropdown-menu.dropdown-menu-tip-nw.show:after {
-	content: ' ';
-	position: absolute;
-	width: 5px;
-	height: 45px;
-	left: 20px;
-	right: auto;
-	top: -45px;
-	bottom: auto;
-	border: 10px solid;
-	border-color: #0578be00 #0578be00 #0578be #0578be00;
+    content: ' ';
+    position: absolute;
+    width: 5px;
+    height: 45px;
+    left: 20px;
+    right: auto;
+    top: -45px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: #0578be00 #0578be00 #0578be #0578be00;
 }
 
 .in_container {
-	background: #fafafa;
-	border-radius: 2px;
-	box-shadow: 0 0 6px #c9d1de;
-	-webkit-box-shadow: 0 0 6px #c9d1de;
-	-moz-box-shadow: 0 0 6px #c9d1de;
-	-o-box-shadow: 0 0 6px #c9d1de;
+    background: #fafafa;
+    border-radius: 2px;
+    box-shadow: 0 0 6px #c9d1de;
+    -webkit-box-shadow: 0 0 6px #c9d1de;
+    -moz-box-shadow: 0 0 6px #c9d1de;
+    -o-box-shadow: 0 0 6px #c9d1de;
 }
 
 .footer-three i {
-	font-size: 24px;
-	text-align: center;
-	margin: 10px 6px 20px 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 6px 20px 10px;
 }
 
 .back_link {
-	display: block;
-	text-decoration: none;
-	margin-top: 80px;
-	text-align: center;
-	font-family: 'Visby Round CF Heavy';
-	color: #3e3e3e;
-	font-size: 16px;
-	letter-spacing: 1px;
+    display: block;
+    text-decoration: none;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Visby Round CF Heavy';
+    color: #3e3e3e;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .back_link .back_arrow_icon {
-	vertical-align: middle;
-	margin-right: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 html {
-	width: 100%;
+    width: 100%;
 }
 
 .col-md-6 {
-	float: left;
+    float: left;
 }
 
 .col-md-5 {
-	float: left;
+    float: left;
 }
 
 .col-md-7 {
-	float: left;
+    float: left;
 }
 
 body {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	-webkit-font-smoothing: antialiased;
-	mso-margin-top-alt: 0px;
-	mso-margin-bottom-alt: 0px;
-	mso-padding-alt: 0px 0px 0px 0px;
-	background: white;
-	font-family: 'Visby Round CF Heavy';
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    mso-margin-top-alt: 0px;
+    mso-margin-bottom-alt: 0px;
+    mso-padding-alt: 0px 0px 0px 0px;
+    background: white;
+    font-family: 'Visby Round CF Heavy';
 }
 
 .container-fluid {
-	width: 100%;
-	padding-right: 0px;
-	padding-left: 0px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .col-md-4 {
-	float: left;
+    float: left;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 0;
-	padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 a,
@@ -326,778 +294,726 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Visby Round CF Heavy';
+    font-family: 'Visby Round CF Heavy';
 }
 
 table {
-	font-size: 14px;
-	border: 0;
+    font-size: 14px;
+    border: 0;
 }
 
 img {
-	border: none !important;
+    border: none !important;
 }
 
 @media only screen and (max-width: 667px) {
-	.test {
-		top: 0;
-		width: 100%;
-		position: fixed;
-		background-color: none;
-		height: 20px;
-	}
-	.menu-toggle:checked ~ .header {
-		max-width: 100% !important;
-	}
-	header.header.container a.navbar-brand img {
-		display: none !important;
-	}
-	.header a {
-		display: block;
-		padding: 5px;
-		transition: background-color 0.3s ease-in;
-		font-size: 14px;
-		font-weight: 500;
-		letter-spacing: 0.4px;
-		color: #4c3f43;
-		font-family: Visby Round CF Regular;
-	}
-	img.moblogo {
-		display: block !important;
-		width: 61px !important;
-		padding-top: 10px !important;
-	}
-	label.menu-icon {
-		margin-top: -55px !important;
-	}
-	.header a {
-		display: block;
-		padding: 5px !important;
-	}
+    .test {
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: none;
+        height: 20px;
+    }
+    .menu-toggle:checked~.header {
+        max-width: 100% !important;
+    }
+    header.header.container a.navbar-brand img {
+        display: none !important;
+    }
+    .header a {
+        display: block;
+        padding: 5px;
+        transition: background-color 0.3s ease-in;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        color: #4c3f43;
+        font-family: Visby Round CF Regular;
+    }
+    img.moblogo {
+        display: block !important;
+        width: 61px !important;
+        padding-top: 10px !important;
+    }
+    label.menu-icon {
+        margin-top: -55px !important;
+    }
+    .header a {
+        display: block;
+        padding: 5px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-	body[yahoo] .full_width_600 {
-		width: 90% !important;
-	}
-	.test {
-		top: 0;
-		width: 100%;
-		position: fixed;
-		background-color: none;
-		height: 20px;
-	}
-	.hero-text.inthemedia.contactg {
-		text-align: center !important;
-		color: #ffffff;
-	}
-	.hero-text.rnyfltrs {
-		position: absolute;
-		top: 17% !important;
-		/* left: 28% !important; */
-		width: 100%;
-		padding: 25px;
-		color: #ffffff !important;
-	}
-	.mdiaimg img {
-		width: 372px !important;
-		max-width: 100% !important;
-	}
-	.nextButtons.prebutton {
-		margin-left: 0px !important;
-		position: absolute;
-		left: 65px;
-	}
-	.slick-arrow-right-awards {
-		float: right;
-		width: 8%;
-		margin-top: -7% !important;
-	}
-	.slick-arrow-left-awards {
-		width: 0%;
-		float: left;
-		margin-top: 83%;
-		margin-left: 2px;
-	}
-	button#rnrdmr {
-		border: 1px solid#fff532;
-		background: #fff532;
-		padding: 5px 10px;
-		color: #000;
-		margin: 0px 10px;
-		border-radius: 30px;
-		width: 80% !important;
-	}
-	.groundwater_bg_home img {
-		max-width: 100%;
-	}
-	.techcntrbg h1 {
-		padding: 45px 0px !important;
-		background-size: contain !important;
-		font-size: 22px !important;
-	}
-	.hero-text.rnyfltrs h1 {
-		font-size: 22px !important;
-	}
-	.techcntrbgto h1 {
-		text-align: center !important;
-	}
-	.hero-text.techbnnrtxt h1 {
-		font-size: 25px !important;
-	}
-	.hero-text.entteamtxt h1 {
-		font-size: 22px !important;
-	}
-	.whtdowdo {
-		font-size: 20px !important;
-	}
-	.ourjourneycontinue {
-		width: 50% !important;
-		left: 0px !important;
-		position: absolute !important;
-		bottom: 115px !important;
-	}
-	.timeline > li > .timeline-badge {
-		left: 54% !important;
-	}
-	.slick-slider.slick-initialized .slick-arrow.slick-prev {
-		left: 0px !important;
-		top: 90% !important;
-		z-index: 999 !important;
-	}
-	.slick-slider.slick-initialized .slick-arrow.slick-prev {
-		z-index: 999;
-		left: 0px !important;
-	}
-	.award h1 {
-		padding: 30px 0px 32px 0px !important;
-		background-size: contain !important;
-		font-size: 22px !important;
-		margin-bottom: 60px !important;
-	}
-	.mdiasocial {
-		position: relative !important;
-		bottom: 50px !important;
-	}
-	.nextButtons {
-		margin: -50px 25px 38px 0px !important;
-	}
-	.nextButtons.prebutton.btn2s {
-		margin: -50px 25px 38px 0px !important;
-	}
-	.nextButtons.prebutton.btn3s {
-		margin: -90px 25px 38px 0px !important;
-	}
-	.nextButtons.btn1s {
-		margin: -28px 25px 38px 0px !important;
-	}
-	.slick-slider.slick-initialized .slick-arrow.slick-next {
-		right: 0px !important;
-		top: 90% !important;
-	}
-	.timeline-panel {
-		margin-top: 60% !important;
-	}
-	a.diffcolormenu {
-		background: none !important;
-		color: #4c3f43 !important;
-	}
-	.header {
-		display: none;
-	}
-	.menu-toggle:checked ~ .header {
-		display: block !important;
-		opacity: 1;
-		transition-delay: 0s;
-	}
-	.test {
-		top: 0;
-		width: 100%;
-		position: fixed;
-		background-color: none;
-	}
-	.groundwatersimg img {
-		max-width: 100%;
-	}
-	.hero-text {
-		text-align: right !important;
-		position: absolute;
-		top: 20% !important;
-		left: 50% !important;
-		width: 100%;
-		padding: 25px;
-	}
-	.banner {
-		margin-top: 11% !important;
-	}
-	.cntrimg {
-		margin-bottom: 25px !important;
-	}
-	.rooftopfrm {
-		margin: 25px 0px !important;
-	}
-	.hero-text h1 {
-		font-size: 22px !important;
-	}
-	.hero-text p {
-		font-size: 16px !important;
-	}
-	.groundwaterstxt h3 {
-		font-weight: 600;
-		color: #0971b7;
-		font-size: 25px !important;
-	}
-	.hero-text button {
-		font-size: 7px !important;
-	}
-	.groundwater_bg_home {
-		padding: 0px 0px 0px 0px !important;
-	}
-	.about-home {
-		background-size: contain !important;
-		background-position: top !important;
-		padding: 370px 0px 0px 0px !important;
-	}
-	.about-content {
-		background: #0971b7;
-		color: #fff;
-		max-width: 100%;
-		padding: 10px 15px !important;
-		border-radius: 20px;
-		margin-left: 0px !important;
-		margin-top: 10px;
-	}
-	.groundwatersimg {
-		padding: 0px 0px !important;
-	}
-	.footer-main {
-		background: #0971b7;
-		padding: 0px 0px 0px 0px !important;
-		display: flex !important;
-	}
-	.footer-two {
-		padding: 15px 15px !important;
-	}
-	.footer-one {
-		padding: 0px !important;
-	}
-	.footer-three {
-		padding: 15px 15px !important;
-		text-align: left !important;
-	}
-	a.navbar-brand {
-		display: none;
-	}
-	.header a {
-		padding: 10px 25px !important;
-	}
-	.rooftopfrm {
-		background: #0971b7 !important;
-		border-radius: 10px !important;
-		padding: 20px 10px 10px 10px !important;
-	}
-	.mobile-bar img {
-		width: 60px;
-		max-width: 100%;
-		padding: 18px 0px 0px 0px;
-	}
-	img.moblogo {
-		display: initial;
-	}
-	header.header.container a img {
-		display: none !important;
-	}
-	/* ------- journey -------- */
-	.timeline > li > .timeline-panel {
-		width: 100% !important;
-		float: left !important;
-		left: 0% !important;
-	}
-	.timeline > li > .right-drop {
-		width: 155px !important;
-		height: 181px !important;
-		top: 20px !important;
-		left: 52% !important;
-	}
-	.timeline > li > .left-drop {
-		width: 181px !important;
-		height: 181px !important;
-		top: 17px !important;
-		left: 31% !important;
-		margin-left: -90px !important;
-	}
-	.enthrotxt {
-		top: 17% !important;
-		left: 50% !important;
-	}
-	.inthemedia {
-		top: 17% !important;
-	}
-	.container.media-main .col-md-4 {
-		padding-bottom: 44px;
-	}
-	.media-main {
-		padding: 0px 0px 0px 0px;
-	}
-	.award {
-		display: inline-grid !important;
-	}
-	.awrdimgcont {
-		max-width: 100% !important;
-		padding: 5px 0px !important;
-	}
-	.awrdimgcont h3 {
-		font-size: 18px !important;
-	}
-	.entteamtxt {
-		top: 17% !important;
-		/* left: 10% !important; */
-	}
-	.groundwater_bg h2 {
-		font-size: 25px !important;
-	}
-	.sawar h1 {
-		padding: 60px 0px !important;
-		background-image: url(../../static/images/ourTeam/Group1236.jpg);
-		background-position: center;
-		background-size: contain !important;
-		background-repeat: no-repeat;
-		font-size: 22px !important;
-		font-weight: 600;
-		color: #fff;
-	}
-	span.mb-span {
-		font-size: 12px !important;
-	}
-	h2.tech-heading {
-		text-align: center;
-		font-size: 22px !important;
-	}
-	p.team-para {
-		padding: 0px 0px 45px 0px !important;
-	}
-	.techbnnrtxt {
-		top: 17% !important;
-	}
-	.techbnnrtxt {
-		text-align: center !important;
-		position: absolute;
-		top: 40%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		color: #ffffff;
-	}
-	h5.mb-0 a {
-		font-size: 13px !important;
-	}
-	.card-header {
-		padding: 0.75rem 0rem !important;
-	}
-	.techacrsec {
-		padding: 20px 0px !important;
-	}
-	span.mb-span {
-		font-size: 13px !important;
-		padding: 5px 5px !important;
-		margin-left: 0px !important;
-	}
-	.rnyfltrs {
-		top: 17% !important;
-	}
-	.dwnldbnnrtxt {
-		top: 17% !important;
-	}
-	h1.fl80 {
-		width: 60% !important;
-	}
-	.mb-0 > a:after {
-		content: '\f078';
-		font-family: 'Visby Round CF Heavy';
-		position: absolute;
-		right: 7% !important;
-	}
-	.yellowbtn button {
-		width: 100%;
-		margin: 5px 15px !important;
-	}
-	.sssprt h1 {
-		padding: 45px 0px !important;
-		background-size: contain !important;
-		font-size: 22px !important;
-	}
-	.yellowbtn {
-		margin-left: -20px !important;
-	}
-	.rnyfltrbtn.senq #rnenq {
-		float: left;
-		margin-left: 20%;
-	}
-	.hero-text.inthemedia h1 {
-		font-size: 22px !important;
-	}
-	.rnyfltrbtn {
-		margin: 10px 0px !important;
-		text-align: center !important;
-	}
-	.gr3 {
-		margin: 20px 3px;
-	}
-	.dlrsinpt select {
-		padding: 6px 0px !important;
-		margin: 5px 0px !important;
-		width: 90% !important;
-	}
-	h5.mb-0 {
-		padding: 0px 10px !important;
-	}
-	.dnldbg {
-		background: #dff7f7;
-		padding: 45px 5px !important;
-	}
-	.glrycntnr {
-		padding: 25px 0px !important;
-	}
-	.glrymnu {
-		padding: 0px 15px !important;
-	}
+    body[yahoo] .full_width_600 {
+        width: 90% !important;
+    }
+    .test {
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: none;
+        height: 20px;
+    }
+    .mdiaimg img {
+        width: 372px !important;
+        max-width: 100% !important;
+    }
+    .nextButtons.prebutton {
+        margin-left: 0px !important;
+        position: absolute;
+        left: 65px;
+    }
+    .slick-arrow-right-awards {
+        float: right;
+        width: 8%;
+        margin-top: -7% !important;
+    }
+    .slick-arrow-left-awards {
+        width: 0%;
+        float: left;
+        margin-top: 83%;
+        margin-left: 2px;
+    }
+    button#rnrdmr {
+        border: 1px solid#fff532;
+        background: #fff532;
+        padding: 5px 10px;
+        color: #000;
+        margin: 0px 10px;
+        border-radius: 30px;
+        width: 80% !important;
+    }
+    .groundwater_bg_home img {
+        max-width: 100%;
+    }
+    .techcntrbg h1 {
+        padding: 45px 0px !important;
+        background-size: contain !important;
+        font-size: 22px !important;
+    }
+    .whtdowdo {
+        font-size: 20px !important;
+    }
+    .ourjourneycontinue {
+        width: 50% !important;
+        left: 0px !important;
+        position: absolute !important;
+        bottom: 115px !important;
+    }
+    .timeline>li>.timeline-badge {
+        left: 54% !important;
+    }
+    .slick-slider.slick-initialized .slick-arrow.slick-prev {
+        left: 0px !important;
+        top: 90% !important;
+        z-index: 999 !important;
+    }
+    .slick-slider.slick-initialized .slick-arrow.slick-prev {
+        z-index: 999;
+        left: 0px !important;
+    }
+    .award h1 {
+        padding: 30px 0px 32px 0px !important;
+        background-size: contain !important;
+        font-size: 22px !important;
+        margin-bottom: 60px !important;
+    }
+    .mdiasocial {
+        position: relative !important;
+        bottom: 50px !important;
+    }
+    .nextButtons {
+        margin: -50px 25px 38px 0px !important;
+    }
+    .nextButtons.prebutton.btn2s {
+        margin: -50px 25px 38px 0px !important;
+    }
+    .nextButtons.prebutton.btn3s {
+        margin: -90px 25px 38px 0px !important;
+    }
+    .nextButtons.btn1s {
+        margin: -28px 25px 38px 0px !important;
+    }
+    .slick-slider.slick-initialized .slick-arrow.slick-next {
+        right: 0px !important;
+        top: 90% !important;
+    }
+    .timeline-panel {
+        margin-top: 60% !important;
+    }
+    a.diffcolormenu {
+        background: none !important;
+        color: #4c3f43 !important;
+    }
+    .header {
+        display: none;
+    }
+    .menu-toggle:checked~.header {
+        display: block !important;
+        opacity: 1;
+        transition-delay: 0s;
+    }
+    .test {
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: none;
+    }
+    .groundwatersimg img {
+        max-width: 100%;
+    }
+    .banner {
+        margin-top: 11% !important;
+    }
+    .cntrimg {
+        margin-bottom: 25px !important;
+    }
+    .rooftopfrm {
+        margin: 25px 0px !important;
+    }
+    .groundwaterstxt h3 {
+        font-weight: 600;
+        color: #0971b7;
+        font-size: 25px !important;
+    }
+    .groundwater_bg_home {
+        padding: 0px 0px 0px 0px !important;
+    }
+    .about-home {
+        background-size: contain !important;
+        background-position: top !important;
+        padding: 370px 0px 0px 0px !important;
+    }
+    .about-content {
+        background: #0971b7;
+        color: #fff;
+        max-width: 100%;
+        padding: 10px 15px !important;
+        border-radius: 20px;
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+    .groundwatersimg {
+        padding: 0px 0px !important;
+    }
+    .footer-main {
+        background: #0971b7;
+        padding: 0px 0px 0px 0px !important;
+        display: flex !important;
+    }
+    .footer-two {
+        padding: 15px 15px !important;
+    }
+    .footer-one {
+        padding: 0px !important;
+    }
+    .footer-three {
+        padding: 15px 15px !important;
+        text-align: left !important;
+    }
+    a.navbar-brand {
+        display: none;
+    }
+    .header a {
+        padding: 10px 25px !important;
+    }
+    .rooftopfrm {
+        background: #0971b7 !important;
+        border-radius: 10px !important;
+        padding: 20px 10px 10px 10px !important;
+    }
+    .mobile-bar img {
+        width: 60px;
+        max-width: 100%;
+        padding: 18px 0px 0px 0px;
+    }
+    img.moblogo {
+        display: initial;
+    }
+    header.header.container a img {
+        display: none !important;
+    }
+    /* ------- journey -------- */
+    .timeline>li>.timeline-panel {
+        width: 100% !important;
+        float: left !important;
+        left: 0% !important;
+    }
+    .timeline>li>.right-drop {
+        width: 155px !important;
+        height: 181px !important;
+        top: 20px !important;
+        left: 52% !important;
+    }
+    .timeline>li>.left-drop {
+        width: 181px !important;
+        height: 181px !important;
+        top: 17px !important;
+        left: 31% !important;
+        margin-left: -90px !important;
+    }
+    .enthrotxt {
+        top: 17% !important;
+        left: 50% !important;
+    }
+    .inthemedia {
+        top: 17% !important;
+    }
+    .container.media-main .col-md-4 {
+        padding-bottom: 44px;
+    }
+    .media-main {
+        padding: 0px 0px 0px 0px;
+    }
+    .award {
+        display: inline-grid !important;
+    }
+    .awrdimgcont {
+        max-width: 100% !important;
+        padding: 5px 0px !important;
+    }
+    .awrdimgcont h3 {
+        font-size: 18px !important;
+    }
+    .entteamtxt {
+        top: 17% !important;
+        /* left: 10% !important; */
+    }
+    .groundwater_bg h2 {
+        font-size: 25px !important;
+    }
+    .sawar h1 {
+        padding: 60px 0px !important;
+        background-image: url(../../static/images/ourTeam/Group1236.jpg);
+        background-position: center;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        font-size: 22px !important;
+        font-weight: 600;
+        color: #fff;
+    }
+    span.mb-span {
+        font-size: 12px !important;
+    }
+    h2.tech-heading {
+        text-align: center;
+        font-size: 22px !important;
+    }
+    p.team-para {
+        padding: 0px 0px 45px 0px !important;
+    }
+    .techbnnrtxt {
+        top: 17% !important;
+    }
+    .techbnnrtxt {
+        text-align: center !important;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+    }
+    h5.mb-0 a {
+        font-size: 13px !important;
+    }
+    .card-header {
+        padding: 0.75rem 0rem !important;
+    }
+    .techacrsec {
+        padding: 20px 0px !important;
+    }
+    span.mb-span {
+        font-size: 13px !important;
+        padding: 5px 5px !important;
+        margin-left: 0px !important;
+    }
+    .rnyfltrs {
+        top: 17% !important;
+    }
+    .dwnldbnnrtxt {
+        top: 17% !important;
+    }
+    h1.fl80 {
+        width: 60% !important;
+    }
+    .mb-0>a:after {
+        content: '\f078';
+        font-family: 'Visby Round CF Heavy';
+        position: absolute;
+        right: 7% !important;
+    }
+    .yellowbtn button {
+        width: 100%;
+        margin: 5px 15px !important;
+    }
+    .sssprt h1 {
+        padding: 45px 0px !important;
+        background-size: contain !important;
+        font-size: 22px !important;
+    }
+    .yellowbtn {
+        margin-left: -20px !important;
+    }
+    .rnyfltrbtn.senq #rnenq {
+        float: left;
+        margin-left: 20%;
+    }
+    .rnyfltrbtn {
+        margin: 10px 0px !important;
+        text-align: center !important;
+    }
+    .gr3 {
+        margin: 20px 3px;
+    }
+    .dlrsinpt select {
+        padding: 6px 0px !important;
+        margin: 5px 0px !important;
+        width: 90% !important;
+    }
+    h5.mb-0 {
+        padding: 0px 10px !important;
+    }
+    .dnldbg {
+        background: #dff7f7;
+        padding: 45px 5px !important;
+    }
+    .glrycntnr {
+        padding: 25px 0px !important;
+    }
+    .glrymnu {
+        padding: 0px 15px !important;
+    }
 }
 
 @media only screen and (max-width: 700px) {
-	body[yahoo] .full_width_700 {
-		width: 100% !important;
-	}
-	body[yahoo] .txt_center {
-		text-align: center !important;
-	}
-	body[yahoo] .separator {
-		height: 40px !important;
-	}
+    body[yahoo] .full_width_700 {
+        width: 100% !important;
+    }
+    body[yahoo] .txt_center {
+        text-align: center !important;
+    }
+    body[yahoo] .separator {
+        height: 40px !important;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) {
-	.groundwater_bg_home img {
-		max-width: 100% !important;
-		margin-bottom: 10% !important;
-	}
-	.cntrimg img {
-		margin-top: 0% !important;
-	}
-	.groundwatersimg img {
-		margin-top: 20px !important;
-	}
-	.timeline > li > .left-drop {
-		left: 35% !important;
-	}
-	.timeline > li > .timeline-panel {
-		width: 37% !important;
-	}
-	.slick-arrow-right-awards {
-		margin-top: -30%;
-	}
-	.nextButtons.prebutton {
-		left: -1035px !important;
-	}
+    .groundwater_bg_home img {
+        max-width: 100% !important;
+        margin-bottom: 10% !important;
+    }
+    .cntrimg img {
+        margin-top: 0% !important;
+    }
+    .groundwatersimg img {
+        margin-top: 20px !important;
+    }
+    .timeline>li>.left-drop {
+        left: 35% !important;
+    }
+    .timeline>li>.timeline-panel {
+        width: 37% !important;
+    }
+    .slick-arrow-right-awards {
+        margin-top: -30%;
+    }
+    .nextButtons.prebutton {
+        left: -1035px !important;
+    }
 }
 
 .bg-gradient1 span,
 .bg-gradient1:before {
-	background: #52a0fd;
-	background: -moz-linear-gradient(left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
-	background: -webkit-linear-gradient(
-		left,
-		#52a0fd 0%,
-		#00e2fa 80%,
-		#00e2fa 100%
-	);
-	background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+    background: #52a0fd;
+    background: -moz-linear-gradient(left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+    background: -webkit-linear-gradient( left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+    background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
 }
 
 .bg-gradient3 span,
 .bg-gradient3:before {
-	background: #fa6c9f;
-	background: -moz-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
-	background: -webkit-linear-gradient(
-		left,
-		#fa6c9f 0%,
-		#ffe140 80%,
-		#ffe140 100%
-	);
-	background: linear-gradient(to right, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
+    background: #fa6c9f;
+    background: -moz-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
+    background: -webkit-linear-gradient( left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
+    background: linear-gradient(to right, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
 }
 
 .wrapper {
-	margin: 0% auto;
-	text-align: center;
-	transform-style: perserve-3d;
-	perspective: 400px;
+    margin: 0% auto;
+    text-align: center;
+    transform-style: perserve-3d;
+    perspective: 400px;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .fancy-button {
-	display: inline-block;
-	margin: 0px;
-	font-family: 'Visby Round CF Heavy';
-	font-size: 5px;
-	letter-spacing: 0em;
-	text-transform: uppercase;
-	color: #fff;
-	top: 55%;
-	margin-top: -6em;
-	width: 100%;
-	height: 0.199em;
+    display: inline-block;
+    margin: 0px;
+    font-family: 'Visby Round CF Heavy';
+    font-size: 5px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #fff;
+    top: 55%;
+    margin-top: -6em;
+    width: 100%;
+    height: 0.199em;
 }
 
 .fancy-button:before {
-	content: '';
-	display: inline-block;
-	height: 20px;
-	position: absolute;
-	z-index: -1;
-	border-radius: 30em;
-	filter: blur(20px) brightness(0.95);
-	transform-style: preserve-3d;
-	transition: all 0.3s ease-out;
+    content: '';
+    display: inline-block;
+    height: 20px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 30em;
+    filter: blur(20px) brightness(0.95);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
 }
 
 .fancy-button i {
-	font-size: 1em;
-	vertical-align: middle;
+    font-size: 1em;
+    vertical-align: middle;
 }
 
 .fancy-button span {
-	display: inline-block;
-	padding: 13px 60px;
-	border-radius: 50em;
-	position: relative;
-	z-index: 2;
-	will-change: transform, filter;
-	transform-style: preserve-3d;
-	transition: all 0.3s ease-out;
+    display: inline-block;
+    padding: 13px 60px;
+    border-radius: 50em;
+    position: relative;
+    z-index: 2;
+    will-change: transform, filter;
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
 }
 
 .fancy-button:focus,
 .fancy-button:active {
-	color: #fff;
+    color: #fff;
 }
 
 .fancy-button:hover {
-	color: #fff;
+    color: #fff;
 }
 
 .fancy-button:hover span {
-	filter: brightness(1.05) contrast(1.05);
-	transform: scale(0.95);
+    filter: brightness(1.05) contrast(1.05);
+    transform: scale(0.95);
 }
 
 .fancy-button:hover:before {
-	bottom: 0;
-	filter: blur(10px) brightness(0.95);
+    bottom: 0;
+    filter: blur(10px) brightness(0.95);
 }
 
 .fancy-button.pop-onhover:before {
-	opacity: 0;
-	bottom: 10px;
+    opacity: 0;
+    bottom: 10px;
 }
 
 .fancy-button.pop-onhover:hover:before {
-	bottom: -7px;
-	opacity: 1;
-	filter: blur(20px);
+    bottom: -7px;
+    opacity: 1;
+    filter: blur(20px);
 }
 
 .fancy-button.pop-onhover:hover span {
-	transform: scale(1.04);
+    transform: scale(1.04);
 }
 
 .fancy-button.pop-onhover:hover:active span {
-	filter: brightness(1) contrast(1);
-	transform: scale(1);
-	transition: all 0.15s ease-out;
+    filter: brightness(1) contrast(1);
+    transform: scale(1);
+    transition: all 0.15s ease-out;
 }
 
 .fancy-button.pop-onhover:hover:active:before {
-	bottom: 0;
-	filter: blur(10px) brightness(0.95);
-	transition: all 0.2s ease-out;
+    bottom: 0;
+    filter: blur(10px) brightness(0.95);
+    transition: all 0.2s ease-out;
 }
 
 *,
 *:before,
 *:after {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-	background-color: #fff;
-	height: 100%;
-	margin: 0;
-	font-family: 'Visby Round CF Heavy';
-	font-size: 1em;
-	color: #696969;
-	-webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    height: 100%;
+    margin: 0;
+    font-family: 'Visby Round CF Heavy';
+    font-size: 1em;
+    color: #696969;
+    -webkit-font-smoothing: antialiased;
 }
 
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
-	margin: 1em 0;
+    margin: 1em 0;
 }
 
 p {
-	margin: 0.9em 0;
-	line-height: 1.5;
+    margin: 0.9em 0;
+    line-height: 1.5;
 }
 
 ::selection {
-	background-color: #e53935;
-	color: #eee;
+    background-color: #e53935;
+    color: #eee;
 }
 
 .menu-toggle {
-	display: none;
+    display: none;
 }
 
 .mobile-bar {
-	z-index: 10;
-	position: fixed;
-	top: 0;
-	left: 0;
-	padding: 0 25px;
-	/*BAR HOW MUCH IN RIGHT*/
-	width: 100%;
-	height: 65px;
-	background-color: white;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 25px;
+    /*BAR HOW MUCH IN RIGHT*/
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .menu-icon {
-	float: right;
-	display: block;
-	position: relative;
-	width: 25px;
-	height: 100%;
-	cursor: pointer;
-	transition: transform 300ms ease-in;
-	/*the bar to X*/
+    float: right;
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 100%;
+    cursor: pointer;
+    transition: transform 300ms ease-in;
+    /*the bar to X*/
 }
 
-.menu-icon > span {
-	display: block;
-	position: absolute;
-	top: 55%;
-	margin-top: -0.3em;
-	width: 100%;
-	height: 0.199em;
-	border-radius: 1px;
-	background-color: #696969;
-	transition: transform 300ms ease-in;
+.menu-icon>span {
+    display: block;
+    position: absolute;
+    top: 55%;
+    margin-top: -0.3em;
+    width: 100%;
+    height: 0.199em;
+    border-radius: 1px;
+    background-color: #696969;
+    transition: transform 300ms ease-in;
 }
 
-.menu-icon > span:before,
-.menu-icon > span:after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border-radius: 1px;
-	background-color: #696969;
-	transition: transform 300ms ease;
+.menu-icon>span:before,
+.menu-icon>span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+    background-color: #696969;
+    transition: transform 300ms ease;
 }
 
-.menu-icon > span:before {
-	transform: translateY(-0.6em);
+.menu-icon>span:before {
+    transform: translateY(-0.6em);
 }
 
-.menu-icon > span:after {
-	transform: translateY(0.6em);
+.menu-icon>span:after {
+    transform: translateY(0.6em);
 }
+
 
 /*need this for bringing down the examples*/
 
-.menu-toggle:checked + .mobile-bar .menu-icon {
-	transform: rotate(45deg);
+.menu-toggle:checked+.mobile-bar .menu-icon {
+    transform: rotate(45deg);
 }
 
-.menu-toggle:checked + .mobile-bar span:before,
-.menu-toggle:checked + .mobile-bar span:after {
-	transform: rotate(90deg);
+.menu-toggle:checked+.mobile-bar span:before,
+.menu-toggle:checked+.mobile-bar span:after {
+    transform: rotate(90deg);
 }
+
 
 /*needed*/
 
-.menu-toggle:checked ~ .header {
-	visibility: visible;
-	opacity: 1;
-	transition-delay: 0s;
+.menu-toggle:checked~.header {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
 }
 
 .header {
-	visibility: hidden;
-	opacity: 0;
-	top: 0;
-	left: 0;
-	padding-top: 60px;
-	background-color: white;
-	color: #eee;
-	transition: opacity 300ms ease-in, visibility 0s ease-in 300ms;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    background-color: white;
+    color: #eee;
+    transition: opacity 300ms ease-in, visibility 0s ease-in 300ms;
 }
 
 .header nav,
 .header ul {
-	height: 100%;
+    height: 100%;
 }
 
 .header li {
-	border-bottom: 1px solid #eee;
-	color: #505050;
-	font-weight: 430;
-	line-height: 2.4;
-	font-size: 15px;
-	letter-spacing: 0px;
-	font-weight: 600;
+    border-bottom: 1px solid #eee;
+    color: #505050;
+    font-weight: 430;
+    line-height: 2.4;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 600;
 }
 
 .header li:hover {
-	color: #696969;
-	transition: color 300ms ease-in;
+    color: #696969;
+    transition: color 300ms ease-in;
 }
 
 .header a {
-	display: block;
-	padding: 25px;
-	transition: background-color 300ms ease-in;
-	font-size: 14px;
-	font-weight: 500;
-	letter-spacing: 0.4px;
-	color: #4c3f43;
-	font-family: Visby Round CF Regular;
+    display: block;
+    padding: 25px;
+    transition: background-color 300ms ease-in;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #4c3f43;
+    font-family: Visby Round CF Regular;
 }
 
 .navbar-brand {
-	padding: 0px;
+    padding: 0px;
 }
 
-.navbar-brand > img {
-	/*height: 40px;
+.navbar-brand>img {
+    /*height: 40px;
     width: auto;
     z-index: 10;
     position: fixed;
@@ -1105,481 +1021,457 @@ p {
     left: 0;
     padding: 0 25px;
     background-color: white;*/
-	float: left;
-	float: left;
-	padding-top: 15px;
-	/* width: 171px; */
-	height: 90px;
-	max-width: 100%;
+    float: left;
+    float: left;
+    padding-top: 15px;
+    /* width: 171px; */
+    height: 90px;
+    max-width: 100%;
 }
 
 .test {
-	top: 0;
-	width: 100%;
-	position: fixed;
-	background: #fff;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background: #fff;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	.nextButtons.prebutton {
-		margin-left: 30px !important;
-		position: absolute;
-		left: 73px;
-	}
-	.row.margin3ForSlider {
-		margin: 40px 0px;
-	}
-	.nextButtons.prebutton.btn3s {
-		margin: -48px 68px 38px -16px !important;
-	}
-	.nextButtons.prebutton.btn3s button {
-		background: #009ddd;
-		border: 1px solid #009ddd;
-		padding: 10px 20px;
-		border-radius: 30px;
-		margin: -15px -30px !important;
-		outline: none;
-	}
-	.techbnnrtxt {
-		text-align: center !important;
-		position: absolute;
-		top: 40%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		color: #ffffff;
-	}
-	.groundwaterstxt {
-		padding: 20px 10px 50px 10px !important;
-	}
-	.abou-home-heading h2 {
-		text-align: center;
-		padding: 5px 0px 5px 0px;
-		font-size: 28px;
-		font-weight: 600;
-		color: #0971b7;
-		letter-spacing: 0px;
-		font-family: 'Visby Round CF Heavy';
-	}
-	.container-fluid.groundwater_bg_home .col-md-4 {
-		padding: 0px 10px;
-	}
-	.footer-one img {
-		max-width: 100% !important;
-		width: 110px !important;
-	}
-	.slick-arrow-left-awards {
-		margin-top: 16%;
-	}
-	.slick-arrow-left-awards.onlymedial {
-		margin-top: 24%;
-	}
-	.slick-arrow-right-awards {
-		float: right;
-		width: 8%;
-		margin-top: -36% !important;
-	}
-	.bannrhome .hero-image .hero-text {
-		position: absolute !important;
-		top: 20% !important;
-		left: 50% !important;
-	}
-	.gr3 img {
-		max-width: 100%;
-	}
-	.rnyfltrs {
-		/* left: 60% !important; */
-	}
-	.timeline > li.timeline-inverted > .timeline-panel {
-		float: right !important;
-	}
-	.timeline > li.timeline-inverted > .timeline-panel:before {
-		border-left-width: 0;
-		border-right-width: 15px;
-		left: -15px;
-		right: auto;
-	}
-	.timeline > li.timeline-inverted > .timeline-panel:after {
-		border-left-width: 0;
-		border-right-width: 14px;
-		left: -14px;
-		right: auto;
-	}
-	.ourjourneycontinue {
-		width: 50% !important;
-		left: 20px !important;
-		position: absolute !important;
-		bottom: 0px !important;
-	}
-	.container {
-		max-width: 1000px;
-	}
-	.timeline > li > .timeline-badge {
-		left: 51.5% !important;
-	}
-	.slick-slider.slick-initialized .slick-arrow.slick-prev {
-		left: 0px !important;
-		top: 90% !important;
-		z-index: 999 !important;
-	}
-	.slick-slider.slick-initialized .slick-arrow.slick-prev {
-		z-index: 999;
-		left: 0px !important;
-	}
-	.award h1 {
-		padding: 150px 0px !important;
-		background-size: contain !important;
-		font-size: 22px !important;
-		margin-bottom: 60px !important;
-	}
-	.mdiacont div {
-		padding: 15px 0px !important;
-	}
-	.col-md-12 {
-		-ms-flex: 0 0 100% !important;
-		flex: 0 0 100% !important;
-		max-width: 100% !important;
-	}
-	.mdiasocial {
-		position: absolute !important;
-		bottom: 50px !important;
-	}
-	.nextButtons {
-		margin: -30px 20px 40px -5px !important;
-		z-index: 999999 !important;
-	}
-	.slick-slider.slick-initialized .slick-arrow.slick-next {
-		right: 0px !important;
-		top: 90% !important;
-	}
-	.timeline-panel {
-		margin-top: 0% !important;
-	}
-	a.diffcolormenu {
-		background: none !important;
-		color: #4c3f43 !important;
-	}
-	.header {
-		display: none;
-	}
-	.menu-toggle:checked ~ .header {
-		display: block !important;
-		opacity: 1;
-		transition-delay: 0s;
-	}
-	.test {
-		top: 0;
-		width: 100%;
-		position: fixed;
-		background-color: none;
-		height: 20px;
-	}
-	.groundwatersimg img {
-		max-width: 100%;
-		margin-top: 20px;
-	}
-	.hero-text {
-		position: absolute;
-		top: 16% !important;
-		left: 50% !important;
-		width: 50%;
-		padding: 25px;
-	}
-	.cntrimg img {
-		margin-top: 100%;
-	}
-	.banner {
-		margin-top: 4% !important;
-	}
-	.cntrimg {
-		margin-bottom: 25px !important;
-	}
-	.rooftopfrm {
-		margin: 25px 0px !important;
-	}
-	.hero-text h1 {
-		font-size: 28px !important;
-	}
-	.hero-text p {
-		font-size: 18px !important;
-		font-family: Visby Round CF Regular;
-	}
-	.groundwaterstxt h3 {
-		font-weight: 600;
-		color: #0971b7;
-		font-size: 25px !important;
-	}
-	.hero-text button {
-		font-size: 13px !important;
-	}
-	.groundwater_bg_home {
-		padding: 0px 0px 510px 0px;
-	}
-	.about-home {
-		background-size: contain !important;
-		background-position: top !important;
-		padding: 730px 0px 0px 0px !important;
-	}
-	.about-content {
-		max-width: 740px !important;
-		background: #0971b7;
-		color: #fff;
-		max-width: 100%;
-		padding: 10px 15px !important;
-		border-radius: 20px;
-		margin-left: 0px !important;
-		margin-top: 10px;
-	}
-	.groundwatersimg {
-		padding: 0px 0px !important;
-	}
-	.footer-main {
-		background: #0971b7;
-		padding: 0px 0px 0px 0px !important;
-		display: flex !important;
-	}
-	.footer-two {
-		padding: 15px 0px !important;
-	}
-	.footer-one {
-		padding: 0px !important;
-	}
-	.footer-three {
-		padding: 15px 0px !important;
-		text-align: left !important;
-	}
-	a.navbar-brand {
-		display: none;
-	}
-	.header a {
-		padding: 10px 25px !important;
-	}
-	.rooftopfrm {
-		background: #0971b7 !important;
-		border-radius: 10px !important;
-		padding: 0px 10px 0px 10px !important;
-	}
-	.mobile-bar img {
-		width: 60px;
-		max-width: 100%;
-		padding: 18px 0px 0px 0px;
-	}
-	img.moblogo {
-		display: initial;
-	}
-	header.header.container a img {
-		display: none !important;
-	}
-	/* ------- journey -------- */
-	.timeline > li > .timeline-panel {
-		width: 45% !important;
-		float: left !important;
-		left: 0% !important;
-	}
-	.timeline-panel.right-imghis {
-		float: right !important;
-		float: left !important;
-		left: 0% !important;
-	}
-	.timeline > li > .right-drop {
-		width: 155px !important;
-		height: 181px !important;
-		top: 20px !important;
-		left: 52% !important;
-	}
-	.timeline > li > .left-drop {
-		width: 181px !important;
-		height: 181px !important;
-		top: 17px !important;
-		left: 41%;
-		margin-left: -170px !important;
-	}
-	.enthrotxt {
-		top: 15% !important;
-		left: 50% !important;
-	}
-	.inthemedia {
-		top: 15% !important;
-		left: 50% !important;
-	}
-	.container.media-main .col-md-4 {
-		padding-bottom: 44px;
-	}
-	.media-main {
-		padding: 0px 0px 0px 0px;
-	}
-	.award {
-		display: inline-grid !important;
-	}
-	.awrdimgcont {
-		max-width: 100% !important;
-		padding: 5px 0px !important;
-	}
-	.awrdimgcont h3 {
-		font-size: 18px !important;
-	}
-	.entteamtxt {
-		top: 20% !important;
-		/* left: 50% !important; */
-	}
-	.groundwater_bg h2 {
-		font-size: 25px !important;
-	}
-	.sawar h1 {
-		padding: 150px 0px !important;
-		background-image: url(../../static/images/ourTeam/Group1236.jpg);
-		background-position: center;
-		background-size: contain !important;
-		background-repeat: no-repeat;
-		font-size: 22px !important;
-		font-weight: 600;
-		color: #fff;
-	}
-	span.mb-span {
-		font-size: 12px !important;
-	}
-	h2.tech-heading {
-		text-align: center;
-		font-size: 22px !important;
-	}
-	p.team-para {
-		padding: 0px 0px 45px 0px !important;
-	}
-	.techbnnrtxt {
-		top: 16% !important;
-	}
-	h5.mb-0 a {
-		font-size: 13px !important;
-	}
-	.card-header {
-		padding: 0.75rem 0rem !important;
-	}
-	.techacrsec {
-		padding: 20px 0px !important;
-	}
-	span.mb-span {
-		font-size: 13px !important;
-		padding: 5px 5px !important;
-		margin-left: 20px !important;
-	}
-	.rnyfltrs {
-		top: 16% !important;
-		/* left: 17% !important; */
-		color: #ffffff !important;
-	}
-	h1.fl80 {
-		width: 60% !important;
-	}
-	.mb-0 > a:after {
-		content: '\f078';
-		font-family: 'Visby Round CF Heavy';
-		position: absolute;
-		right: 7% !important;
-	}
-	.yellowbtn button {
-		width: 100%;
-		margin: 5px 15px !important;
-	}
-	.sssprt h1 {
-		padding: 150px 0px !important;
-		background-size: contain !important;
-		font-size: 22px !important;
-	}
-	.yellowbtn {
-		margin-left: -20px !important;
-	}
-	.rnyfltrbtn.senq #rnenq {
-		float: left;
-		margin-left: 20%;
-	}
-	.hero-text.inthemedia h1 {
-		font-size: 22px !important;
-	}
-	.rnyfltrbtn {
-		margin: 10px 0px !important;
-		text-align: center !important;
-	}
-	.gr3 {
-		margin: 20px 3px;
-	}
-	.dlrsinpt select {
-		padding: 6px 0px !important;
-		margin: 5px 0px !important;
-		width: 90% !important;
-	}
-	h5.mb-0 {
-		padding: 0px 10px !important;
-	}
-	.dnldbg {
-		background: #dff7f7;
-		padding: 45px 5px !important;
-	}
-	.glrycntnr {
-		padding: 25px 0px !important;
-	}
-	.glrymnu {
-		padding: 0px 15px !important;
-	}
-	.groundwater_bg_home img {
-		max-width: 100% !important;
-		margin-bottom: 55%;
-	}
-	.grndtext {
-		padding: 0px 0px !important;
-	}
-	.rainy-dual {
-		padding: 10px 0px 20px 0px !important;
-	}
+    .nextButtons.prebutton {
+        margin-left: 30px !important;
+        position: absolute;
+        left: 73px;
+    }
+    .row.margin3ForSlider {
+        margin: 40px 0px;
+    }
+    .nextButtons.prebutton.btn3s {
+        margin: -48px 68px 38px -16px !important;
+    }
+    .nextButtons.prebutton.btn3s button {
+        background: #009ddd;
+        border: 1px solid #009ddd;
+        padding: 10px 20px;
+        border-radius: 30px;
+        margin: -15px -30px !important;
+        outline: none;
+    }
+    .techbnnrtxt {
+        text-align: center !important;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+    }
+    .groundwaterstxt {
+        padding: 20px 10px 50px 10px !important;
+    }
+    .abou-home-heading h2 {
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #0971b7;
+        letter-spacing: 0px;
+        font-family: 'Visby Round CF Heavy';
+    }
+    .container-fluid.groundwater_bg_home .col-md-4 {
+        padding: 0px 10px;
+    }
+    .footer-one img {
+        max-width: 100% !important;
+        width: 110px !important;
+    }
+    .slick-arrow-left-awards {
+        margin-top: 16%;
+    }
+    .slick-arrow-left-awards.onlymedial {
+        margin-top: 24%;
+    }
+    .slick-arrow-right-awards {
+        float: right;
+        width: 8%;
+        margin-top: -36% !important;
+    }
+    .gr3 img {
+        max-width: 100%;
+    }
+    .rnyfltrs {
+        /* left: 60% !important; */
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right !important;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .ourjourneycontinue {
+        width: 50% !important;
+        left: 20px !important;
+        position: absolute !important;
+        bottom: 0px !important;
+    }
+    .container {
+        max-width: 1000px;
+    }
+    .timeline>li>.timeline-badge {
+        left: 51.5% !important;
+    }
+    .slick-slider.slick-initialized .slick-arrow.slick-prev {
+        left: 0px !important;
+        top: 90% !important;
+        z-index: 999 !important;
+    }
+    .slick-slider.slick-initialized .slick-arrow.slick-prev {
+        z-index: 999;
+        left: 0px !important;
+    }
+    .award h1 {
+        padding: 150px 0px !important;
+        background-size: contain !important;
+        font-size: 22px !important;
+        margin-bottom: 60px !important;
+    }
+    .mdiacont div {
+        padding: 15px 0px !important;
+    }
+    .col-md-12 {
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .mdiasocial {
+        position: absolute !important;
+        bottom: 50px !important;
+    }
+    .nextButtons {
+        margin: -30px 20px 40px -5px !important;
+        z-index: 999999 !important;
+    }
+    .slick-slider.slick-initialized .slick-arrow.slick-next {
+        right: 0px !important;
+        top: 90% !important;
+    }
+    .timeline-panel {
+        margin-top: 0% !important;
+    }
+    a.diffcolormenu {
+        background: none !important;
+        color: #4c3f43 !important;
+    }
+    .header {
+        display: none;
+    }
+    .menu-toggle:checked~.header {
+        display: block !important;
+        opacity: 1;
+        transition-delay: 0s;
+    }
+    .test {
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: none;
+        height: 20px;
+    }
+    .groundwatersimg img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .cntrimg img {
+        margin-top: 100%;
+    }
+    .banner {
+        margin-top: 4% !important;
+    }
+    .cntrimg {
+        margin-bottom: 25px !important;
+    }
+    .rooftopfrm {
+        margin: 25px 0px !important;
+    }
+    .groundwaterstxt h3 {
+        font-weight: 600;
+        color: #0971b7;
+        font-size: 25px !important;
+    }
+    .groundwater_bg_home {
+        padding: 0px 0px 510px 0px;
+    }
+    .about-home {
+        background-size: contain !important;
+        background-position: top !important;
+        padding: 730px 0px 0px 0px !important;
+    }
+    .about-content {
+        max-width: 740px !important;
+        background: #0971b7;
+        color: #fff;
+        max-width: 100%;
+        padding: 10px 15px !important;
+        border-radius: 20px;
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+    .groundwatersimg {
+        padding: 0px 0px !important;
+    }
+    .footer-main {
+        background: #0971b7;
+        padding: 0px 0px 0px 0px !important;
+        display: flex !important;
+    }
+    .footer-two {
+        padding: 15px 0px !important;
+    }
+    .footer-one {
+        padding: 0px !important;
+    }
+    .footer-three {
+        padding: 15px 0px !important;
+        text-align: left !important;
+    }
+    a.navbar-brand {
+        display: none;
+    }
+    .header a {
+        padding: 10px 25px !important;
+    }
+    .rooftopfrm {
+        background: #0971b7 !important;
+        border-radius: 10px !important;
+        padding: 0px 10px 0px 10px !important;
+    }
+    .mobile-bar img {
+        width: 60px;
+        max-width: 100%;
+        padding: 18px 0px 0px 0px;
+    }
+    img.moblogo {
+        display: initial;
+    }
+    header.header.container a img {
+        display: none !important;
+    }
+    /* ------- journey -------- */
+    .timeline>li>.timeline-panel {
+        width: 45% !important;
+        float: left !important;
+        left: 0% !important;
+    }
+    .timeline-panel.right-imghis {
+        float: right !important;
+        float: left !important;
+        left: 0% !important;
+    }
+    .timeline>li>.right-drop {
+        width: 155px !important;
+        height: 181px !important;
+        top: 20px !important;
+        left: 52% !important;
+    }
+    .timeline>li>.left-drop {
+        width: 181px !important;
+        height: 181px !important;
+        top: 17px !important;
+        left: 41%;
+        margin-left: -170px !important;
+    }
+    .enthrotxt {
+        top: 15% !important;
+        left: 50% !important;
+    }
+    .inthemedia {
+        top: 15% !important;
+        left: 50% !important;
+    }
+    .container.media-main .col-md-4 {
+        padding-bottom: 44px;
+    }
+    .media-main {
+        padding: 0px 0px 0px 0px;
+    }
+    .award {
+        display: inline-grid !important;
+    }
+    .awrdimgcont {
+        max-width: 100% !important;
+        padding: 5px 0px !important;
+    }
+    .awrdimgcont h3 {
+        font-size: 18px !important;
+    }
+    .entteamtxt {
+        top: 20% !important;
+        /* left: 50% !important; */
+    }
+    .groundwater_bg h2 {
+        font-size: 25px !important;
+    }
+    .sawar h1 {
+        padding: 150px 0px !important;
+        background-image: url(../../static/images/ourTeam/Group1236.jpg);
+        background-position: center;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        font-size: 22px !important;
+        font-weight: 600;
+        color: #fff;
+    }
+    span.mb-span {
+        font-size: 12px !important;
+    }
+    h2.tech-heading {
+        text-align: center;
+        font-size: 22px !important;
+    }
+    p.team-para {
+        padding: 0px 0px 45px 0px !important;
+    }
+    .techbnnrtxt {
+        top: 16% !important;
+    }
+    h5.mb-0 a {
+        font-size: 13px !important;
+    }
+    .card-header {
+        padding: 0.75rem 0rem !important;
+    }
+    .techacrsec {
+        padding: 20px 0px !important;
+    }
+    span.mb-span {
+        font-size: 13px !important;
+        padding: 5px 5px !important;
+        margin-left: 20px !important;
+    }
+    .rnyfltrs {
+        top: 16% !important;
+        /* left: 17% !important; */
+        color: #ffffff !important;
+    }
+    h1.fl80 {
+        width: 60% !important;
+    }
+    .mb-0>a:after {
+        content: '\f078';
+        font-family: 'Visby Round CF Heavy';
+        position: absolute;
+        right: 7% !important;
+    }
+    .yellowbtn button {
+        width: 100%;
+        margin: 5px 15px !important;
+    }
+    .sssprt h1 {
+        padding: 150px 0px !important;
+        background-size: contain !important;
+        font-size: 22px !important;
+    }
+    .yellowbtn {
+        margin-left: -20px !important;
+    }
+    .rnyfltrbtn.senq #rnenq {
+        float: left;
+        margin-left: 20%;
+    }
+    .rnyfltrbtn {
+        margin: 10px 0px !important;
+        text-align: center !important;
+    }
+    .gr3 {
+        margin: 20px 3px;
+    }
+    .dlrsinpt select {
+        padding: 6px 0px !important;
+        margin: 5px 0px !important;
+        width: 90% !important;
+    }
+    h5.mb-0 {
+        padding: 0px 10px !important;
+    }
+    .dnldbg {
+        background: #dff7f7;
+        padding: 45px 5px !important;
+    }
+    .glrycntnr {
+        padding: 25px 0px !important;
+    }
+    .glrymnu {
+        padding: 0px 15px !important;
+    }
+    .groundwater_bg_home img {
+        max-width: 100% !important;
+        margin-bottom: 55%;
+    }
+    .grndtext {
+        padding: 0px 0px !important;
+    }
+    .rainy-dual {
+        padding: 10px 0px 20px 0px !important;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-	.about-home {
-		background-size: contain !important;
-		background-position: top !important;
-		padding: 930px 0px 0px 0px !important;
-	}
-	.about-content {
-		max-width: 100% !important;
-	}
+    .about-home {
+        background-size: contain !important;
+        background-position: top !important;
+        padding: 930px 0px 0px 0px !important;
+    }
+    .about-content {
+        max-width: 100% !important;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-	.mobile-bar {
-		display: block !important;
-	}
+    .mobile-bar {
+        display: block !important;
+    }
 }
 
 @media (min-width: 1200px) {
-	.mobile-bar {
-		display: none !important;
-	}
-	.header {
-		z-index: 5;
-		left: 0;
-		padding-top: 0;
-		width: 100%;
-		height: auto;
-		visibility: visible;
-		opacity: 1;
-		text-align: right;
-	}
-	.header li {
-		display: inline-block;
-		margin-right: -6px;
-		border: none;
-		text-align: left;
-	}
-	.header a {
-		padding: 20px 25px 10px 25px;
-	}
+    .mobile-bar {
+        display: none !important;
+    }
+    .header {
+        z-index: 5;
+        left: 0;
+        padding-top: 0;
+        width: 100%;
+        height: auto;
+        visibility: visible;
+        opacity: 1;
+        text-align: right;
+    }
+    .header li {
+        display: inline-block;
+        margin-right: -6px;
+        border: none;
+        text-align: left;
+    }
+    .header a {
+        padding: 20px 25px 10px 25px;
+    }
 }
 
 .main-header {
-	margin: 0px 0px 30px 0px;
-	box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2), 0 0px 2px rgba(0, 0, 0, 0.2);
-	z-index: 999999 !important;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    margin: 0px 0px 30px 0px;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2), 0 0px 2px rgba(0, 0, 0, 0.2);
+    z-index: 999999 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 
 /*.hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
@@ -1591,49 +1483,44 @@ p {
 }*/
 
 .dropdown-menu.dropdown-menu-tip-nw.show {
-	width: 220px !important;
-	border-radius: 0px;
-	margin-top: 15px;
-	background: #0578be;
-	background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
-	background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
-	background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
-	background: linear-gradient(to bottom, #0971b7, #6ec6d8);
-	border: none;
+    width: 220px !important;
+    border-radius: 0px;
+    margin-top: 15px;
+    background: #0578be;
+    background: -webkit-linear-gradient(to bottom, #0971b7, #6ec6d8);
+    background: -o-linear-gradient(to bottom, #0971b7, #6ec6d8);
+    background: -moz-linear-gradient(to bottom, #0971b7, #6ec6d8);
+    background: linear-gradient(to bottom, #0971b7, #6ec6d8);
+    border: none;
 }
 
 .dropdown-menu.dropdown-menu-tip-nw.show a {
-	font-size: 14px;
-	letter-spacing: 1px;
-	color: #fff;
-	opacity: 0.8;
-	padding: 3px 25px;
-	margin: 0px !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+    opacity: 0.8;
+    padding: 3px 25px;
+    margin: 0px !important;
 }
 
 .dropdown-item:hover {
-	background: none !important;
+    background: none !important;
 }
 
 .hero-image img {
-	width: 100%;
-}
-
-.hero-text button {
-	background: #fff532 !important;
-	border-radius: 25px !important;
+    width: 100%;
 }
 
 .media-hdng {
-	margin-bottom: 55px;
+    margin-bottom: 55px;
 }
 
 .banner {
-	margin-top: 6%;
+    margin-top: 6%;
 }
 
 @media only screen and (min-device-width: 1025px) and (max-device-width: 1366px) {
-	.banner {
-		margin-top: 8% !important;
-	}
+    .banner {
+        margin-top: 8% !important;
+    }
 }

@@ -1183,28 +1183,8 @@ h2.clientsHome:after {
 }
 
 @media screen and (max-width: 1440px) {
-    .hero-text {
-        text-align: right;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        float: right;
-        transform: translate(-50%, -50%);
-        color: #000000;
-        width: 100%;
-    }
     .slick-arrow-right-awards {
         margin-top: -16% !important;
-    }
-    .container-fluid.banner.bannrhome .hero-text {
-        text-align: right;
-        position: absolute;
-        top: 45%;
-        left: 44%;
-        float: right;
-        transform: translate(-50%, -50%);
-        color: #000000;
-        width: 100%;
     }
 }
 
