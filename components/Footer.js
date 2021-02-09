@@ -32,13 +32,20 @@ const Footer = () => {
 									>
 										<i className='fa fa-whatsapp' aria-hidden='true' />
 									</a>
-									+91 73380 33790
+									<a
+										target='_blank'
+										href='https://api.whatsapp.com/send?phone=+917338033790&text=%20Hello, I wanted to purchase Rainy Filter'
+									>
+										+91 73380 33790
+									</a>
 								</p>
 								<p>
 									<a target='_blank' href='tel:7338033790'>
 										<i className='fa fa-mobile' aria-hidden='true' />
 									</a>{' '}
-									+91 73380 33790
+									<a target='_blank' href='tel:7338033790'>
+										+91 73380 33790
+									</a>
 								</p>
 								{/* <p>
 									<a target='_blank' href='tel:9449443232'>
@@ -53,14 +60,19 @@ const Footer = () => {
 											aria-hidden='true'
 										/>
 									</a>{' '}
-									080 26766252
+									<a target='_blank' href='tel:08026766252'>
+										080 26766252
+									</a>
 								</p>
 								<p>
-									<a href='mailto: farmland_rhs@yahoo.co.in'>
+									<a target='_blank' href='mailto: farmland_rhs@yahoo.co.in'>
 										{' '}
 										<i className='fa fa-envelope-o' aria-hidden='true' />{' '}
 									</a>{' '}
-									farmland_rhs@yahoo.co.in
+									<a target='_blank' href='mailto: farmland_rhs@yahoo.co.in'>
+										{' '}
+										farmland_rhs@yahoo.co.in
+									</a>
 								</p>
 							</div>
 						</div>
