@@ -178,7 +178,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													Our first major project was carried out with IFFCO for
 													the benefit of farmers in Kolar. Through this
 													initiative, 650 borewells were successfully recharged.
-													While this turnkey project was underway, we saw in
+													While this turnkey project was underway, we saw an
 													increase in demand for rooftop rainwater harvesting.
 													To cater to this demand we introduced SS304 candle
 													type rainwater harvesting filter.
