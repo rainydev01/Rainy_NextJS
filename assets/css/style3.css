@@ -1351,9 +1351,9 @@ div#goog-gt-tt {
 
 @media only screen and (max-width: 430px) {
     .clientMargin {
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-bottom: 40px;
+        margin-left: 7px;
+        margin-right: 7px;
+        margin-bottom: 30px;
         margin-top: 0px;
     }
     .groundwater {
