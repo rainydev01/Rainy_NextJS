@@ -7,11 +7,15 @@ const Banner = () => {
 			<div className='container-fluid banner bannrhome'>
 				<div className='row' style={{display: 'block'}}>
 					<div className='hero-image'>
-						<img
-							src='../static/images/homepage/WebsiteBanner.jpg'
-							alt='Banner'
-						/>
-						<div className='hero-text'>
+						<Link href='/products/rainy-filters'>
+							<a>
+								<img
+									src='../static/images/homepage/WebsiteBanner.jpg'
+									alt='Banner'
+								/>
+							</a>
+						</Link>
+						{/* <div className='hero-text'>
 							<h1 style={{color: 'white'}}>RAINWATER HARVESTING</h1>
 							<p style={{color: 'white'}}>
 								Do You Harvest Rainwater? If Not, Start Today!
@@ -28,7 +32,7 @@ const Banner = () => {
 									<button style={{marginLeft: 20}}>Enquire Now</button>
 								</a>
 							</Link>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

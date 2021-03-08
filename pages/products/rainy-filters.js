@@ -227,7 +227,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																fontSize: 16,
 															}}
 															target='_blank'
-															href='https://www.amazon.in/dp/B08P4KHQ3S?ref=myi_title_dp'
+															href='https://amzn.to/3kMg7jJ'
 														>
 															<button>
 																Buy <br />
@@ -473,7 +473,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																fontSize: 16,
 															}}
 															target='_blank'
-															href='https://www.amazon.in/dp/B08SMGCLG1?ref=myi_title_dp'
+															href='https://amzn.to/3sNyKq7'
 														>
 															<button>
 																Buy <br />
@@ -730,7 +730,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																fontSize: 16,
 															}}
 															target='_blank'
-															href='https://www.amazon.in/dp/B08SMJH6WJ?ref=myi_title_dp'
+															href='https://amzn.to/3c06NVm'
 														>
 															<button>
 																Buy <br />
@@ -975,7 +975,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																fontSize: 16,
 															}}
 															target='_blank'
-															href='https://www.amazon.in/dp/B08SMDSSZW?ref=myi_title_dp'
+															href='https://amzn.to/3uXsqi3'
 														>
 															<button>
 																Buy <br />
@@ -1232,7 +1232,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 																fontSize: 16,
 															}}
 															target='_blank'
-															href='https://www.amazon.in/dp/B08SMFYVTM?ref=myi_title_dp'
+															href='https://amzn.to/386UXrp'
 														>
 															<button>
 																Buy <br />
