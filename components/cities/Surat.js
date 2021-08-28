@@ -1,16 +1,16 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react'
 
 const city = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid alladrsmain">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12 dlrsadrs">
+			<div className='container-fluid alladrsmain'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12 dlrsadrs'>
 							<h4>Surat</h4>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>GREENEX CORPORATION</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>GREENEX CORPORATION</h2>
 
 									{/* <h2>
 										Contact Person:-
@@ -26,8 +26,10 @@ const city = () => {
 										</span>
 									</h2> */}
 									<p>
-										No.143 Massimo, canal road,<br />
-										Althan, Surat-395017,<br />
+										No.143 Massimo, canal road,
+										<br />
+										Althan, Surat-395017,
+										<br />
 										Gujarath.
 									</p>
 									<h2>
@@ -37,7 +39,7 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											8980016528
@@ -50,7 +52,7 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											greenexcorporation@gmail.com <br />
@@ -64,7 +66,7 @@ const city = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default city;
+export default city

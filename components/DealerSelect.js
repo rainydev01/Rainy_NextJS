@@ -86,6 +86,8 @@ import Rajkot from '../components/cities/Rajkot'
 import Solan from '../components/cities/Solan'
 import Dabolim from '../components/cities/Dabolim'
 import Cochin from '../components/cities/Cochin'
+import Agra from '../components/cities/Agra'
+import Ujjain from '../components/cities/Ujjain'
 
 const App = () => {
 	const [selectedCity, setSelectedCity] = useState(null)
@@ -306,6 +308,12 @@ const App = () => {
 
 	if (selectedCity === 'COCHIN') {
 		dealersCity = <Cochin></Cochin>
+	}
+	if (selectedCity === 'AGRA') {
+		dealersCity = <Agra></Agra>
+	}
+	if (selectedCity === 'UJJAIN') {
+		dealersCity = <Ujjain></Ujjain>
 	}
 
 	return (

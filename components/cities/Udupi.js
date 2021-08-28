@@ -22,7 +22,7 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											NA
+											NIKHIL CHANDRA
 										</span>
 									</h2>
 									<p>
@@ -41,7 +41,7 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											8147534701 / 9164364216
+											8971579529
 										</span>
 									</h2>
 									<h2>

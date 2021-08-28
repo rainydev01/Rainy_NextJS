@@ -1,25 +1,25 @@
-import React, {Fragment} from "react";
+import React, {Fragment} from 'react'
 
 const city = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid alladrsmain">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12 dlrsadrs">
+			<div className='container-fluid alladrsmain'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12 dlrsadrs'>
 							<h4>Kannur</h4>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{color: "#0479bf"}}>KERALA</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>KERALA</h2>
 									<h2>NIRMAL WATER SECURITY SERVICES</h2>
 									<h2>
 										Contact Person:-
 										<span
 											style={{
-												fontWeight: "500",
-												fontSize: "14px",
-												fontFamily: "sans-serif",
-												letterSpacing: "1px",
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
 											}}
 										>
 											N/A
@@ -28,17 +28,17 @@ const city = () => {
 									<p>
 										Opp Malayala Manoramma,
 										<br />
-										Thottada, Kannur District,
+										Thottada, Kannur District-670007
 										<br />
 									</p>
 									<h2>
 										Mob:-
 										<span
 											style={{
-												fontWeight: "500",
-												fontSize: "14px",
-												fontFamily: "sans-serif",
-												letterSpacing: "1px",
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
 											}}
 										>
 											9447478975
@@ -48,10 +48,10 @@ const city = () => {
 										Email:-
 										<span
 											style={{
-												fontWeight: "500",
-												fontSize: "14px",
-												fontFamily: "sans-serif",
-												letterSpacing: "1px",
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
 											}}
 										>
 											N/A
@@ -66,7 +66,7 @@ const city = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default city;
+export default city

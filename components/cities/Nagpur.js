@@ -1,17 +1,17 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react'
 
 const city = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid alladrsmain">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12 dlrsadrs">
+			<div className='container-fluid alladrsmain'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12 dlrsadrs'>
 							<h4>Nagpur</h4>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
-									<h2>CPS ENVIRO TECH</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>MAHARASHTRA</h2>
+									<h2>CPS ENVIROTECH INDIA PVT LTD</h2>
 									<h2>
 										Contact Person:-
 										<span
@@ -19,15 +19,16 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											Mr. Sunil Wanjari
+											Mr. Sunil Wanjari and Prabhat Dhadiwal
 										</span>
 									</h2>
 									<p>
-										Dhadiwal Complex, Kathol Road, Chhaoni,<br />
-										Nagpur-13 <br />
+										Dhadiwal Complex, Kathol Road, Chhaoni,
+										<br />
+										OPP GOVERNOR HOUSE, Nagpur-13 <br />
 									</p>
 									<h2>
 										Mob:-
@@ -36,10 +37,10 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											07122591676, 09372592399
+											0712-2591676, 09372591676
 										</span>
 									</h2>
 									<h2>
@@ -49,17 +50,29 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											cpsiplngp@gmail.com <br />
 										</span>
+										Website:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
+											}}
+										></span>
+										<a href='https://www.cpsenvirotech.in' target='_blank'>
+											www.cpsenvirotech.in
+										</a>
 									</h2>
 								</div>
 							</div>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>MAHARASHTRA</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>MAHARASHTRA</h2>
 									<h2>ECOSTRUCTURES PVT LTD</h2>
 									<h2>
 										Contact Person:-
@@ -68,15 +81,17 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											N/A
 										</span>
 									</h2>
 									<p>
-										301, Vijay Residency,<br />
-										104 Shankar Nagar,<br />
+										301, Vijay Residency,
+										<br />
+										104 Shankar Nagar,
+										<br />
 										Nagpur - 440010
 									</p>
 									<h2>
@@ -86,7 +101,7 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											9975043605
@@ -99,7 +114,7 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											N/A <br />
@@ -113,7 +128,7 @@ const city = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default city;
+export default city

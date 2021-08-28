@@ -60,7 +60,7 @@ class Dropdown extends React.Component {
 						},
 						{
 							name: 'UTTAR PRADESH',
-							cities: ['KANPUR'],
+							cities: ['KANPUR', 'AGRA'],
 						},
 						{
 							name: 'CHATTISGARH',
@@ -101,7 +101,7 @@ class Dropdown extends React.Component {
 						},
 						{
 							name: 'MADHYA PRADESH',
-							cities: ['CHHINDWARA', 'VIDISHA', 'INDORE'],
+							cities: ['CHHINDWARA', 'VIDISHA', 'INDORE', 'UJJAIN'],
 						},
 						{
 							name: 'MANIPUR',

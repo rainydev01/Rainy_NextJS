@@ -1,16 +1,18 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react'
 
 const city = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid alladrsmain">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12 dlrsadrs">
+			<div className='container-fluid alladrsmain'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12 dlrsadrs'>
 							<h4>CHANDIGRAH</h4>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>KK TECH ECO PRODUCTS PVT. LTD</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>
+										KK TECH ECO PRODUCTS PVT. LTD
+									</h2>
 
 									<h2>
 										Contact Person:-
@@ -19,15 +21,17 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											Mr. Vipin Chopra
+											Mr. Gaurav Narang
 										</span>
 									</h2>
 									<p>
-										# Ambala-Chandigarh Highway<br />
-										Zirakpur,PIN-140603<br />
+										# Ambala-Chandigarh Highway
+										<br />
+										Zirakpur,PIN-140603
+										<br />
 									</p>
 									<h2>
 										Mob:-
@@ -36,10 +40,10 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											9216655399
+											9988010845
 										</span>
 									</h2>
 									<h2>
@@ -49,10 +53,10 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											kktechoffice@yahoo.com <br />
+											gaurav@kktechecoproducts.com <br />
 										</span>
 									</h2>
 									<h2>
@@ -62,7 +66,7 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
 											www.kktecheco.com <br />
@@ -76,7 +80,7 @@ const city = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default city;
+export default city

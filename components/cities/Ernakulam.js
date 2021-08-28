@@ -41,7 +41,8 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											9846127735, 9447707019, 0091 4842351816
+											00 91 484 2351816, 2369006, 2352414, 00 91 98461
+											27735,92494 27734, 98953 12333,92494 57575
 										</span>
 									</h2>
 									<h2>
@@ -54,7 +55,18 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											mousman@vsnl.com <br />
+											mousman@asbava.com <br />
+										</span>
+										Website:-
+										<span
+											style={{
+												fontWeight: '500',
+												fontSize: '14px',
+												fontFamily: 'sans-serif',
+												letterSpacing: '1px',
+											}}
+										>
+											http://www.asbava.com
 										</span>
 									</h2>
 								</div>
@@ -77,10 +89,10 @@ const city = () => {
 										</span>
 									</h2>
 									<p>
-										7/677B, Near Bread world, Mavelipuram <br />
-										Kakkanad , Ernakulum
+										PRIMAONE TOWER, NEDUMKULANGARA MALA ROAD, <br />
+										ATHANI, KAKKANAD, ERNAKULAM,
 										<br />
-										Kerala -682030
+										KERALA – 682030
 									</p>
 									<h2>
 										Mob:-
@@ -92,7 +104,7 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											8590771262
+											8590771262, 9995483862
 										</span>
 									</h2>
 									<h2>
@@ -105,7 +117,7 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											accounts@roofgallery.org
+											INFO@ROOFGALLERY.ORG
 											<br />
 										</span>
 									</h2>

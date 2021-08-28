@@ -10,21 +10,21 @@ const city = () => {
 							<h4>Raipur</h4>
 							<div className='col-md-6'>
 								<div className='alladrs'>
-									<h2 style={{color: '#0479bf'}}>Rainwater Harvesting</h2>
+									<h2 style={{color: '#0479bf'}}>Rainwater Harvesters</h2>
 
-									{/* <h2>
+									<h2>
 										Contact Person:-
 										<span
 											style={{
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											Anjali Mittal
+											Sandeep Rungta/Sanjeev Rungta
 										</span>
-									</h2> */}
+									</h2>
 									<p>
 										Off No. 231, 2nd Floor,
 										<br />
@@ -42,7 +42,7 @@ const city = () => {
 												letterSpacing: '1px',
 											}}
 										>
-											0932911100/0771-2536486
+											0932911100/0771-2536486/9827551100
 										</span>
 									</h2>
 									<h2>

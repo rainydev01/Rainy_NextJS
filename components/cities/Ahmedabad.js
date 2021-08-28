@@ -1,16 +1,16 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react'
 
 const city = () => {
 	return (
 		<Fragment>
-			<div className="container-fluid alladrsmain">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12 dlrsadrs">
+			<div className='container-fluid alladrsmain'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12 dlrsadrs'>
 							<h4>Ahmedabad</h4>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>VARDHMAN ENVIRO TECH</h2>
+							<div className='col-md-6'>
+								<div className='alladrs'>
+									<h2 style={{color: '#0479bf'}}>VARDHMAN ENVIRO TECH</h2>
 
 									{/* <h2>
 										Contact Person:-
@@ -26,9 +26,11 @@ const city = () => {
 										</span>
 									</h2> */}
 									<p>
-										Sf2/A2, Second Floor - 2,<br />
-										Urja House, Swastik Cross Road,<br />
-										C.G. Road, Ahmedabad - 380009
+										605, Sears Tower,
+										<br />
+										Nr. Patel Society Gate,
+										<br />
+										Panchvati to Gulbai Tekra Road, Ahmedabad - 380006
 									</p>
 									<h2>
 										Mob:-
@@ -37,10 +39,10 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											+91 9537977599 / 07490007599
+											+917490007599/+919537977599
 										</span>
 									</h2>
 									<h2>
@@ -50,10 +52,11 @@ const city = () => {
 												fontWeight: '500',
 												fontSize: '14px',
 												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
+												letterSpacing: '1px',
 											}}
 										>
-											hi@vardhamanenvirotech.com<br />
+											hi@vardhmanenvirotech.com
+											<br />
 										</span>
 									</h2>
 								</div>
@@ -64,7 +67,7 @@ const city = () => {
 				</div>
 			</div>
 		</Fragment>
-	);
-};
+	)
+}
 
-export default city;
+export default city
