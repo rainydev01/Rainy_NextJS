@@ -115,7 +115,7 @@ const App = () => {
 	if (selectedCity === 'GULBARGA') {
 		dealersCity = <Gulbarga />
 	}
-	if (selectedCity === 'HONNAVAR') {
+	if (selectedCity === 'HONNAVAR ') {
 		dealersCity = <Honnavar />
 	}
 	if (selectedCity === 'HASSAN') {

@@ -30,7 +30,7 @@ const city = () => {
 									<p>
 									FF44 Vyapara Bhavan,
 										<br />
-										Bank road, Kozhikode 
+										Bank road,  Kozhikode 
 										<br />
                                         Calicut-673001
 									</p>

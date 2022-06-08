@@ -31,7 +31,7 @@ class Dropdown extends React.Component {
 							cities: [
 								'BANGALORE',
 								'GULBARGA',
-								'HONNAVAR',
+								'HONNAVAR', 
 								'DAKSHINA KARNATAKA',
 								'MYSORE',
 								'HASSAN',
