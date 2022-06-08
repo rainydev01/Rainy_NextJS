@@ -31,6 +31,7 @@ class Dropdown extends React.Component {
 							cities: [
 								'BANGALORE',
 								'GULBARGA',
+								'HONNAVAR',
 								'DAKSHINA KARNATAKA',
 								'MYSORE',
 								'HASSAN',
@@ -76,6 +77,7 @@ class Dropdown extends React.Component {
 								'ERNAKULAM',
 								'KASARGOD',
 								'THRISSUR',
+								'CALICUT',
 								'KOTHAMANGALAM',
 								'KANNUR',
 								'COCHIN',
@@ -91,6 +93,7 @@ class Dropdown extends React.Component {
 								'NAGPUR',
 								'KOLHAPUR',
 								'MUMBAI',
+								'THANE',
 								'DEOPUR',
 								'PUNE',
 								'AMRAVATI',

@@ -88,7 +88,9 @@ import Dabolim from '../components/cities/Dabolim'
 import Cochin from '../components/cities/Cochin'
 import Agra from '../components/cities/Agra'
 import Ujjain from '../components/cities/Ujjain'
-
+import Thane from '../components/cities/Thane'
+import Calicut from '../components/cities/Calicut'
+import Honnavar from './cities/Honnavar'
 const App = () => {
 	const [selectedCity, setSelectedCity] = useState(null)
 
@@ -112,6 +114,9 @@ const App = () => {
 	}
 	if (selectedCity === 'GULBARGA') {
 		dealersCity = <Gulbarga />
+	}
+	if (selectedCity === 'HONNAVAR') {
+		dealersCity = <Honnavar />
 	}
 	if (selectedCity === 'HASSAN') {
 		dealersCity = <Hassan />
@@ -156,6 +161,9 @@ const App = () => {
 	if (selectedCity === 'ERNAKULAM') {
 		dealersCity = <Ernakulam />
 	}
+	if (selectedCity === 'CALICUT') {
+		dealersCity = <Calicut />
+	}
 	if (selectedCity === 'KASARGOD') {
 		dealersCity = <Kasaragod />
 	}
@@ -181,6 +189,9 @@ const App = () => {
 	}
 	if (selectedCity === 'MUMBAI') {
 		dealersCity = <Mumbai />
+	}
+	if(selectedCity === "THANE"){
+		dealersCity = <Thane/>
 	}
 	if (selectedCity === 'DEOPUR') {
 		dealersCity = <Deopur />
