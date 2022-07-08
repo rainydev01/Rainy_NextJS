@@ -91,6 +91,7 @@ import Ujjain from '../components/cities/Ujjain'
 import Thane from '../components/cities/Thane'
 import Calicut from '../components/cities/Calicut'
 import Honnavar from './cities/Honnavar'
+import Jamshedpur from './cities/Jamshedpur'
 const App = () => {
 	const [selectedCity, setSelectedCity] = useState(null)
 
@@ -325,6 +326,9 @@ const App = () => {
 	}
 	if (selectedCity === 'UJJAIN') {
 		dealersCity = <Ujjain></Ujjain>
+	}
+	if (selectedCity === 'JAMSHEDPUR') {
+		dealersCity = <Jamshedpur />
 	}
 
 	return (

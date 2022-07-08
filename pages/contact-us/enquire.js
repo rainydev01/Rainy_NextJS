@@ -113,13 +113,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										<p className='contacttxt'>
 											Farmland Rainwater Harvesting Systems
 											<br></br>
-											No. 269/1, Hadihalli Village, Kasaba Hobli,
+											No. 269/1, Hadihalli Village, Amble Hobli,
 											<br></br>
-											Malalur Gram Panchayat,
+											Malalur Gram Panchayat,Malalur Post,
 											<br></br>
-											Chikmagalur Taluk and District
+											Chikmagalur Taluk and District - 577133
 											<br></br>
-											Karnataka – 577133
+											Karnataka state,India.
 										</p>
 
 										<h6 className='contacth'>

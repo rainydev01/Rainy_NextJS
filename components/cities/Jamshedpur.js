@@ -7,13 +7,13 @@ const city = () => {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12 dlrsadrs">
-							<h4>Nasik</h4>
+							<h4>JAMSHEDPUR</h4>
 							<div className="col-md-6">
 								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>Udaynagar</h2>
-									<h2>ECO AQUA ENGINEERING SYSTEMS PVT LTD </h2>
+									<h2 style={{ color: '#0479bf' }}>JAMSHEDPUR</h2>
+									<h2>LIV HOME</h2>
 									<h2>
-										Contact Person:-
+										Contact Person:-  
 										<span
 											style={{
 												fontWeight: '500',
@@ -22,12 +22,14 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											N/A
+											Jargees Siddique/Sayeed
 										</span>
 									</h2>
 									<p>
-										Gaikwads 10, Udaynagar Gangapur Road,<br />
-										Nasik-422013<br />
+                                    104, Traingular Mall, Road No-01,<br />
+                                    Old Purulia road<br />
+                                    Mango, Jamshedpur-831012
+                                    Jharkhand.
 									</p>
 									<h2>
 										Mob:-
@@ -39,7 +41,7 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											9372270099, 9423174120
+											 6299498320 , 9939728885
 										</span>
 									</h2>
 									<h2>
@@ -52,17 +54,11 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											N/A <br />
+											info@livhome.co.in<br />
 										</span>
 									</h2>
-								</div>
-							</div>
-							<div className="col-md-6">
-								<div className="alladrs">
-									<h2 style={{ color: '#0479bf' }}>MIDC Ambad</h2>
-									<h2>SATWIK INTERNATIONAL</h2>
 									<h2>
-										Contact Person:-
+										Web :-
 										<span
 											style={{
 												fontWeight: '500',
@@ -71,45 +67,13 @@ const city = () => {
 												letterSpacing: '1px'
 											}}
 										>
-											Sunjjoy Tarrte
-										</span>
-									</h2>
-									<p>
-									G-37, MIDC Ambad,<br />
-										Nasik-422010,<br />
-										Maharastra
-									</p>
-									<h2>
-										Mob:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											9763710375,7387454543
-										</span>
-									</h2>
-									<h2>
-										Email:-
-										<span
-											style={{
-												fontWeight: '500',
-												fontSize: '14px',
-												fontFamily: 'sans-serif',
-												letterSpacing: '1px'
-											}}
-										>
-											Sunjjoy.tarrte@gmail.com <br />
+											www.livhome.co.in<br />
 										</span>
 									</h2>
 								</div>
 							</div>
 						</div>
 					</div>
-					
 					<br />
 				</div>
 			</div>
@@ -118,3 +82,5 @@ const city = () => {
 };
 
 export default city;
+
+

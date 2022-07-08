@@ -111,6 +111,10 @@ class Dropdown extends React.Component {
 							cities: ['MANIPUR'],
 						},
 						{
+							name: 'JHARKHAND',
+							cities: ['JAMSHEDPUR'],
+						},
+						{
 							name: 'ORISSA',
 							cities: [
 								'KORAPUT',
