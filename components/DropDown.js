@@ -111,10 +111,6 @@ class Dropdown extends React.Component {
 							cities: ['MANIPUR'],
 						},
 						{
-							name: 'JHARKHAND',
-							cities: ['JAMSHEDPUR'],
-						},
-						{
 							name: 'ORISSA',
 							cities: [
 								'KORAPUT',
@@ -158,7 +154,7 @@ class Dropdown extends React.Component {
 						},
 						{
 							name: 'JHARKAND',
-							cities: ['RANCHI'],
+							cities: ['RANCHI','JAMSHEDPUR'],
 						},
 						{
 							name: 'HIMACHAL PRADESH',
