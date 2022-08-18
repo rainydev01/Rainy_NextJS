@@ -31,7 +31,7 @@ export default function Home() {
 					}}
 				/>
 
-				<title>Rainy - RWH Systems</title>
+				<title>Rainy - Rainwater harvesting system in India | Consultants | Company | Services</title>
 				<link
 					rel='apple-touch-icon'
 					sizes='180x180'
