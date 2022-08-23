@@ -22,7 +22,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Our Journey</title>
+				<title>Rainyfilters - Rain water harvesting filter for home and commercial Buildings</title>
 				<link
 					rel='apple-touch-icon'
 					sizes='180x180'
