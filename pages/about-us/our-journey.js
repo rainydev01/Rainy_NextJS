@@ -22,7 +22,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainyfilters - Rain water harvesting filter for home and commercial Buildings</title>
+				<title>Rainyfilters - Rain water harvesting filter for home and commercial Buildings in India</title>
 				<link
 					rel='apple-touch-icon'
 					sizes='180x180'
