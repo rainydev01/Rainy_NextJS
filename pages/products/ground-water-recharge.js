@@ -23,7 +23,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Groundwater Recharge</title>
+				<title>Artificial recharge of groundwater | groundwater recharge system | Rainyfilters</title>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
@@ -34,6 +34,7 @@ export default function Home() {
 					rel='stylesheet'
 					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
+				<meta name="description" content="Looking for an artificial groundwater recharge system? Rainyfilters is one of the best rain water harvesting companies in India. We offer a wide range of products and services to help you recharge your groundwater levels. Contact us today for a free consultation."/>		
 				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' />
 				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js' />
 				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' />
