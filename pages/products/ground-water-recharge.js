@@ -23,7 +23,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Artificial recharge of groundwater | groundwater recharge system | Rainyfilters</title>
+				<title>Artificial recharge of groundwater | groundwater recharge system - Rainyfilters</title>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
