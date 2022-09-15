@@ -71,7 +71,7 @@ const Footer = () => {
 									</a>{' '}
 									<a target='_blank' href='mailto: farmland_rhs@yahoo.co.in'>
 										{' '}
-										info@rainfilters.com
+										info@rainyfilters.com
 									</a>
 								</p>
 							</div>
