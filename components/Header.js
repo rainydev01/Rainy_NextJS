@@ -58,6 +58,12 @@ const Header = () => {
 										>
 											Social Awareness
 										</a>
+										<a
+											href='/about-us/blog'
+											className='dropdown-item'
+										>
+											Blog
+										</a>
 									</div>
 								</li>
 								<li>

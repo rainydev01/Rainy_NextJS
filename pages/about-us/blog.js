@@ -1,11 +1,44 @@
-import {Fragment} from 'react'
+import {Fragment, useState} from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-import ContactForm from '../../components/ContactForm'
+import Slider1 from '../../components/SliderNews1'
+import Slider2 from '../../components/SliderNews2'
+import Slider3 from '../../components/SliderNews3'
+// import ImageSlider from "../../components/ImageSlider";
+import ImageSlider1 from '../../components/ImageSliderMulti'
+
+import ImageSliderArticles from '../../components/ImageSliderForArticles'
 
 export default function Home() {
+	const [currentArticle, setCurrentArticle] = useState(1)
+
+	const changeToArticle1 = () => {
+		setCurrentArticle(1)
+	}
+
+	const changeToArticle2 = () => {
+		setCurrentArticle(2)
+	}
+	const changeToArticle3 = () => {
+		setCurrentArticle(3)
+	}
+
+	let newsArticle = <Slider1 article2={changeToArticle2} />
+
+	if (currentArticle === 1) {
+		newsArticle = <Slider1 article2={changeToArticle2} />
+	}
+	if (currentArticle === 2) {
+		newsArticle = (
+			<Slider2 article1={changeToArticle1} article3={changeToArticle3} />
+		)
+	}
+	if (currentArticle === 3) {
+		newsArticle = <Slider3 article2={changeToArticle2} />
+	}
+
 	return (
 		<Fragment>
 			<Head>
@@ -24,7 +57,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Enquire </title>
+				<title>Rainy - Media</title>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
@@ -55,7 +88,6 @@ export default function Home() {
 						},
 					}}
 				/>
-
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
@@ -81,78 +113,31 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 			</Head>
 			<main>
 				<div className='App'>
+					{/*<h1> Media</h1>*/}
 					<Header />
-					<div className='container-fluid banner enternal'>
-						<div className='hero-image gtintchbnnrtxt'>
-							<img src='../../static/images/get-in-touch/Banner.png' />
-							<div className='hero-text inthemedia contactg'>
-								<h1>GET IN TOUCH</h1>
+
+					<div className='container-fluid banner enternal'>``
+						<div className='hero-image enthroimg'>
+							<img src='../../static/images/media/mediaBanner.jpg' />
+							<div className='hero-text inthemedia'>
+								<h1 style={{textAlign: 'center'}}>IN THE MEDIA</h1>
 							</div>
 						</div>
 					</div>
-
-					<div className='container-fluid gtintchmain'>
-						<div className='container'>
-							<div className='row gtintchrw'>
-								<div className='col-md-5'>
-									<div className='gtintchlft'>
-										<h6 className='contacth'>
-											<img src='../../static/images/get-in-touch/ic-contact-map-pin@2x.png' />
-											Address
-										</h6>
-										<p className='contacttxt'>
-											<h6 className='contacth'>Marketing office</h6>
-											Farmland Rainwater Harvesting Systems
-											<br></br> No 648, Ground Floor,
-											<br></br> 11th cross, 7th Block, Jaya Nagar,<br></br>
-											Bengaluru, Karnataka - 560070.
-										</p>
-
-										<h6 className='contacth'>Head Office</h6>
-
-										<p className='contacttxt'>
-											Farmland Rainwater Harvesting Systems
-											<br></br>
-											No. 269/1, Hadihalli Village, Amble Hobli,
-											<br></br>
-											Malalur Gram Panchayat,Malalur Post,
-											<br></br>
-											Chikmagalur Taluk and District - 577133
-											<br></br>
-											Karnataka state,India.
-										</p>
-
-										<h6 className='contacth'>
-											<img src='../../static/images/get-in-touch/ic-contact-phone@2x.png' />
-											Contact
-										</h6>
-
-										<p className='contacttxt'>WhatsApp - 7338033790</p>
-										<p className='contacttxt'>Contact No.- 7338033790</p>
-										<p className='contacttxt'>Contact No.- 08026766252</p>
-
-										<h6 className='contacth'>
-											<img src='../../static/images/get-in-touch/ic-contact-mail@2x.png' />
-											Email Id
-										</h6>
-										<p className='contacttxt'>info@rainfilters.com</p>
-									</div>
-								</div>
-								<ContactForm></ContactForm>
-							</div>
-						</div>
-
-						<div className='contmap'>
-							<iframe
-								src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124399.56415846804!2d77.60377981261607!3d13.00466928906842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159c95555555%3A0xb1a7c2eb52dc3653!2sRainy!5e0!3m2!1sen!2sin!4v1595857457046!5m2!1sen!2sin'
-								width='100%'
-								height='350'
-								frameBorder='0'
-								style={{border: '0'}}
-							/>
+					<div className='container' />
+					<div className='container'>
+						<div className='groundwater_bg team blue_underline'>
+							<h2 className='team-heading media-hdng blue_underline'>
+								MEDIA COVERAGE & ARTICLES
+							</h2>
 						</div>
 					</div>
+					{/* {newsArticle} */}
 
+					<ImageSliderArticles></ImageSliderArticles>
+
+					{/* <ImageSlider /> */}
+					<ImageSlider1></ImageSlider1>
 					<Footer />
 				</div>
 			</main>
