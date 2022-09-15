@@ -23,7 +23,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Systems and Solution</title>
+				<title>Rain water Harvesting solutions and dedicated services provider | Rainyfilters</title>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
@@ -34,6 +34,7 @@ export default function Home() {
 					rel='stylesheet'
 					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 				/>
+				<meta name="description" content="Are you looking for a rain water harvesting service provider? Look no further than Rainyfilters! We offer a wide range of rainwater harvesting solutions and dedicated services to our clients. Contact us today to learn more about our services!"/>		
 				<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' />
 				<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js' />
 				<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' />
