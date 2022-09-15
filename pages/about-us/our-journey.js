@@ -22,7 +22,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Our Journey</title>
+				<title>Rainyfilters - Rain water harvesting filter for home and commercial Buildings in India</title>
 				<link
 					rel='apple-touch-icon'
 					sizes='180x180'
@@ -44,7 +44,8 @@ export default function Home() {
 				<link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
 				<meta name='msapplication-TileColor' content='#2b5797' />
 				<meta name='theme-color' content='#ffffff' />
-				<link
+				<meta name="description" content="Rainyfilters is the leading rain water harvesting filter for home and commercial buildings in India. We have a wide range of rain water harvesting system products that are designed to meet the needs of our customers. Our products are easy to install and maintain, and are available at a competitive price."/>
+					<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'

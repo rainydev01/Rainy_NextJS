@@ -31,7 +31,7 @@ export default function Home() {
 					}}
 				/>
 
-				<title>Rainy - RWH Systems</title>
+				<title>Rainyfilters - Rainwater harvesting system in India | Company | Consultants | Services</title>
 				<link
 					rel='apple-touch-icon'
 					sizes='180x180'
@@ -53,6 +53,7 @@ export default function Home() {
 				<link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
 				<meta name='msapplication-TileColor' content='#2b5797' />
 				<meta name='theme-color' content='#ffffff' />
+				<meta name="description" content="Are you looking for a rain water harvesting system in India? We are a rainwater harvesting company that provides rain water harvesting consultants and services. We can help you install a rainwater harvesting system in your home or business. Contact us today for a free consultation." />	
 				<link
 					rel='stylesheet'
 					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'

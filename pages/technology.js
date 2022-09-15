@@ -24,13 +24,14 @@ export default function Home() {
 					}}
 				/>
 
-				<title>Rainy - Technology</title>
+				<title>Rain water harvesting techniques in India | V-Wire Technology and Design | Rainyfilters</title>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
 					crossOrigin='anonymous'
 				/>
+					<meta name="description" content="India is a land of rain and floods. And yet, every year we face water shortages. The need of the hour is to adopt rain water harvesting techniques to save and store water. V-Wire Technology and Design has come up with an innovative solution – the Rainyfilters."/>	
 				<link
 					href='https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Open+Sans&family=Raleway&display=swap'
 					rel='stylesheet'
