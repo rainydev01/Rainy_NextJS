@@ -135,7 +135,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 											<img src='../../static/images/get-in-touch/ic-contact-mail@2x.png' />
 											Email Id
 										</h6>
-										<p className='contacttxt'>info@rainfilters.com</p>
+										<p className='contacttxt'>info@rainyfilters.com</p>
 									</div>
 								</div>
 								<ContactForm></ContactForm>
