@@ -1216,7 +1216,7 @@ const ImageSliderMulti = () => {
 						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
-									<img src="../static/images/media/articles/Benefits_of_Rainwater_Harvesting.jpg" />
+									<img src="../static/images/media/articles/Benefits-of-rainwater-harvesting.jpg" />
 								</div>
 								<div className="mdiacont">
 									<div className="grndtext">
