@@ -1225,7 +1225,7 @@ const ImageSliderMulti = () => {
 												href="https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
 												target="_blank"
 											>
-												Zero water discharge factory
+												The Benefits of Rain Water Harvesting: Why You Should Start Collecting Rain Water
 												<br />
 											</a>
 										</h3>
@@ -1238,9 +1238,7 @@ const ImageSliderMulti = () => {
 												letterSpacing: "0.5px",
 											}}
 										>
-											Custom RWH solution installed at SKF Factory in Haridwar,
-											300KL of water collected and stored in a reservoir every
-											monsoon
+											Rainwater harvesting is the process that collecting and storing rainwater for reuse. It is a sustainable way to use water, as it reduces the demand for municipal water supplies, and it can also help to reduce flooding.
 										</p>
 										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
