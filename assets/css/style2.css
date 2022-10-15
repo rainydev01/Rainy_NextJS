@@ -852,18 +852,20 @@ h2.whtdowdo:after {
 
 .sec-brdr {
     border: 2px solid #4eb5e9;
-    padding: 0px 5px;
+    padding: 4px 5px;
     height: 500px;
     max-width: 100%;
+    border-radius: 5px;
 }
 
 .mdiaimg {
-    margin-top: -25px;
+    /* margin-top: -25px; */
 }
 
 .mdiaimg img {
     width: 335px;
     max-width: 100%;
+    border-radius: 5px;
 }
 
 .mdiacont {

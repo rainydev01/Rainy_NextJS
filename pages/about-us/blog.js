@@ -57,7 +57,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Media</title>
+				<title>Rainy - Blog</title>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
@@ -120,7 +120,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className='hero-image enthroimg'>
 							<img src='../../static/images/media/mediaBanner.jpg' />
 							<div className='hero-text inthemedia'>
-								<h1 style={{textAlign: 'center'}}>IN THE MEDIA</h1>
+								<h1 style={{textAlign: 'center'}}>BLOG</h1>
 							</div>
 						</div>
 					</div>
@@ -128,7 +128,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					<div className='container'>
 						<div className='groundwater_bg team blue_underline'>
 							<h2 className='team-heading media-hdng blue_underline'>
-								MEDIA COVERAGE & ARTICLES
+								THE BLOG
 							</h2>
 						</div>
 					</div>
@@ -137,7 +137,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					<ImageSliderArticles></ImageSliderArticles>
 
 					{/* <ImageSlider /> */}
-					<ImageSlider1></ImageSlider1>
+					{/* <ImageSlider1></ImageSlider1> */}
 					<Footer />
 				</div>
 			</main>
