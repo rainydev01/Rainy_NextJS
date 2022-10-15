@@ -1213,19 +1213,19 @@ const ImageSliderMulti = () => {
 							</div>
 						</div>
 
-						{/* <div className="col-md-4">
+						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
-									<img src="../static/images/media/articles/Zero_water.jpg" />
+									<img src="../static/images/media/articles/Benefits-of-rainwater-harvesting.jpg" />
 								</div>
 								<div className="mdiacont">
 									<div className="grndtext">
 										<h3>
 											<a
-												href="https://www.skf.com/in/organisation/about-skf-india/skf-india-blogs/zero-water-discharge-factory#cid-522244"
+												href="https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
 												target="_blank"
 											>
-												Zero water discharge factory
+												The Benefits of Rain Water Harvesting: Why You Should Start Collecting Rain Water
 												<br />
 											</a>
 										</h3>
@@ -1238,15 +1238,13 @@ const ImageSliderMulti = () => {
 												letterSpacing: "0.5px",
 											}}
 										>
-											Custom RWH solution installed at SKF Factory in Haridwar,
-											300KL of water collected and stored in a reservoir every
-											monsoon
+											Rainwater harvesting is the process that collecting and storing rainwater for reuse. It is a sustainable way to use water, as it reduces the demand for municipal water supplies, and it can also help to reduce flooding.
 										</p>
 										<div className="col-md-12 mdiasocial">
 											<div className="col-md-6 mediasocial">
 												<FacebookShareButton
 													url={
-														"https://www.skf.com/in/organisation/about-skf-india/skf-india-blogs/zero-water-discharge-factory#cid-522244"
+														"https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
 													}
 												>
 													<i className="fa fa-facebook" aria-hidden="true" />
@@ -1254,7 +1252,7 @@ const ImageSliderMulti = () => {
 
 												<TwitterShareButton
 													url={
-														"https://www.skf.com/in/organisation/about-skf-india/skf-india-blogs/zero-water-discharge-factory#cid-522244"
+														"https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
 													}
 												>
 													<i className="fa fa-twitter" aria-hidden="true" />
@@ -1262,7 +1260,7 @@ const ImageSliderMulti = () => {
 
 												<WhatsappShareButton
 													url={
-														"https://www.skf.com/in/organisation/about-skf-india/skf-india-blogs/zero-water-discharge-factory#cid-522244"
+														"https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
 													}
 												>
 													<i className="fa fa-whatsapp" aria-hidden="true" />
@@ -1271,7 +1269,7 @@ const ImageSliderMulti = () => {
 											<div className="col-md-6 mediabtn">
 												<button>
 													<a
-														href="https://www.skf.com/in/organisation/about-skf-india/skf-india-blogs/zero-water-discharge-factory#cid-522244"
+														href="https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
 														target="_blank"
 													>
 														Read more
@@ -1284,7 +1282,7 @@ const ImageSliderMulti = () => {
 									</div>
 								</div>
 							</div>
-						</div> */}
+						</div> 
 					</div>
 				</div>
 			</Carousel>
