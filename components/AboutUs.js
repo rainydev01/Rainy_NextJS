@@ -14,7 +14,7 @@ const AboutUs = () => {
 			>
 				<div className="container" style={{marginBottom: "35px"}}>
 					<div className="abou-home-heading">
-						<h2>ABOUT US</h2>
+						<h2>Rainwater harvesting system in India</h2>
 					</div>
 
 					<div className="about-home">
