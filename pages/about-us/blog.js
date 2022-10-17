@@ -136,7 +136,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<ImageSliderArticles></ImageSliderArticles>
 
-					{/* <ImageSlider /> */}
+					<ImageSlider />
 					{/* <ImageSlider1></ImageSlider1> */}
 					<Footer />
 				</div>
