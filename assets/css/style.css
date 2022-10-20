@@ -356,8 +356,9 @@ img {
         height: 20px;
     }
     .mdiaimg img {
-        width: 372px !important;
-        max-width: 100% !important;
+        width: 100% !important;
+        height: 200px !important;
+        /* max-width: 100% !important; */
     }
     .nextButtons.prebutton {
         margin-left: 0px !important;

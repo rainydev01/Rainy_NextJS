@@ -6,10 +6,10 @@ import Footer from '../../components/Footer'
 import Slider1 from '../../components/SliderNews1'
 import Slider2 from '../../components/SliderNews2'
 import Slider3 from '../../components/SliderNews3'
-// import ImageSlider from "../../components/ImageSlider";
+import ImageSlider from "../../components/ImageSlider";
 import ImageSlider1 from '../../components/ImageSliderMulti'
 
-import ImageSliderArticles from '../../components/ImageSliderForArticles'
+import ImageSliderArticles from '../../components/ImageSliderForBlogs'
 
 export default function Home() {
 	const [currentArticle, setCurrentArticle] = useState(1)
@@ -116,7 +116,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					{/*<h1> Media</h1>*/}
 					<Header />
 
-					<div className='container-fluid banner enternal'>``
+					<div className='container-fluid banner enternal'>
 						<div className='hero-image enthroimg'>
 							<img src='../../static/images/media/mediaBanner.jpg' />
 							<div className='hero-text inthemedia'>
@@ -128,7 +128,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					<div className='container'>
 						<div className='groundwater_bg team blue_underline'>
 							<h2 className='team-heading media-hdng blue_underline'>
-								THE BLOG
+								THE BLOGS
 							</h2>
 						</div>
 					</div>
@@ -136,8 +136,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<ImageSliderArticles></ImageSliderArticles>
 
-					<ImageSlider />
-					{/* <ImageSlider1></ImageSlider1> */}
+				
 					<Footer />
 				</div>
 			</main>

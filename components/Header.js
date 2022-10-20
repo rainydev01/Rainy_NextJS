@@ -67,6 +67,11 @@ const Header = () => {
 									</div>
 								</li>
 								<li>
+									<a href='/'>
+										<a>Join Us</a>
+									</a>
+								</li>
+								<li>
 									<a href='/technology'>Technology</a>
 								</li>
 								<li>
