@@ -94,7 +94,7 @@ const ImageSliderMulti = () => {
 														href='http://www.skoch.in/295/farmland-rainwater-harvesting-systems.html'
 														target='_blank'
 													>
-														Read more
+														Apply Now
 													</a>
 													{'  '}
 													<i class='fa fa-angle-right' aria-hidden='true' />
@@ -167,10 +167,10 @@ const ImageSliderMulti = () => {
 														href="https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
 														target="_blank"
 													>
-														Read more
+														Apply Now
 													</a>
 													{"  "}
-													<i class="fa fa-angle-right" aria-hidden="true" />
+													<i className="fa fa-angle-right" aria-hidden="true" />
 												</button>
 											</div>
 										</div>

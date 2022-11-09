@@ -5,7 +5,7 @@ function SampleNextArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className="slick-arrow-right-awards onlyteamr"
+			className="slick-arrow-right-career onlyteamr"
 			style={{...style, display: "block"}}
 			onClick={onClick}
 		>
@@ -18,7 +18,7 @@ function SamplePrevArrow(props) {
 	const {className, style, onClick} = props;
 	return (
 		<div
-			className="slick-arrow-left-awards onlyteaml"
+			className="slick-arrow-left-career onlyteaml"
 			style={{...style, display: "block"}}
 			onClick={onClick}
 		>
@@ -30,7 +30,7 @@ function SamplePrevArrow(props) {
 export default class CustomArrows extends Component {
 	render() {
 		const settings = {
-			dots: true,
+			dots: false,
 			infinite: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,
@@ -40,7 +40,7 @@ export default class CustomArrows extends Component {
 		return (
 			<Fragment>
 				
-				<div style={{marginTop:"8%"}}>
+				<div>
 					<Slider {...settings}>
 						<div className="container-fluid award-image">
 							<div className="container awrdimgsec text-center">

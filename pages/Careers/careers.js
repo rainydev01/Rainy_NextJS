@@ -1,44 +1,15 @@
-import {Fragment, useState} from 'react'
+import {Fragment} from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-import Slider1 from '../../components/SliderNews1'
-import Slider2 from '../../components/SliderNews2'
-import Slider3 from '../../components/SliderNews3'
-import ImageSlider from "../../components/ImageSlider";
-import ImageSlider1 from '../../components/ImageSliderMulti'
+// import ImageSliderTeam from "../../components/ImageSliderTeam";
+import ImageSliderCareers from '../Careers/imageSliderCareers'
+import ImageSliderArticles from '../../components/ImageSliderForCareers'
+import OpenPostionsSlider from './openPositions'
 
-import ImageSliderArticles from '../../components/ImageSliderForBlogs'
-
+import WorkCulture from '../Careers/workCulture'
 export default function Home() {
-	const [currentArticle, setCurrentArticle] = useState(1)
-
-	const changeToArticle1 = () => {
-		setCurrentArticle(1)
-	}
-
-	const changeToArticle2 = () => {
-		setCurrentArticle(2)
-	}
-	const changeToArticle3 = () => {
-		setCurrentArticle(3)
-	}
-
-	let newsArticle = <Slider1 article2={changeToArticle2} />
-
-	if (currentArticle === 1) {
-		newsArticle = <Slider1 article2={changeToArticle2} />
-	}
-	if (currentArticle === 2) {
-		newsArticle = (
-			<Slider2 article1={changeToArticle1} article3={changeToArticle3} />
-		)
-	}
-	if (currentArticle === 3) {
-		newsArticle = <Slider3 article2={changeToArticle2} />
-	}
-
 	return (
 		<Fragment>
 			<Head>
@@ -57,7 +28,8 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Blog</title>
+
+				<title>Rainy - Careers</title>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
@@ -113,35 +85,47 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 			</Head>
 			<main>
 				<div className='App'>
-					{/*<h1> Media</h1>*/}
 					<Header />
 
 					<div className='container-fluid banner enternal'>
 						<div className='hero-image enthroimg'>
-							<img src='../../static/images/media/mediaBanner.jpg' />
-							<div className='hero-text inthemedia'>
-								<h1 style={{textAlign: 'center'}}>BLOG</h1>
+							<img src='../../static/images/ourTeam/Addicts-26717.jpg' />
+							<div className='hero-text entteamtxt'>
+								<h1>CAREERS AT RAINY</h1>
 							</div>
 						</div>
 					</div>
-					<div className='container' />
-					<div className='container'>
-						<div className='groundwater_bg team blue_underline'>
-							<h2 className='team-heading media-hdng blue_underline'>
-								THE BLOGS
+
+					<div className='container-fluid groundwater_bg team'>
+						<div className='container'>
+							<h2 className='team-heading'>
+							
 							</h2>
+							<p className='team-para'>
+							Our company is involved in providing end-to-end rainwater harvesting solutions
+							since 2002. We are involved in manufacture and supply of RainyFL- range of rooftop
+							rainwater harvesting filters and we undertake groundwater recharging projects pan
+							India through our unique 'V'-Wire injection well technology. We have a network of
+							130 dealers across India and we export our filters to 14 countries globally.
+							We build scientifically engineered systems of Rainwater Harvesting, which enables
+							customers with economical, high quality and easy to maintain products. Our
+							research facility is equipped with Hydraulic Testing Lab dedicated to developing
+							innovative rainwater harvesting solutions.
+							</p>
 						</div>
 					</div>
-					{/* {newsArticle} */}
 
-					<ImageSliderArticles></ImageSliderArticles>
+					<ImageSliderCareers></ImageSliderCareers>
+					<WorkCulture></WorkCulture>
 
-				
+					<div className='container-fluid groundwater_bg team' style={{}}>
+						<div className='container'>
+							<OpenPostionsSlider></OpenPostionsSlider>
+						</div>
+					</div>
 					<Footer />
 				</div>
 			</main>
-
-			<footer />
 		</Fragment>
 	)
 }

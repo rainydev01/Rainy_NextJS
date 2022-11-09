@@ -96,7 +96,7 @@ h2.team-heading {
 
 p.team-para {
     text-align: center;
-    padding: 0px 0px 45px 130px;
+    padding: 0px 0px 45px 0px;
     color: #4c3f43;
     font-size: 16px;
 }
@@ -1186,6 +1186,9 @@ h2.clientsHome:after {
     .slick-arrow-right-awards {
         margin-top: -16% !important;
     }
+    .slick-arrow-right-career {
+        margin-top: -34.4% !important;
+    }
 }
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
@@ -1200,6 +1203,16 @@ h2.clientsHome:after {
         width: 15%;
         margin-top: -10% !important;
     }
+    .slick-arrow-left-career {
+        width: 0%;
+        float: left;
+        margin-top: -150%;
+        margin-left: 2px;
+    }
+    .slick-arrow-right-career {
+        float: right;
+        margin-top: -44% !important;
+    }
     .variableMargin {
         margin-top: 65vh;
     }
@@ -1212,13 +1225,18 @@ h2.clientsHome:after {
         margin-top: 86%;
         margin-left: 2px;
     }
+    .slick-arrow-left-career {
+        float: left;
+        margin-top: 27.4%;
+        margin-left: 2px;
+    }
     .variableMargin {
         margin-top: 65vh;
     }
 }
 
 @media only screen and (max-width: 414px) and (min-width: 375px) {
-    .slick-arrow-right-awards {
+    .slick-arrow-right-career {
         float: right;
         width: 15%;
         margin-top: -7% !important;

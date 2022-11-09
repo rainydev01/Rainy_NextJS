@@ -29,6 +29,14 @@ tr {
     cursor: pointer;
 }
 
+.slick-arrow-right-career {
+    cursor: pointer;
+}
+
+.slick-arrow-left-career {
+    cursor: pointer;
+}
+
 .row {
     margin-right: 0px !important;
     /*margin-left: 0px !important;*/
@@ -37,6 +45,11 @@ tr {
 .slick-arrow-right-awards {
     margin-top: -18% !important;
 }
+
+.slick-arrow-right-career {
+    margin-top: -14% !important;
+}
+
 
 .nextButtons.prebutton {
     margin-left: 30px !important;
@@ -100,6 +113,43 @@ tr {
     float: right;
     margin-top: -100px;
 }
+/* 
+career slides */
+
+.slick-arrow-left-career {
+    width: 0%;
+    float: left;
+    margin-top: 8%;
+    margin-left: 35px;
+}
+
+.slick-arrow-right-career i {
+    color: #fff;
+    background: #077ec2;
+    padding: 12px 15px;
+    border-radius: 100%;
+}
+
+.slick-arrow-right-career {
+    float: right;
+    width: 5%;
+    margin-top: -20%;
+}
+
+.slick-arrow-left-career i {
+    background: #047bc0;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 100%;
+}
+
+.slick-list .slick-track img {
+    text-align: center !important;
+    max-width: 230px;
+    margin: auto;
+}
+
+
 
 button {
     outline: none !important;
@@ -376,6 +426,17 @@ img {
         margin-top: 83%;
         margin-left: 2px;
     }
+    .slick-arrow-right-career {
+        float: right;
+        width: 8%;
+        margin-top: -7% !important;
+    }
+    .slick-arrow-left-career {
+        width: 0%;
+        float: left;
+        margin-top: 83%;
+        margin-left: 2px;
+    }
     button#rnrdmr {
         border: 1px solid#fff532;
         background: #fff532;
@@ -602,7 +663,7 @@ img {
         font-size: 22px !important;
     }
     p.team-para {
-        padding: 0px 0px 45px 0px !important;
+        padding: 0px 0px 0px 0px !important;
     }
     .techbnnrtxt {
         top: 17% !important;
@@ -717,6 +778,9 @@ img {
         width: 37% !important;
     }
     .slick-arrow-right-awards {
+        margin-top: -30%;
+    }
+    .slick-arrow-right-career {
         margin-top: -30%;
     }
     .nextButtons.prebutton {
@@ -1091,6 +1155,17 @@ p {
         margin-top: 24%;
     }
     .slick-arrow-right-awards {
+        float: right;
+        width: 8%;
+        margin-top: -36% !important;
+    }
+    .slick-arrow-left-career {
+        margin-top: 16%;
+    }
+    .slick-arrow-left-career.onlymedial {
+        margin-top: 24%;
+    }
+    .slick-arrow-right-career{
         float: right;
         width: 8%;
         margin-top: -36% !important;
