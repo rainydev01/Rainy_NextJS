@@ -85,9 +85,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className='container-fluid banner enternal'>
 						<div className='hero-image enthroimg'>
-							<img src='../../static/images/media/mediaBanner.jpg' />
+						<img src='../../static/images/media/bgforblogs.jpg' style={{height:"500px"}} />
 							<div className='hero-text inthemedia'>
-								<h1 style={{textAlign: 'center'}}></h1>
+								<h1 style={{textAlign: 'center'}}>Benefits Of Rain Water Harvesting</h1>
 							</div>
 						</div>
 					</div>
@@ -104,6 +104,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 							<p>
                             Rainwater harvesting is the process that collects and stores rainwater for reuse. It is a sustainable way to use water, as it reduces the demand for municipal water supplies, and it can also help to reduce flooding. Rainwater harvesting is a water conservation technique that can be used to save water and reduce dependency on groundwater resources. This technique can be used in both rural and urban areas.
 							</p>	
+							<div className='blogImg hero-image enthroimg' >
+                                        <img src='../../../static/images/blogs/benefitsOfWaterHarvesting2.jpg' style={{margin:"40px",width:"80%"}}></img>
+                                    </div>
                             <p>
                             Rainwater harvesting can be done on a small scale, such as with a rain barrel, or at a larger scale, such as with a cistern either way, it is a great way to save water and reduce your water bill.
 There are many benefits of rainwater harvesting. It can help reduce flooding, recharge groundwater resources, and even provide an alternative water source during droughts. It is also a sustainable and environmentally friendly way to conserve water.
@@ -123,9 +126,12 @@ Despite these benefits, rainwater harvesting is not widely practiced. This is du
                             Benefits of Rainwater Harvesting
                             </h2>
                             <p>
-                            irstly, Rainwater harvesting is a practice that has been used for centuries to supplement water supplies in times of drought.More recently, rainwater harvesting has been gaining popularity as a way to reduce water bills and combat the effects of climate change. When properly implemented, rainwater harvesting can provide a sustainable source of water for households, businesses, and communities.
+                            Firstly, Rainwater harvesting is a practice that has been used for centuries to supplement water supplies in times of drought.More recently, rainwater harvesting has been gaining popularity as a way to reduce water bills and combat the effects of climate change. When properly implemented, rainwater harvesting can provide a sustainable source of water for households, businesses, and communities.
 If you are considering implementing rainwater harvesting, read on to learn more about the benefits of this practice!
                             </p>
+							<div className='blogImg hero-image enthroimg' >
+                                        <img src='../../../static/images/blogs/Benefits-of-rainwater-harvesting.jpg' style={{margin:"40px", width:"80%"}}></img>
+                                    </div>
                             <p>
                             There are many benefits of rainwater harvesting, It can help in
                             </p>

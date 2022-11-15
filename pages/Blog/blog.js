@@ -127,9 +127,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					<div className='container' />
 					<div className='container'>
 						<div className='groundwater_bg team blue_underline'>
-							<p className='team-heading media-hdng blue_underline' style={{textAlign:'center',font:""}}>
+							<h3 className='team-heading media-hdng blue_underline' style={{textAlign:'center',marginTop:'45px'}}>
 								STORIES , INSIGHTS , and ANNOUNCEMENTS FROM RAINY
-							</p>
+							</h3>
 						</div>
 					</div>
 					{/* {newsArticle} */}

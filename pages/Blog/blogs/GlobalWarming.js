@@ -85,7 +85,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className='container-fluid banner enternal'>
 						<div className='hero-image enthroimg'>
-							<img src='../../static/images/media/mediaBanner.jpg' />
+						<img src='../../static/images/media/bgforblogs.jpg' style={{height:"500px"}} />
 							<div className='hero-text inthemedia'>
 								<h1 style={{textAlign: 'center'}}>Global - GlobalWarming</h1>
 							</div>
@@ -146,6 +146,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 									</p>
 								</ul>
 								</div>	
+								<div className='blogImg hero-image enthroimg' style={{margin:"40px"}}>
+                                        <img src='../../../static/images/blogs/naturalGreenhouseEffect.jpg'></img>
+                                    </div>
 								<div className='content'>
 									<h1>Climate change and water</h1>
 									<ul>
@@ -197,6 +200,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 									</ul>
 								</div>		
+								<div className='blogImg hero-image enthroimg' >
+									<h3>Water cycle</h3>
+                                        <img src='../../../static/images/blogs/globalWarming.jpg' style={{margin:"40px"}}></img>
+                                    </div>
 								<div className='content'>
 									<h1>Water demand</h1>
 									<ul>

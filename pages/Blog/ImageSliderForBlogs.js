@@ -36,7 +36,7 @@ const ImageSliderForBlogs = () => {
 						<div className='col-md-4'>
 							<div className='sec-brdr'>
 								<div className='mdiaimg'>
-									<img src='../static/images/media/articles/Farmland_SKOCH_2018.jpg' />
+									<img src="../static/images/blogs/globalWarming.jpg" />
 								</div>
 								<div className='mdiacont'>
 									<div className='grndtext'>
@@ -108,7 +108,7 @@ const ImageSliderForBlogs = () => {
 						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
-									<img src="../static/images/media/articles/Benefits-of-rainwater-harvesting.jpg" style={{
+									<img src="../static/images/blogs/groundWaterRecharge.jpg" style={{
                                         height:"196px"
                                     }} />
 								</div>
@@ -181,7 +181,7 @@ const ImageSliderForBlogs = () => {
 						<div className="col-md-4">
 							<div className="sec-brdr">
 								<div className="mdiaimg">
-									<img src="../static/images/media/articles/Benefits-of-rainwater-harvesting.jpg" style={{
+									<img src="../../static/images/blogs/Benefits-of-rainwater-harvesting.jpg" style={{
                                         height:"196px"
                                     }} />
 								</div>
@@ -254,7 +254,7 @@ const ImageSliderForBlogs = () => {
 						<div className="col-md-4" style={{marginTop:"30px"}}>
 							<div className="sec-brdr">
 								<div className="mdiaimg">
-									<img src="../static/images/media/articles/Benefits-of-rainwater-harvesting.jpg" style={{
+									<img src="../static/images/blogs/hydrologicalCycleImage.jpg" style={{
                                         height:"196px"
                                     }} />
 								</div>
@@ -262,7 +262,7 @@ const ImageSliderForBlogs = () => {
 									<div className="grndtext">
 										<h3>
 											<a
-												href="./blogs/ImportanceOfHydrologicalCycleOnEarth"
+												href="./blogs/HydrologicalCycle.js"
 												target="_blank"
 											>
 												The importance of hydrological cycle on earth
@@ -309,7 +309,7 @@ const ImageSliderForBlogs = () => {
 											<div className="col-md-6 mediabtn">
 												<button>
 													<a
-														href="./blogs/ImportanceOfHydrologicalCycleOnEarth"
+														href="./blogs/HydrologicalCycle"
 														target="_blank"
 													>
 														Read more

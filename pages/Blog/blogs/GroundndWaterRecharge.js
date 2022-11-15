@@ -85,9 +85,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
 					<div className='container-fluid banner enternal'>
 						<div className='hero-image enthroimg'>
-							<img src='../../static/images/media/mediaBanner.jpg' />
+						<img src='../../static/images/media/bgforblogs.jpg' style={{height:"500px"}} />
 							<div className='hero-text inthemedia'>
-								<h1 style={{textAlign: 'center'}}></h1>
+								<h1 style={{textAlign: 'center'}}>Ground Water Recharge</h1>
 							</div>
 						</div>
 					</div>
@@ -136,6 +136,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                             </li>
                                         </ol>
                                     </p>
+									<div className='blogImg hero-image enthroimg' >
+                                        <img src='../../../static/images/blogs/groundWaterRecharge.jpg' style={{margin:"40px" ,width:"80%"}}></img>
+                                    </div>
                                     <p>
                                     Artificial recharge options such as recharge ponds and injection wells, Recharge ponds allow water to slowly infiltrate through the soil into the aquifer under the ground. Injection wells use artificial pressure that is created from the water column to push the water into the ground.
                                     <ol>
@@ -224,6 +227,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                    Great technology to ensure rapid recharge of ground water and recover the water levels in the Aquifer. 
                                    </p>
 								</div>
+
+								<div className='blogImg hero-image enthroimg' >
+                                        <img src='../../../static/images/blogs/injectionWell.jpg' style={{margin:"40px"}}></img>
+                                    </div>
 								<div className='content'>
 									<ul>
 										<h1>Benefits</h1>
