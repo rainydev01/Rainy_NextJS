@@ -32,7 +32,7 @@ const OpenPostionsSlider = () => {
 			<Carousel responsive={responsive}>
 				<div>
                 <div className="abou-home-heading">
-						<h2>Open Positions</h2>
+						<h1>Open Positions</h1>
 					</div>
 					<div className='container media-main'>
 						<div className='col-md-4'>
@@ -90,7 +90,7 @@ const OpenPostionsSlider = () => {
 												</button>
 											</div>
 										</div> */}
-										<button>
+										<button style={{width:"100%",borderRadius:"5px",paddingBottom:''}}>
 													<a
 														href='https://forms.gle/zccXZERjuPJ8PKYK7'
 														target='_blank'
@@ -139,7 +139,7 @@ const OpenPostionsSlider = () => {
 												sales.<br></br>
 												In office as wells as touring job type
 										</p>
-										<button>
+										<button style={{width:"100%",borderRadius:"5px",paddingBottom:''}}>
 													<a
 														href='https://forms.gle/zccXZERjuPJ8PKYK7'
 														target='_blank'
