@@ -118,7 +118,7 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/ground-water-recharging" target="_blank">
+                      <a href="/about-us/blogs/ground-water-recharge" target="_blank">
                         Groundwater Recharge
                         <br />
                       </a>
@@ -168,7 +168,7 @@ const ImageSliderForBlogs = () => {
                       <div className="col-md-6 mediabtn">
                         <button>
                           <a
-                            href="/about-us/blogs/ground-water-recharging"
+                            href="/about-us/blogs/ground-water-recharge"
                             target="_blank"
                           >
                             Read more
@@ -196,7 +196,7 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/benefits-of-rainwater-harvesting" target="_blank">
+                      <a href="/about-us/blogs/rain-water-harvesting" target="_blank">
                         The Benefits of Rain Water Harvesting
                         <br />
                       </a>
@@ -245,7 +245,7 @@ const ImageSliderForBlogs = () => {
                       <div className="col-md-6 mediabtn">
                         <button>
                           <a
-                            href="/about-us/blogs/benefits-of-rainwater-harvesting"
+                            href="/about-us/blogs/rain-water-harvesting"
                             target="_blank"
                           >
                             Read more

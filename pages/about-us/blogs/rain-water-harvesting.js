@@ -24,7 +24,7 @@ export default function Home() {
         `,
           }}
         />
-        <title>Global - Warming</title>
+        <title>Rain Water Harvesting</title>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
