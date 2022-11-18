@@ -182,7 +182,6 @@ const Footer = () => {
 									textDecoration: 'none',
 									cursor: 'default',
 								}}
-								href='# '
 							>
 								{' '}
 								Copyright 2020{' '}
@@ -754,9 +753,9 @@ const Footer = () => {
 										<p>
 											<strong>GRIEVANCE</strong>
 											Provider of information may raise grievance to the
-											following e-mail ID: Name of Grievance Redressal Officer:
-											Mr/Ms______________ Post/Designation:______________ Email
-											ID:______________ All the grievances and any discrepancies
+											following e-mail ID: Name of Grievance Redressal Officer:<br></br>
+											Mr. Varun Rinaldo Baptist ,Designation:HOD - Digital Marketing, Email
+											ID:varun.baptist@rainyfilters.com.<br></br>  All the grievances and any discrepancies
 											of the provider of information shall be redressed within
 											one month (30 days) from the date of receipt of notice of
 											grievance.
