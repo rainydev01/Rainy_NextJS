@@ -1,6 +1,7 @@
 import Carousel from "react-multi-carousel";
 // import "react-multi-carousel/lib/styles.css";
 import React, { Fragment } from "react";
+import Header from "./Header";
 import Link from "next/link";
 import {
   FacebookShareButton,
@@ -30,6 +31,7 @@ const ImageSliderForBlogs = () => {
   };
   return (
     <Fragment>
+      <Header/>
       <Carousel responsive={responsive}>
         <div>
           <div className="container media-main">
@@ -41,7 +43,7 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/global-warming" target="_blank">
+                      <a href="/about-us/blogs/global-warming" target="_self">
                         How Water Harvesting can reduce Global Warming ?
                         <br />
                       </a>
@@ -91,7 +93,7 @@ const ImageSliderForBlogs = () => {
                         <button>
                           <a
                             href="/about-us/blogs/global-warming"
-                            target="_blank"
+                            target="_self"
                           >
                             Read more
                           </a>
@@ -118,7 +120,7 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/ground-water-recharge" target="_blank">
+                      <a href="/about-us/blogs/ground-water-recharge" target="_self">
                         Groundwater Recharge
                         <br />
                       </a>
@@ -169,7 +171,7 @@ const ImageSliderForBlogs = () => {
                         <button>
                           <a
                             href="/about-us/blogs/ground-water-recharge"
-                            target="_blank"
+                            target="_self"
                           >
                             Read more
                           </a>
@@ -196,7 +198,7 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/rain-water-harvesting" target="_blank">
+                      <a href="/about-us/blogs/rain-water-harvesting" target="_self">
                         The Benefits of Rain Water Harvesting
                         <br />
                       </a>
@@ -246,7 +248,7 @@ const ImageSliderForBlogs = () => {
                         <button>
                           <a
                             href="/about-us/blogs/rain-water-harvesting"
-                            target="_blank"
+                            target="_self"
                           >
                             Read more
                           </a>
@@ -273,7 +275,7 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/hydrological-cycle" target="_blank">
+                      <a href="/about-us/blogs/hydrological-cycle" target="_self">
                         The importance of hydrological cycle on earth
                         <br />
                       </a>
@@ -321,7 +323,7 @@ const ImageSliderForBlogs = () => {
                       </div>
                       <div className="col-md-6 mediabtn">
                         <button>
-                          <a href="/about-us/blogs/hydrological-cycle" target="_blank">
+                          <a href="/about-us/blogs/hydrological-cycle" target="_self">
                             Read more
                           </a>
                           {"  "}

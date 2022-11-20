@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react'
-import Link from 'next/link'
 
 const Header = () => {
 	return (
@@ -10,7 +9,7 @@ const Header = () => {
 					<div className='mobile-bar'>
 						<a href='/'>
 							<img
-								src='../static/images/logo/Logo_Main.png'
+								src='/images/logo/Logo_Main.png'
 								className='moblogo img-fluid'
 							/>
 						</a>
@@ -24,7 +23,7 @@ const Header = () => {
 						<a className='navbar-brand' href='/' style={{padding: '0px'}}>
 							<img
 								className='img-fluid img-short'
-								src='../static/images/logo/Logo_Main.png'
+								src='/images/logo/Logo_Main.png'
 							/>
 						</a>
 						<nav>
@@ -129,7 +128,7 @@ const Header = () => {
 										style={{paddingLeft: '1.5em', cursor: 'pointer'}}
 										data-toggle='modal'
 										data-target='#googleAnalytics'
-										src='../static/images/icons/globe.png'
+										src='/images/logo/globe.png'
 									></img>
 								</li>
 							</ul>
