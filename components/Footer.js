@@ -11,7 +11,7 @@ const Footer = () => {
 					<div className='row'>
 						<div className='col-md-4 '>
 							<div className='footer-one'>
-								<img src='../static/images/logo/Wlogo.png' alt='Footer Logo' />
+								<img src='/images/logo/Wlogo.png' alt='Footer Logo' />
 								<p>
 									Farmland Rainwater Harvesting System
 									<br></br>
