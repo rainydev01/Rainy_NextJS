@@ -280,7 +280,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <h3>Water cycle</h3>
                 <img
                   src="../../../static/images/blogs/globalWarming.jpg"
-                  style={{ margin: "40px" }}
+                  style={{  }}
                 ></img>
               </div>
 
