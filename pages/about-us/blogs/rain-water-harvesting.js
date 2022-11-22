@@ -87,7 +87,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="hero-image enthroimg">
               <img
                 src="../../static/images/blogs/benefitsOfWaterHarvestingBackground.png"
-                style={{ height: "500px" }}
+                style={{ }}
               />
               <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>
