@@ -299,7 +299,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <div className="blogImg hero-image enthroimg">
                 <img
                   src="../../../static/images/blogs/injectionWell.jpg"
-                  style={{ margin: "40px" }}
+                  style={{ }}
                 ></img>
               </div>
               <div className="content">
