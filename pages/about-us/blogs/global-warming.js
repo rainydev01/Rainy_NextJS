@@ -195,7 +195,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
               <div
                 className="blogImg hero-image enthroimg"
-                style={{ margin: "40px" }}
+                style={{ }}
               >
                 <img src="../../../static/images/blogs/naturalGreenhouseEffect.jpg"></img>
               </div>
