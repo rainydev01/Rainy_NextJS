@@ -86,12 +86,12 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
               <img
-                src="../../static/images/media/bgforblogs.jpg"
+                src="../../static/images/blogs/benefitsOfWaterHarvestingBackground.png"
                 style={{ height: "500px" }}
               />
               <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>
-                  Benefits Of Rain Water Harvesting
+                  
                 </h1>
               </div>
             </div>
