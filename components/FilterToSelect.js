@@ -59,15 +59,15 @@ const FilterToSelect = () => {
 
 			setShowButton(true)
 		}
-		if (inputValue > 180 && inputValue <= 225) {
+		if (inputValue > 180 && inputValue <= 250) {
 			setButonValue({
 				name: 'FL-200',
 				url: 'products/rainy-filters',
 			})
-
+//180 to 250
 			setShowButton(true)
 		}
-		if (inputValue > 225 && inputValue <= 350) {
+		if (inputValue > 250 && inputValue <= 350) {
 			setButonValue({
 				name: 'FL-300',
 				url: 'products/rainy-filters',

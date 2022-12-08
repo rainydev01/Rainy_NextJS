@@ -138,7 +138,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 												<tr>
 													<td className='borderRight'>Operating Pressure</td>
-													<td> > 1 foot of Gravity Head (0.060kg/cm2)</td>
+													<td>  1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
 													<td className='borderRight'>
@@ -385,7 +385,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 												<tr>
 													<td className='borderRight'>Operating Pressure</td>
-													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
+													<td> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
 													<td className='borderRight'>
@@ -598,7 +598,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 						<div className='container'>
 							<div className='row'>
 								<div className=''>
-									<h1 className='fl80'>FL-200</h1>
+									<h1 className='fl80'>FL-250</h1>
 									<p
 										style={{
 											textAlign: 'center',
@@ -608,8 +608,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 										}}
 									>
 										This open ended filter has auto flush out feature enabling
-										self cleaning with unique working principle. FL-200 is
-										suitable for 180 to 225 sq.m rooftop area.
+										self cleaning with unique working principle. FL-250 is
+										suitable for 180 to 250 sq.m rooftop area.
 									</p>
 								</div>
 								<div className='col-md-4'>
@@ -625,7 +625,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													<td style={{width: '40%'}} className='borderRight'>
 														Suitable for Area
 													</td>
-													<td> Upto 225 SQMTRS</td>
+													<td> Upto 250 SQMTRS</td>
 												</tr>
 
 												<tr>
@@ -642,13 +642,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 												<tr>
 													<td className='borderRight'>Operating Pressure</td>
-													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
+													<td> > 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
 													<td className='borderRight'>
 														Max Discharge at (CWO)
 													</td>
-													<td>225 Liters per minute</td>
+													<td>250 Liters per minute</td>
 												</tr>
 												<tr>
 													<td className='borderRight'>Filter Element</td>
@@ -666,7 +666,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													<td className='borderRight'>
 														Clean Water Outlet size (CWO)
 													</td>
-													<td>75 MM</td>
+													<td>90 MM</td>
 												</tr>
 												<tr>
 													<td className='borderRight'>Drain Outlet size</td>
@@ -692,7 +692,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													<div className='yellowbtn mt-1'>
 														<button
 															data-toggle='modal'
-															data-target='#fl200Dimension'
+															data-target='#fl250Dimension'
 														>
 															Overall <br></br> Dimension
 														</button>
@@ -887,7 +887,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 												<tr>
 													<td className='borderRight'>Operating Pressure</td>
-													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
+													<td> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
 													<td className='borderRight'>
@@ -1144,7 +1144,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 												</tr>
 												<tr>
 													<td className='borderRight'>Operating Pressure</td>
-													<td>> 1 foot of Gravity Head (0.060kg/cm2)</td>
+													<td> 1 foot of Gravity Head (0.060kg/cm2)</td>
 												</tr>
 												<tr>
 													<td className='borderRight'>
