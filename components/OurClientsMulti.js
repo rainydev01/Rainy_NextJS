@@ -28,7 +28,7 @@ const ImageSliderMulti = () => {
 	}
 	return (
 		<Fragment>
-			<div className='clientMargin' style={{padding: 10}}>
+			<div className='clientMargin' style={{padding: 50}}>
 				<div className='container-fluid'>
 					<div className='row'>
 						<div className='col text-center'>

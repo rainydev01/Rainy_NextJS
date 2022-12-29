@@ -410,6 +410,8 @@ const ImageSliderForBlogs = () => {
           </div>
         </div>
       </Carousel>
+
+      
       ;
     </Fragment>
   );
