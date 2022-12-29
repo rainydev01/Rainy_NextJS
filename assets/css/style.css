@@ -1497,6 +1497,17 @@ p {
     }
 }
 
+.blogImg{
+    width: 70%;
+   margin: auto;
+   border: 2px solid rgb(70,171,226);
+   border-radius: 10px;
+   padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url("/_next/static/media/Wave.3b2827b….png");
+}
+
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .about-home {
         background-size: contain !important;
