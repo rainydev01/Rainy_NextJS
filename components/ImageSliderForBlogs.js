@@ -31,7 +31,7 @@ const ImageSliderForBlogs = () => {
   };
   return (
     <Fragment>
-      <Header/>
+      <Header />
       <Carousel responsive={responsive}>
         <div>
           <div className="container media-main">
@@ -120,7 +120,10 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/ground-water-recharge" target="_self">
+                      <a
+                        href="/about-us/blogs/ground-water-recharge"
+                        target="_self"
+                      >
                         Groundwater Recharge
                         <br />
                       </a>
@@ -198,7 +201,10 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/rain-water-harvesting" target="_self">
+                      <a
+                        href="/about-us/blogs/rain-water-harvesting"
+                        target="_self"
+                      >
                         The Benefits of Rain Water Harvesting
                         <br />
                       </a>
@@ -275,7 +281,10 @@ const ImageSliderForBlogs = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="/about-us/blogs/hydrological-cycle" target="_self">
+                      <a
+                        href="/about-us/blogs/hydrological-cycle"
+                        target="_self"
+                      >
                         The importance of hydrological cycle on earth
                         <br />
                       </a>
@@ -323,7 +332,10 @@ const ImageSliderForBlogs = () => {
                       </div>
                       <div className="col-md-6 mediabtn">
                         <button>
-                          <a href="/about-us/blogs/hydrological-cycle" target="_self">
+                          <a
+                            href="/about-us/blogs/hydrological-cycle"
+                            target="_self"
+                          >
                             Read more
                           </a>
                           {"  "}
@@ -333,7 +345,6 @@ const ImageSliderForBlogs = () => {
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
 
@@ -341,7 +352,7 @@ const ImageSliderForBlogs = () => {
               <div className="sec-brdr">
                 <div className="mdiaimg">
                   <img
-                    src="../static/images/blogs/typesOfFilterBackground.png"
+                    src="../static/images/blogs/tofi1.png"
                     style={{
                       height: "196px",
                     }}
@@ -351,7 +362,7 @@ const ImageSliderForBlogs = () => {
                   <div className="grndtext">
                     <h3>
                       <a href="/about-us/blogs/types-of-filter" target="_self">
-                      Types of Rain Water Harvesting Filters
+                        Types of Rain Water Harvesting Filters
                         <br />
                       </a>
                     </h3>
@@ -364,7 +375,11 @@ const ImageSliderForBlogs = () => {
                         letterSpacing: "0.5px",
                       }}
                     >
-                     The lack of freshwater resources makes it tough to meet the standard water demand. Collection of rainwater from rooftops, runoff, roads, open ground, etc; for utilization is known to be rainwater harvesting. Rainwater can be stored or can be used to recharge the groundwater table...
+                      The lack of freshwater resources makes it tough to meet
+                      the standard water demand. Collection of rainwater from
+                      rooftops, runoff, roads, open ground, etc; for utilization
+                      is known to be rainwater harvesting. Rainwater can be
+                      stored or can be used to recharge the groundwater table...
                     </p>
                     <div className="col-md-12 mdiasocial">
                       <div className="col-md-6 mediasocial">
@@ -394,7 +409,10 @@ const ImageSliderForBlogs = () => {
                       </div>
                       <div className="col-md-6 mediabtn">
                         <button>
-                          <a href="/about-us/blogs/types-of-filter" target="_self">
+                          <a
+                            href="/about-us/blogs/types-of-filter"
+                            target="_self"
+                          >
                             Read more
                           </a>
                           {"  "}
@@ -404,14 +422,253 @@ const ImageSliderForBlogs = () => {
                     </div>
                   </div>
                 </div>
-                
+              </div>
+            </div>
+
+            <div className="col-md-4" style={{ marginTop: "30px" }}>
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img
+                    src="../static/images/blogs/ancientVsModernPictures/jalhara.jpg"
+                    style={{
+                      height: "196px",
+                    }}
+                  />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="/about-us/blogs/ancient-method-vs-modern-technology"
+                        target="_self"
+                      >
+                        Ancient Methods Vs New Technology
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      Rainwater harvesting is one of the simplest and oldest
+                      methods of self-supply of water which been used in South
+                      Asia and other countries for many thousands of years. Now
+                      a days, scarcity of good quality water has become a
+                      significant cause of concern...
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="/about-us/blogs/ancient-method-vs-modern-technology"
+                            target="_self"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4" style={{ marginTop: "30px" }}>
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img
+                    src="../static/images/blogs/rainWaterHarvestingInIndia/rainWaterHarvestingInIndia2.jpg"
+                    style={{
+                      height: "196px",
+                    }}
+                  />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="/about-us/blogs/rain-water-harvesting-in-india"
+                        target="_self"
+                      >
+                        Rain Water Harvesting (RWH) In India
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      In ancient India, survival was the skeleton key where
+                      civilizations, settlements, and empires rose and then
+                      fell. Water, food, and shelter were a continuous struggle
+                      in dry climates where water was scarce. The rainwater
+                      harvesting system in India roots back to its origin of
+                      more than 4,000 years when the ancient administrative...
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="/about-us/blogs/rain-water-harvesting-in-india"
+                            target="_self"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4" style={{ marginTop: "30px" }}>
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img
+                    src="../static/images/blogs/rainWaterHarvestingTypesAndMethods/rainWaterHarvestingTypesAndMethods2.jpg"
+                    style={{
+                      height: "196px",
+                    }}
+                  />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
+                        target="_self"
+                      >
+                        Rainwater harvesting advantages, types and methods
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      Rainwater harvesting is a valuable term for
+                      self-sufficiency, household water, combating water
+                      scarcity, and a broad business term for the future. By
+                      collecting and treating rain and stormwater from roofs and
+                      ground surfaces, water availability for human consumption
+                      increases exponentially...
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
+                            target="_self"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </Carousel>
-
-      
       ;
     </Fragment>
   );
