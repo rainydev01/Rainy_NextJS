@@ -24,7 +24,8 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Dealers</title>
+				<title>Rainyfilters - Rainwater harvesting company in Chennai,Coimbatore,Banglore, Hyderabad, Pune, Kolkata, Mumbai, Thane, Delhi, Ahmedabad</title>
+				<meta name="description" content="We are also famous as the best rainwater harvesting filters company in places like Pune, Kolkata, Mumbai, Thane, Delhi, Ahmedabad,Chennai,Coimbatore,Banglore, and Hyderabad, Etc."/>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
