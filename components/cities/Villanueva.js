@@ -11,7 +11,7 @@ const city = () => {
               <div className="col-md-6">
                 <div className="alladrs">
                   <h2 style={{ color: "#0479bf" }}>
-                    MAAYANOOT S.A (Envirotech)
+                    MAAYANOT S.A (Envirotech)
                   </h2>
                   <h2></h2>
                   {/* <h2>
