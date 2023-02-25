@@ -68,7 +68,8 @@ export default function Blogs() {
         `,
           }}
         />
-        <title>Rainy - Blog</title>
+        <title>Blogs about rain water rainwater harvesting filters, benefits and usages, advantages, more</title>
+<meta name="description" content="Get all the information you need to know about rain water harvesting and how it can benefit you. We have a wide range of articles discussing the advantages and disadvantages of rain water harvesting, as well as tips on how to get started. Check us out today to see how rain water harvesting can change your life."/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
