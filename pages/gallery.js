@@ -354,6 +354,8 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+		<title>Check our project gallery | rooftop rainwater harvesting system | groundwater recharge</title>
+<meta name="description" content="Our project gallery features some of our latest and greatest projects. From our rooftop rainwater harvesting system to our groundwater recharge, we're always working on something new. Check out our gallery to see what we've been up to lately"/>
 				<script
 					async
 					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
