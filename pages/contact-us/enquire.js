@@ -27,7 +27,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Enquire </title>
+				
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
