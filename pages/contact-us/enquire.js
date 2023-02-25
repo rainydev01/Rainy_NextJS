@@ -9,6 +9,9 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
+		<title>Contact: rainwater harvesting filter for home and commercial building | Rainyfilters</title>
+
+<meta name="description" content="Looking for a reliable rainwater harvesting filter for your home or commercial building? Rainyfilters offers a wide selection of high-quality filters to ensure your rainwater is clean and safe for use."/>
 				<script
 					async
 					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
