@@ -26,7 +26,8 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Social Awareness</title>
+				<title>Helping Create a Social Awareness |  Rainy Filters | Rainwater Harvesting Projects</title>
+                                <meta name="description" content="Have you ever considered how you can help make a difference in the world? There are many ways to get involved, but one easy way is to simply install a Rainy Filter on your rainwater harvesting system. By doing this, you can help to raise awareness about the importance of water conservation and also help to provide clean water for those in need. Learn more about how you can help make a difference today."/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
