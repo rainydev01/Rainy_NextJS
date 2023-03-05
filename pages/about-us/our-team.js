@@ -26,7 +26,8 @@ export default function Home() {
 					}}
 				/>
 
-				<title>Rainy - Our Team</title>
+				<title>Rainyfilters - Experienced and Professional Team</title>
+				<meta name="description" content="Our leadership team bring in diverse experience of over 20 years in the Rainwater Harvesting industry. This knowledge enables them to lead with integrity and fairness, thereby steering the company toward greater heights."/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
