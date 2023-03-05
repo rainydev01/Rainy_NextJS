@@ -847,7 +847,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div className='container-fluid techcntrbg techcntrbgto'>
-						<h3 style="text-align:center">
+						<h3>
 							GROUNDWATER
 							<br/>
 							RECHARGING
