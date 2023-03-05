@@ -54,16 +54,7 @@ export default function Home() {
 				<meta name='msapplication-TileColor' content='#2b5797' />
 				<meta name='theme-color' content='#ffffff' />
 				<meta name="description" content="Are you looking for a rain water harvesting system in India? We are a rainwater harvesting company that provides rain water harvesting consultants and services. We can help you install a rainwater harvesting system in your home or business. Contact us today for a free consultation." />	
-				
-			<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.rainyfilters.com/">
-<meta property="og:title" content="Rainyfilters - Rainwater harvesting system in India | Company | Consultants | Services">
-<meta property="og:description" content="Are you looking for a rain water harvesting system in India? We are a rainwater harvesting company that provides rain water harvesting consultants and services. We can help you install a rainwater harvesting system in your home or business. Contact us today for a free consultation.">
-<meta property="og:image" content="https://www.rainyfilters.com/images/logo/Logo_Main.png">
-
-
-				
+								
 					<link
 					rel='stylesheet'
 					href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
