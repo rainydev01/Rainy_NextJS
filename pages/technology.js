@@ -25,6 +25,7 @@ export default function Home() {
 				/>
 
 				<title>Rain water harvesting techniques in India | V-Wire Technology and Design | Rainyfilters</title>
+				<link rel="canonical" href="https://www.rainyfilters.com/technology"/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
