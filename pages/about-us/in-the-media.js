@@ -60,6 +60,7 @@ export default function Home() {
 				<title>Articles and Media Coverage talking about Rainy Filters | Rainwater Filters</title>
                                 <meta name="description" content="Articles and Media Coverage talking about Rainy Filters | Rainwater Filters
 Learn more about the latest news and updates on Rainy Filters by reading our articles and media coverage! Stay updated on the newest tips and information on how to use our products to efficiently and effectively filter rainwater for your home or business."/>
+				<link rel="canonical" href="https://www.rainyfilters.com/about-us/in-the-media"/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
