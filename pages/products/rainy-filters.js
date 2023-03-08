@@ -24,6 +24,7 @@ export default function Home() {
 					}}
 				/>
 				<title>Roof top rain water harvesting system | Rooftop rainwater - Rainyfilters</title>
+				<link rel="canonical" href="https://www.rainyfilters.com/products/rainy-filters"/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
