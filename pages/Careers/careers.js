@@ -30,7 +30,9 @@ export default function Home() {
           }}
         />
 
-        <title>Rainy - Careers</title>
+        <title>Join Our Team | Exciting Career Opportunities at Rainyfilters </title>
+	<meta name="description" content="Explore career opportunities at Rainyfilters and become part of our mission to provide innovative solutions for rainwater harvesting and groundwater recharge. We offer a range of challenging roles for talented professionals looking to make a positive impact on the environment. Join us today and help shape a more sustainable future!"/>
+	<link rel="canonical" href="https://www.rainyfilters.com/Careers/careers"/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
