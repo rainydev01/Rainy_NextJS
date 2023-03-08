@@ -42,7 +42,7 @@ export default function Home() {
       <Head>
 	  <title>Blogs about rain water rainwater harvesting filters, benefits and usages, advantages, more</title>
 <meta name="description" content="Get all the information you need to know about rain water harvesting and how it can benefit you. We have a wide range of articles discussing the advantages and disadvantages of rain water harvesting, as well as tips on how to get started. Check us out today to see how rain water harvesting can change your life."/>
-        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs"/>
+       
 	  <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
