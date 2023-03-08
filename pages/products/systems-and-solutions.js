@@ -24,6 +24,7 @@ export default function Home() {
 					}}
 				/>
 				<title>Rain water Harvesting solutions and dedicated services provider | Rainyfilters</title>
+				<link rel="canonical" href="https://www.rainyfilters.com/products/systems-and-solutions"/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
