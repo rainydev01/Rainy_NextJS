@@ -26,7 +26,8 @@ export default function Home() {
 				/>
 				<title>Rainyfilters - Rainwater harvesting company in Chennai,Coimbatore,Banglore, Hyderabad, Pune, Kolkata, Mumbai, Thane, Delhi, Ahmedabad</title>
 				<meta name="description" content="We are also famous as the best rainwater harvesting filters company in places like Pune, Kolkata, Mumbai, Thane, Delhi, Ahmedabad,Chennai,Coimbatore,Banglore, and Hyderabad, Etc."/>
-				<link
+				<link rel="canonical" href="https://www.rainyfilters.com/contact-us/dealers"/>
+					<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 					integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
