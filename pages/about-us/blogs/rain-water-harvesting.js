@@ -132,7 +132,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 Rainwater harvesting can be done on a small scale, such as with
                 a rain barrel, or at a larger scale, such as with a cistern
                 either way, it is a great way to save water and reduce your
-                water bill. There are many benefits of rainwater harvesting. It
+                water bill. There are many <a href="https://www.rainyfilters.com/">benefits of rainwater harvesting.</a> It
                 can help reduce flooding, recharge groundwater resources, and
                 even provide an alternative water source during droughts. It is
                 also a sustainable and environmentally friendly way to conserve
