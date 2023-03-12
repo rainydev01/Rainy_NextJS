@@ -132,7 +132,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                Methods
                </h2>
                <p>
-               There are several types of filtration methods, including the ones listed below.
+               <a href="https://www.rainyfilters.com/products/rainy-filters">There are several types of filtration methods, including the ones listed below.</a>
                </p>
               </div>
               <div className="blog-info">
