@@ -248,7 +248,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   as recharge wells.
                 </p>
                 <p>
-                  <a href="https://www.rainyfilters.com/products/ground-water-recharge">Artificial point source groundwater recharge</a> is beyond the
+                  <a href="https://www.rainyfilters.com/products/ground-water-recharge"><b>Artificial point source groundwater recharge</b></a> is beyond the
                   water percolating method or inject deep into the earth. This
                   undergoes a treatment process by changing its composition
                   while infiltrating down to the ground.
