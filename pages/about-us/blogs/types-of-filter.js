@@ -108,7 +108,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
             <div className="blog-content">
               <div className="blog-info">
-                <h1>Rainwater harvesting</h1>
+                <h1>Types of rainwater harvesting filters</h1>
                 <p>
                 The lack of freshwater resources makes it tough to meet the standard water demand. Collection of rainwater from rooftops, runoff, roads, open ground, etc; for utilization is known to be rainwater harvesting. Rainwater can be stored or can be used to recharge the groundwater table.
                  
