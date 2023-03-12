@@ -361,13 +361,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </p>
                     <h5>Conclusion:</h5>
                     <p>
-                      Rainwater harvesting enables us to benefit from the
+                      <a href="https://www.rainyfilters.com/">Rainwater harvesting enables us to benefit from the
                       stormwater retention regulations. It not only aids in
                       groundwater recharge, but it also allows for the storage
                       of captured water at the micro-to-macro level without
                       incurring any burning costs. Rainwater proves to be a
                       top-notch option for potable irrigation and commercial
-                      purposes too.
+                      purposes too.</a>
                     </p>
                   </div>
                 </div>
