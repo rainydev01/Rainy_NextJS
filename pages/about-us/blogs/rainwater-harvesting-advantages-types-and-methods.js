@@ -24,7 +24,8 @@ export default function TraditionalVsNewMethods() {
         `,
           }}
         />
-        <title>Rainwater-Harvesting-Advantages-Types-And_Methods</title>
+        <title>Discover the Benefits and Methods of Rainwater Harvesting | Rainyfilters</title>
+	<meta name="description" content="Learn how rainwater harvesting can combat water scarcity, provide self-sufficiency, and reduce water costs with our comprehensive guide. We cover the advantages and types of rainwater harvesting systems, including directly pumped, indirect gravity, and more. Start conserving water today!"/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
