@@ -24,7 +24,8 @@ export default function TypesOfFilter() {
         `,
           }}
         />
-        <title>Types-Of-Filter</title>
+        <title>Types of Rainwater Harvesting Filters: Everything You Need to Know</title>
+	<meta name="description" content="With the depletion of freshwater resources, rainwater harvesting has become an essential practice. Learn about the different types of rainwater harvesting filters available, from mechanical pre-tank filters to UV disinfection and more. Explore how these filters work and which ones are suitable for specific situations."/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
