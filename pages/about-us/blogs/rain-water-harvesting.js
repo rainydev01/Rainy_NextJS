@@ -24,7 +24,8 @@ export default function Home() {
         `,
           }}
         />
-        <title>Rain Water Harvesting</title>
+        <title>The Benefits of Rain Water Harvesting: Save Money and Conserve Water | Rainyfilters</title>
+	<meta name="description" content="Learn how rainwater harvesting can reduce water bills, promote self-sustainability, and benefit the environment. Discover tips for maintaining your system. Start collecting rainwater today!"/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
