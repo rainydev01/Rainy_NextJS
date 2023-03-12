@@ -215,7 +215,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </ul>
               </div>
               <div className="content">
-                <h2><a href="https://www.rainyfilters.com/products/ground-water-recharge">Artificial groundwater recharge</a></h2>
+                <h2>Artificial groundwater recharge</h2>
                 <ul>
                   <li>
                     1. Surface infiltration system
@@ -248,7 +248,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   as recharge wells.
                 </p>
                 <p>
-                  Artificial point source groundwater recharge is beyond the
+                  <a href="https://www.rainyfilters.com/products/ground-water-recharge">Artificial point source groundwater recharge</a> is beyond the
                   water percolating method or inject deep into the earth. This
                   undergoes a treatment process by changing its composition
                   while infiltrating down to the ground.
