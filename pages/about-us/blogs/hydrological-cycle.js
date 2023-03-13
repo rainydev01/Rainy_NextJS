@@ -24,7 +24,8 @@ export default function HydrologicalCycle() {
         `,
           }}
         />
-        <title>Hydrological cycle</title>
+        <title>Title: Understanding the Importance of Hydrological Cycle on Earth | Rainyfilters</title>
+	<meta name="description" content="Discover the vital role of the hydrological cycle in maintaining the balance of aquatic ecosystems, ensuring the availability of water for all living organisms, and regulating global weather patterns. Learn about the various processes involved in the continuous transformation of water and why water is one of the world’s most valuable resources that must be preserved for a sustainable future."/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
