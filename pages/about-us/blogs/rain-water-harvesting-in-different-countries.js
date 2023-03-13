@@ -26,7 +26,8 @@ export default function RainwaterHarvestingInDifferentCountries() {
         />
         <title>Rainwater Harvesting in Different Countries: A Sustainable Solution</title>
 	<meta name="description" content="Discover how countries like India, USA, Australia, South Africa, China, and Guatemala are adopting rainwater harvesting to mitigate water scarcity issues. Learn about the benefits and methods of this sustainable solution."/>
-        <link
+        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-different-countries"/>
+	<link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
