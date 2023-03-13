@@ -25,6 +25,7 @@ export default function TraditionalVsNewMethods() {
           }}
         />
         <title>Explore Traditional and Contemporary Rainwater Harvesting Techniques | Rainyfilters</title>
+	<meta name="description" content="Discover the best methods of traditional rainwater harvesting that have been practised for centuries and modern techniques to collect and conserve rainwater. Learn about kund, khadin, taanka, jhalara, and eri as traditional methods and recharging borewells, rain barrels, Rain Pod, Rain Drops, Rooftop Rainwater Harvesting Filters, Groundwater Recharging, and Systems & Solutions as contemporary techniques. Explore how Rainy Filters offers a complete and innovative solution for dual-intensity rainwater harvesting filters, rooftop rainwater harvesting filters, groundwater recharging, and end-to-end Rainwater Harvesting solutions for your facility."/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
