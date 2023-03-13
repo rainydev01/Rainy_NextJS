@@ -24,7 +24,8 @@ export default function HydrologicalCycle() {
         `,
           }}
         />
-        <title>How to reduce Soil Erosion</title>
+        <title>Discover the Benefits of Rain Water Harvesting in Reducing Soil Erosion and Flooding</title>
+	<meta name="description" content="Learn how Rain Water Harvesting (RWH) can help tackle soil erosion and flooding, improve agricultural productivity and address water scarcity. Read on to explore the advantages of RWH for the environment and your household."/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
