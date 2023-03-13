@@ -24,7 +24,8 @@ export default function TraditionalVsNewMethods() {
         `,
           }}
         />
-        <title>Rain-Water-Harvesting-In-India</title>
+        <title>Rainwater Harvesting in India: A Sustainable Solution to Water Scarcity | Rainyfilters</title>
+	<meta name="description" content="Learn about the ancient practice of rainwater harvesting in India, and how it is now becoming a crucial solution to the country's water scarcity crisis. Discover the three major techniques of rainwater harvesting and how they can be implemented, along with other sustainable solutions such as tree-based farming and wasteland development."/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
