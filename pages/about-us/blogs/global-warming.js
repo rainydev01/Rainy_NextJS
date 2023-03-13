@@ -24,7 +24,8 @@ export default function GlobalWarming() {
         `,
           }}
         />
-        <title>Global-Warming</title>
+        <title>How Water Harvesting Can Reduce Global Warming: An In-Depth Analysis | Rainyfilters</title>
+	<meta name="description" content="Learn how water harvesting can help combat global warming and its devastating impacts. Discover the effects of climate change on water resources and the environment, and find out how you can take action to reduce your carbon footprint and make a positive impact on the planet."/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
