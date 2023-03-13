@@ -24,7 +24,7 @@ export default function TraditionalVsNewMethods() {
         `,
           }}
         />
-        <title>Ancient-Method-Vs-Modern-Technology</title>
+        <title>Explore Traditional and Contemporary Rainwater Harvesting Techniques | Rainyfilters</title>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
