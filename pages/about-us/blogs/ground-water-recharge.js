@@ -26,7 +26,8 @@ export default function Home() {
         />
         <title>Groundwater Recharge: The Key to Sustainable Water Management</title>
 	<meta name="description" content="Learn about the methods of groundwater recharge and how they can help to maintain and increase the levels of depleting groundwater resources. Discover the benefits of artificial and natural groundwater recharge methods, including ensuring long-term groundwater, preventing evaporation losses, and enhancing the quality of water in saline aquifers. Get to know the V-Wire Injection Well Technology, a modern technique that can rapidly recharge groundwater and recover water levels in the Aquifer."/>
-        <link
+        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/ground-water-recharge"/>
+	<link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
