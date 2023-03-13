@@ -26,7 +26,8 @@ export default function Home() {
         />
         <title>The Benefits of Rain Water Harvesting: Save Money and Conserve Water | Rainyfilters</title>
 	<meta name="description" content="Learn how rainwater harvesting can reduce water bills, promote self-sustainability, and benefit the environment. Discover tips for maintaining your system. Start collecting rainwater today!"/>
-        <link
+        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting"/>
+	<link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
