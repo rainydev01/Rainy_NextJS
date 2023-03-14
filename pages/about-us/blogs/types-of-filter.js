@@ -301,7 +301,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               V wire Technology
               </h5>
               <p>
-              Farmland Rainwater Harvesting Systems' FL' V'-Wire injection well technology, developed in 2002, was significantly improved in 2007 is used for groundwater recharging . Here, gravitational energy is used.
+              <a href="https://www.rainyfilters.com/technology">Farmland Rainwater Harvesting Systems</a>' FL' V'-Wire injection well technology, developed in 2002, was significantly improved in 2007 is used for groundwater recharging . Here, gravitational energy is used.
               </p>
               <p>
               A silt trap unit, a recharge well with 20% filtration media of crushed stone, gravels, coarse sand, activated carbon, and charcoal; and the rest for water storage and a recharging bore at the bottom of the recharge well comprise the entire structure.
@@ -325,7 +325,6 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 Conclusion
               </h5>
               <p>  Rainwater storage and treatment methodology contribute to several problems of the global water crisis. Reduces over usage of groundwater and reduces carbon footprint by minimizing the pumping capacity. It is a systematized means of water management, an economically efficient method. </p>
-              <p>This blog created by <a href="https://www.rainyfilters.com/">Rainyfilters</a></p>
 		</div>
               
 
