@@ -125,7 +125,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </p>
                 <h5>Rain water harvesting in India</h5>
                 <p>
-                  In India, rain water harvesting is becoming increasingly
+                  <a href="https://www.rainyfilters.com/">In India, rain water harvesting</a> is becoming increasingly
                   necessary as the country works to meet its growing demand for
                   water. It is a way to capture and collect rainwater runoff
                   before it flows away, using simple catchment systems such as
