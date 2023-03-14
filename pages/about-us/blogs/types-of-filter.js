@@ -325,7 +325,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 Conclusion
               </h5>
               <p>  Rainwater storage and treatment methodology contribute to several problems of the global water crisis. Reduces over usage of groundwater and reduces carbon footprint by minimizing the pumping capacity. It is a systematized means of water management, an economically efficient method. </p>
-              <p>This blog created by <a href="https://www.rainyfilters.com/">rainyfilters.com</a></p>
+              <p>This blog created by <a href="https://www.rainyfilters.com/">Rainyfilters</a></p>
 		</div>
               
 
