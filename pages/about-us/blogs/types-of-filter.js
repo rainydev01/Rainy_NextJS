@@ -24,8 +24,10 @@ export default function TypesOfFilter() {
         `,
           }}
         />
-        <title>Types-Of-Filter</title>
-        <link
+        <title>Types of Rainwater Harvesting Filters: Everything You Need to Know</title>
+	<meta name="description" content="With the depletion of freshwater resources, rainwater harvesting has become an essential practice. Learn about the different types of rainwater harvesting filters available, from mechanical pre-tank filters to UV disinfection and more. Explore how these filters work and which ones are suitable for specific situations."/>
+       <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/types-of-filter"/>
+	<link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
@@ -107,7 +109,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
             <div className="blog-content">
               <div className="blog-info">
-                <h1>Rainwater harvesting</h1>
+                <h1>Types of rainwater harvesting filters</h1>
                 <p>
                 The lack of freshwater resources makes it tough to meet the standard water demand. Collection of rainwater from rooftops, runoff, roads, open ground, etc; for utilization is known to be rainwater harvesting. Rainwater can be stored or can be used to recharge the groundwater table.
                  
@@ -131,7 +133,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                Methods
                </h2>
                <p>
-               There are several types of filtration methods, including the ones listed below.
+               <a href="https://www.rainyfilters.com/products/rainy-filters">There are several types of filtration methods, including the ones listed below.</a>
                </p>
               </div>
               <div className="blog-info">
@@ -299,7 +301,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               V wire Technology
               </h5>
               <p>
-              Farmland Rainwater Harvesting Systems' FL' V'-Wire injection well technology, developed in 2002, was significantly improved in 2007 is used for groundwater recharging . Here, gravitational energy is used.
+              <a href="https://www.rainyfilters.com/technology">Farmland Rainwater Harvesting Systems</a>' FL' V'-Wire injection well technology, developed in 2002, was significantly improved in 2007 is used for groundwater recharging . Here, gravitational energy is used.
               </p>
               <p>
               A silt trap unit, a recharge well with 20% filtration media of crushed stone, gravels, coarse sand, activated carbon, and charcoal; and the rest for water storage and a recharging bore at the bottom of the recharge well comprise the entire structure.
@@ -323,7 +325,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 Conclusion
               </h5>
               <p>  Rainwater storage and treatment methodology contribute to several problems of the global water crisis. Reduces over usage of groundwater and reduces carbon footprint by minimizing the pumping capacity. It is a systematized means of water management, an economically efficient method. </p>
-            </div>
+		</div>
               
 
             </div>

@@ -9,7 +9,10 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<script
+		<title>Contact: rainwater harvesting filter for home and commercial building | Rainyfilters</title>
+		<meta name="description" content="Looking for a reliable rainwater harvesting filter for your home or commercial building? Rainyfilters offers a wide selection of high-quality filters to ensure your rainwater is clean and safe for use."/>
+		<link rel="canonical" href="https://www.rainyfilters.com/contact-us/enquire"/>		
+		<script
 					async
 					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
@@ -24,7 +27,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Enquire </title>
+				
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'

@@ -25,6 +25,7 @@ export default function Home() {
 				/>
 
 				<title>Rain water harvesting techniques in India | V-Wire Technology and Design | Rainyfilters</title>
+				<link rel="canonical" href="https://www.rainyfilters.com/technology"/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
@@ -271,7 +272,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div className='container-fluid techcntrbg'>
-						<h1>'RAINY' FILTERS</h1>
+						<h2>'RAINY' FILTERS</h2>
 					</div>
 
 					<div
@@ -847,11 +848,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 					</div>
 
 					<div className='container-fluid techcntrbg techcntrbgto'>
-						<h1>
+						<h3>
 							GROUNDWATER
-							<br />
+							<br/>
 							RECHARGING
-						</h1>
+						</h3>
 					</div>
 
 					<div

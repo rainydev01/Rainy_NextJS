@@ -24,8 +24,10 @@ export default function HydrologicalCycle() {
         `,
           }}
         />
-        <title>How to reduce Soil Erosion</title>
-        <link
+        <title>Discover the Benefits of Rain Water Harvesting in Reducing Soil Erosion and Flooding</title>
+	<meta name="description" content="Learn how Rain Water Harvesting (RWH) can help tackle soil erosion and flooding, improve agricultural productivity and address water scarcity. Read on to explore the advantages of RWH for the environment and your household."/>
+        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"/>
+	<link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
@@ -253,7 +255,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               </p>
               <h5>Time to harvest rainwater:</h5>
               <p>
-                Rain Water Harvesting (RWH) is the practise of collecting and
+                <a href="https://www.rainyfilters.com/">Rain Water Harvesting</a> (RWH) is the practise of collecting and
                 storing rainwater as opposed to letting it flow off. Rainwater
                 is gathered from a surface that resembles a roof and directed to
                 a container with percolation, such as a tank, cistern, deep pit

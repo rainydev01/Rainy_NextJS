@@ -40,7 +40,10 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <script
+	  <title>Blogs about rain water rainwater harvesting filters, benefits and usages, advantages, more</title>
+<meta name="description" content="Get all the information you need to know about rain water harvesting and how it can benefit you. We have a wide range of articles discussing the advantages and disadvantages of rain water harvesting, as well as tips on how to get started. Check us out today to see how rain water harvesting can change your life."/>
+       
+	  <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-168445645-1"
         ></script>
@@ -55,7 +58,6 @@ export default function Home() {
         `,
           }}
         />
-        <title>Rainy - Blog</title>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"

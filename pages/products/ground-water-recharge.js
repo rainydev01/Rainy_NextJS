@@ -24,6 +24,7 @@ export default function Home() {
 					}}
 				/>
 				<title>Artificial recharge of groundwater | groundwater recharge system - Rainyfilters</title>
+				<link rel="canonical" href="https://www.rainyfilters.com/products/ground-water-recharge"/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'

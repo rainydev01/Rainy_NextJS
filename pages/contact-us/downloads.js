@@ -23,7 +23,9 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Downloads</title>
+				<title>Download Our Product Information Brochures | Rainyfilters</title>
+				<meta name="description" content="Access our comprehensive range of product information brochures for our innovative rainwater harvesting and groundwater recharge solutions. Download our 'Rainy' product catalogue, instructions manual, and detailed installation guide for 'Rainy' filters. Also, explore our case studies on groundwater recharging and learn about the impact of our solutions. Start your download now and discover how we can help you save water and protect the environment."/>
+				<link rel="canonical" href="https://www.rainyfilters.com/contact-us/downloads"/>
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'

@@ -23,6 +23,7 @@ export default function Home() {
 					}}
 				/>
 				<title>Rainyfilters - Rain water harvesting filter for home and commercial Buildings in India</title>
+				<link rel="canonical" href="https://www.rainyfilters.com/about-us/our-journey"/>
 				<link
 					rel='apple-touch-icon'
 					sizes='180x180'

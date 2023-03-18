@@ -26,8 +26,10 @@ export default function Home() {
 					}}
 				/>
 
-				<title>Rainy - Our Team</title>
-				<link
+				<title>Rainyfilters - Experienced and Professional Team</title>
+				<meta name="description" content="Our leadership team bring in diverse experience of over 20 years in the Rainwater Harvesting industry. This knowledge enables them to lead with integrity and fairness, thereby steering the company toward greater heights."/>
+				<link rel="canonical" href="https://www.rainyfilters.com/about-us/our-team"/>
+					<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
 					integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'

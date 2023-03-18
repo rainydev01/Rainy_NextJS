@@ -24,8 +24,10 @@ export default function RainwaterHarvestingInDifferentCountries() {
         `,
           }}
         />
-        <title>Ancient-Method-Vs-Modern-Technology</title>
-        <link
+        <title>Rainwater Harvesting in Different Countries: A Sustainable Solution | Rainyfilters</title>
+	<meta name="description" content="Discover how countries like India, USA, Australia, South Africa, China, and Guatemala are adopting rainwater harvesting to mitigate water scarcity issues. Learn about the benefits and methods of this sustainable solution."/>
+        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-different-countries"/>
+	<link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
@@ -123,7 +125,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </p>
                 <h5>Rain water harvesting in India</h5>
                 <p>
-                  In India, rain water harvesting is becoming increasingly
+                  <a href="https://www.rainyfilters.com/">In India, rain water harvesting</a> is becoming increasingly
                   necessary as the country works to meet its growing demand for
                   water. It is a way to capture and collect rainwater runoff
                   before it flows away, using simple catchment systems such as

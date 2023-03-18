@@ -354,7 +354,10 @@ export default function Home() {
 	return (
 		<Fragment>
 			<Head>
-				<script
+		<title>Check our project gallery | rooftop rainwater harvesting system | groundwater recharge</title>
+		<meta name="description" content="Our project gallery features some of our latest and greatest projects. From our rooftop rainwater harvesting system to our groundwater recharge, we're always working on something new. Check out our gallery to see what we've been up to lately"/>
+		<link rel="canonical" href="https://www.rainyfilters.com/gallery"/>		
+		<script
 					async
 					src='https://www.googletagmanager.com/gtag/js?id=UA-168445645-1'
 				></script>
@@ -369,7 +372,7 @@ export default function Home() {
         `,
 					}}
 				/>
-				<title>Rainy - Gallery</title>
+				
 				<link
 					rel='stylesheet'
 					href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
