@@ -32,10 +32,9 @@ export default function Home() {
         />
 
         <title>
-          Rainyfilters - Rainwater harvesting system in India | Company |
-          Consultants | Services
-        </title>
-        <link
+          Rainyfilters - Rainwater harvesting system in India | Company | Consultants | Services</title>
+        <link rel="canonical" href="https://www.rainyfilters.com/"/>
+	<link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.png"
