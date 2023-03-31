@@ -39,6 +39,165 @@ const ImageSliderForBlogs = () => {
               <div className="sec-brdr">
                 <div className="mdiaimg">
                   <img
+                    src="../static/images/blogs/globalWaterScarcity/2.jpg"
+                    style={{
+                      height: "196px",
+                    }}
+                  />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="/about-us/blogs/about-us/blogs/global-water-scarcity"
+                        target="_self"
+                      >
+                        How Rainwater Harvesting can solve Global Water scarcity
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      Every day that goes by, more and more water is becoming
+                      scarce. The World Economic Forum identified the water
+                      crisis as the fifth most dangerous global risk in terms of
+                      its potential to affect society in January 2020....
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="/about-us/blogs/global-water-scarcity"
+                            target="_self"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4" style={{ marginTop: "" }}>
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img
+                    src="../static/images/blogs/rainyRainwaterHarvestingFilters/2.png"
+                    style={{
+                      height: "196px",
+                    }}
+                  />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="/about-us/blogs/about-us/rainy-rainwater-harvesting-filters"
+                        target="_self"
+                      >
+                        Rainwater Harvesting Filters
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      Rainwater harvesting systems are one of the best methods
+                      practiced and followed to support the conservation of
+                      water. It collects and stores rain rather than allowing it
+                      to run off. Rainwater, which is pure in form and of good
+                      quality.....
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="/about-us/blogs/rainy-rainwater-harvesting-filters"
+                            target="_self"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img
                     src="../static/images/blogs/rainwaterHarvestingInDifferentCountries/2.jpg"
                     style={{
                       height: "196px",
@@ -117,7 +276,7 @@ const ImageSliderForBlogs = () => {
               </div>
             </div>
 
-            <div className="col-md-4" style={{ marginTop: "" }}>
+            <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
                   <img
@@ -199,7 +358,7 @@ const ImageSliderForBlogs = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
                   <img
