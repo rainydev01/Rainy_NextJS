@@ -118,7 +118,7 @@ const Footer = () => {
 								<div>
 									<button>
 										{' '}
-										<a href='/contact-us/dealers'>Dealers</a>{' '}
+										<a href='https://www.rainyfilters.com/'>Dealers</a>{' '}
 									</button>
 								</div>
 								<div>
