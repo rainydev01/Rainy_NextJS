@@ -110,7 +110,6 @@ const Footer = () => {
                   </a>
                 </p>
 
-<<<<<<< HEAD
                 <div>
                   <button>
                     {" "}
@@ -123,20 +122,6 @@ const Footer = () => {
                     <a href="/contact-us/enquire">Enquire</a>{" "}
                   </button>
                 </div>
-=======
-								<div>
-									<button>
-										{' '}
-										<a href='https://www.rainyfilters.com/'>Dealers</a>{' '}
-									</button>
-								</div>
-								<div>
-									<button>
-										{' '}
-										<a href='/contact-us/enquire'>Enquire</a>{' '}
-									</button>
-								</div>
->>>>>>> 271b867278e8810d99b8059d640b3a592e68a150
 
                 {/* <div id="google_translate_element"></div> */}
 
