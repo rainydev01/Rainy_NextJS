@@ -6,7 +6,7 @@ import Slider1 from "../../../components/SliderNews1";
 import Slider2 from "../../../components/SliderNews2";
 import Slider3 from "../../../components/SliderNews3";
 
-import ImageSliderForBlogs from "../../../components/ImageSliderForBlogs";
+import ImageSliderBLogNew from "../../../components/imageSliderBlogNew";
 
 // const SliderSwitcher = ({currentArticle, changeToArticle}) => {
 
@@ -151,13 +151,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 className="team-heading media-hdng blue_underline"
                 style={{ textAlign: "center", marginTop: "45px" }}
               >
-                STORIES , INSIGHTS ,AND ANNOUNCEMENTS FROM RAINY
+                STORIES , INSIGHTS ,AND ANNOUNCEMENTS FROM 'RAINY'
               </h3>
             </div>
           </div>
           {/* {newsArticle} */}
 
-          <ImageSliderForBlogs />
+          <ImageSliderBLogNew />
           <Footer />
         </div>
       </main>
