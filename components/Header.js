@@ -112,8 +112,8 @@ const Header = () => {
                     <a href="/contact-us/enquire" className="dropdown-item">
                       Enquire
                     </a>
-                    <a href="/" className="dropdown-item">
-                      Dealers
+                    <a href="/contact-us/faq" className="dropdown-item">
+                      FAQ
                     </a>
                     <a href="/contact-us/downloads" className="dropdown-item">
                       Downloads

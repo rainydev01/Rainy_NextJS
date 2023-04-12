@@ -30,9 +30,17 @@ export default function Home() {
           }}
         />
 
-        <title>Join Our Team | Exciting Career Opportunities at Rainyfilters </title>
-	<meta name="description" content="Explore career opportunities at Rainyfilters and become part of our mission to provide innovative solutions for rainwater harvesting and groundwater recharge. We offer a range of challenging roles for talented professionals looking to make a positive impact on the environment. Join us today and help shape a more sustainable future!"/>
-	<link rel="canonical" href="https://www.rainyfilters.com/Careers/careers"/>
+        <title>
+          Join Our Team | Exciting Career Opportunities at Rainyfilters{" "}
+        </title>
+        <meta
+          name="description"
+          content="Explore career opportunities at Rainyfilters and become part of our mission to provide innovative solutions for rainwater harvesting and groundwater recharge. We offer a range of challenging roles for talented professionals looking to make a positive impact on the environment. Join us today and help shape a more sustainable future!"
+        />
+        <link
+          rel="canonical"
+          href="https://www.rainyfilters.com/Careers/careers"
+        />
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -92,10 +100,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/ourTeam/Addicts-26717.jpg" />
-              <div className="hero-text entteamtxt">
+              <img src="../../static/images/career/careerPageBanner.png" />
+              {/* <div className="hero-text entteamtxt">
                 <h1>CAREERS AT RAINY</h1>
-              </div>
+              </div> */}
             </div>
           </div>
 
