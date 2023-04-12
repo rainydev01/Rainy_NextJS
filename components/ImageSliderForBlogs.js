@@ -74,7 +74,7 @@ const ImageSliderForBlogs = () => {
                       <div className="col-md-6 mediasocial">
                         <FacebookShareButton
                           url={
-                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                            "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
                           }
                         >
                           <i className="fa fa-facebook" aria-hidden="true" />
@@ -82,7 +82,7 @@ const ImageSliderForBlogs = () => {
 
                         <TwitterShareButton
                           url={
-                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                            "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
                           }
                         >
                           <i className="fa fa-twitter" aria-hidden="true" />
@@ -90,7 +90,7 @@ const ImageSliderForBlogs = () => {
 
                         <WhatsappShareButton
                           url={
-                            "https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
+                            "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
                           }
                         >
                           <i className="fa fa-whatsapp" aria-hidden="true" />
