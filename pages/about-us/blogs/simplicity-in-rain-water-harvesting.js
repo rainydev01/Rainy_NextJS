@@ -24,7 +24,7 @@ export default function SimplycityInRainwaterHarvesting() {
         `,
           }}
         />
-        <title>Ancient-Method-Vs-Modern-Technology</title>
+        <title>Simplicity In Rainwater Harvesting</title>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"

@@ -151,7 +151,7 @@ const ImageSliderBLogNew = () => {
                       <div className="col-md-6 mediasocial">
                         <FacebookShareButton
                           url={
-                            "hhttps://www.rainyfilters.com/about-us/blogs/rainy-rainwater-harvesting-filters"
+                            "https://www.rainyfilters.com/about-us/blogs/rainy-rainwater-harvesting-filters"
                           }
                         >
                           <i className="fa fa-facebook" aria-hidden="true" />
