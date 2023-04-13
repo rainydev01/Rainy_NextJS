@@ -93,14 +93,7 @@ const Header = () => {
                   </div>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="dropdown-toggle diffcolormenu"
-                    data-toggle="dropdown"
-                  >
-                    Gallery
-                  </a>
-                  <a href="/gallery">Photo Gallery</a>
+                  <a href="/gallery"> Gallery</a>
                 </li>
                 <li>
                   <a href="/Careers/careers">
