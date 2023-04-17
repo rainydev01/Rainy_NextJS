@@ -30,7 +30,14 @@ const ImageSliderBLogNew = () => {
   return (
     <Fragment>
       <Carousel responsive={responsive}>
-        <div>
+        <div
+          style={{
+            backgroundImage: "url(../static/images/homepage/ddropsbg.png)",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "top left",
+          }}
+        >
           <div className="container media-main">
             <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
