@@ -1,11 +1,18 @@
 import VideoPlayer from "../components/VideoPlayer";
 
 const ViedoView = () => {
-  const videoUrl = "../static/videos/product video.mp4";
+  const videos = [
+    {
+      url: "../static/videos/product video.mp4",
+      poster: "../static/images/blogs/ancientVsModernPictures/ancVsMod1.jpg",
+    },
+  ];
 
   return (
     <div>
-      <VideoPlayer url={videoUrl} />
+      {videos.map(({ url, poster }) => (
+        <VideoPlayer key={url} url={url} poster={poster} />
+      ))}
     </div>
   );
 };
