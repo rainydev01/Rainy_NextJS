@@ -22,10 +22,7 @@ const faq = () => {
           }}
         />
 
-        <title>
-          Rain water harvesting techniques in India | V-Wire Technology and
-          Design | Rainyfilters
-        </title>
+        <title>Frequently asked questions</title>
         <link rel="canonical" href="https://www.rainyfilters.com/technology" />
         <link
           rel="stylesheet"
@@ -112,54 +109,52 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               </div> */}
             </div>
           </div>
-          <div className="container" />
-          <div className="container">
+          {/* <div className="container">
             <div className="groundwater_bg team blue_underline">
               <h2 className="team-heading media-hdng blue_underline">
                 How can we help you?
               </h2>
             </div>
-          </div>
-          {/* {newsArticle} */}
-
+          </div> */}
           <div
-            className="container-fluid techbgmain"
-            style={{ backgroundColor: "rgb(70,171,226)" }}
+            className="container-fluid dnldbg"
+            style={{
+              backgroundImage: "url(../static/images/faq/faqBack1.png)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              marginTop: "-100px",
+            }}
           >
             <div className="container">
               <div className="row">
                 <div className="downloadsec">
                   <div id="accordion">
-                    <div className="techaccrdn">
+                    <div className="acrdinbrdr">
                       <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-1"
                             aria-expanded="false"
                             aria-controls="collapse-1"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is rainwater harvesting?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-1"
+                        className="collapse "
                         data-parent="#accordion"
                         aria-labelledby="heading-1"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Rainwater harvesting is the process of
                                   collection and re-utilisation of rainwater
                                   that falls on rooftops, paved areas,
@@ -177,160 +172,75 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
+
+                    <div className="acrdinbrdr">
                       <div className="card-header" id="heading-2">
-                        <h5 className="mb-0 mb0diff">
+                        <h5 className="mb-0">
                           <a
-                            className="collapsed"
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-12"
+                            href="#collapse-2"
                             aria-expanded="false"
                             aria-controls="collapse-2"
+                            style={{ color: "#58b8ef" }}
                           >
                             What are the benefits of rainwater harvesting?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-12"
-                        className="collapse"
+                        id="collapse-2"
+                        className="collapse "
                         data-parent="#accordion"
                         aria-labelledby="heading-2"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <ul>
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
+                                  Rainwater harvesting has many benefits, such
+                                  as:
+                                </p>
+                                <ul style={{ listStyleType: "square" }}>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Conserves water and reduces dependency on
                                     secondary water sources
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Reduces storm water runoff, which can cause
                                     erosion, flooding, and water pollution
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Provides a reliable and sustainable source
                                     of water for non-potable uses like
                                     irrigation and toilet flushing
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Processing with basic household filters can
                                     bring the rainwater to potable level
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Reduces water bills for homes and businesses
                                     that use rainwater harvesting systems
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Saves energy required for pumping from long
                                     distances
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Reduces greenhouse gasses released during
                                     transportation of water with tankers
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Dilution effect of rainwater improves water
                                     quality in general
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Can help mitigate the effects of drought and
                                     water scarcity
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Can be an important tool in addressing
                                     global water issues such as virtual water
                                     trade and water security.
@@ -342,36 +252,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-3">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-3"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-3"
+                            style={{ color: "#58b8ef" }}
                           >
                             Is rainwater safe to drink?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-3"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-3"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Rainwater is considered as one of the purest
                                   form of water with &lt;50 TDS. It is only when
                                   it mixes with atmospheric and surface
@@ -389,36 +296,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-4">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-4"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-4"
+                            style={{ color: "#58b8ef" }}
                           >
                             What services does Rainy provide?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-4"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-4"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Rainy Research and Manufacturing provides
                                   end-to-end rainwater harvesting solutions. The
                                   services include consulting, system design,
@@ -435,36 +339,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-5">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-5"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-5"
+                            style={{ color: "#58b8ef" }}
                           >
-                            5. How much does a rainwater harvesting system cost?
+                            How much does a rainwater harvesting system cost?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-5"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-5"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   The price of a rainwater harvesting system can
                                   vary based on the system&#39;s size,
                                   complexity, and local labour and material
@@ -480,16 +381,17 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-3">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-6">
+                        <h5 className="mb-0">
                           <a
-                            // className="collapsed"
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-13"
+                            href="#collapse-6"
                             aria-expanded="false"
-                            aria-controls="collapse-3"
+                            aria-controls="collapse-6"
+                            style={{ color: "#58b8ef" }}
                           >
                             What types of rainwater harvesting systems are
                             available?
@@ -497,72 +399,36 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </h5>
                       </div>
                       <div
-                        id="collapse-13"
-                        className="collapse"
+                        id="collapse-6"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-3"
+                        aria-labelledby="heading-6"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
                                 <p>
                                   There are several types of rainwater
                                   harvesting systems, including:
                                 </p>
-                                <ul>
+                                <ul style={{ listStyleType: "square" }}>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Rooftop catchment systems, which collect
                                     rainwater from rooftops and direct it into
                                     storage tanks
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Surface catchment systems, which collect
                                     rainwater from paved areas and direct it
                                     into storage tanks or infiltration basins
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Green roof systems, which use vegetation and
                                     soil to capture and store rainwater on
                                     rooftops
                                   </li>
                                   <li>
-                                    <img
-                                      style={{
-                                        height: 25,
-                                        width: "auto",
-                                        paddingRight: 15,
-                                      }}
-                                      src="../static/images/elements/Path262.png"
-                                      alt="drop"
-                                    />
                                     Rain gardens, which use plants and soil to
                                     capture and absorb rainwater in landscaped
                                     areas However, rooftop rainwater harvesting
@@ -576,36 +442,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-7">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-7"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-7"
+                            style={{ color: "#58b8ef" }}
                           >
                             How much rainwater can I collect?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-7"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-7"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   The amount of rainwater you can collect
                                   depends on several factors, including the size
                                   of your catchment area (e.g., a roof or paved
@@ -624,15 +487,17 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-8">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-8"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-8"
+                            style={{ color: "#58b8ef" }}
                           >
                             How often should I maintain my rainwater harvesting
                             system?
@@ -640,21 +505,16 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-8"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-8"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Regular inspection and maintenance should be
                                   performed on conventional rainwater harvesting
                                   systems to ensure their functionality and
@@ -673,36 +533,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-9">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-9"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-9"
+                            style={{ color: "#58b8ef" }}
                           >
                             Can I use rainwater for drinking or cooking?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-9"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-9"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Treated rainwater can be used for drinking,
                                   cooking, and non-potable applications such as
                                   irrigation, cleaning and toilet flushing.
@@ -713,15 +570,17 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-10">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-10"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-10"
+                            style={{ color: "#58b8ef" }}
                           >
                             How can I get started with a rainwater harvesting
                             system?
@@ -729,21 +588,16 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-10"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-10"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   If you are interested in installing a
                                   rainwater harvesting system, contact Rainy
                                   filters to schedule a consultation. We can
@@ -758,15 +612,17 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-11">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
                             href="#collapse-11"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-11"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is rainwater filter?
                           </a>
@@ -774,20 +630,15 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       </div>
                       <div
                         id="collapse-11"
-                        className="collapse"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-11"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   A rainwater filter is a device designed to
                                   remove impurities and contaminants from
                                   rainwater before it is collected and stored
@@ -803,36 +654,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-12">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-12"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-12"
+                            style={{ color: "#58b8ef" }}
                           >
                             How does a Rainy filter work?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-12"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-12"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Rainy filters work on dual working principles
                                   depending on the intensity of the rain. During
                                   periods of light rainfall, it relies on
@@ -848,36 +696,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-13">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-13"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-13"
+                            style={{ color: "#58b8ef" }}
                           >
                             What filter is best for rainwater harvesting?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-13"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-13"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   It is recommended to purchase self-cleaning
                                   filters to avoid frequent manul maintenance
                                   and to look for high-efficiency filters. Here
@@ -891,36 +736,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-14">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-14"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-14"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is meant by Dual intensity filter?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-14"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-14"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Dual intensity indicates that the filter is
                                   designed to handle any intensity of
                                   precipitation, from light to heavy. Both low-
@@ -933,36 +775,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-15">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-15"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-15"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is non-clogging filter?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-15"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-15"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-15">
+                                <p>
                                   A non-clogging filter is a type of filtration
                                   system designed to prevent blockages or clogs
                                   caused by the accumulation of contaminants or
@@ -978,36 +817,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-16">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-16"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-16"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is V-wire injection well technology?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-16"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-16"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Rainy’s &quot;V-Wire injection well
                                   tecnology&quot; is a highly accepted modern
                                   method of surface run-off rainwater harvesting
@@ -1027,36 +863,32 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-17">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-17"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-17"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is an injection well for groundwater recharge?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-17"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-17"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   An injection well for groundwater recharge is
                                   a type of well that is used to inject treated
                                   surface rainwater into an aquifer for the
@@ -1072,36 +904,32 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-18">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-18"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-18"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is groundwater recharge?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-18"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-18"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Groundwater is not an unlimited resource.
                                   Groundwater recharge refers to the process by
                                   which water is added to an aquifer, the
@@ -1118,36 +946,32 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-19">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-19"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-19"
+                            style={{ color: "#58b8ef" }}
                           >
                             What is Rooftop rainwater harvesting?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-19"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-19"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Rooftop rainwater harvesting is the practice
                                   of collecting and storing rainwater that falls
                                   on rooftops for later use. This involves
@@ -1168,36 +992,32 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         </div>
                       </div>
                     </div>
-                    <div className="techaccrdn">
-                      <div className="card-header" id="heading-1">
-                        <h5 className="mb-0 mb0diff">
+                    <div className="acrdinbrdr">
+                      <div className="card-header" id="heading-20">
+                        <h5 className="mb-0">
                           <a
                             role="button"
                             data-toggle="collapse"
-                            href="#collapse-11"
+                            href="#collapse-20"
                             aria-expanded="false"
-                            aria-controls="collapse-1"
+                            aria-controls="collapse-20"
+                            style={{ color: "#58b8ef" }}
                           >
                             How to install RAINY Filters?
                           </a>
                         </h5>
                       </div>
                       <div
-                        id="collapse-11"
-                        className="collapse"
+                        id="collapse-20"
+                        className="collapse "
                         data-parent="#accordion"
-                        aria-labelledby="heading-1"
+                        aria-labelledby="heading-20"
                       >
                         <div className="card-body">
-                          <div className="row techacrsec">
-                            <div className="col-md-12">
-                              <div className="techpointslst">
-                                <p
-                                  style={{
-                                    fontSize: 14,
-                                    fontFamily: "Visby Round CF Heavy",
-                                  }}
-                                >
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-14">
+                                <p>
                                   Rainy filters are simple to install and are
                                   wall mountable units. 360-degree union
                                   rotation capability make Rainy filter suitable
