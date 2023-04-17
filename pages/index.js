@@ -10,7 +10,7 @@ import RWHFilters from "../components/RWHFilters";
 import FilterToSelect from "../components/FilterToSelect";
 import GroundWaterRecharging from "../components/GroundWaterRecharging";
 import OurClients from "../components/OurClientsMulti";
-
+import ViedoView from "../components/VideoView";
 export default function Home() {
   return (
     <Fragment>
@@ -32,9 +32,11 @@ export default function Home() {
         />
 
         <title>
-          Rainyfilters - Rainwater harvesting system in India | Company | Consultants | Services</title>
-        <link rel="canonical" href="https://www.rainyfilters.com/"/>
-	<link
+          Rainyfilters - Rainwater harvesting system in India | Company |
+          Consultants | Services
+        </title>
+        <link rel="canonical" href="https://www.rainyfilters.com/" />
+        <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.png"
@@ -146,6 +148,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <FilterToSelect />
           <GroundWaterRecharging />
           <OurClients />
+          <ViedoView />
           <Footer />
         </div>
       </main>

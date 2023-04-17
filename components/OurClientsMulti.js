@@ -32,7 +32,7 @@ const ImageSliderMulti = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col text-center">
-              <h2 className="clientsHome">Our Clients</h2>
+              <h2 className="clientsHome">Our Clients </h2>
               <div className="text-center">
                 <Carousel
                   infinite={true}
