@@ -161,281 +161,185 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <div className="blogImg hero-image enthroimg">
                   <img src="../../../static/images/blogs/beginnerGuideToSettingUp/2.png"></img>
                 </div>
+                <ul style={{ listStyle: "bullet" }}>
+                  <li>
+                    Conservation: Water is a restricted resource in many world
+                    regions, with demand exceeding availability. Utilizing
+                    rainwater protects and conserves natural resources such as
+                    rivers and streams while reducing demand for public
+                    services.
+                  </li>
+                  <li>
+                    Price: Rainwater is free. Complicated and potable systems
+                    need substantial investment, resulting in a cheaper utility
+                    cost for the ordinary homeowner.
+                  </li>
+                  <li>
+                    Neutral pH: Because rainwater is gentle and neutral pH, it
+                    is perfect for personal hygiene, washing, and cleaning. It
+                    is less corrosive than hard water and can help equipment
+                    last longer.
+                  </li>
+                  <li>
+                    Pollutant-free: Rainwater contains no artificial chemicals
+                    or toxins, making it healthier for plants. Unlike municipal
+                    systems, it lacks disinfection by-products, salts, minerals,
+                    and pollutants.
+                  </li>
+                  <li>
+                    Reduces stormwater runoff: Because water is collected and
+                    stored, less water is sent into storm drains, reducing
+                    floods and the spread of groundwater contaminants.
+                  </li>
+                </ul>
               </div>
 
               <div className="blog-info">
-                <h2>Traditional methods of Rainwater Harvesting</h2>
-                <h4>1.Khadin(Rajasthan)</h4>
+                <h4>Types of Rainwater Collection</h4>
                 <p>
-                  A Khadin is an ingenious construction designed to harvest
-                  surface runoff water for agriculture. It is also called
-                  a dhora. The khadin system is based on the principle of
-                  harvesting rainwater on farmland and subsequent use of this
-                  water-saturated land for crop production.
+                  The storage and distribution equipment required determines the
+                  types of rainwater gathering. Collecting rainwater for
+                  personal use is as simple as placing a bucket outside.
+                </p>
+                <h5>Rooftop rain water harvesting </h5>
+                <p>
+                  The rain that falls on top of the roof is collected using a
+                  gutter and then diverted to a storage tank using a filter.
+                  This approach is straightforward and an excellent starting
+                  point for households that wish to capture rainwater for indoor
+                  and outdoor activities such as watering plants, cleaning, and
+                  personal hygiene.
                 </p>
                 <p>
-                  It is First designed by in western Rajasthan in the 15th
-                  century, its main feature is a very long (100-300 m) earthen
-                  embankment built across the lower hill slopes lying below
-                  gravelly uplands.
+                  A catch basin, such as a rain barrel, is installed beneath a
+                  building downspout to collect and store rainwater.
                 </p>
-
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/Khadin.jpg"></img>
-                </div>
-
-                <h4>2. Kund (Rajasthan and Gujarat)</h4>
                 <p>
-                  A Kund is a saucer-shaped catchment area that gently slope
-                  towards the central circular underground well. Its main
-                  purpose is to harvest rainwater for drinking. Kunds dot the
-                  sandier tracts of western Rajasthan and Gujarat.
-                  Traditionally, these well-pits were covered in disinfectant
-                  lime and ash.
-                </p>
-
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/kund.jpg"></img>
-                </div>
-
-                <h4>3. Taanka</h4>
-                <p>
-                  Taanka (small tank) is a traditional rainwater harvesting
-                  technique indigenous to the Thar desert region of Rajasthan
-                  (Bikaner). A Taanka is a cylindrical paved underground pit
-                  into which rainwater from rooftops, courtyards or artificially
-                  prepared catchments flows. Once the taanka is completely
-                  filled, the water stored in it can last throughout the dry
-                  season and is sufficient for a family of 5-6 members for
-                  drinking. In this way, the people of Bikaner were able to meet
-                  their water requirements.
+                  'Rainy' Dual Intensity Filters operate efficiently regardless
+                  of rainfall intensity and offer self-cleaning capabilities.
+                  Our filters are industry leaders in rooftop rainwater
+                  harvesting due to their low cost and high quality.
                 </p>
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/taanka.jpg"></img>
-                </div>
-
-                <h4>4. Jhalara </h4>
-                <p>
-                  Jhalaras are typically rectangular-shaped step wells with
-                  three or four tiered sides. The steps were constructed in
-                  stages.
-                </p>
-                <p>
-                  Jhalaras were man-made tanks found in Rajasthan and Gujarat
-                  that were built to conserve rainwater and ensure an easy and
-                  consistent supply of water for religious rites, royal
-                  ceremonies, and community use such as bathing and religious
-                  rites.
-                </p>
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/jalhara.jpg"></img>
-                </div>
-
-                <h4>5. Eri (Tamil Nadu)</h4>
-                <p>
-                  The Eri (tank) system of Tamil Nadu is one of the oldest water
-                  management systems in India. It played several important roles
-                  in maintaining ecological harmony as flood-control systems,
-                  preventing soil erosion and wastage of runoff during periods
-                  of heavy rainfall, and recharging the groundwater in the
-                  surrounding areas. Without Eris, paddy cultivation of Tamil
-                  Nadu would have been impossible. The Eri system is mostly
-                  present in all ancient temples of Tamil Nadu.
-                </p>
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/eri.jpg"></img>
+                  <img src="../../../static/images/blogs/beginnerGuideToSettingUp/3.png"></img>
                 </div>
               </div>
               <div className="blog-info">
-                <h3 style={{ margin: "20px" }}>
-                  Modern Rainwater Harvesting Techniques
-                </h3>
-                <h4>1. Recharging Borewells and Tubewells</h4>
+                <h5>Groundwater Recharge</h5>
                 <p>
-                  Borewells and tubewells are typically recharged by underground
-                  water. We can collect water to recharge the borewell by
-                  connecting the rain drainage pipe to a filter that leads to
-                  the borewell. The borewell water seeps through perforations in
-                  the walls and replenishes the ground water. And everyone
-                  around you eventually uses that ground water.
+                  A groundwater recharge system collects rainfall runoff at
+                  ground level. It is more complicated and necessitates the
+                  initial construction of a storage tank (often a cistern or
+                  reservoir), a pump, and distribution equipment such as pipes.
                 </p>
-                <h4>2. Rain Barrel</h4>
                 <p>
-                  The Rain Barrel is one of the simplest ways to collect
-                  rainwater. You simply attach the Rain barrel to the outlet of
-                  your rain drainage pipe. There aren't many specifications for
-                  a Rain Barrel. We must properly cover the Rain barrel so that
-                  it does not serve as a breeding ground for mosquitoes or other
-                  insects.
-                </p>
-                <h4>Rain pod – A rainwater harvesting barrel</h4>
-                <p>
-                  The Rain Pod allows you to collect rainwater with its unique
-                  design and features. It works similarly to a Rain barrel in
-                  that the Rain Pod collects water in a large tank and stands
-                  taller than a man, reaching to cover a large area around it
-                  and sprinkling it with water using nothing but gravity.
-                </p>
-                <h4>Rain Drops - Cheap rainwater harvesting system</h4>
-                <p>
-                  The Rain Drops system enables people to attach standard
-                  plastic bottles to an existing gutter system that has been
-                  installed to drain water from the roof. The water that flows
-                  through the gutter is thus collected in the bottles. Once the
-                  system is set up with a sufficient number of bottles, it can
-                  provide you with water for gardening and even hand washing.
-                </p>
-                <h4 style={{ margin: "20px" }}>Rainy filters</h4>
-                <p>
-                  Rainy Filters is operating from Bangalore to all the states in
-                  India and it is the one-pack solution for all the
-                  above-mentioned new technologies and methods. It is
-                  inexpensive, small, user-friendly, easy to handle, and simple
-                  to install. Rainy is a completely indigenous and
-                  patent-protected technology for dual-intensity rainwater
-                  harvesting filters. It employs roof-top water harvesting
-                  method, as well as well-maintained systems and solutions. For
-                  groundwater recharge, our innovation employs an injection well
-                  outfitted with "V-Wire Screens," which allow for replenishment
-                  of the groundwater source.
-                </p>
-                <h4 style={{ margin: "20px" }}>
-                  Rooftop Rainwater Harvesting Filters
-                </h4>
-                <p>
-                  Rainy's Dual Intensity filters work at high efficiency
-                  regardless of the intensity of rainfall and have self-cleaning
-                  abilities. At nominal prices, rainy’s filters are global
-                  market leaders in Rooftop Rainwater Harvesting.
+                  Rainy has invented a novel groundwater recharge method known
+                  as the 'V-wire injection well' technology. This enables the
+                  replenishment of the groundwater table at a very high speed
+                  when compared to conventional groundwater recharge, reducing
+                  water shortages.
                 </p>
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/ancVsMod1.jpg"></img>
+                  <img src="../../../static/images/blogs/beginnerGuideToSettingUp/4.png"></img>
                 </div>
-                <h4 style={{ margin: "20px" }}>Groundwater Recharging</h4>
+              </div>
+              <div className="bolg-info">
+                <h5>How Much Water Can You Collect?</h5>
                 <p>
-                  Rainy has developed a new method of groundwater recharge,
-                  called 'V-wire injection well' technology. This allows for the
-                  replenishment of the groundwater table, reducing water
-                  scarcity.
+                  If you want to install a rainwater collection system, follow
+                  these simple steps: When acquiring a rainwater harvesting
+                  system, you should assess your rainwater collecting capacity
+                  since it will influence several aspects, including the size of
+                  your rainwater tank. The Federal Energy Management Programme
+                  calculates the total amount of water gathered by rainwater
+                  collecting devices using the following formula: Catchment area
+                  (roof floorspace) x monthly rainfall (inches) x conversion
+                  factor (0.62) x collection factor (75%–90% to account for
+                  system losses) With an average monthly rainfall of 3 inches
+                  and a collection factor of 75%, the total water catchment for
+                  a 1,000-square-foot roof would be: 1,000 3 x 0.62 x 75% =
+                  1,395 litres each month, or 16,740 litres per year (minimum)
+                  Rainwater harvesting potential is computed by multiplying your
+                  catchment area (the surface area suitable to capture
+                  rainwater) by your average yearly precipitation. For Example,
+                  100 m2 (catchment area) x 1500mm per year (rainfall) = 150
+                  m3.(Because of the high quantities of filth and oil, the
+                  ground area is not deemed a suitable catchment.)
+                </p>
+              </div>
+              <div className="bolg-info">
+                <h5>How It Works: Capture, Store, Reuse</h5>
+                <p>
+                  The most basic rainwater harvesting systems involve a means of
+                  collecting rain (which might be as simple as a house's roof),
+                  a means of directing the water (such as a gutter and
+                  downspout), and a location to store the water (like a barrel).
+                  Water collected from a system this simple would only be
+                  acceptable for basic applications like watering a garden, fire
+                  suppression, or as grey water—like toilet bowl water—due to
+                  the absence of filtering and sufficient storage.
+                </p>
+                <p>
+                  A suitable storage tank (2,500 litres, 3,500 litres, 4,500
+                  litres (standard and shallow profiles are available), plus
+                  6,000 litres). Many people prefer shallow tanks because they
+                  require less excavation and are easier to maintain. A more
+                  elaborate system would contain a collecting system and
+                  multiple layers of filters to keep dirt and debris out of the
+                  water supply. Tanks should be designed to properly manage
+                  overflow water and constructed of materials that will not
+                  leach into the water and discourage bacteria development. That
+                  container should then be connected to a control system that
+                  may further filter the water for drinking-level purity if
+                  necessary, or at least to a water level monitor. Lastly, a
+                  pump to guide water, a flow metre, and a backflow prevention
+                  system would be required, all of which would need to be
+                  connected to a power supply.
                 </p>
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/ancVsMod2.jpg"></img>
+                  <img src="../../../static/images/blogs/beginnerGuideToSettingUp/5.png"></img>
                 </div>
-                <h4 style={{ margin: "20px" }}>Systems & Solutions</h4>
                 <p>
-                  Rainy provides a Custom made solution to suit your building or
-                  campus. Rainy’s expert engineers will help from design to
-                  execution of end-to-end Rainwater Harvesting solutions for
-                  your facility.
+                  Rainwater harvesting system schematic showing hose roof
+                  runoff, underground pipes, filtration, and collection in the
+                  tank for household use.
                 </p>
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/ancVsMod3.jpg"></img>
-                </div>
-                <h4 style={{ margin: "20px" }}>
-                  Key Technology & Innovation Highlights of Rainy Filters
-                </h4>
-                <p>
+              </div>
+              <div className="bolg-info">
+                <h4>Harvested Rainwater uses</h4>
+                <h5>Outdoor Uses:</h5>
+                <ul style={{ listStyle: "bullet" }}>
+                  <li>Gardens and landscaping</li>
+                  <li>Swimming pools</li>
+                  <li>Livestock water or dog washing </li>
                   <li>
-                    {" "}
-                    It indirectly reduces power consumed in pumping and checks
-                    over-exploitation of groundwater by establishing water
-                    neutrality.
+                    Household duties like washing motor vehicles and cars etc.
                   </li>
-                </p>
+                  <li>Water features such as bird baths or fountains</li>
+                  <li>Fire suppression or emergency water</li>
+                  <li>Cleaning buildings</li>
+                </ul>
+                <h5>Indoor Uses:</h5>
+                <ul style={{ listStyle: "bullet" }}>
+                  <li>Washing machine</li>
+                  <li>Dishwasher</li>
+                  <li>Hot tub, bath, or shower</li>
+                  <li>Toilet Flushing</li>
+                  <li>Utility sink</li>
+                </ul>
+              </div>
+              <div className="blog-info">
+                <h5>Conclusion</h5>
                 <p>
-                  <li>
-                    • A team of professionals with over 20 years of hands-on
-                    experience in the RWH industry enables cutting-edge
-                    continuous innovation in RWH solutions.
-                  </li>
-                </p>
-                <p>
-                  <li>
-                    • Rainy filter’s Live Demonstration vehicles on RWH are
-                    deployed all over the country to spread awareness and show a
-                    glimpse of the varied benefits that RWH has in water
-                    conservation..
-                  </li>
-                </p>
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/liveDemo.png"></img>
-                </div>
-                <h4 style={{ margin: "20px" }}>
-                  Advantages of Modern Rainwater Harvesting
-                </h4>
-                <p>
-                  Harvesting rainwater can reduce erosion around downspouts and
-                  in gardens. It can also control stormwater runoff and reduce
-                  flooding.
-                </p>
-                <p>
-                  Rainwater doesn’t produce scale and corrosion as hard water
-                  does. Rainwater harvesting helps individuals save on their
-                  water bills and the cost to supply mains and overall water
-                  services can be substantially reduced when many people in one
-                  community use rainwater.
-                </p>
-                <p>
-                  Harvested rainwater reduces demand on ground water as
-                  rainwater can be stored and then used during times of drought
-                  and when the groundwater supplies are increasingly being
-                  strained and depleted.
-                </p>
-                <p>
-                  Rainwater is soft and can lessen the need for detergents when
-                  washing clothes and dishes. Rainwater can also be used for
-                  washing vehicles, bathing, and flushing toilets, and nearly
-                  all cleaning that uses water.
-                </p>
-                <p>
-                  Rainwater harvesting can also be used to improve plants and
-                  gardens as it is generally free from several types of
-                  pollutants and man-made contaminants. Rain is also free from
-                  chlorination. Using clean and healthy rainwater for plants and
-                  trees can save money on overall property maintenance and
-                  landscaping needs.
-                </p>
-                <h4>Disadvantages of Traditional Rainwater Harvesting</h4>
-                <p>
-                  Digging deeper wells is not only expensive but can cause
-                  environmental damage, such as collapsing the soil where the
-                  water used to be. Rainfall is hard to predict, and throughout
-                  the year (depending on where you are), you may experience
-                  little or no rainfall. This means it’s not recommended to rely
-                  solely on rainwater alone for all your water needs.
-                </p>
-                <p>
-                  Depending on the system’s size and the methods used,
-                  installing a rainwater harvesting system is expensive and
-                  construction techniques and material cost also very expensive.
-                  Rainwater harvesting systems necessitate regular maintenance
-                  and upkeep because tanks, jhalara, and kunds are larger in
-                  area and size in traditional methods. Furthermore, they are
-                  vulnerable to rodents, algae growth, and insects.
-                </p>
-                <p>
-                  The barrels or tanks can only hold limited water. So, during a
-                  very heavy downpour or storm, and once the catchment is full,
-                  the system may not be able to hold all the rainwater. The
-                  excess rainwater overflows and then ends up going into drains
-                  and rivers anyway.
-                </p>
-                <p>
-                  Certain chemicals, insects, dirt, or animal droppings leach
-                  into the reserved water. If you use the harvested water to
-                  water your garden, these substances can harm the plants or
-                  your lawn. It is critical to keep this in mind when installing
-                  a rainwater harvesting system.
-                </p>
-                <h5>Conclusion:</h5>
-                <p>
-                  Rainwater harvesting is the most efficient and eco-friendly
-                  technique to reduce water scarcity. It is the collection and
-                  storage of rain, rather than allowing it to run off and can be
-                  used for household works, watering gardens, livestock,
-                  irrigation, and domestic uses. Water Harvesting can also
-                  reduce Global Warming and improves the hydrological cycle on
-                  earth.
+                  The most efficient and advantageous way of water conservation
+                  is rainwater gathering. The capacity of a rainwater collection
+                  system to meet the demands of the site and its users
+                  preferences determines its success. Rainy Filters offers the
+                  greatest options for establishing rainwater collection
+                  systems. Rainwater harvesting has various advantages and
+                  applications; however, harvesting systems must be operational
+                  and maintained to ensure water purity. Water must also be
+                  washed and filtered before use.
                 </p>
               </div>
             </div>
