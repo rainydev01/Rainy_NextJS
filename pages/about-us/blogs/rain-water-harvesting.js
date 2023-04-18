@@ -5,7 +5,7 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import React from "react";
 
-export default function Home() {
+export default function BenifitsOfRainwaterHarvesting() {
   return (
     <Fragment>
       <Head>
@@ -24,10 +24,19 @@ export default function Home() {
         `,
           }}
         />
-        <title>The Benefits of Rain Water Harvesting: Save Money and Conserve Water | Rainyfilters</title>
-	<meta name="description" content="Learn how rainwater harvesting can reduce water bills, promote self-sustainability, and benefit the environment. Discover tips for maintaining your system. Start collecting rainwater today!"/>
-        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting"/>
-	<link
+        <title>
+          The Benefits of Rain Water Harvesting: Save Money and Conserve Water |
+          Rainyfilters
+        </title>
+        <meta
+          name="description"
+          content="Learn how rainwater harvesting can reduce water bills, promote self-sustainability, and benefit the environment. Discover tips for maintaining your system. Start collecting rainwater today!"
+        />
+        <link
+          rel="canonical"
+          href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting"
+        />
+        <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
@@ -89,12 +98,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="hero-image enthroimg">
               <img
                 src="../../static/images/blogs/benefitsOfWaterHarvestingBackground.png"
-                style={{ }}
+                style={{}}
               />
               <div className="hero-text inthemedia">
-                <h1 style={{ textAlign: "center" }}>
-                  
-                </h1>
+                <h1 style={{ textAlign: "center" }}></h1>
               </div>
             </div>
           </div>
@@ -133,8 +140,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 Rainwater harvesting can be done on a small scale, such as with
                 a rain barrel, or at a larger scale, such as with a cistern
                 either way, it is a great way to save water and reduce your
-                water bill. There are many <a href="https://www.rainyfilters.com/">benefits of rainwater harvesting.</a> It
-                can help reduce flooding, recharge groundwater resources, and
+                water bill. There are many{" "}
+                <a href="https://www.rainyfilters.com/">
+                  benefits of rainwater harvesting.
+                </a>{" "}
+                It can help reduce flooding, recharge groundwater resources, and
                 even provide an alternative water source during droughts. It is
                 also a sustainable and environmentally friendly way to conserve
                 water. Keep reading to learn more about rainwater harvesting and

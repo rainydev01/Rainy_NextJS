@@ -6,7 +6,7 @@ import Footer from "../../../components/Footer";
 import React from "react";
 import { LivejournalIcon } from "react-share";
 
-export default function GlobalWarming() {
+export default function GlobalWaterScarcity() {
   return (
     <Fragment>
       <Head>
@@ -25,10 +25,7 @@ export default function GlobalWarming() {
         `,
           }}
         />
-        <title>
-          How Water Harvesting Can Reduce Global Warming: An In-Depth Analysis |
-          Rainyfilters
-        </title>
+        <title>Global Water Scarcity</title>
         <meta
           name="description"
           content="Learn how water harvesting can help combat global warming and its devastating impacts. Discover the effects of climate change on water resources and the environment, and find out how you can take action to reduce your carbon footprint and make a positive impact on the planet."

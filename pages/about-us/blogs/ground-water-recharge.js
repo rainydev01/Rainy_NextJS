@@ -5,7 +5,7 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import React from "react";
 
-export default function Home() {
+export default function GlobalWaterRecharge() {
   return (
     <Fragment>
       <Head>
@@ -24,10 +24,18 @@ export default function Home() {
         `,
           }}
         />
-        <title>Groundwater Recharge: The Key to Sustainable Water Management</title>
-	<meta name="description" content="Learn about the methods of groundwater recharge and how they can help to maintain and increase the levels of depleting groundwater resources. Discover the benefits of artificial and natural groundwater recharge methods, including ensuring long-term groundwater, preventing evaporation losses, and enhancing the quality of water in saline aquifers. Get to know the V-Wire Injection Well Technology, a modern technique that can rapidly recharge groundwater and recover water levels in the Aquifer."/>
-        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/ground-water-recharge"/>
-	<link
+        <title>
+          Groundwater Recharge: The Key to Sustainable Water Management
+        </title>
+        <meta
+          name="description"
+          content="Learn about the methods of groundwater recharge and how they can help to maintain and increase the levels of depleting groundwater resources. Discover the benefits of artificial and natural groundwater recharge methods, including ensuring long-term groundwater, preventing evaporation losses, and enhancing the quality of water in saline aquifers. Get to know the V-Wire Injection Well Technology, a modern technique that can rapidly recharge groundwater and recover water levels in the Aquifer."
+        />
+        <link
+          rel="canonical"
+          href="https://www.rainyfilters.com/about-us/blogs/ground-water-recharge"
+        />
+        <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
@@ -89,7 +97,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="hero-image enthroimg">
               <img
                 src="../../static/images/blogs/groundWaterReachargeBackground.png"
-                style={{ }}
+                style={{}}
               />
               <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}></h1>
@@ -249,10 +257,12 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   as recharge wells.
                 </p>
                 <p>
-                  <a href="https://www.rainyfilters.com/products/ground-water-recharge"><b>Artificial point source groundwater recharge</b></a> is beyond the
-                  water percolating method or inject deep into the earth. This
-                  undergoes a treatment process by changing its composition
-                  while infiltrating down to the ground.
+                  <a href="https://www.rainyfilters.com/products/ground-water-recharge">
+                    <b>Artificial point source groundwater recharge</b>
+                  </a>{" "}
+                  is beyond the water percolating method or inject deep into the
+                  earth. This undergoes a treatment process by changing its
+                  composition while infiltrating down to the ground.
                 </p>
                 <p>
                   The water is being pre-treated before directed into the
@@ -301,7 +311,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <div className="blogImg hero-image enthroimg">
                 <img
                   src="../../../static/images/blogs/injectionWell.jpg"
-                  style={{ }}
+                  style={{}}
                 ></img>
               </div>
               <div className="content">
