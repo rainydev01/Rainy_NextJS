@@ -31,7 +31,7 @@ export default function BestPracticeForMaintaining() {
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/blogs/ancient-method-vs-modern-technology"
+          href="https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
         />
         <link
           rel="stylesheet"

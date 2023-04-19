@@ -32,7 +32,7 @@ export default function GlobalWaterScarcity() {
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/blogs/global-warming"
+          href="https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
         />
         <link
           rel="stylesheet"

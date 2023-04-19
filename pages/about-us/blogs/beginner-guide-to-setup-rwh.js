@@ -25,13 +25,10 @@ export default function BeginnerGuideToSetUp() {
           }}
         />
         <title>Beginner Guide To Set Up RWH</title>
-        <meta
-          name="description"
-          content="Discover the best methods of traditional rainwater harvesting that have been practised for centuries and modern techniques to collect and conserve rainwater. Learn about kund, khadin, taanka, jhalara, and eri as traditional methods and recharging borewells, rain barrels, Rain Pod, Rain Drops, Rooftop Rainwater Harvesting Filters, Groundwater Recharging, and Systems & Solutions as contemporary techniques. Explore how Rainy Filters offers a complete and innovative solution for dual-intensity rainwater harvesting filters, rooftop rainwater harvesting filters, groundwater recharging, and end-to-end Rainwater Harvesting solutions for your facility."
-        />
+
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/blogs/ancient-method-vs-modern-technology"
+          href="https://www.rainyfilters.com/about-us/blogs/beginner-guide-to-setup-rwh"
         />
         <link
           rel="stylesheet"
@@ -107,9 +104,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <p
                 className="team-heading media-hdng blue_underline"
                 style={{ textAlign: "center", font: "" }}
-              >
-                {/* STORIES , INSIGHTS , and ANNOUNCEMENTS FROM RAINY */}
-              </p>
+              ></p>
             </div>
 
             <div className="blog-content">

@@ -28,11 +28,11 @@ export default function RainyRainwaterHarvestingFilters() {
         <title>Rainy Rain Water Harvesting Filters</title>
         <meta
           name="description"
-          content="Learn how water harvesting can help combat global warming and its devastating impacts. Discover the effects of climate change on water resources and the environment, and find out how you can take action to reduce your carbon footprint and make a positive impact on the planet."
+          content="Rainwater harvesting systems are one of the best methods practiced and followed to support the conservation of water."
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/blogs/global-warming"
+          href="https://www.rainyfilters.com/about-us/blogs/rainy-rainwater-harvesting-filters"
         />
         <link
           rel="stylesheet"
