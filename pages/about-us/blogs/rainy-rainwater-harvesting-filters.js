@@ -6,7 +6,7 @@ import Footer from "../../../components/Footer";
 import React from "react";
 import { LivejournalIcon } from "react-share";
 
-export default function RainyRainwaterHarvestingFilters() {
+export default function RainyRainwawterHarvestingFilter() {
   return (
     <Fragment>
       <Head>
@@ -25,14 +25,14 @@ export default function RainyRainwaterHarvestingFilters() {
         `,
           }}
         />
-        <title>Rainy Rain Water Harvesting Filters</title>
+        <title>Rainy Rainwater Harvesting Filter</title>
         <meta
           name="description"
-          content="Rainwater harvesting systems are one of the best methods practiced and followed to support the conservation of water."
+          content="Learn how water harvesting can help combat global warming and its devastating impacts. Discover the effects of climate change on water resources and the environment, and find out how you can take action to reduce your carbon footprint and make a positive impact on the planet."
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/blogs/rainy-rainwater-harvesting-filters"
+          href="https://www.rainyfilters.com/about-us/blogs/rainy-rainwater-harvesting-filter"
         />
         <link
           rel="stylesheet"
@@ -87,6 +87,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           }}
         />
       </Head>
+
       <main>
         <div className="App">
           {/*<h1> Media</h1>*/}
@@ -344,12 +345,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               </div>
             </div>
           </div>
-          {/* {newsArticle} */}
 
           <Footer />
         </div>
       </main>
-
       <footer />
     </Fragment>
   );
