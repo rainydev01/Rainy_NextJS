@@ -38,7 +38,7 @@ const OpenPostionsSlider = () => {
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
-                  <img src="../static/images/career/sales-executive-500x500.jpg" />
+                  <img src="../../static/images/career/1.png" />
                 </div>
                 <div className="mdiacont">
                   <div className="grndtext">
@@ -104,7 +104,7 @@ const OpenPostionsSlider = () => {
               <div className="sec-brdr">
                 <div className="mdiaimg">
                   <img
-                    src="../static/images/career/marketingexecutive.jpg"
+                    src="../../static/images/career/2.png"
                     style={{
                       height: "196px",
                     }}
