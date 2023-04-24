@@ -93,7 +93,22 @@ const Header = () => {
                   </div>
                 </li>
                 <li>
-                  <a href="/gallery"> Gallery</a>
+                  <a
+                    href="#"
+                    className="dropdown-toggle"
+                    data-toggle="dropdown"
+                  >
+                    Gallery
+                  </a>
+                  <div className="dropdown-menu dropdown-menu-tip-nw">
+                    <a href="/Gallery/gallery" className="dropdown-item">
+                      Photo Gallery
+                    </a>
+                    {/* <a href="/Gallery/VideoView" className="dropdown-item">
+                      Video Gallery
+                    </a> */}
+                  </div>
+                  {/* <a href="/gallery"> Gallery</a> */}
                 </li>
                 <li>
                   <a href="/Careers/careers">

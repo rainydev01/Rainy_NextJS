@@ -3,13 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-// import ImageSliderTeam from "../../components/ImageSliderTeam";
-import ImageSliderCareers from "../Careers/imageSliderCareers";
-import ImageSliderArticles from "../../components/ImageSliderForCareers";
-import OpenPostionsSlider from "./openPositions";
-
 import WorkCulture from "../Careers/workCulture";
-
+import OpenPostionsSlider from "./openPositions";
 export default function Home() {
   return (
     <Fragment>
@@ -101,13 +96,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
               <img src="../../static/images/career/careerPageBanner.png" />
-              {/* <div className="hero-text entteamtxt">
-                <h1>CAREERS AT RAINY</h1>
-              </div> */}
             </div>
           </div>
 
-          <div className="container-fluid groundwater_bg team">
+          <div
+            className="container-fluid groundwater_bg team"
+            style={{ marginBottom: "-50px" }}
+          >
             <div className="container">
               <h2 className="team-heading"></h2>
               <p className="team-para">
@@ -126,13 +121,11 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               </p>
             </div>
           </div>
-
-          <ImageSliderCareers></ImageSliderCareers>
           <WorkCulture></WorkCulture>
 
           <div className="container-fluid groundwater_bg team" style={{}}>
             <div className="container">
-              <OpenPostionsSlider></OpenPostionsSlider>
+              <OpenPostionsSlider />
             </div>
           </div>
           <Footer />

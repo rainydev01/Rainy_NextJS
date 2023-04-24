@@ -1,8 +1,8 @@
 import { Fragment, useState, useCallback } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import Gallery from "react-photo-gallery";
 
 import Carousel, { Modal, ModalGateway } from "react-images";

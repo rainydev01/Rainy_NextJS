@@ -43,10 +43,8 @@ const OpenPostionsSlider = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a href="" target="_blank">
-                        Sales Executive
-                        <br />
-                      </a>
+                      Sales Executive
+                      <br />
                     </h3>
                     <p
                       style={{
@@ -76,44 +74,30 @@ const OpenPostionsSlider = () => {
                       advantage).Location: Chikmagalur
                       <br></br>
                     </p>
-                    {/* <div className='col-md-12 mdiasocial'>
-											<div className='col-md-6 applybtn'>
-												<button>
-													<a
-														href='https://forms.gle/zccXZERjuPJ8PKYK7'
-														target='_blank'
-													>
-														Apply Now
-													</a>
-													{'  '}
-													
-												</button>
-											</div>
-										</div> */}
-                    <button
-                      style={{
-                        width: "100%",
-                        borderRadius: "",
-                        paddingBottom: "",
-                        marginBottom: "",
-                        borderRadius: "5px",
-                        background: "rgb(9,113,183)",
-                      }}
-                    >
-                      <a
-                        href="https://forms.gle/zccXZERjuPJ8PKYK7"
-                        target="_blank"
-                        style={{
-                          color: "white",
-                        }}
-                      >
-                        Apply Now
-                      </a>
-                      {"  "}
-                    </button>
                   </div>
                 </div>
               </div>
+              <button
+                style={{
+                  width: "100%",
+                  padding: "5px",
+                  marginTop: "5px",
+                  marginBottom: "25px",
+                  borderRadius: "5px",
+                  background: "rgb(70,171,226)",
+                }}
+              >
+                <a
+                  href="https://forms.gle/FesiA7xBLUCRiYFp9"
+                  target="_blank"
+                  style={{
+                    color: "white",
+                  }}
+                >
+                  Apply Now
+                </a>
+                {"  "}
+              </button>
             </div>
 
             <div className="col-md-4">
@@ -129,13 +113,8 @@ const OpenPostionsSlider = () => {
                 <div className="mdiacont">
                   <div className="grndtext">
                     <h3>
-                      <a
-                        href="https://medium.com/@aravie12121/the-benefits-of-rain-water-harvesting-why-you-should-start-collecting-rain-water-281609160484"
-                        target="_blank"
-                      >
-                        Marketing Executive
-                        <br />
-                      </a>
+                      Marketing Executive
+                      <br />
                     </h3>
                     <p
                       style={{
@@ -155,35 +134,34 @@ const OpenPostionsSlider = () => {
                       sales team in right direction for optimising sales.
                       <br></br>
                     </p>
-                    <button
-                      style={{
-                        width: "100%",
-                        borderRadius: "",
-                        paddingBottom: "",
-                        marginBottom: "10px",
-                        borderRadius: "5px",
-                        background: "rgb(9,113,183)",
-                      }}
-                    >
-                      <a
-                        href="https://forms.gle/zccXZERjuPJ8PKYK7"
-                        target="_blank"
-                        style={{
-                          color: "white",
-                        }}
-                      >
-                        Apply Now
-                      </a>
-                      {"  "}
-                    </button>
                   </div>
                 </div>
               </div>
+              <button
+                style={{
+                  width: "100%",
+                  padding: "5px",
+                  marginTop: "5px",
+                  marginBottom: "25px",
+                  borderRadius: "5px",
+                  background: "rgb(70,171,226)",
+                }}
+              >
+                <a
+                  href="https://forms.gle/FesiA7xBLUCRiYFp9"
+                  target="_blank"
+                  style={{
+                    color: "white",
+                  }}
+                >
+                  Apply Now
+                </a>
+                {"  "}
+              </button>
             </div>
           </div>
         </div>
       </Carousel>
-      ;
     </Fragment>
   );
 };
