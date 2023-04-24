@@ -5031,6 +5031,13 @@
     "prop-types" "^15.6.2"
     "scheduler" "^0.19.1"
 
+"react-easy-swipe@^0.0.21":
+  "integrity" "sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg=="
+  "resolved" "https://registry.npmjs.org/react-easy-swipe/-/react-easy-swipe-0.0.21.tgz"
+  "version" "0.0.21"
+  dependencies:
+    "prop-types" "^15.5.8"
+
 "react-fast-compare@^3.0.1":
   "integrity" "sha512-xTYf9zFim2pEif/Fw16dBiXpe0hoy5PxcD8+OwBnTtNLfIm3g6WxhKNurY+6OmdH1u6Ta/W/Vl6vjbYP1MFnDg=="
   "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.1.tgz"
@@ -5067,6 +5074,11 @@
   dependencies:
     "@types/react" "*"
     "fscreen" "^1.0.1"
+
+"react-icons@^4.8.0":
+  "integrity" "sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.8.0.tgz"
+  "version" "4.8.0"
 
 "react-images@^1.1.7":
   "integrity" "sha512-9paR4bdP/SPTbJ/8cLa6+7+pcq8PGN4/8UjTfztQKBRzGxH0BtHrB7oj/7As2RmYMkOsVIMNfDaWzZZK4faIRA=="
@@ -5109,10 +5121,10 @@
     "prop-types" "^15.5.8"
     "raf" "^3.1.0"
 
-"react-multi-carousel@^2.8.2":
-  "integrity" "sha512-M9Y7DfAp8bA/r6yexttU6RLA7uyppje4c0ELRuCHZWswH+u7nr0uVP6qHNPjc4XGOEY1MYFOb5nBg7JvoKutuQ=="
-  "resolved" "https://registry.npmjs.org/react-multi-carousel/-/react-multi-carousel-2.8.2.tgz"
-  "version" "2.8.2"
+"react-multi-carousel@^2.8.3":
+  "integrity" "sha512-wpHwq9Y/ydX+5yxpW8250jMOtg8NuBVlFrDTuS5/MdN0uD0zFIHxVbXhzzc4WFeQl6bn9ZLo8Fef2Ik5aBRgmw=="
+  "resolved" "https://registry.npmjs.org/react-multi-carousel/-/react-multi-carousel-2.8.3.tgz"
+  "version" "2.8.3"
 
 "react-photo-gallery@^8.0.0":
   "integrity" "sha512-Y9458yygEB9cIZAWlBWuenlR+ghin1RopmmU3Vice8BeJl0Se7hzfxGDq8W1armB/ic/kphGg+G1jq5fOEd0sw=="
@@ -5161,6 +5173,15 @@
     "tslib" "^1.0.0"
     "use-callback-ref" "^1.2.3"
     "use-sidecar" "^1.0.1"
+
+"react-responsive-carousel@^3.2.23":
+  "integrity" "sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg=="
+  "resolved" "https://registry.npmjs.org/react-responsive-carousel/-/react-responsive-carousel-3.2.23.tgz"
+  "version" "3.2.23"
+  dependencies:
+    "classnames" "^2.2.5"
+    "prop-types" "^15.5.8"
+    "react-easy-swipe" "^0.0.21"
 
 "react-select@^3.1.0":
   "integrity" "sha512-wBFVblBH1iuCBprtpyGtd1dGMadsG36W5/t2Aj8OE6WbByDg5jIFyT7X5gT+l0qmT5TqWhxX+VsKJvCEl2uL9g=="
@@ -5236,7 +5257,7 @@
     "resize-observer-polyfill" "1.5.0"
     "tabbable" "1.1.2"
 
-"react@^0.14 || ^15 || ^16", "react@^0.14.0 || ^15.0.1 || ^16.0.0", "react@^0.14.9 || ^15.3.0 || ^16.0.0", "react@^0.14.9 || ^15.3.0 || ^16.0.0-rc || ^16.0", "react@^15.3.0 || ^16.0.0", "react@^15.3.0 || ^16.2.0", "react@^15.6 || ^16", "react@^16.13.1", "react@^16.3.0", "react@^16.6.0", "react@^16.8.0", "react@^16.9.0", "react@>= 0.14.0 < 18.0.0", "react@>=15.0.0", "react@>=16.3.0", "react@>=16.6.0", "react@0.14.x || ^15.0.0 || ^16.0.0", "react@15.x.x || 16.x.x":
+"react@*", "react@^0.14 || ^15 || ^16", "react@^0.14.0 || ^15.0.1 || ^16.0.0", "react@^0.14.9 || ^15.3.0 || ^16.0.0", "react@^0.14.9 || ^15.3.0 || ^16.0.0-rc || ^16.0", "react@^15.3.0 || ^16.0.0", "react@^15.3.0 || ^16.2.0", "react@^15.6 || ^16", "react@^16.13.1", "react@^16.3.0", "react@^16.6.0", "react@^16.8.0", "react@^16.9.0", "react@>= 0.14.0 < 18.0.0", "react@>=15.0.0", "react@>=16.3.0", "react@>=16.6.0", "react@0.14.x || ^15.0.0 || ^16.0.0", "react@15.x.x || 16.x.x":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"

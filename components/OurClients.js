@@ -6,7 +6,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className="slick-arrow-right"
-      style={{ ...style, display: "block" }}
+      style={{ ...style, display: "block", right: "10px", zIndex: 1 }}
       onClick={onClick}
     >
       <i className="fa fa-chevron-right" aria-hidden="true"></i>
@@ -19,7 +19,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className="slick-arrow-left"
-      style={{ ...style, display: "block" }}
+      style={{ ...style, display: "block", left: "10px", zIndex: 1 }}
       onClick={onClick}
     >
       <i className="fa fa-chevron-left" aria-hidden="true"></i>
@@ -29,6 +29,31 @@ function SamplePrevArrow(props) {
 
 export default class CustomArrows extends Component {
   render() {
+    const images = [
+      "../static/images/clients/1.png",
+      "../static/images/clients/2.png",
+      "../static/images/clients/3.png",
+      "../static/images/clients/4.png",
+      "../static/images/clients/5.png",
+      "../static/images/clients/6.png",
+      "../static/images/clients/7.png",
+      "../static/images/clients/8.png",
+      "../static/images/clients/9.png",
+      "../static/images/clients/10.png",
+      "../static/images/clients/11.png",
+      "../static/images/clients/12.png",
+      "../static/images/clients/13.png",
+      "../static/images/clients/14.png",
+      "../static/images/clients/15.png",
+      "../static/images/clients/16.png",
+      "../static/images/clients/17.png",
+      "../static/images/clients/18.png",
+      "../static/images/clients/19.png",
+      "../static/images/clients/20.png",
+      "../static/images/clients/21.png",
+      "../static/images/clients/22.png",
+      "../static/images/clients/23.png",
+    ];
     const settings = {
       dots: true,
       infinite: true,
@@ -83,165 +108,14 @@ export default class CustomArrows extends Component {
         </div>
         <Slider {...settings}>
           <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/1.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/2.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/3.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/4.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/5.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/6.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/7.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/8.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/9.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/10.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/11.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/12.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/13.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/14.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/15.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/16.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/17.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/18.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/19.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/20.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/21.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/22.png"
-            />
-          </div>
-          <div className="col-md-2">
-            <img
-              height="100"
-              width="190"
-              src="../static/images/clients/23.png"
-            />
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt="carousel"
+                style={{ width: "50%", height: "50%", margin: "40px" }}
+              />
+            ))}
           </div>
         </Slider>
       </div>

@@ -11,6 +11,9 @@ import FilterToSelect from "../components/FilterToSelect";
 import GroundWaterRecharging from "../components/GroundWaterRecharging";
 import OurClients from "../components/OurClientsMulti";
 import ViedoView from "../components/VideoView";
+import MultiCarousel from "../components/OurClientsNew";
+import Slider from "react-slick";
+import ImageSliderMultiClients from "../components/OurClientsNewMulti";
 export default function Home() {
   return (
     <Fragment>
@@ -147,7 +150,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <RWHFilters />
           <FilterToSelect />
           <GroundWaterRecharging />
-          <OurClients />
+          <ImageSliderMultiClients />
           {/* <ViedoView />  */}
           <Footer />
         </div>
