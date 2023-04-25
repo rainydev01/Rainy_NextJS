@@ -42,7 +42,8 @@ const FilterToSelect = () => {
 
       setShowButton(true);
     }
-    if (inputValue <= 120) {
+    if (inputValue <= 1292) {
+      //120
       setButonValue({
         name: "FL-80",
         url: "products/rainy-filters",
@@ -51,7 +52,8 @@ const FilterToSelect = () => {
       setShowButton(true);
     }
 
-    if (inputValue > 120 && inputValue <= 180) {
+    if (inputValue > 1292 && inputValue <= 1937) {
+      //120 - 180
       setButonValue({
         name: "FL-150",
         url: "products/rainy-filters",
@@ -59,7 +61,8 @@ const FilterToSelect = () => {
 
       setShowButton(true);
     }
-    if (inputValue > 180 && inputValue <= 250) {
+    if (inputValue > 1937 && inputValue <= 2691) {
+      //180 - 250
       setButonValue({
         name: "FL-250",
         url: "products/rainy-filters",
@@ -67,7 +70,8 @@ const FilterToSelect = () => {
       //180 to 250
       setShowButton(true);
     }
-    if (inputValue > 250 && inputValue <= 350) {
+    if (inputValue > 2691 && inputValue <= 3629) {
+      //250-350
       setButonValue({
         name: "FL-300",
         url: "products/rainy-filters",
@@ -76,7 +80,8 @@ const FilterToSelect = () => {
       setShowButton(true);
     }
 
-    if (inputValue > 350 && inputValue <= 500) {
+    if (inputValue > 3629 && inputValue <= 5184) {
+      //350-500
       setButonValue({
         name: "FL-500",
         url: "products/rainy-filters",
@@ -84,7 +89,8 @@ const FilterToSelect = () => {
 
       setShowButton(true);
     }
-    if (inputValue > 500) {
+    if (inputValue > 5184) {
+      //500
       setButonValue({
         name: "Custom Solution",
         url: "/contact-us/enquire",
@@ -107,7 +113,7 @@ const FilterToSelect = () => {
                   type="number"
                   min="0"
                   name="rooftop"
-                  placeholder="Enter Rooftop Area in Square Meters"
+                  placeholder="Enter Rooftop Area in Square Feet"
                   value={inputValue}
                   onChange={onChangeHandler}
                 />

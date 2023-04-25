@@ -329,7 +329,6 @@ const ImageSliderBLogNew = () => {
                         >
                           <i className="fa fa-facebook" aria-hidden="true" />
                         </FacebookShareButton>
-
                         <TwitterShareButton
                           url={
                             "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
