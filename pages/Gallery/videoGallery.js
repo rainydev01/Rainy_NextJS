@@ -109,7 +109,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <div className="large-video">
                 <ReactPlayer
                   width={"100%"}
-                  height="800px"
+                  height="500px"
                   url="https://www.youtube.com/watch?v=eI0Y1NltlCI"
                 />
               </div>

@@ -984,11 +984,11 @@ h5.mb-0.mb0diff {
 .video-gallery-main-container {
   max-width: 100%;
   margin: 30px;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 .large-video-container {
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 .large-video {
@@ -996,22 +996,21 @@ h5.mb-0.mb0diff {
   margin: 20px;
   border-radius: 10px;
   /* padding: 30px; */
-  box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1);
+  /* box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1);
   -webkit-box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1);
-  -moz-box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1);
+  -moz-box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1); */
 }
 .small-video-container {
-  width: 30%;
+  width: 80%;
+  display: flex;
   margin: auto;
+  padding-left: 25px;
 }
 .small-video {
   /* padding: 10px; */
   width: 100%;
-  margin: 10px;
+  margin: 20px;
   border-radius: 10px;
-  box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1);
-  -webkit-box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1);
-  -moz-box-shadow: -1px 0px 72px 21px rgba(70, 171, 226, 1);
 }
 
 /* career page */
@@ -1041,7 +1040,6 @@ h5.mb-0.mb0diff {
 @media screen and (max-width: 740px) and (min-width: 360px) {
   .video-gallery-main-container {
     max-width: 100%;
-    flex: none;
   }
   .large-video-container {
     display: none;
@@ -1052,6 +1050,11 @@ h5.mb-0.mb0diff {
     margin: 0%;
   }
   .small-video-container {
+    width: 100%;
+    margin: auto;
+    display: list-item;
+  }
+  .small-video {
     width: 100%;
     margin: auto;
   }

@@ -32,7 +32,7 @@ export default function RainyRainwawterHarvestingFilter() {
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/blogs/rainy-rainwater-harvesting-filter"
+          href="https://www.rainyfilters.com/about-us/blogs/rainy-rainwater-harvesting-filters"
         />
         <link
           rel="stylesheet"
