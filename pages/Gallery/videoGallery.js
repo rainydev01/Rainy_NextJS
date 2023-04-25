@@ -110,7 +110,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <ReactPlayer
                   width={"100%"}
                   height="500px"
-                  url="https://www.youtube.com/watch?v=eI0Y1NltlCI"
+                  url="https://www.youtube.com/watch?v=I4V0QiyKAYs&t=11s"
                 />
               </div>
             </div>
@@ -120,7 +120,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <ReactPlayer
                   width={"100%"}
                   height={"250px"}
-                  url="https://www.youtube.com/watch?v=jJx4_LeaM_0"
+                  url="https://www.youtube.com/watch?v=ViNSf_wiM2E"
                 />
               </div>
               <div className="small-video">
@@ -128,7 +128,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <ReactPlayer
                   width={"100%"}
                   height="250px"
-                  url="https://www.youtube.com/watch?v=WT-yeLKWA3s"
+                  url="https://www.youtube.com/watch?v=jJx4_LeaM_0&t=43s"
                 />
               </div>
               <div className="small-video">
@@ -136,7 +136,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <ReactPlayer
                   width={"100%"}
                   height="250px"
-                  url="https://www.youtube.com/watch?v=JZGWpXrKOEc"
+                  url="https://www.youtube.com/watch?v=gcD3UMdTs94"
                 />
               </div>
             </div>
