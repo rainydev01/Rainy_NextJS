@@ -33,7 +33,7 @@ export default function SimplycityInRainwaterHarvesting() {
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/blogs/simplicity-in-rainwater-harvesting"
+          href="https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
         />
         <link
           rel="stylesheet"

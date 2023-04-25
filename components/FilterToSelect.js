@@ -105,6 +105,7 @@ const FilterToSelect = () => {
 
                 <input
                   type="number"
+                  min="0"
                   name="rooftop"
                   placeholder="Enter Rooftop Area in Square Meters"
                   value={inputValue}
