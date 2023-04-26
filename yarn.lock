@@ -5145,6 +5145,11 @@
     "prop-types" "^15.7.2"
     "react-fast-compare" "^3.0.1"
 
+"react-progress-bar@^0.1.0":
+  "integrity" "sha512-ZlZE+6PsIAeI6KjPJ4M2YMkByqLpTvw3Nqi+6izISDzl2++laeCIYKUaOtgMa7WpG+uXDvBjV5blt61P3LPvZQ=="
+  "resolved" "https://registry.npmjs.org/react-progress-bar/-/react-progress-bar-0.1.0.tgz"
+  "version" "0.1.0"
+
 "react-property@1.0.1":
   "integrity" "sha512-1tKOwxFn3dXVomH6pM9IkLkq2Y8oh+fh/lYW3MJ/B03URswUTqttgckOlbxY2XHF3vPG6uanSc4dVsLW/wk3wQ=="
   "resolved" "https://registry.npmjs.org/react-property/-/react-property-1.0.1.tgz"

@@ -110,11 +110,18 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <ReactPlayer
                   width={"100%"}
                   height="500px"
-                  url="https://www.youtube.com/watch?v=I4V0QiyKAYs&t=11s"
+                  url="https://www.youtube.com/watch?v=I4V0QiyKAYs&t"
                 />
               </div>
             </div>
             <div className="small-video-container">
+              <div className="small-video-small-screen-only small-video">
+                <ReactPlayer
+                  width={"100%"}
+                  height="250px"
+                  url="https://www.youtube.com/watch?v=I4V0QiyKAYs&t"
+                />
+              </div>
               <div className="small-video">
                 {" "}
                 <ReactPlayer
@@ -128,7 +135,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 <ReactPlayer
                   width={"100%"}
                   height="250px"
-                  url="https://www.youtube.com/watch?v=jJx4_LeaM_0&t=43s"
+                  url="https://www.youtube.com/watch?v=jJx4_LeaM_0&t"
                 />
               </div>
               <div className="small-video">

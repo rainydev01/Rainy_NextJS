@@ -601,7 +601,6 @@ h2.whtdowdo:after {
   border-bottom: 15px solid transparent;
   content: " ";
 }
-
 .timeline > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -1051,7 +1050,7 @@ h5.mb-0.mb0diff {
   }
   .small-video-container {
     width: 100%;
-    margin: auto;
+    margin-left: -18px;
     display: list-item;
     padding-left: 0%;
   }
