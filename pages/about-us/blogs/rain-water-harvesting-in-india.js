@@ -148,9 +148,6 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   (for immediate use) or in underground aquifers – natural or
                   man-made for groundwater recharge.
                 </p>
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/rainWaterHarvestingInIndia/rainWaterHarvestingInIndia1.jpg"></img>
-                </div>
                 <p>
                   The three major techniques of rainwater harvesting are as
                   follows:
@@ -375,9 +372,6 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   How India's Water Crisis is alleviated through Rain Water
                   Harvesting (RWH)
                 </h4>
-                <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/rainWaterHarvestingInIndia/rainWaterHarvestingInIndia2.jpg"></img>
-                </div>
                 <li>
                   The groundwater table rises with RWH, resulting in the revival
                   of abandoned tube wells.
