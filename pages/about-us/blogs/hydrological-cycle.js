@@ -152,12 +152,6 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
               <div className="content">
                 <h2>Water Cycle</h2>
-                <div
-                  className="blogImg hero-image enthroimg"
-                  style={{ margin: "20px" }}
-                >
-                  <img src="../../static/images/blogs/hydrologicalCycleImage.jpg"></img>
-                </div>
                 <ul>
                   <li>
                     <h3>1. Evaporation</h3>
