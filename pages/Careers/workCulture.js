@@ -23,7 +23,7 @@ const WorkCulture = () => {
 							<p className="bullet" style={{fontSize: 16}}>
 								<ul className="bullet">
 								<li className="bullet">
-										&#9679; Ulra-modern and sophisticated working environment with green spaces.
+										&#9679; Ultra-modern and sophisticated working environment with green spaces.
 									</li>
 									<li className="bullet">
 										&#9679; Good learning for career development.
