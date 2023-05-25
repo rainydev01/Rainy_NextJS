@@ -5,7 +5,7 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import React from "react";
 
-export default function Ground_Water_Harvesting()
+export default function Rain_Water_Harvesting_Methods()
 {
 
     return(
@@ -60,8 +60,8 @@ export default function Ground_Water_Harvesting()
                 }}
             />
 
-            <title>Ground Water Harvesting | Rainy</title>
-	        <meta name="description" content="Rainy brings you effective groundwater harvesting techniques. Preserve precious water resources and create a sustainable future with our innovative solutions."/>
+            <title>Rain Water Harvesting Methods | Rainy</title>
+	        <meta name="description" content="Discover efficient rainwater harvesting methods with Rainy. Save water and reduce your environmental impact. Start collecting rainwater today!"/>
             <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-different-countries"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
@@ -93,38 +93,39 @@ export default function Ground_Water_Harvesting()
   
                     <div className="blog-content">
                         <div className="blog-info">
-                            <h1>Start Ground Water Harvesting Today with Rainy!</h1>
+                            <h1>Comprehensive Guide to The Rain Water Harvesting Methods Opted at Rainy</h1>
                             <p>
-                            Ground water harvesting is among the best techniques to conserve water resources while ensuring that the communities have sufficient access to a reliable source of water. So, if you are seeking a professional company specialising in <strong>ground water harvesting</strong>, we at Rainy could be your destination. Our wide range of services helps businesses, individuals, and municipalities to collect, conserve, and use ground water efficiently.
+                            <strong>Rain water harvesting methods</strong> are valuable for achieving self-sufficiency regarding household water and combating water scarcity. It also holds significant potential as a business venture in the future. Collecting and treating rainwater and stormwater from rooftops and the ground increases water availability for human consumption significantly without putting undue pressure on other primary water sources.
                             </p>
-                            <div className="blogImg hero-image enthroimg">
-                  				<img src="../../../static/images/blogs/ground-water-harvesting-inner-1.jpg"></img>
-                			</div>
+                            
 
-                            <h2>Use Our Ground Water Recharge Technology to Replenish the Water Table</h2>
+                            <h2>What Role Does Rainy Play?</h2>
                             <p>
-                            At Rainy, one of our prominent services includes ground water recharging technology. It helps to restore drinking water borewells via a 'V' wire technology. It renews the groundwater source while replenishing the water. Rainwater runoff is directed through a channel into a silt trap, then to an injection well, where it undergoes filtration using several media before entering a specifically designed storage well. The storage well features dual V-Wire screens connected to a percolator pipe that do not clog. The filtered water is then allowed to percolate through the earth's strata, ultimately replenishing the water table and recharging the groundwater source.
+                            At Rainy, we came up with creative solutions to the situation because of rainwater collecting. Rainwater has no long-term harmful effects and is suitable for consumption or home usage. Our technologies and rain water harvesting methods offer an affordable and unquestionable response to the need for water conservation without interfering with the hydrologic cycle as the expense of using current techniques to recycle wastewater for human use rises.
                             </p>
   
                             
 
-                            <h3>What Else Do We Offer?</h3>
-                            <p>
-                            Besides offering <strong>ground water harvesting</strong> and recharge systems, we also provide consultation services to our clients to help them assess water quantity and quality, develop sustainable groundwater management plans, and navigate regulatory requirements. We collaborate with clients like individuals, government, or non-profit organisations to develop and implement sustainable ground water harvesting techniques.  
-                            </p>
+                            <h3>Our method of rainwater harvesting</h3>
+							<ul style={{ listStyleType: "disc" }}>
+								<li><strong>Submersible harvesting system</strong></li>
+								<p>Before being redistributed through a direct-pump harvesting system, water collected in underground tanks must undergo necessary filtration procedures. This system, which is commonly installed in homes, is relatively straightforward. Water enters the tank through a combination of gravity and a pump and is then distributed to household appliances through another pump. This type of rainwater harvesting system is called a "submersible direct pumped rainwater harvesting system."</p>
 
+								<div className="blogImg hero-image enthroimg">
+                  					<img src="../../../static/images/blogs/rain-water-harvesting-methods-inner-1.jpg"></img>
+                				</div>
+
+								<li><strong>Indirect gravity rainwater harvesting systems</strong></li>
+								<p>Storage tanks for indirect gravity systems are positioned in the higher parts of your property. Most of the time, they are situated above the building's roof. A pump transfers the rainwater gathered from the roof and drains to the tank, although it may also be dispersed from the tank using gravity. Using this technology, you can conserve a lot of energy since the water only needs to be pumped once.</p>
+
+								<li><strong>Systems of indirect pumped rainwater harvesting </strong></li>
+								<p>To store rainwater, position storage areas on the surface or in a shallow underground location on your property rather than fully underground. You can store the water in multiple tanks, either underground or inside the building. The benefit of utilizing a hydraulic or electric motor with a pressurized flow to pump water is that it offers significant flexibility, ease of maintenance, and control over the amount of rainwater collected.</p>
+
+								<p>So, if you want to invest in high-quality <a href="https://www.rainyfilters.com/" style={{ textDecoration: "underline" }}><strong>rain water harvesting methods</strong></a> , get in touch with us, and we have the right solution to meet your requirements.</p>
+							</ul>
                             
 
-                            <h3>Consult Our Professionals for A Professional Service</h3>
-                            <p>
-                            At Rainy, our mission involves improving and maintaining the ground water level in the years to come. Our team focuses on ensuring that you have access to a reliable source of water using advanced technology and scientific methods to collect and conserve groundwater at your location.                             
-                            </p>
-
-                            <p>Our group of competent and knowledgeable experts has implemented various projects successfully, and our journey continues. So, if you, too, want to play your part in overcoming the water scarcity situations of today through <a href="https://www.rainyfilters.com/">ground water harvesting</a>, give us a call or mail us to learn about our services and let us serve you better.</p>
-
-							<div className="blogImg hero-image enthroimg">
-                  				<img src="../../../static/images/blogs/ground-water-harvesting-inner-2.jpg"></img>
-                			</div>
+							
                   
                         </div>
                     </div>

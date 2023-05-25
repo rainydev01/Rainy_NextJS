@@ -5,7 +5,7 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import React from "react";
 
-export default function Ground_Water_Harvesting()
+export default function Rain_Water_Harvesting_Drawing()
 {
 
     return(
@@ -60,8 +60,8 @@ export default function Ground_Water_Harvesting()
                 }}
             />
 
-            <title>Ground Water Harvesting | Rainy</title>
-	        <meta name="description" content="Rainy brings you effective groundwater harvesting techniques. Preserve precious water resources and create a sustainable future with our innovative solutions."/>
+            <title>Rainwater Harvesting Drawing | Rainy</title>
+	        <meta name="description" content="Discover Rainy's comprehensive range of rainwater harvesting drawings. Empower yourself to create greener communities and preserve water resources."/>
             <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-different-countries"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
@@ -77,7 +77,7 @@ export default function Ground_Water_Harvesting()
                 <Header />
                 <div className="container-fluid banner enternal">
                     <div className="hero-image enthroimg">
-                        {/*<img src="../../../static/images/blogs/rainwaterHarvestingInDifferetCountriesBackground.png" style={{}} />*/}
+                        <img src="../../../static/images/blogs/rain-water-harvesting-drawing-inner-1.png" style={{}} />
                         <div className="hero-text inthemedia">
                             <h1 style={{ textAlign: "center" }}></h1>
                         </div>
@@ -93,38 +93,46 @@ export default function Ground_Water_Harvesting()
   
                     <div className="blog-content">
                         <div className="blog-info">
-                            <h1>Start Ground Water Harvesting Today with Rainy!</h1>
+                            <h1>Rainy: Your One-Stop Destination For Rain Water Harvesting Services</h1>
                             <p>
-                            Ground water harvesting is among the best techniques to conserve water resources while ensuring that the communities have sufficient access to a reliable source of water. So, if you are seeking a professional company specialising in <strong>ground water harvesting</strong>, we at Rainy could be your destination. Our wide range of services helps businesses, individuals, and municipalities to collect, conserve, and use ground water efficiently.
+                            Rainwater harvesting refers to collecting and storing rainwater from various surfaces such as rooftops, parks, roads, and open grounds. This collected water can be used for various purposes or recharged into the groundwater system.
                             </p>
-                            <div className="blogImg hero-image enthroimg">
-                  				<img src="../../../static/images/blogs/ground-water-harvesting-inner-1.jpg"></img>
-                			</div>
-
-                            <h2>Use Our Ground Water Recharge Technology to Replenish the Water Table</h2>
-                            <p>
-                            At Rainy, one of our prominent services includes ground water recharging technology. It helps to restore drinking water borewells via a 'V' wire technology. It renews the groundwater source while replenishing the water. Rainwater runoff is directed through a channel into a silt trap, then to an injection well, where it undergoes filtration using several media before entering a specifically designed storage well. The storage well features dual V-Wire screens connected to a percolator pipe that do not clog. The filtered water is then allowed to percolate through the earth's strata, ultimately replenishing the water table and recharging the groundwater source.
-                            </p>
-  
+                            
+                            <p>This is where Rainy comes into the scene. We understand the importance of conserving rainwater to improve water availability in the upcoming years. Since we already have a turbulent water future, our mission lies in eliminating the current inefficient water management practice and solving the water crisis through our well-planned <strong>rainwater harvesting drawing</strong> and strategies.</p>
+                            
+                            <p>Our company's mission is to conserve rainwater through continuous innovation.We specialize in designing and building scientifically engineered rainwater harvesting systems that are affordable, high-quality, and easy to maintain.With our research facility, including a Hydraulic Testing Lab equipped with the latest machinery, we pride ourselves on being leaders in rainwater harvesting technology.</p>
                             
 
-                            <h3>What Else Do We Offer?</h3>
+                            <h2>Install Rainy Filters for Effective Rain Water Harvesting</h2>
                             <p>
-                            Besides offering <strong>ground water harvesting</strong> and recharge systems, we also provide consultation services to our clients to help them assess water quantity and quality, develop sustainable groundwater management plans, and navigate regulatory requirements. We collaborate with clients like individuals, government, or non-profit organisations to develop and implement sustainable ground water harvesting techniques.  
+                            We aim to provide an end-to-end solution for installing rainwater harvesting systems, including ongoing R&D and patented products. One of the most effective products we offer includes the Rainy filters. Here are the perks of our filters:
                             </p>
 
-                            
+                            <ul style={{ listStyleType: "disc" }}>
+								<li><strong>Modern Technology</strong></li>
+								<p>"Rainy" filters can self-clean by automatically flushing away dirt and are composed of very durable, food-grade material.</p>
 
-                            <h3>Consult Our Professionals for A Professional Service</h3>
-                            <p>
-                            At Rainy, our mission involves improving and maintaining the ground water level in the years to come. Our team focuses on ensuring that you have access to a reliable source of water using advanced technology and scientific methods to collect and conserve groundwater at your location.                             
-                            </p>
+								<li><strong>Easy Installation</strong></li>
+								<p>These filters can be rotated 360 degrees, making them suited for all site circumstances with a good <strong>rain water harvesting drawing</strong>. It is user-friendly since it can be quickly wall mounted and is self-installable with clear instructions.</p>
 
-                            <p>Our group of competent and knowledgeable experts has implemented various projects successfully, and our journey continues. So, if you, too, want to play your part in overcoming the water scarcity situations of today through <a href="https://www.rainyfilters.com/">ground water harvesting</a>, give us a call or mail us to learn about our services and let us serve you better.</p>
+								<li><strong>Dual Intensity Filters</strong></li>
+								<p>The cohesion and centrifugal force principles underlie how our filters operate. This makes it possible to filter when rain fluctuates without impacting efficiency.</p>
 
-							<div className="blogImg hero-image enthroimg">
-                  				<img src="../../../static/images/blogs/ground-water-harvesting-inner-2.jpg"></img>
-                			</div>
+								<li><strong>No External Energy Required</strong></li>
+								<p>It does not need external energy and operates on the gravitational force. Installation on any building is possible due to the system's low gravitational head of only one foot.</p>
+
+								<div className="blogImg hero-image enthroimg">
+                  					<img src="../../../static/images/blogs/rain-water-harvesting-drawing-inner-2.jpg"></img>
+                				</div>
+
+								<li><strong>Wide Range</strong></li>
+								<p>Several variants are available to fit rooftop spaces between 110 and 500 square metres. The gathered water might be sent to an existing borewell, an underground sump, or other water reservoirs.</p>
+
+								<li><strong>Cost Effective & Affordable</strong></li>
+								<p>The lack of moving parts in "Rainy" filters prevents wear and tear. This makes them durable and requires a single, low-cost purchase.</p>
+								<p>So, if you, too, want to reap the benefits of installing rainwater harvesting filters, choose us for the service. We are just a call away and would happily guide you with our <a href="https://www.rainyfilters.com/" style={{ textDecoration: "underline" }}><strong>rain water harvesting drawing</strong></a> services.</p>
+                            </ul>
+							
                   
                         </div>
                     </div>
