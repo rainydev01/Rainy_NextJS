@@ -77,7 +77,7 @@ export default function Rain_Water_Harvesting_Drawing()
                 <Header />
                 <div className="container-fluid banner enternal">
                     <div className="hero-image enthroimg">
-                        <img src="../../../static/images/blogs/rain-water-harvesting-drawing-inner-1.png" style={{}} />
+                        <img src="../../../static/images/blogs/rain-water-harvesting-drawing-banner.png" style={{}} />
                         <div className="hero-text inthemedia">
                             <h1 style={{ textAlign: "center" }}></h1>
                         </div>
@@ -99,6 +99,10 @@ export default function Rain_Water_Harvesting_Drawing()
                             </p>
                             
                             <p>This is where Rainy comes into the scene. We understand the importance of conserving rainwater to improve water availability in the upcoming years. Since we already have a turbulent water future, our mission lies in eliminating the current inefficient water management practice and solving the water crisis through our well-planned <strong>rainwater harvesting drawing</strong> and strategies.</p>
+
+							<div className="blogImg hero-image enthroimg">
+								<img src="../../../static/images/blogs/rain-water-harvesting-drawing-inner-1.jpg"></img>
+							</div>
                             
                             <p>Our company's mission is to conserve rainwater through continuous innovation.We specialize in designing and building scientifically engineered rainwater harvesting systems that are affordable, high-quality, and easy to maintain.With our research facility, including a Hydraulic Testing Lab equipped with the latest machinery, we pride ourselves on being leaders in rainwater harvesting technology.</p>
                             

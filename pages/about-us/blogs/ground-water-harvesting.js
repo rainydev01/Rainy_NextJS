@@ -77,7 +77,7 @@ export default function Ground_Water_Harvesting()
                 <Header />
                 <div className="container-fluid banner enternal">
                     <div className="hero-image enthroimg">
-                        {/*<img src="../../../static/images/blogs/rainwaterHarvestingInDifferetCountriesBackground.png" style={{}} />*/}
+                        <img src="../../../static/images/blogs/ground-water-harvesting-banner.png" style={{}} />
                         <div className="hero-text inthemedia">
                             <h1 style={{ textAlign: "center" }}></h1>
                         </div>
