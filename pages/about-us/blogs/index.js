@@ -6,6 +6,7 @@ import Slider1 from "../../../components/SliderNews1";
 import Slider2 from "../../../components/SliderNews2";
 import Slider3 from "../../../components/SliderNews3";
 
+
 import ImageSliderBLogNew from "../../../components/imageSliderBlogNew";
 
 // const SliderSwitcher = ({currentArticle, changeToArticle}) => {

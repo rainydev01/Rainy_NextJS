@@ -61,3 +61,12 @@
         font-weight: 400;
     }
 }
+@media only screen and (max-width: 767px) 
+{
+    .sec-brdr{
+        height:auto !important;
+    }
+    .mdiacont .col-md-6{
+        width:50%;
+    }
+}
