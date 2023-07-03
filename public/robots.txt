@@ -1,6 +1,11 @@
-User-agent: *
-
 Sitemap: https://www.rainyfilters.com/sitemap.xml
+
+User-agent: *
+Disallow:
+
+User-agent: *
+Allow: / 
+
 
 User-agent: OmniExplorer_Bot
 Disallow: /
