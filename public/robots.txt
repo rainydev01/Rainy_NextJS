@@ -409,3 +409,6 @@ Disallow: /
 
 User-agent: Enterprise_Search
 Disallow: /
+
+User-agent: SiteAuditBot
+Allow: /
