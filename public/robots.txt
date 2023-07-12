@@ -1,11 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
 Sitemap: https://www.rainyfilters.com/sitemap.xml
-
-User-agent: *
-Disallow:
-
-User-agent: *
-Allow: / 
-
 
 User-agent: OmniExplorer_Bot
 Disallow: /
@@ -414,6 +410,3 @@ Disallow: /
 
 User-agent: Enterprise_Search
 Disallow: /
-
-User-agent: SiteAuditBot
-Allow: /
