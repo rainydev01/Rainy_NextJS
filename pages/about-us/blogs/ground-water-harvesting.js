@@ -77,7 +77,7 @@ export default function Ground_Water_Harvesting()
                 <Header />
                 <div className="container-fluid banner enternal">
                     <div className="hero-image enthroimg">
-                        <img src="../../../static/images/blogs/ground-water-harvesting-banner.png" style={{}} />
+                        {/*<img src="../../../static/images/blogs/rainwaterHarvestingInDifferetCountriesBackground.png" style={{}} />*/}
                         <div className="hero-text inthemedia">
                             <h1 style={{ textAlign: "center" }}></h1>
                         </div>
@@ -97,9 +97,6 @@ export default function Ground_Water_Harvesting()
                             <p>
                             Ground water harvesting is among the best techniques to conserve water resources while ensuring that the communities have sufficient access to a reliable source of water. So, if you are seeking a professional company specialising in <strong>ground water harvesting</strong>, we at Rainy could be your destination. Our wide range of services helps businesses, individuals, and municipalities to collect, conserve, and use ground water efficiently.
                             </p>
-                            <div className="blogImg hero-image enthroimg">
-                  				<img src="../../../static/images/blogs/ground-water-harvesting-inner-1.jpg"></img>
-                			</div>
 
                             <h2>Use Our Ground Water Recharge Technology to Replenish the Water Table</h2>
                             <p>
@@ -110,7 +107,7 @@ export default function Ground_Water_Harvesting()
 
                             <h3>What Else Do We Offer?</h3>
                             <p>
-                            Besides offering <strong>ground water harvesting</strong> and recharge systems, we also provide consultation services to our clients to help them assess water quantity and quality, develop sustainable groundwater management plans, and navigate regulatory requirements. We collaborate with clients like individuals, government, or non-profit organisations to develop and implement sustainable ground water harvesting techniques.  
+                            Besides offering <strong>ground water harvesting</strong> and recharge systems, we also provide consultation services to our clients to help them assess water quantity and quality, develop sustainable groundwater management plans, and navigate regulatory requirements. We collaborate with clients like individuals, government, or non-profit organisations to develop and implement sustainable ground water harvesting techniques. 
                             </p>
 
                             
@@ -121,10 +118,6 @@ export default function Ground_Water_Harvesting()
                             </p>
 
                             <p>Our group of competent and knowledgeable experts has implemented various projects successfully, and our journey continues. So, if you, too, want to play your part in overcoming the water scarcity situations of today through <a href="https://www.rainyfilters.com/">ground water harvesting</a>, give us a call or mail us to learn about our services and let us serve you better.</p>
-
-							<div className="blogImg hero-image enthroimg">
-                  				<img src="../../../static/images/blogs/ground-water-harvesting-inner-2.jpg"></img>
-                			</div>
                   
                         </div>
                     </div>
