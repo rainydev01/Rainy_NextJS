@@ -36,7 +36,7 @@ const ImageSliderBLogNew = () => {
                 <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
-                  				<img src="../static/images/blogs/saving-rain-water-with-techniques-img1.jpg" style={{ height: "196px", }} />
+                  				<img src="../static/images/blogs/save-rain-water-with-techniques/img1.jpg" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
                   				<div className="grndtext">
