@@ -103,7 +103,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             </div>
           </div>
 
-          
+
 
           <div className="container">
             <div className="groundwater_bg team blue_underline">
@@ -207,7 +207,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
                 <h3 style={{ margin: "20px 20px 20px 0px;" }}>Rain Chain</h3>
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogssave-rain-water-with-techniques/img10.jpg"></img>
+                  <img src="../../../static/images/blogs/save-rain-water-with-techniques/img10.jpg"></img>
                 </div>
                 <p>
                 Rain chains are environment-friendly, fashionable and fun accessories to avoid runoff by moving rainwater from collected pipes downwards into storage containers or drains. Generally made using spoons, vintage materials, small mugs and buckets and holders, rain chains are a more decorative way to harvest rainwater.
