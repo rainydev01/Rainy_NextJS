@@ -1192,7 +1192,7 @@ const ImageSliderBLogNew = () => {
                   <div className="sec-brdr">
                     <div className="mdiaimg">
                       <img
-                        src="../static/images/blogs/"
+                        src="../static/images/blogs/hydrologicalCycleImage.jpg"
                         style={{
                           height: "196px",
                         }}
