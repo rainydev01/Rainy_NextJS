@@ -78,7 +78,7 @@ export default function Rain_Water_Harvesting_Methods()
                 <Header />
                 <div className="container-fluid banner enternal">
                     <div className="hero-image enthroimg">
-                        {/*<img src="../../../static/images/blogs/rain-water-harvesting-methods-banner.png" style={{}} />*/}
+                        <img src="../../../static/images/blogs/water-next-important-environmental-target-india-banner.png" style={{}} />
                         <div className="hero-text inthemedia">
                             <h1 style={{ textAlign: "center" }}></h1>
                         </div>

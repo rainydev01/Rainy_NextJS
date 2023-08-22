@@ -104,7 +104,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              {/*<img src="../static/images/technology/ourInnovativeTechnologyBanner.png" />*/}
+              <img src="../static/images/rain-water-harvesting-drawing/banner.png" />
               {/* <div className='hero-text techbnnrtxt'>
 								<h1 style={{color: 'white'}}>
 									OUR INNOVATIVE
