@@ -791,7 +791,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="modal-body">
                   <img
-                    src="../../static/images/filters/fl-200.png"
+                    src="../../static/images/filters/FL_200-min.png"
                     className="img-fluid"
                     alt="FL-200"
                   />
