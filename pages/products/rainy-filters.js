@@ -497,7 +497,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontFamily: "Visby Round CF Heavy",
                                 fontSize: 16,
                               }}
-                              href="/contact-us/dealers"
+                              href="/contact-us"
                             >
                             </a>
                           </div>
@@ -751,7 +751,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontFamily: "Visby Round CF Heavy",
                                 fontSize: 16,
                               }}
-                              href="/contact-us/dealers"
+                              href="/contact-us"
                             >
                             </a>
                           </div>
@@ -993,7 +993,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontFamily: "Visby Round CF Heavy",
                                 fontSize: 16,
                               }}
-                              href="/contact-us/dealers"
+                              href="/contact-us"
                             >
                             </a>
                           </div>
@@ -1247,7 +1247,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontFamily: "Visby Round CF Heavy",
                                 fontSize: 16,
                               }}
-                              href="/contact-us/dealers"
+                              href="/contact-us"
                             >
                             </a>
                           </div>
