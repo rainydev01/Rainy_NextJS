@@ -104,7 +104,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="container">
               <div className="row">
                 <div className="">
-                  <h1 className="fl80">FL-80</h1>
+                  <h2 className="fl80">FL-80</h2>
                   <p
                     style={{
                       textAlign: "center",
@@ -353,7 +353,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="container">
               <div className="row">
                 <div className="">
-                  <h1 className="fl80">FL-150</h1>
+                  <h2 className="fl80">FL-150</h2>
                   <p
                     style={{
                       textAlign: "center",
@@ -602,7 +602,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="container">
               <div className="row">
                 <div className="">
-                  <h1 className="fl80">FL-250</h1>
+                  <h2 className="fl80">FL-250</h2>
                   <p
                     style={{
                       textAlign: "center",
@@ -849,7 +849,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="container">
               <div className="row">
                 <div className="">
-                  <h1 className="fl80">FL-300</h1>
+                  <h2 className="fl80">FL-300</h2>
                   <p
                     style={{
                       textAlign: "center",
@@ -1097,7 +1097,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="container">
               <div className="row">
                 <div className="">
-                  <h1 className="fl80">FL-500</h1>
+                  <h2 className="fl80">FL-500</h2>
                   <p
                     style={{
                       textAlign: "center",
