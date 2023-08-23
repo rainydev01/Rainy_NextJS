@@ -94,7 +94,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal ">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/systemsSolutions/systemsAndSolutionBanner.png" />
+              <img src="../../static/images/systemsSolutions/systemsAndSolutionBanner.png" alt="Systems And Solution"/>
               {/* <div className="hero-text rnyfltrs text-center">
                 <h1>SYSTEMS & SOLUTIONS</h1>
               </div> */}
@@ -109,7 +109,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     className="rainyfilterimg rainyss"
                     style={{ float: "right", marginRight: "45px" }}
                   >
-                    <img src="../../static/images/systemsSolutions/BigImage.JPG" />
+                    <img src="../../static/images/systemsSolutions/BigImage.JPG" alt="Rainy Filter Photo" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -326,6 +326,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       style={{ borderRadius: 20 }}
                       className="img-fluid"
                       src="../../static/images/systemsSolutions/small 1.jpg"
+		      alt="Rainy Filter Pipe"
                     />
                   </div>
                 </div>
@@ -335,6 +336,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       style={{ borderRadius: 20 }}
                       className="img-fluid"
                       src="../../static/images/systemsSolutions/small 2.png"
+		      alt="Rain Harvesting Tank"
                     />
                   </div>
                 </div>
@@ -344,6 +346,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       style={{ borderRadius: 20 }}
                       className="img-fluid"
                       src="../../static/images/systemsSolutions/small 3.png"
+		       alt="Rainy Filter Installation"
                     />
                   </div>
                 </div>
