@@ -93,7 +93,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/products/rainyFiltersBanner.png" />
+              <img src="../../static/images/products/rainyFiltersBanner.png" alt="Rainy Filters Banner"/>
               {/* <div className="hero-text rnyfltrs">
                 <h1>'RAINY' FILTERS</h1>
               </div> */}
@@ -120,7 +120,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_80-min.png" />
+                    <img src="../../static/images/products/FL_80-min.png" alt="FL_80-min" />
                   </div>
                 </div>
                 <div className="col-md-8">
@@ -509,7 +509,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_150-min.png" />
+                    <img src="../../static/images/products/FL_150-min.png" alt="FL-150"/>
                   </div>
                 </div>
               </div>
@@ -618,7 +618,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_200-min.png" />
+                    <img src="../../static/images/products/FL_200-min.png" alt="FL200" />
                   </div>
                 </div>
                 <div className="col-md-8">
@@ -1005,7 +1005,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_300-min.png" />
+                    <img src="../../static/images/products/FL_300-min.png" alt="FL300" />
                   </div>
                 </div>
               </div>
@@ -1113,7 +1113,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_500-min.png" />
+                    <img src="../../static/images/products/FL_500-min.png" alt="FL500" />
                   </div>
                 </div>
                 <div className="col-md-8">
