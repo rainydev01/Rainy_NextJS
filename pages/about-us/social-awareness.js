@@ -101,7 +101,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/socialAwareness/socialAwarenessBanner.png" />
+              <img src="../../static/images/socialAwareness/socialAwarenessBanner.png" alt="Social Awareness Banner"/>
               {/* <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>SOCIAL AWARENESS</h1>
               </div> */}
@@ -116,6 +116,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     <img
                       className="img-fluid"
                       src="../../static/images/socialAwareness/socialAwareness3.jpg"
+		       alt="Social Awareness Photo"
                     />
                   </div>
                 </div>
@@ -304,6 +305,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     <img
                       className="img-fluid"
                       src="../../static/images/socialAwareness/socialAwareness2.jpg"
+		      alt="Social Awareness Photo"
                     />
                   </div>
                 </div>
