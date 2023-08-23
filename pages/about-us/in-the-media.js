@@ -130,7 +130,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/media/inTheMediaBanner.png" />
+              <img src="../../static/images/media/inTheMediaBanner.png" alt="The Media Banner"/>
               {/* <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>IN THE MEDIA</h1>
               </div> */}
