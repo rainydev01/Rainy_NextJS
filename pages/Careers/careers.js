@@ -95,7 +95,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/career/careerPageBanner.png" />
+              <img src="../../static/images/career/careerPageBanner.png" alt="Career Page Banner"/>
             </div>
           </div>
 

@@ -98,7 +98,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/downloads/DownloadsBanner.png" />
+              <img src="../../static/images/downloads/DownloadsBanner.png" alt="Banner Download"/>
               <div className="hero-text dwnldbnnrtxt">
                 <h1>Downloads</h1>
               </div>

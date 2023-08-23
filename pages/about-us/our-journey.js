@@ -114,7 +114,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/journey/ourJourneyBanner.png" />
+              <img src="../../static/images/journey/ourJourneyBanner.png" alt="Our Journey Banner"/>
               {/* <div className="hero-text enthrotxt jrny4">
                 <h1 style={{ textAlign: "center" }}>OUR JOURNEY</h1>
               </div> */}
@@ -134,7 +134,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   </div>
 
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2002photo.jpg" />
+                    <img src="../../static/images/ourJourney/2002photo.jpg" alt="2002 Photo"/>
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -177,7 +177,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/2003.jpg" />
+                    <img src="../../static/images/ourJourney/2003.jpg" alt="2003 Photo"/>
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -221,7 +221,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2004.jpg" />
+                    <img src="../../static/images/ourJourney/2004.jpg" alt="2004 Photo"/>
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">Expansion of Network</h4>
@@ -262,7 +262,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/20051.jpg" />
+                    <img src="../../static/images/ourJourney/20051.jpg" alt="Rain Water Harvesting" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -298,7 +298,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/20071.jpg" />
+                    <img src="../../static/images/ourJourney/20071.jpg" alt="Rain Harvesting Photos" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -333,7 +333,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/journeyFour.jpg" />
+                    <img src="../../static/images/ourJourney/journeyFour.jpg" alt="Rainy Filter"/>
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -370,7 +370,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2016.jpg" />
+                    <img src="../../static/images/ourJourney/2016.jpg" alt="2016 Photo" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -407,7 +407,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/2020.jpg" />
+                    <img src="../../static/images/ourJourney/2020.jpg" alt="2020 photo"/>
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -444,7 +444,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2022.png" />
+                    <img src="../../static/images/ourJourney/2022.png" alt="Tank"/>
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">

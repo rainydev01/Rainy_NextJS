@@ -107,7 +107,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../static/images/technology/ourInnovativeTechnologyBanner.png" />
+              <img src="../static/images/technology/ourInnovativeTechnologyBanner.png" alt="Innovative Technology" />
               {/* <div className='hero-text techbnnrtxt'>
 								<h1 style={{color: 'white'}}>
 									OUR INNOVATIVE
@@ -135,7 +135,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <div className="row">
                 <div className="col-md-5">
                   <div className="techlimg">
-                    <img src="../static/images/technology/filterCrossSectionImage.jpg" />
+                    <img src="../static/images/technology/filterCrossSectionImage.jpg" alt="Rainy Filter Installation Process"/>
                   </div>
                 </div>
                 <div className="col-md-7">
@@ -1005,6 +1005,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                   style={{ width: "auto" }}
                                   className="img-fluid"
                                   src="../static/images/technology/v-wire.jpg"
+				  alt="V Wire"
                                 />
                                 <h6>Benefits</h6>
                                 <p

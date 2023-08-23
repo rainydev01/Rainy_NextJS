@@ -103,7 +103,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/faq/QANDA.png" />
+              <img src="../../static/images/faq/QANDA.png" alt="Frequently Asked Questions"/>
               {/* <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>IN THE MEDIA</h1>
               </div> */}
