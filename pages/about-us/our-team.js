@@ -93,7 +93,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/ourTeam/ourExecutiveTeamBanner.png" />
+              <img src="../../static/images/ourTeam/ourExecutiveTeamBanner.png" alt="Executive Team Banner" />
               {/* <div className="hero-text entteamtxt">
                 <h1>OUR EXECUTIVE TEAM</h1>
               </div> */}
@@ -116,7 +116,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <div className="row team-row">
                 <div className="col-md-6">
                   <div>
-                    <img src="../../static/images/ourTeam/Group1195.jpg" />
+                    <img src="../../static/images/ourTeam/Group1195.jpg" alt="Michael Sadananda Baptist"/>
                   </div>
                   <div>
                     <h4 className="team-title">Michael Sadananda Baptist</h4>
@@ -143,7 +143,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="col-md-6">
                   <div>
-                    <img src="../../static/images/ourTeam/Group1235.png" />
+                    <img src="../../static/images/ourTeam/Group1235.png" alt="Vijayaraj Shishodya"/>
                   </div>
                   <div>
                     <h4 className="team-title">Vijayaraj Shishodya</h4>
@@ -174,7 +174,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               >
                 <div className="col-md-6">
                   <div>
-                    <img src="../../static/images/ourTeam/Group1196.jpg" />
+                    <img src="../../static/images/ourTeam/Group1196.jpg" alt="Sunil Gilbert Baptist"/>
                   </div>
                   <div>
                     <h4 className="team-title">Sunil Gilbert Baptist</h4>
