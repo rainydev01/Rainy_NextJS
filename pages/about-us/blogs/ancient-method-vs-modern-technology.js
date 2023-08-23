@@ -94,6 +94,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="hero-image enthroimg">
               <img
                 src="../../../static/images/blogs/ancientVsModernBackground.png "
+                alt="ancientVsModernBackground"
                 style={{}}
               />
               <div className="hero-text inthemedia">
@@ -151,7 +152,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </p>
 
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/Khadin.jpg"></img>
+                  <img src="../../../static/images/blogs/ancientVsModernPictures/Khadin.jpg" alt="Khadin"/>
                 </div>
 
                 <h4>2. Kund (Rajasthan and Gujarat)</h4>
@@ -165,7 +166,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </p>
 
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/kund.jpg"></img>
+                  <img src="../../../static/images/blogs/ancientVsModernPictures/kund.jpg" alt="Kund"/>
                 </div>
 
                 <h4>3. Taanka</h4>
@@ -181,7 +182,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   their water requirements.
                 </p>
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/taanka.jpg"></img>
+                  <img src="../../../static/images/blogs/ancientVsModernPictures/taanka.jpg" alt="taanka"/>
                 </div>
 
                 <h4>4. Jhalara </h4>
@@ -198,7 +199,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   rites.
                 </p>
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/jalhara.jpg"></img>
+                  <img src="../../../static/images/blogs/ancientVsModernPictures/jalhara.jpg" alt="Jalhara"/>
                 </div>
 
                 <h4>5. Eri (Tamil Nadu)</h4>
@@ -213,7 +214,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   present in all ancient temples of Tamil Nadu.
                 </p>
                 <div className="blogImg hero-image enthroimg">
-                  <img src="../../../static/images/blogs/ancientVsModernPictures/eri.jpg"></img>
+                  <img src="../../../static/images/blogs/ancientVsModernPictures/eri.jpg" alt="eri"/>
                 </div>
               </div>
               <div className="blog-info">
