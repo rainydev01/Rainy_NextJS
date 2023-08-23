@@ -14,7 +14,7 @@ const RWHFilters = () => {
 							<div className='mdrntech threecntr'>
 								<h3>
 									Modern Technology
-									<img src='../static/images/homepage/propertiesRWH/modernTech.png' />
+									<img src='../static/images/homepage/propertiesRWH/modernTech.png' alt='Modern Tech'/>
 								</h3>
 								<p>
 									'Rainy' filters are made with highly durable, food-grade
@@ -25,7 +25,7 @@ const RWHFilters = () => {
 							<div className='intfltrs threecntr'>
 								<h3>
 									Dual Intensity Filters
-									<img src='../static/images/homepage/propertiesRWH/dualIntensityFilter.png' />
+									<img src='../static/images/homepage/propertiesRWH/dualIntensityFilter.png' alt='Dual Intensity Filter'/>
 								</h3>
 								<p>
 									Our filters work on the principle of cohesion & centrifugal
@@ -36,7 +36,7 @@ const RWHFilters = () => {
 							<div className='extrnlenrgy threecntr'>
 								<h3>
 									No External Energy Required
-									<img src='../static/images/homepage/propertiesRWH/noEnergy.png' />
+									<img src='../static/images/homepage/propertiesRWH/noEnergy.png' alt='No Energy' />
 								</h3>
 								<p>
 									Works on Gravitational Force and does not require any external
@@ -49,13 +49,14 @@ const RWHFilters = () => {
 							<img
 								className='img-fluid'
 								src='../static/images/homepage/rwhf.png'
+	                                                        alt='RWHF'
 								float='true'
 							/>
 						</div>
 						<div className='col-md-4'>
 							<div className='easyinsta threecntr'>
 								<h3>
-									<img src='../static/images/homepage/propertiesRWH/easyInstallation.png' />
+									<img src='../static/images/homepage/propertiesRWH/easyInstallation.png' alt='Easy Installation'/>
 									Easy Installation
 								</h3>
 								<p>
@@ -67,7 +68,7 @@ const RWHFilters = () => {
 							</div>
 							<div className='wderng threecntr'>
 								<h3>
-									<img src='../static/images/homepage/propertiesRWH/wideRange.png' />
+									<img src='../static/images/homepage/propertiesRWH/wideRange.png' alt='Wide Range'/>
 									Wide Range
 								</h3>
 								<p>
@@ -78,7 +79,7 @@ const RWHFilters = () => {
 							</div>
 							<div className='cstefftve threecntr'>
 								<h3>
-									<img src='../static/images/homepage/propertiesRWH/costEffective.png' />
+									<img src='../static/images/homepage/propertiesRWH/costEffective.png' alt='Cost Effective'/>
 									Cost Effective & Affordable
 								</h3>
 								<p>
