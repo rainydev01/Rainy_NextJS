@@ -36,6 +36,53 @@ const ImageSliderBLogNew = () => {
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/preserving-the-planet-drop-by-drop-inner-1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/preserving-the-planet-drop-by-drop" target="_self" >
+										            Water Should be the Next Important Environmental Target for India
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          In today's world, where the challenge of not water scarcity is a big concern and the health of our environment is in danger, the practice of rainwater harvestingemerges as a source of hope....
+                      				</p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/preserving-the-planet-drop-by-drop" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/preserving-the-planet-drop-by-drop" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/preserving-the-planet-drop-by-drop" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/preserving-the-planet-drop-by-drop" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
                   				<img src="../static/images/blogs/water-next-important-environmental-target-india-inner-1.jpg" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
@@ -126,7 +173,8 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-
+            </div>
+            <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -173,9 +221,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-            </div>
-
-            <div className="container media-main" style={{ marginTop: "10vh" }}>
+            
 					      <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -267,9 +313,12 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		</div>
-            		
-          		
-            		<div className="col-md-4" style={{ marginTop: "30px" }}>
+            </div>	
+          </div>
+          
+          <div>
+            <div className="container media-main">		
+            	  <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
                   <img
@@ -347,15 +396,9 @@ const ImageSliderBLogNew = () => {
                 </div>
               </div>
             		</div>
-            </div>
-            		
-              
-          </div>
-          
-          <div>
 
-          <div className="container media-main">
-              <div className="col-md-4" style={{ marginTop: "30px" }}>
+          
+                <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
                         <img
@@ -434,7 +477,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                 </div>
-            <div className="col-md-4" style={{ marginTop: "30px" }}>
+                <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
                   <img
@@ -515,337 +558,334 @@ const ImageSliderBLogNew = () => {
                 </div>
               </div>
             		</div>
-          		
-            <div className="col-md-4" style={{ marginTop: "30px" }}>
-              <div className="sec-brdr">
-                <div className="mdiaimg">
-                  <img
-                    src="../static/images/blogs/simplicityInRainwaterHarvesting/1.png"
-                    style={{
-                      height: "196px",
-                    }}
-                  />
-                </div>
-                <div className="mdiacont">
-                  <div className="grndtext">
-                    <h3>
-                      <a
-                        href="/about-us/blogs/simplicity-in-rain-water-harvesting"
-                        target="_self"
-                      >
-                        Simplicity in Rain Water Harvesting
-                        <br />
-                      </a>
-                    </h3>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        color: "#4c3f43",
-                        fontSize: "13px",
-                        fontWeight: "500",
-                        letterSpacing: "0.5px",
-                      }}
-                    >
-                      Even though water makes up over three-quarters of our
-                      world, not all of it is useful. Only a small portion of
-                      water in the oceans and seas can be used for other
-                      purposes;it cannot be used as drinking water.As a result,
-                      there is always a lack of water that is suitable for
-                      drinking or for use in homes and businesses. Areas of the
-                      world...
-                    </p>
-                    <div className="col-md-12 mdiasocial">
-                      <div className="col-md-6 mediasocial">
-                        <FacebookShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
-                          }
-                        >
-                          <i className="fa fa-facebook" aria-hidden="true" />
-                        </FacebookShareButton>
-                        <TwitterShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
-                          }
-                        >
-                          <i className="fa fa-twitter" aria-hidden="true" />
-                        </TwitterShareButton>
+            </div>
 
-                        <WhatsappShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
-                          }
-                        >
-                          <i className="fa fa-whatsapp" aria-hidden="true" />
-                        </WhatsappShareButton>
-                      </div>
-                      <div className="col-md-6 mediabtn">
-                        <button>
+            <div className="container media-main" style={{ marginTop: "10vh" }}>
+                <div className="col-md-4" style={{ marginTop: "30px" }}>
+                  <div className="sec-brdr">
+                    <div className="mdiaimg">
+                      <img
+                        src="../static/images/blogs/simplicityInRainwaterHarvesting/1.png"
+                        style={{
+                          height: "196px",
+                        }}
+                      />
+                    </div>
+                    <div className="mdiacont">
+                      <div className="grndtext">
+                        <h3>
                           <a
                             href="/about-us/blogs/simplicity-in-rain-water-harvesting"
                             target="_self"
                           >
-                            Read more
+                            Simplicity in Rain Water Harvesting
+                            <br />
                           </a>
-                          {"  "}
-                          <i class="fa fa-angle-right" aria-hidden="true" />
-                        </button>
+                        </h3>
+                        <p
+                          style={{
+                            textAlign: "left",
+                            color: "#4c3f43",
+                            fontSize: "13px",
+                            fontWeight: "500",
+                            letterSpacing: "0.5px",
+                          }}
+                        >
+                          Even though water makes up over three-quarters of our
+                          world, not all of it is useful. Only a small portion of
+                          water in the oceans and seas can be used for other
+                          purposes;it cannot be used as drinking water.As a result,
+                          there is always a lack of water that is suitable for
+                          drinking or for use in homes and businesses. Areas of the
+                          world...
+                        </p>
+                        <div className="col-md-12 mdiasocial">
+                          <div className="col-md-6 mediasocial">
+                            <FacebookShareButton
+                              url={
+                                "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
+                              }
+                            >
+                              <i className="fa fa-facebook" aria-hidden="true" />
+                            </FacebookShareButton>
+                            <TwitterShareButton
+                              url={
+                                "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
+                              }
+                            >
+                              <i className="fa fa-twitter" aria-hidden="true" />
+                            </TwitterShareButton>
+
+                            <WhatsappShareButton
+                              url={
+                                "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
+                              }
+                            >
+                              <i className="fa fa-whatsapp" aria-hidden="true" />
+                            </WhatsappShareButton>
+                          </div>
+                          <div className="col-md-6 mediabtn">
+                            <button>
+                              <a
+                                href="/about-us/blogs/simplicity-in-rain-water-harvesting"
+                                target="_self"
+                              >
+                                Read more
+                              </a>
+                              {"  "}
+                              <i class="fa fa-angle-right" aria-hidden="true" />
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="container media-main" style={{ marginTop: "10vh" }}>
-            <div className="col-md-4" style={{ marginTop: "30px" }}>
-              <div className="sec-brdr">
-                <div className="mdiaimg">
-                  <img
-                    src="../static/images/blogs/RWHreducesSoilErosion/soilErosion1.png"
-                    style={{
-                      height: "196px",
-                    }}
-                  />
-                </div>
-                <div className="mdiacont">
-                  <div className="grndtext">
-                    <h3>
-                      <a
-                        href="/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                        target="_self"
-                      >
-                        How Rain Water Harvesting can reduce soil erosion and
-                        flooding?
-                        <br />
-                      </a>
-                    </h3>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        color: "#4c3f43",
-                        fontSize: "13px",
-                        fontWeight: "500",
-                        letterSpacing: "0.5px",
-                      }}
-                    >
-                      The act of collecting rainwater runoff from a building or
-                      other impermeable surface so that it can be stored for use
-                      later is commonly known as Rain Water Harvesting (RWH).
-                    </p>
-                    <div className="col-md-12 mdiasocial">
-                      <div className="col-md-6 mediasocial">
-                        <FacebookShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                          }
-                        >
-                          <i className="fa fa-facebook" aria-hidden="true" />
-                        </FacebookShareButton>
-
-                        <TwitterShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                          }
-                        >
-                          <i className="fa fa-twitter" aria-hidden="true" />
-                        </TwitterShareButton>
-
-                        <WhatsappShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                          }
-                        >
-                          <i className="fa fa-whatsapp" aria-hidden="true" />
-                        </WhatsappShareButton>
-                      </div>
-                      <div className="col-md-6 mediabtn">
-                        <button>
+          
+                <div className="col-md-4" style={{ marginTop: "30px" }}>
+                  <div className="sec-brdr">
+                    <div className="mdiaimg">
+                      <img
+                        src="../static/images/blogs/RWHreducesSoilErosion/soilErosion1.png"
+                        style={{
+                          height: "196px",
+                        }}
+                      />
+                    </div>
+                    <div className="mdiacont">
+                      <div className="grndtext">
+                        <h3>
                           <a
                             href="/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
                             target="_self"
                           >
-                            Read more
+                            How Rain Water Harvesting can reduce soil erosion and
+                            flooding?
+                            <br />
                           </a>
-                          {"  "}
-                          <i class="fa fa-angle-right" aria-hidden="true" />
-                        </button>
+                        </h3>
+                        <p
+                          style={{
+                            textAlign: "left",
+                            color: "#4c3f43",
+                            fontSize: "13px",
+                            fontWeight: "500",
+                            letterSpacing: "0.5px",
+                          }}
+                        >
+                          The act of collecting rainwater runoff from a building or
+                          other impermeable surface so that it can be stored for use
+                          later is commonly known as Rain Water Harvesting (RWH).
+                        </p>
+                        <div className="col-md-12 mdiasocial">
+                          <div className="col-md-6 mediasocial">
+                            <FacebookShareButton
+                              url={
+                                "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                              }
+                            >
+                              <i className="fa fa-facebook" aria-hidden="true" />
+                            </FacebookShareButton>
+
+                            <TwitterShareButton
+                              url={
+                                "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                              }
+                            >
+                              <i className="fa fa-twitter" aria-hidden="true" />
+                            </TwitterShareButton>
+
+                            <WhatsappShareButton
+                              url={
+                                "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                              }
+                            >
+                              <i className="fa fa-whatsapp" aria-hidden="true" />
+                            </WhatsappShareButton>
+                          </div>
+                          <div className="col-md-6 mediabtn">
+                            <button>
+                              <a
+                                href="/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                                target="_self"
+                              >
+                                Read more
+                              </a>
+                              {"  "}
+                              <i class="fa fa-angle-right" aria-hidden="true" />
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
           
-              <div className="col-md-4" style={{ marginTop: "30px" }}>
-              <div className="sec-brdr">
-                <div className="mdiaimg">
-                  <img
-                    src="../static/images/blogs/rainWaterHarvestingTypesAndMethods/rainWaterHarvestingTypesAndMethods2.jpg"
-                    style={{
-                      height: "196px",
-                    }}
-                  />
-                </div>
-                <div className="mdiacont">
-                  <div className="grndtext">
-                    <h3>
-                      <a
-                        href="/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
-                        target="_self"
-                      >
-                        Rainwater harvesting advantages, types and methods
-                        <br />
-                      </a>
-                    </h3>
-                    <p
+                <div className="col-md-4" style={{ marginTop: "30px" }}>
+                <div className="sec-brdr">
+                  <div className="mdiaimg">
+                    <img
+                      src="../static/images/blogs/rainWaterHarvestingTypesAndMethods/rainWaterHarvestingTypesAndMethods2.jpg"
                       style={{
-                        textAlign: "left",
-                        color: "#4c3f43",
-                        fontSize: "13px",
-                        fontWeight: "500",
-                        letterSpacing: "0.5px",
+                        height: "196px",
                       }}
-                    >
-                      Rainwater harvesting is a valuable term for
-                      self-sufficiency, household water, combating water
-                      scarcity, and a broad business term for the future. By
-                      collecting and treating rain and stormwater from roofs and
-                      ground surfaces, water availability for human consumption
-                      increases exponentially...
-                    </p>
-                    <div className="col-md-12 mdiasocial">
-                      <div className="col-md-6 mediasocial">
-                        <FacebookShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
-                          }
+                    />
+                  </div>
+                  <div className="mdiacont">
+                    <div className="grndtext">
+                      <h3>
+                        <a
+                          href="/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
+                          target="_self"
                         >
-                          <i className="fa fa-facebook" aria-hidden="true" />
-                        </FacebookShareButton>
-
-                        <TwitterShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
-                          }
-                        >
-                          <i className="fa fa-twitter" aria-hidden="true" />
-                        </TwitterShareButton>
-
-                        <WhatsappShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
-                          }
-                        >
-                          <i className="fa fa-whatsapp" aria-hidden="true" />
-                        </WhatsappShareButton>
-                      </div>
-                      <div className="col-md-6 mediabtn">
-                        <button>
-                          <a
-                            href="/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
-                            target="_self"
+                          Rainwater harvesting advantages, types and methods
+                          <br />
+                        </a>
+                      </h3>
+                      <p
+                        style={{
+                          textAlign: "left",
+                          color: "#4c3f43",
+                          fontSize: "13px",
+                          fontWeight: "500",
+                          letterSpacing: "0.5px",
+                        }}
+                      >
+                        Rainwater harvesting is a valuable term for
+                        self-sufficiency, household water, combating water
+                        scarcity, and a broad business term for the future. By
+                        collecting and treating rain and stormwater from roofs and
+                        ground surfaces, water availability for human consumption
+                        increases exponentially...
+                      </p>
+                      <div className="col-md-12 mdiasocial">
+                        <div className="col-md-6 mediasocial">
+                          <FacebookShareButton
+                            url={
+                              "https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
+                            }
                           >
-                            Read more
-                          </a>
-                          {"  "}
-                          <i class="fa fa-angle-right" aria-hidden="true" />
-                        </button>
+                            <i className="fa fa-facebook" aria-hidden="true" />
+                          </FacebookShareButton>
+
+                          <TwitterShareButton
+                            url={
+                              "https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
+                            }
+                          >
+                            <i className="fa fa-twitter" aria-hidden="true" />
+                          </TwitterShareButton>
+
+                          <WhatsappShareButton
+                            url={
+                              "https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
+                            }
+                          >
+                            <i className="fa fa-whatsapp" aria-hidden="true" />
+                          </WhatsappShareButton>
+                        </div>
+                        <div className="col-md-6 mediabtn">
+                          <button>
+                            <a
+                              href="/about-us/blogs/rainwater-harvesting-advantages-types-and-methods"
+                              target="_self"
+                            >
+                              Read more
+                            </a>
+                            {"  "}
+                            <i class="fa fa-angle-right" aria-hidden="true" />
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              </div>
-          	
-            <div className="col-md-4" style={{ marginTop: "30px" }}>
-              <div className="sec-brdr">
-                <div className="mdiaimg">
-                  <img
-                    src="../static/images/blogs/rainWaterHarvestingInIndia/rainWaterHarvestingInIndia2.jpg"
-                    style={{
-                      height: "196px",
-                    }}
-                  />
                 </div>
-                <div className="mdiacont">
-                  <div className="grndtext">
-                    <h3>
-                      <a
-                        href="/about-us/blogs/rain-water-harvesting-in-india"
-                        target="_self"
-                      >
-                        Rain Water Harvesting (RWH) In India
-                        <br />
-                      </a>
-                    </h3>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        color: "#4c3f43",
-                        fontSize: "13px",
-                        fontWeight: "500",
-                        letterSpacing: "0.5px",
-                      }}
-                    >
-                      In ancient India, survival was the skeleton key where
-                      civilizations, settlements, and empires rose and then
-                      fell. Water, food, and shelter were a continuous struggle
-                      in dry climates where water was scarce. The rainwater
-                      harvesting system in India roots back to its origin of
-                      more than 4,000 years when the ancient administrative...
-                    </p>
-                    <div className="col-md-12 mdiasocial">
-                      <div className="col-md-6 mediasocial">
-                        <FacebookShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-india"
-                          }
-                        >
-                          <i className="fa fa-facebook" aria-hidden="true" />
-                        </FacebookShareButton>
-
-                        <TwitterShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-india"
-                          }
-                        >
-                          <i className="fa fa-twitter" aria-hidden="true" />
-                        </TwitterShareButton>
-
-                        <WhatsappShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-india"
-                          }
-                        >
-                          <i className="fa fa-whatsapp" aria-hidden="true" />
-                        </WhatsappShareButton>
-                      </div>
-                      <div className="col-md-6 mediabtn">
-                        <button>
-                          <a
-                            href="/about-us/blogs/rain-water-harvesting-in-india"
-                            target="_self"
-                          >
-                            Read more
-                          </a>
-                          {"  "}
-                          <i class="fa fa-angle-right" aria-hidden="true" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            
             </div>
           </div>
 
           <div>
               <div className="container media-main">
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                    <div className="sec-brdr">
+                      <div className="mdiaimg">
+                        <img
+                          src="../static/images/blogs/rainWaterHarvestingInIndia/rainWaterHarvestingInIndia2.jpg"
+                          style={{
+                            height: "196px",
+                          }}
+                        />
+                      </div>
+                      <div className="mdiacont">
+                        <div className="grndtext">
+                          <h3>
+                            <a
+                              href="/about-us/blogs/rain-water-harvesting-in-india"
+                              target="_self"
+                            >
+                              Rain Water Harvesting (RWH) In India
+                              <br />
+                            </a>
+                          </h3>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              color: "#4c3f43",
+                              fontSize: "13px",
+                              fontWeight: "500",
+                              letterSpacing: "0.5px",
+                            }}
+                          >
+                            In ancient India, survival was the skeleton key where
+                            civilizations, settlements, and empires rose and then
+                            fell. Water, food, and shelter were a continuous struggle
+                            in dry climates where water was scarce. The rainwater
+                            harvesting system in India roots back to its origin of
+                            more than 4,000 years when the ancient administrative...
+                          </p>
+                          <div className="col-md-12 mdiasocial">
+                            <div className="col-md-6 mediasocial">
+                              <FacebookShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-india"
+                                }
+                              >
+                                <i className="fa fa-facebook" aria-hidden="true" />
+                              </FacebookShareButton>
+
+                              <TwitterShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-india"
+                                }
+                              >
+                                <i className="fa fa-twitter" aria-hidden="true" />
+                              </TwitterShareButton>
+
+                              <WhatsappShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-in-india"
+                                }
+                              >
+                                <i className="fa fa-whatsapp" aria-hidden="true" />
+                              </WhatsappShareButton>
+                            </div>
+                            <div className="col-md-6 mediabtn">
+                              <button>
+                                <a
+                                  href="/about-us/blogs/rain-water-harvesting-in-india"
+                                  target="_self"
+                                >
+                                  Read more
+                                </a>
+                                {"  "}
+                                <i class="fa fa-angle-right" aria-hidden="true" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1003,7 +1043,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-          	
+              </div>
+
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1083,9 +1125,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-                </div>
 
-              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1238,92 +1278,90 @@ const ImageSliderBLogNew = () => {
                 </div>
               </div>
                 </div>          	
-                
-                <div className="col-md-4" style={{ marginTop: "30px" }}>
-                  <div className="sec-brdr">
-                    <div className="mdiaimg">
-                      <img
-                        src="../static/images/blogs/hydrologicalCycleImage.jpg"
-                        style={{
-                          height: "196px",
-                        }}
-                      />
-                    </div>
-                    <div className="mdiacont">
-                      <div className="grndtext">
-                        <h3>
-                          <a
-                            href="/about-us/blogs/hydrological-cycle"
-                            target="_self"
-                          >
-                            The importance of hydrological cycle on earth
-                            <br />
-                          </a>
-                        </h3>
-                        <p
+              </div>
+          </div> 
+
+          <div>
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                    <div className="sec-brdr">
+                      <div className="mdiaimg">
+                        <img
+                          src="../static/images/blogs/hydrologicalCycleImage.jpg"
                           style={{
-                            textAlign: "left",
-                            color: "#4c3f43",
-                            fontSize: "13px",
-                            fontWeight: "500",
-                            letterSpacing: "0.5px",
+                            height: "196px",
                           }}
-                        >
-                          Water is one of the world’s most valuable resources that
-                          has to be retained for an inclusive future. Water is
-                          absolutely important to life on earth. Water contributes
-                          to the major part of the earth and earth’s climatic
-                          balance....
-                        </p>
-                        <div className="col-md-12 mdiasocial">
-                          <div className="col-md-6 mediasocial">
-                            <FacebookShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/hydrological-cycle"
-                              }
+                        />
+                      </div>
+                      <div className="mdiacont">
+                        <div className="grndtext">
+                          <h3>
+                            <a
+                              href="/about-us/blogs/hydrological-cycle"
+                              target="_self"
                             >
-                              <i className="fa fa-facebook" aria-hidden="true" />
-                            </FacebookShareButton>
-
-                            <TwitterShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/hydrological-cycle"
-                              }
-                            >
-                              <i className="fa fa-twitter" aria-hidden="true" />
-                            </TwitterShareButton>
-
-                            <WhatsappShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/hydrological-cycle"
-                              }
-                            >
-                              <i className="fa fa-whatsapp" aria-hidden="true" />
-                            </WhatsappShareButton>
-                          </div>
-                          <div className="col-md-6 mediabtn">
-                            <button>
-                              <a
-                                href="/about-us/blogs/hydrological-cycle"
-                                target="_self"
+                              The importance of hydrological cycle on earth
+                              <br />
+                            </a>
+                          </h3>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              color: "#4c3f43",
+                              fontSize: "13px",
+                              fontWeight: "500",
+                              letterSpacing: "0.5px",
+                            }}
+                          >
+                            Water is one of the world’s most valuable resources that
+                            has to be retained for an inclusive future. Water is
+                            absolutely important to life on earth. Water contributes
+                            to the major part of the earth and earth’s climatic
+                            balance....
+                          </p>
+                          <div className="col-md-12 mdiasocial">
+                            <div className="col-md-6 mediasocial">
+                              <FacebookShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/hydrological-cycle"
+                                }
                               >
-                                Read more
-                              </a>
-                              {"  "}
-                              <i class="fa fa-angle-right" aria-hidden="true" />
-                            </button>
+                                <i className="fa fa-facebook" aria-hidden="true" />
+                              </FacebookShareButton>
+
+                              <TwitterShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/hydrological-cycle"
+                                }
+                              >
+                                <i className="fa fa-twitter" aria-hidden="true" />
+                              </TwitterShareButton>
+
+                              <WhatsappShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/hydrological-cycle"
+                                }
+                              >
+                                <i className="fa fa-whatsapp" aria-hidden="true" />
+                              </WhatsappShareButton>
+                            </div>
+                            <div className="col-md-6 mediabtn">
+                              <button>
+                                <a
+                                  href="/about-us/blogs/hydrological-cycle"
+                                  target="_self"
+                                >
+                                  Read more
+                                </a>
+                                {"  "}
+                                <i class="fa fa-angle-right" aria-hidden="true" />
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-
-            </div>
-          </div>
-
-          <div>
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
                 <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
