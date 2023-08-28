@@ -47,7 +47,7 @@ const WorkCulture = () => {
 										&#9679; International exposure.
 									</li>
                                     <li>
-										&#9679; Oppurtunity to be part of a company thath works in the direction of sustainability and environment protection.
+										&#9679; Oppurtunity to be part of a company that works in the direction of sustainability and environment protection.
 									</li>
 								</ul>
 							</p>
