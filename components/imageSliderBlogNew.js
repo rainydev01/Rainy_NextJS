@@ -42,7 +42,7 @@ const ImageSliderBLogNew = () => {
                   				<div className="grndtext">
                     				<h3>
                       					<a href="/about-us/blogs/preserving-the-planet-drop-by-drop" target="_self" >
-										            Water Should be the Next Important Environmental Target for India
+										            Preserving the Planet Drop by Drop: The Importance of Rainwater Harvesting
                         				<br />
                       					</a>
                     				</h3>
