@@ -685,7 +685,6 @@ h2.whtdowdo:after {
 .timeline-panel img {
   width: 400px;
   max-width: 100%;
-  border-top: 5px solid #075aa4 !important;
 }
 
 .timeline-body > p,
