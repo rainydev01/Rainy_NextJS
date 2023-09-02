@@ -101,18 +101,23 @@ export default function Rain_Water_Harvesting_Methods()
                             <div className="blogImg hero-image enthroimg">
                   					  <img src="../../../static/images/blogs/preserving-the-planet-drop-by-drop-inner-1.png"></img>
                 				    </div>
+                        </div>
 
-                            <h3>What is Rainwater Harvesting?</h3>
+                        <div className="blog-info">
+                            <h2>What is Rainwater Harvesting?</h2>
                             <p>
                             At its core, rainwater harvestingis a clever way of collecting and storing rainwater for various purposes. It's like capturing the rain that falls from the sky and putting it to good use. This practice helps to utilize  most of the rainwater we get, especially in places where there's not a lot of water . Imagine a system that catches the rain and stores it in tanks or underground reservoirs. This collected rainwater can be used for many things, like watering plants, doing household chores, or even <a href="https://www.rainyfilters.com/products/ground-water-recharge">groundwater recharge</a> sources. In places like India, where water scarcity is a big issue, rainwater harvesting projects have gained traction as a sustainable solution. These projects often involve setting up systems to collect rainwater from rooftops and directing it to storage units. The collected rainwater can also be filtered using rainwater filters to make sure it's clean and safe to use. Overall, rainwater harvestingmethods are smart way to manage water and tackle water shortages, not just in India but all around the world.
                             </p>
+                        </div>
 
+                        <div className="blog-info">
                             <h3>The Water Challenge:</h3>
                             <p>
                             Water is super important for life – it keeps nature thriving, helps farmers grow food, and takes care of our basic needs. But, here's the thing: not all places have the same amount of fresh water. With more and more people needing water and changes in the weather, lots of spots around the world don't have enough water. The usual places we get water from, like rivers, lakes, and underground water sources, are getting used up quicker than they can fill up again. This puts stress on both nature and people. So, what do we do? We need to come up with creative ideas, like rain water harvestingand water harvesting systems. And guess what? There are cool new things like rain water filtersand rain products that can help too. These ideas and products can help us tackle the big water challenge we're facing all over the world.
                             </p>
+                        </div>
 
-
+                        <div className="blog-info">
                             <h2>Exploring Various Rainwater Harvesting Techniques:</h2>
                             <p>
                             When we talk about rainwater harvesting, there are lots of ways to do it, and each way is designed to match different situations and needs.
@@ -133,8 +138,9 @@ export default function Rain_Water_Harvesting_Methods()
                             </ul>
 
                             <p>Now, here comes something very important, to keep the rainwater clean and pure. This is where rainwater filters play their part. They act like protectors of the stored rainwater, ensuring it's crystal clear and free from any impurities or dirt.So, whether it's gathering rainwater from rooftops or letting it slowly sink into the ground, rainwater harvesting techniques like rooftop rainwater harvesting and groundwater harvesting work together with helpful tools like rainwater filters to provide us with an incredible way to save and use water wisely.</p>
+                        </div>
 
-
+                        <div className="blog-info">
                             <h3>Environmental Benefits:</h3>
                             <ul style={{ "listStyleType" : "number" }}>
                                 <li>
@@ -150,7 +156,9 @@ export default function Rain_Water_Harvesting_Methods()
                                 </li>
                                 
                             </ul>
+                        </div>
 
+                        <div className="blog-info">
                             <h3>Social and Economic Benefits:</h3>
                             <ul style={{ "listStyleType" : "number" }}>
                                 <li>
@@ -169,8 +177,9 @@ export default function Rain_Water_Harvesting_Methods()
                 				            </div>
                                 </li>
                             </ul>
-                            
-                            
+                        </div>  
+                        
+                        <div className="blog-info">
                             <h4>Conclusion:</h4>
                             <p>Rainwater harvesting provides a straightforward but powerful answer to the water problems we deal with today. When we catch rain and use it well, we help fill up the underground water and take care of nature. This also helps make our communities stronger. It's not just about saving water; it's also about feeling more connected to the world around us. As we keep going in a time where protecting the environment is super important, <a href="https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-advantages-types-and-methods">rainwater harvesting</a> shows how we can come up with new ideas, change our ways, and protect the planet—one tiny drop at a time.</p>
                           
