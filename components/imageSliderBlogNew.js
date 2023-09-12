@@ -36,6 +36,53 @@ const ImageSliderBLogNew = () => {
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/what-is-a-water-harvesting-system-inner1.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/what-is-a-water-harvesting-system" target="_self" >
+										            What is A Water Harvesting System and Why Is It Important?
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          To produce water for irrigation right away or to store for later use in above-ground ponds or aquifers, water harvesting involves collecting runoff from rain storms from a catchment...
+                      				</p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/what-is-a-water-harvesting-system" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/what-is-a-water-harvesting-system" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/what-is-a-water-harvesting-system" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/what-is-a-water-harvesting-system" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
                   				<img src="../static/images/blogs/preserving-the-planet-drop-by-drop-inner-1.png" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
@@ -126,7 +173,8 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-
+            </div>
+            <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -173,8 +221,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-            </div>
-            <div className="container media-main" style={{ marginTop: "10vh" }}>
+            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -222,7 +269,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                   </div>
             
-					      <div className="col-md-4" style={{ marginTop: "30px" }}>
+					        <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
                   				<img src="../static/images/blogs/rain-water-harvesting-drawing-thumb.jpg" style={{ height: "196px", }} />
@@ -266,8 +313,11 @@ const ImageSliderBLogNew = () => {
                   				</div>
                 			</div>
               			</div>
-            		</div>
-          
+            		  </div>
+              </div>	
+          </div>
+          <div>
+            <div className="container media-main">
 					      <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -313,11 +363,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		</div>
-            </div>	
-          </div>
-          
-          <div>
-            <div className="container media-main">		
+          		
             	  <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -397,7 +443,6 @@ const ImageSliderBLogNew = () => {
               </div>
             		</div>
 
-          
                 <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -477,6 +522,8 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                 </div>
+            </div>
+            <div className="container media-main" style={{ marginTop: "10vh" }}>
                 <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -558,9 +605,7 @@ const ImageSliderBLogNew = () => {
                 </div>
               </div>
             		</div>
-            </div>
-
-            <div className="container media-main" style={{ marginTop: "10vh" }}>
+            
                 <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -720,8 +765,12 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                 </div>
-          
-                <div className="col-md-4" style={{ marginTop: "30px" }}>
+            </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
                 <div className="sec-brdr">
                   <div className="mdiaimg">
                     <img
@@ -800,12 +849,8 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                 </div>
-                </div>
-            </div>
-          </div>
-
-          <div>
-              <div className="container media-main">
+                  </div>
+            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -966,7 +1011,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+              </div>
 
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1043,9 +1090,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-
-              <div className="container media-main">
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1206,83 +1251,83 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-                        
-                <div className="col-md-4" style={{ marginTop: "30px" }}>
-              <div className="sec-brdr">
-                <div className="mdiaimg">
-                  <img src="../static/images/blogs/globalWarming.jpg" />
-                </div>
-                <div className="mdiacont">
-                  <div className="grndtext">
-                    <h3>
-                      <a href="/about-us/blogs/global-warming" target="_self">
-                        How Water Harvesting can reduce Global Warming ?
-                        <br />
-                      </a>
-                    </h3>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        color: "#4c3f43",
-                        fontSize: "13px",
-                        fontWeight: "500",
-                        letterSpacing: "0.5px",
-                      }}
-                    >
-                      Climate is associated with sun, oceans, wind, rain, snow,
-                      forests, deserts, savannas, and human activity. Increase
-                      in temperature of the earth’s atmosphere because an
-                      increased amount of the heat striking the earth from the
-                      sun that is being trapped in the earth’s atmosphere....
-                    </p>
-                    <div className="col-md-12 mdiasocial">
-                      <div className="col-md-6 mediasocial">
-                        <FacebookShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/global-warming"
-                          }
-                        >
-                          <i className="fa fa-facebook" aria-hidden="true" />
-                        </FacebookShareButton>
-
-                        <TwitterShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/global-warming"
-                          }
-                        >
-                          <i className="fa fa-twitter" aria-hidden="true" />
-                        </TwitterShareButton>
-
-                        <WhatsappShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/global-warming"
-                          }
-                        >
-                          <i className="fa fa-whatsapp" aria-hidden="true" />
-                        </WhatsappShareButton>
-                      </div>
-                      <div className="col-md-6 mediabtn">
-                        <button>
-                          <a
-                            href="/about-us/blogs/global-warming"
-                            target="_self"
-                          >
-                            Read more
-                          </a>
-                          {"  "}
-                          <i class="fa fa-angle-right" aria-hidden="true" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
-                </div>          	
-              </div>
-          </div> 
-
+          </div>
+            
           <div>
               <div className="container media-main" style={{ marginTop: "10vh" }}>
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                      <div className="sec-brdr">
+                          <div className="mdiaimg">
+                            <img src="../static/images/blogs/globalWarming.jpg" />
+                          </div>
+                          <div className="mdiacont">
+                              <div className="grndtext">
+                                  <h3>
+                                    <a href="/about-us/blogs/global-warming" target="_self">
+                                    How Water Harvesting can reduce Global Warming ?
+                                    <br />
+                                    </a>
+                                  </h3>
+                                  <p
+                                    style={{
+                                      textAlign: "left",
+                                      color: "#4c3f43",
+                                      fontSize: "13px",
+                                      fontWeight: "500",
+                                      letterSpacing: "0.5px",
+                                    }}
+                                  >
+                                    Climate is associated with sun, oceans, wind, rain, snow,
+                                    forests, deserts, savannas, and human activity. Increase
+                                    in temperature of the earth’s atmosphere because an
+                                    increased amount of the heat striking the earth from the
+                                    sun that is being trapped in the earth’s atmosphere....
+                                  </p>
+                                  <div className="col-md-12 mdiasocial">
+                                    <div className="col-md-6 mediasocial">
+                                      <FacebookShareButton
+                                        url={
+                                          "https://www.rainyfilters.com/about-us/blogs/global-warming"
+                                        }
+                                      >
+                                        <i className="fa fa-facebook" aria-hidden="true" />
+                                      </FacebookShareButton>
+
+                                      <TwitterShareButton
+                                        url={
+                                          "https://www.rainyfilters.com/about-us/blogs/global-warming"
+                                        }
+                                      >
+                                        <i className="fa fa-twitter" aria-hidden="true" />
+                                      </TwitterShareButton>
+
+                                      <WhatsappShareButton
+                                        url={
+                                          "https://www.rainyfilters.com/about-us/blogs/global-warming"
+                                        }
+                                      >
+                                        <i className="fa fa-whatsapp" aria-hidden="true" />
+                                      </WhatsappShareButton>
+                                    </div>
+                                    <div className="col-md-6 mediabtn">
+                                      <button>
+                                        <a
+                                          href="/about-us/blogs/global-warming"
+                                          target="_self"
+                                        >
+                                          Read more
+                                        </a>
+                                        {"  "}
+                                        <i class="fa fa-angle-right" aria-hidden="true" />
+                                      </button>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1363,165 +1408,166 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
 
-                <div className="col-md-4" style={{ marginTop: "30px" }}>
-                  <div className="sec-brdr">
-                    <div className="mdiaimg">
-                      <img
-                        src="../static/images/blogs/beginnerGuideToSettingUp/2.png"
-                        style={{
-                          height: "196px",
-                        }}
-                      />
-                    </div>
-                    <div className="mdiacont">
-                      <div className="grndtext">
-                        <h3>
-                          <a
-                            href="/about-us/blogs/beginner-guide-to-setup-rwh"
-                            target="_self"
-                          >
-                            A Beginner's Guide to setting up RWH
-                            <br />
-                          </a>
-                        </h3>
-                        <p
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                    <div className="sec-brdr">
+                      <div className="mdiaimg">
+                        <img
+                          src="../static/images/blogs/beginnerGuideToSettingUp/2.png"
                           style={{
-                            textAlign: "left",
-                            color: "#4c3f43",
-                            fontSize: "13px",
-                            fontWeight: "500",
-                            letterSpacing: "0.5px",
+                            height: "196px",
                           }}
-                        >
-                          Rainwater harvesting involves collecting and storing
-                          rainwater for reuse rather than allowing it to flow and be
-                          absorbed into the earth or channelled into drains,
-                          streams, or rivers. It is one of the simplest ways...
-                        </p>
-                        <div className="col-md-12 mdiasocial">
-                          <div className="col-md-6 mediasocial">
-                            <FacebookShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/beginner-guide-to-setup-rwh"
-                              }
+                        />
+                      </div>
+                      <div className="mdiacont">
+                        <div className="grndtext">
+                          <h3>
+                            <a
+                              href="/about-us/blogs/beginner-guide-to-setup-rwh"
+                              target="_self"
                             >
-                              <i className="fa fa-facebook" aria-hidden="true" />
-                            </FacebookShareButton>
-
-                            <TwitterShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/beginner-guide-to-setup-rwh"
-                              }
-                            >
-                              <i className="fa fa-twitter" aria-hidden="true" />
-                            </TwitterShareButton>
-
-                            <WhatsappShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/beginner-guide-to-setup-rwh"
-                              }
-                            >
-                              <i className="fa fa-whatsapp" aria-hidden="true" />
-                            </WhatsappShareButton>
-                          </div>
-                          <div className="col-md-6 mediabtn">
-                            <button>
-                              <a
-                                href="/about-us/blogs/beginner-guide-to-setup-rwh"
-                                target="_self"
+                              A Beginner's Guide to setting up RWH
+                              <br />
+                            </a>
+                          </h3>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              color: "#4c3f43",
+                              fontSize: "13px",
+                              fontWeight: "500",
+                              letterSpacing: "0.5px",
+                            }}
+                          >
+                            Rainwater harvesting involves collecting and storing
+                            rainwater for reuse rather than allowing it to flow and be
+                            absorbed into the earth or channelled into drains,
+                            streams, or rivers. It is one of the simplest ways...
+                          </p>
+                          <div className="col-md-12 mdiasocial">
+                            <div className="col-md-6 mediasocial">
+                              <FacebookShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/beginner-guide-to-setup-rwh"
+                                }
                               >
-                                Read more
-                              </a>
-                              {"  "}
-                              <i class="fa fa-angle-right" aria-hidden="true" />
-                            </button>
+                                <i className="fa fa-facebook" aria-hidden="true" />
+                              </FacebookShareButton>
+
+                              <TwitterShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/beginner-guide-to-setup-rwh"
+                                }
+                              >
+                                <i className="fa fa-twitter" aria-hidden="true" />
+                              </TwitterShareButton>
+
+                              <WhatsappShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/beginner-guide-to-setup-rwh"
+                                }
+                              >
+                                <i className="fa fa-whatsapp" aria-hidden="true" />
+                              </WhatsappShareButton>
+                            </div>
+                            <div className="col-md-6 mediabtn">
+                              <button>
+                                <a
+                                  href="/about-us/blogs/beginner-guide-to-setup-rwh"
+                                  target="_self"
+                                >
+                                  Read more
+                                </a>
+                                {"  "}
+                                <i class="fa fa-angle-right" aria-hidden="true" />
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <div className="col-md-4" style={{ marginTop: "30px" }}>
-                  <div className="sec-brdr">
-                    <div className="mdiaimg">
-                      <img
-                        src="../static/images/blogs/bestPracticeForMaintaining/2.png"
-                        style={{
-                          height: "196px",
-                        }}
-                      />
-                    </div>
-                    <div className="mdiacont">
-                      <div className="grndtext">
-                        <h3>
-                          <a
-                            href="/about-us/blogs/best-practice-for-maintaining-rwh"
-                            target="_self"
-                          >
-                            Best Practices for Maintaining Your Rainwater Harvesting
-                            System.
-                            <br />
-                          </a>
-                        </h3>
-                        <p
+              </div>
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                    <div className="sec-brdr">
+                      <div className="mdiaimg">
+                        <img
+                          src="../static/images/blogs/bestPracticeForMaintaining/2.png"
                           style={{
-                            textAlign: "left",
-                            color: "#4c3f43",
-                            fontSize: "13px",
-                            fontWeight: "500",
-                            letterSpacing: "0.5px",
+                            height: "196px",
                           }}
-                        >
-                          Rainwater harvesting is the greatest method or technology
-                          for conserving rainwater by gathering, storing,
-                          transporting, and purifying rainwater that runs off
-                          rooftops, hill slopes, parks, roadways, and open areas for
-                          later use...
-                        </p>
-                        <div className="col-md-12 mdiasocial">
-                          <div className="col-md-6 mediasocial">
-                            <FacebookShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
-                              }
+                        />
+                      </div>
+                      <div className="mdiacont">
+                        <div className="grndtext">
+                          <h3>
+                            <a
+                              href="/about-us/blogs/best-practice-for-maintaining-rwh"
+                              target="_self"
                             >
-                              <i className="fa fa-facebook" aria-hidden="true" />
-                            </FacebookShareButton>
-
-                            <TwitterShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
-                              }
-                            >
-                              <i className="fa fa-twitter" aria-hidden="true" />
-                            </TwitterShareButton>
-
-                            <WhatsappShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
-                              }
-                            >
-                              <i className="fa fa-whatsapp" aria-hidden="true" />
-                            </WhatsappShareButton>
-                          </div>
-                          <div className="col-md-6 mediabtn">
-                            <button>
-                              <a
-                                href="/about-us/blogs/best-practice-for-maintaining-rwh"
-                                target="_self"
+                              Best Practices for Maintaining Your Rainwater Harvesting
+                              System.
+                              <br />
+                            </a>
+                          </h3>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              color: "#4c3f43",
+                              fontSize: "13px",
+                              fontWeight: "500",
+                              letterSpacing: "0.5px",
+                            }}
+                          >
+                            Rainwater harvesting is the greatest method or technology
+                            for conserving rainwater by gathering, storing,
+                            transporting, and purifying rainwater that runs off
+                            rooftops, hill slopes, parks, roadways, and open areas for
+                            later use...
+                          </p>
+                          <div className="col-md-12 mdiasocial">
+                            <div className="col-md-6 mediasocial">
+                              <FacebookShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
+                                }
                               >
-                                Read more
-                              </a>
-                              {"  "}
-                              <i class="fa fa-angle-right" aria-hidden="true" />
-                            </button>
+                                <i className="fa fa-facebook" aria-hidden="true" />
+                              </FacebookShareButton>
+
+                              <TwitterShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
+                                }
+                              >
+                                <i className="fa fa-twitter" aria-hidden="true" />
+                              </TwitterShareButton>
+
+                              <WhatsappShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
+                                }
+                              >
+                                <i className="fa fa-whatsapp" aria-hidden="true" />
+                              </WhatsappShareButton>
+                            </div>
+                            <div className="col-md-6 mediabtn">
+                              <button>
+                                <a
+                                  href="/about-us/blogs/best-practice-for-maintaining-rwh"
+                                  target="_self"
+                                >
+                                  Read more
+                                </a>
+                                {"  "}
+                                <i class="fa fa-angle-right" aria-hidden="true" />
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
                 
               </div>
           </div>

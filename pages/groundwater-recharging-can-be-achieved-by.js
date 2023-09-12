@@ -25,7 +25,7 @@ export default function Home() {
         />
 
         <title> Groundwater Recharging Can Be Achieved By | Rainyfilters.com </title>
-        <link rel="canonical" href="https://www.rainyfilters.com/technology" />
+        <link rel="canonical" href="https://www.rainyfilters.com/groundwater-recharging-can-be-achieved-by" />
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -102,7 +102,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../static/images/groundwater-recharging-can-be-achieved-by/banner.png" alt="Groundwater recharge"/>
+              <img src="../static/images/groundwater-recharging-can-be-achieved-by/banner.png" />
               {/* <div className='hero-text techbnnrtxt'>
 								<h1 style={{color: 'white'}}>
 									OUR INNOVATIVE

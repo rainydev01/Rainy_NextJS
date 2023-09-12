@@ -27,7 +27,7 @@ export default function Home() {
         <title>
         Rain Water Harvesting Drawing | Rainyfilters.com
         </title>
-        <link rel="canonical" href="https://www.rainyfilters.com/technology" />
+        <link rel="canonical" href="https://www.rainyfilters.com/rain-water-harvesting-drawing" />
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
