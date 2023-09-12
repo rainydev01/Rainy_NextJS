@@ -1010,14 +1010,6 @@ h5.mb-0.mb0diff {
   border-radius: 10px;
 }
 
-.blog-info h1,h2,h3,h4 {
-  font-weight: 600;
-  color: #0971b7;
-  font-size: 33px;
-  text-align: center;
-}
-
-
 .blog-info p {
   /* color: #4c3f43; */
   line-height: 25px;
@@ -1041,6 +1033,7 @@ h5.mb-0.mb0diff {
   text-align: left;
   position: relative;
   width: 18%;
+  border: 1px solid #0971b7;
   margin-top: 14px;
 }
 
