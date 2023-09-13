@@ -94,13 +94,10 @@ export default function Water_Harvesting_System_Info()
   
                     <div className="blog-content">
                         <div className="blog-info">
-                            <h1>What is A Water Harvesting System and Why Is It Important?</h1>
+                            <h1>What is Water Harvesting System & Why is It Important?</h1>
                             <p>
                             To produce water for irrigation right away or to store for later use in above-ground ponds or aquifers, water harvesting involves collecting runoff from rain storms from a catchment (the area from which water falls into bodies). The term "water harvesting" refers to the practice of collecting water from rainwater.
                             </p>
-                            {/*<div className="blogImg hero-image enthroimg">
-                  					  <img src="../../../static/images/blogs/preserving-the-planet-drop-by-drop-inner-1.png"></img>
-                                </div>*/}
                         </div>
 
                         <div className="blog-info">
@@ -117,7 +114,7 @@ export default function Water_Harvesting_System_Info()
                             <h2>Why is it crucial to implement water harvesting methods?</h2>
                             <ul style={{ "listStyleType" : "disc" }}>
                                 <li>
-                                    <p>To be used for drinking and gardening after proper filtering.</p>
+                                    <p>o be used for drinking and gardening after proper filtering.</p>
                                 </li>
                                 <li>
                                     <p>To provide untreated landscape irrigation, particularly for dryland farming.</p>
@@ -129,7 +126,7 @@ export default function Water_Harvesting_System_Info()
                                     <p>To reduce the amount of seawater that enters low-lying areas.</p>
                                 </li>
                                 <li>
-                                    <p>Compared to the cost of alternative water purification or pumping systems, a water harvesting system is more cost-effective.</p>
+                                    <p>Compared to the cost of alternative water purification or pumping systems, <strong>water harvesting system</strong> is more cost-effective.</p>
                                 </li>
                                 <li>
                                     <p>The use of groundwater is decreased as a result. A rainwater collection system increases groundwater levels by increasing aquifer productivity.</p>
@@ -140,7 +137,7 @@ export default function Water_Harvesting_System_Info()
                         <div className="blog-info">
                             <h2>Methods for collecting rainwater from roofs</h2>
                             <p>
-                            We will talk about some examples of collecting rainwater from a roof. Keep on reading to gather significant <strong>rainwater harvesting information</strong>.
+                            Below are some examples to collect rainwater from a roof. Keep reading to gather <strong>rainwater harvesting information</strong>.
                             </p>
                             
                         </div>
@@ -205,7 +202,7 @@ export default function Water_Harvesting_System_Info()
                             Recharge pits are small, regularly spaced pits with a weep hole enclosed by a masonry wall made of bricks or stones. Covering the top of the pit with a perforated covering is possible. The bottom of the pit should be lined with filter media.
                             </p>
                             <p>
-                            The amount of water collected in a pit depends on several factors, including its catchment area, the rainfall intensity, and the rate at which the soil recharges. The previous stratum's depth determines the pit's breadth and depth, which are typically 1-2 metres wide and 2-3 metres deep, respectively.
+                            The amount of water collected in a pit depends on several factors, including its catchment area, the rainfall intensity, and the rate at which the soil recharges. The previous stratum's depth determines the pit's breadth and depth, which are typically 1–2 metres wide and 2–3 metres deep, respectively.
                             </p>
                             <p>
                             These recharging wells are ideal for use with small homes and shallow aquifers.
@@ -215,17 +212,17 @@ export default function Water_Harvesting_System_Info()
                         <div className="blog-info">
                             <h3>Recharge or soakaway shafts</h3>
                             <p>
-                            Soakaway or recharge shafts are provided in areas where the topsoil is alluvial or less porous. These holes have a diameter of 30 cm and a depth of up to 15 m, depending on the thickness of the layer below. The bore must be lined with slotted or perforated PVC/MS pipe to prevent the collapse of the vertical sidewalls.
+                            Soakaway or recharge shafts are used in alluvial or impermeable soil. These 30 cm holes might reach 15 m deep, depending on the strata below. The bore must be lined with slotted or perforated PVC/MS tubing to prevent vertical sidewall collapse.
                             </p>
                             <p>
-                            At the top of the soakaway, a sump of the appropriate size is constructed to collect runoff before it filters through the soakaway. Filter media ought to be a part of the sump.
+                            A suitable sump collects runoff at the top of the soakaway before it filters through. Sump should contain filter media.
                             </p>
                         </div>
 
                         <div className="blog-info">
                             <h3>Conclusion</h3>
                             <p>
-                            In 2002, the company known as Farmland Rain Water Harvesting Systems (FLRWHS) set out to provide comprehensive solutions, including patented products and ongoing research and development, for <a href="https://www.rainyfilters.com/technology">installing rainwater harvesting systems</a>. The company was founded on "giving back to nature and reducing our carbon footprint for a greener tomorrow" and "conserving every drop of rainwater through continuous innovation."The Hydraulic Testing Lab is state-of-the-art, and the company alsohas a research facility where rigorous testing on the products takes place. Additionally, a dealer network spans 11 countries and employs highly trained field service engineers who are available to answer any questions.
+                            Farmland Rain Water Harvesting Systems (FLRWHS) began <a href="https://www.rainyfilters.com/technology">installing rainwater harvesting systems</a> in 2002 with patented products and ongoing research and development. Our organisation was built on "giving back to nature and reducing our carbon footprint for a greener tomorrow" and "conserving every drop of rainwater through continuous innovation." Our state-of-the-art Hydraulic Testing Lab and research facilities test our goods rigorously. We also have a dealer network in 11 countries with highly skilled field service engineers to answer questions.
                             </p>
                         </div>
 
