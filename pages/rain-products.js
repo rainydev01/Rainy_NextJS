@@ -128,7 +128,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </div>
 
                     <div className="blog-info">              
-                        <h2 style={{ marginBottom: "10px"}}>Types of rain products at Rainy </h2>
+                        <h2 style={{ marginBottom: "30px"}}>Types of rain products at Rainy </h2>
                         <ul className="list-heading">
                             <li>
                                 <h3 className="list-heading">Rainwater harvesting filter products</h3>
