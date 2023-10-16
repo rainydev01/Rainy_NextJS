@@ -118,7 +118,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="dropdown-toggle diffcolormenu"
+                    className="dropdown-toggle"
                     data-toggle="dropdown"
                   >
                     Contact us
@@ -135,6 +135,7 @@ const Header = () => {
                     </a>
                   </div>
                 </li>
+                      <li> <a href="https://www.rainyfilters.shop/">shop</a></li>
                 <li>
                   <img
                     style={{ paddingLeft: "1.5em", cursor: "pointer" }}
