@@ -37,7 +37,7 @@ const FilterToSelect = () => {
     if (inputValue === null) {
       setButonValue({
         name: "FL-80",
-        url: "products/rainy-filters",
+        url: "https://www.rainyfilters.shop/products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft",
       });
 
       setShowButton(true);
@@ -46,7 +46,7 @@ const FilterToSelect = () => {
       //120
       setButonValue({
         name: "FL-80",
-        url: "products/rainy-filters",
+        url: "https://www.rainyfilters.shop/products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft",
       });
 
       setShowButton(true);
