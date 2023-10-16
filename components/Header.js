@@ -135,7 +135,7 @@ const Header = () => {
                     </a>
                   </div>
                 </li>
-                      <li> <a href="https://www.rainyfilters.shop/" className="diffcolormenu">shop</a></li>
+                      
                 <li>
                   <img
                     style={{ paddingLeft: "1.5em", cursor: "pointer" }}
