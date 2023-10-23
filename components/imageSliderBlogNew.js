@@ -32,7 +32,102 @@ const ImageSliderBLogNew = () => {
       	<Carousel responsive={responsive}>
         	<div style={{ backgroundImage: "url(../static/images/homepage/ddropsbg.png)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "top left", }} >
 
-            <div className="container media-main">
+              <div className="container media-main">
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/harvesting-hope-the-art-of-rainwater-conservation-inner1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/harvesting-hope-the-art-of-rainwater-conservation" target="_self" >
+										            Harvesting Hope: The Art of Rainwater Conservation
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Rainwater, the essence of life, it is a gift from the heavens that has nurtured the earth till now. But we often take it granted, the significance of rainwater conservation...
+                      				</p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/harvesting-hope-the-art-of-rainwater-conservation" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/harvesting-hope-the-art-of-rainwater-conservation" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/harvesting-hope-the-art-of-rainwater-conservation" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/harvesting-hope-the-art-of-rainwater-conservation" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/piezometer-is-used-to-measure-inner1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/piezometers-the-underground-detectives-saving-the-world" target="_self" >
+										            Piezometers: The Underground Detectives Saving the world
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          In this universe of technology, there are some hidden gems, silently working under the earth’s surface, revealing the secrets of our environment. Meet the piezometers...
+                      				</p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/piezometers-the-underground-detectives-saving-the-world" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/piezometers-the-underground-detectives-saving-the-world" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/piezometers-the-underground-detectives-saving-the-world" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/piezometers-the-underground-detectives-saving-the-world" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -79,7 +174,8 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-
+              </div>
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -173,8 +269,8 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-            </div>
-            <div className="container media-main" style={{ marginTop: "10vh" }}>
+            
+            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -221,7 +317,11 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-            
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -313,57 +413,56 @@ const ImageSliderBLogNew = () => {
                   				</div>
                 			</div>
               			</div>
-            		  </div>
-              </div>	
-          </div>
-          <div>
-            <div className="container media-main">
-					      <div className="col-md-4" style={{ marginTop: "30px" }}>
-              			<div className="sec-brdr">
-                			<div className="mdiaimg">
-                  				<img src="../static/images/blogs/rain-water-harvesting-methods-thumb.jpg" style={{ height: "196px", }} />
-                			</div>
-                			<div className="mdiacont">
-                  				<div className="grndtext">
-                    				<h3>
-                      					<a href="/about-us/blogs/rain-water-harvesting-methods" target="_self" >
-										  Comprehensive Guide to The Rain Water Harvesting Methods Opted at Rainy
-                        				<br />
-                      					</a>
-                    				</h3>
-                    				
-									<p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
-									Rain water harvesting methods are valuable for achieving self-sufficiency regarding household water and combating water scarcity. It also holds significant potential as a business venture in the future. Collecting and treating.... </p>
+            		  </div>              
+            
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                      <div className="sec-brdr">
+                        <div className="mdiaimg">
+                            <img src="../static/images/blogs/rain-water-harvesting-methods-thumb.jpg" style={{ height: "196px", }} />
+                        </div>
+                        <div className="mdiacont">
+                            <div className="grndtext">
+                              <h3>
+                                  <a href="/about-us/blogs/rain-water-harvesting-methods" target="_self" >
+                        Comprehensive Guide to The Rain Water Harvesting Methods Opted at Rainy
+                                  <br />
+                                  </a>
+                              </h3>
+                              
+                    <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+                    Rain water harvesting methods are valuable for achieving self-sufficiency regarding household water and combating water scarcity. It also holds significant potential as a business venture in the future. Collecting and treating.... </p>
 
-                    				<div className="col-md-12 mdiasocial">
-                      					<div className="col-md-6 mediasocial">
-                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods" } >
-                          						<i className="fa fa-facebook" aria-hidden="true" />
-                        					</FacebookShareButton>
+                              <div className="col-md-12 mdiasocial">
+                                  <div className="col-md-6 mediasocial">
+                                    <FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods" } >
+                                        <i className="fa fa-facebook" aria-hidden="true" />
+                                    </FacebookShareButton>
 
-                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods" } >
-                          						<i className="fa fa-twitter" aria-hidden="true" />
-                        					</TwitterShareButton>
+                                    <TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods" } >
+                                        <i className="fa fa-twitter" aria-hidden="true" />
+                                    </TwitterShareButton>
 
-                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods" } >
-                          						<i className="fa fa-whatsapp" aria-hidden="true" />
-                        					</WhatsappShareButton>
-                      					</div>
-                      					<div className="col-md-6 mediabtn">
-                        					<button>
-                          						<a href="/about-us/blogs/rain-water-harvesting-methods" target="_self" >
-                            					Read more
-                          						</a>
-                          						{"  "}
-                          						<i class="fa fa-angle-right" aria-hidden="true" />
-                        					</button>
-                      					</div>
-                    				</div>
-                  				</div>
-                			</div>
-              			</div>
-            		</div>
-          		
+                                    <WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods" } >
+                                        <i className="fa fa-whatsapp" aria-hidden="true" />
+                                    </WhatsappShareButton>
+                                  </div>
+                                  <div className="col-md-6 mediabtn">
+                                    <button>
+                                        <a href="/about-us/blogs/rain-water-harvesting-methods" target="_self" >
+                                        Read more
+                                        </a>
+                                        {"  "}
+                                        <i class="fa fa-angle-right" aria-hidden="true" />
+                                    </button>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+          		<div className="container media-main" style={{ marginTop: "10vh" }}>
             	  <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -522,8 +621,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                 </div>
-            </div>
-            <div className="container media-main" style={{ marginTop: "10vh" }}>
+            
                 <div className="col-md-4" style={{ marginTop: "30px" }}>
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -605,171 +703,171 @@ const ImageSliderBLogNew = () => {
                 </div>
               </div>
             		</div>
-            
-                <div className="col-md-4" style={{ marginTop: "30px" }}>
-                  <div className="sec-brdr">
-                    <div className="mdiaimg">
-                      <img
-                        src="../static/images/blogs/simplicityInRainwaterHarvesting/1.png"
-                        style={{
-                          height: "196px",
-                        }}
-                      />
-                    </div>
-                    <div className="mdiacont">
-                      <div className="grndtext">
-                        <h3>
-                          <a
-                            href="/about-us/blogs/simplicity-in-rain-water-harvesting"
-                            target="_self"
-                          >
-                            Simplicity in Rain Water Harvesting
-                            <br />
-                          </a>
-                        </h3>
-                        <p
-                          style={{
-                            textAlign: "left",
-                            color: "#4c3f43",
-                            fontSize: "13px",
-                            fontWeight: "500",
-                            letterSpacing: "0.5px",
-                          }}
-                        >
-                          Even though water makes up over three-quarters of our
-                          world, not all of it is useful. Only a small portion of
-                          water in the oceans and seas can be used for other
-                          purposes;it cannot be used as drinking water.As a result,
-                          there is always a lack of water that is suitable for
-                          drinking or for use in homes and businesses. Areas of the
-                          world...
-                        </p>
-                        <div className="col-md-12 mdiasocial">
-                          <div className="col-md-6 mediasocial">
-                            <FacebookShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
-                              }
-                            >
-                              <i className="fa fa-facebook" aria-hidden="true" />
-                            </FacebookShareButton>
-                            <TwitterShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
-                              }
-                            >
-                              <i className="fa fa-twitter" aria-hidden="true" />
-                            </TwitterShareButton>
-
-                            <WhatsappShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
-                              }
-                            >
-                              <i className="fa fa-whatsapp" aria-hidden="true" />
-                            </WhatsappShareButton>
-                          </div>
-                          <div className="col-md-6 mediabtn">
-                            <button>
-                              <a
-                                href="/about-us/blogs/simplicity-in-rain-water-harvesting"
-                                target="_self"
-                              >
-                                Read more
-                              </a>
-                              {"  "}
-                              <i class="fa fa-angle-right" aria-hidden="true" />
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          
-                <div className="col-md-4" style={{ marginTop: "30px" }}>
-                  <div className="sec-brdr">
-                    <div className="mdiaimg">
-                      <img
-                        src="../static/images/blogs/RWHreducesSoilErosion/soilErosion1.png"
-                        style={{
-                          height: "196px",
-                        }}
-                      />
-                    </div>
-                    <div className="mdiacont">
-                      <div className="grndtext">
-                        <h3>
-                          <a
-                            href="/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                            target="_self"
-                          >
-                            How Rain Water Harvesting can reduce soil erosion and
-                            flooding?
-                            <br />
-                          </a>
-                        </h3>
-                        <p
-                          style={{
-                            textAlign: "left",
-                            color: "#4c3f43",
-                            fontSize: "13px",
-                            fontWeight: "500",
-                            letterSpacing: "0.5px",
-                          }}
-                        >
-                          The act of collecting rainwater runoff from a building or
-                          other impermeable surface so that it can be stored for use
-                          later is commonly known as Rain Water Harvesting (RWH).
-                        </p>
-                        <div className="col-md-12 mdiasocial">
-                          <div className="col-md-6 mediasocial">
-                            <FacebookShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                              }
-                            >
-                              <i className="fa fa-facebook" aria-hidden="true" />
-                            </FacebookShareButton>
-
-                            <TwitterShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                              }
-                            >
-                              <i className="fa fa-twitter" aria-hidden="true" />
-                            </TwitterShareButton>
-
-                            <WhatsappShareButton
-                              url={
-                                "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                              }
-                            >
-                              <i className="fa fa-whatsapp" aria-hidden="true" />
-                            </WhatsappShareButton>
-                          </div>
-                          <div className="col-md-6 mediabtn">
-                            <button>
-                              <a
-                                href="/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
-                                target="_self"
-                              >
-                                Read more
-                              </a>
-                              {"  "}
-                              <i class="fa fa-angle-right" aria-hidden="true" />
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
+              </div>
           </div>
-
+            
           <div>
               <div className="container media-main">
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                    <div className="sec-brdr">
+                      <div className="mdiaimg">
+                        <img
+                          src="../static/images/blogs/simplicityInRainwaterHarvesting/1.png"
+                          style={{
+                            height: "196px",
+                          }}
+                        />
+                      </div>
+                      <div className="mdiacont">
+                        <div className="grndtext">
+                          <h3>
+                            <a
+                              href="/about-us/blogs/simplicity-in-rain-water-harvesting"
+                              target="_self"
+                            >
+                              Simplicity in Rain Water Harvesting
+                              <br />
+                            </a>
+                          </h3>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              color: "#4c3f43",
+                              fontSize: "13px",
+                              fontWeight: "500",
+                              letterSpacing: "0.5px",
+                            }}
+                          >
+                            Even though water makes up over three-quarters of our
+                            world, not all of it is useful. Only a small portion of
+                            water in the oceans and seas can be used for other
+                            purposes;it cannot be used as drinking water.As a result,
+                            there is always a lack of water that is suitable for
+                            drinking or for use in homes and businesses. Areas of the
+                            world...
+                          </p>
+                          <div className="col-md-12 mdiasocial">
+                            <div className="col-md-6 mediasocial">
+                              <FacebookShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
+                                }
+                              >
+                                <i className="fa fa-facebook" aria-hidden="true" />
+                              </FacebookShareButton>
+                              <TwitterShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
+                                }
+                              >
+                                <i className="fa fa-twitter" aria-hidden="true" />
+                              </TwitterShareButton>
+
+                              <WhatsappShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/simplicity-in-rain-water-harvesting"
+                                }
+                              >
+                                <i className="fa fa-whatsapp" aria-hidden="true" />
+                              </WhatsappShareButton>
+                            </div>
+                            <div className="col-md-6 mediabtn">
+                              <button>
+                                <a
+                                  href="/about-us/blogs/simplicity-in-rain-water-harvesting"
+                                  target="_self"
+                                >
+                                  Read more
+                                </a>
+                                {"  "}
+                                <i class="fa fa-angle-right" aria-hidden="true" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+                    <div className="sec-brdr">
+                      <div className="mdiaimg">
+                        <img
+                          src="../static/images/blogs/RWHreducesSoilErosion/soilErosion1.png"
+                          style={{
+                            height: "196px",
+                          }}
+                        />
+                      </div>
+                      <div className="mdiacont">
+                        <div className="grndtext">
+                          <h3>
+                            <a
+                              href="/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                              target="_self"
+                            >
+                              How Rain Water Harvesting can reduce soil erosion and
+                              flooding?
+                              <br />
+                            </a>
+                          </h3>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              color: "#4c3f43",
+                              fontSize: "13px",
+                              fontWeight: "500",
+                              letterSpacing: "0.5px",
+                            }}
+                          >
+                            The act of collecting rainwater runoff from a building or
+                            other impermeable surface so that it can be stored for use
+                            later is commonly known as Rain Water Harvesting (RWH).
+                          </p>
+                          <div className="col-md-12 mdiasocial">
+                            <div className="col-md-6 mediasocial">
+                              <FacebookShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                                }
+                              >
+                                <i className="fa fa-facebook" aria-hidden="true" />
+                              </FacebookShareButton>
+
+                              <TwitterShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                                }
+                              >
+                                <i className="fa fa-twitter" aria-hidden="true" />
+                              </TwitterShareButton>
+
+                              <WhatsappShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                                }
+                              >
+                                <i className="fa fa-whatsapp" aria-hidden="true" />
+                              </WhatsappShareButton>
+                            </div>
+                            <div className="col-md-6 mediabtn">
+                              <button>
+                                <a
+                                  href="/about-us/blogs/how-rainwater-harvesting-reduces-soil-erosion"
+                                  target="_self"
+                                >
+                                  Read more
+                                </a>
+                                {"  "}
+                                <i class="fa fa-angle-right" aria-hidden="true" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                 <div className="sec-brdr">
                   <div className="mdiaimg">
@@ -850,7 +948,9 @@ const ImageSliderBLogNew = () => {
                   </div>
                 </div>
                   </div>
-            
+              </div>
+              
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1011,9 +1111,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-
-              <div className="container media-main">
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1090,7 +1188,11 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1251,11 +1353,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-          </div>
-            
-          <div>
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                           <div className="mdiaimg">
@@ -1327,7 +1425,9 @@ const ImageSliderBLogNew = () => {
                           </div>
                       </div>
                   </div>
-          
+              </div>
+              
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1486,8 +1586,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
