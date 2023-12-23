@@ -36,6 +36,53 @@ const ImageSliderBLogNew = () => {
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/raining_solution_water_secure_future_inner1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/raining-solution-water-secure-future" target="_self" >
+										            Raining Solutions: International Best Practices in Rainwater Harvesting for a Water-Secure Future
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          In order to protect our planet's most precious resources, creative and sustainable solutions are nееdеd to the growing problem of watеr shortage...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/raining-solution-water-secure-future" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/raining-solution-water-secure-future" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/raining-solution-water-secure-future" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/raining-solution-water-secure-future" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
                   				<img src="../static/images/blogs/ensuring_clean_safe_rainwater_proper_filtration_inner1.png" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
@@ -126,6 +173,8 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+              <div className="container media-main" style={{ marginTop: "10vh" }}>    
                   
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -173,8 +222,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-              <div className="container media-main" style={{ marginTop: "10vh" }}>    
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -268,7 +316,11 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+          </div>
 
+          <div>
+              <div className="container media-main">        
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -315,11 +367,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          </div>
 
-          <div>
-              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -413,6 +461,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -460,9 +511,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -556,7 +605,11 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-            
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
 					        <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -602,11 +655,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -654,84 +703,86 @@ const ImageSliderBLogNew = () => {
                   </div>
                             
             	    <div className="col-md-4" style={{ marginTop: "30px" }}>
-              <div className="sec-brdr">
-                <div className="mdiaimg">
-                  <img
-                    src="../static/images/blogs/globalWaterScarcity/2.jpg"
-                    style={{
-                      height: "196px",
-                    }}
-                  />
-                </div>
-                <div className="mdiacont">
-                  <div className="grndtext">
-                    <h3>
-                      <a
-                        href="/about-us/blogs/global-water-scarcity"
-                        target="_self"
-                      >
-                        How Rainwater Harvesting can solve Global Water scarcity
-                        <br />
-                      </a>
-                    </h3>
-                    <p
-                      style={{
-                        textAlign: "left",
-                        color: "#4c3f43",
-                        fontSize: "13px",
-                        fontWeight: "500",
-                        letterSpacing: "0.5px",
-                      }}
-                    >
-                      Every day that goes by, more and more water is becoming
-                      scarce. The World Economic Forum identified the water
-                      crisis as the fifth most dangerous global risk in terms of
-                      its potential to affect society in January 2020....
-                    </p>
-                    <div className="col-md-12 mdiasocial">
-                      <div className="col-md-6 mediasocial">
-                        <FacebookShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
-                          }
-                        >
-                          <i className="fa fa-facebook" aria-hidden="true" />
-                        </FacebookShareButton>
-
-                        <TwitterShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
-                          }
-                        >
-                          <i className="fa fa-twitter" aria-hidden="true" />
-                        </TwitterShareButton>
-
-                        <WhatsappShareButton
-                          url={
-                            "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
-                          }
-                        >
-                          <i className="fa fa-whatsapp" aria-hidden="true" />
-                        </WhatsappShareButton>
+                    <div className="sec-brdr">
+                      <div className="mdiaimg">
+                        <img
+                          src="../static/images/blogs/globalWaterScarcity/2.jpg"
+                          style={{
+                            height: "196px",
+                          }}
+                        />
                       </div>
-                      <div className="col-md-6 mediabtn">
-                        <button>
-                          <a
-                            href="/about-us/blogs/global-water-scarcity"
-                            target="_self"
+                      <div className="mdiacont">
+                        <div className="grndtext">
+                          <h3>
+                            <a
+                              href="/about-us/blogs/global-water-scarcity"
+                              target="_self"
+                            >
+                              How Rainwater Harvesting can solve Global Water scarcity
+                              <br />
+                            </a>
+                          </h3>
+                          <p
+                            style={{
+                              textAlign: "left",
+                              color: "#4c3f43",
+                              fontSize: "13px",
+                              fontWeight: "500",
+                              letterSpacing: "0.5px",
+                            }}
                           >
-                            Read more
-                          </a>
-                          {"  "}
-                          <i class="fa fa-angle-right" aria-hidden="true" />
-                        </button>
+                            Every day that goes by, more and more water is becoming
+                            scarce. The World Economic Forum identified the water
+                            crisis as the fifth most dangerous global risk in terms of
+                            its potential to affect society in January 2020....
+                          </p>
+                          <div className="col-md-12 mdiasocial">
+                            <div className="col-md-6 mediasocial">
+                              <FacebookShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
+                                }
+                              >
+                                <i className="fa fa-facebook" aria-hidden="true" />
+                              </FacebookShareButton>
+
+                              <TwitterShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
+                                }
+                              >
+                                <i className="fa fa-twitter" aria-hidden="true" />
+                              </TwitterShareButton>
+
+                              <WhatsappShareButton
+                                url={
+                                  "https://www.rainyfilters.com/about-us/blogs/global-water-scarcity"
+                                }
+                              >
+                                <i className="fa fa-whatsapp" aria-hidden="true" />
+                              </WhatsappShareButton>
+                            </div>
+                            <div className="col-md-6 mediabtn">
+                              <button>
+                                <a
+                                  href="/about-us/blogs/global-water-scarcity"
+                                  target="_self"
+                                >
+                                  Read more
+                                </a>
+                                {"  "}
+                                <i class="fa fa-angle-right" aria-hidden="true" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
             		  </div>
+              </div>
 
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -811,9 +862,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>          
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -976,7 +1025,11 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                   </div>
-          
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >        
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1055,11 +1108,7 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                   </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main" >  
+            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                 <div className="sec-brdr">
                   <div className="mdiaimg">
@@ -1221,6 +1270,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1301,9 +1353,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1461,6 +1511,11 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
 
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1541,11 +1596,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-          </div>
           
-          <div>
-              <div className="container media-main" >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                           <div className="mdiaimg">
@@ -1697,6 +1748,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1776,9 +1830,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
