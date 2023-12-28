@@ -788,12 +788,7 @@ img {
 .bg-gradient1:before {
   background: #52a0fd;
   background: -moz-linear-gradient(left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
-  background: -webkit-linear-gradient(
-    left,
-    #52a0fd 0%,
-    #00e2fa 80%,
-    #00e2fa 100%
-  );
+  background: -webkit-linear-gradient(left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
   background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
 }
 
@@ -801,12 +796,7 @@ img {
 .bg-gradient3:before {
   background: #fa6c9f;
   background: -moz-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
-  background: -webkit-linear-gradient(
-    left,
-    #fa6c9f 0%,
-    #ffe140 80%,
-    #ffe140 100%
-  );
+  background: -webkit-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
   background: linear-gradient(to right, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
 }
 
@@ -1043,7 +1033,9 @@ p {
   padding-top: 60px;
   background-color: white;
   color: #eee;
-  transition: opacity 300ms ease-in, visibility 0s ease-in 300ms;
+  transition:
+    opacity 300ms ease-in,
+    visibility 0s ease-in 300ms;
 }
 
 .header nav,
@@ -1556,7 +1548,9 @@ p {
 
 .main-header {
   margin: 0px 0px 30px 0px;
-  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2), 0 0px 2px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 0px 30px rgba(0, 0, 0, 0.2),
+    0 0px 2px rgba(0, 0, 0, 0.2);
   z-index: 999999 !important;
   padding-top: 10px;
   padding-bottom: 10px;

@@ -503,6 +503,7 @@ h2.whtdowdo:after {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+  position: relative;
 }
 
 .frmsecimg {
@@ -870,7 +871,7 @@ h2.whtdowdo:after {
   font-size: 16px;
   line-height: 25px;
   color: #0971b7;
-  text-align:left;	
+  text-align: left;
 }
 
 .mediasocial i.fa.fa-facebook {
@@ -1027,7 +1028,10 @@ h5.mb-0.mb0diff {
   margin: 0px 0px;
 }
 
-.blog-info h1:after, h2:after, h3:after, h4:after {
+.blog-info h1:after,
+h2:after,
+h3:after,
+h4:after {
   content: "";
   display: block;
   text-align: left;

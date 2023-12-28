@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react'
+import React, { Fragment } from 'react'
 
 const RWHFilters = () => {
 	return (
@@ -14,7 +14,7 @@ const RWHFilters = () => {
 							<div className='mdrntech threecntr'>
 								<h3>
 									Modern Technology
-									<img src='../static/images/homepage/propertiesRWH/modernTech.png' alt='Modern Tech'/>
+									<img src='../static/images/homepage/propertiesRWH/modernTech.png' alt='Modern Tech' />
 								</h3>
 								<p>
 									'Rainy' filters are made with highly durable, food-grade
@@ -25,7 +25,7 @@ const RWHFilters = () => {
 							<div className='intfltrs threecntr'>
 								<h3>
 									Dual Intensity Filters
-									<img src='../static/images/homepage/propertiesRWH/dualIntensityFilter.png' alt='Dual Intensity Filter'/>
+									<img src='../static/images/homepage/propertiesRWH/dualIntensityFilter.png' alt='Dual Intensity Filter' />
 								</h3>
 								<p>
 									Our filters work on the principle of cohesion & centrifugal
@@ -49,14 +49,14 @@ const RWHFilters = () => {
 							<img
 								className='img-fluid'
 								src='../static/images/homepage/rwhf.png'
-	                                                        alt='RWHF'
+								alt='RWHF'
 								float='true'
 							/>
 						</div>
 						<div className='col-md-4'>
 							<div className='easyinsta threecntr'>
 								<h3>
-									<img src='../static/images/homepage/propertiesRWH/easyInstallation.png' alt='Easy Installation'/>
+									<img src='../static/images/homepage/propertiesRWH/easyInstallation.png' alt='Easy Installation' />
 									Easy Installation
 								</h3>
 								<p>
@@ -68,7 +68,7 @@ const RWHFilters = () => {
 							</div>
 							<div className='wderng threecntr'>
 								<h3>
-									<img src='../static/images/homepage/propertiesRWH/wideRange.png' alt='Wide Range'/>
+									<img src='../static/images/homepage/propertiesRWH/wideRange.png' alt='Wide Range' />
 									Wide Range
 								</h3>
 								<p>
@@ -79,7 +79,7 @@ const RWHFilters = () => {
 							</div>
 							<div className='cstefftve threecntr'>
 								<h3>
-									<img src='../static/images/homepage/propertiesRWH/costEffective.png' alt='Cost Effective'/>
+									<img src='../static/images/homepage/propertiesRWH/costEffective.png' alt='Cost Effective' />
 									Cost Effective & Affordable
 								</h3>
 								<p>
@@ -91,6 +91,9 @@ const RWHFilters = () => {
 						</div>
 					</div>
 				</div>
+				<button className="btn-shopnow">
+					<a href="https://www.rainyfilters.shop/">Shop Now</a>
+				</button>
 			</div>
 		</Fragment>
 	)

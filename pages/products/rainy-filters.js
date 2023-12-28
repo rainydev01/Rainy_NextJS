@@ -93,7 +93,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/products/rainyFiltersBanner.png" alt="Rainy Filters Banner"/>
+              <img src="../../static/images/products/rainyFiltersBanner.png" alt="Rainy Filters Banner" />
               {/* <div className="hero-text rnyfltrs">
                 <h1>'RAINY' FILTERS</h1>
               </div> */}
@@ -104,8 +104,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="container">
               <div className="row">
                 <div className="">
-		<br />
-		<br />
+                  <br />
+                  <br />
                   <h2 className="fl80">FL-80</h2>
                   <p
                     style={{
@@ -240,9 +240,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://amzn.to/3kMg7jJ"
+                              href=" https://www.rainyfilters.shop/products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft"
                             >
-                              <button>
+                              <button >
                                 Buy <br />
                                 Online
                               </button>
@@ -483,7 +483,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://amzn.to/3sNyKq7"
+                              href="https://www.rainyfilters.shop/products/rainy-fl-150-rain-water-harvesting-filter-suitable-for-area-upto-1900-sq-ft"
                             >
                               <button>
                                 Buy <br />
@@ -511,7 +511,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_150-min.png" alt="FL-150"/>
+                    <img src="../../static/images/products/FL_150-min.png" alt="FL-150" />
                   </div>
                 </div>
               </div>
@@ -737,7 +737,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://amzn.to/3c06NVm"
+                              href="https://www.rainyfilters.shop/products/rainy-fl-250-rain-water-harvesting-filters-suitable-for-area-upto-2700-sq-ft"
                             >
                               <button>
                                 Buy <br />
@@ -979,7 +979,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://amzn.to/3uXsqi3"
+                              href="https://www.rainyfilters.shop/products/rainy-fl-300-rain-water-harvesting-filter-suitable-for-area-upto-3800-sqft"
                             >
                               <button>
                                 Buy <br />
@@ -1233,7 +1233,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://amzn.to/386UXrp"
+                              href="https://www.rainyfilters.shop/products/rainy-fl-500-rain-water-harvesting-filter-suitable-for-area-upto-5400-square-feet"
                             >
                               <button>
                                 Buy <br />

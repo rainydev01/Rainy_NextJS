@@ -122,6 +122,12 @@ const Footer = () => {
                     <a href="/contact-us/enquire">Enquire</a>{" "}
                   </button>
                 </div>
+                <div>
+                  <button>
+                    {" "}
+                    <a href="https://www.rainyfilters.shop/">Shop Now</a>{" "}
+                  </button>
+                </div>
 
                 {/* <div id="google_translate_element"></div> */}
 

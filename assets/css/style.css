@@ -2,7 +2,7 @@ tr {
     line-height: 10px;
     min-height: 10px;
     height: 10px;
-    font-family: 'Visby Round CF Regular';
+    font-family: "Visby Round CF Regular";
 }
 
 .hero-text.enthrotxt.jrny4 {
@@ -143,20 +143,20 @@ button {
 }
 
 @font-face {
-    font-family: 'Visby Round CF Heavy';
-    src: url('../../public/fonts/VisbyRoundCFHeavy.ttf');
+    font-family: "Visby Round CF Heavy";
+    src: url("../../public/fonts/VisbyRoundCFHeavy.ttf");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'Visby Round CF Regular';
-    src: url('../../public/fonts/VisbyRoundCF-Regular.ttf');
+    font-family: "Visby Round CF Regular";
+    src: url("../../public/fonts/VisbyRoundCF-Regular.ttf");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'Visby Round CF Light';
-    src: url('../../public/fonts/VisbyRoundCF-Light.ttf');
+    font-family: "Visby Round CF Light";
+    src: url("../../public/fonts/VisbyRoundCF-Light.ttf");
     font-weight: normal;
 }
 
@@ -197,7 +197,6 @@ img.moblogo {
     background-size: contain;
 }
 
-
 /*.slick-prev {
     left: 300px!important;
 }
@@ -220,7 +219,7 @@ img.moblogo {
     display: inline-block;
     margin-left: 0.255em;
     vertical-align: 0.1em;
-    content: '';
+    content: "";
     border-top: 0.5em solid;
     border-right: 0.5em solid transparent;
     border-bottom: 0;
@@ -228,7 +227,7 @@ img.moblogo {
 }
 
 .dropdown-menu.dropdown-menu-tip-nw.show:after {
-    content: ' ';
+    content: " ";
     position: absolute;
     width: 5px;
     height: 45px;
@@ -260,7 +259,7 @@ img.moblogo {
     text-decoration: none;
     margin-top: 80px;
     text-align: center;
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
     color: #3e3e3e;
     font-size: 16px;
     letter-spacing: 1px;
@@ -296,7 +295,7 @@ body {
     mso-margin-bottom-alt: 0px;
     mso-padding-alt: 0px 0px 0px 0px;
     background: white;
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
 }
 
 .container-fluid {
@@ -327,7 +326,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
 }
 
 table {
@@ -414,7 +413,7 @@ img {
         position: absolute !important;
         bottom: 115px !important;
     }
-    .timeline>li>.timeline-badge {
+    .timeline > li > .timeline-badge {
         left: 54% !important;
     }
     .slick-slider.slick-initialized .slick-arrow.slick-prev {
@@ -462,7 +461,7 @@ img {
     .header {
         display: none;
     }
-    .menu-toggle:checked~.header {
+    .menu-toggle:checked ~ .header {
         display: block !important;
         opacity: 1;
         transition-delay: 0s;
@@ -565,18 +564,18 @@ img {
         display: none !important;
     }
     /* ------- journey -------- */
-    .timeline>li>.timeline-panel {
+    .timeline > li > .timeline-panel {
         width: 100% !important;
         float: left !important;
         left: 0% !important;
     }
-    .timeline>li>.right-drop {
+    .timeline > li > .right-drop {
         width: 155px !important;
         height: 181px !important;
         top: 20px !important;
         left: 52% !important;
     }
-    .timeline>li>.left-drop {
+    .timeline > li > .left-drop {
         width: 181px !important;
         height: 181px !important;
         top: 17px !important;
@@ -667,9 +666,9 @@ img {
     h1.fl80 {
         width: 60% !important;
     }
-    .mb-0>a:after {
-        content: '\f078';
-        font-family: 'Visby Round CF Heavy';
+    .mb-0 > a:after {
+        content: "\f078";
+        font-family: "Visby Round CF Heavy";
         position: absolute;
         right: 7% !important;
     }
@@ -742,10 +741,10 @@ img {
     .groundwatersimg img {
         margin-top: 20px !important;
     }
-    .timeline>li>.left-drop {
+    .timeline > li > .left-drop {
         left: 35% !important;
     }
-    .timeline>li>.timeline-panel {
+    .timeline > li > .timeline-panel {
         width: 37% !important;
     }
     .slick-arrow-right-awards {
@@ -760,7 +759,7 @@ img {
 .bg-gradient1:before {
     background: #52a0fd;
     background: -moz-linear-gradient(left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
-    background: -webkit-linear-gradient( left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+    background: -webkit-linear-gradient(left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
     background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
 }
 
@@ -768,7 +767,7 @@ img {
 .bg-gradient3:before {
     background: #fa6c9f;
     background: -moz-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
-    background: -webkit-linear-gradient( left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
+    background: -webkit-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
     background: linear-gradient(to right, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
 }
 
@@ -792,7 +791,7 @@ a:active {
 .fancy-button {
     display: inline-block;
     margin: 0px;
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
     font-size: 5px;
     letter-spacing: 0em;
     text-transform: uppercase;
@@ -804,7 +803,7 @@ a:active {
 }
 
 .fancy-button:before {
-    content: '';
+    content: "";
     display: inline-block;
     height: 20px;
     position: absolute;
@@ -889,7 +888,7 @@ body {
     background-color: #fff;
     height: 100%;
     margin: 0;
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
     font-size: 1em;
     color: #696969;
     -webkit-font-smoothing: antialiased;
@@ -947,7 +946,7 @@ p {
     /*the bar to X*/
 }
 
-.menu-icon>span {
+.menu-icon > span {
     display: block;
     position: absolute;
     top: 55%;
@@ -959,9 +958,9 @@ p {
     transition: transform 300ms ease-in;
 }
 
-.menu-icon>span:before,
-.menu-icon>span:after {
-    content: '';
+.menu-icon > span:before,
+.menu-icon > span:after {
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -970,30 +969,28 @@ p {
     transition: transform 300ms ease;
 }
 
-.menu-icon>span:before {
+.menu-icon > span:before {
     transform: translateY(-0.6em);
 }
 
-.menu-icon>span:after {
+.menu-icon > span:after {
     transform: translateY(0.6em);
 }
 
-
 /*need this for bringing down the examples*/
 
-.menu-toggle:checked+.mobile-bar .menu-icon {
+.menu-toggle:checked + .mobile-bar .menu-icon {
     transform: rotate(45deg);
 }
 
-.menu-toggle:checked+.mobile-bar span:before,
-.menu-toggle:checked+.mobile-bar span:after {
+.menu-toggle:checked + .mobile-bar span:before,
+.menu-toggle:checked + .mobile-bar span:after {
     transform: rotate(90deg);
 }
 
-
 /*needed*/
 
-.menu-toggle:checked~.header {
+.menu-toggle:checked ~ .header {
     visibility: visible;
     opacity: 1;
     transition-delay: 0s;
@@ -1007,7 +1004,9 @@ p {
     padding-top: 60px;
     background-color: white;
     color: #eee;
-    transition: opacity 300ms ease-in, visibility 0s ease-in 300ms;
+    transition:
+        opacity 300ms ease-in,
+        visibility 0s ease-in 300ms;
 }
 
 .header nav,
@@ -1041,11 +1040,22 @@ p {
     font-family: Visby Round CF Regular;
 }
 
+.header li:nth-child(8) a {
+    background-color: #6daae0;
+    color: #fff;
+    padding: 0px 15px !important;
+    border-radius: 50px;
+    margin-left: 15px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
 .navbar-brand {
     padding: 0px;
 }
 
-.navbar-brand>img {
+.navbar-brand > img {
     /*height: 40px;
     width: auto;
     z-index: 10;
@@ -1054,11 +1064,12 @@ p {
     left: 0;
     padding: 0 25px;
     background-color: white;*/
-    float: left;
+    /* float: left; */
     float: left;
     padding-top: 15px;
     width: 171px;
     max-width: 100%;
+    margin-left: -74px;
 }
 
 .test {
@@ -1106,7 +1117,7 @@ p {
         font-weight: 600;
         color: #0971b7;
         letter-spacing: 0px;
-        font-family: 'Visby Round CF Heavy';
+        font-family: "Visby Round CF Heavy";
     }
     .container-fluid.groundwater_bg_home .col-md-4 {
         padding: 0px 10px;
@@ -1137,16 +1148,16 @@ p {
     .rnyfltrs {
         left: 60% !important;
     }
-    .timeline>li.timeline-inverted>.timeline-panel {
+    .timeline > li.timeline-inverted > .timeline-panel {
         float: right !important;
     }
-    .timeline>li.timeline-inverted>.timeline-panel:before {
+    .timeline > li.timeline-inverted > .timeline-panel:before {
         border-left-width: 0;
         border-right-width: 15px;
         left: -15px;
         right: auto;
     }
-    .timeline>li.timeline-inverted>.timeline-panel:after {
+    .timeline > li.timeline-inverted > .timeline-panel:after {
         border-left-width: 0;
         border-right-width: 14px;
         left: -14px;
@@ -1161,7 +1172,7 @@ p {
     .container {
         max-width: 1000px;
     }
-    .timeline>li>.timeline-badge {
+    .timeline > li > .timeline-badge {
         left: 51.5% !important;
     }
     .slick-slider.slick-initialized .slick-arrow.slick-prev {
@@ -1209,7 +1220,7 @@ p {
     .header {
         display: none;
     }
-    .menu-toggle:checked~.header {
+    .menu-toggle:checked ~ .header {
         display: block !important;
         opacity: 1;
         transition-delay: 0s;
@@ -1317,7 +1328,7 @@ p {
         display: none !important;
     }
     /* ------- journey -------- */
-    .timeline>li>.timeline-panel {
+    .timeline > li > .timeline-panel {
         width: 45% !important;
         float: left !important;
         left: 0% !important;
@@ -1327,13 +1338,13 @@ p {
         float: left !important;
         left: 0% !important;
     }
-    .timeline>li>.right-drop {
+    .timeline > li > .right-drop {
         width: 155px !important;
         height: 181px !important;
         top: 20px !important;
         left: 52% !important;
     }
-    .timeline>li>.left-drop {
+    .timeline > li > .left-drop {
         width: 181px !important;
         height: 181px !important;
         top: 17px !important;
@@ -1416,9 +1427,9 @@ p {
     h1.fl80 {
         width: 60% !important;
     }
-    .mb-0>a:after {
-        content: '\f078';
-        font-family: 'Visby Round CF Heavy';
+    .mb-0 > a:after {
+        content: "\f078";
+        font-family: "Visby Round CF Heavy";
         position: absolute;
         right: 7% !important;
     }
@@ -1505,18 +1516,19 @@ p {
         text-align: left;
     }
     .header a {
-        padding: 20px 25px 10px 25px;
+        padding: 20px 15px 10px 15px;
     }
 }
 
 .main-header {
     margin: 0px 0px 30px 0px;
-    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2), 0 0px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:
+        0 0px 30px rgba(0, 0, 0, 0.2),
+        0 0px 2px rgba(0, 0, 0, 0.2);
     z-index: 999999 !important;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 
 /*.hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
@@ -1576,23 +1588,38 @@ p {
 }
 
 .blogImg {
-  width: 70%;
-  margin: auto;
-  border: 2px solid rgb(70, 171, 226);
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-image: url("/_next/static/media/Wave.3b2827b….png");
+    width: 70%;
+    margin: auto;
+    border: 2px solid rgb(70, 171, 226);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url("/_next/static/media/Wave.3b2827b….png");
 }
 .list-heading {
-	list-style-type: number;
+    list-style-type: number;
 }
-.list-heading h3{
-	font-size:20px;
-	font-weight: 500;
+.list-heading h3 {
+    font-size: 20px;
+    font-weight: 500;
 }
-.list-heading h3:after{
-	border:none;
+.list-heading h3:after {
+    border: none;
 }
 
+.btn-shopnow {
+    position: absolute;
+    right: 206px;
+    bottom: 80px;
+    display: -moz-box;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    background-color: #6daae0;
+    color: #fff;
+    padding: 9px 17px !important;
+    border: none;
+}

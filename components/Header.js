@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { BsCart } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -135,7 +136,12 @@ const Header = () => {
                     </a>
                   </div>
                 </li>
-                      
+                <li >
+                  <a href="https://www.rainyfilters.shop/" className="btn-shop">
+                    Shop Now<BsCart />
+                  </a>
+                </li>
+
                 <li>
                   <img
                     style={{ paddingLeft: "1.5em", cursor: "pointer" }}
