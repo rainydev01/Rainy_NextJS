@@ -1610,8 +1610,8 @@ p {
 
 .btn-shopnow {
     position: absolute;
-    right: 206px;
-    bottom: 80px;
+    right: 11%;
+    bottom: 10%;
     display: -moz-box;
     display: flex;
     -moz-box-pack: center;
@@ -1622,4 +1622,29 @@ p {
     color: #fff;
     padding: 9px 17px !important;
     border: none;
+}
+@media only screen and (max-width: 1520px) {
+    .btn-shopnow {
+        position: absolute;
+        right: 2%;
+        bottom: 9%;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    .btn-shopnow {
+        position: absolute;
+        right: 1%;
+        bottom: 1%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .btn-shopnow {
+        position: initial;
+        right: 1%;
+        bottom: 1%;
+    }
+    .shop-btn-new {
+        display: flex;
+        justify-content: center;
+    }
 }

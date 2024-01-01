@@ -90,10 +90,12 @@ const RWHFilters = () => {
 							</div>
 						</div>
 					</div>
+					<div className='shop-btn-new'>
+						<button className="btn-shopnow">
+							<a href="https://www.rainyfilters.shop/">Shop Now</a>
+						</button>
+					</div>
 				</div>
-				<button className="btn-shopnow">
-					<a href="https://www.rainyfilters.shop/">Shop Now</a>
-				</button>
 			</div>
 		</Fragment>
 	)
