@@ -338,6 +338,11 @@ img {
     border: none !important;
 }
 
+@media only screen and (max-width: 1199px) {
+    .groundwatersimg img {
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 600px) {
     body[yahoo] .full_width_600 {
         width: 90% !important;
@@ -670,10 +675,9 @@ img {
         content: "\f078";
         font-family: "Visby Round CF Heavy";
         position: absolute;
-        right: 7% !important;
+        right: 2% !important;
     }
     .yellowbtn button {
-        width: 100%;
         margin: 5px 15px !important;
     }
     .sssprt h1 {
@@ -681,9 +685,9 @@ img {
         background-size: contain !important;
         font-size: 22px !important;
     }
-    .yellowbtn {
+    /* .yellowbtn {
         margin-left: -20px !important;
-    }
+    } */
     .rnyfltrbtn.senq #rnenq {
         float: left;
         margin-left: 30%;
@@ -740,6 +744,7 @@ img {
     }
     .groundwatersimg img {
         margin-top: 20px !important;
+        width: 100%;
     }
     .timeline > li > .left-drop {
         left: 35% !important;
@@ -1043,7 +1048,7 @@ p {
 .header li:nth-child(8) a {
     background-color: #6daae0;
     color: #fff;
-    padding: 0px 15px !important;
+    padding: 12px 15px !important;
     border-radius: 50px;
     margin-left: 15px;
     display: flex;
@@ -1431,10 +1436,9 @@ p {
         content: "\f078";
         font-family: "Visby Round CF Heavy";
         position: absolute;
-        right: 7% !important;
+        right: 2% !important;
     }
     .yellowbtn button {
-        width: 100%;
         margin: 5px 15px !important;
     }
     .sssprt h1 {
@@ -1442,9 +1446,9 @@ p {
         background-size: contain !important;
         font-size: 22px !important;
     }
-    .yellowbtn {
+    /* .yellowbtn {
         margin-left: -20px !important;
-    }
+    } */
     .rnyfltrbtn.senq #rnenq {
         float: left;
         margin-left: 30%;
@@ -1538,7 +1542,24 @@ p {
   background-size: cover;
   position: relative;
 }*/
-
+.hero-image {
+    position: relative;
+}
+.hero-image .gallery-btn {
+    background-color: #0971b7;
+    color: #fff;
+    width: 50vh;
+    border: 0;
+    font-size: 5.8vh;
+    font-family: system-ui;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .dropdown-menu.dropdown-menu-tip-nw.show {
     width: 220px !important;
     border-radius: 0px;
@@ -1610,7 +1631,7 @@ p {
 
 .btn-shopnow {
     position: absolute;
-    right: 11%;
+    right: 8%;
     bottom: 10%;
     display: -moz-box;
     display: flex;
@@ -1623,11 +1644,24 @@ p {
     padding: 9px 17px !important;
     border: none;
 }
+.btn-shopnow:hover {
+    color: transparent;
+    text-decoration: none;
+}
+
+.btn-shopnow a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn-shopnow svg {
+    font-size: 16px;
+}
 @media only screen and (max-width: 1520px) {
     .btn-shopnow {
         position: absolute;
         right: 2%;
-        bottom: 9%;
+        bottom: 2%;
     }
 }
 @media only screen and (max-width: 1160px) {
@@ -1647,4 +1681,46 @@ p {
         display: flex;
         justify-content: center;
     }
+}
+
+.groundwatersec {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 1199px) {
+    .groundwatersec {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .hero-image .gallery-btn {
+        width: 30vh;
+        font-size: 3vh;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .hero-image .gallery-btn {
+        width: 14vh;
+        font-size: 1.4vh;
+        padding: 10px;
+    }
+}
+
+.yellowbtn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+@media only screen and (max-width: 1199px) {
+    .yellowbtn-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+}
+.dual-secthree {
+    margin-bottom: 20px;
 }

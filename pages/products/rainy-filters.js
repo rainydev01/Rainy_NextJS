@@ -102,7 +102,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid">
             <div className="container">
-              <div className="row">
+              <div className="row m-0">
                 <div className="">
                   <br />
                   <br />
@@ -196,8 +196,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       </tbody>
                     </table>
                     <div className="container-fluid">
-                      <div className="row">
-                        <div className="col-md-3">
+                      <div className="yellowbtn-row">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <button
                               data-toggle="modal"
@@ -217,7 +217,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-                        <div className="col-md-3">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -232,7 +232,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div>
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -249,7 +249,24 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="">
+                          <div className="yellowbtn mt-1">
+                            <a
+                              style={{
+                                fontFamily: "Visby Round CF Heavy",
+                                fontSize: 16,
+                              }}
+                              target="_blank"
+                              href="https://amzn.eu/d/5MzsYHB"
+                            >
+                              <button >
+                                Buy on<br />
+                                Amazon
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                        {/* <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -260,7 +277,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             >
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -353,7 +370,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid fl100">
             <div className="container">
-              <div className="row">
+              <div className="row m-0">
                 <div className="">
                   <h2 className="fl80">FL-150</h2>
                   <p
@@ -439,8 +456,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       </tbody>
                     </table>
                     <div className="container-fluid">
-                      <div className="row">
-                        <div className="col-md-3">
+                      <div className="yellowbtn-row">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <button
                               data-toggle="modal"
@@ -460,7 +477,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-                        <div className="col-md-3">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -475,7 +492,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -492,7 +509,24 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="">
+                          <div className="yellowbtn mt-1">
+                            <a
+                              style={{
+                                fontFamily: "Visby Round CF Heavy",
+                                fontSize: 16,
+                              }}
+                              target="_blank"
+                              href="https://amzn.eu/d/9CsFRjN"
+                            >
+                              <button >
+                                Buy on<br />
+                                Amazon
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                        {/* <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -503,7 +537,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             >
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -602,7 +636,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid fl200fltr">
             <div className="container">
-              <div className="row">
+              <div className="row m-0">
                 <div className="">
                   <h2 className="fl80">FL-250</h2>
                   <p
@@ -693,8 +727,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       </tbody>
                     </table>
                     <div className="container-fluid">
-                      <div className="row">
-                        <div className="col-md-3">
+                      <div className="yellowbtn-row">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <button
                               data-toggle="modal"
@@ -714,7 +748,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-                        <div className="col-md-3">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -729,7 +763,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div>
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -746,7 +780,24 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div>
+                          <div className="yellowbtn mt-1">
+                            <a
+                              style={{
+                                fontFamily: "Visby Round CF Heavy",
+                                fontSize: 16,
+                              }}
+                              target="_blank"
+                              href="https://amzn.eu/d/6cvKWmm"
+                            >
+                              <button >
+                                Buy on<br />
+                                Amazon
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                        {/* <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -757,7 +808,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             >
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -849,7 +900,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid fl100">
             <div className="container">
-              <div className="row">
+              <div className="row m-0">
                 <div className="">
                   <h2 className="fl80">FL-300</h2>
                   <p
@@ -935,8 +986,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       </tbody>
                     </table>
                     <div className="container-fluid">
-                      <div className="row">
-                        <div className="col-md-3">
+                      <div className="yellowbtn-row">
+                        <div>
                           <div className="yellowbtn mt-1">
                             <button
                               data-toggle="modal"
@@ -956,7 +1007,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-                        <div className="col-md-3">
+                        <div>
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -971,7 +1022,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div>
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -988,7 +1039,24 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div>
+                          <div className="yellowbtn mt-1">
+                            <a
+                              style={{
+                                fontFamily: "Visby Round CF Heavy",
+                                fontSize: 16,
+                              }}
+                              target="_blank"
+                              href="https://amzn.eu/d/ai9ifcn"
+                            >
+                              <button >
+                                Buy on<br />
+                                Amazon
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                        {/* <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -999,7 +1067,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             >
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -1097,7 +1165,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid fl500fltr">
             <div className="container">
-              <div className="row">
+              <div className="row m-0">
                 <div className="">
                   <h2 className="fl80">FL-500</h2>
                   <p
@@ -1189,8 +1257,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       </tbody>
                     </table>
                     <div className="container-fluid">
-                      <div className="row">
-                        <div className="col-md-3">
+                      <div className="yellowbtn-row">
+                        <div>
                           <div className="yellowbtn mt-1">
                             <button
                               data-toggle="modal"
@@ -1210,7 +1278,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 														</button>
 													</div>
 												</div> */}
-                        <div className="col-md-3">
+                        <div className="">
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -1225,7 +1293,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div>
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -1242,7 +1310,24 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div>
+                          <div className="yellowbtn mt-1">
+                            <a
+                              style={{
+                                fontFamily: "Visby Round CF Heavy",
+                                fontSize: 16,
+                              }}
+                              target="_blank"
+                              href="https://amzn.eu/d/bAYUYrB"
+                            >
+                              <button >
+                                Buy on<br />
+                                Amazon
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                        {/* <div>
                           <div className="yellowbtn mt-1">
                             <a
                               style={{
@@ -1253,7 +1338,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                             >
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

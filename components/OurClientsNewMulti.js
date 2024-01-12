@@ -15,7 +15,7 @@ const ImageSliderMultiClients = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 1,
+      items: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -31,184 +31,184 @@ const ImageSliderMultiClients = () => {
         </div>
       </div>
       <Carousel infinite={true} autoPlay={true} responsive={responsive}>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/1.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center ">
+        <div className="clients-image">
+          <div className="cliimgsec text-center ">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/2.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/3.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/4.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/5.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/6.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/7.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/8.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/9.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/10.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/11.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/12.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/13.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/14.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/15.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/16.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/17.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/18.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/19.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/20.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/21.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/22.png"
             />
           </div>
         </div>
-        <div className="container-fluid clients-image">
-          <div className="container cliimgsec text-center">
+        <div className="clients-image">
+          <div className="cliimgsec text-center">
             <img
               className="rounded mx-auto d-block"
               src="../static/images/clients/23.png"

@@ -102,7 +102,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
         <div className="videoGallery">
           <Header />{" "}
           <div className="container-fluid banner enternal">
-            <div className="hero-image enthroimg"></div>
+            <div className="hero-image enthroimg">
+              <img src="../static/images/galleryNew/VideoGallery.png" alt="VideoGallery" />
+              <button className="gallery-btn">VIDEO GALLERY</button>
+            </div>
           </div>
           <div className="video-gallery-main-container">
             <div className="large-video-container">

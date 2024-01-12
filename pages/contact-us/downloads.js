@@ -98,7 +98,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/downloads/DownloadsBanner.png" alt="Banner Download"/>
+              <img src="../../static/images/downloads/DownloadsBanner.png" alt="Banner Download" />
               <div className="hero-text dwnldbnnrtxt">
                 <h1>Downloads</h1>
               </div>
@@ -106,13 +106,13 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
 
           <div className="container-fluid dnldbg">
-            <div className="container">
-              <div className="row">
+            <div className="container px-2">
+              <div className="row m-0">
                 <div className="downloadsec">
                   <div id="accordion">
                     <div className="acrdinbrdr">
                       <div className="card-header" id="heading-1">
-                        <h5 className="mb-0">
+                        <h5 className="mb-0 position-relative">
                           <a
                             role="button"
                             data-toggle="collapse"
@@ -137,7 +137,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         <div className="card-body">
                           <div className="container-fluid">
                             <div className="row">
-                              <div className="col-md-2">
+                              <div className="col-md-2 col-sm-3 col-6">
                                 <a
                                   href="../../static/pdf/rainyNewBrochure.pdf"
                                   target="_blank"
@@ -152,7 +152,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                   Rainy <br></br> brochure{" "}
                                 </p>
                               </div>
-                              <div className="col-md-2">
+                              <div className="col-md-2 col-sm-3 col-6">
                                 <a
                                   href="../../static/pdf/rainyNewLitreture.pdf"
                                   target="_blank"
@@ -167,7 +167,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                   Rainy Technical <br></br> Literature{" "}
                                 </p>
                               </div>
-                              <div className="col-md-2">
+                              <div className="col-md-2 col-sm-3 col-6">
                                 <a
                                   href="../../static/pdf/rainyPushNLockHdpePipeingSystem.pdf"
                                   target="_blank"
@@ -188,7 +188,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </div>
                     <div className="acrdinbrdr">
                       <div className="card-header" id="heading-2">
-                        <h5 className="mb-0">
+                        <h5 className="mb-0 position-relative">
                           <a
                             className="collapsed"
                             role="button"
@@ -211,33 +211,33 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         <div className="card-body">
                           {/* Lorum ipsom is a dummy text, Here is a text is only
 													for test. */}
-                          {/* <div className="container-fluid">
-														<div className="row">
-															<div className="col-md-2">
-																<a
-																	href="../../static/pdf/FL-80UserManual.pdf"
-																	target="_blank"
-																>
-																	<i
-																		className="fa fa-file-pdf-o fa-3x"
-																		aria-hidden="true"
-																	></i>
-																</a>
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-2 col-sm-3 col-6">
+                                <a
+                                  href="../../static/pdf/Brochure.pdf"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-file-pdf-o fa-3x"
+                                    aria-hidden="true"
+                                  ></i>
+                                </a>
 
-																<p>
-																	FL 80 <br></br> User Manual{" "}
-																</p>
-															</div>
-															<div className="col-md-2"></div>
-															<div className="col-md-4"></div>
-														</div>
-													</div> */}
+                                <p>
+                                  Brochure <br></br>{" "}
+                                </p>
+                              </div>
+                              <div className="col-md-2 col-sm-3 col-6"></div>
+                              <div className="col-md-4"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="acrdinbrdr">
                       <div className="card-header" id="heading-3">
-                        <h5 className="mb-0">
+                        <h5 className="mb-0 position-relative">
                           <a
                             className="collapsed"
                             role="button"
@@ -262,9 +262,9 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 													for test. */}
                           <div className="container-fluid">
                             <div className="row">
-                              <div className="col-md-2">
+                              <div className="col-md-2 col-sm-3 col-6">
                                 <a
-                                  href="../../static/pdf/rainyUserGuideFl-80.pdf"
+                                  href="../../static/pdf/Do’s-MandatoryGuidelines.pdf"
                                   target="_blank"
                                 >
                                   <i
@@ -274,10 +274,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 </a>
 
                                 <p>
-                                  FL 80 <br></br> User Manual{" "}
+                                  Do’s- <br></br> Mandatory Guidelines{" "}
                                 </p>
                               </div>
-                              <div className="col-md-2">
+                              {/* <div className="col-md-2 col-sm-3 col-6">
                                 <a
                                   href="../../static/pdf/rainyUserGuideFl-150.pdf"
                                   target="_blank"
@@ -291,8 +291,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 <p>
                                   FL 150 <br></br> User Manual{" "}
                                 </p>
-                              </div>
-                              <div className="col-md-2">
+                              </div> */}
+                              {/* <div className="col-md-2 col-sm-3 col-6">
                                 <a
                                   href="../../static/pdf/rainyUserGuideFl-250.pdf"
                                   target="_blank"
@@ -306,8 +306,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 <p>
                                   FL 250 <br></br> User Manual{" "}
                                 </p>
-                              </div>
-                              <div className="col-md-2">
+                              </div> */}
+                              {/* <div className="col-md-2 col-sm-3 col-6">
                                 <a
                                   href="../../static/pdf/rainyUserGuideFl-300NFL-500.pdf"
                                   target="_blank"
@@ -321,7 +321,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 <p>
                                   FL 300 & FL 500 <br></br> User Manual{" "}
                                 </p>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>
@@ -330,7 +330,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
                     <div className="acrdinbrdr">
                       <div className="card-header" id="heading-2">
-                        <h5 className="mb-0">
+                        <h5 className="mb-0 position-relative">
                           <a
                             className="collapsed"
                             role="button"
@@ -353,36 +353,111 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         <div className="card-body">
                           {/* Lorum ipsom is a dummy text, Here is a text is only
 													for test. */}
-                          {/* <div className="container-fluid">
-														<div className="row">
-															<div className="col-md-2">
-																<a
-																	href="../../static/pdf/FL-80UserManual.pdf"
-																	target="_blank"
-																>
-																	<i
-																		className="fa fa-file-pdf-o fa-3x"
-																		aria-hidden="true"
-																	></i>
-																</a>
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-2 col-sm-3 col-6">
+                                <a
+                                  href="../../static/pdf/rainyUserGuideFl-80.pdf"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-file-pdf-o fa-3x"
+                                    aria-hidden="true"
+                                  ></i>
+                                </a>
 
-																<p>
-																	FL 80 <br></br> User Manual{" "}
-																</p>
-															</div>
-															<div className="col-md-2"></div>
-															<div className="col-md-4"></div>
-														</div>
-													</div> */}
+                                <p>
+                                  FL 80 <br></br> User Manual{" "}
+                                </p>
+                              </div>
+                              <div className="col-md-2 col-sm-3 col-6">
+                                <a
+                                  href="../../static/pdf/rainyUserGuideFl-150.pdf"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-file-pdf-o fa-3x"
+                                    aria-hidden="true"
+                                  ></i>
+                                </a>
+
+                                <p>
+                                  FL 150 <br></br> User Manual{" "}
+                                </p>
+                              </div>
+                              <div className="col-md-2 col-sm-3 col-6">
+                                <a
+                                  href="../../static/pdf/rainyUserGuideFl-250.pdf"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-file-pdf-o fa-3x"
+                                    aria-hidden="true"
+                                  ></i>
+                                </a>
+
+                                <p>
+                                  FL 250 <br></br> User Manual{" "}
+                                </p>
+                              </div>
+                              <div className="col-md-2 col-sm-3 col-6">
+                                <a
+                                  href="../../static/pdf/rainyUserGuideFl-300NFL-500.pdf"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-file-pdf-o fa-3x"
+                                    aria-hidden="true"
+                                  ></i>
+                                </a>
+
+                                <p>
+                                  FL 300 & FL 500 <br></br> User Manual{" "}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
+                      {/* <div
+                        id="collapse-5"
+                        className="collapse"
+                        data-parent="#accordion"
+                        aria-labelledby="heading-2"
+                      >
+                        <div className="card-body">
+                          Lorum ipsom is a dummy text, Here is a text is only
+                          for test.
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-2">
+                                <a
+                                  href="../../static/pdf/FL-80UserManual.pdf"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-file-pdf-o fa-3x"
+                                    aria-hidden="true"
+                                  ></i>
+                                </a>
+
+                                <p>
+                                  FL 80 <br></br> User Manual{" "}
+                                </p>
+                              </div>
+                              <div className="col-md-2"></div>
+                              <div className="col-md-4"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> */}
                     </div>
-                    <div
+                    {/* <div
                       className="acrdinbrdr"
                       style={{ borderBottom: "2px solid #58b8ef" }}
                     >
                       <div className="card-header" id="heading-2">
-                        <h5 className="mb-0">
+                        <h5 className="mb-0 position-relative">
                           <a
                             className="collapsed"
                             role="button"
@@ -403,32 +478,32 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                         aria-labelledby="heading-2"
                       >
                         <div className="card-body">
-                          {/* Lorum ipsom is a dummy text, Here is a text is only
-													for test. */}
-                          {/* <div className="container-fluid">
-														<div className="row">
-															<div className="col-md-2">
-																<a
-																	href="../../static/pdf/FL-80UserManual.pdf"
-																	target="_blank"
-																>
-																	<i
-																		className="fa fa-file-pdf-o fa-3x"
-																		aria-hidden="true"
-																	></i>
-																</a>
+                          Lorum ipsom is a dummy text, Here is a text is only
+                          for test.
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-md-2">
+                                <a
+                                  href="../../static/pdf/FL-80UserManual.pdf"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-file-pdf-o fa-3x"
+                                    aria-hidden="true"
+                                  ></i>
+                                </a>
 
-																<p>
-																	FL 80 <br></br> User Manual{" "}
-																</p>
-															</div>
-															<div className="col-md-2"></div>
-															<div className="col-md-4"></div>
-														</div>
-													</div> */}
+                                <p>
+                                  FL 80 <br></br> User Manual{" "}
+                                </p>
+                              </div>
+                              <div className="col-md-2"></div>
+                              <div className="col-md-4"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

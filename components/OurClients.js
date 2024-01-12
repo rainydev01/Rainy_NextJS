@@ -117,6 +117,7 @@ export default class CustomArrows extends Component {
               />
             ))}
           </div>
+
         </Slider>
       </div>
     );

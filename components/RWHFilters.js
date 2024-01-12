@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
+import { BsCart } from "react-icons/bs";
 
 const RWHFilters = () => {
 	return (
@@ -12,7 +13,7 @@ const RWHFilters = () => {
 					<div className='row dual-secthree'>
 						<div className='col-md-4'>
 							<div className='mdrntech threecntr'>
-								<h3>
+								<h3 className='mdrntech-text'>
 									Modern Technology
 									<img src='../static/images/homepage/propertiesRWH/modernTech.png' alt='Modern Tech' />
 								</h3>
@@ -23,7 +24,7 @@ const RWHFilters = () => {
 								</p>
 							</div>
 							<div className='intfltrs threecntr'>
-								<h3>
+								<h3 className='mdrntech-text'>
 									Dual Intensity Filters
 									<img src='../static/images/homepage/propertiesRWH/dualIntensityFilter.png' alt='Dual Intensity Filter' />
 								</h3>
@@ -34,7 +35,7 @@ const RWHFilters = () => {
 								</p>
 							</div>
 							<div className='extrnlenrgy threecntr'>
-								<h3>
+								<h3 className='mdrntech-text'>
 									No External Energy Required
 									<img src='../static/images/homepage/propertiesRWH/noEnergy.png' alt='No Energy' />
 								</h3>
@@ -92,7 +93,7 @@ const RWHFilters = () => {
 					</div>
 					<div className='shop-btn-new'>
 						<button className="btn-shopnow">
-							<a href="https://www.rainyfilters.shop/">Shop Now</a>
+							<a href="https://www.rainyfilters.shop/">Shop Now <BsCart /></a>
 						</button>
 					</div>
 				</div>

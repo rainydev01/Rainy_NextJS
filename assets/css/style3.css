@@ -37,7 +37,6 @@
     margin-top: 20vh;
 }
 
-
 /* Our Team */
 
 .entteamtxt {
@@ -58,7 +57,7 @@
 }
 
 .groundwater_bg h2:after {
-    content: '';
+    content: "";
     display: block;
     text-align: center;
     position: relative;
@@ -69,7 +68,7 @@
 }
 
 p.team-para:after {
-    content: '';
+    content: "";
     display: block;
     text-align: center;
     position: relative;
@@ -150,9 +149,7 @@ p.team-desc {
     background-position: top;
 }
 
-
 /* tech styling */
-
 
 /* Technology */
 
@@ -176,7 +173,7 @@ h2.tech-heading {
 }
 
 p.techpara:after {
-    content: '';
+    content: "";
     display: block;
     text-align: center;
     position: relative;
@@ -247,9 +244,9 @@ h5.mb-0.mb0diff {
     margin-left: 5px !important;
 }
 
-.mb-0>a:after {
-    content: '\f078';
-    font-family: 'Visby Round CF Heavy';
+.mb-0 > a:after {
+    content: "\f078";
+    font-family: "Visby Round CF Heavy";
     position: absolute;
     right: 10%;
     font-weight: 200;
@@ -257,8 +254,8 @@ h5.mb-0.mb0diff {
     color: #6ec6d8;
 }
 
-.mb-0>a[aria-expanded='true']:after {
-    content: '\f077';
+.mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077";
 }
 
 .card-body {
@@ -331,7 +328,6 @@ h5.mb0diff a {
     margin: 0px;
 }
 
-
 /* .techpointslst ul li:before {
 	content: none;
 	display: inline-block;
@@ -342,7 +338,6 @@ h5.mb0diff a {
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
 } */
-
 
 /* Rainy Filters */
 
@@ -408,7 +403,6 @@ h1.fl80 {
     padding-bottom: 45px;
 }
 
-
 /* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
@@ -419,7 +413,6 @@ h1.fl80 {
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
 } */
-
 
 /* Ground water Recharging */
 
@@ -479,7 +472,6 @@ h1.fl80 {
     padding: 60px 0px;
 }
 
-
 /* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
@@ -490,7 +482,6 @@ h1.fl80 {
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
 } */
-
 
 /* Systems and Solutions */
 
@@ -564,7 +555,6 @@ h1.fl80 {
     margin-right: 15%;
 }
 
-
 /* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
@@ -575,7 +565,6 @@ h1.fl80 {
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
 } */
-
 
 /* Gallery */
 
@@ -671,7 +660,7 @@ h1.fl80 {
 }
 
 .gallery-title:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 7.5%;
     left: 46.5%;
@@ -724,7 +713,6 @@ h1.fl80 {
     margin-bottom: 30px;
 }
 
-
 /* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
@@ -735,7 +723,6 @@ h1.fl80 {
 	background-repeat: no-repeat;
 	margin-right: 0.5em;
 } */
-
 
 /* Get In Touch */
 
@@ -795,7 +782,6 @@ h6.contacth img {
     padding: 45px 0px 0px 0px;
     margin-bottom: -80px;
 }
-
 
 /* Our Network */
 
@@ -860,7 +846,6 @@ h6.contacth img {
     font-weight: 500;
 }
 
-
 /* .techpointslst ul li:before {
 	content: '';
 	display: inline-block;
@@ -884,7 +869,6 @@ h6.contacth img {
     color: #fff;
 }
 
-
 /* Downloads */
 
 .hero-text.dwnldbnnrtxt {
@@ -903,10 +887,6 @@ h6.contacth img {
     border: none;
 }
 
-.downloadsec {
-    width: 90%;
-}
-
 .acrdinbrdr {
     border-top: 2px solid #58b8ef;
     padding: 20px 0px;
@@ -920,8 +900,8 @@ h5.mb-0 a {
 }
 
 .techaccrdn h5.mb-0 a:after {
-    content: '\f107';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     float: right;
     font-size: 50px !important;
@@ -929,11 +909,13 @@ h5.mb-0 a {
 }
 
 .downloadsec h5.mb-0 a:after {
-    content: '\f107';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     float: right;
     size: 0.75em;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 span.mb-span {
@@ -945,18 +927,18 @@ span.mb-span {
     margin-left: 20px;
 }
 
-.mb-0>a:after {
-    content: '\f078';
-    font-family: 'Visby Round CF';
+.mb-0 > a:after {
+    content: "\f078";
+    font-family: "Visby Round CF";
     position: absolute;
-    right: 25%;
+    right: 0%;
     font-weight: 100;
     font-size: 20px;
     color: #6ec6d8;
 }
 
-.mb-0>a[aria-expanded='true']:after {
-    content: '\f077';
+.mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077";
 }
 
 .card-body {
@@ -1008,7 +990,7 @@ span.mb-span {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
 }
 
 .wrechrg {
@@ -1050,7 +1032,6 @@ span.mb-span {
 .next-main {
     padding: 0px 0px 40px 0px;
 }
-
 
 /*img {
   width: 100%;
@@ -1116,25 +1097,25 @@ span.mb-span {
     }
 }*/
 
-.table-striped>tbody>tr:nth-child(odd)>td,
-.table-striped>tbody>tr:nth-child(odd)>th {
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
     background-color: #eff8fc;
 }
 
-.table-striped>tbody>tr:nth-child(even)>td,
-.table-striped>tbody>tr:nth-child(even)>th {
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
     background-color: #a7c7ea;
 }
 
-.table-sysSoln>tbody>tr:nth-child(odd)>td,
-.table-sysSoln>tbody>tr:nth-child(odd)>th {
+.table-sysSoln > tbody > tr:nth-child(odd) > td,
+.table-sysSoln > tbody > tr:nth-child(odd) > th {
     background-color: #ffffff;
     line-height: 50px;
     border: 1px solid #000;
 }
 
-.table-sysSoln>tbody>tr:nth-child(even)>td,
-.table-sysSoln>tbody>tr:nth-child(even)>th {
+.table-sysSoln > tbody > tr:nth-child(even) > td,
+.table-sysSoln > tbody > tr:nth-child(even) > th {
     background-color: #ffffff;
     line-height: 50px;
     border: 1px solid #000;
@@ -1160,11 +1141,11 @@ span.mb-span {
     font-weight: 600;
     color: #0971b7;
     letter-spacing: 0px;
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
 }
 
 h2.clientsHome:after {
-    content: '';
+    content: "";
     display: block;
     text-align: center;
     position: relative;
@@ -1178,7 +1159,7 @@ h2.clientsHome:after {
     font-size: 14px;
     font-weight: 500;
     line-height: 28px;
-    font-family: 'Visby Round CF Heavy';
+    font-family: "Visby Round CF Heavy";
 }
 
 @media screen and (max-width: 1440px) {
@@ -1250,7 +1231,7 @@ h2.clientsHome:after {
 }
 
 .blue_underline h2 :after {
-    content: '';
+    content: "";
     display: block;
     text-align: center;
     position: relative;
@@ -1335,7 +1316,6 @@ div#goog-gt-tt {
     box-shadow: none !important;
 }
 
-
 /* .skiptranslate {
     display: none !important;
     height: 0px !important;
@@ -1379,5 +1359,21 @@ div#goog-gt-tt {
     }
     .groundwaterstxt {
         padding: 30px 10px;
+    }
+}
+
+.yellowbtn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+@media only screen and (max-width: 1199px) {
+    .yellowbtn-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 }
