@@ -274,7 +274,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                 </a>
 
                                 <p>
-                                  Do’s- <br></br> Mandatory Guidelines{" "}
+                                  Do’s - Don'ts<br></br> Mandatory Guidelines{" "}
                                 </p>
                               </div>
                               {/* <div className="col-md-2 col-sm-3 col-6">

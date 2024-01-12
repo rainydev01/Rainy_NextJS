@@ -1048,7 +1048,7 @@ p {
 .header li:nth-child(8) a {
     background-color: #6daae0;
     color: #fff;
-    padding: 12px 15px !important;
+    padding: 4px 12px !important;
     border-radius: 50px;
     margin-left: 15px;
     display: flex;

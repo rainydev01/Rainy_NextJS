@@ -945,8 +945,8 @@ h5.mb-0.mb0diff {
   margin-bottom: 5px;
 }
 .cliimgsec img {
-  width: 200px;
-  max-width: 50%;
+  width: 350px;
+  max-width: 60%;
   z-index: -999999;
   position: relative;
   display: inline-block;
@@ -1116,7 +1116,7 @@ h4:after {
   }
 }
 .react-multi-carousel-list {
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
 }
 .react-multiple-carousel__arrow--left {
