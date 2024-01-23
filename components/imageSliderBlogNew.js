@@ -36,6 +36,100 @@ const ImageSliderBLogNew = () => {
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/highlighting_sustainable_practices_water_conservation_agriculture_inner1.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/highlighting-sustainable-practices-water-conservation-agriculture" target="_self" >
+										            Highlighting the Sustainable Practices of Water Conservation in Agriculture
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          A crucial topic that impacts both the sustainability of food production and the health of our world is ...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/highlighting-sustainable-practices-water-conservation-agriculture" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/highlighting-sustainable-practices-water-conservation-agriculture" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/highlighting-sustainable-practices-water-conservation-agriculture" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/highlighting-sustainable-practices-water-conservation-agriculture" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/help_trees_grow_rainwater_harvesting_banner.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/help-trees-grow-rainwater-harvesting" target="_self" >
+										            Help Trees Grow with Proper Rainwater Harvesting Techniques
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Since time immemorial, the role of trees in preserving ecological balance has been crucial. This ensures a healthy environment. However, the drastic changes...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/help-trees-grow-rainwater-harvesting" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/help-trees-grow-rainwater-harvesting" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/help-trees-grow-rainwater-harvesting" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/help-trees-grow-rainwater-harvesting" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
                   				<img src="../static/images/blogs/borewell_recharge_for_home_banner.png" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
@@ -79,6 +173,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -173,9 +270,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -222,7 +317,12 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
+
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -316,11 +416,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -367,7 +463,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -461,9 +559,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -510,7 +606,11 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -604,12 +704,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">                  
+                            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -656,7 +751,9 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-              
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 					        <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -748,9 +845,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>              
+              
             	    <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -829,7 +924,11 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
             		  </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -991,11 +1090,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
             		  </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main" >
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1076,7 +1171,9 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                   </div>
-                
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>  
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1236,9 +1333,7 @@ const ImageSliderBLogNew = () => {
                   </div>
                 </div>
                   </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>              
+                            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1319,7 +1414,11 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1476,11 +1575,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main" >              
+                        
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1560,7 +1655,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+              </div>
 
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1713,9 +1810,7 @@ const ImageSliderBLogNew = () => {
                           </div>
                       </div>
                   </div>
-              </div>
               
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1795,7 +1890,11 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
