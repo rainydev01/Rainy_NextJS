@@ -1034,7 +1034,8 @@ h5.mb-0.mb0diff {
 .blog-info h1:after,
 h2:after,
 h3:after,
-h4:after {
+h4:after,
+h5:after {
   content: "";
   display: block;
   text-align: left;
