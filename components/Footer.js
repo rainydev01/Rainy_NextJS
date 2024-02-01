@@ -172,7 +172,7 @@ const Footer = () => {
             <li>
               <a href="# " data-toggle="modal" data-target="#refund">
                 {" "}
-                cancellation and refund policy{" "}
+                Cancellation and refund policy{" "}
               </a>
               |
             </li>
@@ -670,7 +670,7 @@ const Footer = () => {
               }}
             >
               <h3 className="modal-title" id="exampleModalLabel">
-                Shipping
+                Shipping policy
               </h3>
             </div>
             <div className="modal-body">
@@ -769,14 +769,14 @@ const Footer = () => {
               }}
             >
               <h3 className="modal-title" id="exampleModalLabel">
-                cancellation and refund
+                Cancellation and refund policy
               </h3>
             </div>
             <div className="modal-body">
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-12">
-                    <strong>cancellation and refund policy</strong>
+                    <strong>Cancellation and refund policy</strong>
                     <div>
                       <p className="mb-0">Return Period: </p>
                       <p className="mt-0">- We offer a 7-day return policy, allowing you 7 days from the date of receiving your item to request a return.</p>
