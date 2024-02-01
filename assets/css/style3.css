@@ -1133,6 +1133,19 @@ span.mb-span {
     margin: 0px 15px;
     border-radius: 30px;
 }
+@media only screen and (max-width: 425px) {
+    .yellowbtn-row {
+        display: -moz-box;
+        display: flex;
+        -moz-box-pack: center;
+        justify-content: center;
+        -moz-box-align: center;
+        align-items: center;
+        grid-gap: 20px;
+        gap: 0px !important;
+        flex-wrap: wrap;
+    }
+}
 
 .clientsHome {
     text-align: center;
@@ -1375,5 +1388,24 @@ div#goog-gt-tt {
         align-items: center;
         gap: 20px;
         flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .yellowbtn-row {
+        display: block;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px !important;
+        flex-wrap: wrap; */
+    }
+    .yellowbtn button {
+        width: 100%;
+        border: 1px solid#fff532;
+        background: #fff532;
+        padding: 3px 30px;
+        color: #000;
+        margin: 5px 0px !important;
+        border-radius: 30px;
     }
 }

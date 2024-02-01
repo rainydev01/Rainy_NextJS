@@ -1,11 +1,12 @@
-import React, {Fragment} from 'react'
-import Link from 'next/link'
+import React, { Fragment } from 'react'
+import Link from 'next/link';
+import { BsCart } from "react-icons/bs";
 
 const Banner = () => {
 	return (
 		<Fragment>
 			<div className='container-fluid banner bannrhome'>
-				<div className='row' style={{display: 'block'}}>
+				<div className='row' style={{ display: 'block' }}>
 					<div className='hero-image'>
 						<Link href='/products/rainy-filters'>
 							<a>
@@ -15,6 +16,9 @@ const Banner = () => {
 								/>
 							</a>
 						</Link>
+						<button className="btn-shopnow-yellow">
+							<a href="https://www.rainyfilters.shop/">Shop Now <BsCart /></a>
+						</button>
 						{/* <div className='hero-text'>
 							<h1 style={{color: 'white'}}>RAINWATER HARVESTING</h1>
 							<p style={{color: 'white'}}>

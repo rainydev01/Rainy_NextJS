@@ -163,6 +163,20 @@ const Footer = () => {
               |
             </li>
             <li>
+              <a href="# " data-toggle="modal" data-target="#shipping">
+                {" "}
+                Shipping policy{" "}
+              </a>
+              |
+            </li>
+            <li>
+              <a href="# " data-toggle="modal" data-target="#refund">
+                {" "}
+                cancellation and refund policy{" "}
+              </a>
+              |
+            </li>
+            <li>
               <a href="# " data-toggle="modal" data-target="#privacy">
                 {" "}
                 Privacy Policy{" "}
@@ -638,7 +652,249 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
+      <div
+        className="modal fade "
+        id="shipping"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div style={{ marginTop: "15vh" }} className="modal-content">
+            <div
+              className="modal-header"
+              style={{
+                display: "flex",
+                margin: "auto",
+                border: "none",
+              }}
+            >
+              <h3 className="modal-title" id="exampleModalLabel">
+                Shipping
+              </h3>
+            </div>
+            <div className="modal-body">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-12">
+                    <strong>Shipping policy</strong>
+                    <p>
+                      All the orders are processed within 1 or 2 business days (excluding weekend and holidays) after receiving your order confirmation email, you will receive another notification when your order has shipped. The shipping time will be varied between 4-7 business days (excluding weekend and holidays). If we are experiencing a high volume of orders, shipments may be delay for few days. If your shipment experiences a significant delay, we will contact you via email or phone.
+                    </p>
+                    <p>Free shipping for all the orders within India.</p>
+                    <strong>Shipping policy for International orders:</strong>
+                    <p>All the orders are processed within 1 or 2 business days (excluding weekend and holidays) after receiving your order confirmation email, you will receive another notification when your order has shipped. The shipping time will be varied between 7-10 business days (excluding weekend and holidays). If we are experiencing a high volume of orders, shipments may be delay for few days. If your shipment experiences a significant delay, we will contact you via email or phone.</p>
+                    <p>International shipping prices and delivery dates may vary by zones.</p>
+                    <strong>Shipment Confirmation and order tracking</strong>
+                    <p>You will receive a shipment confirmation email with your tracking number once your order has shipped. The tracking number will be active within 24 hours.</p>
+                    <strong>Customs, Duties, and Taxes</strong>
+                    <p><a href="https://www.rainyfilters.shop/">https://www.rainyfilters.shop/</a> is not responsible for any customs and taxes applied to your order. All fees imposed during or after shipping are the customer’s responsibility (including tariffs, taxes, and other costs).</p>
+                    <strong>Damages</strong>
+                    <p><a href="https://www.rainyfilters.shop/">https://www.rainyfilters.shop/</a> is not liable for any products damaged or lost during shipping. If you received your order damaged, please file a claim with the shipment carrier. Save all packaging materials and damaged goods before filing a claim.</p>
+                    <strong>Incorrect Shipping Addresses and Refused Delivery</strong>
+                    <p>We make every attempt to validate the shipping address provided at checkout to ensure it’s recognized as a valid address by the USPS. If we cannot validate the address, we will try to contact the customer to provide an updated address. If we cannot update the address, the order will be canceled and refunded.</p>
+                    <p><a href="https://www.rainyfilters.shop/">https://www.rainyfilters.shop/</a> will not be held responsible if the customer provides the wrong shipping address and we cannot recover the package.</p>
+                    <strong>Exchange policy:</strong>
+                    <p>We only accept the exchanges only under the following conditions.</p>
+                    <p>
+                      <ul className="list-disc">
+                        <li><strong>Damaged product:</strong></li>
+                        <li>Exchange requests are only accepted if the received product is damaged.</li>
+                        <li>Please inspect the order, also the video of the package unboxing, pictures of the received product are necessary. Kindly notify us within 3 days if you receive aby damaged product or wrong product.</li>
+                        <li>Exchange eligibility:</li>
+                        <li>Exchange is applicable only for the orders within India. International orders are not eligible for exchange.</li>
+                      </ul>
+                      <strong> 2. Initiating an exchange:</strong>
+                      <p className="space-note">1. Notification:</p>
+                      <ul className="list-disc">
+                        <li>To initiate an exchange for damaged product. Kindly notify us within the following details.</li>
+                        <li>Contact our customer support team at ( sales@rainyfilters.com/ 7338033790) with the following details.
+                        </li>
+                        <li>Order number.</li>
+                        <li>Description of the damage.</li>
+                        <li>Clear photographs and videos of the damaged or wrong product received.</li>
+                      </ul>
+                      <p className="space-note">2. Verification:</p>
+                      <ul className="list-disc">
+                        <li>Our customer support team will review the information, images and videos provided.</li>
+                        <li>If the product is confirmed to be damaged, we will provide the instruction for the exchange process.</li>
+                      </ul>
+                      <p className="space-note">3. Exchange process:</p>
+                      <ul className="list-disc">
+                        <li>Once the exchange is approved, we will arrange the pickup.</li>
+                        <li>Upon receiving the returned item, our team will inspect it to ensure the damage is consistent with the provided information.</li>
+                        <li>If the damage is verified, we will process the exchange and dispatch the replacement product to you.</li>
+                      </ul>
+                    </p>
+                    <strong>Missing or Stolen Shipments</strong>
+                    <p>If you didn't receive your order, but the shipping carrier has reported that it was delivered,</p>
+                    <p>please let us know as soon as possible:</p>
+                    <p>Call <a href="tel:73380-33790">[+91 73380 33790]</a></p>
+                    <p>Or alert us at <a href="mailto:info@rainyfilters.com">[info@rainyfilters.com]</a></p>
+                    <p>We will file a claim with the shipping carrier. Local law enforcement will be involved. We will replace or refund your order when the investigation is complete. Allow up to 21 days for the investigation.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="modal-footer"
+              style={{ display: "flex", margin: "auto", border: "none" }}
+            >
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="modal fade "
+        id="refund"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div style={{ marginTop: "15vh" }} className="modal-content">
+            <div
+              className="modal-header"
+              style={{
+                display: "flex",
+                margin: "auto",
+                border: "none",
+              }}
+            >
+              <h3 className="modal-title" id="exampleModalLabel">
+                cancellation and refund
+              </h3>
+            </div>
+            <div className="modal-body">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-12">
+                    <strong>cancellation and refund policy</strong>
+                    <div>
+                      <p className="mb-0">Return Period: </p>
+                      <p className="mt-0">- We offer a 7-day return policy, allowing you 7 days from the date of receiving your item to request a return.</p>
+                    </div>
+                    <div>
+                      <p className="mb-0">Eligibility Criteria:  </p>
+                      <p className="m-0">- To be eligible for a return, the item must be in the same condition as you received it, including all parts, unused, with the user manual, and in its original packaging.</p>
+                      <p className="m-0">- You must provide the invoice copy or proof of purchase to initiate the return process.</p>
+                    </div>
+                    <div>
+                      <p className="mb-0">Return Process:   </p>
+                      <p className="m-0">- After applying for a return, please allow 48 hours for us to process your request.</p>
+                      <p className="m-0">- Once the return request is authorized, we will initiate a reverse pickup. Our courier partner will come to your doorstep to pick up the order.</p>
+                      <p className="m-0">- Upon receiving the returned order, our support team will examine it. If the reported problems are confirmed, our team will process a refund within 2-5 business days.</p>
+                    </div>
+                    <div>
+                      <p className="mb-0">Return Deduction:</p>
+                      <p className="m-0">- If a customer decides to return the order, a restocking fee of 15% of the total order amount will be deducted from the refund.</p>
+                      <p className="m-0">- This deduction is applied to cover administrative and processing costs associated with the return.</p>
+                    </div>
+                    <div>
+                      <p className="mb-0">Damaged Product Return/Exchange:</p>
+                      <p className="m-0">-In the event of receiving a damaged product, customers wishing to initiate a return or exchange must follow specific procedures. Capture a video and take pictures during the unboxing process to document the condition of the product.</p>
+                      <p className="mt-0">- These visual materials are crucial for our assessment of the damage and will facilitate a prompt resolution of your return or exchange request.</p>
+                    </div>
+                    <p>We appreciate your understanding of these policies, which are in place to ensure a fair and transparent return process. If you have any questions or concerns, please reach out to our customer support team for assistance.</p>
+                    <p>You can always contact us for any return question at <a href="mailto:info@rainyfilters.com">info@rainyfilters.com</a>.</p>
+                    <div>
+                      <strong>Return and Refund Policy for International orders:</strong>
+                      <p>Returns and Refunds are not applicable for the international orders. </p>
+                    </div>
+                    <div>
+                      <p className="mb-0">Damaged Product Replacement:</p>
+                      <p className="m-0">-In the event of receiving a damaged product, customers wishing to initiate a replacement must follow specific procedures. Capture a video and take pictures during the unboxing process to document the condition of the product.</p>
+                      <p className="m-0">- These visual materials are crucial for our assessment of the damage and will facilitate a prompt resolution of your replacement request.</p>
+                      <p className="m-0">- New product will be delivered after the damage of the product is confirmed.</p>
+                    </div>
+                    <p>We appreciate your understanding of these policies, which are in place to ensure a fair and transparent return process. If you have any questions or concerns, please reach out to our customer support team for assistance.</p>
+                    <p>You can always contact us for any replacement question at <a href="mailto:info@rainyfilters.com">info@rainyfilters.com</a>.</p>
+                    <div>
+                      <strong>Damages and issues:</strong>
+                      <p>Our return policy covers instances where the product arrives damaged, incorrect products or in a defective condition. If you receive a damaged product, providing clear photographs and a description of the damage, your return process will be expedited. We will assess the issue promptly and if confirmed, provide you with a replacement.</p>
+                    </div>
+                    <div>
+                      <strong>Exceptions / non-returnable items:</strong>
+                      <p>We are unable to accept returns for products that have been used or installed. It is essential that customers thoroughly inspect their purchases for any damage or defects before using them. We encourage you to review your items upon receipt and contact our customer support immediately if you discover any issues.</p>
+                    </div>
+                    <div>
+                      <strong>Replacement</strong>
+                      <p>We accept the replacement only if the product arrives damaged, if you receive wrong item or in a defective condition the product will be exchanged with the new product. We will assess the issue promptly and, if confirmed, provide you with a replacement, as per your preference.</p>
+                    </div>
+                    <div>
+                      <strong>Refunds</strong>
+                      <p>Refunds are not applicable for international orders, in case if you receive any damaged or wrong product then mail us at <a href="mailto:info@rainyfilters.com">info@rainyfilters.com</a>.</p>
+                    </div>
+                    <div>
+                      <strong>Damages and issues:</strong>
+                      <p>Our return policy covers instances where the product arrives damaged, incorrect products or in a defective condition. If you receive a damaged product, providing clear photographs and a description of the damage your return process will be expedited. We will assess the issue promptly and, if confirmed, provide you with a replacement or a refund, as per your preference.</p>
+                    </div>
+                    <div>
+                      <strong>Exceptions / non-returnable items:</strong>
+                      <p>We are unable to accept returns for products that have been used or installed. It is essential that customers thoroughly inspect their purchases for any damage or defects before using them. We encourage you to review your items upon receipt and contact our customer support immediately if you discover any issues.</p>
+                    </div>
+                    <div>
+                      <strong>Replacement</strong>
+                      <p>We accept the exchange only if the product arrives damaged, if you receive wrong item or in a defective condition the product will be exchanged with the new product. We will assess the issue promptly and, if confirmed, provide you with a replacement, as per your preference.</p>
+                    </div>
+                    <div>
+                      <strong>Refunds</strong>
+                      <p>We will notify you once we’ve received and inspected your return, and let you know if the refund was approved or not. If approved, you’ll be automatically refunded on your original payment method within 5-10 business days. Please remember it can take some time for your bank or credit card company to process and post the refund too.
+                        If more than 15 business days have passed since we’ve approved your return, please contact us at <a href="mailto:info@rainyfilters.com">info@rainyfilters.com</a>.</p>
+                    </div>
+                    <strong>Cancellation Policy:</strong>
+                    <div>
+                      <p className="mb-0">1. Cancellation within 24 hours:</p>
+                      <p className="mt-0">- If you choose to cancel your order within 24 hours of placing it, a restocking fee of 5% of the total order amount will be deducted.</p>
+                    </div>
+                    <div>
+                      <p className="mb-0">2. Cancellation after 24 hours:</p>
+                      <p className="m-0">- Orders can be canceled on receipt of the cancellation request, provided the Products have not been packed and the invoice generated.</p>
+                      <p className="m-0">- If you decide to cancel your order after the initial 24-hour period, a restocking fee of 10% of the total order amount will be deducted.</p>
+                      <p className="m-0">- Refunds for canceled orders will be initiated within 2-5 business days from the receipt of the cancellation request.</p>
+                      <p className="m-0">- The refund amount will be processed through the same mode of payment used for the purchase..</p>
+                      <p className="mt-0">- Refunds are subject to applicable policies and charges of the User’s bank/financial institution/payment gateway, as may be applicable.</p>
+                    </div>
+                    <div>
+                      <p className="mb-0">3. Post-Packing and Invoicing:</p>
+                      <p className="m-0">- The User is not allowed to cancel the order for Products after they have been packed and the invoice has been generated.</p>
+                      <p className="mt-0">- If a User requests order cancellation via email after the Products have been packed and invoiced, cancellation cannot be guaranteed. Once the Products are packed and invoiced, they may have already entered the shipping process.</p>
+                    </div>
+                    <p>We appreciate your understanding of these policies, designed to streamline the cancellation process. If you have any questions or concerns, please contact our customer support team for assistance, please contact us at <a href="mailto:info@rainyfilters.com">info@rainyfilters.com</a>.</p>
+                    <div>
+                      <strong className="text-aws">Cancellation Policy for International orders:</strong>
+                      <p className="mb-0 text-aws">1. Cancellation within 24 hours:</p>
+                      <p className="mt-0 text-aws">- If you choose to cancel your order within 24 hours of placing it, a restocking fee of 6% of the total order amount will be deducted.</p>
+                    </div>
+                    <div>
+                      <p className="mb-0 text-aws">2. Cancellation after 24 hours is not applicable for international orders.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="modal-footer"
+              style={{ display: "flex", margin: "auto", border: "none" }}
+            >
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div
         className="modal fade "
         id="privacy"
