@@ -677,7 +677,7 @@ const Footer = () => {
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-12">
-                    <strong>Shipping policy</strong>
+                    <strong>Shipping policy for domestic orders</strong>
                     <p>
                       All the orders are processed within 1 or 2 business days (excluding weekend and holidays) after receiving your order confirmation email, you will receive another notification when your order has shipped. The shipping time will be varied between 4-7 business days (excluding weekend and holidays). If we are experiencing a high volume of orders, shipments may be delay for few days. If your shipment experiences a significant delay, we will contact you via email or phone.
                     </p>

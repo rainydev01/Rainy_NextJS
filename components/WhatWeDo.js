@@ -20,7 +20,7 @@ const WhatWeDo = () => {
               <div className="grndtext">
                 <h3 style={{ textAlign: "left" }}>
                   <Link href="/products/rainy-filters">
-                    <a>Rooftop Rain Water Harvesting Filters</a>
+                    <a>Rooftop Rainwater Harvesting Filters</a>
                   </Link>
                 </h3>
                 <p
