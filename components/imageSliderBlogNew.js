@@ -36,6 +36,53 @@ const ImageSliderBLogNew = () => {
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/how_to_save_water_inner2.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/how-to-save-water" target="_self" >
+										            How to save water? Your guide to everyday water conservation
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Water is the most important and valuable natural resource on earth. It sustains all life on earth. Water is essential for the survival of all living ...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/how-to-save-water" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/how-to-save-water" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/how-to-save-water" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/how-to-save-water" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
                   				<img src="../static/images/blogs/harnessing_the_power_of_rainwater_harvesting_inner3.png" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
@@ -127,6 +174,10 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
 
+              </div>
+              
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -173,9 +224,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
               
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -270,6 +319,11 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
 
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -316,11 +370,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">    
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -414,6 +464,10 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -461,9 +515,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -558,6 +610,12 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
 
+              </div>
+
+          </div>
+
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -604,11 +662,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">    
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -702,6 +756,10 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
@@ -749,9 +807,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>              
+                            
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -844,7 +900,11 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -890,12 +950,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main" >    
+              
             	    <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1054,6 +1109,10 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
@@ -1136,9 +1195,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
             		  </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1298,7 +1355,11 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                   </div>
-            
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main" >  
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                 <div className="sec-brdr">
                   <div className="mdiaimg">
@@ -1378,12 +1439,8 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                 </div>
-                  </div>
-              </div>
-          </div>
-                            
-          <div>
-              <div className="container media-main" >
+                  </div>                            
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1544,6 +1601,10 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1621,9 +1682,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>          
+                        
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1784,7 +1843,11 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+              </div>
+          </div>
           
+          <div>
+              <div className="container media-main" >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                           <div className="mdiaimg">
@@ -1856,11 +1919,7 @@ const ImageSliderBLogNew = () => {
                           </div>
                       </div>
                   </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main" >     
+               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -2019,89 +2078,96 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              
+              </div>
+
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+                
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
-                    <div className="sec-brdr">
-                      <div className="mdiaimg">
-                        <img
-                          src="../static/images/blogs/bestPracticeForMaintaining/2.png"
-                          style={{
-                            height: "196px",
-                          }}
-                        />
-                      </div>
-                      <div className="mdiacont">
-                        <div className="grndtext">
-                          <h3>
-                            <a
-                              href="/about-us/blogs/best-practice-for-maintaining-rwh"
-                              target="_self"
-                            >
-                              Best Practices for Maintaining Your Rainwater Harvesting
-                              System.
-                              <br />
-                            </a>
-                          </h3>
-                          <p
+                      <div className="sec-brdr">
+                        <div className="mdiaimg">
+                          <img
+                            src="../static/images/blogs/bestPracticeForMaintaining/2.png"
                             style={{
-                              textAlign: "left",
-                              color: "#4c3f43",
-                              fontSize: "13px",
-                              fontWeight: "500",
-                              letterSpacing: "0.5px",
+                              height: "196px",
                             }}
-                          >
-                            Rainwater harvesting is the greatest method or technology
-                            for conserving rainwater by gathering, storing,
-                            transporting, and purifying rainwater that runs off
-                            rooftops, hill slopes, parks, roadways, and open areas for
-                            later use...
-                          </p>
-                          <div className="col-md-12 mdiasocial">
-                            <div className="col-md-6 mediasocial">
-                              <FacebookShareButton
-                                url={
-                                  "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
-                                }
+                          />
+                        </div>
+                        <div className="mdiacont">
+                          <div className="grndtext">
+                            <h3>
+                              <a
+                                href="/about-us/blogs/best-practice-for-maintaining-rwh"
+                                target="_self"
                               >
-                                <i className="fa fa-facebook" aria-hidden="true" />
-                              </FacebookShareButton>
-
-                              <TwitterShareButton
-                                url={
-                                  "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
-                                }
-                              >
-                                <i className="fa fa-twitter" aria-hidden="true" />
-                              </TwitterShareButton>
-
-                              <WhatsappShareButton
-                                url={
-                                  "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
-                                }
-                              >
-                                <i className="fa fa-whatsapp" aria-hidden="true" />
-                              </WhatsappShareButton>
-                            </div>
-                            <div className="col-md-6 mediabtn">
-                              <button>
-                                <a
-                                  href="/about-us/blogs/best-practice-for-maintaining-rwh"
-                                  target="_self"
+                                Best Practices for Maintaining Your Rainwater Harvesting
+                                System.
+                                <br />
+                              </a>
+                            </h3>
+                            <p
+                              style={{
+                                textAlign: "left",
+                                color: "#4c3f43",
+                                fontSize: "13px",
+                                fontWeight: "500",
+                                letterSpacing: "0.5px",
+                              }}
+                            >
+                              Rainwater harvesting is the greatest method or technology
+                              for conserving rainwater by gathering, storing,
+                              transporting, and purifying rainwater that runs off
+                              rooftops, hill slopes, parks, roadways, and open areas for
+                              later use...
+                            </p>
+                            <div className="col-md-12 mdiasocial">
+                              <div className="col-md-6 mediasocial">
+                                <FacebookShareButton
+                                  url={
+                                    "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
+                                  }
                                 >
-                                  Read more
-                                </a>
-                                {"  "}
-                                <i class="fa fa-angle-right" aria-hidden="true" />
-                              </button>
+                                  <i className="fa fa-facebook" aria-hidden="true" />
+                                </FacebookShareButton>
+
+                                <TwitterShareButton
+                                  url={
+                                    "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
+                                  }
+                                >
+                                  <i className="fa fa-twitter" aria-hidden="true" />
+                                </TwitterShareButton>
+
+                                <WhatsappShareButton
+                                  url={
+                                    "https://www.rainyfilters.com/about-us/blogs/best-practice-for-maintaining-rwh"
+                                  }
+                                >
+                                  <i className="fa fa-whatsapp" aria-hidden="true" />
+                                </WhatsappShareButton>
+                              </div>
+                              <div className="col-md-6 mediabtn">
+                                <button>
+                                  <a
+                                    href="/about-us/blogs/best-practice-for-maintaining-rwh"
+                                    target="_self"
+                                  >
+                                    Read more
+                                  </a>
+                                  {"  "}
+                                  <i class="fa fa-angle-right" aria-hidden="true" />
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
                   </div>
+
               </div>
           </div>
+              
+                  
+              
               
       </Carousel>
       ;
