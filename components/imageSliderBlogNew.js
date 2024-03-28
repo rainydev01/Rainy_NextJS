@@ -36,6 +36,243 @@ const ImageSliderBLogNew = () => {
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/effective_techniques_to_recharge_groundwater_in_India_inner1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/effective-techniques-to-recharge-groundwater-in-India" target="_self" >
+										            Effective Techniques to Recharge Groundwater in India
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Water is crucial for life to continue. In developing countries like India, where some remote regions still suffer from water scarcity, we should proactively invest ...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/effective-techniques-to-recharge-groundwater-in-India" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/effective-techniques-to-recharge-groundwater-in-India" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/effective-techniques-to-recharge-groundwater-in-India" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/effective-techniques-to-recharge-groundwater-in-India" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/drops_barrels_guide_water_barrels_for_rainwater_inner1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/drops-barrels-guide-water-barrels-for-rainwater" target="_self" >
+										            From Drops to Barrels: A Guide to Water Barrels for Rainwater
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Harvesting rainwater is a clever way to save water. Rainwater harvesting is a process of collecting, storing and utilizing it for various purposes. As the water scarcity ...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/drops-barrels-guide-water-barrels-for-rainwater" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/drops-barrels-guide-water-barrels-for-rainwater" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/drops-barrels-guide-water-barrels-for-rainwater" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/drops-barrels-guide-water-barrels-for-rainwater" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/answering_the_call_to_save_water_save_earth_inner3.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/answering-the-call-to-save-water-save-earth" target="_self" >
+										            Preserving Our Planet: Answering the Call to Save Water, Save Earth
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Water is life, it sustains all the living things that exist on our planet. Despite of its vast availability, fresh water is very limited. It is a non-renewable ...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/answering-the-call-to-save-water-save-earth" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/answering-the-call-to-save-water-save-earth" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/answering-the-call-to-save-water-save-earth" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/answering-the-call-to-save-water-save-earth" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+              </div>
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/exploring_the_water_harvesting_process_inner1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/exploring-the-water-harvesting-process" target="_self" >
+										            Unlocking Sustainable Solutions: Exploring the Water Harvesting Process
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Water is a nature’s gift, and it is our responsibility to conserve it. Water harvesting is a process of collecting rainwater from the catchment area and using ...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/exploring-the-water-harvesting-process" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/exploring-the-water-harvesting-process" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/exploring-the-water-harvesting-process" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/exploring-the-water-harvesting-process" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/urgent_need_for_water_conservation_inner1.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/urgent-need-for-water-conservation" target="_self" >
+										            The Urgent Need for Water Conservation: A Vital Need for Our Planet
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Water is the natural resource that sustains the earth. Despite of its importance, water scarcity is increasing due to the factors like increase in population ...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/urgent-need-for-water-conservation" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/urgent-need-for-water-conservation" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/urgent-need-for-water-conservation" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/urgent-need-for-water-conservation" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
                   				<img src="../static/images/blogs/how_to_save_water_inner2.jpg" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
@@ -79,6 +316,11 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+          </div> 
+
+          <div>
+              <div className="container media-main">
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -174,10 +416,6 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
 
-              </div>
-              
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
-
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -224,11 +462,13 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
-                  				<img src="../static/images/blogs/borewell_recharge_for_home_banner.png" style={{ height: "196px", }} />
+                  				<img src="../static/images/blogs/borewell_recharge_for_home_inner1.png" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
                   				<div className="grndtext">
@@ -318,12 +558,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -370,6 +605,12 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+
+          </div>
+
+          <div>
+              <div className="container media-main">
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -464,10 +705,6 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -515,7 +752,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -609,13 +848,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-
-              </div>
-
-          </div>
-
-          <div>
-              <div className="container media-main">
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -662,6 +895,12 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+
+          </div>
+
+          <div>
+              <div className="container media-main">
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -756,10 +995,6 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
@@ -807,7 +1042,9 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-                            
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -900,11 +1137,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main" >    
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -950,6 +1183,11 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
               
             	    <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1109,10 +1347,6 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
@@ -1195,7 +1429,9 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
             		  </div>
-              
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>  
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1355,11 +1591,7 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                   </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main" >  
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                 <div className="sec-brdr">
                   <div className="mdiaimg">
@@ -1439,7 +1671,13 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                 </div>
-                  </div>                            
+                  </div>
+              </div>
+
+          </div>
+
+          <div>
+              <div className="container media-main">
           
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1602,10 +1840,6 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
 
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
-              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1682,7 +1916,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-                        
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }} >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1843,11 +2079,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-          </div>
           
-          <div>
-              <div className="container media-main" >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                           <div className="mdiaimg">
@@ -1919,6 +2151,11 @@ const ImageSliderBLogNew = () => {
                           </div>
                       </div>
                   </div>
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">
                
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -2078,9 +2315,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
