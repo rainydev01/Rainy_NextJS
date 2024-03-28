@@ -137,10 +137,10 @@ const Header = () => {
                   <a
                     href="#"
                     className="dropdown-toggle"
-                    data-toggle="dropdown"
-                  // data-toggle="modal"
-                  // data-target="#contactModal"
-                  // onClick={() => { setShowPopup(true); setiscontact(true) }}
+                    // data-toggle="dropdown"
+                    data-toggle="modal"
+                    data-target="#contactModal"
+                    onClick={() => { setShowPopup(true); setiscontact(true) }}
                   >
                     Contact us
                   </a>
