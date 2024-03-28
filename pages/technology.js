@@ -107,7 +107,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../static/images/technology/ourInnovativeTechnologyBanner.png" alt="Innovative Technology" />
+              <img src="../static/images/technology/ourInnovativeTechnologyBanner.png" alt="rain water harvesting techniques" />
               {/* <div className='hero-text techbnnrtxt'>
 								<h1 style={{color: 'white'}}>
 									OUR INNOVATIVE
@@ -122,7 +122,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             <div className="container">
               <div className="techhedng">
                 <h2 className="tech-heading">
-                  KEY TECHNOLOGY & INNOVATION HIGHLIGHTS
+                  OUR INNOVATIVE TECHNOLOGY
                 </h2>
                 <p className="techpara">
                   Completely Indigenous and Patented Technology for Dual
@@ -135,7 +135,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <div className="row">
                 <div className="col-md-5">
                   <div className="techlimg">
-                    <img src="../static/images/technology/filterCrossSectionImage.jpg" alt="Rainy Filter Installation Process"/>
+                    <img src="../static/images/technology/filterCrossSectionImage.jpg" alt="rain water harvesting filtration" />
                   </div>
                 </div>
                 <div className="col-md-7">
@@ -290,7 +290,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
 
           <div className="container-fluid techcntrbg">
-            <h2 style={{ textAlign: "center" }}>'RAINY' FILTERS</h2>
+            <h2 style={{ textAlign: "center" }} className="rainy-filters">'RAINY' FILTERS</h2>
           </div>
 
           <div
@@ -866,7 +866,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
 
           <div className="container-fluid techcntrbg techcntrbgto">
-            <h3 style={{ textAlign: "center" }}>GROUNDWATER RECHARGING</h3>
+            <h3 style={{ textAlign: "center" }} className="rainy-filters">GROUNDWATER RECHARGING</h3>
           </div>
 
           <div
@@ -1005,7 +1005,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                                   style={{ width: "auto" }}
                                   className="img-fluid"
                                   src="../static/images/technology/v-wire.jpg"
-				  alt="V Wire"
+                                  alt="groundwater recharge"
                                 />
                                 <h6>Benefits</h6>
                                 <p

@@ -139,7 +139,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/blogs/blogsPageBanner.png" />
+              <img src="../../static/images/blogs/blogsPageBanner.png" alt="Blog" />
               {/* <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>BLOG</h1>
               </div> */}
@@ -147,9 +147,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
 
           <div className="container">
+            <h2 class="whtdowdo">BLOG</h2>
             <div className="groundwater_bg team blue_underline">
               <h3
-                className="team-heading media-hdng blue_underline"
+                className="team-heading media-hdng blue_underline blog-texts"
                 style={{ textAlign: "center", marginTop: "45px" }}
               >
                 STORIES , INSIGHTS ,AND ANNOUNCEMENTS FROM 'RAINY'

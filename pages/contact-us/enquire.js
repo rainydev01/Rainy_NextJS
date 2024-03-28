@@ -96,7 +96,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image gtintchbnnrtxt">
-              <img src="../../static/images/get-in-touch/enquiryPageBanner.png" alt="Contact Us"/>
+              <img src="../../static/images/get-in-touch/enquiryPageBanner.png" alt="Contact Us" />
               {/* <div className="hero-text inthemedia contactg">
                 <h1>GET IN TOUCH</h1>
               </div> */}
@@ -105,11 +105,12 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid gtintchmain">
             <div className="container">
+              <h2 class="whtdowdo">CONTACT US</h2>
               <div className="row gtintchrw">
                 <div className="col-md-5">
                   <div className="gtintchlft">
                     <h6 className="contacth">
-                      <img src="../../static/images/get-in-touch/ic-contact-map-pin@2x.png" alt="Rainy Map"/>
+                      <img src="../../static/images/get-in-touch/ic-contact-map-pin@2x.png" alt="Location" />
                       Address
                     </h6>
                     <p className="contacttxt">
@@ -135,19 +136,20 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </p>
 
                     <h6 className="contacth">
-                      <img src="../../static/images/get-in-touch/ic-contact-phone@2x.png" alt="Contact-phone"/>
+                      <img src="../../static/images/get-in-touch/ic-contact-phone@2x.png" alt="contact-phone" />
                       Contact
                     </h6>
 
                     <p className="contacttxt">WhatsApp - 7338033790</p>
                     <p className="contacttxt">Contact No.- 7338033790</p>
                     <p className="contacttxt">Contact No.- 08026766252</p>
+                    <p className="contacttxt">Contact No.- 09996664458</p>
 
                     <h6 className="contacth">
-                      <img src="../../static/images/get-in-touch/ic-contact-mail@2x.png" alt="Rainy Phone"/>
+                      <img src="../../static/images/get-in-touch/ic-contact-mail@2x.png" alt="Message" />
                       Email Id
                     </h6>
-                    <p className="contacttxt">info@rainyfilters.com</p>
+                    <p className="contacttxt">sales@rainyfilters.com</p>
                   </div>
                 </div>
                 <ContactForm></ContactForm>

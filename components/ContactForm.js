@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from "react";
+import React, { Fragment, useState } from "react";
 import axios from "axios";
 
 const ContactForm = () => {
@@ -8,14 +8,14 @@ const ContactForm = () => {
 		email: "",
 		message: "",
 	});
-	const {name, phone, email, message} = formData;
+	const { name, phone, email, message } = formData;
 
 	const [showSuccess, setShowSuccess] = useState(false);
 	const [errStatus, setErrStatus] = useState(false);
 	let AlertResponse = null;
 
 	const onChange = (e) => {
-		setFormData({...formData, [e.target.name]: e.target.value});
+		setFormData({ ...formData, [e.target.name]: e.target.value });
 	};
 
 	const onSubmit = async (e) => {

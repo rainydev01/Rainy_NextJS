@@ -7,7 +7,7 @@ const GroundWaterRecharging = () => {
         <div className="row groundwatersec">
           <div className="col-md-6 my-auto">
             <div className="groundwatersimg">
-              <img src="../static/images/homepage/GWR.png" />
+              <img src="../static/images/homepage/GWR.png" alt="groundwater recharging can be achieved by" />
             </div>
           </div>
           <div className="col-md-6">

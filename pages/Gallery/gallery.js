@@ -178,7 +178,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/GroundWaterRecharing.JPG"
-	  alt="GroundWater Recharging"
+          alt="GroundWater Recharging"
         />
       </Fragment>
     );
@@ -194,7 +194,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/GovtBuilding.jpg"
-	  alt="Government Building"
+          alt="Government Building"
         />
       </Fragment>
     );
@@ -209,7 +209,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/BorewellRings.JPG"
-	  alt="Borewell Rings"
+          alt="Borewell Rings"
         />
       </Fragment>
     );
@@ -224,7 +224,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/Schools.jpg"
-	  alt="School"
+          alt="School"
         />
       </Fragment>
     );
@@ -239,7 +239,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/Apartment.jpg"
-	  alt="Apartment"
+          alt="Apartment"
         />
       </Fragment>
     );
@@ -254,7 +254,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/IndependentHouse.jpg"
-	  alt="Independent House"
+          alt="Independent House"
         />
       </Fragment>
     );
@@ -269,7 +269,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/Industries.JPG"
-	  alt="Industries"
+          alt="Industries"
         />
       </Fragment>
     );
@@ -284,7 +284,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/WithDignitaries.JPG"
-	alt="image-fluid"
+          alt="image-fluid"
         />
       </Fragment>
     );
@@ -314,7 +314,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/SystemsandSolutions.JPG"
-	  alt="Systems and Solutions"
+          alt="Systems and Solutions"
         />
       </Fragment>
     );
@@ -329,7 +329,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/InternationalVisitors.JPG"
-	  alt="International Visitors"
+          alt="International Visitors"
         />
       </Fragment>
     );
@@ -344,7 +344,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/LiveDemoTruck.jpg"
-	  alt="Live Demo Truck"
+          alt="Live Demo Truck"
         />
       </Fragment>
     );
@@ -359,7 +359,7 @@ export default function Home() {
           // style={{borderRadius: 20}}
           className=" center-block img-fluid"
           src="../static/images/galleryNew/ITSector.JPG"
-	  alt="IT Sector"
+          alt="IT Sector"
         />
       </Fragment>
     );
@@ -451,7 +451,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../static/images/galleryNew/galleryPageBanner.png" alt="Gallery Page Banner" />
+              <img src="../static/images/galleryNew/galleryPageBanner.png" alt="Gallery" />
               {/* <div className='hero-text rnyfltrs gllryb'>
 								<h1>GALLERY</h1>
 							</div> */}
@@ -459,6 +459,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
 
           <div className="container-fluid gallrymain">
+            <h2 class="whtdowdo">GALLERY</h2>
             <div className="container glrycntnr">
               <div className="row">
                 <div className="col text-center">

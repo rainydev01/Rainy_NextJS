@@ -1,7 +1,22 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { BsCart } from "react-icons/bs";
+import { IoClose } from "react-icons/io5";
+import { MdLocalPhone } from "react-icons/md";
+
 
 const Header = () => {
+
+  const [showPopup, setShowPopup] = useState(false);
+  const [iscontact, setiscontact] = useState(false)
+
+  // console.log(showPopup, '=====================>')
+  useEffect(() => {
+
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <Fragment>
       <div className="test container-fluid main-header">
@@ -12,6 +27,7 @@ const Header = () => {
               <img
                 src="/images/logo/Logo_Main.png"
                 className="moblogo img-fluid"
+                alt="Rainy"
               />
             </a>
 
@@ -25,6 +41,7 @@ const Header = () => {
               <img
                 className="img-fluid img-short"
                 src="/images/logo/Logo_Main.png"
+                alt="Rainy"
               />
             </a>
             <nav>
@@ -121,6 +138,9 @@ const Header = () => {
                     href="#"
                     className="dropdown-toggle"
                     data-toggle="dropdown"
+                  // data-toggle="modal"
+                  // data-target="#contactModal"
+                  // onClick={() => { setShowPopup(true); setiscontact(true) }}
                   >
                     Contact us
                   </a>
@@ -148,13 +168,94 @@ const Header = () => {
                     data-toggle="modal"
                     data-target="#googleAnalytics"
                     src="/images/logo/globe.png"
+                    alt="Globe"
                   ></img>
+                </li>
+                <li className="list-data-num">
+                  <div className="search-num">
+                    <MdLocalPhone />
+                    <p>9996664458</p>
+                  </div>
                 </li>
               </ul>
             </nav>
           </header>
         </div>
       </div>
+      {
+        showPopup && (
+          <div
+            className="modal fade contact-modal-main"
+            id="contactModal"
+            tabIndex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog modal-dialog-centered modal-contact" role="document">
+              <div className="modal-content variableMargin" style={{ background: '#f0f9fd' }}>
+                <img
+                  src="/static/images/contact-form.png"
+                  alt="contact-form"
+                />
+                <div className="contact-details">
+                  <div
+                    className="modal-header"
+                    style={{ border: "none" }}
+                  >
+                    <h2 className="whtdowdo modal-head " style={{ width: '100%' }} id="exampleModalLongTitle">
+                      {iscontact ? "Contact Us" : "RWH Consultancy"}
+                    </h2>
+                    <button onClick={() => { setShowPopup(false); setiscontact(false) }} className="btn-close"><IoClose /></button>
+                  </div>
+                  <div
+                    style={{ border: "none" }}
+                    className="modal-body"
+                  >
+                    <form>
+                      <div className="fominpt">
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Name:"
+                          required
+                        />
+                      </div>
+                      <div className="fominpt">
+                        <input
+                          type="text"
+                          name="phone"
+                          placeholder="Phone:"
+                          required
+                        />
+                      </div>
+                      <div className="fominpt">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Email id:"
+                          required
+                        />
+                      </div>
+                      <div className="fominpt frmmsg">
+                        <input
+                          type="textarea"
+                          name="message"
+                          placeholder="Message:"
+                          required
+                        />
+                      </div>
+                      <div className="fominpt frmbtn session-btn" style={{ display: 'flex', justifyContent: 'center' }}>
+                        <input type="submit" name="Book a Free Session" value={iscontact ? "Submit" : "Book a Free Session"} />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )
+      }
       <div
         className="modal fade"
         id="googleAnalytics"
@@ -198,7 +299,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </Fragment >
   );
 };
 

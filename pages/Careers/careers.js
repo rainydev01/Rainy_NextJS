@@ -95,10 +95,10 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/career/careerPageBanner.png" alt="Career Page Banner"/>
+              <img src="../../static/images/career/careerPageBanner.png" alt="career at rainy" />
             </div>
           </div>
-
+          <h2 class="whtdowdo">CAREERS AT RAINY</h2>
           <div
             className="container-fluid groundwater_bg team"
             style={{ marginBottom: "-50px" }}

@@ -101,7 +101,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/socialAwareness/socialAwarenessBanner.png" alt="Social Awareness Banner"/>
+              <img src="../../static/images/socialAwareness/socialAwarenessBanner.png" alt="social Awareness" />
               {/* <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>SOCIAL AWARENESS</h1>
               </div> */}
@@ -109,6 +109,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
 
           <div className="container-fluid ">
+            <h2 class="whtdowdo">Social Awareness</h2>
             <div className="container ">
               <div className="row groundwatersec social-image2 mt-2">
                 <div className="col-md-12 col-xs-12 col-lg-6  mt-2">
@@ -116,7 +117,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     <img
                       className="img-fluid"
                       src="../../static/images/socialAwareness/socialAwareness3.jpg"
-		       alt="Social Awareness Photo"
+                      alt="rain water harvesting techniques"
                     />
                   </div>
                 </div>
@@ -305,7 +306,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     <img
                       className="img-fluid"
                       src="../../static/images/socialAwareness/socialAwareness2.jpg"
-		      alt="Social Awareness Photo"
+                      alt="Rainwater Harvesting Systems"
                     />
                   </div>
                 </div>

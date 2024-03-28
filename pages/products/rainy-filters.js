@@ -93,7 +93,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/products/rainyFiltersBanner.png" alt="Rainy Filters Banner" />
+              <img src="../../static/images/products/rainyFiltersBanner.png" alt="rainy water filter" />
               {/* <div className="hero-text rnyfltrs">
                 <h1>'RAINY' FILTERS</h1>
               </div> */}
@@ -102,6 +102,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid">
             <div className="container">
+              <h2 class="whtdowdo">'RAINY' FILTERS</h2>
               <div className="row m-0">
                 <div className="">
                   <br />
@@ -122,7 +123,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_80-min.png" alt="FL_80-min" />
+                    <img src="../../static/images/products/FL_80-min.png" alt="rainwater harvesting  in india" />
                   </div>
                 </div>
                 <div className="col-md-8">
@@ -545,7 +546,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_150-min.png" alt="FL-150" />
+                    <img src="../../static/images/products/FL_150-min.png" alt="rain harvesting" />
                   </div>
                 </div>
               </div>
@@ -654,7 +655,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_200-min.png" alt="FL200" />
+                    <img src="../../static/images/products/FL_200-min.png" alt="rainwater filter for home" />
                   </div>
                 </div>
                 <div className="col-md-8">
@@ -1075,7 +1076,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_300-min.png" alt="FL300" />
+                    <img src="../../static/images/products/FL_300-min.png" alt="rain water harvesting images" />
                   </div>
                 </div>
               </div>
@@ -1183,7 +1184,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                 </div>
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_500-min.png" alt="FL500" />
+                    <img src="../../static/images/products/FL_500-min.png" alt="rain water harvesting filter" />
                   </div>
                 </div>
                 <div className="col-md-8">

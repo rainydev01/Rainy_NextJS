@@ -216,7 +216,7 @@ const ImageSliderMultiClients = () => {
           </div>
         </div>
       </Carousel>
-      <div style={{ marginTop: "8%" }}></div>
+      <div style={{ marginTop: "3%" }}></div>
     </Fragment>
   );
 };

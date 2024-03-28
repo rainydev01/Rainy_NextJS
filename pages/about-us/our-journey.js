@@ -114,13 +114,14 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/journey/ourJourneyBanner.png" alt="Our Journey Banner"/>
+              <img src="../../static/images/journey/ourJourneyBanner.png" alt="Our Journey" />
               {/* <div className="hero-text enthrotxt jrny4">
                 <h1 style={{ textAlign: "center" }}>OUR JOURNEY</h1>
               </div> */}
             </div>
           </div>
           <div className="container-fluid journeymain">
+            <h2 class="whtdowdo">OUR JOURNEY</h2>
             <div className="container">
               <ul className="timeline">
                 <li>
@@ -134,7 +135,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                   </div>
 
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2002photo.jpg" alt="2002 Photo"/>
+                    <img src="../../static/images/ourJourney/2002photo.jpg" alt="rain water harvesting projects" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -177,7 +178,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/2003.jpg" alt="2003 Photo"/>
+                    <img src="../../static/images/ourJourney/2003.jpg" alt="rainwater harvesting filter" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -221,7 +222,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2004.jpg" alt="2004 Photo"/>
+                    <img src="../../static/images/ourJourney/2004.jpg" alt="Expansion of Network" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">Expansion of Network</h4>
@@ -262,7 +263,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/20051.jpg" alt="Rain Water Harvesting" />
+                    <img src="../../static/images/ourJourney/20051.jpg" alt="rainwater harvesting system" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -298,7 +299,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/20071.jpg" alt="Rain Harvesting Photos" />
+                    <img src="../../static/images/ourJourney/20071.jpg" alt="Self-Cleaning Rainy" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -333,7 +334,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/journeyFour.jpg" alt="Rainy Filter"/>
+                    <img src="../../static/images/ourJourney/journeyFour.jpg" alt="rain water harvesting filtration" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -370,7 +371,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2016.jpg" alt="2016 Photo" />
+                    <img src="../../static/images/ourJourney/2016.jpg" alt="rain water harvesting projects" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -407,7 +408,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel right-imghis">
-                    <img src="../../static/images/ourJourney/2020.jpg" alt="2020 photo"/>
+                    <img src="../../static/images/ourJourney/2020.jpg" alt="rain water harvesting filtration" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">
@@ -444,7 +445,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     </i>
                   </div>
                   <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2022.png" alt="Tank"/>
+                    <img src="../../static/images/ourJourney/2022.png" alt="groundwater recharging can be achieved by" />
                     <div className="body-timmain">
                       <div className="timeline-heading">
                         <h4 className="timeline-title">

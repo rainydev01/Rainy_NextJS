@@ -107,6 +107,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
               <button className="gallery-btn">VIDEO GALLERY</button>
             </div>
           </div>
+          <h2 class="whtdowdo">VIDEO GALLERY</h2>
           <div className="video-gallery-main-container">
             <div className="large-video-container">
               <div className="large-video">

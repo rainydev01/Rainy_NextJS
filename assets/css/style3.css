@@ -36,7 +36,44 @@
 .variableMargin {
     margin-top: 20vh;
 }
+.modal-contact {
+    max-width: 780px;
+}
+.modal-contact .modal-content {
+    flex-direction: row;
+    margin: 14px;
+    margin-top: 26vh;
+}
 
+.modal-contact .modal-content img {
+    border-radius: 0.3rem 0 0 0.3rem;
+    width: 50%;
+}
+.modal-contact .contact-details {
+    width: 60%;
+}
+.contact-modal-main {
+    opacity: 1 !important;
+    display: block !important;
+    background: rgb(0 0 0 / 50%);
+}
+@media (max-width: 640px) {
+    .modal-contact .modal-content {
+        flex-direction: column;
+    }
+    .modal-contact .modal-content img {
+        width: 100%;
+        display: none;
+    }
+    .modal-contact .contact-details {
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .modal-contact .modal-content {
+        margin-top: 18vh;
+    }
+}
 /* Our Team */
 
 .entteamtxt {
@@ -734,7 +771,7 @@ h1.fl80 {
 
 .gtintchmain {
     background: #f0f9fd;
-    padding: 75px 0px;
+    padding-bottom: 75px;
 }
 
 h6.contacth {
@@ -762,7 +799,7 @@ h6.contacth img {
     border: none;
     margin: 10px 0px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -776,6 +813,10 @@ h6.contacth img {
     background: #0971b7;
     color: #ffffff;
     border-radius: 30px;
+}
+.session-btn input {
+    width: fit-content;
+    padding: 10px 30px;
 }
 
 .contmap {
@@ -879,7 +920,7 @@ h6.contacth img {
 
 .dnldbg {
     background: #f0f9fd;
-    padding: 100px 0px;
+    padding-bottom: 100px;
 }
 
 .card-header {
@@ -1206,9 +1247,9 @@ h2.clientsHome:after {
         float: right;
         margin-top: -44% !important;
     }
-    .variableMargin {
+    /* .variableMargin {
         margin-top: 65vh;
-    }
+    } */
 }
 
 @media only screen and (max-width: 667px) and (min-width: 375px) {
@@ -1223,9 +1264,9 @@ h2.clientsHome:after {
         margin-top: 27.4%;
         margin-left: 2px;
     }
-    .variableMargin {
+    /* .variableMargin {
         margin-top: 65vh;
-    }
+    } */
 }
 
 @media only screen and (max-width: 414px) and (min-width: 375px) {
@@ -1234,9 +1275,9 @@ h2.clientsHome:after {
         width: 15%;
         margin-top: -7% !important;
     }
-    .variableMargin {
+    /* .variableMargin {
         margin-top: 65vh;
-    }
+    } */
 }
 
 .react-multiple-carousel__arrow {

@@ -14,6 +14,7 @@ import OurClients from "../components/OurClientsMulti";
 import MultiCarousel from "../components/OurClientsNew";
 import Slider from "react-slick";
 import ImageSliderMultiClients from "../components/OurClientsNewMulti";
+import CustomerSaying from "../components/CustomerSaying";
 export default function Home() {
   return (
     <Fragment>
@@ -150,8 +151,8 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <RWHFilters />
           <FilterToSelect />
           <GroundWaterRecharging />
+          <CustomerSaying />
           <ImageSliderMultiClients />
-          {/* <ViedoView />  */}
           <Footer />
         </div>
       </main>

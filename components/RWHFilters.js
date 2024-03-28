@@ -15,7 +15,7 @@ const RWHFilters = () => {
 							<div className='mdrntech threecntr'>
 								<h3 className='mdrntech-text'>
 									Modern Technology
-									<img src='../static/images/homepage/propertiesRWH/modernTech.png' alt='Modern Tech' />
+									<img src='../static/images/homepage/propertiesRWH/modernTech.png' alt='Modern Technology' />
 								</h3>
 								<p>
 									'Rainy' filters are made with highly durable, food-grade
@@ -26,7 +26,7 @@ const RWHFilters = () => {
 							<div className='intfltrs threecntr'>
 								<h3 className='mdrntech-text'>
 									Dual Intensity Filters
-									<img src='../static/images/homepage/propertiesRWH/dualIntensityFilter.png' alt='Dual Intensity Filter' />
+									<img src='../static/images/homepage/propertiesRWH/dualIntensityFilter.png' alt='Dual Intensity Filters' />
 								</h3>
 								<p>
 									Our filters work on the principle of cohesion & centrifugal
@@ -37,7 +37,7 @@ const RWHFilters = () => {
 							<div className='extrnlenrgy threecntr'>
 								<h3 className='mdrntech-text'>
 									No External Energy Required
-									<img src='../static/images/homepage/propertiesRWH/noEnergy.png' alt='No Energy' />
+									<img src='../static/images/homepage/propertiesRWH/noEnergy.png' alt='No External Energy Required' />
 								</h3>
 								<p>
 									Works on Gravitational Force and does not require any external
@@ -50,7 +50,7 @@ const RWHFilters = () => {
 							<img
 								className='img-fluid'
 								src='../static/images/homepage/rwhf.png'
-								alt='RWHF'
+								alt='rainwater filter'
 								float='true'
 							/>
 						</div>
@@ -80,7 +80,7 @@ const RWHFilters = () => {
 							</div>
 							<div className='cstefftve threecntr'>
 								<h3>
-									<img src='../static/images/homepage/propertiesRWH/costEffective.png' alt='Cost Effective' />
+									<img src='../static/images/homepage/propertiesRWH/costEffective.png' alt='Cost Effective & Affordable' />
 									Cost Effective & Affordable
 								</h3>
 								<p>

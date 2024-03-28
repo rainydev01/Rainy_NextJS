@@ -138,10 +138,6 @@ button {
     outline: none !important;
 }
 
-.journeymain {
-    padding-top: 60px;
-}
-
 @font-face {
     font-family: "Visby Round CF Heavy";
     src: url("../../public/fonts/VisbyRoundCFHeavy.ttf");
@@ -1056,6 +1052,13 @@ p {
     align-items: center;
 }
 
+@media (max-width: 1200px) {
+    .header li:nth-child(8) a {
+        padding: 12px 12px !important;
+        margin: 10px;
+        width: fit-content;
+    }
+}
 .navbar-brand {
     padding: 0px;
 }
@@ -1076,7 +1079,11 @@ p {
     max-width: 100%;
     margin-left: -74px;
 }
-
+@media (max-width: 1440px) {
+    .navbar-brand > img {
+        margin-left: -54px;
+    }
+}
 .test {
     top: 0;
     width: 100%;
@@ -1307,6 +1314,10 @@ p {
         padding: 0px !important;
     }
     .footer-three {
+        padding: 15px 0px !important;
+        text-align: left !important;
+    }
+    .footer-four {
         padding: 15px 0px !important;
         text-align: left !important;
     }
@@ -1574,11 +1585,42 @@ p {
 .hero-image .btn-shopnow-yellow svg {
     font-size: 20px;
 }
+.hero-image .whatsapp-img {
+    position: fixed;
+    right: 35px;
+    bottom: 10%;
+    z-index: 1;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 8px;
+}
+.btn-close {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+}
+.hero-image .whatsapp-img img {
+    width: 50px;
+}
+.wp-text {
+    color: #212529;
+    font-size: 20px;
+    display: block;
+}
 @media only screen and (max-width: 1520px) {
     .hero-image .btn-shopnow-yellow {
         position: absolute;
         bottom: 27%;
         padding: 24px 50px !important;
+    }
+    /* .hero-image .whatsapp-img {
+        bottom: 10%;
+    } */
+}
+@media only screen and (max-width: 1440px) {
+    .hero-image .whatsapp-img {
+        right: 23px;
     }
 }
 @media only screen and (max-width: 1160px) {
@@ -1588,12 +1630,18 @@ p {
         right: 22px;
         padding: 15px 30px !important;
     }
+    /* .hero-image .whatsapp-img {
+        bottom: 6%;
+    }
+    .hero-image .whatsapp-img img {
+        width: 40px;
+    } */
 }
 @media only screen and (max-width: 768px) {
     .hero-image .btn-shopnow-yellow {
         position: absolute;
         bottom: 26%;
-        right: 10px;
+        /* right: 10px; */
         padding: 6px 10px !important;
     }
     .hero-image .btn-shopnow-yellow a {
@@ -1602,16 +1650,31 @@ p {
         gap: 3px;
         font-size: 12px !important;
     }
+    .hero-image .whatsapp-img {
+        bottom: 10%;
+        /* right: 10px; */
+    }
+    .hero-image .whatsapp-img img {
+        width: 40px;
+    }
     /* .hero-image .shop-btn-new {
         display: flex;
         justify-content: center;
     } */
 }
+/* @media only screen and (max-width: 576px) {
+    .hero-image .whatsapp-img {
+        bottom: 6%;
+    }
+} */
 @media only screen and (max-width: 375px) {
     .hero-image .btn-shopnow-yellow {
         position: absolute;
-        bottom: 22%;
+        bottom: 28%;
         padding: 4px 6px !important;
+    }
+    .hero-image .whatsapp-img img {
+        width: 34px;
     }
     .hero-image .btn-shopnow-yellow a {
         display: flex;
@@ -1809,4 +1872,147 @@ p {
 }
 .text-aws {
     color: #212529;
+}
+
+.customer {
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+}
+.customer .customer-text {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: "Visby Round CF Heavy";
+}
+.customer .customer-text:after {
+    content: "";
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 10%;
+    border: 1px solid #fff !important;
+    margin: auto;
+    margin-top: 14px;
+}
+.customer .customer-main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.bg-customer {
+    background-image: url("../../static/images/customer.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.bg-customer::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #00000045;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.customer .customer-type {
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+.customer .customer-name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #fff;
+}
+.customer .customer-type2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+}
+.customer .arrow-left {
+    border: 1px solid #0971b7;
+    border-radius: 50px;
+    font-size: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #0971b7;
+}
+.customer .arrow-right {
+    border: 1px solid #0971b7;
+    border-radius: 50px;
+    font-size: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #0971b7;
+}
+@media (max-width: 768px) {
+    .customer {
+        padding: 40px 0;
+    }
+    .customer .customer-text {
+        font-size: 25px;
+    }
+    .customer .customer-main {
+        display: flex;
+        gap: 5px;
+    }
+    .customer .customer-type {
+        max-width: 390px;
+    }
+    .customer .arrow-left {
+        font-size: 30px;
+        padding: 7px;
+    }
+    .customer .arrow-right {
+        font-size: 30px;
+        padding: 7px;
+    }
+}
+@media (max-width: 518px) {
+    .customer .customer-type {
+        max-width: 280px;
+        font-size: 16px;
+    }
+    .customer .customer-name {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .customer .customer-type2 {
+        font-size: 14px;
+    }
+    .customer .arrow-left {
+        font-size: 20px;
+        padding: 5px;
+    }
+    .customer .arrow-right {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+@media (max-width: 425px) {
+    .customer .customer-type {
+        max-width: 232px;
+        font-size: 16px;
+    }
 }

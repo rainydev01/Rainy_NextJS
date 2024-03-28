@@ -43,7 +43,7 @@ const WhatWeDo = () => {
             </div>
             <div className="col-md-4">
               <div className="mt-1">
-                <img src="../static/images/homepage/3.jpg" />
+                <img src="../static/images/homepage/3.jpg" alt="ground water harvesting" />
               </div>
               <div className="grndtext">
                 <h3 style={{ textAlign: "left", marginBottom: "46px" }}>

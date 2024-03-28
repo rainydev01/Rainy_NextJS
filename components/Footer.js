@@ -39,12 +39,20 @@ const Footer = () => {
                     +91 73380 33790
                   </a>
                 </p>
-                <p>
+                {/* <p>
                   <a target="_blank" href="tel:7338033790">
                     <i className="fa fa-mobile" aria-hidden="true" />
                   </a>{" "}
                   <a target="_blank" href="tel:7338033790">
                     +91 73380 33790
+                  </a>
+                </p> */}
+                <p>
+                  <a target="_blank" href="tel:7338033790">
+                    <i className="fa fa-mobile" aria-hidden="true" />
+                  </a>{" "}
+                  <a target="_blank" href="tel:7338033790">
+                    +91 99966 64458
                   </a>
                 </p>
                 {/* <p>
@@ -64,6 +72,7 @@ const Footer = () => {
                     080 26766252
                   </a>
                 </p>
+
                 <p>
                   <a target="_blank" href="mailto: farmland_rhs@yahoo.co.in">
                     {" "}
@@ -71,7 +80,7 @@ const Footer = () => {
                   </a>{" "}
                   <a target="_blank" href="mailto: farmland_rhs@yahoo.co.in">
                     {" "}
-                    info@rainyfilters.com
+                    sales@rainyfilters.com
                   </a>
                 </p>
               </div>

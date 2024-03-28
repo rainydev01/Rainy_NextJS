@@ -130,7 +130,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/media/inTheMediaBanner.png" alt="The Media Banner"/>
+              <img src="../../static/images/media/inTheMediaBanner.png" alt="In The Media" />
               {/* <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>IN THE MEDIA</h1>
               </div> */}
@@ -138,6 +138,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
           <div className="container" />
           <div className="container">
+            <h2 class="whtdowdo">IN THE MEDIA</h2>
             <div className="groundwater_bg team blue_underline">
               <h2 className="team-heading media-hdng blue_underline">
                 MEDIA COVERAGE & ARTICLES

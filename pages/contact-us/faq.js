@@ -103,7 +103,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
 
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/faq/QANDA.png" alt="Frequently Asked Questions"/>
+              <img src="../../static/images/faq/QANDA.png" alt="rain water harvesting filtration" />
               {/* <div className="hero-text inthemedia">
                 <h1 style={{ textAlign: "center" }}>IN THE MEDIA</h1>
               </div> */}
@@ -126,6 +126,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
             }}
           >
             <div className="container">
+              <h2 class="whtdowdo">FREQUENTLY ASKED QUESTIONS</h2>
               <div className="row">
                 <div className="downloadsec">
                   <div id="accordion">

@@ -93,7 +93,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           <Header />
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
-              <img src="../../static/images/groundWater/groundWaterRechargeBanner.png" alt="Groundwater Recharge" />
+              <img src="../../static/images/groundWater/groundWaterRechargeBanner.png" alt="groundwater recharge" />
               {/* <div className='hero-text rnyfltrs'>
 								<h1>GROUNDWATER RECHARGING</h1>
 							</div> */}
@@ -101,6 +101,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
           </div>
 
           <div className="container-fluid wthothding wrechargmain">
+            <h2 class="whtdowdo">GROUNDWATER RECHARGE</h2>
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
@@ -108,7 +109,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     className="rainyfilterimg"
                     style={{ float: "right", marginRight: "45px" }}
                   >
-                    <img src="../../static/images/groundWater/IMG_9341.png" alt="Ground Water" />
+                    <img src="../../static/images/groundWater/IMG_9341.png" alt="water recharge system" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -170,7 +171,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       style={{ borderRadius: 20 }}
                       className="img-fluid"
                       src="../../static/images/groundWater/small1.jpg"
-		       alt="Ground Water Photo"
+                      alt="rain water harvesting images"
                     />
                   </div>
                 </div>
@@ -180,7 +181,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       style={{ borderRadius: 20 }}
                       className="img-fluid"
                       src="../../static/images/groundWater/small2.png"
-		      alt="Ground Water Photo"
+                      alt="groundwater recharging can be achieved by"
                     />
                   </div>
                 </div>
@@ -190,7 +191,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                       style={{ borderRadius: 20 }}
                       className="img-fluid"
                       src="../../static/images/groundWater/small3.png"
-		       alt="Ground Water"
+                      alt="ground water harvesting"
                     />
                   </div>
                 </div>
@@ -204,7 +205,7 @@ src="https://www.facebook.com/tr?id=587685655184685&ev=PageView&noscript=1"
                     <img
                       className="img-fluid"
                       src="../../static/images/groundWater/inj.png"
-		       alt="v wire technology"
+                      alt="water recharge system"
                     />
                   </div>
                 </div>

@@ -1,4 +1,4 @@
-import React, {Fragment, useEffect} from 'react'
+import React, { Fragment, useEffect } from 'react'
 
 const Footer = () => {
 	// useEffect(() => {
@@ -71,7 +71,7 @@ const Footer = () => {
 									</a>{' '}
 									<a target='_blank' href='mailto: farmland_rhs@yahoo.co.in'>
 										{' '}
-										info@rainyfilters.com
+										sales@rainyfilters.com
 									</a>
 								</p>
 							</div>
@@ -210,7 +210,7 @@ const Footer = () => {
 				aria-hidden='true'
 			>
 				<div className='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl'>
-					<div style={{marginTop: '15vh'}} className='modal-content'>
+					<div style={{ marginTop: '15vh' }} className='modal-content'>
 						<div
 							className='modal-header'
 							style={{
@@ -625,7 +625,7 @@ const Footer = () => {
 						</div>
 						<div
 							className='modal-footer'
-							style={{display: 'flex', margin: 'auto', border: 'none'}}
+							style={{ display: 'flex', margin: 'auto', border: 'none' }}
 						>
 							<button
 								type='button'
@@ -647,10 +647,10 @@ const Footer = () => {
 				aria-hidden='true'
 			>
 				<div className='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl'>
-					<div className='modal-content' style={{marginTop: '15vh'}}>
+					<div className='modal-content' style={{ marginTop: '15vh' }}>
 						<div
 							className='modal-header'
-							style={{display: 'flex', margin: 'auto', border: 'none'}}
+							style={{ display: 'flex', margin: 'auto', border: 'none' }}
 						>
 							<h3 className='modal-title' id='exampleModalLabel'>
 								Privacy Policy
@@ -922,7 +922,7 @@ const Footer = () => {
 						</div>
 						<div
 							className='modal-footer'
-							style={{display: 'flex', margin: 'auto', border: 'none'}}
+							style={{ display: 'flex', margin: 'auto', border: 'none' }}
 						>
 							<button
 								type='button'
@@ -944,10 +944,10 @@ const Footer = () => {
 				aria-hidden='true'
 			>
 				<div className='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl'>
-					<div className='modal-content' style={{marginTop: '15vh'}}>
+					<div className='modal-content' style={{ marginTop: '15vh' }}>
 						<div
 							className='modal-header'
-							style={{display: 'flex', margin: 'auto', border: 'none'}}
+							style={{ display: 'flex', margin: 'auto', border: 'none' }}
 						>
 							<h3 className='modal-title' id='exampleModalLabel'>
 								Cookie Policy
@@ -1051,7 +1051,7 @@ const Footer = () => {
 											Each cookie falls within one of the five following
 											categories:
 										</p>
-										<table className='table' style={{lineHeight: 1}}>
+										<table className='table' style={{ lineHeight: 1 }}>
 											<thead>
 												<tr>
 													<th scope='col'>Sr No.</th>
@@ -1059,11 +1059,11 @@ const Footer = () => {
 													<th scope='col'>Description</th>
 												</tr>
 											</thead>
-											<tbody style={{lineHeight: 1}}>
+											<tbody style={{ lineHeight: 1 }}>
 												<tr>
 													<th scope='row'>1</th>
-													<td style={{lineHeight: 1}}>Essential Cookies</td>
-													<td style={{lineHeight: 1}}>
+													<td style={{ lineHeight: 1 }}>Essential Cookies</td>
+													<td style={{ lineHeight: 1 }}>
 														Essential cookies (First Party Cookies) are
 														sometimes called “strictly necessary” as without
 														them we cannot provide many services that you need
@@ -1074,8 +1074,8 @@ const Footer = () => {
 												</tr>
 												<tr>
 													<th scope='row'>2</th>
-													<td style={{lineHeight: 1}}>Analytics Cookies</td>
-													<td style={{lineHeight: 1}}>
+													<td style={{ lineHeight: 1 }}>Analytics Cookies</td>
+													<td style={{ lineHeight: 1 }}>
 														These cookies track information about visits to the
 														FRHS Filters so that we can make improvements and
 														report our performance. For example: analyse visitor
@@ -1091,10 +1091,10 @@ const Footer = () => {
 												</tr>
 												<tr>
 													<th scope='row'>3</th>
-													<td style={{lineHeight: 1}}>
+													<td style={{ lineHeight: 1 }}>
 														Functionality or Preference Cookies
 													</td>
-													<td style={{lineHeight: 1}}>
+													<td style={{ lineHeight: 1 }}>
 														During your visit to the website/ mobile
 														application, cookies are used to remember
 														information you have entered or choices you make
@@ -1110,10 +1110,10 @@ const Footer = () => {
 												</tr>
 												<tr>
 													<th scope='row'>4</th>
-													<td style={{lineHeight: 1}}>
+													<td style={{ lineHeight: 1 }}>
 														Targeting or Advertising Cookies
 													</td>
-													<td style={{lineHeight: 1}}>
+													<td style={{ lineHeight: 1 }}>
 														These Third Party Cookies are placed by third party
 														advertising platforms or networks in order to,
 														deliver ads and track ad performance, enable
@@ -1133,8 +1133,8 @@ const Footer = () => {
 												</tr>
 												<tr>
 													<th scope='row'>5</th>
-													<td style={{lineHeight: 1}}>Third party Cookies</td>
-													<td style={{lineHeight: 1}}>
+													<td style={{ lineHeight: 1 }}>Third party Cookies</td>
+													<td style={{ lineHeight: 1 }}>
 														We use a number of partners that may also set
 														cookies on your device on our behalf when you visit
 														our website/ mobile application to allow them to
@@ -1229,7 +1229,7 @@ const Footer = () => {
 						</div>
 						<div
 							className='modal-footer'
-							style={{display: 'flex', margin: 'auto', border: 'none'}}
+							style={{ display: 'flex', margin: 'auto', border: 'none' }}
 						>
 							<button
 								type='button'
