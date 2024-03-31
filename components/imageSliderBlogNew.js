@@ -36,6 +36,100 @@ const ImageSliderBLogNew = () => {
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/rooftop_rainwater_harvesting_inner1.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/rooftop-rainwater-harvesting-a-brief-guide" target="_self" >
+										            Rooftop Rainwater Harvesting: A Brief Guide
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          The increase in water scarcity in urban areas is a serious indication of depleting groundwater reserves. It denotes an immediate need to amplify the measures...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rooftop-rainwater-harvesting-a-brief-guide" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rooftop-rainwater-harvesting-a-brief-guide" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/rooftop-rainwater-harvesting-a-brief-guide" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/rooftop-rainwater-harvesting-a-brief-guide" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/harmony_of_tradition_and_innovation_inner1.png" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/harmony-of-tradition-and-innovation" target="_self" >
+										            Harmony of Tradition and Innovation: Exploring Rainwater Harvesting Systems
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Rainwater harvesting is a process of conserving rainwater which includes collecting, storing and conveying and purifying the rainwater which falls on the rooftops...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/harmony-of-tradition-and-innovation" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/harmony-of-tradition-and-innovation" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/harmony-of-tradition-and-innovation" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/harmony-of-tradition-and-innovation" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
                   				<img src="../static/images/blogs/effective_techniques_to_recharge_groundwater_in_India_inner1.png" style={{ height: "196px", }} />
                 			</div>
                 			<div className="mdiacont">
@@ -79,7 +173,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
 
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -173,8 +269,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -221,7 +316,11 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+          </div>
 
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -269,7 +368,6 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
 
-
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -316,12 +414,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          </div> 
-
-          <div>
-              <div className="container media-main">
-
+               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -368,6 +461,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -462,9 +558,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>    
+                  
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -511,7 +605,12 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>              
+              </div>
 
+          </div>
+
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -605,12 +704,6 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-
-          </div>
-
-          <div>
-              <div className="container media-main">
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -658,6 +751,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -752,9 +848,7 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -801,7 +895,12 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              
+              </div>
+
+          </div>
+
+          <div>
+              <div className="container media-main">    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -895,12 +994,6 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
-              </div>
-
-          </div>
-
-          <div>
-              <div className="container media-main">
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -948,6 +1041,9 @@ const ImageSliderBLogNew = () => {
                 			</div>
               			</div>
             		  </div>
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
@@ -1042,9 +1138,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-              </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>    
+                  
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
@@ -1091,7 +1185,11 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">    
 					        <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -1183,11 +1281,6 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">
               
             	    <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1267,6 +1360,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
             		  </div>
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>  
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1429,9 +1525,7 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
             		  </div>
-              </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>  
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1512,7 +1606,12 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
                   </div>
-                
+              </div>
+
+          </div>
+
+          <div>
+              <div className="container media-main">      
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1672,12 +1771,6 @@ const ImageSliderBLogNew = () => {
                   </div>
                 </div>
                   </div>
-              </div>
-
-          </div>
-
-          <div>
-              <div className="container media-main">
           
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1759,6 +1852,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
+              </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }} >
               
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -1916,9 +2012,7 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }} >
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1998,7 +2092,11 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-              
+              </div>
+          </div>
+
+          <div>
+              <div className="container media-main">    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -2151,11 +2249,6 @@ const ImageSliderBLogNew = () => {
                           </div>
                       </div>
                   </div>
-              </div>
-          </div>
-
-          <div>
-              <div className="container media-main">
                
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
@@ -2236,7 +2329,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                     </div>
                   </div>
-             
+              </div>
+                                
+              <div className="container media-main" style={{ marginTop: "10vh" }} >
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -2316,7 +2411,6 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
               
-                
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                       <div className="sec-brdr">
                         <div className="mdiaimg">
