@@ -2,21 +2,50 @@ import React, { Fragment, useEffect, useState } from "react";
 import { BsCart } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
 import { MdLocalPhone } from "react-icons/md";
-
+import axios from 'axios'
 
 const Header = () => {
 
   const [showPopup, setShowPopup] = useState(false);
   const [iscontact, setiscontact] = useState(false)
-
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    message: ''
+  });
   // console.log(showPopup, '=====================>')
-  useEffect(() => {
+  // useEffect(() => {
 
-    const timer = setTimeout(() => {
-      setShowPopup(true);
-    }, 5000);
-    return () => clearTimeout(timer);
-  }, []);
+  //   const timer = setTimeout(() => {
+  //     setShowPopup(true);
+  //   }, 5000);
+  //   return () => clearTimeout(timer);
+  // }, []);
+
+  //handle Formdata functionality
+  const handeFormdata = (v) => {
+    let { name, value } = v.target
+    setFormData({
+      ...formData, [name]: value
+    })
+  }
+  // submit contact enquiry functionality
+  const handleSubmit = async (v) => {
+    v.preventDefault();
+    let emailToSend = { ...formData }
+    try {
+      if (Object.values(formData).every(v => v !== '')) {
+        const respo = await axios.post("https://739o33ovd6.execute-api.ap-south-1.amazonaws.com/Production/", emailToSend)
+        console.log(respo);
+        setFormData({ name: '', phone: '', email: '', message: '' })
+        setShowPopup(false)
+      }
+    } catch (error) {
+      console.error(error.message)
+    }
+  }
+
   return (
     <Fragment>
       <div className="test container-fluid main-header">
@@ -137,10 +166,10 @@ const Header = () => {
                   <a
                     href="#"
                     className="dropdown-toggle"
-                    // data-toggle="dropdown"
-                    data-toggle="modal"
-                    data-target="#contactModal"
-                    onClick={() => { setShowPopup(true); setiscontact(true) }}
+                    data-toggle="dropdown"
+                  // data-toggle="modal"
+                  // data-target="#contactModal"
+                  // onClick={() => { setShowPopup(true); setiscontact(true) }}
                   >
                     Contact us
                   </a>
@@ -212,37 +241,45 @@ const Header = () => {
                     style={{ border: "none" }}
                     className="modal-body"
                   >
-                    <form>
+                    <form onSubmit={handleSubmit}>
                       <div className="fominpt">
                         <input
                           type="text"
                           name="name"
+                          value={formData.name}
                           placeholder="Name:"
                           required
+                          onChange={handeFormdata}
                         />
                       </div>
                       <div className="fominpt">
                         <input
                           type="text"
                           name="phone"
+                          value={formData.phone}
                           placeholder="Phone:"
                           required
+                          onChange={handeFormdata}
                         />
                       </div>
                       <div className="fominpt">
                         <input
                           type="email"
                           name="email"
+                          value={formData.email}
                           placeholder="Email id:"
                           required
+                          onChange={handeFormdata}
                         />
                       </div>
                       <div className="fominpt frmmsg">
                         <input
                           type="textarea"
                           name="message"
+                          value={formData.message}
                           placeholder="Message:"
                           required
+                          onChange={handeFormdata}
                         />
                       </div>
                       <div className="fominpt frmbtn session-btn" style={{ display: 'flex', justifyContent: 'center' }}>
