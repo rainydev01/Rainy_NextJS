@@ -48,10 +48,10 @@ const Footer = () => {
                   </a>
                 </p> */}
                 <p>
-                  <a target="_blank" href="tel:7338033790">
+                  <a target="_blank" href="tel:919996664458">
                     <i className="fa fa-mobile" aria-hidden="true" />
                   </a>{" "}
-                  <a target="_blank" href="tel:7338033790">
+                  <a target="_blank" href="tel:919996664458">
                     +91 99966 64458
                   </a>
                 </p>
