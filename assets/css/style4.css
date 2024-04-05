@@ -8,15 +8,15 @@
     display: flex;
 }
 
-.image-section {
+/* .image-section {
     width: 40%;
     background-color: aqua;
-}
+} */
 
-.form-section {
-    width: 60%;
+/* .form-section {
+    width: 100%;
     background-color: antiquewhite;
-}
+} */
 
 .overlay {
     position: fixed;
@@ -51,12 +51,15 @@
 .image-section {
     width: 40%;
     background-color: white !important;
+    border-radius: 10px;
 }
 
+
 .form-section {
-    width: 60%;
+    width: 50%;
     background-color: rgb(219, 239, 243) !important;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .form-heading {
@@ -69,4 +72,192 @@
     width: 100%;
     justify-content: end;
     display: flex;
+}
+
+.contentStyles {
+    width: '100%';
+    margin: 'auto';
+    border-radius: 20px;
+}
+
+.imagheight {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media only screen and (min-width: 320px) {
+    .image-section {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: none;
+    }
+
+    .form-section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contentStyles {
+        width: 290px;
+    }
+
+    .my-heading {
+        font-size: 22px;
+        margin: 7px 0 7px 0;
+    }
+
+    .myinput1 input {
+        padding: 5px 5px 90px 10px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .image-section {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: none;
+    }
+
+    .form-section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contentStyles {
+        width: 330px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .image-section {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: none;
+    }
+
+    .form-section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contentStyles {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .image-section {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .imagheight {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .contentStyles {
+        width: 670px;
+    }
+
+    .form-section {
+        width: 50%;
+        background-color: rgb(219, 239, 243) !important;
+        padding: 15px;
+    }
+
+    .my-heading {
+        font-size: 25px;
+        margin: 5px 0 5px 0;
+    }
+
+    .myinput {
+        border: none;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .myinput1 input {
+        padding: 5px 5px 90px 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .image-section {
+        width: 50%;
+        display: block;
+    }
+
+    .imagheight {
+        height: 100%
+    }
+
+    .contentStyles {
+        width: 760px;
+    }
+
+    .form-section {
+        width: 50%;
+        background-color: rgb(219, 239, 243) !important;
+        padding: 15px;
+    }
+
+    .my-heading {
+        font-size: 25px;
+        margin: 5px 0 5px 0;
+    }
+
+    .myinput {
+        border: none;
+        font-size: 10px;
+        font-weight: 600;
+        margin: 10px 0px;
+        /* padding: 10px; */
+    }
+
+    .myinput1 input {
+        padding: 5px 5px 120px 10px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .image-section {
+        width: 50%;
+        display: block;
+    }
+
+    .imagheight {
+        height: 100%
+    }
+
+    .contentStyles {
+        width: 770px;
+    }
+
+    .form-section {
+        width: 50%;
+        background-color: rgb(219, 239, 243) !important;
+        padding: 15px;
+    }
+
+    .my-heading {
+        font-size: 25px;
+        margin: 10px 0 10px 0;
+    }
+
+    .myinput {
+        border: none;
+        font-size: 10px;
+        font-weight: 600;
+        margin: 10px 0px;
+    }
+
+    .myinput1 input {
+        padding: 5px 5px 130px 10px;
+    }
 }
