@@ -339,14 +339,17 @@ img {
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 600px) {
     body[yahoo] .full_width_600 {
         width: 90% !important;
     }
+
     .hero-text.inthemedia.contactg {
         text-align: center !important;
         color: #ffffff;
     }
+
     .hero-text.rnyfltrs {
         text-align: right !important;
         position: absolute;
@@ -356,26 +359,31 @@ img {
         padding: 25px;
         color: #ffffff !important;
     }
+
     .mdiaimg img {
         width: 372px !important;
         max-width: 100% !important;
     }
+
     .nextButtons.prebutton {
         margin-left: 0px !important;
         position: absolute;
         left: 65px;
     }
+
     .slick-arrow-right-awards {
         float: right;
         width: 8%;
         margin-top: -7% !important;
     }
+
     .slick-arrow-left-awards {
         width: 0%;
         float: left;
         margin-top: 83%;
         margin-left: 2px;
     }
+
     button#rnrdmr {
         border: 1px solid#fff532;
         background: #fff532;
@@ -385,97 +393,122 @@ img {
         border-radius: 30px;
         width: 80% !important;
     }
+
     .groundwater_bg_home img {
         max-width: 100%;
     }
+
     .techcntrbg h1 {
         padding: 45px 0px !important;
         background-size: contain !important;
         font-size: 22px !important;
     }
+
     .hero-text.rnyfltrs h1 {
         font-size: 22px !important;
     }
+
     .techcntrbgto h1 {
         text-align: center !important;
     }
+
     .hero-text.techbnnrtxt h1 {
         font-size: 25px !important;
     }
+
     .hero-text.entteamtxt h1 {
         font-size: 22px !important;
     }
+
     .whtdowdo {
         font-size: 20px !important;
     }
+
     .ourjourneycontinue {
         width: 50% !important;
         left: 0px !important;
         position: absolute !important;
         bottom: 115px !important;
     }
-    .timeline > li > .timeline-badge {
+
+    .timeline>li>.timeline-badge {
         left: 54% !important;
     }
+
     .slick-slider.slick-initialized .slick-arrow.slick-prev {
         left: 0px !important;
         top: 90% !important;
         z-index: 999 !important;
     }
+
     .slick-slider.slick-initialized .slick-arrow.slick-prev {
         z-index: 999;
         left: 0px !important;
     }
+
     .award h1 {
         padding: 30px 0px 32px 0px !important;
         background-size: contain !important;
         font-size: 22px !important;
         margin-bottom: 60px !important;
     }
+
     .mdiasocial {
         position: relative !important;
         bottom: 50px !important;
     }
+
     .nextButtons {
         margin: -50px 25px 38px 0px !important;
     }
+
     .nextButtons.prebutton.btn2s {
         margin: -50px 25px 38px 0px !important;
     }
+
     .nextButtons.prebutton.btn3s {
         margin: -90px 25px 38px 0px !important;
     }
+
     .nextButtons.btn1s {
         margin: -28px 25px 38px 0px !important;
     }
+
     .slick-slider.slick-initialized .slick-arrow.slick-next {
         right: 0px !important;
         top: 90% !important;
     }
+
     .timeline-panel {
         margin-top: 60% !important;
     }
+
     a.diffcolormenu {
         background: none !important;
         color: #4c3f43 !important;
     }
+
     .header {
         display: none;
     }
-    .menu-toggle:checked ~ .header {
+
+    .menu-toggle:checked~.header {
         display: block !important;
         opacity: 1;
         transition-delay: 0s;
     }
+
     .test {
         top: 0;
         width: 100%;
         position: fixed;
         background-color: none;
     }
+
     .groundwatersimg img {
         max-width: 100%;
     }
+
     .hero-text {
         text-align: right !important;
         position: absolute;
@@ -484,37 +517,47 @@ img {
         width: 100%;
         padding: 25px;
     }
+
     .banner {
         margin-top: 11% !important;
     }
+
     .cntrimg {
         margin-bottom: 25px !important;
     }
+
     .rooftopfrm {
         margin: 25px 0px !important;
     }
+
     .hero-text h1 {
         font-size: 22px !important;
     }
+
     .hero-text p {
         font-size: 20px !important;
     }
+
     .groundwaterstxt h3 {
         font-weight: 600;
         color: #0971b7;
         font-size: 25px !important;
     }
+
     .hero-text button {
         font-size: 13px !important;
     }
+
     .groundwater_bg_home {
         padding: 0px 0px 0px 0px !important;
     }
+
     .about-home {
         background-size: contain !important;
         background-position: top !important;
         padding: 370px 0px 0px 0px !important;
     }
+
     .about-content {
         background: #0971b7;
         color: #fff;
@@ -524,95 +567,119 @@ img {
         margin-left: 0px !important;
         margin-top: 10px;
     }
+
     .groundwatersimg {
         padding: 0px 0px !important;
     }
+
     .footer-main {
         background: #0971b7;
         padding: 0px 0px 0px 0px !important;
         display: flex !important;
     }
+
     .footer-two {
         padding: 15px 15px !important;
     }
+
     .footer-one {
         padding: 0px !important;
     }
+
     .footer-three {
         padding: 15px 15px !important;
         text-align: left !important;
     }
+
     a.navbar-brand {
         display: none;
     }
+
     .header a {
         padding: 10px 25px !important;
     }
+
     .rooftopfrm {
         background: #0971b7 !important;
         border-radius: 10px !important;
         padding: 20px 10px 10px 10px !important;
     }
+
     .mobile-bar img {
         width: 125px;
         max-width: 100%;
         padding: 18px 0px 0px 0px;
     }
+
     img.moblogo {
         display: initial;
     }
+
     header.header.container a img {
         display: none !important;
     }
+
     /* ------- journey -------- */
-    .timeline > li > .timeline-panel {
+    .timeline>li>.timeline-panel {
         width: 100% !important;
         float: left !important;
         left: 0% !important;
     }
-    .timeline > li > .right-drop {
+
+    .timeline>li>.right-drop {
         width: 155px !important;
         height: 181px !important;
         top: 20px !important;
         left: 52% !important;
     }
-    .timeline > li > .left-drop {
+
+    .timeline>li>.left-drop {
         width: 181px !important;
         height: 181px !important;
         top: 17px !important;
         left: 31% !important;
         margin-left: -90px !important;
     }
+
     .enthrotxt {
         top: 17% !important;
         left: 50% !important;
     }
+
     .inthemedia {
         top: 17% !important;
     }
+
     .container.media-main .col-md-4 {
         padding-bottom: 44px;
     }
+
     .media-main {
         padding: 0px 0px 0px 0px;
     }
+
     .award {
         display: inline-grid !important;
     }
+
     .awrdimgcont {
         max-width: 100% !important;
         padding: 5px 0px !important;
     }
+
     .awrdimgcont h3 {
         font-size: 18px !important;
     }
+
     .entteamtxt {
         top: 17% !important;
         left: 10% !important;
     }
+
     .groundwater_bg h2 {
         font-size: 25px !important;
     }
+
     .sawar h1 {
         padding: 60px 0px !important;
         background-image: url(../../static/images/ourTeam/Group1236.jpg);
@@ -623,19 +690,24 @@ img {
         font-weight: 600;
         color: #fff;
     }
+
     span.mb-span {
         font-size: 12px !important;
     }
+
     h2.tech-heading {
         text-align: center;
         font-size: 22px !important;
     }
+
     p.team-para {
         padding: 0px 0px 45px 0px !important;
     }
+
     .techbnnrtxt {
         top: 17% !important;
     }
+
     .techbnnrtxt {
         text-align: center !important;
         position: absolute;
@@ -644,43 +716,54 @@ img {
         transform: translate(-50%, -50%);
         color: #ffffff;
     }
+
     h5.mb-0 a {
         font-size: 13px !important;
     }
+
     .card-header {
         padding: 0.75rem 0rem !important;
     }
+
     .techacrsec {
         padding: 20px 0px !important;
     }
+
     span.mb-span {
         font-size: 13px !important;
         padding: 5px 5px !important;
         margin-left: 0px !important;
     }
+
     .rnyfltrs {
         top: 17% !important;
     }
+
     .dwnldbnnrtxt {
         top: 17% !important;
     }
+
     h1.fl80 {
         width: 60% !important;
     }
-    .mb-0 > a:after {
+
+    .mb-0>a:after {
         content: "\f078";
         font-family: "Visby Round CF Heavy";
         position: absolute;
         right: 2% !important;
     }
+
     .yellowbtn button {
         margin: 5px 15px !important;
     }
+
     .sssprt h1 {
         padding: 45px 0px !important;
         background-size: contain !important;
         font-size: 22px !important;
     }
+
     /* .yellowbtn {
         margin-left: -20px !important;
     } */
@@ -688,31 +771,39 @@ img {
         float: left;
         margin-left: 30%;
     }
+
     .hero-text.inthemedia h1 {
         font-size: 22px !important;
     }
+
     .rnyfltrbtn {
         margin: 10px 0px !important;
         text-align: center !important;
     }
+
     .gr3 {
         margin: 20px 3px;
     }
+
     .dlrsinpt select {
         padding: 6px 0px !important;
         margin: 5px 0px !important;
         width: 90% !important;
     }
+
     h5.mb-0 {
         padding: 0px 10px !important;
     }
+
     .dnldbg {
         background: #dff7f7;
         padding: 45px 5px !important;
     }
+
     .glrycntnr {
         padding: 25px 0px !important;
     }
+
     .glrymnu {
         padding: 0px 15px !important;
     }
@@ -722,9 +813,11 @@ img {
     body[yahoo] .full_width_700 {
         width: 100% !important;
     }
+
     body[yahoo] .txt_center {
         text-align: center !important;
     }
+
     body[yahoo] .separator {
         height: 40px !important;
     }
@@ -735,22 +828,28 @@ img {
         max-width: 100% !important;
         margin-bottom: 10% !important;
     }
+
     .cntrimg img {
         margin-top: 0% !important;
     }
+
     .groundwatersimg img {
         margin-top: 20px !important;
         width: 100%;
     }
-    .timeline > li > .left-drop {
+
+    .timeline>li>.left-drop {
         left: 35% !important;
     }
-    .timeline > li > .timeline-panel {
+
+    .timeline>li>.timeline-panel {
         width: 37% !important;
     }
+
     .slick-arrow-right-awards {
         margin-top: -30%;
     }
+
     .nextButtons.prebutton {
         left: -1035px !important;
     }
@@ -947,7 +1046,7 @@ p {
     /*the bar to X*/
 }
 
-.menu-icon > span {
+.menu-icon>span {
     display: block;
     position: absolute;
     top: 55%;
@@ -959,8 +1058,8 @@ p {
     transition: transform 300ms ease-in;
 }
 
-.menu-icon > span:before,
-.menu-icon > span:after {
+.menu-icon>span:before,
+.menu-icon>span:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -970,28 +1069,28 @@ p {
     transition: transform 300ms ease;
 }
 
-.menu-icon > span:before {
+.menu-icon>span:before {
     transform: translateY(-0.6em);
 }
 
-.menu-icon > span:after {
+.menu-icon>span:after {
     transform: translateY(0.6em);
 }
 
 /*need this for bringing down the examples*/
 
-.menu-toggle:checked + .mobile-bar .menu-icon {
+.menu-toggle:checked+.mobile-bar .menu-icon {
     transform: rotate(45deg);
 }
 
-.menu-toggle:checked + .mobile-bar span:before,
-.menu-toggle:checked + .mobile-bar span:after {
+.menu-toggle:checked+.mobile-bar span:before,
+.menu-toggle:checked+.mobile-bar span:after {
     transform: rotate(90deg);
 }
 
 /*needed*/
 
-.menu-toggle:checked ~ .header {
+.menu-toggle:checked~.header {
     visibility: visible;
     opacity: 1;
     transition-delay: 0s;
@@ -1059,11 +1158,12 @@ p {
         width: fit-content;
     }
 }
+
 .navbar-brand {
     padding: 0px;
 }
 
-.navbar-brand > img {
+.navbar-brand>img {
     /*height: 40px;
     width: auto;
     z-index: 10;
@@ -1079,11 +1179,13 @@ p {
     max-width: 100%;
     margin-left: -74px;
 }
+
 @media (max-width: 1440px) {
-    .navbar-brand > img {
+    .navbar-brand>img {
         margin-left: -54px;
     }
 }
+
 .test {
     top: 0;
     width: 100%;
@@ -1097,12 +1199,15 @@ p {
         position: absolute;
         left: 73px;
     }
+
     .row.margin3ForSlider {
         margin: 40px 0px;
     }
+
     .nextButtons.prebutton.btn3s {
         margin: -48px 68px 38px -16px !important;
     }
+
     .nextButtons.prebutton.btn3s button {
         background: #009ddd;
         border: 1px solid #009ddd;
@@ -1111,6 +1216,7 @@ p {
         margin: -15px -30px !important;
         outline: none;
     }
+
     .techbnnrtxt {
         text-align: center !important;
         position: absolute;
@@ -1119,9 +1225,11 @@ p {
         transform: translate(-50%, -50%);
         color: #ffffff;
     }
+
     .groundwaterstxt {
         padding: 20px 10px 50px 10px !important;
     }
+
     .abou-home-heading h2 {
         text-align: center;
         padding: 5px 0px 5px 0px;
@@ -1131,122 +1239,151 @@ p {
         letter-spacing: 0px;
         font-family: "Visby Round CF Heavy";
     }
+
     .container-fluid.groundwater_bg_home .col-md-4 {
         padding: 0px 10px;
     }
+
     .footer-one img {
         max-width: 100% !important;
         width: 110px !important;
     }
+
     .slick-arrow-left-awards {
         margin-top: 16%;
     }
+
     .slick-arrow-left-awards.onlymedial {
         margin-top: 24%;
     }
+
     .slick-arrow-right-awards {
         float: right;
         width: 8%;
         margin-top: -36% !important;
     }
+
     .bannrhome .hero-image .hero-text {
         position: absolute !important;
         top: 20% !important;
         left: 50% !important;
     }
+
     .gr3 img {
         max-width: 100%;
     }
+
     .rnyfltrs {
         left: 60% !important;
     }
-    .timeline > li.timeline-inverted > .timeline-panel {
+
+    .timeline>li.timeline-inverted>.timeline-panel {
         float: right !important;
     }
-    .timeline > li.timeline-inverted > .timeline-panel:before {
+
+    .timeline>li.timeline-inverted>.timeline-panel:before {
         border-left-width: 0;
         border-right-width: 15px;
         left: -15px;
         right: auto;
     }
-    .timeline > li.timeline-inverted > .timeline-panel:after {
+
+    .timeline>li.timeline-inverted>.timeline-panel:after {
         border-left-width: 0;
         border-right-width: 14px;
         left: -14px;
         right: auto;
     }
+
     .ourjourneycontinue {
         width: 50% !important;
         left: 20px !important;
         position: absolute !important;
         bottom: 0px !important;
     }
+
     .container {
         max-width: 1000px;
     }
-    .timeline > li > .timeline-badge {
+
+    .timeline>li>.timeline-badge {
         left: 51.5% !important;
     }
+
     .slick-slider.slick-initialized .slick-arrow.slick-prev {
         left: 0px !important;
         top: 90% !important;
         z-index: 999 !important;
     }
+
     .slick-slider.slick-initialized .slick-arrow.slick-prev {
         z-index: 999;
         left: 0px !important;
     }
+
     .award h1 {
         padding: 150px 0px !important;
         background-size: contain !important;
         font-size: 22px !important;
         margin-bottom: 60px !important;
     }
+
     .mdiacont div {
         padding: 15px 0px !important;
     }
+
     .col-md-12 {
         -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
         max-width: 80% !important;
     }
+
     .mdiasocial {
         position: absolute !important;
         bottom: 50px !important;
     }
+
     .nextButtons {
         margin: -30px 20px 40px -5px !important;
         z-index: 999999 !important;
     }
+
     .slick-slider.slick-initialized .slick-arrow.slick-next {
         right: 0px !important;
         top: 90% !important;
     }
+
     .timeline-panel {
         margin-top: 0% !important;
     }
+
     a.diffcolormenu {
         background: none !important;
         color: #4c3f43 !important;
     }
+
     .header {
         display: none;
     }
-    .menu-toggle:checked ~ .header {
+
+    .menu-toggle:checked~.header {
         display: block !important;
         opacity: 1;
         transition-delay: 0s;
     }
+
     .test {
         top: 0;
         width: 100%;
         position: fixed;
         background-color: none;
     }
+
     .groundwatersimg img {
         max-width: 100%;
         margin-top: 20px;
     }
+
     .hero-text {
         position: absolute;
         top: 16% !important;
@@ -1254,41 +1391,52 @@ p {
         width: 50%;
         padding: 25px;
     }
+
     .cntrimg img {
         margin-top: 100%;
     }
+
     .banner {
         margin-top: 6% !important;
     }
+
     .cntrimg {
         margin-bottom: 25px !important;
     }
+
     .rooftopfrm {
         margin: 25px 0px !important;
     }
+
     .hero-text h1 {
         font-size: 28px !important;
     }
+
     .hero-text p {
         font-size: 18px !important;
         font-family: Visby Round CF Regular;
     }
+
     .groundwaterstxt h3 {
         font-weight: 600;
         color: #0971b7;
         font-size: 25px !important;
     }
+
     .hero-text button {
         font-size: 13px !important;
     }
+
     .groundwater_bg_home {
         padding: 0px 0px 510px 0px;
     }
+
     .about-home {
         background-size: contain !important;
         background-position: top !important;
         padding: 370px 0px 0px 0px !important;
     }
+
     .about-content {
         max-width: 740px !important;
         background: #0971b7;
@@ -1299,105 +1447,131 @@ p {
         margin-left: 0px !important;
         margin-top: 10px;
     }
+
     .groundwatersimg {
         padding: 0px 0px !important;
     }
+
     .footer-main {
         background: #0971b7;
         padding: 0px 0px 0px 0px !important;
         display: flex !important;
     }
+
     .footer-two {
         padding: 15px 0px !important;
     }
+
     .footer-one {
         padding: 0px !important;
     }
+
     .footer-three {
         padding: 15px 0px !important;
         text-align: left !important;
     }
+
     .footer-four {
         padding: 15px 0px !important;
         text-align: left !important;
     }
+
     a.navbar-brand {
         display: none;
     }
+
     .header a {
         padding: 10px 25px !important;
     }
+
     .rooftopfrm {
         background: #0971b7 !important;
         border-radius: 10px !important;
         padding: 0px 10px 0px 10px !important;
     }
+
     .mobile-bar img {
         width: 125px;
         max-width: 100%;
         padding: 18px 0px 0px 0px;
     }
+
     img.moblogo {
         display: initial;
     }
+
     header.header.container a img {
         display: none !important;
     }
+
     /* ------- journey -------- */
-    .timeline > li > .timeline-panel {
+    .timeline>li>.timeline-panel {
         width: 45% !important;
         float: left !important;
         left: 0% !important;
     }
+
     .timeline-panel.right-imghis {
         float: right !important;
         float: left !important;
         left: 0% !important;
     }
-    .timeline > li > .right-drop {
+
+    .timeline>li>.right-drop {
         width: 155px !important;
         height: 181px !important;
         top: 20px !important;
         left: 52% !important;
     }
-    .timeline > li > .left-drop {
+
+    .timeline>li>.left-drop {
         width: 181px !important;
         height: 181px !important;
         top: 17px !important;
         left: 41%;
         margin-left: -170px !important;
     }
+
     .enthrotxt {
         top: 15% !important;
         left: 50% !important;
     }
+
     .inthemedia {
         top: 15% !important;
         left: 50% !important;
     }
+
     .container.media-main .col-md-4 {
         padding-bottom: 44px;
     }
+
     .media-main {
         padding: 0px 0px 0px 0px;
     }
+
     .award {
         display: inline-grid !important;
     }
+
     .awrdimgcont {
         max-width: 100% !important;
         padding: 5px 0px !important;
     }
+
     .awrdimgcont h3 {
         font-size: 18px !important;
     }
+
     .entteamtxt {
         top: 20% !important;
         left: 50% !important;
     }
+
     .groundwater_bg h2 {
         font-size: 25px !important;
     }
+
     .sawar h1 {
         padding: 115px 0px !important;
         background-image: url(../../static/images/ourTeam/Group1236.jpg);
@@ -1408,55 +1582,69 @@ p {
         font-weight: 600;
         color: #fff;
     }
+
     span.mb-span {
         font-size: 12px !important;
     }
+
     h2.tech-heading {
         text-align: center;
         font-size: 22px !important;
     }
+
     p.team-para {
         padding: 0px 0px 45px 0px !important;
     }
+
     .techbnnrtxt {
         top: 16% !important;
     }
+
     h5.mb-0 a {
         font-size: 13px !important;
     }
+
     .card-header {
         padding: 0.75rem 0rem !important;
     }
+
     .techacrsec {
         padding: 20px 0px !important;
     }
+
     span.mb-span {
         font-size: 13px !important;
         padding: 5px 5px !important;
         margin-left: 20px !important;
     }
+
     .rnyfltrs {
         top: 16% !important;
         left: 17% !important;
         color: #ffffff !important;
     }
+
     h1.fl80 {
         width: 60% !important;
     }
-    .mb-0 > a:after {
+
+    .mb-0>a:after {
         content: "\f078";
         font-family: "Visby Round CF Heavy";
         position: absolute;
         right: 2% !important;
     }
+
     .yellowbtn button {
         margin: 5px 15px !important;
     }
+
     .sssprt h1 {
         padding: 150px 0px !important;
         background-size: contain !important;
         font-size: 22px !important;
     }
+
     /* .yellowbtn {
         margin-left: -20px !important;
     } */
@@ -1464,41 +1652,52 @@ p {
         float: left;
         margin-left: 30%;
     }
+
     .hero-text.inthemedia h1 {
         font-size: 22px !important;
     }
+
     .rnyfltrbtn {
         margin: 10px 0px !important;
         text-align: center !important;
     }
+
     .gr3 {
         margin: 20px 3px;
     }
+
     .dlrsinpt select {
         padding: 6px 0px !important;
         margin: 5px 0px !important;
         width: 90% !important;
     }
+
     h5.mb-0 {
         padding: 0px 10px !important;
     }
+
     .dnldbg {
         background: #dff7f7;
         padding: 45px 5px !important;
     }
+
     .glrycntnr {
         padding: 25px 0px !important;
     }
+
     .glrymnu {
         padding: 0px 15px !important;
     }
+
     .groundwater_bg_home img {
         max-width: 100% !important;
         margin-bottom: 55%;
     }
+
     .grndtext {
         padding: 0px 0px !important;
     }
+
     .rainy-dual {
         padding: 10px 0px 20px 0px !important;
     }
@@ -1514,6 +1713,7 @@ p {
     .mobile-bar {
         display: none !important;
     }
+
     .header {
         z-index: 5;
         left: 0;
@@ -1524,12 +1724,14 @@ p {
         opacity: 1;
         text-align: right;
     }
+
     .header li {
         display: inline-block;
         margin-right: -6px;
         border: none;
         text-align: left;
     }
+
     .header a {
         padding: 20px 15px 10px 15px;
     }
@@ -1556,6 +1758,7 @@ p {
 .hero-image {
     position: relative;
 }
+
 .hero-image .btn-shopnow-yellow {
     position: absolute;
     right: 38px;
@@ -1572,6 +1775,7 @@ p {
     border: none;
     border-radius: 5px;
 }
+
 .hero-image .btn-shopnow-yellow a:hover {
     text-decoration: none;
 }
@@ -1582,47 +1786,56 @@ p {
     gap: 8px;
     font-size: 20px;
 }
+
 .hero-image .btn-shopnow-yellow svg {
     font-size: 20px;
 }
+
 .hero-image .whatsapp-img {
     position: fixed;
     right: 35px;
-    bottom: 10%;
+    bottom: 2%;
     z-index: 1;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     gap: 8px;
 }
+
 .btn-close {
     background-color: transparent;
     border: 0;
     font-size: 20px;
 }
+
 .hero-image .whatsapp-img img {
     width: 50px;
 }
+
 .wp-text {
     color: #212529;
     font-size: 20px;
     display: block;
 }
+
 @media only screen and (max-width: 1520px) {
     .hero-image .btn-shopnow-yellow {
         position: absolute;
         bottom: 27%;
         padding: 24px 50px !important;
     }
+
     /* .hero-image .whatsapp-img {
         bottom: 10%;
     } */
 }
+
 @media only screen and (max-width: 1440px) {
     .hero-image .whatsapp-img {
         right: 23px;
     }
 }
+
 @media only screen and (max-width: 1160px) {
     .hero-image .btn-shopnow-yellow {
         position: absolute;
@@ -1630,6 +1843,7 @@ p {
         right: 22px;
         padding: 15px 30px !important;
     }
+
     /* .hero-image .whatsapp-img {
         bottom: 6%;
     }
@@ -1637,6 +1851,7 @@ p {
         width: 40px;
     } */
 }
+
 @media only screen and (max-width: 768px) {
     .hero-image .btn-shopnow-yellow {
         position: absolute;
@@ -1644,24 +1859,29 @@ p {
         /* right: 10px; */
         padding: 6px 10px !important;
     }
+
     .hero-image .btn-shopnow-yellow a {
         display: flex;
         align-items: center;
         gap: 3px;
         font-size: 12px !important;
     }
+
     .hero-image .whatsapp-img {
-        bottom: 10%;
+        bottom: 2%;
         /* right: 10px; */
     }
+
     .hero-image .whatsapp-img img {
         width: 40px;
     }
+
     /* .hero-image .shop-btn-new {
         display: flex;
         justify-content: center;
     } */
 }
+
 /* @media only screen and (max-width: 576px) {
     .hero-image .whatsapp-img {
         bottom: 6%;
@@ -1673,15 +1893,18 @@ p {
         bottom: 28%;
         padding: 4px 6px !important;
     }
+
     .hero-image .whatsapp-img img {
         width: 34px;
     }
+
     .hero-image .btn-shopnow-yellow a {
         display: flex;
         align-items: center;
         gap: 3px;
         font-size: 10px !important;
     }
+
     .hero-image .btn-shopnow-yellow svg {
         font-size: 12px;
     }
@@ -1689,6 +1912,7 @@ p {
     .yellowbtn button {
         margin: 0px !important;
     }
+
     .yellowbtn button {
         border: 1px solid#fff532;
         background: #fff532;
@@ -1699,6 +1923,7 @@ p {
         font-size: 12px;
     }
 }
+
 .hero-image .gallery-btn {
     background-color: #0971b7;
     color: #fff;
@@ -1714,6 +1939,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .dropdown-menu.dropdown-menu-tip-nw.show {
     width: 220px !important;
     border-radius: 0px;
@@ -1772,13 +1998,16 @@ p {
     margin-bottom: 30px;
     background-image: url("/_next/static/media/Wave.3b2827b….png");
 }
+
 .list-heading {
     list-style-type: number;
 }
+
 .list-heading h3 {
     font-size: 20px;
     font-weight: 500;
 }
+
 .list-heading h3:after {
     border: none;
 }
@@ -1798,6 +2027,7 @@ p {
     padding: 9px 17px !important;
     border: none;
 }
+
 .btn-shopnow:hover {
     color: transparent;
     text-decoration: none;
@@ -1808,9 +2038,11 @@ p {
     align-items: center;
     gap: 8px;
 }
+
 .btn-shopnow svg {
     font-size: 16px;
 }
+
 @media only screen and (max-width: 1520px) {
     .btn-shopnow {
         position: absolute;
@@ -1818,6 +2050,7 @@ p {
         bottom: 2%;
     }
 }
+
 @media only screen and (max-width: 1160px) {
     .btn-shopnow {
         position: absolute;
@@ -1825,12 +2058,14 @@ p {
         bottom: 1%;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .btn-shopnow {
         position: initial;
         right: 1%;
         bottom: 1%;
     }
+
     .shop-btn-new {
         display: flex;
         justify-content: center;
@@ -1841,17 +2076,20 @@ p {
     display: flex;
     align-items: center;
 }
+
 @media only screen and (max-width: 1199px) {
     .groundwatersec {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
     }
+
     .hero-image .gallery-btn {
         width: 30vh;
         font-size: 3vh;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .hero-image .gallery-btn {
         width: 14vh;
@@ -1863,13 +2101,16 @@ p {
 .dual-secthree {
     margin-bottom: 20px;
 }
+
 .list-disc {
     list-style-type: disc;
     margin-left: 7px;
 }
+
 .space-note {
     margin-left: 5px;
 }
+
 .text-aws {
     color: #212529;
 }
@@ -1879,6 +2120,7 @@ p {
     position: relative;
     z-index: 2;
 }
+
 .customer .customer-text {
     text-align: center;
     font-size: 33px;
@@ -1887,6 +2129,7 @@ p {
     letter-spacing: 0px;
     font-family: "Visby Round CF Heavy";
 }
+
 .customer .customer-text:after {
     content: "";
     display: block;
@@ -1897,6 +2140,7 @@ p {
     margin: auto;
     margin-top: 14px;
 }
+
 .customer .customer-main {
     display: flex;
     gap: 20px;
@@ -1913,6 +2157,7 @@ p {
     position: relative;
     background-position: center;
 }
+
 .bg-customer::after {
     position: absolute;
     content: "";
@@ -1923,13 +2168,16 @@ p {
     height: 100%;
     z-index: 0;
 }
+
 .customer .customer-type {
     max-width: 450px;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
     color: #fff;
+    margin: 0 auto;
 }
+
 .customer .customer-name {
     text-align: center;
     font-size: 24px;
@@ -1937,6 +2185,7 @@ p {
     margin-top: 30px;
     color: #fff;
 }
+
 .customer .customer-type2 {
     text-align: center;
     font-size: 16px;
@@ -1944,6 +2193,7 @@ p {
     margin: 0;
     color: #fff;
 }
+
 .customer .arrow-left {
     border: 1px solid #0971b7;
     border-radius: 50px;
@@ -1955,6 +2205,7 @@ p {
     background: #fff;
     color: #0971b7;
 }
+
 .customer .arrow-right {
     border: 1px solid #0971b7;
     border-radius: 50px;
@@ -1966,53 +2217,84 @@ p {
     background: #fff;
     color: #0971b7;
 }
+
+.customer_top {
+    padding: 30px 0 80px 0 !important;
+}
+
+.customer_bottom {
+    padding-bottom: 50px;
+}
+
 @media (max-width: 768px) {
     .customer {
         padding: 40px 0;
     }
+
+    .customer_top {
+        padding: 20px 0 40px 0 !important;
+    }
+
+    .customer_bottom {
+        padding-bottom: 20px;
+    }
+
     .customer .customer-text {
         font-size: 25px;
     }
+
     .customer .customer-main {
         display: flex;
         gap: 5px;
     }
+
     .customer .customer-type {
         max-width: 390px;
+        margin: 0 auto;
     }
+
     .customer .arrow-left {
         font-size: 30px;
         padding: 7px;
     }
+
     .customer .arrow-right {
         font-size: 30px;
         padding: 7px;
     }
 }
+
 @media (max-width: 518px) {
     .customer .customer-type {
         max-width: 280px;
         font-size: 16px;
+        margin: 0 auto;
     }
+
     .customer .customer-name {
         font-size: 20px;
         margin-top: 15px;
     }
+
     .customer .customer-type2 {
         font-size: 14px;
     }
+
     .customer .arrow-left {
         font-size: 20px;
         padding: 5px;
     }
+
     .customer .arrow-right {
         font-size: 20px;
         padding: 5px;
     }
 }
+
 @media (max-width: 425px) {
     .customer .customer-type {
         max-width: 232px;
         font-size: 16px;
+        margin: 0 auto;
     }
 }

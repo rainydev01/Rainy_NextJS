@@ -190,7 +190,6 @@ const Header = () => {
                     Shop Now<BsCart />
                   </a>
                 </li>
-
                 <li>
                   <img
                     style={{ paddingLeft: "1.5em", cursor: "pointer" }}

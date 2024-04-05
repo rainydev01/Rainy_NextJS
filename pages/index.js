@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
@@ -15,9 +15,17 @@ import MultiCarousel from "../components/OurClientsNew";
 import Slider from "react-slick";
 import ImageSliderMultiClients from "../components/OurClientsNewMulti";
 import CustomerSaying from "../components/CustomerSaying";
+import RWHConsultancyModel from "../components/Popup";
+import Popup from "../components/Popup";
+
 export default function Home() {
+
+
+
   return (
     <Fragment>
+      <Popup />
+
       <Head>
         <script
           async

@@ -21,12 +21,12 @@ const CustomerSaying = () => {
             breakpoint: { max: 464, min: 0 },
             items: 1,
         },
-    };
+    }
     return (
         <Fragment>
             <div className='bg-customer'>
-                <div className='container customer'>
-                    <h1 className='customer-text'>what our customer are saying</h1>
+                <div className='container customer customer_top'>
+                    <h1 className='customer-text customer_bottom'>What our customers are saying?</h1>
                     <Carousel infinite={true} autoPlay={true} responsive={responsive}>
                         <div className='row customer-main'>
                             <div className=''>

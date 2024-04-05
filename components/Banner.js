@@ -38,6 +38,7 @@ const Banner = () => {
 								</a>
 							</Link>
 						</div> */}
+
 					</div>
 				</div>
 			</div>
