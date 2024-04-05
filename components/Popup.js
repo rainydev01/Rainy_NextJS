@@ -5,8 +5,51 @@ import axios from 'axios';
 // import { toast } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 
-const Popup = () => {
+const overlayStyles = {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    zIndex: 1000111
+};
+
+const popupStyles = {
+    backgroundColor: '#fff',
+    borderRadius: '50px',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
+    position: 'relative',
+    zIndex: 100111
+};
+
+const closeButtonStyles = {
+    width: 'fixed',
+    height: 'auto',
+    border: 'none',
+    background: 'none',
+    cursor: 'pointer',
+    fontSize: '30px',
+    padding: '10px',
+    display: 'flex',
+    justifyContent: 'end'
+};
+
+const Popup = ({ setisOpenPop }) => {
     const [showPopup, setShowPopup] = useState(false);
+    const [showSuccess, setShowSuccess] = useState(false);
+    const [errStatus, setErrStatus] = useState(false);
+    const [formData, setFormData] = useState({
+        name: "",
+        phone: "",
+        email: "",
+        message: "",
+    });
+    const { name, phone, email, message } = formData;
+    let AlertResponse = null;
 
     const closePopup = () => {
         setShowPopup(false);
@@ -17,61 +60,15 @@ const Popup = () => {
         const currentDate = new Date().toISOString().slice(0, 10); // Get current date in YYYY-MM-DD format
 
         if (lastPopupShownDate !== currentDate) {
-            setShowPopup(true);
+            setTimeout(() => {
+                setShowPopup(true);
+            }, 5000);
             localStorage.setItem('lastPopupShownDate', currentDate);
             // localStorage.setItem('lastPopupShownDate', '2024-04-06');
         }
     }, []);
 
-    const overlayStyles = {
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        zIndex: 1000
-    };
 
-    const popupStyles = {
-        backgroundColor: '#fff',
-        borderRadius: '50px',
-        boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
-        position: 'relative',
-        zIndex: 1001
-    };
-
-    const closeButtonStyles = {
-        width: 'fixed',
-        height: 'auto',
-        border: 'none',
-        background: 'none',
-        cursor: 'pointer',
-        fontSize: '30px',
-        padding: '10px',
-        display: 'flex',
-        justifyContent: 'end'
-    };
-
-    // const contentStyles = {
-    //     width: '950px',
-    //     margin: 'auto',
-    // };
-
-    const [formData, setFormData] = useState({
-        name: "",
-        phone: "",
-        email: "",
-        message: "",
-    });
-    const { name, phone, email, message } = formData;
-
-    const [showSuccess, setShowSuccess] = useState(false);
-    const [errStatus, setErrStatus] = useState(false);
-    let AlertResponse = null;
 
     const onChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -94,13 +91,13 @@ const Popup = () => {
                     emailToSend
                 );
                 console.log("🚀 ~ onSubmit ~ result:", result)
-                // toast.success("Thanks for writing to us, we will get back to you shortly", {
-                //     position: toast.POSITION.TOP_RIGHT,
-                // });
                 // setShowSuccess(true);
+                // alert("Thanks for writing to us, we will get back");
+                setisOpenPop(true);
+                setShowPopup(false);
+
             } catch (err) {
-                console.log("🚀 ~ onSubmit ~ err:", err)
-                setErrStatus(true);
+                setErrorPopup(true);
             }
         }
     };

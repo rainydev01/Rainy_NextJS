@@ -15,16 +15,80 @@ import MultiCarousel from "../components/OurClientsNew";
 import Slider from "react-slick";
 import ImageSliderMultiClients from "../components/OurClientsNewMulti";
 import CustomerSaying from "../components/CustomerSaying";
-import RWHConsultancyModel from "../components/Popup";
 import Popup from "../components/Popup";
+import { IoMdClose } from "react-icons/io";
+
+
+const popupStyle = {
+  position: 'fixed',
+  top: '20px',
+  right: '0px',
+  transform: 'translateX(-50%)',
+  backgroundColor: '#98FB98',
+  padding: '10px 20px',
+  border: '1px solid #90EE90',
+  borderRadius: '14px',
+  boxShadow: '0 6px 8px rgba(0, 0, 0, 0.1)',
+  zIndex: 1001000000000,
+};
+
+const popupStylerror = {
+  position: 'fixed',
+  top: '20px',
+  right: '0px',
+  transform: 'translateX(-50%)',
+  backgroundColor: '#F4A460',
+  padding: '10px 20px',
+  border: '1px solid #D2691E',
+  borderRadius: '14px',
+  boxShadow: '0 6px 8px rgba(0, 0, 0, 0.1)',
+  zIndex: 1001000000000,
+};
+
+const closeButtonStyle = {
+  position: 'absolute',
+  top: '5px',
+  right: '10px',
+  cursor: 'pointer',
+  paddingBottom: '20px',
+};
+
+const textdata = {
+  padding: '10px',
+}
 
 export default function Home() {
-
-
+  const [isOpenPop, setisOpenPop] = useState(false);
+  const [errorPopup, setErrorPopup] = useState(false)
+  const closePopup = () => {
+    setisOpenPop(false);
+  }
+  const closePopuperror = () => {
+    setErrorPopup(false);
+  }
+  setTimeout(() => {
+    setisOpenPop(false);
+    setErrorPopup(false);
+  }, 3000);
 
   return (
     <Fragment>
-      <Popup />
+      <Popup setisOpenPop={setisOpenPop} setErrorPopup={setErrorPopup} />
+
+      {isOpenPop && (
+        <div style={popupStyle}>
+          <span style={closeButtonStyle} onClick={closePopup}><IoMdClose size={22} /></span>
+          <p style={textdata}>Thanks for writing to us, we will get back to you shortly</p>
+        </div>
+      )}
+
+      {errorPopup && (
+        <div style={popupStylerror}>
+          <span style={closeButtonStyle} onClick={closePopuperror}><IoMdClose size={22} /></span>
+          <p style={textdata}>  Oh snap! Something went wrong. Please drop an email at
+            farmland_rhs@yahoo.co.in</p>
+        </div>
+      )}
 
       <Head>
         <script

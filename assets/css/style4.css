@@ -4,19 +4,9 @@
     width: 900px;
     height: 600px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
 }
-
-/* .image-section {
-    width: 40%;
-    background-color: aqua;
-} */
-
-/* .form-section {
-    width: 100%;
-    background-color: antiquewhite;
-} */
 
 .overlay {
     position: fixed;
@@ -53,7 +43,6 @@
     background-color: white !important;
     border-radius: 10px;
 }
-
 
 .form-section {
     width: 50%;
@@ -222,6 +211,48 @@
 
     .myinput1 input {
         padding: 5px 5px 120px 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 600px) {
+    .image-section {
+        width: 100%;
+        /* Adjust the width to occupy the full width */
+        display: block;
+    }
+
+    .contentStyles {
+        width: 100%;
+        /* Adjust the width to occupy the full width */
+        max-width: 760px;
+        /* Limit the width to 760px */
+    }
+
+    .form-section {
+        width: 100%;
+        /* Adjust the width to occupy the full width */
+        background-color: rgb(219, 239, 243) !important;
+        padding: 15px;
+    }
+
+    .my-heading {
+        font-size: 20px;
+        /* Decrease the font size for better fit */
+        margin: 2px 0;
+        /* You can adjust margins as needed */
+    }
+
+    .myinput {
+        border: none;
+        font-size: 10px;
+        font-weight: 600;
+        margin: 0px 0;
+        /* You can adjust margins as needed */
+    }
+
+    .myinput1 input {
+        padding: 0px 5px 50px 5px;
+        /* Adjust padding as needed */
     }
 }
 
