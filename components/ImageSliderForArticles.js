@@ -176,6 +176,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -398,6 +399,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -470,9 +472,13 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
+
         <div>
+
           <div className="container media-main">
             <div className="col-md-4">
               <div className="sec-brdr">
@@ -620,6 +626,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -693,6 +700,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
           </div>
 
           <div style={{ marginTop: "10vh" }} className="container media-main">
@@ -840,6 +848,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -913,8 +922,11 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
+
         <div>
           <div className="container media-main">
             <div className="col-md-4">
@@ -1063,6 +1075,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -1136,6 +1149,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
           </div>
 
           <div style={{ marginTop: "10vh" }} className="container media-main">
@@ -1212,6 +1226,7 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
@@ -1285,6 +1300,374 @@ const ImageSliderMulti = () => {
                 </div>
               </div>
             </div>
+
+            <div className="col-md-4">
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img src="../static/images/media/articles/htsyndication.jpg" />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                        target="_blank"
+                      >
+                        Michael Baptist- Rain water harvesting innovator par execellence
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      By BD Narayankar Chikkamagaluru, March 31 -- The situation in Chikkamagluru, regarding severe droughts impacting areca nut, coffee, and spice plantations is indeed alarming...
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="https://www.htsyndication.com/united-news-of-india/article/michael-baptist--rain-water-harvesting-innovator-par-execellence/80395884"
+                            target="_blank"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div>
+          <div className="container media-main">
+            <div className="col-md-4">
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img src="../static/images/media/articles/whoAreWe.jpg" />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="https://www.daijiworld.com/news/newsDisplay.aspx?newsID=481961"
+                        target="_blank"
+                      >
+                        Who we are?<br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      HTDS Content Services is the custom content creation, content acquisition and content redistribution unit of HT Media Ltd., which is one of India's largest media companies, tracing its beginning to 1924 when its flagship newspaper, Hindustan Times, was inaugurated by Mahatma Gandhi.
+
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://www.daijiworld.com/news/newsDisplay.aspx?newsID=481961"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://www.daijiworld.com/news/newsDisplay.aspx?newsID=481961"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://www.daijiworld.com/news/newsDisplay.aspx?newsID=481961"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="https://www.htsyndication.com/pages/who-we-are"
+                            target="_blank"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img src="../static/images/media/articles/timesofindia.webp" />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                        target="_blank"
+                      >
+                        In drought-hit Karnataka, farmer pumps water from own well into dry river
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      Bhuvaneshwar Shidlapur, a farmer in Haveri, Karnataka, selflessly channeled borewell water into Varada river, aiding wildlife. His actions combat severe drought impact, ensuring birds and animals have access to drinking water in the region.
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "https://www.deccanherald.com/opinion/panorama/harvest-rainwater-to-avert-water-crisis-748073.html"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="https://timesofindia.indiatimes.com/city/bengaluru/in-drought-hit-ktaka-farmer-pumps-water-from-own-well-into-dry-river/articleshow/108909726.cms"
+                            target="_blank"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img src="../static/images/media/articles/michaelBaptist.webp" />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="http://www.daijiworld.com/news/newsDisplay.aspx?newsID=235866"
+                        target="_blank"
+                      >
+                        Michael Baptist- Rain water harvesting innovator par execellence
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      Chikkamagaluru, March 31 (UNI) The situation in Chikkamagluru, regarding severe droughts impacting areca nut, coffee, and spice plantations is indeed alarming.
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "http://www.daijiworld.com/news/newsDisplay.aspx?newsID=235866"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "http://www.daijiworld.com/news/newsDisplay.aspx?newsID=235866"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "http://www.daijiworld.com/news/newsDisplay.aspx?newsID=235866"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="https://www.centralchronicle.com/michael-baptist-rain-water-harvesting-innovator-par-execellence/"
+                            target="_blank"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div style={{ marginTop: "10vh" }} className="container media-main">
+            <div className="col-md-4">
+              <div className="sec-brdr">
+                <div className="mdiaimg">
+                  <img src="../static/images/media/articles/everyRaindropCounts.webp" />
+                </div>
+                <div className="mdiacont">
+                  <div className="grndtext">
+                    <h3>
+                      <a
+                        href="http://www.skoch.in/295/farmland-rainwater-harvesting-systems.html"
+                        target="_blank"
+                      >
+                        Every raindrop counts
+
+                        <br />
+                      </a>
+                    </h3>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "#4c3f43",
+                        fontSize: "13px",
+                        fontWeight: "500",
+                        letterSpacing: "0.5px",
+                      }}
+                    >
+                      Though rainwater harvesting is mandatory in Bengaluru, it is a known fact that not many buildings are compliant with this norm.Some of the buildings have the rainwater harvesting system in place just for a formality and the Bangalore Water Supply and Sewerage Board(BWSSB).
+
+                    </p>
+                    <div className="col-md-12 mdiasocial">
+                      <div className="col-md-6 mediasocial">
+                        <FacebookShareButton
+                          url={
+                            "http://www.skoch.in/295/farmland-rainwater-harvesting-systems.html"
+                          }
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={
+                            "http://www.skoch.in/295/farmland-rainwater-harvesting-systems.html"
+                          }
+                        >
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={
+                            "http://www.skoch.in/295/farmland-rainwater-harvesting-systems.html"
+                          }
+                        >
+                          <i className="fa fa-whatsapp" aria-hidden="true" />
+                        </WhatsappShareButton>
+                      </div>
+                      <div className="col-md-6 mediabtn">
+                        <button>
+                          <a
+                            href="https://bangaloremirror.indiatimes.com/bangalore/cover-story/every-raindrop-counts/articleshow/108924009.cms"
+                            target="_blank"
+                          >
+                            Read more
+                          </a>
+                          {"  "}
+                          <i class="fa fa-angle-right" aria-hidden="true" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
       </Carousel>

@@ -1,11 +1,11 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 import {
 	FacebookShareButton,
 	TwitterShareButton,
 	WhatsappShareButton,
 } from "react-share";
 
-const SliderNews3 = ({article2}) => {
+const SliderNews3 = ({ article2 }) => {
 	return (
 		<Fragment>
 			<Fragment>
@@ -156,6 +156,7 @@ const SliderNews3 = ({article2}) => {
 							</div>
 						</div>
 					</div>
+
 					<div className="col-md-4">
 						<div className="sec-brdr">
 							<div className="mdiaimg">
@@ -235,7 +236,7 @@ const SliderNews3 = ({article2}) => {
 					<div className="row margin3ForSlider">
 						<div className="col-md-4">
 							<div
-								style={{float: "left"}}
+								style={{ float: "left" }}
 								className="nextButtons prebutton btn3s"
 							>
 								<button onClick={article2}>
