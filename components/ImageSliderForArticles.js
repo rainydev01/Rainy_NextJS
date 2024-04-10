@@ -1451,7 +1451,7 @@ const ImageSliderMulti = () => {
             <div className="col-md-4">
               <div className="sec-brdr">
                 <div className="mdiaimg">
-                  <img src="../static/images/media/articles/timesofindia.webp" />
+                  <img src="../static/images/media/articles/timesOfIndia.webp" />
                 </div>
                 <div className="mdiacont">
                   <div className="grndtext">
