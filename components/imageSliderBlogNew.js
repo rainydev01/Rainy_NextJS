@@ -33,6 +33,150 @@ const ImageSliderBLogNew = () => {
         	<div style={{ backgroundImage: "url(../static/images/homepage/ddropsbg.png)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "top left", }} >
 
               <div className="container media-main">
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/groundwater_recharge_in_bangalore_inner1.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/groundwater-recharge-in-bangalore" target="_self" >
+										            Groundwater Recharge in Bangalore- Its Significance and Scalability
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Groundwater, which accounts for 30% of the earth’s surface water, requires proper management and conservation considering large-scale aquifer...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-bangalore" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-bangalore" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-bangalore" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/groundwater-recharge-in-bangalore" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/groundwater_recharge_in_kerala_inner1.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/groundwater-recharge-in-kerala" target="_self" >
+										            Different Methods Used for Groundwater Recharge in Kerala
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Groundwater or water beneath the Earth’s surface in the fractures and pores of sediments and rocks sustains life on Earth. It is a major resource for domestic, agricultural...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-kerala" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-kerala" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-kerala" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/groundwater-recharge-in-kerala" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+
+                  <div className="col-md-4" style={{ marginTop: "30px" }}>
+              			<div className="sec-brdr">
+                			<div className="mdiaimg">
+                  				<img src="../static/images/blogs/groundwater_recharge_in_tamil_nadu_inner1.jpg" style={{ height: "196px", }} />
+                			</div>
+                			<div className="mdiacont">
+                  				<div className="grndtext">
+                    				<h3>
+                      					<a href="/about-us/blogs/groundwater-recharge-in-tamil-nadu" target="_self" >
+										            Groundwater Recharge in Tamil Nadu: Advantages of the System
+                        				<br />
+                      					</a>
+                    				</h3>
+                    				
+                            <p style={{ textAlign: "left", color: "#4c3f43", fontSize: "13px", fontWeight: "500", letterSpacing: "0.5px", }} >
+									          Groundwater is of immense importance for human beings, serving as a major source of freshwater and used for industrial and agricultural purposes. Thermal energy from groundwater...
+                            </p>
+
+                    				<div className="col-md-12 mdiasocial">
+                      					<div className="col-md-6 mediasocial">
+                        					<FacebookShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-tamil-nadu" } >
+                          						<i className="fa fa-facebook" aria-hidden="true" />
+                        					</FacebookShareButton>
+
+                        					<TwitterShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-tamil-nadu" } >
+                          						<i className="fa fa-twitter" aria-hidden="true" />
+                        					</TwitterShareButton>
+
+                        					<WhatsappShareButton url={ "https://www.rainyfilters.com/about-us/blogs/groundwater-recharge-in-tamil-nadu" } >
+                          						<i className="fa fa-whatsapp" aria-hidden="true" />
+                        					</WhatsappShareButton>
+                      					</div>
+                      					<div className="col-md-6 mediabtn">
+                        					<button>
+                          						<a href="/about-us/blogs/groundwater-recharge-in-tamil-nadu" target="_self" >
+                            					Read more
+                          						</a>
+                          						{"  "}
+                          						<i class="fa fa-angle-right" aria-hidden="true" />
+                        					</button>
+                      					</div>
+                    				</div>
+                  				</div>
+                			</div>
+              			</div>
+            		  </div>
+              </div>
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -174,8 +318,10 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
               </div>
+          </div>
 
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+          <div>
+              <div className="container media-main">    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -317,10 +463,9 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
               </div>
-          </div>
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
 
-          <div>
-              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -462,9 +607,10 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
               </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+          </div>
 
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -606,11 +752,9 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>              
               </div>
-
-          </div>
-
-          <div>
-              <div className="container media-main">
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+          
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -752,9 +896,10 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
               </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
+          </div>
 
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -896,11 +1041,9 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
               </div>
-
-          </div>
-
-          <div>
-              <div className="container media-main">    
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -1042,9 +1185,10 @@ const ImageSliderBLogNew = () => {
               			</div>
             		  </div>
               </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>
-              
+          </div>
+
+          <div>
+              <div className="container media-main">
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -1186,10 +1330,9 @@ const ImageSliderBLogNew = () => {
                       </div>
                   </div>
               </div>
-          </div>
-
-          <div>
-              <div className="container media-main">    
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }}>
+              
 					        <div className="col-md-4" style={{ marginTop: "30px" }}>
               			<div className="sec-brdr">
                 			<div className="mdiaimg">
@@ -1361,9 +1504,10 @@ const ImageSliderBLogNew = () => {
                     </div>
             		  </div>
               </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }}>  
-              
+          </div>
+
+          <div>
+              <div className="container media-main">    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -1607,11 +1751,9 @@ const ImageSliderBLogNew = () => {
                   </div>
                   </div>
               </div>
-
-          </div>
-
-          <div>
-              <div className="container media-main">      
+          
+              <div className="container media-main" style={{ marginTop: "10vh" }} >
+                
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                   <div className="sec-brdr">
                     <div className="mdiaimg">
@@ -1853,9 +1995,10 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
               </div>
-          
-              <div className="container media-main" style={{ marginTop: "10vh" }} >
-              
+          </div>
+
+          <div>
+              <div className="container media-main">    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -2093,10 +2236,9 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
               </div>
-          </div>
-
-          <div>
-              <div className="container media-main">    
+                                
+              <div className="container media-main" style={{ marginTop: "10vh" }} >
+              
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -2330,8 +2472,10 @@ const ImageSliderBLogNew = () => {
                     </div>
                   </div>
               </div>
-                                
-              <div className="container media-main" style={{ marginTop: "10vh" }} >
+          </div>  
+
+          <div>
+              <div className="container media-main">    
                   <div className="col-md-4" style={{ marginTop: "30px" }}>
                     <div className="sec-brdr">
                       <div className="mdiaimg">
@@ -2491,7 +2635,6 @@ const ImageSliderBLogNew = () => {
                         </div>
                       </div>
                   </div>
-
               </div>
           </div>
               
