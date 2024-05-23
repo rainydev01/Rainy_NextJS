@@ -111,7 +111,7 @@ export default function Rainwater_Collection()
                         <div className="blog-info">
                             <h2>Process of Using Rainwater Harvesting Systems to Collect Water</h2>
                             
-                            <p>The <a href="https://www.rainyfilters.com">https://www.rainyfilters.com”>best rainwater collection system</a> is one that features dual-intensity rainwater harvesting filters that help to collect clean water that can be used to recharge different groundwater sources. Find one at Rainy Filters, a company known for providing scientifically designed and precisely coordinated, all-in-one rainwater harvesting solutions. Here’s the working principle of the best rainwater collection systems:</p>
+                            <p>The <a href="https://www.rainyfilters.com">best rainwater collection system</a> is one that features dual-intensity rainwater harvesting filters that help to collect clean water that can be used to recharge different groundwater sources. Find one at Rainy Filters, a company known for providing scientifically designed and precisely coordinated, all-in-one rainwater harvesting solutions. Here’s the working principle of the best rainwater collection systems:</p>
 
                             
                             <ul style={{ "marginTop": "50px", "listStyleType": "disc" }}>
