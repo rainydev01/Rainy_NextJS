@@ -188,7 +188,7 @@ export default function Rainwater_Harvesting_For_Irrigation()
                             
 
                             <div className="blogImg hero-image enthroimg">
-                                <img src="../../../static/images/blogs/rainwater_harvesting_for_irrigation_inner3.jpg" ></img>
+                                <img src="../../../static/images/blogs/rainwater_harvesting_for_irrigation_inner3.png" ></img>
                             </div>
                         </div>                    
                         
