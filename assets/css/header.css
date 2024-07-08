@@ -71,9 +71,14 @@
     }
 }
 
- .search-num a {
+  .search-num a {
     padding-top: 5px;
     color: #fff;
     padding-bottom: 5px;
     font-size: 15px;
+    padding-left: 0px;
 } 
+.search-num {
+    width: max-content;
+}
+
