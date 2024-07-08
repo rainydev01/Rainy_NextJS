@@ -64,7 +64,16 @@ const Header = () => {
               <span></span>
             </label>
           </div>
-
+                  
+          <style>
+          .search-num a {
+                padding-top: 5px;
+                color: #fff;
+                padding-bottom: 5px;
+                font-size: 15px;
+            } 
+          </style>
+                  
           <header className="header container">
             <a className="navbar-brand" href="/" style={{ padding: "0px" }}>
               <img
