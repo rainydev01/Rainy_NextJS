@@ -77,16 +77,25 @@ export default function Home() {
 
       {isOpenPop && (
         <div style={popupStyle}>
-          <span style={closeButtonStyle} onClick={closePopup}><IoMdClose size={22} /></span>
-          <p style={textdata}>Thanks for writing to us, we will get back to you shortly</p>
+          <span style={closeButtonStyle} onClick={closePopup}>
+            <IoMdClose size={22} />
+          </span>
+          <p style={textdata}>
+            Thanks for writing to us, we will get back to you shortly
+          </p>
         </div>
       )}
 
       {errorPopup && (
         <div style={popupStylerror}>
-          <span style={closeButtonStyle} onClick={closePopuperror}><IoMdClose size={22} /></span>
-          <p style={textdata}>  Oh snap! Something went wrong. Please drop an email at
-            farmland_rhs@yahoo.co.in</p>
+          <span style={closeButtonStyle} onClick={closePopuperror}>
+            <IoMdClose size={22} />
+          </span>
+          <p style={textdata}>
+            {" "}
+            Oh snap! Something went wrong. Please drop an email at
+            farmland_rhs@yahoo.co.in
+          </p>
         </div>
       )}
 
@@ -107,10 +116,7 @@ export default function Home() {
           }}
         />
 
-        <title>
-          Rainyfilters - Rainwater harvesting system in India | Company |
-          Consultants | Services
-        </title>
+        <title>Harvesting System India | Install At Home | Consultants</title>
         <link rel="canonical" href="https://www.rainyfilters.com/" />
         <link
           rel="apple-touch-icon"
@@ -135,7 +141,7 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="Are you looking for a rain water harvesting system in India? We are a rainwater harvesting company that provides rain water harvesting consultants and services. We can help you install a rainwater harvesting system in your home or business. Contact us today for a free consultation."
+          content="Are you looking for a rain water harvesting system in India for installing at home? We are a rainwater harvesting company provides rain water harvesting consultants services."
         />
         <link
           rel="stylesheet"
