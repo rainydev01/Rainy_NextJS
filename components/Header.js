@@ -209,7 +209,7 @@ const Header = () => {
                   ></img>
                 </li>
                 <li className="list-data-num">
-                  <div className="search-num tets">
+                  <div className="search-num test">
                     <MdLocalPhone />
                     <p><a href="tel:+919996664458">+91 99966-64458</a></p>
                   </div>
