@@ -63,17 +63,7 @@ const Header = () => {
             <label htmlFor="menu-toggle" className="menu-icon">
               <span></span>
             </label>
-          </div>
-                  
-          <style>
-          .search-num a {
-                padding-top: 5px;
-                color: #fff;
-                padding-bottom: 5px;
-                font-size: 15px;
-            } 
-          </style>
-                  
+          </div>            
           <header className="header container">
             <a className="navbar-brand" href="/" style={{ padding: "0px" }}>
               <img
