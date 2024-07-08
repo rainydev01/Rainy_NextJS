@@ -70,3 +70,10 @@
         width:50%;
     }
 }
+
+ .search-num a {
+    padding-top: 5px;
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: 15px;
+} 
