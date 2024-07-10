@@ -201,7 +201,7 @@ const Header = () => {
                 <li className="list-data-num">
                   <div className="search-num">
                     <MdLocalPhone />
-                    <p><a href="tel:+919996664458">+91 99966-64458</a></p>
+                    <p><a href="tel:+919996664458">+91 9996664458</a></p>
                   </div>
                 </li>
               </ul>
