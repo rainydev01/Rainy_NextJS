@@ -60,8 +60,6 @@ const textdata = {
 }
 
 export default function Home() {
-
-console.log(location,"loaccac")
   const [isOpenPop, setisOpenPop] = useState(false);
   const [errorPopup, setErrorPopup] = useState(false)
   const closePopup = () => {
@@ -75,8 +73,6 @@ console.log(location,"loaccac")
     setErrorPopup(false);
   }, 3000);
 
-
-  console.log(location,"loaction")
 
 
   return (
