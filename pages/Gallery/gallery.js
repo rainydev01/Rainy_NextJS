@@ -8,6 +8,9 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 export default function Home() {
+
+console.log("this is locatonns")
+
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
   const [selectedView, setSelectedView] = useState(1);

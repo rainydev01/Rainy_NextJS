@@ -62,6 +62,7 @@ const textdata = {
 export default function Home() {
 
 const location = useLocation()
+console.log(location,"loaccac")
   const [isOpenPop, setisOpenPop] = useState(false);
   const [errorPopup, setErrorPopup] = useState(false)
   const closePopup = () => {
