@@ -19,6 +19,8 @@ import Popup from "../components/Popup";
 import { IoMdClose } from "react-icons/io";
 
 
+
+
 const popupStyle = {
   position: 'fixed',
   top: '20px',
@@ -58,6 +60,8 @@ const textdata = {
 }
 
 export default function Home() {
+
+const location = useLocation()
   const [isOpenPop, setisOpenPop] = useState(false);
   const [errorPopup, setErrorPopup] = useState(false)
   const closePopup = () => {
@@ -70,6 +74,10 @@ export default function Home() {
     setisOpenPop(false);
     setErrorPopup(false);
   }, 3000);
+
+
+  console.log(location,"loaction")
+
 
   return (
     <Fragment>
