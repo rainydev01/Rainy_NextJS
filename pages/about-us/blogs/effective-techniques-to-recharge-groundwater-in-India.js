@@ -64,7 +64,7 @@ export default function Effective_Techniques_To_Recharge_Groundwater_In_India()
 	        <meta name="description" content="Explore proven methods to replenish groundwater levels sustainably in India. Start making a positive impact today!"/>
             <meta name="keywords" content="" />
 
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/effective-techniques-to-recharge-groundwater-in-India">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/effective-techniques-to-recharge-groundwater-in-India"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

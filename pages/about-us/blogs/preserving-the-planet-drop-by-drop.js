@@ -63,7 +63,7 @@ export default function Rain_Water_Harvesting_Methods()
             <title>The Importance of Rainwater Harvesting</title>
 	        <meta name="description" content="Discover the significance of rainwater harvesting in preserving our planet at rainyfilters.com. Uncover sustainable solutions, drop by drop."/>
           <meta name="keywords" content="" />
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/preserving-the-planet-drop-by-drop">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/preserving-the-planet-drop-by-drop"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

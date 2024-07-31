@@ -62,7 +62,7 @@ export default function Ground_Water_Harvesting()
 
             <title>Ground Water Harvesting | Rainy</title>
 	        <meta name="description" content="Rainy brings you effective groundwater harvesting techniques. Preserve precious water resources and create a sustainable future with our innovative solutions."/>
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/ground-water-harvesting">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/ground-water-harvesting"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

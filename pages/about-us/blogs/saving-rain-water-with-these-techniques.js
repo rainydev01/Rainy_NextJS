@@ -29,7 +29,7 @@ export default function SavingRainwaterwithTheseTechniques() {
           name="Discover effective techniques to save rainwater with our step-by-step guide. Visit rainyfilters.com for expert tips and products. Save rainwater now!" />
         <meta name="keywords" content="Saving Rainwater, Rooftop Rainwater Harvesting, Stormwater Harvestings" />
 
-        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/saving-rain-water-with-these-techniques">
+        <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/saving-rain-water-with-these-techniques"/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"

@@ -64,7 +64,7 @@ export default function Answering_The_Call_To_Save_Water_Save_Earth()
 	        <meta name="description" content="Dive into our guide on answering the call to save water and save Earth! Discover easy tips and tricks to become a water-saving through rain water harvesting."/>
             <meta name="keywords" content="" />
 
-          <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/answering-the-call-to-save-water-save-earth">
+          <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/answering-the-call-to-save-water-save-earth"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

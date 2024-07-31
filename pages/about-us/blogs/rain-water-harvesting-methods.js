@@ -62,7 +62,7 @@ export default function Rain_Water_Harvesting_Methods()
 
             <title>Rain Water Harvesting Methods | Rainy</title>
 	        <meta name="description" content="Discover efficient rainwater harvesting methods with Rainy. Save water and reduce your environmental impact. Start collecting rainwater today!"/>
-          <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods">
+          <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-methods"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

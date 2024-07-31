@@ -64,7 +64,7 @@ export default function Rainwater_Harvesting_In_Bangalore()
 	        <meta name="description" content="Struggling with water shortage in Bangalore?  Harvest rainwater and become self-sufficient! Our guide explains the benefits, cost, and how to set up a system in your home. Save water, save money, live sustainably!"/>
             <meta name="keywords" content="" />
 
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-in-bangalore">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rainwater-harvesting-in-bangalore"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

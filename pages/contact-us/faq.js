@@ -23,7 +23,7 @@ const faq = () => {
         />
 
         <title>Frequently asked questions</title>
-        <link rel="canonical" href="https://www.rainyfilters.com/contact-us/faq">
+        <link rel="canonical" href="https://www.rainyfilters.com/contact-us/faq"/>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"

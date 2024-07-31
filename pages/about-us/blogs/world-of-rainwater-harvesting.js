@@ -64,7 +64,7 @@ export default function World_of_Rainwater_Harvesting_Introduction()
 	        <meta name="description" content="Rainwater conservation is a crucial practice that helps us make the most of this valuable natural resource while reducing the strain on traditional water sources."/>
             <meta name="keywords" content="Rain Water Conservation Project , Rain Water Conservation Methods" />
 
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/world-of-rainwater-harvesting">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/world-of-rainwater-harvesting"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

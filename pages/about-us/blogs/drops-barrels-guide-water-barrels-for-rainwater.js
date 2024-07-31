@@ -64,7 +64,7 @@ export default function Drops_Barrels_Guide_Water_Barrels_For_Rainwater()
 	        <meta name="description" content="Conserve water with our rainwater barrels. Capture and store rainwater for various household uses. Start saving water today!"/>
             <meta name="keywords" content="" />
 
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/drops-barrels-guide-water-barrels-for-rainwater">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/drops-barrels-guide-water-barrels-for-rainwater"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

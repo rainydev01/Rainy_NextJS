@@ -63,7 +63,7 @@ export default function Rain_Water_Harvesting_Methods()
             <title>Water Should be the Next Important Environmental Target for India</title>
 	        <meta name="description" content="Explore why India must prioritize water as a vital environmental goal. Learn more at Rainyfilters.com for insights on sustainable water management."/>
           <meta name="keywords" content="save water, conserve water, water-saving tips, reduce water usage, water conservation methods, eco-friendly water practices" />
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/water-next-important-environmental-target-india">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/water-next-important-environmental-target-india"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

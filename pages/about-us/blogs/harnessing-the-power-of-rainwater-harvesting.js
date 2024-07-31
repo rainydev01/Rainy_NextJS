@@ -64,7 +64,7 @@ export default function Harnessing_The_Power_Of_Rainwater_Harvesting()
 	        <meta name="description" content=""/>
             <meta name="keywords" content="" />
 
-            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/harnessing-the-power-of-rainwater-harvesting">
+            <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/harnessing-the-power-of-rainwater-harvesting"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />

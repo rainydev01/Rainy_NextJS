@@ -62,7 +62,7 @@ export default function Rain_Water_Harvesting_Drawing()
 
             <title>Rainwater Harvesting Drawing | Rainy</title>
 	        <meta name="description" content="Discover Rainy's comprehensive range of rainwater harvesting drawings. Empower yourself to create greener communities and preserve water resources."/>
-          <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-drawing">
+          <link rel="canonical" href="https://www.rainyfilters.com/about-us/blogs/rain-water-harvesting-drawing"/>
 	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
