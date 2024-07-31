@@ -1,0 +1,230 @@
+.hero-text.enthrotxt.jrny4 {
+    color: #ffffff;
+}
+
+.hero-text button {
+    background: #fff532 !important;
+    border-radius: 25px !important;
+}
+
+.hero-text.enthrotxt.jrny4 {
+    color: #ffffff;
+}
+
+.hero-text.entteamtxt {
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+.hero-text.inthemedia.dealersb {
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+.hero-text.dwnldbnnrtxt {
+    text-align: center !important;
+}
+
+.hero-text.rnyfltrs.gllryb {
+    text-align: center !important;
+    color: #ffffff;
+}
+
+.hero-text.rnyfltrs {
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+.hero-text.inthemedia.contactg {
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    width: 100%;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 5px 20px;
+    color: #302f2f;
+    font-size: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: #000000 !important;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin: 5px 0px !important;
+}
+
+.hero-text p {
+    font-size: 30px;
+    font-weight: 500;
+    color: #514d4d;
+    margin: 10px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-text.inthemedia.contactg {
+        text-align: center !important;
+        color: #ffffff;
+    }
+    .hero-text.rnyfltrs {
+        position: absolute;
+        top: 17% !important;
+        /* left: 28% !important; */
+        width: 100%;
+        padding: 25px;
+        color: #ffffff !important;
+    }
+    .hero-text.rnyfltrs h1 {
+        font-size: 22px !important;
+    }
+    .techcntrbgto h1 {
+        text-align: center !important;
+    }
+    .hero-text.techbnnrtxt h1 {
+        font-size: 25px !important;
+    }
+    .hero-text.entteamtxt h1 {
+        font-size: 22px !important;
+    }
+    .hero-text {
+        text-align: right !important;
+        position: absolute;
+        top: 20% !important;
+        left: 50% !important;
+        width: 100%;
+        padding: 25px;
+    }
+    .hero-text h1 {
+        font-size: 22px !important;
+    }
+    .hero-text p {
+        font-size: 16px !important;
+    }
+    .hero-text button {
+        font-size: 7px !important;
+    }
+    .hero-text.inthemedia h1 {
+        font-size: 22px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-text {
+        position: absolute;
+        top: 16% !important;
+        left: 50% !important;
+        width: 50%;
+        padding: 25px;
+    }
+    .hero-text h1 {
+        font-size: 28px !important;
+    }
+    .hero-text p {
+        font-size: 18px !important;
+        font-family: Visby Round CF Regular;
+    }
+    .hero-text button {
+        font-size: 13px !important;
+    }
+    .hero-text.inthemedia h1 {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (max-width: 1440px) and (max-height: 350px) {
+    .hero-text {
+        text-align: right;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        float: right;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        width: 100%;
+    }
+    .container-fluid.banner.bannrhome .hero-text {
+        text-align: right;
+        position: absolute;
+        top: 45% !important;
+        left: 44% !important;
+        float: right;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (max-height: 400px) {
+    .bannrhome .hero-image .hero-text {
+        position: absolute !important;
+        top: 45% !important;
+        left: 50% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 450px) {
+    .bannrhome .hero-image .hero-text {
+        position: absolute !important;
+        top: 20% !important;
+        left: 50% !important;
+    }
+    .hero-text {
+        position: absolute;
+        top: 16% !important;
+        left: 50% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (max-height: 450px) {
+    .hero-text {
+        position: absolute;
+        top: 50% !important;
+        left: 50% !important;
+        width: 50%;
+        padding: 25px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (max-height: 450px) {
+    .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 55% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1367px) {
+    .hero-text {
+        text-align: right;
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        width: 100%;
+    }
+}

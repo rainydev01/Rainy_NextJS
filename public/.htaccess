@@ -1,0 +1,100 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Existing Redirections
+
+# 1. Redirect /gallery to /Gallery/gallery
+RewriteRule ^gallery$ /Gallery/gallery [L,R=301]
+
+# 2. Redirect /about-us/blogs/rain-water- to /about-us/blogs
+RewriteRule ^about-us/blogs/rain-water-$ /about-us/blogs [L,R=301]
+
+# 3. Redirect /contact-us/videoGallery to /Gallery/videoGallery
+RewriteRule ^contact-us/videoGallery$ /Gallery/videoGallery [L,R=301]
+
+# 4. Redirect /about-us/blogs/rain-water-harve to /about-us/blogs
+RewriteRule ^about-us/blogs/rain-water-harve$ /about-us/blogs [L,R=301]
+
+# 5. Redirect /Rainyfilters to /products/rainy-filters
+RewriteRule ^Rainyfilters$ /products/rainy-filters [L,R=301]
+
+# 6. Redirect /about-us/rainy-rainwater-harvesting-filters to /about-us/our-journey
+RewriteRule ^about-us/rainy-rainwater-harvesting-filters$ /about-us/our-journey [L,R=301]
+
+# 7. Redirect /contact-us/dealers to /contact-us/enquire
+RewriteRule ^contact-us/dealers$ /contact-us/enquire [L,R=301]
+
+# 8. Redirect /inftrees to /products/rainy-filters
+RewriteRule ^inftrees$ /products/rainy-filters [L,R=301]
+
+# 9. Redirect /zlib/inflate to /products/rainy-filters
+RewriteRule ^zlib/inflate$ /products/rainy-filters [L,R=301]
+
+# 10. Redirect /zlib/gzheader to /products/rainy-filters
+RewriteRule ^zlib/gzheader$ /products/rainy-filters [L,R=301]
+
+# New Redirections
+
+# 1. Redirect ${t} to /
+RewriteRule ^${t}$ / [L,R=301]
+
+# 2. Redirect /collections/frontpage to /collections/all
+RewriteRule ^collections/frontpage$ /collections/all [L,R=301]
+
+# 3. Redirect specific blog post to /blogs/blog
+RewriteRule ^blogs/embracing-sustainability-the-art-and-science-of-rainwater-harvesting/nurturing-sustainability-rainwater-harvesting-s-renaissance-in-india$ /blogs/blog [L,R=301]
+
+# 4. Redirect specific blog post to /blogs/blog
+RewriteRule ^blogs/embracing-sustainability-the-art-and-science-of-rainwater-harvesting/harnessing-natures-bounty-a-comprehensive-guide-to-rainwater-harvesting-techniques$ /blogs/blog [L,R=301]
+
+# 5. Redirect /shop/builder/ajax/ecom-proxy/products/ to /shop/
+RewriteRule ^shop/builder/ajax/ecom-proxy/products/$ /shop/ [L,R=301]
+
+# 6. Redirect specific blog post to /blogs/blog
+RewriteRule ^blogs/harnessing-natures-bounty-a-comprehensive-guide-to-rainwater-harvesting-techniques$ /blogs/blog [L,R=301]
+
+# 7. Redirect specific blog to /blogs/blog
+RewriteRule ^blogs/embracing-sustainability-the-art-and-science-of-rainwater-harvesting$ /blogs/blog [L,R=301]
+
+# 8. Redirect specific blog post to /blogs/blog
+RewriteRule ^blogs/embracing-sustainability-the-art-and-science-of-rainwater-harvesting/replenishing-water-the-essential-benefits-of-rainwater-harvesting$ /blogs/blog [L,R=301]
+
+# 9. Redirect /cdn/shop/ to /
+RewriteRule ^cdn/shop/$ / [L,R=301]
+
+# 10. Redirect ${e} to /
+RewriteRule ^${e}$ / [L,R=301]
+
+# 11. Redirect /pages/contact-us-lg to /pages/contact-us
+RewriteRule ^pages/contact-us-lg$ /pages/contact-us [L,R=301]
+
+# 12. Redirect /blog to /blogs/blog
+RewriteRule ^blog$ /blogs/blog [L,R=301]
+
+# 13. Redirect /rain-water-harvesting-filter to specific product page
+RewriteRule ^rain-water-harvesting-filter$ /products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft [L,R=301]
+
+# 14. Redirect /b to /
+RewriteRule ^b$ / [L,R=301]
+
+# 15. Redirect specific product page
+RewriteRule ^products/rainy-fl-80-auto-self-cleaning-rainwater-harvesting-filter-pack-suitable-for-area-upto-130-square-meters$ /products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft [L,R=301]
+
+# 16. Redirect /v1/produce to /
+RewriteRule ^v1/produce$ / [L,R=301]
+
+# 17. Redirect /comments to /
+RewriteRule ^comments$ / [L,R=301]
+
+# 18. Redirect /wpm to /
+RewriteRule ^wpm$ / [L,R=301]
+
+# 19. Redirect specific product page
+RewriteRule ^products/rainy-fl-500-rainwater-harvesting-filter-suitable-for-area-upto-500-square-meters$ /products/rainy-fl-500-rain-water-harvesting-filter-suitable-for-area-upto-5400-square-feet [L,R=301]
+
+# 20. Redirect specific product page
+RewriteRule ^products/rainy-fl-150-rainwater-harvesting-filter-suitable-for-area-upto-190-square-meters$ /products/rainy-fl-150-rain-water-harvesting-filter-suitable-for-area-upto-1900-sq-ft [L,R=301]
+
+# 21. Redirect specific product page
+RewriteRule ^products/rainy-fl-300-rainwater-harvesting-filter-suitable-for-area-upto-352-square-feet$ /products/rainy-fl-300-rain-water-harvesting-filter-suitable-for-area-upto-3800-sqft [L,R=301]

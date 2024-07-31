@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1204px) {
+    .header {
+        display: none;
+    }
+    img.moblogo {
+        display: initial;
+        width: 60px;
+        max-width: 100%;
+        padding: 18px 0px 0px 0px;
+    }
+    .menu-toggle:checked~.header {
+        display: block !important;
+        opacity: 1;
+        transition-delay: 0s;
+    }
+    .navbar-brand>img {
+        float: left;
+        /* width: 171px; */
+        display: none !important;
+    }
+    .header li {
+        border-bottom: 1px solid #eee;
+        color: #505050;
+        font-weight: 430;
+        line-height: 2.2;
+        font-size: 24px;
+        letter-spacing: 0px;
+        font-weight: 400;
+    }
+    .header a {
+        display: block;
+        padding: 14px;
+        transition: background-color 300ms ease-in;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        color: #4c3f43;
+        font-family: Visby Round CF Regular;
+    }
+    .dropdown-menu.dropdown-menu-tip-nw.show a {
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #fff;
+        opacity: 0.8;
+        padding: 10px 25px;
+        margin: 0px !important;
+    }
+    a.diffcolormenu {
+        background-color: #fff;
+    }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 1204px) {
+    .header li {
+        border-bottom: 1px solid #eee;
+        color: #505050;
+        font-weight: 430;
+        line-height: 0.7;
+        font-size: 24px;
+        letter-spacing: 0px;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 767px) 
+{
+    .sec-brdr{
+        height:auto !important;
+    }
+    .mdiacont .col-md-6{
+        width:50%;
+    }
+}
+
+  .search-num a {
+    padding-top: 5px;
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: 15px;
+    padding-left: 0px !important;
+} 
+.search-num {
+    width: max-content;
+}
+

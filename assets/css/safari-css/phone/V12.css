@@ -1,0 +1,52 @@
+@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    @media only screen and (max-width: 600px) {
+        .test {
+            top: 0;
+            width: 100%;
+            position: fixed;
+            background: #fff;
+            height: 2px;
+        }
+        .menu-toggle:checked~.header {
+            max-width: 100%!important;
+        }
+    }
+    
+    @media only screen and (max-width: 667px) {
+        .test {
+            top: 0;
+            width: 100%;
+            position: fixed;
+            background-color: none;
+            height: 20px!important;
+        }
+        header.header.container a.navbar-brand img {
+            display: none!important;
+        }
+        .menu-toggle:checked~.header {
+            max-width: 100%!important;
+        }
+        .header a {
+            display: block;
+            padding: 5px;
+            transition: background-color .3s ease-in;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: .4px;
+            color: #4c3f43;
+            font-family: Visby Round CF Regular;
+        }
+        img.moblogo {
+            display: block!important;
+            width: 61px!important;
+            padding-top: 10px!important;
+        }
+        label.menu-icon {
+            margin-top: -55px!important;
+        }
+        .header a {
+            display: block;
+            padding: 5px!important;
+        }
+    }
+} }
