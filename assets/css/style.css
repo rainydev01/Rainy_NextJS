@@ -2300,3 +2300,61 @@ p {
         margin: 0 auto;
     }
 }
+
+.client-popup {
+    position: "fixed";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: "rgba(0, 0, 0, 0.7)";
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    z-Index: 1000;
+}
+
+@media (min-width: 1440px) {
+    .client-popup{
+        background-color: transparent; /* Fully transparent background */
+        display: flex; /* Ensure flex layout for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding-left: 100px; /* Remove any padding if applied */
+        padding-top: 50px;
+        padding-right: 100px;
+    }
+}
+@media (min-width: 1024px) {
+    .client-popup{
+        background-color: transparent; /* Fully transparent background */
+        display: flex; /* Ensure flex layout for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding-left: 100px; /* Remove any padding if applied */
+        padding-top: 50px;
+        padding-right: 100px;
+    }
+}
+
+.yellowbtn button {
+    margin: 5px 15px !important;
+    width: 140px;
+    height: 60px;
+}
+
+@media (max-width:399px){
+.yellowbtn button {
+    margin: 5px 10px !important;
+    width: 100px;
+    height: 40px;
+}
+}
+
+@media (max-width:380px){
+    .yellowbtn button {
+        margin: 5px 5px !important;
+        width: 75px;
+        height: 30px;
+    }
+}

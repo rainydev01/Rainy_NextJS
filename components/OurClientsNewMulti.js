@@ -72,7 +72,7 @@ const ImageSliderMultiClients = () => {
 
       {/* Popup Component */}
       {showPopup && (
-        <div
+        <div className="client-popup"
           style={{
             position: "fixed",
             top: 0,
