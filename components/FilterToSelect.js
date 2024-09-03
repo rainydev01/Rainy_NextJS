@@ -70,17 +70,17 @@ const FilterToSelect = () => {
       //180 to 250
       setShowButton(true);
     }
-    if (inputValue > 2691 && inputValue <= 3629) {
-      //250-350
+    if (inputValue > 2691 && inputValue <= 4036) {
+      //250-375
       setButonValue({
-        name: "FL-300",
+        name: "FL-350",
         url: "products/rainy-filters",
       });
 
       setShowButton(true);
     }
 
-    if (inputValue > 3629 && inputValue <= 5184) {
+    if (inputValue > 4036 && inputValue <= 5184) {
       //350-500
       setButonValue({
         name: "FL-500",

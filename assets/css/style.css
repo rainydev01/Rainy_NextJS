@@ -756,6 +756,8 @@ img {
 
     .yellowbtn button {
         margin: 5px 15px !important;
+        width: 140px;
+        height: 60px;
     }
 
     .sssprt h1 {

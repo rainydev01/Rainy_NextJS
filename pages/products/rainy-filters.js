@@ -463,7 +463,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                             <button
                               data-toggle="modal"
                               data-target="#fl100Dimension"
-                            >
+                              style={{width: "140px", height:"55px"}}>
                               Overall <br></br> Dimension
                             </button>
                           </div>
@@ -487,9 +487,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                               }}
                               href="/contact-us/enquire"
                             >
-                              <button>
-                                Enquire <br /> Now
-                              </button>
+                              <button> Enquire <br /> Now </button>
                             </a>
                           </div>
                         </div>
@@ -503,10 +501,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                               target="_blank"
                               href="https://www.rainyfilters.shop/products/rainy-fl-150-rain-water-harvesting-filter-suitable-for-area-upto-1900-sq-ft"
                             >
-                              <button>
-                                Buy <br />
-                                Online
-                              </button>
+                              <button> Buy <br /> Online </button>
                             </a>
                           </div>
                         </div>
@@ -520,10 +515,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                               target="_blank"
                               href="https://amzn.eu/d/9CsFRjN"
                             >
-                              <button >
-                                Buy on<br />
-                                Amazon
-                              </button>
+                              <button> Buy on<br /> Amazon </button>
                             </a>
                           </div>
                         </div>
@@ -733,7 +725,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                           <div className="yellowbtn mt-1">
                             <button
                               data-toggle="modal"
-                              data-target="#fl250Dimension"
+                              data-target="#fl200Dimension"
                             >
                               Overall <br></br> Dimension
                             </button>
@@ -831,8 +823,8 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title" id="exampleModalLongTitle">
-                    FL-200 - Overall Dimension
+                <h5 className="modal-title" id="exampleModalLongTitle">
+                    FL-250 - Overall Dimension
                   </h5>
                   <button
                     type="button"
@@ -845,9 +837,9 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                 </div>
                 <div className="modal-body">
                   <img
-                    src="../../static/images/filters/FL_200-min.png"
+                    src="../../static/images/filters/FL_250.jpeg"
                     className="img-fluid"
-                    alt="FL-200"
+                    alt="FL-250"
                   />
                 </div>
                 <div className="modal-footer">
@@ -874,7 +866,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title" id="exampleModalLongTitle">
-                    FL-200 - On Site Installation
+                    FL-250 - On Site Installation
                   </h5>
                   <button
                     type="button"
@@ -903,7 +895,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
             <div className="container">
               <div className="row m-0">
                 <div className="">
-                  <h2 className="fl80">FL-300</h2>
+                  <h2 className="fl80">FL-350</h2>
                   <p
                     style={{
                       textAlign: "center",
@@ -913,8 +905,8 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                     }}
                   >
                     This open ended filter has auto flush out feature enabling
-                    self cleaning with unique working principle. FL-300 is
-                    suitable for 225 to 350 sq.m rooftop area.
+                    self cleaning with unique working principle. FL-350 is
+                    suitable for 225 to 375 sq.m rooftop area.
                   </p>
                 </div>
                 <div className="col-md-8">
@@ -925,7 +917,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                           <td style={{ width: "40%" }} className="borderRight">
                             Suitable for Area
                           </td>
-                          <td> Upto 350 SQMTRS</td>
+                          <td> Upto 375 SQMTRS</td>
                         </tr>
 
                         <tr>
@@ -948,7 +940,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                           <td className="borderRight">
                             Max Discharge at (CWO)
                           </td>
-                          <td>340 Liters per minute</td>
+                          <td>360 Liters per minute</td>
                         </tr>
                         <tr>
                           <td className="borderRight">Filter Element</td>
@@ -1076,7 +1068,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
 
                 <div className="col-md-4">
                   <div className="rainyfilterimg">
-                    <img src="../../static/images/products/FL_300-min.png" alt="rain water harvesting images" />
+                    <img src="../../static/images/products/FL_350-min1.png" alt="rain water harvesting images"/>
                   </div>
                 </div>
               </div>
@@ -1097,7 +1089,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title" id="exampleModalLongTitle">
-                    FL-300 - Overall Dimension
+                    FL-350 - Overall Dimension
                   </h5>
                   <button
                     type="button"
@@ -1110,9 +1102,9 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                 </div>
                 <div className="modal-body">
                   <img
-                    src="../../static/images/filters/fl-300.png"
+                    src="../../static/images/filters/FL_350.jpeg"
                     className="img-fluid"
-                    alt="FL-300"
+                    alt="FL-350"
                   />
                 </div>
                 <div className="modal-footer">
@@ -1139,7 +1131,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title" id="exampleModalLongTitle">
-                    FL-300 - On Site Installation
+                    FL-350 - On Site Installation
                   </h5>
                   <button
                     type="button"
@@ -1446,6 +1438,16 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
           <Footer />
         </div>
       </main>
+
+    <div className="hero-image">
+      <a className="whatsapp-img" 
+  href="https://wa.me/919996664458"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="../static/images/homepage/whatsapp.png" alt="whatsapp"/>
+</a>
+</div>
 
       <footer />
     </Fragment>

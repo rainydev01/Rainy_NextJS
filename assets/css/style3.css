@@ -1196,10 +1196,12 @@ span.mb-span {
 .yellowbtn button {
     border: 1px solid#fff532;
     background: #fff532;
-    padding: 3px 30px;
+    padding: 3px 10px;
     color: #000;
     margin: 0px 15px;
     border-radius: 30px;
+    width: 140px;
+    height: 60px;
 }
 
 @media only screen and (max-width: 425px) {
@@ -1464,7 +1466,7 @@ div#goog-gt-tt {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1495,5 +1497,8 @@ div#goog-gt-tt {
         color: #000;
         margin: 5px 0px !important;
         border-radius: 30px;
+        width: 141px;
+        height: 60px;
     }
 }
+
