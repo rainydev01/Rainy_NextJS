@@ -100,10 +100,10 @@ export default function Water_Conservation_Systems_Usa()
                             With 2.2 million people in the USA lacking safe drinking water, it’s time to start making use of best water conservation systems USA. This involves saving usable fresh water to continue living on this planet while managing everyday tasks, like cleaning, cooking and bathing conveniently. At Rainy Filters, we do this efficiently by providing systems and components for rainwater harvesting, one of the best ways to conserve water. Keep reading to know more about this technology.
                             </p>
 
-                            <div className="blogImg hero-image enthroimg">
+                            {/* <div className="blogImg hero-image enthroimg">
                                 <img src="../../../static/images/blogs/water_conservation_systems_usa_inner1.png" ></img>
                             </div>
-                                                        
+                                                         */}
                         </div>
 
                         <div className="blog-info">
