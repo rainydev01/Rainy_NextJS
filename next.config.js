@@ -3,7 +3,7 @@ const nextConfig = {
   async redirects() {
     return [
       // Existing Redirections
-      { source: 'https://rainyfilters.com', destination: 'https://www.rainyfilters.com/', permanent: true},
+      { source: 'https://rainyfilters.com/:path*', destination: 'https://www.rainyfilters.com/:path*', permanent: true },
       { source: '/gallery', destination: '/Gallery/gallery', permanent: true },
       { source: '/about-us/blogs/rain-water-', destination: '/about-us/blogs', permanent: true },
       { source: '/contact-us/videoGallery', destination: '/Gallery/videoGallery', permanent: true },
