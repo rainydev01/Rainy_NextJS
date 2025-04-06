@@ -556,11 +556,13 @@ p {
 .list-data-num {
   position: relative;
   width: 112px;
+  transform: translateY(30px);
 }
 
 @media (max-width: 1200px) {
   .list-data-num {
     width: 100%;
+    transform: translateY(-5px);
   }
 
   .search-num {

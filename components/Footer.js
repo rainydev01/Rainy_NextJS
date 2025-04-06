@@ -1,3 +1,5 @@
+import { faFacebook, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Fragment, useEffect } from "react";
 
 const Footer = () => {
@@ -93,13 +95,13 @@ const Footer = () => {
                     href="https://www.instagram.com/rainy_filters02/"
                     target="_blank"
                   >
-                    <i className="fa fa-instagram" aria-hidden="true" />
+                    <i aria-hidden="true" ><FontAwesomeIcon icon={faInstagram} /></i>
                   </a>
                   <a
                     href="https://www.facebook.com/Rainyfilters2002"
                     target="_blank"
                   >
-                    <i className="fa fa-facebook-official" aria-hidden="true" />
+                    <i aria-hidden="true"><FontAwesomeIcon icon={faFacebook} /></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/company/rainy"
@@ -115,7 +117,7 @@ const Footer = () => {
                   </a>
 
                   <a href="https://twitter.com/rainy_filters02" target="_blank">
-                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                    <i aria-hidden="true"><FontAwesomeIcon icon={faXTwitter} /></i>
                   </a>
                 </p>
 

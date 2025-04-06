@@ -211,7 +211,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
 					</button> */}
 
           <div
-            class="modal fade"
+            className="modal fade"
             id="exampleModalCenter"
             tabindex="-1"
             role="dialog"
@@ -1443,6 +1443,14 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       </main>
 
       <div className="hero-image">
+
+        <a className="phone-img"
+        href={`tel: ${+919996664458}`}
+        rel="nooperner noreferrer">
+          <img src="../static/images/phone.png" />
+        </a>
+
+
       <a className="whatsapp-img" 
   href="https://wa.me/919996664458"
   target="_blank"

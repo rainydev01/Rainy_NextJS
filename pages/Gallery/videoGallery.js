@@ -157,6 +157,9 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       </main>
 
       <div className="hero-image">
+
+      <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
+
       <a className="whatsapp-img" 
   href="https://wa.me/919996664458"
   target="_blank"

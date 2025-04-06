@@ -20,6 +20,7 @@ const Banner = () => {
 							<a href="https://shop.rainyfilters.com/">Shop Now <BsCart /></a>
 						</button>
 						<a href="https://wa.me/919996664458" target='_blanck' className='whatsapp-img'><img src='../static/images/homepage/whatsapp.png' alt="whatsapp" /></a>
+						<a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
 						{/* <div className='hero-text'>
 							<h1 style={{color: 'white'}}>RAINWATER HARVESTING</h1>
 							<p style={{color: 'white'}}>
