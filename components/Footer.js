@@ -1,7 +1,4 @@
 import React, { Fragment, useEffect } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faX } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   useEffect(() => {
@@ -96,29 +93,29 @@ const Footer = () => {
                     href="https://www.instagram.com/rainy_filters02/"
                     target="_blank"
                   >
-                    <i><FontAwesomeIcon icon={faInstagram} aria-hidden='true' /> </i>
+                    <i className="fa fa-instagram" aria-hidden="true" />
                   </a>
                   <a
                     href="https://www.facebook.com/Rainyfilters2002"
                     target="_blank"
                   >
-                    <i><FontAwesomeIcon icon={faFacebook} aria-hidden="true" /></i>
+                    <i className="fa fa-facebook-official" aria-hidden="true" />
                   </a>
                   <a
                     href="https://www.linkedin.com/company/rainy"
                     target="_blank"
                   >
-                    <i> <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" /> </i>
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
                   </a>
                   <a
                     href="https://www.youtube.com/@rainyfilters1223"
                     target="_blank"
                   >
-                    <i><FontAwesomeIcon icon={faYoutube} aria-hidden='true' /> </i>
+                    <i className="fa fa-youtube-play" aria-hidden="true"></i>
                   </a>
 
                   <a href="https://twitter.com/rainy_filters02" target="_blank">
-                    <i><FontAwesomeIcon icon={faXTwitter} aria-hidden="true" /></i> 
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
                   </a>
                 </p>
 

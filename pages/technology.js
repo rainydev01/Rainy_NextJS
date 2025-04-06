@@ -197,7 +197,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                         data-target="#exampleModalCenter"
                       >
                         Read More{" "}
-                        <i class="fa fa-angle-right" aria-hidden="true" />
+                        <i className="fa fa-angle-right" aria-hidden="true" />
                       </button>
                     </div>
                   </div>

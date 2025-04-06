@@ -25,7 +25,7 @@ const AboutUs = () => {
 								rainwater harvesting systems including patented products and
 								ongoing R&D.
 							</p>
-							<p className="bullet" style={{fontSize: 16}}>
+							<div className="bullet" style={{fontSize: 16}}>
 								<ul className="bullet">
 									<li className="bullet">
 										&#9679; Our mission statement is to conserve every drop of
@@ -52,7 +52,7 @@ const AboutUs = () => {
 										always available to solve every query.
 									</li>
 								</ul>
-							</p>
+							</div>
 						</div>
 					</div>
 				</div>

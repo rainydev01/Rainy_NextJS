@@ -75,9 +75,9 @@ const Header = () => {
             <nav>
               <ul>
                 <li>
-                  <a href="/">
-                    <a>Home</a>
-                  </a>
+                  
+                    <a href="/">Home</a>
+                  
                 </li>
                 <li>
                   <a
@@ -157,9 +157,7 @@ const Header = () => {
                   {/* <a href="/gallery"> Gallery</a> */}
                 </li>
                 <li>
-                  <a href="/Careers/careers">
-                    <a>Careers</a>
-                  </a>
+                    <a href="/Careers/careers">Careers</a>
                 </li>
                 <li>
                   <a
