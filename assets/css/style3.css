@@ -976,14 +976,21 @@ h5.mb-0 a {
     margin-top: -15px !important;
 }
 
+.techaccrdn h5.mb-0 a:not(.collapsed):after {
+    transform: rotate(180deg);
+}
+
+.techaccrdn h5.mb-0 a.collapsed:after {
+    transform: rotate(0deg);
+}
+
 .downloadsec h5.mb-0 a:after {
     content: "\f107";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     float: right;
     size: 0.75em;
-    top: 50%;
-    transform: translateY(-50%);
+    transition: transform 0.3s ease;
 }
 
 span.mb-span {

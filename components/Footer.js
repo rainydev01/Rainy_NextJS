@@ -1,4 +1,7 @@
 import React, { Fragment, useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faX } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   useEffect(() => {
@@ -93,29 +96,29 @@ const Footer = () => {
                     href="https://www.instagram.com/rainy_filters02/"
                     target="_blank"
                   >
-                    <i className="fa fa-instagram" aria-hidden="true" />
+                    <i><FontAwesomeIcon icon={faInstagram} aria-hidden='true' /> </i>
                   </a>
                   <a
                     href="https://www.facebook.com/Rainyfilters2002"
                     target="_blank"
                   >
-                    <i className="fa fa-facebook-official" aria-hidden="true" />
+                    <i><FontAwesomeIcon icon={faFacebook} aria-hidden="true" /></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/company/rainy"
                     target="_blank"
                   >
-                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    <i> <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" /> </i>
                   </a>
                   <a
                     href="https://www.youtube.com/@rainyfilters1223"
                     target="_blank"
                   >
-                    <i className="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i><FontAwesomeIcon icon={faYoutube} aria-hidden='true' /> </i>
                   </a>
 
                   <a href="https://twitter.com/rainy_filters02" target="_blank">
-                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                    <i><FontAwesomeIcon icon={faXTwitter} aria-hidden="true" /></i> 
                   </a>
                 </p>
 
@@ -134,7 +137,7 @@ const Footer = () => {
                 <div>
                   <button>
                     {" "}
-                    <a href="https://www.rainyfilters.shop/">Shop Now</a>{" "}
+                    <a href="https://shop.rainyfilters.com/">Shop Now</a>{" "}
                   </button>
                 </div>
 
@@ -697,12 +700,12 @@ const Footer = () => {
                     <strong>Shipment Confirmation and order tracking</strong>
                     <p>You will receive a shipment confirmation email with your tracking number once your order has shipped. The tracking number will be active within 24 hours.</p>
                     <strong>Customs, Duties, and Taxes</strong>
-                    <p><a href="https://www.rainyfilters.shop/">https://www.rainyfilters.shop/</a> is not responsible for any customs and taxes applied to your order. All fees imposed during or after shipping are the customer’s responsibility (including tariffs, taxes, and other costs).</p>
+                    <p><a href="https://shop.rainyfilters.com/">https://shop.rainyfilters.com</a> is not responsible for any customs and taxes applied to your order. All fees imposed during or after shipping are the customer’s responsibility (including tariffs, taxes, and other costs).</p>
                     <strong>Damages</strong>
-                    <p><a href="https://www.rainyfilters.shop/">https://www.rainyfilters.shop/</a> is not liable for any products damaged or lost during shipping. If you received your order damaged, please file a claim with the shipment carrier. Save all packaging materials and damaged goods before filing a claim.</p>
+                    <p><a href="https://shop.rainyfilters.com/">https://shop.rainyfilters.com</a> is not liable for any products damaged or lost during shipping. If you received your order damaged, please file a claim with the shipment carrier. Save all packaging materials and damaged goods before filing a claim.</p>
                     <strong>Incorrect Shipping Addresses and Refused Delivery</strong>
                     <p>We make every attempt to validate the shipping address provided at checkout to ensure it’s recognized as a valid address by the USPS. If we cannot validate the address, we will try to contact the customer to provide an updated address. If we cannot update the address, the order will be canceled and refunded.</p>
-                    <p><a href="https://www.rainyfilters.shop/">https://www.rainyfilters.shop/</a> will not be held responsible if the customer provides the wrong shipping address and we cannot recover the package.</p>
+                    <p><a href="https://shop.rainyfilters.com/">https://shop.rainyfilters.com</a> will not be held responsible if the customer provides the wrong shipping address and we cannot recover the package.</p>
                     <strong>Exchange policy:</strong>
                     <p>We only accept the exchanges only under the following conditions.</p>
                     <p>

@@ -17,7 +17,7 @@ const Banner = () => {
 							</a>
 						</Link>
 						<button className="btn-shopnow-yellow">
-							<a href="https://www.rainyfilters.shop/">Shop Now <BsCart /></a>
+							<a href="https://shop.rainyfilters.com/">Shop Now <BsCart /></a>
 						</button>
 						<a href="https://wa.me/919996664458" target='_blanck' className='whatsapp-img'><img src='../static/images/homepage/whatsapp.png' alt="whatsapp" /></a>
 						{/* <div className='hero-text'>

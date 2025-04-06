@@ -241,7 +241,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href=" https://www.rainyfilters.shop/products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft"
+                              href="https://shop.rainyfilters.com/products/rainy-fl-80-auto-self-cleaning-rainwater-harvesting-filter-pack-suitable-for-area-upto-1300-square-feet"
                             >
                               <button >
                                 Buy <br />
@@ -499,7 +499,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://www.rainyfilters.shop/products/rainy-fl-150-rain-water-harvesting-filter-suitable-for-area-upto-1900-sq-ft"
+                              href="https://shop.rainyfilters.com/products/rainy-fl-150-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-1900-square-feet"
                             >
                               <button> Buy <br /> Online </button>
                             </a>
@@ -764,7 +764,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://www.rainyfilters.shop/products/rainy-fl-250-rain-water-harvesting-filters-suitable-for-area-upto-2700-sq-ft"
+                              href="https://shop.rainyfilters.com/products/rainy-fl-250-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-2700-square-feet"
                             >
                               <button>
                                 Buy <br />
@@ -1023,7 +1023,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://www.rainyfilters.shop/products/rainy-fl-300-rain-water-harvesting-filter-suitable-for-area-upto-3800-sqft"
+                              href="https://shop.rainyfilters.com/products/rainy-fl-350-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-3800-square-feet"
                             >
                               <button>
                                 Buy <br />
@@ -1294,7 +1294,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                 fontSize: 16,
                               }}
                               target="_blank"
-                              href="https://www.rainyfilters.shop/products/rainy-fl-500-rain-water-harvesting-filter-suitable-for-area-upto-5400-square-feet"
+                              href="https://shop.rainyfilters.com/products/rainy-fl-500-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-5400-square-feet"
                             >
                               <button>
                                 Buy <br />

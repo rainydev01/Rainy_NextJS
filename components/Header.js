@@ -185,7 +185,7 @@ const Header = () => {
                   </div>
                 </li>
                 <li >
-                  <a href="https://www.rainyfilters.shop/" className="btn-shop">
+                  <a href="https://shop.rainyfilters.com/" className="btn-shop">
                     Shop Now<BsCart />
                   </a>
                 </li>

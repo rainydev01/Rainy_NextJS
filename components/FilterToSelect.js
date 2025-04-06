@@ -37,7 +37,7 @@ const FilterToSelect = () => {
     if (inputValue === null) {
       setButonValue({
         name: "FL-80",
-        url: "https://www.rainyfilters.shop/products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft",
+        url: "https://shop.rainyfilters.com/products/rainy-fl-80-auto-self-cleaning-rainwater-harvesting-filter-pack-suitable-for-area-upto-1300-square-feet",
       });
 
       setShowButton(true);
@@ -46,7 +46,7 @@ const FilterToSelect = () => {
       //120
       setButonValue({
         name: "FL-80",
-        url: "https://www.rainyfilters.shop/products/rainy-fl-80-rain-water-harvesting-filter-suitable-for-area-upto-1300-sq-ft",
+        url: "https://shop.rainyfilters.com/products/rainy-fl-80-auto-self-cleaning-rainwater-harvesting-filter-pack-suitable-for-area-upto-1300-square-feet",
       });
 
       setShowButton(true);
@@ -56,7 +56,7 @@ const FilterToSelect = () => {
       //120 - 180
       setButonValue({
         name: "FL-150",
-        url: "products/rainy-filters",
+        url: "https://shop.rainyfilters.com/products/rainy-fl-150-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-1900-square-feet",
       });
 
       setShowButton(true);
@@ -65,7 +65,7 @@ const FilterToSelect = () => {
       //180 - 250
       setButonValue({
         name: "FL-250",
-        url: "products/rainy-filters",
+        url: "https://shop.rainyfilters.com/products/rainy-fl-250-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-2700-square-feet",
       });
       //180 to 250
       setShowButton(true);
@@ -74,7 +74,7 @@ const FilterToSelect = () => {
       //250-375
       setButonValue({
         name: "FL-350",
-        url: "products/rainy-filters",
+        url: "https://shop.rainyfilters.com/products/rainy-fl-350-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-3800-square-feet",
       });
 
       setShowButton(true);
@@ -84,7 +84,7 @@ const FilterToSelect = () => {
       //350-500
       setButonValue({
         name: "FL-500",
-        url: "products/rainy-filters",
+        url: "https://shop.rainyfilters.com/products/rainy-fl-500-auto-self-cleaning-rainwater-harvesting-filter-suitable-for-area-upto-5400-square-feet",
       });
 
       setShowButton(true);

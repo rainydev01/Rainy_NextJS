@@ -93,7 +93,7 @@ const RWHFilters = () => {
 					</div>
 					<div className='shop-btn-new'>
 						<button className="btn-shopnow">
-							<a href="https://www.rainyfilters.shop/">Shop Now <BsCart /></a>
+							<a href="https://shop.rainyfilters.com/">Shop Now <BsCart /></a>
 						</button>
 					</div>
 				</div>

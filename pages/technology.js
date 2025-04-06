@@ -141,7 +141,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                 <div className="col-md-7">
                   <div className="techpointslst">
                     <ul>
-                      <li>
+                      <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                         <img
                           style={{
                             height: 25,
@@ -163,7 +163,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
 												Rainwater is one of the purest source of water with
 												less then 50mg/ litre of total Dissolved Solids (TDS).
 											</li> */}
-                      <li>
+                      <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                         <img
                           style={{
                             height: 25,
@@ -176,7 +176,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                         Minimalistic, easy-to-install and easy to maintain
                         Products
                       </li>
-                      <li>
+                      <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                         <img
                           style={{
                             height: 25,
@@ -235,7 +235,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                 </div>
                 <div class="modal-body">
                   <ul>
-                    <li style={{ fontSize: 14 }}>
+                    <li style={{ fontSize: 14, display: 'flex', flexDirection: 'spacebetween' }}>
                       <img
                         style={{ height: 25, width: "auto", paddingRight: 15 }}
                         src="../static/images/elements/Path262.png"
@@ -245,7 +245,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                       overexploitation of groundwater by establishing water
                       neutrality.
                     </li>
-                    <li style={{ fontSize: 14 }}>
+                    <li style={{ fontSize: 14, display: 'flex', flexDirection: 'spacebetween' }}>
                       <img
                         style={{ height: 25, width: "auto", paddingRight: 15 }}
                         src="../static/images/elements/Path262.png"
@@ -255,7 +255,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                       experience in the RWH industry enabling cutting edge
                       innovation of RWH solutions
                     </li>
-                    <li style={{ fontSize: 14 }}>
+                    <li style={{ fontSize: 14, display: 'flex', flexDirection: 'spacebetween' }}>
                       <img
                         style={{ height: 25, width: "auto", paddingRight: 15 }}
                         src="../static/images/elements/Path262.png"
@@ -264,7 +264,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                       A state of the art R&D facility for continuous innovation
                       and ongoing training of our qualified staff
                     </li>
-                    <li style={{ fontSize: 14 }}>
+                    <li style={{ fontSize: 14, display: 'flex', flexDirection: 'spacebetween' }}>
                       <img
                         style={{ height: 25, width: "auto", paddingRight: 15 }}
                         src="../static/images/elements/Path262.png"
@@ -305,6 +305,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                       <div className="card-header" id="heading-1">
                         <h5 className="mb-0 mb0diff">
                           <a
+                          className="collapsed"
                             role="button"
                             data-toggle="collapse"
                             href="#collapse-11"
@@ -464,7 +465,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                             <div className="col-md-12">
                               <div className="techpointslst">
                                 <ul>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -477,7 +478,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Dual Intensity Filters works on the
                                     principle of Cohesive & Centrifugal force.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -490,7 +491,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     The open drain design does not allow
                                     stagnation of water and dirt particles.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -503,7 +504,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Works on Gravitation force (No external
                                     energy required).
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -515,7 +516,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     Cost effective and affordable.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -527,7 +528,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     Compact in size and wall mounted.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -539,7 +540,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     Inbuilt self-cleaning mechanism.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -551,7 +552,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     Automatic flush out of dirt and debris.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -563,7 +564,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     No consumables required.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -575,7 +576,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     Flexibility in pipe connection to any angle.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -588,7 +589,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Tough UV stabilized high density
                                     polyethylene housing.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -601,7 +602,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Filter Element SS-304 Multi-Surface Screen
                                     food grade.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -614,7 +615,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     All the material used are food grade and
                                     recyclable.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -628,7 +629,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     360 Degrees allowing it to suit the given
                                     site conditions.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -641,7 +642,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Simple in connection, which any local
                                     plumber can easily install.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -654,7 +655,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     The filter efficiency remains unchanged even
                                     with the variation of intensity of rainfall.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -668,7 +669,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     there is no wear & tear of the filter
                                     allowing for long life span.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -683,7 +684,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     pumping of water from distant places &
                                     depths).
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -714,7 +715,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                       <div className="card-header" id="heading-3">
                         <h5 className="mb-0 mb0diff">
                           <a
-                            // className="collapsed"
+                            className="collapsed"
                             role="button"
                             data-toggle="collapse"
                             href="#collapse-13"
@@ -739,7 +740,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                             <div className="col-md-12">
                               <div className="techpointslst">
                                 <ul>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -755,7 +756,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     met. Thereby a considerable amount on the
                                     water and power bill can be saved.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -768,7 +769,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Dependency on water tankers, groundwater and
                                     corporation water can also be much reduced
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -781,7 +782,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     All materials used in this Technology are
                                     eco-friendly and recyclable
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -793,7 +794,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     Reduces significant carbon foot print
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -807,7 +808,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Principle and reduces the pumping of water
                                     from distant places & depths
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -820,7 +821,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Checks overexploitation of groundwater
                                     source.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -832,7 +833,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     />
                                     Prevents water logging in low lying areas.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1087,6 +1088,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                       <div className="card-header" id="heading-1">
                         <h5 className="mb-0 mb0diff">
                           <a
+                          className="collapsed"
                             role="button"
                             data-toggle="collapse"
                             href="#collapse-21"
@@ -1116,7 +1118,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                             <div className="col-md-12">
                               <div className="techpointslst">
                                 <ul>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1137,7 +1139,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     overall efficiency of the tube well to be
                                     improved.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1158,7 +1160,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     maintenance and increasing the life of the
                                     product.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1175,7 +1177,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     results in the screen having a long
                                     endurance with no maintenance.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1229,7 +1231,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                               <div className="techpointslst">
                                 Technology Benefits:
                                 <ul>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1245,7 +1247,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     groundwater table has significantly
                                     improved.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1261,7 +1263,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     feet below ground level being recharged to
                                     half their levels (450 to 500 feet).
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1274,7 +1276,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Reduces hardness , salinity and TDS contents
                                     in the groundwater sources.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1290,7 +1292,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     depths and movement of water through
                                     tankers.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1309,7 +1311,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                 </ul>
                                 Environmental Benefits:
                                 <ul>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1324,7 +1326,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     turn insulates the earth from rise in
                                     temperature, reducing global warming.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1339,7 +1341,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     drawing out of groundwater, low yield bore
                                     well and springs can last indefinitely.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1355,7 +1357,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     water availability to support local
                                     ecosystems.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1368,7 +1370,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Seawater ingression can be checked in coast
                                     line.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1381,7 +1383,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     Reduces surface runoff and loss of top soil,
                                     thereby avoids silting of ponds and lakes.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1396,7 +1398,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     the earth’s strata, which otherwise would
                                     have been wasted.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,
@@ -1409,7 +1411,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                                     All materials used are Eco-friendly and
                                     recyclable.
                                   </li>
-                                  <li>
+                                  <li style={{display: 'flex', flexDirection: 'spacebetween' }}>
                                     <img
                                       style={{
                                         height: 25,

@@ -262,7 +262,7 @@ img.moblogo {
   -o-box-shadow: 0 0 6px #c9d1de;
 }
 
-.footer-three i {
+.footer-three i{
   font-size: 24px;
   text-align: center;
   margin: 10px 6px 20px 10px;
@@ -305,9 +305,9 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-  mso-margin-top-alt: 0px;
+  /* mso-margin-top-alt: 0px;
   mso-margin-bottom-alt: 0px;
-  mso-padding-alt: 0px 0px 0px 0px;
+  mso-padding-alt: 0px 0px 0px 0px; */
   background: white;
   font-family: "Visby Round CF Heavy";
 }
@@ -1166,9 +1166,6 @@ p {
   }
   .gr3 img {
     max-width: 100%;
-  }
-  .rnyfltrs {
-    /* left: 60% !important; */
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right !important;
