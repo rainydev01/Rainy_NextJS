@@ -116,8 +116,9 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                     <p className="contacttxt">
                       <h6 className="contacth">Marketing office</h6>
                       Farmland Rainwater Harvesting Systems
-                      <br></br> No 648, Ground Floor,
-                      <br></br> 11th cross, 7th Block, Jaya Nagar,<br></br>
+                      <br></br> No. 260, Aishwarya,
+                      <br></br> 27th cross, Banashankari 2nd Stage,<br></br>
+                      (Opposite to BNM Institute of Technology)<br />
                       Bengaluru, Karnataka - 560070.
                     </p>
 

@@ -17,10 +17,11 @@ const Footer = () => {
                 <p>
                   Farmland Rainwater Harvesting System
                   <br></br>
-                  No 648, Ground Floor,
+                  No. 260, Aishwarya,
                   <br></br>
-                  11th cross, 7th Block, Jaya Nagar,
-                  <br></br>Bengaluru, Karnataka - 560070.
+                  27th cross, Banashankari 2nd Stage,
+                  <br></br>(Opposite to BNM Institute of Technology)
+                  <br />Bengaluru, Karnataka - 560070.
                 </p>
               </div>
             </div>
