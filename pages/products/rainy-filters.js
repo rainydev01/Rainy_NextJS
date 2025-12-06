@@ -430,7 +430,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                         </tr>
                         <tr>
                           <td className="borderRight">Inlet size</td>
-                          <td>90 MM</td>
+                          <td>110 MM</td>
                         </tr>
                         <tr>
                           <td className="borderRight">
