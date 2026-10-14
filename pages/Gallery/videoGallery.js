@@ -1,44 +1,11 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Slider1 from "../../components/SliderNews1";
-import Slider2 from "../../components/SliderNews2";
-import Slider3 from "../../components/SliderNews3";
-import ImageSlider from "../../components/ImageSlider";
-import ImageSlider1 from "../../components/ImageSliderMulti";
-
-import ImageSliderArticles from "../../components/ImageSliderForArticles";
+import ReactPlayer from "react-player";
 
 export default function Home() {
-  const [currentArticle, setCurrentArticle] = useState(1);
-
-  const changeToArticle1 = () => {
-    setCurrentArticle(1);
-  };
-
-  const changeToArticle2 = () => {
-    setCurrentArticle(2);
-  };
-  const changeToArticle3 = () => {
-    setCurrentArticle(3);
-  };
-
-  let newsArticle = <Slider1 article2={changeToArticle2} />;
-
-  if (currentArticle === 1) {
-    newsArticle = <Slider1 article2={changeToArticle2} />;
-  }
-  if (currentArticle === 2) {
-    newsArticle = (
-      <Slider2 article1={changeToArticle1} article3={changeToArticle3} />
-    );
-  }
-  if (currentArticle === 3) {
-    newsArticle = <Slider3 article2={changeToArticle2} />;
-  }
-
   return (
     <Fragment>
       <Head>
@@ -58,17 +25,17 @@ export default function Home() {
           }}
         />
         <title>
-          Articles and Media Coverage talking about Rainy Filters | Rainwater
-          Filters
+          {" "}
+          Check our video gallery | rooftop rainwater harvesting system |
+          groundwater recharge
         </title>
         <meta
           name="description"
-          content="Articles and Media Coverage talking about Rainy Filters | Rainwater Filters
-Learn more about the latest news and updates on Rainy Filters by reading our articles and media coverage! Stay updated on the newest tips and information on how to use our products to efficiently [...]
+          content="Access our comprehensive range of product information brochures for our innovative rainwater harvesting and groundwater recharge solutions. Download our 'Rainy' product catalogu[...]
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/about-us/in-the-media"
+          href="https://www.rainyfilters.com/contact-us/videoGallery"
         />
         <link
           rel="stylesheet"
@@ -80,9 +47,16 @@ Learn more about the latest news and updates on Rainy Filters by reading our art
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+          crossOrigin="anonymous"
+        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -100,6 +74,7 @@ Learn more about the latest news and updates on Rainy Filters by reading our art
             },
           }}
         />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -125,7 +100,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       </Head>
       <main>
         <div className="videoGallery">
-          <Header />{" "}
+          <Header /> {" "}
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
               <img src="../static/images/galleryNew/VideoGallery.png" alt="VideoGallery" />
@@ -186,7 +161,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
 
       <a className="whatsapp-img" 
-  href="https://wa.me/919741505566"
+  href="https://wa.me/919996664458"
   target="_blank"
   rel="noopener noreferrer"
 >
