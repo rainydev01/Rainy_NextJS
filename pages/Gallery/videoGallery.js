@@ -1,11 +1,44 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import ReactPlayer from "react-player";
+import Slider1 from "../../components/SliderNews1";
+import Slider2 from "../../components/SliderNews2";
+import Slider3 from "../../components/SliderNews3";
+import ImageSlider from "../../components/ImageSlider";
+import ImageSlider1 from "../../components/ImageSliderMulti";
+
+import ImageSliderArticles from "../../components/ImageSliderForArticles";
 
 export default function Home() {
+  const [currentArticle, setCurrentArticle] = useState(1);
+
+  const changeToArticle1 = () => {
+    setCurrentArticle(1);
+  };
+
+  const changeToArticle2 = () => {
+    setCurrentArticle(2);
+  };
+  const changeToArticle3 = () => {
+    setCurrentArticle(3);
+  };
+
+  let newsArticle = <Slider1 article2={changeToArticle2} />;
+
+  if (currentArticle === 1) {
+    newsArticle = <Slider1 article2={changeToArticle2} />;
+  }
+  if (currentArticle === 2) {
+    newsArticle = (
+      <Slider2 article1={changeToArticle1} article3={changeToArticle3} />
+    );
+  }
+  if (currentArticle === 3) {
+    newsArticle = <Slider3 article2={changeToArticle2} />;
+  }
+
   return (
     <Fragment>
       <Head>
@@ -17,25 +50,25 @@ export default function Home() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-														  window.dataLayer = window.dataLayer || [];
-  														  function gtag(){dataLayer.push(arguments);}
-  														  gtag('js', new Date());
-															gtag('config', 'UA-168445645-1');
+                                                          window.dataLayer = window.dataLayer || [];
+                                                           function gtag(){dataLayer.push(arguments);}
+                                                           gtag('js', new Date());
+                                                          gtag('config', 'UA-168445645-1');
         `,
           }}
         />
         <title>
-          {" "}
-          Check our video gallery | rooftop rainwater harvesting system |
-          groundwater recharge
+          Articles and Media Coverage talking about Rainy Filters | Rainwater
+          Filters
         </title>
         <meta
           name="description"
-          content="Access our comprehensive range of product information brochures for our innovative rainwater harvesting and groundwater recharge solutions. Download our 'Rainy' product catalogue, instructions manual, and detailed installation guide for 'Rainy' filters. Also, explore our case studies on groundwater recharging and learn about the impact of our solutions. Start your download now and discover how we can help you save water and protect the environment."
+          content="Articles and Media Coverage talking about Rainy Filters | Rainwater Filters
+Learn more about the latest news and updates on Rainy Filters by reading our articles and media coverage! Stay updated on the newest tips and information on how to use our products to efficiently [...]
         />
         <link
           rel="canonical"
-          href="https://www.rainyfilters.com/contact-us/videoGallery"
+          href="https://www.rainyfilters.com/about-us/in-the-media"
         />
         <link
           rel="stylesheet"
@@ -47,16 +80,9 @@ export default function Home() {
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-        <link
-          rel="stylesheet"
-          href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-          crossOrigin="anonymous"
-        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -74,7 +100,6 @@ export default function Home() {
             },
           }}
         />
-
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -161,7 +186,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
 
       <a className="whatsapp-img" 
-  href="https://wa.me/919996664458"
+  href="https://wa.me/919741505566"
   target="_blank"
   rel="noopener noreferrer"
 >

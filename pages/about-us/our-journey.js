@@ -15,10 +15,10 @@ export default function Home() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-														  window.dataLayer = window.dataLayer || [];
-  														  function gtag(){dataLayer.push(arguments);}
-  														  gtag('js', new Date());
-															gtag('config', 'UA-168445645-1');
+                                                          window.dataLayer = window.dataLayer || [];
+                                                           function gtag(){dataLayer.push(arguments);}
+                                                           gtag('js', new Date());
+                                                          gtag('config', 'UA-168445645-1');
         `,
           }}
         />
@@ -53,7 +53,7 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="Rainyfilters is the leading rain water harvesting filter for home and commercial buildings in India. We have a wide range of rain water harvesting system products that are designed to meet the needs of our customers. Our products are easy to install and maintain, and are available at a competitive price."
+          content="Rainyfilters is the leading rain water harvesting filter for home and commercial buildings in India. We have a wide range of rain water harvesting system products that are desig[...]
         />
         <link
           rel="stylesheet"
@@ -432,78 +432,3 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
               </ul>
             </div>
           </div>
-          <div className="container-fluid rainyresearchnm">
-            <div className="container">
-              <ul className="timeline">
-                <li>
-                  <div className="timeline-badge danger">
-                    <i className="glyphicon glyphicon-credit-card" />
-                  </div>
-                  <div className="timeline-badge right-drop">
-                    <i className="glyphicon glyphicon-tint">
-                      <span>2022</span>
-                    </i>
-                  </div>
-                  <div className="timeline-panel">
-                    <img src="../../static/images/ourJourney/2022.png" alt="groundwater recharging can be achieved by" />
-                    <div className="body-timmain">
-                      <div className="timeline-heading">
-                        <h4 className="timeline-title">
-                          Segmented Concrete Rings Launched{" "}
-                        </h4>
-                      </div>
-                      <div className="timeline-body">
-                        <p>
-                          Innovative segmented concrete rings were introduced to
-                          replace the conventional concrete rings. Segmented
-                          rings created a revolution in the construction
-                          industry by enabling ease of transport and handling. A
-                          production plant was set up featuring high –tech
-                          machinery for significantly improving quality while
-                          ensuring high production speed.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="container-fluid" style={{ paddingBottom: "60px" }}>
-            <div className="container">
-              <ul className="timeline">
-                <li className="timeline-inverted">
-                  <div className="timeline-panel right-imghis">
-                    <div className="ourjourneycontinue">
-                      <div className="timeline-heading">
-                        <h4 className="timeline-title">
-                          Our Journey Continues...
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <Footer />
-        </div>
-      </main>
-
-
-      <div className="hero-image">
-
-      <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
-
-      <a className="whatsapp-img" 
-  href="https://wa.me/919996664458"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img src="../static/images/homepage/whatsapp.png" alt="whatsapp"/>
-</a>
-</div>
-      <footer />
-    </Fragment>
-  );
-}
