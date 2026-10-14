@@ -1452,7 +1452,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
 
 
       <a className="whatsapp-img" 
-  href="https://wa.me/919996664458"
+  href="https://wa.me/919741505566"
   target="_blank"
   rel="noopener noreferrer"
 >

@@ -31,15 +31,15 @@ const Footer = () => {
                 <p>
                   <a
                     target="_blank"
-                    href="https://api.whatsapp.com/send?phone=+917338033790&text=%20Hello, I wanted to purchase Rainy Filter"
+                    href="https://api.whatsapp.com/send?phone=+919741505566&text=%20Hello, I wanted to purchase Rainy Filter"
                   >
                     <i className="fa fa-whatsapp" aria-hidden="true" />
                   </a>
                   <a
                     target="_blank"
-                    href="https://api.whatsapp.com/send?phone=+917338033790&text=%20Hello, I wanted to purchase Rainy Filter"
+                    href="https://api.whatsapp.com/send?phone=+919741505566&text=%20Hello, I wanted to purchase Rainy Filter"
                   >
-                    +91 73380 33790
+                    +91 97415 05566
                   </a>
                 </p>
                 {/* <p>

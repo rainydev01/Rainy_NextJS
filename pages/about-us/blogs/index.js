@@ -60,10 +60,10 @@ export default function Blogs() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-                                                          window.dataLayer = window.dataLayer || [];
-                                                           function gtag(){dataLayer.push(arguments);}
-                                                           gtag('js', new Date());
-                                                          gtag('config', 'UA-168445645-1');
+														  window.dataLayer = window.dataLayer || [];
+  														  function gtag(){dataLayer.push(arguments);}
+  														  gtag('js', new Date());
+															gtag('config', 'UA-168445645-1');
         `,
           }}
         />
@@ -73,7 +73,7 @@ export default function Blogs() {
         </title>
         <meta
           name="description"
-          content="Get all the information you need to know about rain water harvesting and how it can benefit you. We have a wide range of articles discussing the advantages and disadvantages of [...]
+          content="Get all the information you need to know about rain water harvesting and how it can benefit you. We have a wide range of articles discussing the advantages and disadvantages of rain water harvesting, as well as tips on how to get started. Check us out today to see how rain water harvesting can change your life."
         />
         <link
           rel="canonical"
@@ -169,7 +169,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
 
       <a className="whatsapp-img" 
-  href="https://wa.me/919996664458"
+  href="https://wa.me/919741505566"
   target="_blank"
   rel="noopener noreferrer"
 >

@@ -17,10 +17,10 @@ export default function Home() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-                                                          window.dataLayer = window.dataLayer || [];
-                                                           function gtag(){dataLayer.push(arguments);}
-                                                           gtag('js', new Date());
-                                                          gtag('config', 'UA-168445645-1');
+														  window.dataLayer = window.dataLayer || [];
+  														  function gtag(){dataLayer.push(arguments);}
+  														  gtag('js', new Date());
+															gtag('config', 'UA-168445645-1');
         `,
           }}
         />
@@ -31,7 +31,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Access our comprehensive range of product information brochures for our innovative rainwater harvesting and groundwater recharge solutions. Download our 'Rainy' product catalogu[...]
+          content="Access our comprehensive range of product information brochures for our innovative rainwater harvesting and groundwater recharge solutions. Download our 'Rainy' product catalogue, instructions manual, and detailed installation guide for 'Rainy' filters. Also, explore our case studies on groundwater recharging and learn about the impact of our solutions. Start your download now and discover how we can help you save water and protect the environment."
         />
         <link
           rel="canonical"
@@ -100,7 +100,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       </Head>
       <main>
         <div className="videoGallery">
-          <Header /> {" "}
+          <Header />{" "}
           <div className="container-fluid banner enternal">
             <div className="hero-image enthroimg">
               <img src="../static/images/galleryNew/VideoGallery.png" alt="VideoGallery" />
@@ -161,7 +161,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
 
       <a className="whatsapp-img" 
-  href="https://wa.me/919996664458"
+  href="https://wa.me/919741505566"
   target="_blank"
   rel="noopener noreferrer"
 >

@@ -141,7 +141,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
                       Contact
                     </h6>
 
-                    <p className="contacttxt">WhatsApp - 7338033790</p>
+                    <p className="contacttxt">WhatsApp - 9741505566</p>
                     <p className="contacttxt">Contact No.- 7338033790</p>
                     <p className="contacttxt">Contact No.- 08026766252</p>
                     <p className="contacttxt">Contact No.- 09996664458</p>
@@ -177,7 +177,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
 
       <a className="whatsapp-img" 
-  href="https://wa.me/919996664458"
+  href="https://wa.me/919741505566"
   target="_blank"
   rel="noopener noreferrer"
 >

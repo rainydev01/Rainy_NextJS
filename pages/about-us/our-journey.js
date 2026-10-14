@@ -15,10 +15,10 @@ export default function Home() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-                                                          window.dataLayer = window.dataLayer || [];
-                                                           function gtag(){dataLayer.push(arguments);}
-                                                           gtag('js', new Date());
-                                                          gtag('config', 'UA-168445645-1');
+														  window.dataLayer = window.dataLayer || [];
+  														  function gtag(){dataLayer.push(arguments);}
+  														  gtag('js', new Date());
+															gtag('config', 'UA-168445645-1');
         `,
           }}
         />
@@ -53,7 +53,7 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="Rainyfilters is the leading rain water harvesting filter for home and commercial buildings in India. We have a wide range of rain water harvesting system products that are desig[...]
+          content="Rainyfilters is the leading rain water harvesting filter for home and commercial buildings in India. We have a wide range of rain water harvesting system products that are designed to meet the needs of our customers. Our products are easy to install and maintain, and are available at a competitive price."
         />
         <link
           rel="stylesheet"
@@ -496,7 +496,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
       <a href={`tel: ${+919996664458}`} target='_blank' className='phone-img'><img src='../static/images/phone.png' alt='phone' /></a>
 
       <a className="whatsapp-img" 
-  href="https://wa.me/919996664458"
+  href="https://wa.me/919741505566"
   target="_blank"
   rel="noopener noreferrer"
 >
