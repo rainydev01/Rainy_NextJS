@@ -26,11 +26,11 @@ export default function Home() {
         />
 
         <title>
-          Join Our Team | Exciting Career Opportunities at Rainyfilters{" "}
+          Join Our Team | Exciting Career Opportunities at Rainyfilters
         </title>
         <meta
           name="description"
-          content="Explore career opportunities at Rainyfilters and become part of our mission to provide innovative solutions for rainwater harvesting and groundwater recharge. We offer a range o[...]
+          content="Explore career opportunities at Rainyfilters and become part of our mission to provide innovative solutions for rainwater harvesting and groundwater recharge. We offer a range of challenging roles for talented professionals looking to make a positive impact on the environment. Join us today and help shape a more sustainable future!"
         />
         <link
           rel="canonical"
@@ -98,7 +98,7 @@ src="https://www.facebook.com/tr?id=342523378416057&ev=PageView&noscript=1"
               <img src="../../static/images/career/careerPageBanner.png" alt="career at rainy" />
             </div>
           </div>
-          <h2 class="whtdowdo">CAREERS AT RAINY</h2>
+          <h2 className="whtdowdo">CAREERS AT RAINY</h2>
           <div
             className="container-fluid groundwater_bg team"
             style={{ marginBottom: "-50px" }}
