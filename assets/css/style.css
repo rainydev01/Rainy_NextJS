@@ -2392,3 +2392,12 @@ p {
         height: 30px;
     }
 }
+/* Fix: keep the floating call button from covering the WhatsApp button */
+.hero-image .phone-img { bottom: calc(2% + 58px) !important; }
+.hero-image .phone-img img { transform: none !important; }
+@media only screen and (max-width: 768px) {
+    .hero-image .phone-img { bottom: calc(2% + 48px) !important; }
+}
+@media only screen and (max-width: 375px) {
+    .hero-image .phone-img { bottom: calc(2% + 42px) !important; }
+}
